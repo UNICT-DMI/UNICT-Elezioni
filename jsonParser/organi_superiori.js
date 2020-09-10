@@ -1,7 +1,31 @@
-var pdf2table = require('pdf2table');
-var fs = require('fs');
+const pdf2table = require('pdf2table');
+const fs = require('fs');
 
-var info = {
+const schede = {
+    BIANCHE: 'Schede Bianche',
+    NULLE: 'Schede Nulle',
+    CONTESTATE: 'Schede Contestate'
+}
+
+const candidati = {
+    ELETTO: "Eletto",
+    LISTE: "LISTE"
+}
+
+const seggi = {
+    DA_ASSEGNARE: 'numero seggi da assegnare',
+    SCRUTINATI: 'TOTALE'
+}
+
+const elettori = {
+    TUTTI: 'TOTALE ELETTORI AVENTI DIRITTO',
+    VOTANTI: 'VOTANTI'
+}
+
+const query = "IN SENO";
+
+
+let info = {
     "schede": { "Schede Bianche": 0, "Schede Nulle": 0, "Schede Contestate": 0 },
     "votanti": 0,
     "elettori": 0,
@@ -9,7 +33,7 @@ var info = {
     "liste": [], "eletti": []
 };
 
-var fileName = "consiglio";
+let fileName = "nucleo";
 fs.readFile('document/' + fileName + ".pdf", function (err, buffer) {
     if (err) return console.log(err);
 
@@ -19,42 +43,46 @@ fs.readFile('document/' + fileName + ".pdf", function (err, buffer) {
         //Parsing
 
         rows.forEach(element => {
-            if (element[2] == "Eletto") {
+            if (element[2] == candidati.ELETTO) {
+
                 eletto = {
                     "COGNOME e Nome": element[0],
                     "voti": element[1]
                 }
+
                 info["eletti"].push(eletto);
             }
-            if (element[0] == "Schede Bianche")
-                info["schede"]["Schede Bianche"] = element[1];
-            else if (element[0] == "Schede Nulle")
-                info["schede"]["Schede Nulle"] = element[1];
-            else if (element[0] == "Schede Contestate")
-                info["schede"]["Schede Contestate"] = element[1];
-            else if (element[1] == "numero seggi da assegnare")
+
+            switch (element[0]) {
+                case schede.BIANCHE:
+                case schede.NULLE:
+                case schede.CONTESTATE:
+                    info["schede"][element[0]] = element[1];
+                    break;
+                case elettori.TUTTI:
+                    info["elettori"] = element[1];
+                    break;
+                case elettori.VOTANTI:
+                    info["votanti"] = element[1];
+                    break;
+            }
+            if (element[1] == seggi.DA_ASSEGNARE)
                 info["seggi da assegnare"] = element[2];
-            else if (element[0] == "TOTALE ELETTORI AVENTI DIRITTO")
-                info["elettori"] = element[1];
-            else if (element[0] == "VOTANTI")
-                info["votanti"] = element[1];
+
 
         })
 
         for (let i = 0; i < rows.length; i++) {
-            if (rows[i][0].includes("IN SENO")) {
-                info["organo"] = rows[i][0];
-            }
-            if (rows[i][0].includes("LISTE")) {
-                i++;
-                while (!rows[i][0].includes("TOTALE") && !rows[i][0].includes("Schede")) {
-                    info["liste"].push(rows[i][0]);
-                    i++;
 
-                }
+            if (rows[i][0].includes(query))
+                info["organo"] = rows[i][0];
+
+
+            if (rows[i][0].includes(candidati.LISTE)) {
+                while (!rows[++i][0].includes(seggi.SCRUTINATI) && !rows[i][0].includes(schede.BIANCHE))
+                    info["liste"].push(rows[i][0]);
             }
         }
-
 
         //Output
         const data = JSON.stringify(info);
@@ -65,6 +93,4 @@ fs.readFile('document/' + fileName + ".pdf", function (err, buffer) {
             console.log("JSON data is saved.");
         });
     });
-
-
 });
