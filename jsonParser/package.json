@@ -2,7 +2,7 @@
   "name": "jsonparser_elezioni-unict",
   "version": "1.0.0",
   "description": "Parse data from pdf",
-  "main": "index.js",
+  "main": "parser.ts",
   "dependencies": {
     "pdf2json": "^1.2.0",
     "pdf2table": "^0.0.2",

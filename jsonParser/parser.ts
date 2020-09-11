@@ -1,13 +1,13 @@
-const pdf2table = require('pdf2table');
-import * as fs from 'fs';
 import { Info, Eletto, schede, elettori, seggi, query, candidati } from './parser.model';
+const pdf2table = require('pdf2table');
+const fs = require('fs');
 
 class Parser {
     private info: Info;
     private doc: Target;
     private fileName: string;
 
-    constructor(fileName: string, dip) {
+    constructor(fileName: string, dip: any) {
         this.fileName = fileName;
 
         this.info = {
@@ -28,7 +28,7 @@ class Parser {
 
     private write(): void {
         const data = JSON.stringify(this.info, null, 4);
-        fs.writeFile(this.fileName.replace('.pdf', '') + '.json', data, (errW) => {
+        fs.writeFile(this.fileName.replace('.pdf', '') + '.json', data, (errW: any) => {
 
             if (errW) {
                 throw errW;
@@ -39,20 +39,20 @@ class Parser {
     }
 
     public scrape(): void {
-        fs.readFile(this.fileName, (errR, buffer) => {
+        fs.readFile(this.fileName, (errR: any, buffer: any) => {
 
             if (errR) {
                 return console.log(errR);
             }
 
-            pdf2table.parse(buffer, (errP, data) => {
+            pdf2table.parse(buffer, (errP: any, data: any[]) => {
                 if (errP)
                     return console.log(errP);
 
                 this.doc.scrapeLists(this.info, data);
                 let idxList = -1;
 
-                data.forEach(el => {
+                data.forEach((el: any[]) => {
                     if (this.doc.checkEletto(el)) {
                         const eletto: Eletto = {
                             nominativo: el[0],
@@ -93,7 +93,7 @@ interface Target {
 }
 
 class Dipartimento implements Target {
-    public scrapeLists(info: Info, data: object[]): void {
+    public scrapeLists(info: Info, data: any[][]): void {
         for (let i = 0; i < data.length; i++) {
 
             if (data[i][0].includes(query.DIPARTIMENTO)) {
@@ -110,20 +110,20 @@ class Dipartimento implements Target {
         }
     }
 
-    public scrapeOther(info: Info, data: object): void {
+    public scrapeOther(info: Info, data: string[]): void {
         if (data[0] === seggi.DA_ASSEGNARE_DIP) {
             info.seggi_da_assegnare = data[1];
         }
     }
 
-    public checkEletto(data: object): boolean {
+    public checkEletto(data: string[]): boolean {
         return data[2] === candidati.ELETTO_DIP;
     }
 }
 
 class Organo implements Target {
 
-    public scrapeLists(info: Info, data: object[]): void {
+    public scrapeLists(info: Info, data: string[]): void {
         for (let i = 0; i < data.length; i++) {
 
             if (data[i][0].includes(query.ORGANI)) {
@@ -138,13 +138,13 @@ class Organo implements Target {
         }
     }
 
-    public scrapeOther(info: Info, data: object): void {
+    public scrapeOther(info: Info, data: string[]): void {
         if (data[1] === seggi.DA_ASSEGNARE_ORG) {
             info.seggi_da_assegnare = data[2];
         }
     }
 
-    public checkEletto(data: object): boolean {
+    public checkEletto(data: string[]): boolean {
         return data[2] === candidati.ELETTO_ORG;
     }
 }

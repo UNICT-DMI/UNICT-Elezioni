@@ -35,7 +35,7 @@ export interface Eletto {
 }
 
 export interface Info {
-  schede: object;
+  schede: any;
   liste: any[];
   eletti: Eletto[];
   elettori?: any;
