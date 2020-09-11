@@ -26,10 +26,7 @@ const query = "IN SENO";
 
 
 let info = {
-    "schede": { "Schede Bianche": 0, "Schede Nulle": 0, "Schede Contestate": 0 },
-    "votanti": 0,
-    "elettori": 0,
-    "seggi da assegnare": 0,
+    "schede": {},
     "liste": [], "eletti": []
 };
 
@@ -50,24 +47,24 @@ fs.readFile('document/' + fileName + ".pdf", function (err, buffer) {
                     "voti": element[1]
                 }
 
-                info["eletti"].push(eletto);
+                info.eletti.push(eletto);
             }
 
             switch (element[0]) {
                 case schede.BIANCHE:
                 case schede.NULLE:
                 case schede.CONTESTATE:
-                    info["schede"][element[0]] = element[1];
+                    info.schede[element[0]] = element[1];
                     break;
                 case elettori.TUTTI:
-                    info["elettori"] = element[1];
+                    info.elettori = element[1];
                     break;
                 case elettori.VOTANTI:
-                    info["votanti"] = element[1];
+                    info.votanti = element[1];
                     break;
             }
             if (element[1] == seggi.DA_ASSEGNARE)
-                info["seggi da assegnare"] = element[2];
+                info.seggi_da_assegnare = element[2];
 
 
         })
@@ -75,12 +72,12 @@ fs.readFile('document/' + fileName + ".pdf", function (err, buffer) {
         for (let i = 0; i < rows.length; i++) {
 
             if (rows[i][0].includes(query))
-                info["organo"] = rows[i][0];
+                info.organo = rows[i][0];
 
 
             if (rows[i][0].includes(candidati.LISTE)) {
                 while (!rows[++i][0].includes(seggi.SCRUTINATI) && !rows[i][0].includes(schede.BIANCHE))
-                    info["liste"].push(rows[i][0]);
+                    info.liste.push(rows[i][0]);
             }
         }
 
