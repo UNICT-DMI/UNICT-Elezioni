@@ -1,38 +1,9 @@
 const pdf2table = require('pdf2table');
-import * as fs from 'fs';
-
-const enum schede {
-    BIANCHE = 'Schede Bianche',
-    NULLE = 'Schede Nulle',
-    CONTESTATE = 'Schede Contestate'
-}
-
-const enum candidati {
-    ELETTO_DIP = 'ELETTO',
-    LISTE_DIP = 'L I S T E ',
-    ELETTO_ORG = 'Eletto',
-    LISTE_ORG = 'LISTE',
-    VOTI = 'TOTALE'
-}
-
-const enum seggi {
-    DA_ASSEGNARE_DIP = 'n. di seggi da assegnare',
-    DA_ASSEGNARE_ORG = 'numero seggi da assegnare',
-    SCRUTINATI = 'N° SEGGI SCRUTINATI SU '
-}
-
-const enum elettori {
-    TUTTI = 'TOTALE ELETTORI AVENTI DIRITTO',
-    VOTANTI = 'VOTANTI'
-}
-
-const enum query {
-    DIPARTIMENTO = 'DIPARTIMENTO',
-    ORGANI = 'IN SENO'
-}
+import *  fs from 'fs';
+import { Info, Eletto, schede, elettori, seggi, query, candidati } from './parser.model';
 
 class Parser {
-    private info: object;
+    private info: Info;
     private doc: Target;
     private fileName: string;
 
@@ -83,25 +54,25 @@ class Parser {
 
                 data.forEach(el => {
                     if (this.doc.checkEletto(el)) {
-                        const eletto = {
+                        const eletto: Eletto = {
                             nominativo: el[0],
                             voti: el[1],
-                            lista: this.info['liste'][idxList]
-                        }
-                        this.info['eletti'].push(eletto);
+                            lista: this.info.liste[idxList]
+                        };
+                        this.info.eletti.push(eletto);
                     }
 
                     switch (el[0]) {
                         case schede.BIANCHE:
                         case schede.NULLE:
                         case schede.CONTESTATE:
-                            this.info['schede'][el[0]] = el[1];
+                            this.info.schede[el[0]] = el[1];
                             break;
                         case elettori.TUTTI:
-                            this.info['elettori'] = el[1];
+                            this.info.elettori = el[1];
                             break;
                         case elettori.VOTANTI:
-                            this.info['votanti'] = el[1];
+                            this.info.votanti = el[1];
                             break;
                     }
 
@@ -116,32 +87,32 @@ class Parser {
 }
 
 interface Target {
-    scrapeLists(info: object, data: object): void;
-    scrapeOther(info: object, data: object): void;
+    scrapeLists(info: Info, data: object): void;
+    scrapeOther(info: Info, data: object): void;
     checkEletto(data: object): boolean;
 }
 
 class Dipartimento implements Target {
-    public scrapeLists(info: object, data: object[]): void {
+    public scrapeLists(info: Info, data: object[]): void {
         for (let i = 0; i < data.length; i++) {
 
             if (data[i][0].includes(query.DIPARTIMENTO)) {
-                info['dipartimento'] = data[++i][0];
+                info.dipartimento = data[++i][0];
             }
 
             if (data[i][0].includes(candidati.LISTE_DIP)) {
                 i = i + 2;
                 while (!data[i][0].includes(candidati.VOTI) && !data[i][0].includes(schede.BIANCHE)) {
-                    info['liste'].push(data[i][0]);
+                    info.liste.push(data[i][0]);
                     i++;
                 }
             }
         }
     }
 
-    public scrapeOther(info: object, data: object): void {
+    public scrapeOther(info: Info, data: object): void {
         if (data[0] === seggi.DA_ASSEGNARE_DIP) {
-            info['seggi_da_assegnare'] = data[1];
+            info.seggi_da_assegnare = data[1];
         }
     }
 
@@ -152,23 +123,24 @@ class Dipartimento implements Target {
 
 class Organo implements Target {
 
-    public scrapeLists(info: object, data: object[]): void {
+    public scrapeLists(info: Info, data: object[]): void {
         for (let i = 0; i < data.length; i++) {
 
             if (data[i][0].includes(query.ORGANI)) {
-                info['organo'] = data[i][0];
+                info.organo = data[i][0];
             }
 
             if (data[i][0].includes(candidati.LISTE_ORG)) {
-                while (!data[++i][0].includes(candidati.VOTI) && !data[i][0].includes(schede.BIANCHE))
-                    info['liste'].push(data[i][0]);
+                while (!data[++i][0].includes(candidati.VOTI) && !data[i][0].includes(schede.BIANCHE)) {
+                    info.liste.push(data[i][0]);
+                }
             }
         }
     }
 
-    public scrapeOther(info: object, data: object): void {
+    public scrapeOther(info: Info, data: object): void {
         if (data[1] === seggi.DA_ASSEGNARE_ORG) {
-            info['seggi_da_assegnare'] = data[2];
+            info.seggi_da_assegnare = data[2];
         }
     }
 
