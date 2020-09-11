@@ -8,13 +8,13 @@ const schede = {
 }
 
 const candidati = {
-    ELETTO: "Eletto",
-    LISTE: "LISTE"
+    ELETTO: 'Eletto',
+    LISTE: 'LISTE'
 }
 
 const seggi = {
     DA_ASSEGNARE: 'numero seggi da assegnare',
-    SCRUTINATI: 'TOTALE'
+    SCRUTINATI: 'N° SEGGI SCRUTINATI SU '
 }
 
 const elettori = {
@@ -22,29 +22,44 @@ const elettori = {
     VOTANTI: 'VOTANTI'
 }
 
-const query = "IN SENO";
+const query = 'IN SENO';
 
 
-let info = {
-    "schede": {},
-    "liste": [], "eletti": []
+const info = {
+    schede: {},
+    liste: [], eletti: []
 };
 
-let fileName = "nucleo";
-fs.readFile('document/' + fileName + ".pdf", function (err, buffer) {
-    if (err) return console.log(err);
+let fileName = process.argv.slice(2);
 
-    pdf2table.parse(buffer, function (err, rows, rowsdebug) {
-        if (err) return console.log(err);
+fs.readFile('document/' + fileName + '.pdf', function (errR, buffer) {
 
+    if (errR)
+        return console.log(errR);
+
+    pdf2table.parse(buffer, function (errP, rows, rowsdebug) {
+        if (errP) return console.log(errP);
         //Parsing
+        for (let i = 0; i < rows.length; i++) {
+
+            if (rows[i][0].includes(query))
+                info.organo = rows[i][0];
+
+            if (rows[i][0].includes(candidati.LISTE)) {
+                while (!rows[++i][0].includes(candidati.VOTI) && !rows[i][0].includes(schede.BIANCHE))
+                    info.liste.push(rows[i][0]);
+            }
+        }
+
+        let idxList = -1;
 
         rows.forEach(element => {
             if (element[2] == candidati.ELETTO) {
 
-                eletto = {
-                    "COGNOME e Nome": element[0],
-                    "voti": element[1]
+                const eletto = {
+                    nominativo: element[0],
+                    voti: element[1],
+                    lista: info.liste[idxList]
                 }
 
                 info.eletti.push(eletto);
@@ -63,31 +78,21 @@ fs.readFile('document/' + fileName + ".pdf", function (err, buffer) {
                     info.votanti = element[1];
                     break;
             }
-            if (element[1] == seggi.DA_ASSEGNARE)
-                info.seggi_da_assegnare = element[2];
+            if (element[0].includes(seggi.SCRUTINATI))
+                idxList++;
 
+            if (element[1] === seggi.DA_ASSEGNARE)
+                info.seggi_da_assegnare = element[2];
 
         })
 
-        for (let i = 0; i < rows.length; i++) {
-
-            if (rows[i][0].includes(query))
-                info.organo = rows[i][0];
-
-
-            if (rows[i][0].includes(candidati.LISTE)) {
-                while (!rows[++i][0].includes(seggi.SCRUTINATI) && !rows[i][0].includes(schede.BIANCHE))
-                    info.liste.push(rows[i][0]);
-            }
-        }
-
         //Output
         const data = JSON.stringify(info);
-        fs.writeFile("json/" + fileName + ".json", data, (err) => {
-            if (err) {
-                throw err;
+        fs.writeFile('json/' + fileName + '.json', data, (errW) => {
+            if (errW) {
+                throw errW;
             }
-            console.log("JSON data is saved.");
+            console.log('JSON data is saved.');
         });
     });
 });

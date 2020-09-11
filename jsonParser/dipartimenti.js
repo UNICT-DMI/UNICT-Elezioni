@@ -8,14 +8,14 @@ const schede = {
 }
 
 const candidati = {
-    ELETTO: "ELETTO",
-    LISTE: "L I S T E ",
+    ELETTO: 'ELETTO',
+    LISTE: 'L I S T E ',
     VOTI: 'TOTALE'
 }
 
 const seggi = {
     DA_ASSEGNARE: 'n. di seggi da assegnare',
-    SCRUTINATI: "N° SEGGI SCRUTINATI SU 1"
+    SCRUTINATI: 'N° SEGGI SCRUTINATI SU '
 }
 
 const elettori = {
@@ -23,22 +23,23 @@ const elettori = {
     VOTANTI: 'VOTANTI'
 }
 
-const query = "DIPARTIMENTO";
+const query = 'DIPARTIMENTO';
 
 
 const info = {
-    "schede": {},
-    "liste": [], "eletti": []
+    schede: {},
+    liste: [], eletti: []
 };
 
-let fileName = "informatica";
-fs.readFile('document/' + fileName + ".pdf", function (err, buffer) {
-    if (err) return console.log(err);
+let fileName = process.argv.slice(2);
 
-    pdf2table.parse(buffer, function (err, rows, rowsdebug) {
+fs.readFile('document/' + fileName + '.pdf', function (errR, buffer) {
+    if (errR) return console.log(errR);
 
-        if (err)
-            return console.log(err);
+    pdf2table.parse(buffer, function (errP, rows, rowsdebug) {
+
+        if (errP)
+            return console.log(errP);
 
         //Parsing
 
@@ -46,7 +47,6 @@ fs.readFile('document/' + fileName + ".pdf", function (err, buffer) {
 
             if (rows[i][0].includes(query))
                 info.dipartimento = rows[++i][0];
-
 
             if (rows[i][0].includes(candidati.LISTE)) {
                 i = i + 2;
@@ -86,22 +86,19 @@ fs.readFile('document/' + fileName + ".pdf", function (err, buffer) {
                 case seggi.DA_ASSEGNARE:
                     info.seggi_da_assegnare = element[1];
                     break;
-                case seggi.SCRUTINATI:
-                    idxList++;
-                    break;
             }
-
+            if (element[0].includes(seggi.SCRUTINATI))
+                idxList++;
 
         })
 
-
         //Output
         const data = JSON.stringify(info);
-        fs.writeFile("json/" + fileName + ".json", data, err => {
-            if (err) {
+        fs.writeFile('json/' + fileName + '.json', data, errW => {
+            if (errW) {
                 throw err;
             }
-            console.log("JSON data is saved.");
+            console.log('JSON data is saved.');
         });
     });
 });
