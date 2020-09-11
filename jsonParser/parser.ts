@@ -1,5 +1,5 @@
 const pdf2table = require('pdf2table');
-import *  fs from 'fs';
+import * as fs from 'fs';
 import { Info, Eletto, schede, elettori, seggi, query, candidati } from './parser.model';
 
 class Parser {
@@ -27,8 +27,8 @@ class Parser {
     }
 
     private write(): void {
-        const data = JSON.stringify(this.info);
-        fs.writeFile('json/' + this.fileName + '.json', data, (errW) => {
+        const data = JSON.stringify(this.info, null, 4);
+        fs.writeFile(this.fileName.replace('.pdf', '') + '.json', data, (errW) => {
 
             if (errW) {
                 throw errW;
@@ -39,7 +39,7 @@ class Parser {
     }
 
     public scrape(): void {
-        fs.readFile('document/' + this.fileName + '.pdf', (errR, buffer) => {
+        fs.readFile(this.fileName, (errR, buffer) => {
 
             if (errR) {
                 return console.log(errR);
