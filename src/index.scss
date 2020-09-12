@@ -1,19 +1,18 @@
-// // Bootstrap
-// @import "~bootswatch/dist/cerulean/variables";
-// @import "~bootstrap/scss/bootstrap";
-// @import "~bootstrap/scss/bootstrap-grid";
-// @import "~bootstrap/scss/variables";
-// @import "~bootstrap/scss/mixins/breakpoints";
-// @import "~bootswatch/dist/cerulean/bootswatch";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;1,100;1,200&display=swap');
 
+* {
+  box-sizing: border-box;
+}
+
 body {
-  margin: 0;
+  // margin: 0;
   display: flex;
   justify-content: center;
+  align-items: center;
   font-family: 'Poppins', 'Segoe UI';
   min-height: 100vh;
   background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);;
+  // margin: 1rem;
 }
 
 a {

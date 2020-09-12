@@ -1,0 +1,15 @@
+.container-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    max-width: 400px;
+    padding: 2rem;
+    box-shadow: 0 0 10px 2px rgba($color: #000000, $alpha: 0.1);
+    flex-direction: column;
+    border-radius: 1rem;
+}
+
+h1,h2,h3 {
+    margin: 2px;
+}
