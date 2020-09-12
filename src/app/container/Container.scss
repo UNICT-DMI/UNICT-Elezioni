@@ -1,15 +1,31 @@
-.container-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: white;
-    max-width: 400px;
-    padding: 2rem;
-    box-shadow: 0 0 10px 2px rgba($color: #000000, $alpha: 0.1);
-    flex-direction: column;
-    border-radius: 1rem;
-}
-
 h1,h2,h3 {
     margin: 2px;
 }
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+li button {
+    border: none;
+    padding: 1rem 0.5rem;
+    margin: 1rem 0.5rem;
+    cursor: pointer;
+    background-color: #378fb8;
+    box-shadow: 0 0 10px 5px rgba($color: #000000, $alpha: 0.1);
+    border-radius: 0.3rem;
+    color: white;
+    text-shadow: 0 0 2px rgba($color: #000000, $alpha: 0.25);
+}
+
+button:focus {
+    outline: none;
+}
+
