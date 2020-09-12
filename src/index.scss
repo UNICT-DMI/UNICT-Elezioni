@@ -31,6 +31,7 @@ a {
   box-shadow: 0 0 10px 2px rgba($color: #000000, $alpha: 0.1);
   flex-direction: column;
   border-radius: 1rem;
+  color: black;
 }
 
 .navbar {
@@ -43,4 +44,5 @@ a {
   box-shadow: 0 0 10px 2px rgba($color: #000000, $alpha: 0.05);
   border-radius: 2rem;
   margin: 1rem 0;
+  font-size: 1.5rem;
 }
