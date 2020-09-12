@@ -1,0 +1,21 @@
+.navbar {
+    display: flex;
+    background-color: #FFF;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    box-shadow: 0 0 10px 5px rgba($color: #000000, $alpha: 0.05);
+}
+
+.navbar-el {
+    margin: 0 0.5rem;
+}
+
+.navbar-brand {
+    position: absolute;
+    left: 10px;
+}
