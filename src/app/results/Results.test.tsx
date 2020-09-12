@@ -1,9 +1,9 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import Navbar from './Navbar';
+import Results from './Results';
 
-describe('Navbar', () => {
+describe('Results', () => {
   test('renders learn react link', () => {
-    render(<Navbar />);
+    render(<Results />);
   });  
 });
