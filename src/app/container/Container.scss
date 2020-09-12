@@ -38,3 +38,9 @@ button:hover {
 button:focus {
     outline: none;
 }
+
+.title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

@@ -12,33 +12,27 @@ class Container extends React.Component<{}, Input> {
     super(props);
     this.state = { selected: undefined };
     this.Buttons = this.Buttons.bind(this);
-    this.Data = this.Data.bind(this);
     this.Dipartimento = this.Dipartimento.bind(this);
     this.Organi = this.Organi.bind(this);
   }
 
   public Buttons() {
-    return (
-      <ul>
-        <li><button onClick={() => {
-          this.setState({ selected: 'dipartimenti' });
-        }}> Dipartimento & CdL</button></li>
-        <li><button onClick={() => {
-          this.setState({ selected: 'organi' });
-          console.log(this.state);
-        }}>Organi superiori</button></li>
-      </ul >);
-
-  }
-
-  public Data() {
     switch (this.state.selected) {
       case 'dipartimenti':
         return <this.Dipartimento />;
       case 'organi':
         return <this.Organi />;
       default:
-        return null;
+        return (
+          <ul>
+            <li><button onClick={() => {
+              this.setState({ selected: 'dipartimenti' });
+            }}> Dipartimento & CdL</button></li>
+            <li><button onClick={() => {
+              this.setState({ selected: 'organi' });
+              console.log(this.state);
+            }}>Organi superiori</button></li>
+          </ul >);
     }
   }
 
@@ -47,12 +41,23 @@ class Container extends React.Component<{}, Input> {
       <ul>
         <li><button>Dipartimenti</button></li>
         <li><button>CdL</button></li>
+        <li><button onClick={() => {
+          this.setState({ selected: undefined });
+        }}>Back</button></li>
       </ul>
     );
   }
 
   public Organi() {
-    return (<h3>Organi</h3>);
+    return (
+      <div className="title">
+        <h3>Organi Superiori</h3>
+        <ul><li><button onClick={
+          () => {
+            this.setState({ selected: undefined });
+          }
+        }>Back</button></li>
+        </ul></div>);
   }
 
   public render() {
@@ -60,7 +65,6 @@ class Container extends React.Component<{}, Input> {
       <div className="container-body">
         <h3><FontAwesomeIcon icon={faDemocrat} /> Risultati elezioni </h3>
         <this.Buttons />
-        <this.Data />
       </div >
     );
   }
