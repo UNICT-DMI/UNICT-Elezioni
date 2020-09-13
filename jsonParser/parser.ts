@@ -42,20 +42,17 @@ class Parser {
         });
     }
 
-    private searchPerc(el: any[]): any {
-        return el.findIndex(
-            (e) => {
-                return e.includes(elettori.PERC);
-            }
-        );
+    private searchPerc(el: any[]): number {
+        return el.findIndex(e => e.includes(elettori.PERC));
     }
 
     private extractPerc(el: any[]) {
 
         const idxPerc = this.searchPerc(el);
 
-        if (idxPerc != -1)
+        if (idxPerc != -1) {
             this.info.perc_votanti = el[idxPerc + 1];
+        }
     }
 
     private extractPeople(el: any[], idx: any, eletto: boolean): void {
@@ -69,9 +66,7 @@ class Parser {
 
         if (eletto) {
             this.info.eletti.push(candidato);
-        }
-
-        else {
+        } else {
             this.info.non_eletti.push(candidato);
         }
 
@@ -103,19 +98,15 @@ class Parser {
         this.newList = false;
     }
 
-    private searchListRef(data: any[]): any {
-        return data.findIndex(
-            (e) => {
-                return this.checkEndList(e);
-            }
-        );
+    private searchListRef(data: any[]): number {
+        return data.findIndex(e => this.checkEndList(e));
     }
 
     private isMatch(el: string, idx: any): boolean {
         return el.includes(this.info.liste[idx].nome);
     }
 
-    private extractSchede(el: any[]) {
+    private extractSchede(el: any[]): void {
         switch (el[0]) {
             case schede.BIANCHE:
             case schede.NULLE:
@@ -131,7 +122,7 @@ class Parser {
         }
     }
 
-    private extractQuoziente(el: any[]) {
+    private extractQuoziente(el: any[]): void {
         if (el[0].includes(elettori.QUOZIENTE)) {
             this.info.quoziente = el[1];
         }
@@ -150,7 +141,6 @@ class Parser {
                     return console.log(errP);
                 }
 
-                // console.log(data); //test
                 this.doc.scrapeLists(this.info, data);
 
                 let idxList = -1;
