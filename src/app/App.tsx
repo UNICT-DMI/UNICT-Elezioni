@@ -3,7 +3,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link, Redirect
+  Redirect,
 } from "react-router-dom";
 import './App.scss';
 import Navbar from './navbar/Navbar';
@@ -17,6 +17,9 @@ const App: FunctionComponent = () => {
         <Switch>
           <Route path="/home">
             <Home />
+          </Route>
+          <Route path="/results">
+            <Results />
           </Route>
           <Route path="/page">
             <AnotherPage />

@@ -19,11 +19,19 @@ const Navbar: FunctionComponent = () => {
                 <Link className="nav-link" to="/home">Home</Link>
               </li>
               <li className="nav-item">
+                <Link className="nav-link" to="/results">Results</Link>
+              </li>
+              <li className="nav-item">
                 <Link className="nav-link" to="/page">Other Page</Link>
               </li>
             </ul>
             <div className="navbar-nav mr-auto"></div>
-            <FontAwesomeIcon icon={faGithub} />
+            <a href="https://github.com/UNICT-DMI/UNICT-elezioni" target="_blank">
+              <span className="text-white">GitHub</span>
+              <button className="btn-empty">
+                <FontAwesomeIcon icon={faGithub} />
+              </button>
+            </a>
           </div>
         </div>
       </nav>
