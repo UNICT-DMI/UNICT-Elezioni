@@ -48,20 +48,17 @@ class Parser {
             pdf2table.parse(buffer, (errP: any, data: any[]) => {
                 if (errP)
                     return console.log(errP);
-
                 this.doc.scrapeLists(this.info, data);
                 let idxList = -1;
-
                 data.forEach((el: any[]) => {
                     if (this.doc.checkEletto(el)) {
                         const eletto: Eletto = {
                             nominativo: el[0],
                             voti: el[1],
-                            lista: this.info.liste[idxList]
+                            lista: this.info.liste[idxList].nome
                         };
                         this.info.eletti.push(eletto);
                     }
-
                     switch (el[0]) {
                         case schede.BIANCHE:
                         case schede.NULLE:
@@ -88,14 +85,13 @@ class Parser {
 
 interface Target {
     scrapeLists(info: Info, data: object): void;
-    scrapeOther(info: Info, data: object): void;
     checkEletto(data: object): boolean;
 }
 
 class Dipartimento implements Target {
     public scrapeLists(info: Info, data: any[][]): void {
+        info.seggi_da_assegnare = data[1][1];
         for (let i = 0; i < data.length; i++) {
-
             if (data[i][0].includes(query.DIPARTIMENTO)) {
                 info.dipartimento = data[++i][0];
             }
@@ -103,16 +99,27 @@ class Dipartimento implements Target {
             if (data[i][0].includes(candidati.LISTE_DIP)) {
                 i = i + 2;
                 while (!data[i][0].includes(candidati.VOTI) && !data[i][0].includes(schede.BIANCHE)) {
-                    info.liste.push(data[i][0]);
+
+                    //count the number of total characters of each string
+                    const tot = data[i].reduce((acc, pilot) => acc + pilot.length, 0);
+
+                    const tmp = {
+                        nome: data[i][0],
+                        voti_totali: 0
+                    }
+
+                    if (tot < 43) {
+                        tmp.voti_totali = parseInt(data[i][1]);
+                    }
+                    else {
+                        tmp.voti_totali = parseInt(data[i][2]);
+                    }
+
+                    // console.log(data[i] + " " + " leng: " + tot + " " + " voti: " + tmp.voti_totali); //test
+                    info.liste.push(tmp);
                     i++;
                 }
             }
-        }
-    }
-
-    public scrapeOther(info: Info, data: string[]): void {
-        if (data[0] === seggi.DA_ASSEGNARE_DIP) {
-            info.seggi_da_assegnare = data[1];
         }
     }
 
@@ -123,8 +130,9 @@ class Dipartimento implements Target {
 
 class Organo implements Target {
 
-    public scrapeLists(info: Info, data: string[]): void {
+    public scrapeLists(info: Info, data: any[]): void {
         for (let i = 0; i < data.length; i++) {
+            info.seggi_da_assegnare = data[1][2];
 
             if (data[i][0].includes(query.ORGANI)) {
                 info.organo = data[i][0];
@@ -132,15 +140,25 @@ class Organo implements Target {
 
             if (data[i][0].includes(candidati.LISTE_ORG)) {
                 while (!data[++i][0].includes(candidati.VOTI) && !data[i][0].includes(schede.BIANCHE)) {
-                    info.liste.push(data[i][0]);
+
+                    const tot = data[i].reduce((acc, pilot) => acc + pilot.length, 0);
+
+                    const tmp = {
+                        nome: data[i][0],
+                        voti_totali: 0
+                    }
+
+                    if (tot < 120) {
+                        tmp.voti_totali = parseInt(data[i][1]);
+                    }
+
+                    else {
+                        tmp.voti_totali = parseInt(data[i][3]);
+                    }
+
+                    info.liste.push(tmp);
                 }
             }
-        }
-    }
-
-    public scrapeOther(info: Info, data: string[]): void {
-        if (data[1] === seggi.DA_ASSEGNARE_ORG) {
-            info.seggi_da_assegnare = data[2];
         }
     }
 
