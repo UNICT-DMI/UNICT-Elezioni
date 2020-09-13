@@ -25,10 +25,10 @@ export const enum elettori {
 
 export const enum query {
   DIPARTIMENTO = 'DIPARTIMENTO',
-  ORGANI = 'IN SENO'
+  ORGANI = 'IN SENO',
 }
 
-export interface Eletto {
+export interface Candidato {
   nominativo: any;
   voti: any;
   lista: any;
@@ -37,7 +37,8 @@ export interface Eletto {
 export interface Info {
   schede: any;
   liste: any[];
-  eletti: Eletto[];
+  eletti: Candidato[];
+  non_eletti: Candidato[];
   elettori?: any;
   votanti?: any;
   dipartimento?: any;

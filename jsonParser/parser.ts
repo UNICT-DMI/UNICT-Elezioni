@@ -6,6 +6,7 @@ class Parser {
     private info: Info;
     private doc: Target;
     private fileName: string;
+    private newList: boolean;
 
     constructor(fileName: string, dip: any) {
         this.fileName = fileName;
@@ -16,6 +17,8 @@ class Parser {
             eletti: [],
             non_eletti: []
         }
+
+        this.newList = false;
 
         switch (dip) {
             case 0:
@@ -39,7 +42,7 @@ class Parser {
         });
     }
 
-    private extractPerc(el: any[]): any {
+    private searchPerc(el: any[]): any {
         return el.findIndex(
             (e) => {
                 return e.includes(elettori.PERC);
@@ -47,17 +50,69 @@ class Parser {
         );
     }
 
-    private extractEletti(el: any[], idx: any): void {
+    private extractPerc(el: any[]) {
 
-        // idxList is 0 when this condition is true
-        if (this.doc.checkEletto(el) && this.info.liste[idx]) {
-            const eletto: Candidato = {
-                nominativo: el[0],
-                voti: el[1],
-                lista: this.info.liste[idx].nome
-            };
-            this.info.eletti.push(eletto);
+        const idxPerc = this.searchPerc(el);
+
+        if (idxPerc != -1)
+            this.info.perc_votanti = el[idxPerc + 1];
+    }
+
+    private extractPeople(el: any[], idx: any, eletto: boolean): void {
+
+        // idxList is 0 the first time that this condition is true
+        const candidato: Candidato = {
+            nominativo: el[0],
+            voti: el[1],
+            lista: this.info.liste[idx].nome
+        };
+
+        if (eletto) {
+            this.info.eletti.push(candidato);
         }
+
+        else {
+            this.info.non_eletti.push(candidato);
+        }
+
+    }
+    private checkEndList(el: any[]): boolean {
+        return el[0].includes(seggi.SCRUTINATI);
+    }
+
+    private extractCandidati(data: any[], idx: any): void {
+
+        let idxB = this.searchListRef(data);
+
+        while (!this.isMatch(data[idxB][0], idx)) {
+            idxB++;
+        }
+
+        let candidato = idxB + 2;
+
+        while (!this.checkEndList(data[candidato])) {
+
+            if (this.doc.checkEletto(data[candidato])) {
+                this.extractPeople(data[candidato], idx, true);
+            }
+            else {
+                this.extractPeople(data[candidato], idx, false);
+            }
+            candidato++;
+        }
+        this.newList = false;
+    }
+
+    private searchListRef(data: any[]): any {
+        return data.findIndex(
+            (e) => {
+                return this.checkEndList(e);
+            }
+        );
+    }
+
+    private isMatch(el: string, idx: any): boolean {
+        return el.includes(this.info.liste[idx].nome);
     }
 
     private extractSchede(el: any[]) {
@@ -76,36 +131,44 @@ class Parser {
         }
     }
 
+    private extractQuoziente(el: any[]) {
+        if (el[0].includes(elettori.QUOZIENTE)) {
+            this.info.quoziente = el[1];
+        }
+    }
+
     public scrape(): void {
         fs.readFile(this.fileName, (errR: any, buffer: any) => {
+
             if (errR) {
                 return console.log(errR);
             }
 
             pdf2table.parse(buffer, (errP: any, data: any[]) => {
-                if (errP)
+
+                if (errP) {
                     return console.log(errP);
+                }
+
                 // console.log(data); //test
                 this.doc.scrapeLists(this.info, data);
+
                 let idxList = -1;
+
                 data.forEach((el: any[]) => {
-
-                    this.extractEletti(el, idxList);
-
-                    if (el[0].includes(elettori.QUOZIENTE)) {
-                        this.info.quoziente = el[1];
+                    if (this.checkEndList(el)) {
+                        idxList++;
+                        this.newList = true;
                     }
 
-                    const idxPerc = this.extractPerc(el);
-
-                    if (idxPerc != -1)
-                        this.info.perc_votanti = el[idxPerc + 1];
+                    if (this.info.liste[idxList] && this.newList) {
+                        this.extractCandidati(data, idxList)
+                    }
 
                     this.extractSchede(el);
+                    this.extractPerc(el);
+                    this.extractQuoziente(el);
 
-                    if (el[0].includes(seggi.SCRUTINATI)) {
-                        idxList++;
-                    }
                 });
                 this.write();
             });
@@ -146,6 +209,7 @@ class Dipartimento implements Target {
                     if (tot < 43) {
                         tmp.voti_totali = parseInt(data[i][1]);
                     }
+
                     else {
                         tmp.voti_totali = parseInt(data[i][2]);
                     }
