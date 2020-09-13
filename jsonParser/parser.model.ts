@@ -13,22 +13,22 @@ export const enum candidati {
 }
 
 export const enum seggi {
-  DA_ASSEGNARE_DIP = 'n. di seggi da assegnare',
-  DA_ASSEGNARE_ORG = 'numero seggi da assegnare',
   SCRUTINATI = 'N° SEGGI SCRUTINATI SU '
 }
 
 export const enum elettori {
   TUTTI = 'TOTALE ELETTORI AVENTI DIRITTO',
-  VOTANTI = 'VOTANTI'
+  VOTANTI = 'VOTANTI',
+  QUOZIENTE = 'QUOZIENTE',
+  PERC = '% VOTANTI'
 }
 
 export const enum query {
   DIPARTIMENTO = 'DIPARTIMENTO',
-  ORGANI = 'IN SENO'
+  ORGANI = 'IN SENO',
 }
 
-export interface Eletto {
+export interface Candidato {
   nominativo: any;
   voti: any;
   lista: any;
@@ -37,10 +37,13 @@ export interface Eletto {
 export interface Info {
   schede: any;
   liste: any[];
-  eletti: Eletto[];
+  eletti: Candidato[];
+  non_eletti: Candidato[];
   elettori?: any;
   votanti?: any;
   dipartimento?: any;
   seggi_da_assegnare?: any;
   organo?: any;
+  quoziente?: any;
+  perc_votanti?: any;
 }
