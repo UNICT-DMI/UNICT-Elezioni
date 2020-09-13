@@ -59,7 +59,7 @@ class Parser {
                 this.doc.scrapeLists(this.info, data);
                 let idxList = -1;
                 data.forEach((el: any[]) => {
-                    if (this.doc.checkEletto(el)) {
+                    if (this.doc.checkEletto(el) && this.info.liste[idxList]) {
                         const eletto: Eletto = {
                             nominativo: el[0],
                             voti: el[1],
@@ -108,7 +108,6 @@ interface Target {
 
 class Dipartimento implements Target {
     public scrapeLists(info: Info, data: any[][]): void {
-        console.log(data[10]);
         info.seggi_da_assegnare = data[1][1];
         for (let i = 0; i < data.length; i++) {
             if (data[i][0].includes(query.DIPARTIMENTO)) {
