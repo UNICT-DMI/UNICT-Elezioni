@@ -5,8 +5,6 @@ const dmi = require('../../data/2018-2020/dipartimenti/dfa.json');
 
 const Results: FunctionComponent = () => {
 
-  console.log(dmi.liste);
-
   function generateTableRows(data: any) {
 
     // init results
