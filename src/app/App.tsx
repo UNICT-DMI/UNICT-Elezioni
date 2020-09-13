@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import './App.scss';
 import Navbar from './navbar/Navbar';
+import Results from './results/Results';
 
 const App: FunctionComponent = () => {
   return (
