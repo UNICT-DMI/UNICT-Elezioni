@@ -2,6 +2,7 @@ import React, { FunctionComponent } from 'react';
 import './Navbar.scss';
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from 'react-router-dom';
 
 const Navbar: FunctionComponent = () => {
   return (
@@ -13,8 +14,16 @@ const Navbar: FunctionComponent = () => {
         </button>
 
         <div className="collapse navbar-collapse" id="navbarColor01">
+          <ul className="navbar-nav mr-auto">
+            <li className="nav-item">
+              <Link className="nav-link" to="/home">Home</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/page">Other Page</Link>
+            </li>
+          </ul>
           <div className="navbar-nav mr-auto"></div>
-            <FontAwesomeIcon icon={faGithub} />
+          <FontAwesomeIcon icon={faGithub} />
         </div>
       </nav>
     </div>
