@@ -100,8 +100,9 @@ class Dipartimento implements Target {
             if (data[i][0].includes(candidati.LISTE_DIP)) {
                 i = i + 2;
                 while (!data[i][0].includes(candidati.VOTI) && !data[i][0].includes(schede.BIANCHE)) {
+                    
                     //count the number of total characters of each string
-                    let tot = data[i].map(arr => arr.length).reduce((acc, pilot) => acc + pilot);
+                    const tot = data[i].map(arr => arr.length).reduce((acc, pilot) => acc + pilot);
 
                     const tmp = {
                         nome: data[i][0],
@@ -114,6 +115,7 @@ class Dipartimento implements Target {
                     else {
                         tmp.voti_totali = parseInt(data[i][2]);
                     }
+
                     // console.log(data[i] + " " + " leng: " + tot + " " + " voti: " + tmp.voti_totali); //test
                     info.liste.push(tmp);
                     i++;
@@ -144,17 +146,22 @@ class Organo implements Target {
 
             if (data[i][0].includes(candidati.LISTE_ORG)) {
                 while (!data[++i][0].includes(candidati.VOTI) && !data[i][0].includes(schede.BIANCHE)) {
-                    let tot = data[i].map(arr => arr.length).reduce((acc, pilot) => acc + pilot);
+                    
+                    const tot = data[i].map(arr => arr.length).reduce((acc, pilot) => acc + pilot);
+                    
                     const tmp = {
                         nome: data[i][0],
                         voti_totali: 0
                     }
+
                     if (tot < 120) {
                         tmp.voti_totali = parseInt(data[i][1]);
                     }
+
                     else {
                         tmp.voti_totali = parseInt(data[i][3]);
                     }
+
                     info.liste.push(tmp);
                 }
             }
