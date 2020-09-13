@@ -1,4 +1,4 @@
-import { Info, Eletto, schede, elettori, seggi, query, candidati } from './parser.model';
+import { Info, Candidato, schede, elettori, seggi, query, candidati } from './parser.model';
 const pdf2table = require('pdf2table');
 const fs = require('fs');
 
@@ -13,7 +13,8 @@ class Parser {
         this.info = {
             schede: {},
             liste: [],
-            eletti: []
+            eletti: [],
+            non_eletti: []
         }
 
         switch (dip) {
@@ -46,6 +47,35 @@ class Parser {
         );
     }
 
+    private extractEletti(el: any[], idx: any): void {
+
+        // idxList is 0 when this condition is true
+        if (this.doc.checkEletto(el) && this.info.liste[idx]) {
+            const eletto: Candidato = {
+                nominativo: el[0],
+                voti: el[1],
+                lista: this.info.liste[idx].nome
+            };
+            this.info.eletti.push(eletto);
+        }
+    }
+
+    private extractSchede(el: any[]) {
+        switch (el[0]) {
+            case schede.BIANCHE:
+            case schede.NULLE:
+            case schede.CONTESTATE:
+                this.info.schede[el[0]] = el[1];
+                break;
+            case elettori.TUTTI:
+                this.info.elettori = el[1];
+                break;
+            case elettori.VOTANTI:
+                this.info.votanti = el[1];
+                break;
+        }
+    }
+
     public scrape(): void {
         fs.readFile(this.fileName, (errR: any, buffer: any) => {
             if (errR) {
@@ -59,14 +89,8 @@ class Parser {
                 this.doc.scrapeLists(this.info, data);
                 let idxList = -1;
                 data.forEach((el: any[]) => {
-                    if (this.doc.checkEletto(el) && this.info.liste[idxList]) {
-                        const eletto: Eletto = {
-                            nominativo: el[0],
-                            voti: el[1],
-                            lista: this.info.liste[idxList].nome
-                        };
-                        this.info.eletti.push(eletto);
-                    }
+
+                    this.extractEletti(el, idxList);
 
                     if (el[0].includes(elettori.QUOZIENTE)) {
                         this.info.quoziente = el[1];
@@ -77,19 +101,7 @@ class Parser {
                     if (idxPerc != -1)
                         this.info.perc_votanti = el[idxPerc + 1];
 
-                    switch (el[0]) {
-                        case schede.BIANCHE:
-                        case schede.NULLE:
-                        case schede.CONTESTATE:
-                            this.info.schede[el[0]] = el[1];
-                            break;
-                        case elettori.TUTTI:
-                            this.info.elettori = el[1];
-                            break;
-                        case elettori.VOTANTI:
-                            this.info.votanti = el[1];
-                            break;
-                    }
+                    this.extractSchede(el);
 
                     if (el[0].includes(seggi.SCRUTINATI)) {
                         idxList++;
@@ -107,14 +119,17 @@ interface Target {
 }
 
 class Dipartimento implements Target {
+
+    public checkEletto(data: any[]): boolean {
+        return data[2] === candidati.ELETTO_DIP;
+    }
+
     public scrapeLists(info: Info, data: any[][]): void {
         info.seggi_da_assegnare = data[1][1];
         for (let i = 0; i < data.length; i++) {
             if (data[i][0].includes(query.DIPARTIMENTO)) {
                 info.dipartimento = data[++i][0];
             }
-
-
 
             if (data[i][0].includes(candidati.LISTE_DIP)) {
                 i = i + 2;
@@ -142,17 +157,19 @@ class Dipartimento implements Target {
             }
         }
     }
-
-    public checkEletto(data: string[]): boolean {
-        return data[2] === candidati.ELETTO_DIP;
-    }
 }
 
 class Organo implements Target {
 
+    public checkEletto(data: string[]): boolean {
+        return data[2] === candidati.ELETTO_ORG;
+    }
+
     public scrapeLists(info: Info, data: any[]): void {
         for (let i = 0; i < data.length; i++) {
+
             info.seggi_da_assegnare = data[1][2];
+
             if (data[i][0].includes(query.ORGANI)) {
                 info.organo = data[i][0];
             }
@@ -179,10 +196,6 @@ class Organo implements Target {
                 }
             }
         }
-    }
-
-    public checkEletto(data: string[]): boolean {
-        return data[2] === candidati.ELETTO_ORG;
     }
 }
 
