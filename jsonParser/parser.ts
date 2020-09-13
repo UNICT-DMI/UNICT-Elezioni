@@ -38,9 +38,16 @@ class Parser {
         });
     }
 
+    private extractPerc(el: any[]): any {
+        return el.findIndex(
+            (e) => {
+                return e.includes(elettori.PERC);
+            }
+        );
+    }
+
     public scrape(): void {
         fs.readFile(this.fileName, (errR: any, buffer: any) => {
-
             if (errR) {
                 return console.log(errR);
             }
@@ -48,6 +55,7 @@ class Parser {
             pdf2table.parse(buffer, (errP: any, data: any[]) => {
                 if (errP)
                     return console.log(errP);
+                // console.log(data); //test
                 this.doc.scrapeLists(this.info, data);
                 let idxList = -1;
                 data.forEach((el: any[]) => {
@@ -59,6 +67,16 @@ class Parser {
                         };
                         this.info.eletti.push(eletto);
                     }
+
+                    if (el[0].includes(elettori.QUOZIENTE)) {
+                        this.info.quoziente = el[1];
+                    }
+
+                    const idxPerc = this.extractPerc(el);
+
+                    if (idxPerc != -1)
+                        this.info.perc_votanti = el[idxPerc + 1];
+
                     switch (el[0]) {
                         case schede.BIANCHE:
                         case schede.NULLE:
@@ -90,11 +108,14 @@ interface Target {
 
 class Dipartimento implements Target {
     public scrapeLists(info: Info, data: any[][]): void {
+        console.log(data[10]);
         info.seggi_da_assegnare = data[1][1];
         for (let i = 0; i < data.length; i++) {
             if (data[i][0].includes(query.DIPARTIMENTO)) {
                 info.dipartimento = data[++i][0];
             }
+
+
 
             if (data[i][0].includes(candidati.LISTE_DIP)) {
                 i = i + 2;
@@ -133,7 +154,6 @@ class Organo implements Target {
     public scrapeLists(info: Info, data: any[]): void {
         for (let i = 0; i < data.length; i++) {
             info.seggi_da_assegnare = data[1][2];
-
             if (data[i][0].includes(query.ORGANI)) {
                 info.organo = data[i][0];
             }

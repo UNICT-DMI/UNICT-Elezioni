@@ -13,14 +13,14 @@ export const enum candidati {
 }
 
 export const enum seggi {
-  DA_ASSEGNARE_DIP = 'n. di seggi da assegnare',
-  DA_ASSEGNARE_ORG = 'numero seggi da assegnare',
   SCRUTINATI = 'N° SEGGI SCRUTINATI SU '
 }
 
 export const enum elettori {
   TUTTI = 'TOTALE ELETTORI AVENTI DIRITTO',
-  VOTANTI = 'VOTANTI'
+  VOTANTI = 'VOTANTI',
+  QUOZIENTE = 'QUOZIENTE',
+  PERC = '% VOTANTI'
 }
 
 export const enum query {
@@ -43,4 +43,6 @@ export interface Info {
   dipartimento?: any;
   seggi_da_assegnare?: any;
   organo?: any;
+  quoziente?: any;
+  perc_votanti?: any;
 }
