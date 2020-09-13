@@ -1,13 +1,14 @@
-import React, { FunctionComponent, useEffect } from 'react';
+import React, { FunctionComponent } from 'react';
 import './Results.scss';
-import { dmi } from './dmi';
+
+const dmi = require('../../data/2018-2020/dipartimenti/dmi.json');
 
 const Results: FunctionComponent = () => {
 
   const results: { [key: string]: any[] } = {}; // any -> eletti[]
 
   // init results
-  dmi.eletti.forEach(e => {
+  dmi.eletti.forEach((e: any) => {
     if (!results[e.lista]) {
       results[e.lista] = [];
     }

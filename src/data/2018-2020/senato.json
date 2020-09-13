@@ -1,0 +1,76 @@
+{
+    "schede": {
+        "Schede Bianche": "1271",
+        "Schede Nulle": "520",
+        "Schede Contestate": "6"
+    },
+    "liste": [
+        {
+            "nome": "UNIVERSITA' POPOLARE",
+            "voti_totali": 1103
+        },
+        {
+            "nome": "LIBERTAS",
+            "voti_totali": 1202
+        },
+        {
+            "nome": "ARCHE'",
+            "voti_totali": 1504
+        },
+        {
+            "nome": "LIBERTA' E' PARTECIPAZIONE",
+            "voti_totali": 791
+        },
+        {
+            "nome": "LA FINESTRA - ACTEA",
+            "voti_totali": 2352
+        },
+        {
+            "nome": "#STUDENTI",
+            "voti_totali": 2269
+        },
+        {
+            "nome": "ALLEANZA - AZIONE UNIVERSITARIA - CONTROCAMPUS",
+            "voti_totali": 2012
+        },
+        {
+            "nome": "WE LOVE UNICT - ARES",
+            "voti_totali": 1753
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "PRESTIANNI Ignazio",
+            "voti": "377",
+            "lista": "LIBERTAS"
+        },
+        {
+            "nominativo": "DI MAURO Sergio",
+            "voti": "437",
+            "lista": "ARCHE'"
+        },
+        {
+            "nominativo": "MOSCHETTO Antonino Andrea ‐ detto \"Antonio\"",
+            "voti": "744",
+            "lista": "LA FINESTRA - ACTEA"
+        },
+        {
+            "nominativo": "FAVA Giuseppe ‐ detto \"Peppe\"",
+            "voti": "656",
+            "lista": "#STUDENTI"
+        },
+        {
+            "nominativo": "SCALISI Federico",
+            "voti": "459",
+            "lista": "ALLEANZA - AZIONE UNIVERSITARIA - CONTROCAMPUS"
+        },
+        {
+            "nominativo": "VAZZANO Tommaso Alberto",
+            "voti": "763",
+            "lista": "WE LOVE UNICT - ARES"
+        }
+    ],
+    "organo": "ELEZIONI RAPPRESENTANTI STUDENTI IN SENO AL SENATO ACCADEMICO",
+    "votanti": "14783",
+    "elettori": "40024"
+}
