@@ -5,37 +5,36 @@ const dmi = require('../../data/2018-2020/dipartimenti/dmi.json');
 
 const Results: FunctionComponent = () => {
 
-  const results: { [key: string]: any[] } = {}; // any -> eletti[]
+  function generateTableRows(data: any) {
 
-  // init results
-  dmi.eletti.forEach((e: any) => {
-    if (!results[e.lista]) {
-      results[e.lista] = [];
+    // init results
+    const results: { [key: string]: any[] } = {}; // any -> eletti[]
+
+    data.liste.forEach((l: any) => results[l.nome] = []);
+    data.eletti.forEach((e: any) => results[e.lista].push(Object.assign(e, { eletto: true })));
+    data.non_eletti.forEach((e: any) => results[e.lista].push(Object.assign(e, { eletto: false })));
+
+    // get max rows count
+    const maxRows = Object.values(results).reduce((acc, prev) => acc < prev.length ? prev.length : acc, 0);
+
+    // generate tableRows
+    const tableRows = [];
+    for(let i = 0; i < maxRows; i++)  {
+      tableRows.push(
+        <tr key={i}>
+          {Object.keys(results).map(l =>
+            <td key={l + '-' + i}>
+              {(results[l] && results[l][i]) ? ([
+                `${results[l][i].nominativo} (${results[l][i].voti})`,
+                results[l][i].eletto ? (<img src="coccarda.png" width="16" height="30" className="float-right" />) : ''
+              ]) : ''}
+            </td>)
+          }
+        </tr>
+      )
     }
 
-    results[e.lista].push(e);
-  });
-
-  // get max rows count
-  let maxRows = 0;
-  for (const lista of Object.keys(results)) {
-    if (maxRows < results[lista].length) {
-      maxRows = results[lista].length;
-    }
-  }
-
-  // generate tableRows
-  const tableRows = [];
-  for(let i = 0; i < maxRows; i++)  {
-    tableRows.push(
-      <tr key={i}>
-        {Object.keys(results).map(l =>
-          <td key={l + '-' + i}>
-            {results[l] && results[l][i] && `${results[l][i].nominativo} (${results[l][i].voti})`}
-          </td>)
-        }
-      </tr>
-    )
+    return tableRows;
   }
 
   return (
@@ -50,16 +49,16 @@ const Results: FunctionComponent = () => {
                 <table className="liste mt-4 table table-bordered table-striped">
                   <thead>
                     <tr>
-                      { Object.keys(results).map(l =>
+                      { dmi.liste.map((l: any) =>
                       <th key={l}>
-                        <img src={`loghi/${l}.jpg`} width="80" height="80"></img>
+                        <img src={`loghi/${l.nome}.jpg`} width="80" height="80"></img>
                         <br/>
-                        {l}
+                        {l.nome}
                       </th>) }
                     </tr>
                   </thead>
                   <tbody>
-                      {tableRows}
+                      {generateTableRows(dmi)}
                   </tbody>
                 </table>
             </div>
