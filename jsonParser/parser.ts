@@ -7,6 +7,7 @@ class Parser {
     private doc: Target;
     private fileName: string;
     private newList: boolean;
+    private idxList: number;
 
     constructor(fileName: string, dip: any) {
         this.fileName = fileName;
@@ -17,6 +18,8 @@ class Parser {
             eletti: [],
             non_eletti: []
         }
+
+        this.idxList = -1;
 
         this.newList = false;
 
@@ -55,13 +58,13 @@ class Parser {
         }
     }
 
-    private extractPeople(el: any[], idx: any, eletto: boolean): void {
+    private extractPeople(el: any[], eletto: boolean): void {
 
         // idxList is 0 the first time that this condition is true
         const candidato: Candidato = {
             nominativo: el[0],
             voti: el[1],
-            lista: this.info.liste[idx].nome
+            lista: this.info.liste[this.idxList].nome
         };
 
         if (eletto) {
@@ -71,27 +74,27 @@ class Parser {
         }
 
     }
-    private checkEndList(el: any[]): boolean {
+    private isEndList(el: any[]): boolean {
         return el[0].includes(seggi.SCRUTINATI);
     }
 
-    private extractCandidati(data: any[], idx: any): void {
+    private extractCandidati(data: any[]): void {
 
         let idxB = this.searchListRef(data);
 
-        while (!this.isMatch(data[idxB][0], idx)) {
+        while (!this.isMatch(data[idxB][0])) {
             idxB++;
         }
 
         let candidato = idxB + 2;
 
-        while (!this.checkEndList(data[candidato])) {
+        while (!this.isEndList(data[candidato])) {
 
-            if (this.doc.checkEletto(data[candidato])) {
-                this.extractPeople(data[candidato], idx, true);
+            if (this.doc.isEletto(data[candidato])) {
+                this.extractPeople(data[candidato], true);
             }
             else {
-                this.extractPeople(data[candidato], idx, false);
+                this.extractPeople(data[candidato], false);
             }
             candidato++;
         }
@@ -99,11 +102,11 @@ class Parser {
     }
 
     private searchListRef(data: any[]): number {
-        return data.findIndex(e => this.checkEndList(e));
+        return data.findIndex(e => this.isEndList(e));
     }
 
-    private isMatch(el: string, idx: any): boolean {
-        return el.includes(this.info.liste[idx].nome);
+    private isMatch(el: string): boolean {
+        return el.includes(this.info.liste[this.idxList].nome);
     }
 
     private extractSchede(el: any[]): void {
@@ -143,16 +146,16 @@ class Parser {
 
                 this.doc.scrapeLists(this.info, data);
 
-                let idxList = -1;
-
                 data.forEach((el: any[]) => {
-                    if (this.checkEndList(el)) {
-                        idxList++;
+                    console.log(el);
+
+                    if (this.isEndList(el)) {
+                        this.idxList++;
                         this.newList = true;
                     }
 
-                    if (this.info.liste[idxList] && this.newList) {
-                        this.extractCandidati(data, idxList)
+                    if (this.info.liste[this.idxList] && this.newList) {
+                        this.extractCandidati(data)
                     }
 
                     this.extractSchede(el);
@@ -167,19 +170,22 @@ class Parser {
 }
 
 interface Target {
-    scrapeLists(info: Info, data: object): void;
-    checkEletto(data: object): boolean;
+    scrapeLists(info: Info, data: any[]): void;
+    isEletto(data: string[]): boolean;
 }
 
 class Dipartimento implements Target {
 
-    public checkEletto(data: any[]): boolean {
+    public isEletto(data: string[]): boolean {
         return data[2] === candidati.ELETTO_DIP;
     }
 
-    public scrapeLists(info: Info, data: any[][]): void {
+    public scrapeLists(info: Info, data: any[]): void {
+
         info.seggi_da_assegnare = data[1][1];
+
         for (let i = 0; i < data.length; i++) {
+
             if (data[i][0].includes(query.DIPARTIMENTO)) {
                 info.dipartimento = data[++i][0];
             }
@@ -215,14 +221,15 @@ class Dipartimento implements Target {
 
 class Organo implements Target {
 
-    public checkEletto(data: string[]): boolean {
+    public isEletto(data: string[]): boolean {
         return data[2] === candidati.ELETTO_ORG;
     }
 
     public scrapeLists(info: Info, data: any[]): void {
-        for (let i = 0; i < data.length; i++) {
 
-            info.seggi_da_assegnare = data[1][2];
+        info.seggi_da_assegnare = data[1][2];
+
+        for (let i = 0; i < data.length; i++) {
 
             if (data[i][0].includes(query.ORGANI)) {
                 info.organo = data[i][0];
