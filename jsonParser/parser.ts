@@ -171,7 +171,7 @@ interface Target {
 class Dipartimento implements Target {
 
     public isEletto(data: string[]): boolean {
-        return (data.findIndex(e => e === candidati.ELETTO_DIP) === -1) ? true : false;
+        return !!data.find(e => e === candidati.ELETTO_DIP);
     }
 
     public scrapeLists(info: Info, data: any[]): void {
@@ -216,7 +216,7 @@ class Dipartimento implements Target {
 class Organo implements Target {
 
     public isEletto(data: string[]): boolean {
-        return (data.findIndex(e => e === candidati.ELETTO_ORG) === -1) ? true : false;
+        return !!data.find(e => e === candidati.ELETTO_ORG);
     }
 
     public scrapeLists(info: Info, data: any[]): void {

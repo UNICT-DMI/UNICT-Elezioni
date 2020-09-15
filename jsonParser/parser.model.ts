@@ -6,7 +6,7 @@ export const enum schede {
 
 export const enum candidati {
   ELETTO_DIP = 'ELETTO',
-  ELETTO_COMP = 'ELETT',
+  ELETTO_COMP = 'ELETT', // needed for compatibility with old files
   LISTE_DIP = 'L I S T E ',
   ELETTO_ORG = 'Eletto',
   LISTE_ORG = 'LISTE',
