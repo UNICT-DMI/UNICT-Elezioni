@@ -67,11 +67,7 @@ class Parser {
             lista: this.info.liste[this.idxList].nome
         };
 
-        if (eletto) {
-            this.info.eletti.push(candidato);
-        } else {
-            this.info.non_eletti.push(candidato);
-        }
+        (eletto) ? this.info.eletti.push(candidato) : this.info.non_eletti.push(candidato)
 
     }
     private isEndList(el: any[]): boolean {
@@ -88,8 +84,7 @@ class Parser {
 
         let candidato = idxB + 2;
 
-        while (!this.isEndList(data[candidato])) {
-
+        while (!data[candidato][0].includes(query.END) && !this.isEndList(data[candidato])) {
             if (this.doc.isEletto(data[candidato])) {
                 this.extractPeople(data[candidato], true);
             }
@@ -147,7 +142,6 @@ class Parser {
                 this.doc.scrapeLists(this.info, data);
 
                 data.forEach((el: any[]) => {
-                    console.log(el);
 
                     if (this.isEndList(el)) {
                         this.idxList++;
@@ -177,7 +171,7 @@ interface Target {
 class Dipartimento implements Target {
 
     public isEletto(data: string[]): boolean {
-        return data[2] === candidati.ELETTO_DIP;
+        return (data.findIndex(e => e === candidati.ELETTO_DIP) === -1) ? true : false;
     }
 
     public scrapeLists(info: Info, data: any[]): void {
@@ -222,7 +216,7 @@ class Dipartimento implements Target {
 class Organo implements Target {
 
     public isEletto(data: string[]): boolean {
-        return data[2] === candidati.ELETTO_ORG;
+        return (data.findIndex(e => e === candidati.ELETTO_ORG) === -1) ? true : false;
     }
 
     public scrapeLists(info: Info, data: any[]): void {

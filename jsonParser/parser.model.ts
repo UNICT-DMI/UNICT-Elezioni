@@ -6,6 +6,7 @@ export const enum schede {
 
 export const enum candidati {
   ELETTO_DIP = 'ELETTO',
+  ELETTO_COMP = 'ELETT',
   LISTE_DIP = 'L I S T E ',
   ELETTO_ORG = 'Eletto',
   LISTE_ORG = 'LISTE',
@@ -26,6 +27,7 @@ export const enum elettori {
 export const enum query {
   DIPARTIMENTO = 'DIPARTIMENTO',
   ORGANI = 'IN SENO',
+  END = 'ELEZIONI'
 }
 
 export interface Candidato {
