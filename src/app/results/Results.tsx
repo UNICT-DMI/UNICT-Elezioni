@@ -26,7 +26,7 @@ const Results: FunctionComponent = () => {
             <td key={l + '-' + i}>
               {(results[l] && results[l][i]) ? ([
                 `${results[l][i].nominativo} (${results[l][i].voti})`,
-                results[l][i].eletto ? (<img src="coccarda.png" width="16" height="30" className="float-right" />) : ''
+                results[l][i].eletto ? (<img src="coccarda.png" alt="eletto" width="16" height="30" className="float-right" />) : ''
               ]) : ''}
             </td>)
           }
@@ -51,7 +51,7 @@ const Results: FunctionComponent = () => {
                     <tr>
                       { dmi.liste.map((l: any) =>
                       <th key={l}>
-                        <img src={`loghi/${l.nome}.jpg`} width="80" height="80"></img>
+                        <img src={`loghi/${l.nome}.jpg`} width="80" height="80" alt={l.nome}></img>
                         <br/>
                         {l.nome}
                       </th>) }
