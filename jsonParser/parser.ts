@@ -1,3 +1,5 @@
+import { Console } from 'console';
+import { transpileModule } from 'typescript';
 import { Info, Candidato, schede, elettori, seggi, query, candidati } from './parser.model';
 const pdf2table = require('pdf2table');
 const fs = require('fs');
@@ -59,11 +61,18 @@ class Parser {
     }
 
     private extractPeople(el: any[], eletto: boolean): void {
-
         // idxList is 0 the first time that this condition is true
+        let name = "";
+        let indexVoti = 0;
+        for(let i = 0; i<el.length; i++) {
+            if(!isNaN(parseInt(el[i]))) break;
+            name += (el[i] + " "); 
+            ++indexVoti;
+        }
+        name = name.trim();
         const candidato: Candidato = {
-            nominativo: el[0],
-            voti: el[1],
+            nominativo: name,
+            voti: el[indexVoti],
             lista: this.info.liste[this.idxList].nome
         };
 
@@ -101,7 +110,8 @@ class Parser {
     }
 
     private isMatch(el: string): boolean {
-        return el.includes(this.info.liste[this.idxList].nome);
+        let s1 = this.info.liste[this.idxList].nome.split(" ");
+        return el.includes(s1[0]);
     }
 
     private extractSchede(el: any[]): void {
@@ -178,6 +188,8 @@ class Dipartimento implements Target {
 
         info.seggi_da_assegnare = data[1][1];
 
+        let next = NaN;
+
         for (let i = 0; i < data.length; i++) {
 
             if (data[i][0].includes(query.DIPARTIMENTO)) {
@@ -188,23 +200,31 @@ class Dipartimento implements Target {
                 i = i + 2;
                 while (!data[i][0].includes(candidati.VOTI) && !data[i][0].includes(schede.BIANCHE)) {
 
-                    //count the number of total characters of each string
-                    const tot = data[i].reduce((acc, pilot) => acc + pilot.length, 0);
+                    let name = "";
+                    let k;
+                    for(k = 0; k<data[i].length; k++) {
+                        if(!isNaN(parseInt(data[i][k]))) break;
+                        name += (data[i][k] + " ");
+                    }
 
                     const tmp = {
-                        nome: data[i][0],
+                        nome: name.trim(),
                         voti_totali: 0
                     }
-
-                    if (tot < 43) {
-                        tmp.voti_totali = parseInt(data[i][1]);
+                    
+                    for(let j = k; j<data[i].length; j++) {
+                        tmp.voti_totali = parseInt(data[i][j]);
+                        if(!isNaN(tmp.voti_totali)) {
+                            if(isNaN(next) || next == tmp.voti_totali) {
+                                if(data[i][data[i].length-1] == data[i][j])
+                                    next = parseInt(data[i][data[i].length-2]);
+                                else
+                                    next = parseInt(data[i][data[i].length-1]);
+                                break;
+                            }
+                        }
                     }
 
-                    else {
-                        tmp.voti_totali = parseInt(data[i][2]);
-                    }
-
-                    // console.log(data[i] + " " + " leng: " + tot + " " + " voti: " + tmp.voti_totali); //test
                     info.liste.push(tmp);
                     i++;
                 }
