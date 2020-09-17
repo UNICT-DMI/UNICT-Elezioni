@@ -19,7 +19,8 @@ const App: FunctionComponent = () => {
             <Home />
           </Route>
           <Route path="/results">
-            <Results />
+            <Results anno="2018-2020" dipartimento="dmi" />
+            <Results anno="2016-2018" dipartimento="dmi" />
           </Route>
           <Route path="/page">
             <AnotherPage />

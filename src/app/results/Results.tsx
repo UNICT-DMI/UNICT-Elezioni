@@ -1,9 +1,14 @@
-import React, { FunctionComponent } from 'react';
+import React, { FunctionComponent, useEffect, useState, ReactNode } from 'react';
 import './Results.scss';
 
-const dmi = require('../../data/2018-2020/dipartimenti/dmi.json');
+interface Props {
+  anno?: string;
+  dipartimento?: string;
+}
 
-const Results: FunctionComponent = () => {
+const Results = (props: Props) => {
+  const dmi = require(`../../data/${props.anno}/dipartimenti/${props.dipartimento}.json`);
+  const [show, setShow] = useState(false);
 
   function generateTableRows(data: any) {
 
@@ -22,6 +27,7 @@ const Results: FunctionComponent = () => {
     for(let i = 0; i < maxRows; i++)  {
       tableRows.push(
         <tr key={i}>
+          <td></td>
           {Object.keys(results).map(l =>
             <td key={l + '-' + i}>
               {(results[l] && results[l][i]) ? ([
@@ -37,31 +43,36 @@ const Results: FunctionComponent = () => {
     return tableRows;
   }
 
+  function toggleBody(e: any) {
+    e.preventDefault();
+    setShow(!show);
+  }
+
+  useEffect(() => {}, [show]);
+
   return (
-    <div className="Results mt-5">
+    <div className="Results">
       <div className="container">
-        <h2>Risultati Elezioni Universitarie</h2>
 
         <div className="row">
           <div className="col-12">
-            <div className="mt-5">
-              <h2>Dipartimento: {dmi.dipartimento}</h2>
-                <table className="liste mt-4 table table-bordered table-striped">
-                  <thead>
-                    <tr>
-                      { dmi.liste.map((l: any) =>
-                      <th key={l}>
-                        <img src={`loghi/${l.nome}.jpg`} width="80" height="80" alt={l.nome}></img>
-                        <br/>
-                        {l.nome}
-                      </th>) }
-                    </tr>
-                  </thead>
-                  <tbody>
-                      {generateTableRows(dmi)}
-                  </tbody>
-                </table>
-            </div>
+            {/* <h2>Dipartimento: {dmi.dipartimento}</h2> */}
+            <table className="liste mt-4 table table-bordered table-striped">
+              <thead>
+                <tr onClick={toggleBody}>
+                  <th className="year">anno: {props.anno} </th>
+                  { dmi.liste.map((l: any) =>
+                  <th key={l}>
+                    <img src={`loghi/${l.nome}.jpg`} width="80" height="80" alt={l.nome}></img>
+                    <p></p>
+                    {l.nome} ({l.voti_totali})
+                  </th>) }
+                </tr>
+              </thead>
+              <tbody>
+                {show ? generateTableRows(dmi) : ''}
+              </tbody>
+            </table>
           </div>
         </div>
 

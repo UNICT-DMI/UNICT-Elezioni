@@ -14,11 +14,11 @@
             "voti_totali": 32
         },
         {
-            "nome": "UNIVERSITA' POPOLARE",
+            "nome": "UNIVERSITÀ POPOLARE",
             "voti_totali": 13
         },
         {
-            "nome": "DMI INSIDER",
+            "nome": "DMI INSIDER",
             "voti_totali": 189
         }
     ],
@@ -41,37 +41,37 @@
         {
             "nominativo": "CATANIA Valentina",
             "voti": "8",
-            "lista": "UNIVERSITA' POPOLARE"
+            "lista": "UNIVERSITÀ POPOLARE"
         },
         {
             "nominativo": "PECORAIO Pierpaolo",
             "voti": "16",
-            "lista": "DMI INSIDER"
+            "lista": "DMI INSIDER"
         },
         {
             "nominativo": "BORZI' Stefano",
             "voti": "64",
-            "lista": "DMI INSIDER"
+            "lista": "DMI INSIDER"
         },
         {
             "nominativo": "CATANIA Lorenzo",
             "voti": "31",
-            "lista": "DMI INSIDER"
+            "lista": "DMI INSIDER"
         },
         {
             "nominativo": "STECCANELLA Luca",
             "voti": "8",
-            "lista": "DMI INSIDER"
+            "lista": "DMI INSIDER"
         },
         {
             "nominativo": "SCIUTO Rita",
             "voti": "30",
-            "lista": "DMI INSIDER"
+            "lista": "DMI INSIDER"
         },
         {
             "nominativo": "MARINO Salvatore",
             "voti": "10",
-            "lista": "DMI INSIDER"
+            "lista": "DMI INSIDER"
         }
     ],
     "non_eletti": [
@@ -83,27 +83,27 @@
         {
             "nominativo": "CASTIGLIONE Gianpietro",
             "voti": "0",
-            "lista": "UNIVERSITA' POPOLARE"
+            "lista": "UNIVERSITÀ POPOLARE"
         },
         {
             "nominativo": "SCIACCA Susanna",
             "voti": "0",
-            "lista": "UNIVERSITA' POPOLARE"
+            "lista": "UNIVERSITÀ POPOLARE"
         },
         {
             "nominativo": "PIAZZA Alessio",
             "voti": "7",
-            "lista": "DMI INSIDER"
+            "lista": "DMI INSIDER"
         },
         {
             "nominativo": "DI PATTI Stefano",
             "voti": "0",
-            "lista": "DMI INSIDER"
+            "lista": "DMI INSIDER"
         },
         {
             "nominativo": "NASO ONOFRIO Giuseppe",
             "voti": "0",
-            "lista": "DMI INSIDER"
+            "lista": "DMI INSIDER"
         }
     ],
     "seggi_da_assegnare": "10",
