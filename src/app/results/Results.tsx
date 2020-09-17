@@ -1,7 +1,7 @@
 import React, { FunctionComponent } from 'react';
 import './Results.scss';
 
-const dmi = require('../../data/2018-2020/dipartimenti/dfa.json');
+const dmi = require('../../data/2018-2020/dipartimenti/dmi.json');
 
 const Results: FunctionComponent = () => {
 
@@ -15,12 +15,7 @@ const Results: FunctionComponent = () => {
     data.non_eletti.forEach((e: any) => results[e.lista].push(Object.assign(e, { eletto: false })));
 
     // get max rows count
-    let maxRows = 0;
-    for (const lista of Object.keys(results)) {
-      if (maxRows < results[lista].length) {
-        maxRows = results[lista].length;
-      }
-    }
+    const maxRows = Object.values(results).reduce((acc, prev) => acc < prev.length ? prev.length : acc, 0);
 
     // generate tableRows
     const tableRows = [];
