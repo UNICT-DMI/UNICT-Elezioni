@@ -1,0 +1,91 @@
+{
+    "schede": {
+        "Schede Bianche": "14",
+        "Schede Nulle": "12",
+        "Schede Contestate": "0"
+    },
+    "liste": [
+        {
+            "nome": "ARCHE'",
+            "voti_totali": 202
+        },
+        {
+            "nome": "SI! ‐ STUDENTI INDIPENDENTI",
+            "voti_totali": 44
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "voti_totali": 9
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "CONTRAFATTO Francesco",
+            "voti": "5",
+            "lista": "ARCHE'"
+        },
+        {
+            "nominativo": "INCOGNITO Paola",
+            "voti": "17",
+            "lista": "ARCHE'"
+        },
+        {
+            "nominativo": "LICCIARDELLO Cristina",
+            "voti": "82",
+            "lista": "ARCHE'"
+        },
+        {
+            "nominativo": "MACCARRONE Salvatore",
+            "voti": "45",
+            "lista": "ARCHE'"
+        },
+        {
+            "nominativo": "STRAZZERI Eleonora",
+            "voti": "6",
+            "lista": "ARCHE'"
+        },
+        {
+            "nominativo": "ALLEGRA Andrea",
+            "voti": "12",
+            "lista": "SI! ‐ STUDENTI INDIPENDENTI"
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "MANNINO Salvatore Thomas",
+            "voti": "0",
+            "lista": "ARCHE'"
+        },
+        {
+            "nominativo": "DI MARIA Paolo",
+            "voti": "10",
+            "lista": "SI! ‐ STUDENTI INDIPENDENTI"
+        },
+        {
+            "nominativo": "MOTTA Giuseppe",
+            "voti": "10",
+            "lista": "SI! ‐ STUDENTI INDIPENDENTI"
+        },
+        {
+            "nominativo": "PETRALIA Gianluca",
+            "voti": "6",
+            "lista": "SI! ‐ STUDENTI INDIPENDENTI"
+        },
+        {
+            "nominativo": "RUSSO Gaetano",
+            "voti": "2",
+            "lista": "SI! ‐ STUDENTI INDIPENDENTI"
+        },
+        {
+            "nominativo": "TENERELLI Simone",
+            "voti": "5",
+            "lista": "AZIONE UNIVERSITARIA"
+        }
+    ],
+    "seggi_da_assegnare": "6",
+    "dipartimento": "STRUTTURA DIDATTICA SPECIALE DI ARCHITETTURA",
+    "quoziente": "42,5",
+    "votanti": "281",
+    "perc_votanti": "40,96",
+    "elettori": "686"
+}

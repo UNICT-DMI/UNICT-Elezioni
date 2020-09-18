@@ -1,0 +1,306 @@
+{
+    "schede": {
+        "Schede Bianche": "65",
+        "Schede Nulle": "24",
+        "Schede Contestate": "0"
+    },
+    "liste": [
+        {
+            "nome": "CONTROCAMPUS",
+            "voti_totali": 35
+        },
+        {
+            "nome": "ACTEA",
+            "voti_totali": 2
+        },
+        {
+            "nome": "UNIVERSITÀ POPOLARE",
+            "voti_totali": 79
+        },
+        {
+            "nome": "IRIDE",
+            "voti_totali": 18
+        },
+        {
+            "nome": "STUDENTI PER SCIENZE DELLA FORMAZIONE",
+            "voti_totali": 6
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "voti_totali": 63
+        },
+        {
+            "nome": "LIBERTAS  ‐  LIBERI E FORTI",
+            "voti_totali": 4
+        },
+        {
+            "nome": "ARCADIA",
+            "voti_totali": 16
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "FALLICO VALENTINA",
+            "voti": "27",
+            "lista": "CONTROCAMPUS"
+        },
+        {
+            "nominativo": "D'URSO EPIFANIO DAMIANO",
+            "voti": "93",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "PELLEGRINO PRATTELLA ALBA",
+            "voti": "2",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "PENNISI EMANUELE",
+            "voti": "55",
+            "lista": "IRIDE"
+        },
+        {
+            "nominativo": "GARGANO DAVIDE",
+            "voti": "58",
+            "lista": "STUDENTI PER SCIENZE DELLA FORMAZIONE"
+        },
+        {
+            "nominativo": "GARGANO DAVIDE",
+            "voti": "58",
+            "lista": "AZIONE UNIVERSITARIA"
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "BREDA ALESSIA",
+            "voti": "0",
+            "lista": "CONTROCAMPUS"
+        },
+        {
+            "nominativo": "CALVANO LUDOVICA",
+            "voti": "3",
+            "lista": "CONTROCAMPUS"
+        },
+        {
+            "nominativo": "LIOTTA FEDERICA VERONICA MARIA",
+            "voti": "0",
+            "lista": "CONTROCAMPUS"
+        },
+        {
+            "nominativo": "MOSCATO MARZIA",
+            "voti": "0",
+            "lista": "CONTROCAMPUS"
+        },
+        {
+            "nominativo": "RAGNO SIMONA",
+            "voti": "0",
+            "lista": "CONTROCAMPUS"
+        },
+        {
+            "nominativo": "RUSSO GIOVANNA",
+            "voti": "3",
+            "lista": "CONTROCAMPUS"
+        },
+        {
+            "nominativo": "CORCIULO SILVIA",
+            "voti": "5",
+            "lista": "ACTEA"
+        },
+        {
+            "nominativo": "RAGUSA EVITA",
+            "voti": "0",
+            "lista": "ACTEA"
+        },
+        {
+            "nominativo": "BAZZANO FABIANA",
+            "voti": "13",
+            "lista": "ACTEA"
+        },
+        {
+            "nominativo": "SCURATTI SABRINA",
+            "voti": "1",
+            "lista": "ACTEA"
+        },
+        {
+            "nominativo": "PRIVITERA GIULIA",
+            "voti": "2",
+            "lista": "ACTEA"
+        },
+        {
+            "nominativo": "CANNATA NAOMI",
+            "voti": "0",
+            "lista": "ACTEA"
+        },
+        {
+            "nominativo": "DI BELLA MARIA CRISTINA",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "DE LUCA ROBERTA FRANCESCA",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "PALMA MICHELE ALBERTO",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "RENNA ERIKA",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "VELLA DEBORA",
+            "voti": "1",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "PROCOPIO GIUSEPPINA",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "BILLECI DEASY",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "SANFILIPPO GABRIELE",
+            "voti": "0",
+            "lista": "IRIDE"
+        },
+        {
+            "nominativo": "MAUGERI MARIAGRAZIA",
+            "voti": "8",
+            "lista": "IRIDE"
+        },
+        {
+            "nominativo": "FAIA CAROLA CARMELA",
+            "voti": "0",
+            "lista": "STUDENTI PER SCIENZE DELLA FORMAZIONE"
+        },
+        {
+            "nominativo": "FAZIO VITTORIA",
+            "voti": "0",
+            "lista": "STUDENTI PER SCIENZE DELLA FORMAZIONE"
+        },
+        {
+            "nominativo": "RAPISARDA LUCA FRANCESCO",
+            "voti": "5",
+            "lista": "STUDENTI PER SCIENZE DELLA FORMAZIONE"
+        },
+        {
+            "nominativo": "PATERNO' DI RADDUSA CAROLINA",
+            "voti": "1",
+            "lista": "STUDENTI PER SCIENZE DELLA FORMAZIONE"
+        },
+        {
+            "nominativo": "BELLA ELEONORA",
+            "voti": "0",
+            "lista": "STUDENTI PER SCIENZE DELLA FORMAZIONE"
+        },
+        {
+            "nominativo": "FAIA CAROLA CARMELA",
+            "voti": "0",
+            "lista": "AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "FAZIO VITTORIA",
+            "voti": "0",
+            "lista": "AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "RAPISARDA LUCA FRANCESCO",
+            "voti": "5",
+            "lista": "AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "PATERNO' DI RADDUSA CAROLINA",
+            "voti": "1",
+            "lista": "AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "BELLA ELEONORA",
+            "voti": "0",
+            "lista": "AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "LENTINI LIDIA",
+            "voti": "0",
+            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+        },
+        {
+            "nominativo": "LA FICO GIULIANA CONCETTA",
+            "voti": "12",
+            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+        },
+        {
+            "nominativo": "LOMBARDO FEDERICA FRANCESCA",
+            "voti": "1",
+            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+        },
+        {
+            "nominativo": "SCIUTO MICHELA",
+            "voti": "0",
+            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+        },
+        {
+            "nominativo": "LATINA ALESSANDRA",
+            "voti": "0",
+            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+        },
+        {
+            "nominativo": "BONOMO MARIA",
+            "voti": "8",
+            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+        },
+        {
+            "nominativo": "STATELLA ELENA MARIA CHIARA",
+            "voti": "0",
+            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+        },
+        {
+            "nominativo": "SCIUTO NAOMI",
+            "voti": "4",
+            "lista": "ARCADIA"
+        },
+        {
+            "nominativo": "LEONARDI ALESSIA",
+            "voti": "0",
+            "lista": "ARCADIA"
+        },
+        {
+            "nominativo": "CORSARO SERENA",
+            "voti": "0",
+            "lista": "ARCADIA"
+        },
+        {
+            "nominativo": "LEOTTA GHISLENA VERONICA ALFINA",
+            "voti": "18",
+            "lista": "ARCADIA"
+        },
+        {
+            "nominativo": "LA ROSA NOEMI",
+            "voti": "0",
+            "lista": "ARCADIA"
+        },
+        {
+            "nominativo": "PELLEGRINO GEORGIA",
+            "voti": "3",
+            "lista": "ARCADIA"
+        },
+        {
+            "nominativo": "CELANO GIULIA",
+            "voti": "2",
+            "lista": "ARCADIA"
+        }
+    ],
+    "seggi_da_assegnare": "9",
+    "dipartimento": "SCIENZE DELLA FORMAZIONE - DISFOR",
+    "quoziente": "71,1111",
+    "votanti": "729",
+    "perc_votanti": "20,80",
+    "elettori": "3505"
+}

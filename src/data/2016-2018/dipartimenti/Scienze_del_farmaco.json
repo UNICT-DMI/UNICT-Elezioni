@@ -1,0 +1,286 @@
+{
+    "schede": {
+        "Schede Bianche": "53",
+        "Schede Nulle": "20",
+        "Schede Contestate": "0"
+    },
+    "liste": [
+        {
+            "nome": "ACTEA",
+            "voti_totali": 68
+        },
+        {
+            "nome": "KOINÈ",
+            "voti_totali": 21
+        },
+        {
+            "nome": "UNIVERSITÀ POPOLARE",
+            "voti_totali": 76
+        },
+        {
+            "nome": "PROGETTO DEGLI UNIVERSITARI",
+            "voti_totali": 213
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "voti_totali": 105
+        },
+        {
+            "nome": "PHARMA",
+            "voti_totali": 3
+        },
+        {
+            "nome": "LIBERTAS  ‐  LIBERI E FORTI",
+            "voti_totali": 33
+        },
+        {
+            "nome": "ARCADIA",
+            "voti_totali": 30
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "TROPEA PAOLA",
+            "voti": "57",
+            "lista": "ACTEA"
+        },
+        {
+            "nominativo": "TROVATO SALVATORE GABRIELE",
+            "voti": "69",
+            "lista": "KOINÈ"
+        },
+        {
+            "nominativo": "RUSSO ADRIANA",
+            "voti": "30",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "MURATORE ALBERTO",
+            "voti": "43",
+            "lista": "AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "LA GENGA RICHARD",
+            "voti": "76",
+            "lista": "AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "CANNIZZO GAETANO",
+            "voti": "39",
+            "lista": "PHARMA"
+        },
+        {
+            "nominativo": "SPAMPINATO MANUELE ALFIO",
+            "voti": "81",
+            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+        },
+        {
+            "nominativo": "LA PORTA GIORGIO",
+            "voti": "19",
+            "lista": "ARCADIA"
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "GENNUSO GAETANO MARIA",
+            "voti": "0",
+            "lista": "ACTEA"
+        },
+        {
+            "nominativo": "D'ASSORO MARTINA",
+            "voti": "9",
+            "lista": "KOINÈ"
+        },
+        {
+            "nominativo": "FICHERA ANGELO",
+            "voti": "2",
+            "lista": "KOINÈ"
+        },
+        {
+            "nominativo": "BALISTRERI GABRIELE",
+            "voti": "0",
+            "lista": "KOINÈ"
+        },
+        {
+            "nominativo": "MONTES HILARY",
+            "voti": "16",
+            "lista": "KOINÈ"
+        },
+        {
+            "nominativo": "DI GRAZIA MARTINA",
+            "voti": "23",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "LUPO ANTONIO",
+            "voti": "2",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "ZAGUEZ KALED",
+            "voti": "1",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "CONDORELLI ALESSANDRO",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "PALERMO MARIO",
+            "voti": "5",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "ZAFARANA MARIELENA",
+            "voti": "5",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "CASTRUCCIO CASTRACANI CARLO",
+            "voti": "2",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "NINFA LUCIA",
+            "voti": "0",
+            "lista": "PROGETTO DEGLI UNIVERSITARI"
+        },
+        {
+            "nominativo": "AMOROSO ELENA",
+            "voti": "0",
+            "lista": "PROGETTO DEGLI UNIVERSITARI"
+        },
+        {
+            "nominativo": "LEOCATA CHIARA",
+            "voti": "0",
+            "lista": "PROGETTO DEGLI UNIVERSITARI"
+        },
+        {
+            "nominativo": "BASILE GIOVANNI MARIA",
+            "voti": "4",
+            "lista": "PROGETTO DEGLI UNIVERSITARI"
+        },
+        {
+            "nominativo": "GIARDINA ANTONINO",
+            "voti": "0",
+            "lista": "PROGETTO DEGLI UNIVERSITARI"
+        },
+        {
+            "nominativo": "DI FRANCO FEDERICA",
+            "voti": "0",
+            "lista": "PROGETTO DEGLI UNIVERSITARI"
+        },
+        {
+            "nominativo": "GIANGRASSO FEDERICA",
+            "voti": "7",
+            "lista": "PROGETTO DEGLI UNIVERSITARI"
+        },
+        {
+            "nominativo": "ANICITO MAURIZIO",
+            "voti": "7",
+            "lista": "AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "NUZZI CARMELO",
+            "voti": "0",
+            "lista": "AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "MIGLIORE NICOLA",
+            "voti": "0",
+            "lista": "AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "SGANDURRA FRANCESCA",
+            "voti": "10",
+            "lista": "PHARMA"
+        },
+        {
+            "nominativo": "GALATA' ANGELO",
+            "voti": "2",
+            "lista": "PHARMA"
+        },
+        {
+            "nominativo": "PETROSINO SALVATORE FABIO",
+            "voti": "0",
+            "lista": "PHARMA"
+        },
+        {
+            "nominativo": "GALVANO ANTONIO",
+            "voti": "14",
+            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+        },
+        {
+            "nominativo": "LODATO MATTEO",
+            "voti": "2",
+            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+        },
+        {
+            "nominativo": "INTILE ORNELLA",
+            "voti": "2",
+            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+        },
+        {
+            "nominativo": "BALLIRO' FRANCESCA",
+            "voti": "0",
+            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+        },
+        {
+            "nominativo": "CAPPELLO CHIARA",
+            "voti": "0",
+            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+        },
+        {
+            "nominativo": "CAUCHI MARCO",
+            "voti": "0",
+            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+        },
+        {
+            "nominativo": "RISTAGNO ANNA",
+            "voti": "0",
+            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+        },
+        {
+            "nominativo": "MAVILLA MIRCO MATTIA",
+            "voti": "3",
+            "lista": "ARCADIA"
+        },
+        {
+            "nominativo": "FLORESTA VITTORIA",
+            "voti": "0",
+            "lista": "ARCADIA"
+        },
+        {
+            "nominativo": "SAPIENZA TIZIANA",
+            "voti": "0",
+            "lista": "ARCADIA"
+        },
+        {
+            "nominativo": "ANFUSO MONICA",
+            "voti": "0",
+            "lista": "ARCADIA"
+        },
+        {
+            "nominativo": "SCIACCA CHIARA",
+            "voti": "0",
+            "lista": "ARCADIA"
+        },
+        {
+            "nominativo": "VECCHIO MARINA",
+            "voti": "13",
+            "lista": "ARCADIA"
+        },
+        {
+            "nominativo": "SANFILIPPO DORIANA STELLA",
+            "voti": "4",
+            "lista": "ARCADIA"
+        }
+    ],
+    "seggi_da_assegnare": "10",
+    "dipartimento": "SCIENZE DEL FARMACO - DSF",
+    "quoziente": "75,1",
+    "votanti": "824",
+    "perc_votanti": "35,00",
+    "elettori": "2354"
+}

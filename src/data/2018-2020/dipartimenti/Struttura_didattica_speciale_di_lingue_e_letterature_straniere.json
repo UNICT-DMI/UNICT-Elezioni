@@ -1,0 +1,109 @@
+{
+    "schede": {
+        "Schede Bianche": "6",
+        "Schede Nulle": "25",
+        "Schede Contestate": "0"
+    },
+    "liste": [
+        {
+            "nome": "CONTROCAMPUS",
+            "voti_totali": 80
+        },
+        {
+            "nome": "NUOVA IBLA",
+            "voti_totali": 36
+        },
+        {
+            "nome": "CREAZIONE GIOVANE",
+            "voti_totali": 16
+        },
+        {
+            "nome": "UNIVERSITA' POPOLARE",
+            "voti_totali": 2
+        },
+        {
+            "nome": "ARCADIA ‐ REVOLUTION",
+            "voti_totali": 114
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "NICOLOSI Andrea",
+            "voti": "61",
+            "lista": "CONTROCAMPUS"
+        },
+        {
+            "nominativo": "MUSUMECI Chiara",
+            "voti": "21",
+            "lista": "NUOVA IBLA"
+        },
+        {
+            "nominativo": "ASCIA Claudia",
+            "voti": "53",
+            "lista": "ARCADIA ‐ REVOLUTION"
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "FRAGALA' Giovanni",
+            "voti": "4",
+            "lista": "CONTROCAMPUS"
+        },
+        {
+            "nominativo": "PARISI Roberta Giuseppina Maria",
+            "voti": "6",
+            "lista": "CONTROCAMPUS"
+        },
+        {
+            "nominativo": "FALCONE Matteo Giuseppe",
+            "voti": "4",
+            "lista": "NUOVA IBLA"
+        },
+        {
+            "nominativo": "LIPSA Mihaela",
+            "voti": "10",
+            "lista": "NUOVA IBLA"
+        },
+        {
+            "nominativo": "SCRIBANO Ismael Giovanni",
+            "voti": "13",
+            "lista": "CREAZIONE GIOVANE"
+        },
+        {
+            "nominativo": "MAUGERI Monica",
+            "voti": "0",
+            "lista": "CREAZIONE GIOVANE"
+        },
+        {
+            "nominativo": "MAUGERI Antonino Matteo",
+            "voti": "1",
+            "lista": "UNIVERSITA' POPOLARE"
+        },
+        {
+            "nominativo": "GALVAGNO Federica",
+            "voti": "0",
+            "lista": "UNIVERSITA' POPOLARE"
+        },
+        {
+            "nominativo": "PLATANIA Alfio",
+            "voti": "0",
+            "lista": "UNIVERSITA' POPOLARE"
+        },
+        {
+            "nominativo": "FINOCCHIARO Michelle",
+            "voti": "44",
+            "lista": "ARCADIA ‐ REVOLUTION"
+        },
+        {
+            "nominativo": "NARBONE Mirko",
+            "voti": "1",
+            "lista": "ARCADIA ‐ REVOLUTION"
+        }
+    ],
+    "seggi_da_assegnare": "e",
+    "dipartimento": "STRUTTURA DIDATTICA SPECIALE DI LINGUE",
+    "quoziente": "82,6667",
+    "votanti": "279",
+    "perc_votanti": "29,37",
+    "elettori": "950"
+}

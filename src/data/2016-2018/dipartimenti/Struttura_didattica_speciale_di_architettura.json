@@ -1,0 +1,81 @@
+{
+    "schede": {
+        "Schede Bianche": "14",
+        "Schede Nulle": "8",
+        "Schede Contestate": "0"
+    },
+    "liste": [
+        {
+            "nome": "ARCHÈ",
+            "voti_totali": 119
+        },
+        {
+            "nome": "UNITI PER ARCHITETTURA",
+            "voti_totali": 5
+        },
+        {
+            "nome": "UNIVERSITÀ POPOLARE",
+            "voti_totali": 5
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "CACCAMESE DARIO",
+            "voti": "44",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "SORGE DAVIDE BENIAMINO",
+            "voti": "5",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "PACE ALESSANDRO",
+            "voti": "5",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "LICCIARDELLO CRISTINA",
+            "voti": "54",
+            "lista": "UNITI PER ARCHITETTURA"
+        },
+        {
+            "nominativo": "AMATO VITO",
+            "voti": "28",
+            "lista": "UNITI PER ARCHITETTURA"
+        },
+        {
+            "nominativo": "CAPONETTI GAETANO",
+            "voti": "17",
+            "lista": "UNITI PER ARCHITETTURA"
+        },
+        {
+            "nominativo": "CONTRAFATTO FRANCESCO",
+            "voti": "5",
+            "lista": "UNITI PER ARCHITETTURA"
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "BONACCORSO ELENA",
+            "voti": "2",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "DRAGO MARTINA ALESSANDRA",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "SAPIENZA LUDOVICA",
+            "voti": "1",
+            "lista": "UNIVERSITÀ POPOLARE"
+        }
+    ],
+    "seggi_da_assegnare": "6",
+    "dipartimento": "STRUTTURA DIDATTICA SPECIALE DI ARCHITETTURA DI SIRACUSA - SDS ARCH_SR",
+    "quoziente": "30,8333",
+    "votanti": "207",
+    "perc_votanti": "23,58",
+    "elettori": "878"
+}

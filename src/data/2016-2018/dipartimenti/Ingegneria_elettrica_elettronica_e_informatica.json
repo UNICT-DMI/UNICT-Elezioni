@@ -1,0 +1,327 @@
+{
+    "schede": {
+        "Schede Bianche": "67",
+        "Schede Nulle": "31",
+        "Schede Contestate": "0"
+    },
+    "liste": [
+        {
+            "nome": "GIOVANI CIDEC  ‐  LA FINESTRA",
+            "voti_totali": 85
+        },
+        {
+            "nome": "ACTEA",
+            "voti_totali": 189
+        },
+        {
+            "nome": "INGEGNERIATTIVA",
+            "voti_totali": 43
+        },
+        {
+            "nome": "UNIVERSITÀ POPOLARE",
+            "voti_totali": 29
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "voti_totali": 19
+        },
+        {
+            "nome": "LIBERTAS  ‐  LIBERI E FORTI",
+            "voti_totali": 86
+        },
+        {
+            "nome": "ARCADIA",
+            "voti_totali": 18
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "ITALIA MIRKO",
+            "voti": "60",
+            "lista": "GIOVANI CIDEC  ‐  LA FINESTRA"
+        },
+        {
+            "nominativo": "LOSI ALESSIO",
+            "voti": "130",
+            "lista": "ACTEA"
+        },
+        {
+            "nominativo": "PORTO FABRIZIO",
+            "voti": "45",
+            "lista": "ACTEA"
+        },
+        {
+            "nominativo": "SIRNA FABIO",
+            "voti": "15",
+            "lista": "ACTEA"
+        },
+        {
+            "nominativo": "FAVA GIUSEPPE detto \"Peppe\"",
+            "voti": "130",
+            "lista": "INGEGNERIATTIVA"
+        },
+        {
+            "nominativo": "CIFALINO' GIULIA",
+            "voti": "24",
+            "lista": "INGEGNERIATTIVA"
+        },
+        {
+            "nominativo": "RIZZO FEDERICO",
+            "voti": "99",
+            "lista": "INGEGNERIATTIVA"
+        },
+        {
+            "nominativo": "L'ABBATE ANTONIO",
+            "voti": "30",
+            "lista": "INGEGNERIATTIVA"
+        },
+        {
+            "nominativo": "GALVAGNA GABRIELE GASPARE",
+            "voti": "24",
+            "lista": "INGEGNERIATTIVA"
+        },
+        {
+            "nominativo": "TRIBULATO MARCO",
+            "voti": "39",
+            "lista": "INGEGNERIATTIVA"
+        },
+        {
+            "nominativo": "TRIOLO LUDOVICO",
+            "voti": "47",
+            "lista": "AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "COTTONE MARIO",
+            "voti": "28",
+            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "TROVATO PAOLO ANTONIO",
+            "voti": "15",
+            "lista": "GIOVANI CIDEC  ‐  LA FINESTRA"
+        },
+        {
+            "nominativo": "NARDO DOMENICO",
+            "voti": "12",
+            "lista": "ACTEA"
+        },
+        {
+            "nominativo": "BONAVENTURA GIULIANO",
+            "voti": "1",
+            "lista": "INGEGNERIATTIVA"
+        },
+        {
+            "nominativo": "GIUFFRIDA ROSARIO VINCENZO",
+            "voti": "2",
+            "lista": "INGEGNERIATTIVA"
+        },
+        {
+            "nominativo": "DARA GIUSEPPE LORIS",
+            "voti": "6",
+            "lista": "INGEGNERIATTIVA"
+        },
+        {
+            "nominativo": "PORTARO SIMONE",
+            "voti": "16",
+            "lista": "INGEGNERIATTIVA"
+        },
+        {
+            "nominativo": "ZAPPALA' FABIO",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "CONSOLI FABRIZIO",
+            "voti": "20",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "NANIA ROBERTO",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "MAZZARA STEFANO",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "PATANE' FRANCESCO",
+            "voti": "2",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "VENTURA GABRIELE GIOVANNI",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "AMOROSO DAVIDE MARIA",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "GRILLO GIUSEPPE ANDREA",
+            "voti": "2",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "PRANIO GIANMARCO",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "OREFICE IVANA",
+            "voti": "1",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "TRIGILA MARTINA",
+            "voti": "3",
+            "lista": "AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "SCARLATA RAFFAELE",
+            "voti": "0",
+            "lista": "AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "MANCUSO FILIBERTO",
+            "voti": "0",
+            "lista": "AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "CASTRO DANIELE",
+            "voti": "0",
+            "lista": "AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "DI MANNO SALVATORE",
+            "voti": "6",
+            "lista": "AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "LA PORTA EDOARDO",
+            "voti": "0",
+            "lista": "AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "TERRANOVA GIUSEPPE",
+            "voti": "0",
+            "lista": "AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "STURIALE MICHELE",
+            "voti": "17",
+            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+        },
+        {
+            "nominativo": "FUSTO ANDREA",
+            "voti": "0",
+            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+        },
+        {
+            "nominativo": "GRASSO GIORGIO",
+            "voti": "18",
+            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+        },
+        {
+            "nominativo": "GROSSO GIOVANFRANCESCO",
+            "voti": "0",
+            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+        },
+        {
+            "nominativo": "PARISI ANDREA",
+            "voti": "8",
+            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+        },
+        {
+            "nominativo": "BELLUOMO RUGGERO",
+            "voti": "0",
+            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+        },
+        {
+            "nominativo": "GALOFARO ANDREA",
+            "voti": "1",
+            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+        },
+        {
+            "nominativo": "PUGLISI ANGELO",
+            "voti": "25",
+            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+        },
+        {
+            "nominativo": "MOLE' GIOVANNI",
+            "voti": "0",
+            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+        },
+        {
+            "nominativo": "SUERI PIERFRANCESCO",
+            "voti": "2",
+            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+        },
+        {
+            "nominativo": "SANTANGELO GAETANO MARIA",
+            "voti": "0",
+            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+        },
+        {
+            "nominativo": "RIDOLFO SARA",
+            "voti": "6",
+            "lista": "ARCADIA"
+        },
+        {
+            "nominativo": "PREVITE SIMONE",
+            "voti": "0",
+            "lista": "ARCADIA"
+        },
+        {
+            "nominativo": "GIOVIALE LORENZO",
+            "voti": "0",
+            "lista": "ARCADIA"
+        },
+        {
+            "nominativo": "GIORDANO GIANCARLO",
+            "voti": "0",
+            "lista": "ARCADIA"
+        },
+        {
+            "nominativo": "FRAZZONI GIORGIO",
+            "voti": "0",
+            "lista": "ARCADIA"
+        },
+        {
+            "nominativo": "BAIAMONTE GIULIANA",
+            "voti": "0",
+            "lista": "ARCADIA"
+        },
+        {
+            "nominativo": "PRIVITERA MARCO",
+            "voti": "0",
+            "lista": "ARCADIA"
+        },
+        {
+            "nominativo": "MESSINA GUIDO",
+            "voti": "0",
+            "lista": "ARCADIA"
+        },
+        {
+            "nominativo": "PIOPPO FRANCESCO",
+            "voti": "0",
+            "lista": "ARCADIA"
+        },
+        {
+            "nominativo": "PORTARO UMBERTO",
+            "voti": "24",
+            "lista": "ARCADIA"
+        }
+    ],
+    "seggi_da_assegnare": "12",
+    "dipartimento": "INGEGNERIA ELETTRICA ELETTRONICA E INFORMATICA - DIEEI",
+    "quoziente": "84,5",
+    "votanti": "1112",
+    "perc_votanti": "34,51",
+    "elettori": "3222"
+}
