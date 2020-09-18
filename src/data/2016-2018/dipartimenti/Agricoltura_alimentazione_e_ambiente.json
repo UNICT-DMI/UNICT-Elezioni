@@ -30,7 +30,7 @@
             "voti_totali": 73
         },
         {
-            "nome": "LIBERTAS  ‐  LIBERI E FORTI",
+            "nome": "LIBERTAS LIBERI E FORTI",
             "voti_totali": 45
         }
     ],
@@ -113,12 +113,12 @@
         {
             "nominativo": "GALEA ROMANO",
             "voti": "30",
-            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+            "lista": "LIBERTAS LIBERI E FORTI"
         },
         {
             "nominativo": "AMATO DOMENICO",
             "voti": "14",
-            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+            "lista": "LIBERTAS LIBERI E FORTI"
         }
     ],
     "non_eletti": [
@@ -250,47 +250,47 @@
         {
             "nominativo": "RACITI NICOLA",
             "voti": "0",
-            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+            "lista": "LIBERTAS LIBERI E FORTI"
         },
         {
             "nominativo": "BURRELLO MARCO",
             "voti": "7",
-            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+            "lista": "LIBERTAS LIBERI E FORTI"
         },
         {
             "nominativo": "CLEMENTI VINCENZO",
             "voti": "7",
-            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+            "lista": "LIBERTAS LIBERI E FORTI"
         },
         {
             "nominativo": "RAPISARDA ROSARIO",
             "voti": "3",
-            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+            "lista": "LIBERTAS LIBERI E FORTI"
         },
         {
             "nominativo": "FERRO GIORDANA",
             "voti": "0",
-            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+            "lista": "LIBERTAS LIBERI E FORTI"
         },
         {
             "nominativo": "FINOCCHIARO ANGELO",
             "voti": "0",
-            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+            "lista": "LIBERTAS LIBERI E FORTI"
         },
         {
             "nominativo": "BARRANO SALVATORE",
             "voti": "0",
-            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+            "lista": "LIBERTAS LIBERI E FORTI"
         },
         {
             "nominativo": "GUARNERA ANGELO",
             "voti": "2",
-            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+            "lista": "LIBERTAS LIBERI E FORTI"
         },
         {
             "nominativo": "ROMANO RITA CHIARA",
             "voti": "7",
-            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+            "lista": "LIBERTAS LIBERI E FORTI"
         }
     ],
     "seggi_da_assegnare": "17",

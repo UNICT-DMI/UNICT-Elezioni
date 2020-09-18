@@ -18,7 +18,7 @@
             "voti_totali": 24
         },
         {
-            "nome": "LIBERTAS  ‐  LIBERI E FORTI",
+            "nome": "LIBERTAS LIBERI E FORTI",
             "voti_totali": 6
         }
     ],
@@ -83,12 +83,12 @@
         {
             "nominativo": "SACCA' MAURA",
             "voti": "3",
-            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+            "lista": "LIBERTAS LIBERI E FORTI"
         },
         {
             "nominativo": "LA SPINA LUIGI",
             "voti": "0",
-            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+            "lista": "LIBERTAS LIBERI E FORTI"
         }
     ],
     "seggi_da_assegnare": "14",

@@ -6,7 +6,7 @@
     },
     "liste": [
         {
-            "nome": "UNIVERSITA' POPOLARE",
+            "nome": "UNIVERSITÀ POPOLARE",
             "voti_totali": 1103
         },
         {
@@ -14,11 +14,11 @@
             "voti_totali": 1202
         },
         {
-            "nome": "ARCHE'",
+            "nome": "ARCHÈ",
             "voti_totali": 1504
         },
         {
-            "nome": "LIBERTA' E' PARTECIPAZIONE",
+            "nome": "LIBERTÀ È PARTECIPAZIONE",
             "voti_totali": 791
         },
         {
@@ -47,12 +47,7 @@
         {
             "nominativo": "DI MAURO Sergio",
             "voti": "437",
-            "lista": "ARCHE'"
-        },
-        {
-            "nominativo": "MOSCHETTO Antonino Andrea ‐ detto \"Antonio\"",
-            "voti": "744",
-            "lista": "LA FINESTRA - ACTEA"
+            "lista": "ARCHÈ"
         },
         {
             "nominativo": "FAVA Giuseppe ‐ detto \"Peppe\"",
@@ -70,7 +65,227 @@
             "lista": "WE LOVE UNICT - ARES"
         }
     ],
+    "non_eletti": [
+        {
+            "nominativo": "FURNITTO Gianluca",
+            "voti": "350",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "CUTTONE Ottavia ‐ detta \"Cottone\"",
+            "voti": "190",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "GENTILE Irene",
+            "voti": "60",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "MAZZARINO Giuseppe",
+            "voti": "208",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "TOSCANO Dylan Mario ‐ detto \"Dylan\"",
+            "voti": "161",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "DI PERNA Tania Rita",
+            "voti": "29",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "ALBANI Marco Sesto",
+            "voti": "67",
+            "lista": "LIBERTAS"
+        },
+        {
+            "nominativo": "BULGARI Alessandro",
+            "voti": "362",
+            "lista": "LIBERTAS"
+        },
+        {
+            "nominativo": "SCRIBANO Ismael Giovanni",
+            "voti": "45",
+            "lista": "LIBERTAS"
+        },
+        {
+            "nominativo": "SOTERA Giuseppe ‐ detto \"Pippo\"",
+            "voti": "199",
+            "lista": "LIBERTAS"
+        },
+        {
+            "nominativo": "ZAFARANA Giuliano",
+            "voti": "59",
+            "lista": "LIBERTAS"
+        },
+        {
+            "nominativo": "BIZZINI Elena",
+            "voti": "81",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "CACCAMESE Dario",
+            "voti": "219",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "CAVALLI Emanuele",
+            "voti": "15",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "PANEBIANCO Pierpaolo",
+            "voti": "432",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "TRICOMI Gianluca",
+            "voti": "94",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "TROVATO Salvatore Gabriele",
+            "voti": "244",
+            "lista": "LIBERTÀ È PARTECIPAZIONE"
+        },
+        {
+            "nominativo": "SALERNO Leonardo",
+            "voti": "198",
+            "lista": "LIBERTÀ È PARTECIPAZIONE"
+        },
+        {
+            "nominativo": "PUTRINO Paolo",
+            "voti": "136",
+            "lista": "LIBERTÀ È PARTECIPAZIONE"
+        },
+        {
+            "nominativo": "DI GIORGIO Valeria",
+            "voti": "49",
+            "lista": "LIBERTÀ È PARTECIPAZIONE"
+        },
+        {
+            "nominativo": "NAVARRA Francesco Paolo",
+            "voti": "35",
+            "lista": "LIBERTÀ È PARTECIPAZIONE"
+        },
+        {
+            "nominativo": "LO PORTO Aurora",
+            "voti": "41",
+            "lista": "LIBERTÀ È PARTECIPAZIONE"
+        },
+        {
+            "nominativo": "FURNITTO Gianluca",
+            "voti": "350",
+            "lista": "LA FINESTRA - ACTEA"
+        },
+        {
+            "nominativo": "CUTTONE Ottavia ‐ detta \"Cottone\"",
+            "voti": "190",
+            "lista": "LA FINESTRA - ACTEA"
+        },
+        {
+            "nominativo": "GENTILE Irene",
+            "voti": "60",
+            "lista": "LA FINESTRA - ACTEA"
+        },
+        {
+            "nominativo": "MAZZARINO Giuseppe",
+            "voti": "208",
+            "lista": "LA FINESTRA - ACTEA"
+        },
+        {
+            "nominativo": "TOSCANO Dylan Mario ‐ detto \"Dylan\"",
+            "voti": "161",
+            "lista": "LA FINESTRA - ACTEA"
+        },
+        {
+            "nominativo": "DI PERNA Tania Rita",
+            "voti": "29",
+            "lista": "LA FINESTRA - ACTEA"
+        },
+        {
+            "nominativo": "GUASTELLA Alessandro",
+            "voti": "497",
+            "lista": "#STUDENTI"
+        },
+        {
+            "nominativo": "TODERO Alessandro Mario Felice",
+            "voti": "183",
+            "lista": "#STUDENTI"
+        },
+        {
+            "nominativo": "TUCCI Marco Rosario",
+            "voti": "288",
+            "lista": "#STUDENTI"
+        },
+        {
+            "nominativo": "ZAPPALA' Rossella",
+            "voti": "147",
+            "lista": "#STUDENTI"
+        },
+        {
+            "nominativo": "FINOCCHIARO Michelle",
+            "voti": "92",
+            "lista": "#STUDENTI"
+        },
+        {
+            "nominativo": "VELLA Andrea",
+            "voti": "353",
+            "lista": "ALLEANZA - AZIONE UNIVERSITARIA - CONTROCAMPUS"
+        },
+        {
+            "nominativo": "CIRINO Antonio",
+            "voti": "405",
+            "lista": "ALLEANZA - AZIONE UNIVERSITARIA - CONTROCAMPUS"
+        },
+        {
+            "nominativo": "SEQUENZIA Ilaria ‐ detta \"Seguenzia\"",
+            "voti": "233",
+            "lista": "ALLEANZA - AZIONE UNIVERSITARIA - CONTROCAMPUS"
+        },
+        {
+            "nominativo": "DI MAURO Carlo",
+            "voti": "185",
+            "lista": "ALLEANZA - AZIONE UNIVERSITARIA - CONTROCAMPUS"
+        },
+        {
+            "nominativo": "PIRO Marco Salvatore",
+            "voti": "213",
+            "lista": "ALLEANZA - AZIONE UNIVERSITARIA - CONTROCAMPUS"
+        },
+        {
+            "nominativo": "MERTOLI Federico",
+            "voti": "365",
+            "lista": "WE LOVE UNICT - ARES"
+        },
+        {
+            "nominativo": "ROMEO Luca",
+            "voti": "155",
+            "lista": "WE LOVE UNICT - ARES"
+        },
+        {
+            "nominativo": "CANTARELLA Andrea ‐ detto \"Frica\"",
+            "voti": "270",
+            "lista": "WE LOVE UNICT - ARES"
+        },
+        {
+            "nominativo": "SMECCA Manlio",
+            "voti": "1",
+            "lista": "WE LOVE UNICT - ARES"
+        },
+        {
+            "nominativo": "SPAMPINATO Manuele Alfio",
+            "voti": "32",
+            "lista": "WE LOVE UNICT - ARES"
+        }
+    ],
+    "seggi_da_assegnare": "6",
     "organo": "ELEZIONI RAPPRESENTANTI STUDENTI IN SENO AL SENATO ACCADEMICO",
+    "quoziente": "2164,3333",
     "votanti": "14783",
-    "elettori": "40024"
+    "elettori": "40024",
+    "perc_votanti": "36,94%"
 }

@@ -1,13 +1,13 @@
-import React, { FunctionComponent, useEffect, useState, ReactNode } from 'react';
+import React, { useEffect, useState } from 'react';
 import './Results.scss';
 
 interface Props {
   anno?: string;
-  dipartimento?: string;
+  path?: string;
 }
 
 const Results = (props: Props) => {
-  const dmi = require(`../../data/${props.anno}/dipartimenti/${props.dipartimento}.json`);
+  const data = require(`../../data/${props.anno}/${props.path}.json`);
   const [show, setShow] = useState(false);
 
   function generateTableRows(data: any) {
@@ -52,29 +52,32 @@ const Results = (props: Props) => {
 
   return (
     <div className="Results">
-      <div className="container">
+      <div className="container-fluid">
 
         <div className="row">
           <div className="col-12">
-            {/* <h2>Dipartimento: {dmi.dipartimento}</h2> */}
+            {/* <h2>Dipartimento: {data.dipartimento}</h2> */}
             <table className="liste mt-4 table table-bordered table-striped">
               <thead>
                 <tr onClick={toggleBody}>
-                  <th className="year">anno: {props.anno} </th>
-                  { dmi.liste.map((l: any) =>
+                  <th className="year">{props.anno} </th>
+                  { data.liste.map((l: any) =>
                   <th key={l}>
-                    <img src={`loghi/${l.nome}.jpg`} width="80" height="80" alt={l.nome}></img>
+                    <img src={`loghi/${l.nome.replace('#', '')}.jpg`} width="80" height="80" alt={l.nome}></img>
                     <p></p>
                     {l.nome} ({l.voti_totali})
                   </th>) }
                 </tr>
               </thead>
               <tbody>
-                {show ? generateTableRows(dmi) : ''}
+                {show ? generateTableRows(data) : ''}
               </tbody>
             </table>
           </div>
         </div>
+
+        <br />
+        <br />
 
       </div>
     </div>

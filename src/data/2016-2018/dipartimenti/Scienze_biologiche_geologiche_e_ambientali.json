@@ -18,7 +18,7 @@
             "voti_totali": 59
         },
         {
-            "nome": "LIBERTAS  ‐  LIBERI E FORTI",
+            "nome": "LIBERTAS LIBERI E FORTI",
             "voti_totali": 384
         }
     ],
@@ -56,12 +56,12 @@
         {
             "nominativo": "ROTONDI SERGIO MARIA VALERIO",
             "voti": "34",
-            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+            "lista": "LIBERTAS LIBERI E FORTI"
         },
         {
             "nominativo": "FERLITO MARCO MARIA",
             "voti": "47",
-            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+            "lista": "LIBERTAS LIBERI E FORTI"
         }
     ],
     "non_eletti": [
@@ -128,22 +128,22 @@
         {
             "nominativo": "SGARANO ANTONINO",
             "voti": "0",
-            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+            "lista": "LIBERTAS LIBERI E FORTI"
         },
         {
             "nominativo": "RUSSO SIMONA GIUSEPPA",
             "voti": "0",
-            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+            "lista": "LIBERTAS LIBERI E FORTI"
         },
         {
             "nominativo": "SANTONOCITO AGATA RITA",
             "voti": "0",
-            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+            "lista": "LIBERTAS LIBERI E FORTI"
         },
         {
             "nominativo": "PONZO ELENA",
             "voti": "3",
-            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+            "lista": "LIBERTAS LIBERI E FORTI"
         }
     ],
     "seggi_da_assegnare": "8",

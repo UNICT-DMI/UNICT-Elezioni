@@ -10,7 +10,7 @@
             "voti_totali": 192
         },
         {
-            "nome": "ARCHE'",
+            "nome": "ARCHÈ",
             "voti_totali": 7
         },
         {
@@ -18,7 +18,7 @@
             "voti_totali": 7
         },
         {
-            "nome": "UNIVERSITA' POPOLARE",
+            "nome": "UNIVERSITÀ POPOLARE",
             "voti_totali": 5
         },
         {
@@ -114,12 +114,12 @@
         {
             "nominativo": "CAPPADONNA Marco",
             "voti": "8",
-            "lista": "ARCHE'"
+            "lista": "ARCHÈ"
         },
         {
             "nominativo": "MANCIAGLI Camilla Maria Catena",
             "voti": "0",
-            "lista": "ARCHE'"
+            "lista": "ARCHÈ"
         },
         {
             "nominativo": "CRIMI Giada",
@@ -149,17 +149,17 @@
         {
             "nominativo": "CAVALLARO Chiara",
             "voti": "0",
-            "lista": "UNIVERSITA' POPOLARE"
+            "lista": "UNIVERSITÀ POPOLARE"
         },
         {
             "nominativo": "PALMA Michele Alberto",
             "voti": "0",
-            "lista": "UNIVERSITA' POPOLARE"
+            "lista": "UNIVERSITÀ POPOLARE"
         },
         {
             "nominativo": "SCANDURA Morgana",
             "voti": "0",
-            "lista": "UNIVERSITA' POPOLARE"
+            "lista": "UNIVERSITÀ POPOLARE"
         },
         {
             "nominativo": "SALEMI Giuseppe",

@@ -22,7 +22,7 @@
             "voti_totali": 2
         },
         {
-            "nome": "LIBERTAS  ‐  LIBERI E FORTI",
+            "nome": "LIBERTAS LIBERI E FORTI",
             "voti_totali": 6
         }
     ],
@@ -95,17 +95,17 @@
         {
             "nominativo": "COSTANZO GAIA VIOLA CHIARA",
             "voti": "16",
-            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+            "lista": "LIBERTAS LIBERI E FORTI"
         },
         {
             "nominativo": "SCIURELLO SALVATORE ANDREA",
             "voti": "12",
-            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+            "lista": "LIBERTAS LIBERI E FORTI"
         },
         {
             "nominativo": "GRECUZZO MARTA",
             "voti": "2",
-            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+            "lista": "LIBERTAS LIBERI E FORTI"
         }
     ],
     "non_eletti": [
@@ -127,12 +127,12 @@
         {
             "nominativo": "STRANO ALFIO GABRIELE",
             "voti": "0",
-            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+            "lista": "LIBERTAS LIBERI E FORTI"
         },
         {
             "nominativo": "LO GRANDE SALVO WILLIAMS",
             "voti": "1",
-            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+            "lista": "LIBERTAS LIBERI E FORTI"
         }
     ],
     "seggi_da_assegnare": "15",

@@ -6,7 +6,7 @@
     },
     "liste": [
         {
-            "nome": "ARCHE'",
+            "nome": "ARCHÈ",
             "voti_totali": 350
         },
         {
@@ -18,7 +18,7 @@
             "voti_totali": 114
         },
         {
-            "nome": "UNIVERSITA' POPOLARE",
+            "nome": "UNIVERSITÀ POPOLARE",
             "voti_totali": 530716
         },
         {
@@ -54,12 +54,12 @@
         {
             "nominativo": "RUSSO Salvatore",
             "voti": "100",
-            "lista": "ARCHE'"
+            "lista": "ARCHÈ"
         },
         {
             "nominativo": "SALERNO Antonio",
             "voti": "66",
-            "lista": "ARCHE'"
+            "lista": "ARCHÈ"
         },
         {
             "nominativo": "PORTO Andrea Giuseppe",
@@ -106,42 +106,42 @@
         {
             "nominativo": "BARONE Giuseppe",
             "voti": "50",
-            "lista": "ARCHE'"
+            "lista": "ARCHÈ"
         },
         {
             "nominativo": "BORDIERI Chiara",
             "voti": "8",
-            "lista": "ARCHE'"
+            "lista": "ARCHÈ"
         },
         {
             "nominativo": "CANNAVO' Andrea",
             "voti": "0",
-            "lista": "ARCHE'"
+            "lista": "ARCHÈ"
         },
         {
             "nominativo": "LICCIARDELLO Maria Elena",
             "voti": "3",
-            "lista": "ARCHE'"
+            "lista": "ARCHÈ"
         },
         {
             "nominativo": "LOMBARDIA Giuseppe",
             "voti": "18",
-            "lista": "ARCHE'"
+            "lista": "ARCHÈ"
         },
         {
             "nominativo": "MASUZZO Carlo",
             "voti": "27",
-            "lista": "ARCHE'"
+            "lista": "ARCHÈ"
         },
         {
             "nominativo": "NOCERA Gaetana ‐ detta \"Tanya\" o \"Tania\"",
             "voti": "44",
-            "lista": "ARCHE'"
+            "lista": "ARCHÈ"
         },
         {
             "nominativo": "ZAPPALA' Simone",
             "voti": "0",
-            "lista": "ARCHE'"
+            "lista": "ARCHÈ"
         },
         {
             "nominativo": "AMICO Andrea",
@@ -201,37 +201,37 @@
         {
             "nominativo": "BARONE Sophia Maria",
             "voti": "0",
-            "lista": "UNIVERSITA' POPOLARE"
+            "lista": "UNIVERSITÀ POPOLARE"
         },
         {
             "nominativo": "CIRALDO Giorgio",
             "voti": "14",
-            "lista": "UNIVERSITA' POPOLARE"
+            "lista": "UNIVERSITÀ POPOLARE"
         },
         {
             "nominativo": "COSTANZO Francesca",
             "voti": "0",
-            "lista": "UNIVERSITA' POPOLARE"
+            "lista": "UNIVERSITÀ POPOLARE"
         },
         {
             "nominativo": "GIANGRASSO Lorenza",
             "voti": "7",
-            "lista": "UNIVERSITA' POPOLARE"
+            "lista": "UNIVERSITÀ POPOLARE"
         },
         {
             "nominativo": "LEONARDI Rosario",
             "voti": "31",
-            "lista": "UNIVERSITA' POPOLARE"
+            "lista": "UNIVERSITÀ POPOLARE"
         },
         {
             "nominativo": "MACCARRONE Giorgia Nicole",
             "voti": "0",
-            "lista": "UNIVERSITA' POPOLARE"
+            "lista": "UNIVERSITÀ POPOLARE"
         },
         {
             "nominativo": "MARINO Fulvio",
             "voti": "0",
-            "lista": "UNIVERSITA' POPOLARE"
+            "lista": "UNIVERSITÀ POPOLARE"
         },
         {
             "nominativo": "RAPISARDA Enrico Simone",
@@ -249,7 +249,7 @@
             "lista": "ECONOMIA ATTIVA"
         },
         {
-            "nominativo": "LARCHE' Jean Gregory",
+            "nominativo": "LARCHÈ Jean Gregory",
             "voti": "5",
             "lista": "ECONOMIA ATTIVA"
         },

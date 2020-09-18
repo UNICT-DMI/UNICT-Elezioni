@@ -14,7 +14,7 @@
             "voti_totali": 1
         },
         {
-            "nome": "LIBERTAS  ‐  LIBERI E FORTI",
+            "nome": "LIBERTAS LIBERI E FORTI",
             "voti_totali": 38
         }
     ],
@@ -47,37 +47,37 @@
         {
             "nominativo": "LA SPINA VALERIO",
             "voti": "17",
-            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+            "lista": "LIBERTAS LIBERI E FORTI"
         },
         {
             "nominativo": "GIANNI' MANUELA",
             "voti": "20",
-            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+            "lista": "LIBERTAS LIBERI E FORTI"
         },
         {
             "nominativo": "TUDISCO ENRICO",
             "voti": "59",
-            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+            "lista": "LIBERTAS LIBERI E FORTI"
         },
         {
             "nominativo": "DAMIGELLA ADRIANO MARIA",
             "voti": "37",
-            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+            "lista": "LIBERTAS LIBERI E FORTI"
         },
         {
             "nominativo": "RAGUSA JESSICA",
             "voti": "34",
-            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+            "lista": "LIBERTAS LIBERI E FORTI"
         },
         {
             "nominativo": "MUSUMECI SEBASTIANO",
             "voti": "25",
-            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+            "lista": "LIBERTAS LIBERI E FORTI"
         },
         {
             "nominativo": "CHISARI GIORGIA",
             "voti": "41",
-            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+            "lista": "LIBERTAS LIBERI E FORTI"
         }
     ],
     "non_eletti": [
@@ -149,17 +149,17 @@
         {
             "nominativo": "ZAPPALA' CRISTINA LAURA",
             "voti": "0",
-            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+            "lista": "LIBERTAS LIBERI E FORTI"
         },
         {
             "nominativo": "BARCHI SIMONE",
             "voti": "0",
-            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+            "lista": "LIBERTAS LIBERI E FORTI"
         },
         {
             "nominativo": "ARCORIA ANTONIO",
             "voti": "0",
-            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+            "lista": "LIBERTAS LIBERI E FORTI"
         }
     ],
     "seggi_da_assegnare": "12",

@@ -16,10 +16,13 @@ const Navbar: FunctionComponent = () => {
           <div className="collapse navbar-collapse" id="navbarColor01">
             <ul className="navbar-nav mr-auto">
               <li className="nav-item">
-                <Link className="nav-link" to="/home">Home</Link>
+                <Link className="nav-link" to="/senato">Senato</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/results">Results</Link>
+                <Link className="nav-link" to="/cda">Consiglio di Amministrazione</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/dipartimenti">Dipartimenti</Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/page">Other Page</Link>

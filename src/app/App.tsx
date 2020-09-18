@@ -15,15 +15,17 @@ const App: FunctionComponent = () => {
       <Router>
         <Navbar />
         <Switch>
-          <Route path="/home">
-            <Home />
+          <Route path="/senato">
+            <Results anno="2018-2020" path="Senato" />
+            <Results anno="2016-2018" path="Senato" />
           </Route>
-          <Route path="/results">
-            <Results anno="2018-2020" dipartimento="dmi" />
-            <Results anno="2016-2018" dipartimento="dmi" />
+          <Route path="/cda">
+            <Results anno="2018-2020" path="Consiglio_di_amministrazione" />
+            <Results anno="2016-2018" path="Consiglio_di_amministrazione" />
           </Route>
-          <Route path="/page">
-            <AnotherPage />
+          <Route path="/dipartimenti">
+            <Results anno="2018-2020" path="dipartimenti/Matematica_e_informatica" />
+            <Results anno="2016-2018" path="dipartimenti/Matematica_e_informatica" />
           </Route>
           <Route path="/not-found">
             <NotFound />
@@ -33,14 +35,6 @@ const App: FunctionComponent = () => {
       </Router>
     </div>
   );
-}
-
-function Home() {
-  return <h2>Hello world!</h2>;
-}
-
-function AnotherPage() {
-  return <h2>Another Page!</h2>;
 }
 
 function NotFound() {
