@@ -1,0 +1,66 @@
+{
+    "schede": {
+        "Schede Bianche": "55",
+        "Schede Nulle": "32",
+        "Schede Contestate": "0"
+    },
+    "liste": [
+        {
+            "nome": "CONTROCAMPUS",
+            "voti_totali": 84
+        },
+        {
+            "nome": "ARCHÈ",
+            "voti_totali": 32
+        },
+        {
+            "nome": "UNIVERSITÀ POPOLARE",
+            "voti_totali": 33
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "PULVIRENTI ALFIO",
+            "voti": "78",
+            "lista": "CONTROCAMPUS"
+        },
+        {
+            "nominativo": "FORMAGGIO GIUSEPPE",
+            "voti": "13",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "MAITA GIOSUE'",
+            "voti": "6",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "VACIRCA BENEDETTA",
+            "voti": "6",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "CALANNI PILERI STEFANO",
+            "voti": "8",
+            "lista": "UNIVERSITÀ POPOLARE"
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "CARDONE CLAUDIO FEDERICO EDOARDO",
+            "voti": "0",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "CIRALDO NICOLO",
+            "voti": "3",
+            "lista": "UNIVERSITÀ POPOLARE"
+        }
+    ],
+    "seggi_da_assegnare": "8",
+    "dipartimento": "SCIENZE CHIMICHE - DSC",
+    "quoziente": "18,625",
+    "votanti": "236",
+    "perc_votanti": "32,28",
+    "elettori": "731"
+}

@@ -1,0 +1,65 @@
+{
+    "schede": {
+        "Schede Bianche": "3529",
+        "Schede Nulle": "1172",
+        "Schede Contestate": "8"
+    },
+    "liste": [
+        {
+            "nome": "INSIEME",
+            "voti_totali": 3397
+        },
+        {
+            "nome": "PARTITO DEMOCRATICO - STUDENTI DEMOCRATICI",
+            "voti_totali": 3882
+        },
+        {
+            "nome": "NOI",
+            "voti_totali": 3345
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "CRISTOFARO CARLO  ‐  detto \"Cristoforo\"",
+            "voti": "2112",
+            "lista": "INSIEME"
+        },
+        {
+            "nominativo": "LI VECCHI GABRIELE MARIO",
+            "voti": "2045",
+            "lista": "PARTITO DEMOCRATICO - STUDENTI DEMOCRATICI"
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "PENNISI EMANUELE",
+            "voti": "712",
+            "lista": "INSIEME"
+        },
+        {
+            "nominativo": "MILAZZO LUCA FRANCESCO",
+            "voti": "988",
+            "lista": "PARTITO DEMOCRATICO - STUDENTI DEMOCRATICI"
+        },
+        {
+            "nominativo": "FERLITO FRANCESCO Alessandro",
+            "voti": "1498",
+            "lista": "NOI"
+        },
+        {
+            "nominativo": "RUSSO FRANCESCO",
+            "voti": "1334",
+            "lista": "NOI"
+        },
+        {
+            "nominativo": "#N/D",
+            "lista": "NOI"
+        }
+    ],
+    "seggi_da_assegnare": "2",
+    "organo": "ELEZIONI RAPPRESENTANTI STUDENTI IN SENO AL CONSIGLIO DI AMMINISTRAZIONE",
+    "quoziente": "5312",
+    "votanti": "15333",
+    "elettori": "46117",
+    "perc_votanti": "33,25%"
+}

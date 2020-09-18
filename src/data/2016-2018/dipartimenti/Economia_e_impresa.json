@@ -1,0 +1,517 @@
+{
+    "schede": {
+        "Schede Bianche": "81",
+        "Schede Nulle": "69",
+        "Schede Contestate": "13"
+    },
+    "liste": [
+        {
+            "nome": "WE LOVE UNICT",
+            "voti_totali": 154
+        },
+        {
+            "nome": "ARCHÈ",
+            "voti_totali": 68297
+        },
+        {
+            "nome": "ACTEA",
+            "voti_totali": 91
+        },
+        {
+            "nome": "ECONOMIATTIVA",
+            "voti_totali": 55346
+        },
+        {
+            "nome": "NO STRESS",
+            "voti_totali": 19
+        },
+        {
+            "nome": "ARES",
+            "voti_totali": 95356
+        },
+        {
+            "nome": "UNIVERSITÀ POPOLARE",
+            "voti_totali": 72
+        },
+        {
+            "nome": "GIOVANI CIDEC  ‐  LA FINESTRA",
+            "voti_totali": 11122
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "voti_totali": 2622
+        },
+        {
+            "nome": "LIBERTAS  ‐  LIBERI E FORTI",
+            "voti_totali": 127
+        },
+        {
+            "nome": "ARCADIA",
+            "voti_totali": 43
+        },
+        {
+            "nome": "ORIZZONTE ITALIA",
+            "voti_totali": 35
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "ARDITA FRANCESCO",
+            "voti": "99",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "PARISI LUIGI ANGELO",
+            "voti": "103",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "DONZI' MARIA HELENA detto \"Scavo\"",
+            "voti": "51",
+            "lista": "ACTEA"
+        },
+        {
+            "nominativo": "MONTONERI BRUNO",
+            "voti": "47",
+            "lista": "ACTEA"
+        },
+        {
+            "nominativo": "BONACCORSI DAMIEN",
+            "voti": "64",
+            "lista": "ECONOMIATTIVA"
+        },
+        {
+            "nominativo": "ROMANO ETTORE MARIA",
+            "voti": "79",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "BONGIOVANNI GIOVANNI",
+            "voti": "161",
+            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+        },
+        {
+            "nominativo": "BENNICI SALVATORE",
+            "voti": "63",
+            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+        },
+        {
+            "nominativo": "GIUFFRIDA ANDREA DAMIANO",
+            "voti": "53",
+            "lista": "ARCADIA"
+        },
+        {
+            "nominativo": "MUSUMECI CARMELO",
+            "voti": "26",
+            "lista": "ORIZZONTE ITALIA"
+        },
+        {
+            "nominativo": "SADDEMI STEFANIA",
+            "voti": "26",
+            "lista": "ORIZZONTE ITALIA"
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "RUSSOTTO VERONICA",
+            "voti": "6",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "COSTANZO CLAUDIO",
+            "voti": "20",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "D'ANTONI LORENZO",
+            "voti": "6",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "RIZZO CARMELO",
+            "voti": "9",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "PINASCO SIMONE",
+            "voti": "2",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "CAVALLARO LUANA",
+            "voti": "2",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "GIORDANO ANNACHIARA",
+            "voti": "13",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "MIRONE ROSARIO",
+            "voti": "18",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "SANTONOCITO SALVATORE",
+            "voti": "10",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "TRIMARCHI EUGENIO GIUSEPPE",
+            "voti": "22",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "FERRARA VERDIANA SANTA",
+            "voti": "30",
+            "lista": "ACTEA"
+        },
+        {
+            "nominativo": "MARZULLO SIMONA",
+            "voti": "18",
+            "lista": "ACTEA"
+        },
+        {
+            "nominativo": "ZUCCARO SIMONE INNOCENZO",
+            "voti": "39",
+            "lista": "ACTEA"
+        },
+        {
+            "nominativo": "PAPPALARDO FRANCESCO GIUSEPPE",
+            "voti": "8",
+            "lista": "ACTEA"
+        },
+        {
+            "nominativo": "PAPPALARDO LUCIO EMANUELE",
+            "voti": "10",
+            "lista": "ECONOMIATTIVA"
+        },
+        {
+            "nominativo": "PASCUCCI SANTO",
+            "voti": "5",
+            "lista": "ECONOMIATTIVA"
+        },
+        {
+            "nominativo": "GIUFFRIDA EMANUELA",
+            "voti": "12",
+            "lista": "ECONOMIATTIVA"
+        },
+        {
+            "nominativo": "RUSSANO ANDREA",
+            "voti": "4",
+            "lista": "ECONOMIATTIVA"
+        },
+        {
+            "nominativo": "GIACALONE GIULIO",
+            "voti": "0",
+            "lista": "ECONOMIATTIVA"
+        },
+        {
+            "nominativo": "GRILLO FEDERICO",
+            "voti": "0",
+            "lista": "ECONOMIATTIVA"
+        },
+        {
+            "nominativo": "MELI MASSIMO",
+            "voti": "5",
+            "lista": "ECONOMIATTIVA"
+        },
+        {
+            "nominativo": "CORINTO CHIARA",
+            "voti": "0",
+            "lista": "ECONOMIATTIVA"
+        },
+        {
+            "nominativo": "RAPISARDA ELEONORA",
+            "voti": "0",
+            "lista": "NO STRESS"
+        },
+        {
+            "nominativo": "TRECCARICHI SILVIA",
+            "voti": "1",
+            "lista": "NO STRESS"
+        },
+        {
+            "nominativo": "TODERO SARA",
+            "voti": "0",
+            "lista": "NO STRESS"
+        },
+        {
+            "nominativo": "VIRGATA ISABELLA",
+            "voti": "0",
+            "lista": "NO STRESS"
+        },
+        {
+            "nominativo": "BRANCHINA FRANCESCO",
+            "voti": "6",
+            "lista": "NO STRESS"
+        },
+        {
+            "nominativo": "INSANA STEFANO",
+            "voti": "0",
+            "lista": "ARES"
+        },
+        {
+            "nominativo": "LEONARDI ALESSIO",
+            "voti": "0",
+            "lista": "ARES"
+        },
+        {
+            "nominativo": "LEONARDI SEBASTIANO",
+            "voti": "21",
+            "lista": "ARES"
+        },
+        {
+            "nominativo": "PISANO LUDOVICA",
+            "voti": "1",
+            "lista": "ARES"
+        },
+        {
+            "nominativo": "PITICCHIO GRAZIANA",
+            "voti": "2",
+            "lista": "ARES"
+        },
+        {
+            "nominativo": "RAPISARDA ELEONORA",
+            "voti": "0",
+            "lista": "ARES"
+        },
+        {
+            "nominativo": "TRECCARICHI SILVIA",
+            "voti": "1",
+            "lista": "ARES"
+        },
+        {
+            "nominativo": "TODERO SARA",
+            "voti": "0",
+            "lista": "ARES"
+        },
+        {
+            "nominativo": "VIRGATA ISABELLA",
+            "voti": "0",
+            "lista": "ARES"
+        },
+        {
+            "nominativo": "BRANCHINA FRANCESCO",
+            "voti": "6",
+            "lista": "ARES"
+        },
+        {
+            "nominativo": "GRECO GIUSEPPE",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "LIPARI FEDERICA",
+            "voti": "6",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "FURNITTO GIANLUCA",
+            "voti": "25",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "GALVAGNO SIMONE",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "FASOLO BENNARDO PASQUALINO detto \"Lino\"",
+            "voti": "22",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "GIARRUSSO ELEONORA",
+            "voti": "16",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "NASELLO SALVATORE detto \"Totò\"",
+            "voti": "11",
+            "lista": "GIOVANI CIDEC  ‐  LA FINESTRA"
+        },
+        {
+            "nominativo": "MIRAGLIA SIMONE",
+            "voti": "15",
+            "lista": "GIOVANI CIDEC  ‐  LA FINESTRA"
+        },
+        {
+            "nominativo": "PAGANO DAMIANO",
+            "voti": "7",
+            "lista": "GIOVANI CIDEC  ‐  LA FINESTRA"
+        },
+        {
+            "nominativo": "RICCIARDI ANTONINO",
+            "voti": "26",
+            "lista": "AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "LIGGIERI BIAGIO",
+            "voti": "14",
+            "lista": "AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "FRENI FRANCESCO",
+            "voti": "0",
+            "lista": "AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "SANSIVERINO MARIA SILVIA",
+            "voti": "1",
+            "lista": "AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "VURRUSO GIAN MARCO",
+            "voti": "0",
+            "lista": "AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "REINA LUCA",
+            "voti": "2",
+            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+        },
+        {
+            "nominativo": "RUSSO FRANCESCO",
+            "voti": "10",
+            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+        },
+        {
+            "nominativo": "PENNISI JESSICA detto \"Russo\"",
+            "voti": "0",
+            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+        },
+        {
+            "nominativo": "BONIFAZIO ANTONIO",
+            "voti": "8",
+            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+        },
+        {
+            "nominativo": "FICHERA SABRINA",
+            "voti": "8",
+            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+        },
+        {
+            "nominativo": "BUSCEMI EMILIANA",
+            "voti": "0",
+            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+        },
+        {
+            "nominativo": "LAUDANI MATTIA",
+            "voti": "0",
+            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+        },
+        {
+            "nominativo": "D'AMORE GUGLIELMO",
+            "voti": "0",
+            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+        },
+        {
+            "nominativo": "ESPOSITO ANTONIO",
+            "voti": "0",
+            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+        },
+        {
+            "nominativo": "PISI CLAUDIO",
+            "voti": "46",
+            "lista": "LIBERTAS  ‐  LIBERI E FORTI"
+        },
+        {
+            "nominativo": "ZAPPULLA CLAUDIO",
+            "voti": "3",
+            "lista": "ARCADIA"
+        },
+        {
+            "nominativo": "GUZZARDI MARTINA",
+            "voti": "1",
+            "lista": "ARCADIA"
+        },
+        {
+            "nominativo": "RIZZO MARIA CHIARA",
+            "voti": "8",
+            "lista": "ARCADIA"
+        },
+        {
+            "nominativo": "SOTTILE ELIO",
+            "voti": "14",
+            "lista": "ARCADIA"
+        },
+        {
+            "nominativo": "NICOTRA RUGGERO",
+            "voti": "31",
+            "lista": "ARCADIA"
+        },
+        {
+            "nominativo": "CAMERANO MARTINA",
+            "voti": "16",
+            "lista": "ARCADIA"
+        },
+        {
+            "nominativo": "PREZZAVENTO GABRIELE ANGELO",
+            "voti": "2",
+            "lista": "ARCADIA"
+        },
+        {
+            "nominativo": "FIUMARA ALBERTO",
+            "voti": "0",
+            "lista": "ARCADIA"
+        },
+        {
+            "nominativo": "MAUGERI DAVIDE CARMELO",
+            "voti": "5",
+            "lista": "ORIZZONTE ITALIA"
+        },
+        {
+            "nominativo": "CONSOLI GIORGIA",
+            "voti": "19",
+            "lista": "ORIZZONTE ITALIA"
+        },
+        {
+            "nominativo": "RUBINO FRANCESCA",
+            "voti": "1",
+            "lista": "ORIZZONTE ITALIA"
+        },
+        {
+            "nominativo": "PULEO PAOLO",
+            "voti": "2",
+            "lista": "ORIZZONTE ITALIA"
+        },
+        {
+            "nominativo": "VACCARO MARIA",
+            "voti": "0",
+            "lista": "ORIZZONTE ITALIA"
+        },
+        {
+            "nominativo": "DI RAIMONDO RICCARDO",
+            "voti": "13",
+            "lista": "ORIZZONTE ITALIA"
+        },
+        {
+            "nominativo": "ARCURI ALESSANDRO",
+            "voti": "0",
+            "lista": "ORIZZONTE ITALIA"
+        },
+        {
+            "nominativo": "LAURITANO DAVIDE",
+            "voti": "1",
+            "lista": "ORIZZONTE ITALIA"
+        },
+        {
+            "nominativo": "GARDANI DINO",
+            "voti": "3",
+            "lista": "ORIZZONTE ITALIA"
+        },
+        {
+            "nominativo": "MONDELLI CECILIA MARIA",
+            "voti": "9",
+            "lista": "ORIZZONTE ITALIA"
+        }
+    ],
+    "seggi_da_assegnare": "12",
+    "dipartimento": "ECONOMIA E IMPRESA - DEI",
+    "quoziente": "148,25",
+    "votanti": "1942",
+    "perc_votanti": "38,88",
+    "elettori": "4995"
+}
