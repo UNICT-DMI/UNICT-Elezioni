@@ -24,17 +24,21 @@ const Results = (props: Props) => {
 
     // generate tableRows
     const tableRows = [];
+    let idx = 0;
     for(let i = 0; i < maxRows; i++)  {
       tableRows.push(
-        <tr key={i}>
+        <tr key={props.anno + '-' + i}>
           <td></td>
-          {Object.keys(results).map(l =>
-            <td key={l + '-' + i}>
+          {Object.keys(results).map(l => {
+            console.log(props.anno + '-' + l + '-' + i + '-' + idx);
+            idx++;
+            return <td key={props.anno + '-' + l + '-' + i}>
               {(results[l] && results[l][i]) ? ([
                 `${results[l][i].nominativo} (${results[l][i].voti})`,
                 results[l][i].eletto ? (<img src="coccarda.png" alt="eletto" width="16" height="30" className="float-right" />) : ''
               ]) : ''}
-            </td>)
+            </td>;
+          })
           }
         </tr>
       )
@@ -62,7 +66,7 @@ const Results = (props: Props) => {
                 <tr onClick={toggleBody}>
                   <th className="year">{props.anno} </th>
                   { data.liste.map((l: any) =>
-                  <th key={l}>
+                  <th key={props.anno + '-lista-' + l.nome}>
                     <img src={`loghi/${l.nome.replace('#', '')}.jpg`} width="80" height="80" alt={l.nome}></img>
                     <p></p>
                     {l.nome} ({l.voti_totali})
@@ -70,7 +74,7 @@ const Results = (props: Props) => {
                 </tr>
               </thead>
               <tbody>
-                {show ? generateTableRows(data) : ''}
+                {generateTableRows(data)}
               </tbody>
             </table>
           </div>

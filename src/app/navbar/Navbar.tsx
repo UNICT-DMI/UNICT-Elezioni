@@ -24,9 +24,6 @@ const Navbar: FunctionComponent = () => {
               <li className="nav-item">
                 <Link className="nav-link" to="/dipartimenti">Dipartimenti</Link>
               </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/page">Other Page</Link>
-              </li>
             </ul>
             <div className="navbar-nav mr-auto"></div>
             <a href="https://github.com/UNICT-DMI/UNICT-elezioni" target="_blank" rel="noopener noreferrer">

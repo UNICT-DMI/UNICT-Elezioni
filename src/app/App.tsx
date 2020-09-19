@@ -21,7 +21,7 @@ const App: FunctionComponent = () => {
           </Route>
           <Route path="/cda">
             <Results anno="2018-2020" path="Consiglio_di_amministrazione" />
-            <Results anno="2016-2018" path="Consiglio_di_amministrazione" />
+            {/* <Results anno="2016-2018" path="Consiglio_di_amministrazione" /> */}
           </Route>
           <Route path="/dipartimenti">
             <Results anno="2018-2020" path="dipartimenti/Matematica_e_informatica" />
