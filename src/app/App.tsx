@@ -8,6 +8,7 @@ import {
 import './App.scss';
 import Navbar from './navbar/Navbar';
 import Results from './results/Results';
+import { dipartimenti } from '../data/dipartimenti';
 
 const App: FunctionComponent = () => {
   return (
@@ -24,8 +25,11 @@ const App: FunctionComponent = () => {
             <Results anno="2016-2018" path="Consiglio_di_amministrazione" />
           </Route>
           <Route path="/dipartimenti">
-            <Results anno="2018-2020" path="dipartimenti/Matematica_e_informatica" />
-            <Results anno="2016-2018" path="dipartimenti/Matematica_e_informatica" />
+            {dipartimenti.map(d => [
+              <h3>{d}</h3>,
+              <Results anno="2018-2020" path={`dipartimenti/${d}`} />,
+              <Results anno="2016-2018" path={`dipartimenti/${d}`} />
+            ])}
           </Route>
           <Route path="/not-found">
             <NotFound />

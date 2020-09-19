@@ -18,11 +18,11 @@
             "voti_totali": 36
         },
         {
-            "nome": "FUTURA SANITA'",
+            "nome": "FUTURA SANITÀ",
             "voti_totali": 36
         },
         {
-            "nome": "WE LOVE UNICT",
+            "nome": "WE LOVE UNICT",
             "voti_totali": 36
         }
     ],
@@ -70,22 +70,22 @@
         {
             "nominativo": "BUSCEMI Carlo",
             "voti": "19",
-            "lista": "FUTURA SANITA'"
+            "lista": "FUTURA SANITÀ"
         },
         {
             "nominativo": "FALLICA Giorgio",
             "voti": "12",
-            "lista": "FUTURA SANITA'"
+            "lista": "FUTURA SANITÀ"
         },
         {
             "nominativo": "NICOTRA Simone",
             "voti": "17",
-            "lista": "WE LOVE UNICT"
+            "lista": "WE LOVE UNICT"
         },
         {
             "nominativo": "PARISI Vincenzo",
             "voti": "8",
-            "lista": "WE LOVE UNICT"
+            "lista": "WE LOVE UNICT"
         }
     ],
     "non_eletti": [
@@ -127,32 +127,32 @@
         {
             "nominativo": "LONGO Lorenzo Francesco",
             "voti": "2",
-            "lista": "FUTURA SANITA'"
+            "lista": "FUTURA SANITÀ"
         },
         {
             "nominativo": "GAZZARA Giuseppe Salvatore",
             "voti": "0",
-            "lista": "WE LOVE UNICT"
+            "lista": "WE LOVE UNICT"
         },
         {
             "nominativo": "MANNO Paolo",
             "voti": "0",
-            "lista": "WE LOVE UNICT"
+            "lista": "WE LOVE UNICT"
         },
         {
             "nominativo": "FAZIO Alfio Riccardo",
             "voti": "0",
-            "lista": "WE LOVE UNICT"
+            "lista": "WE LOVE UNICT"
         },
         {
             "nominativo": "PLATANIA Rachele",
             "voti": "1",
-            "lista": "WE LOVE UNICT"
+            "lista": "WE LOVE UNICT"
         },
         {
             "nominativo": "FURNARI Stefano",
             "voti": "2",
-            "lista": "WE LOVE UNICT"
+            "lista": "WE LOVE UNICT"
         }
     ],
     "seggi_da_assegnare": "11",

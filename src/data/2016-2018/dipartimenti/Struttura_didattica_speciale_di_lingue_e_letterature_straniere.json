@@ -6,7 +6,7 @@
     },
     "liste": [
         {
-            "nome": "#NUOVAIBLA",
+            "nome": "NUOVAIBLA",
             "voti_totali": 129
         },
         {
@@ -22,17 +22,17 @@
         {
             "nominativo": "LONGHITANO VITA VALENTINA",
             "voti": "47",
-            "lista": "#NUOVAIBLA"
+            "lista": "NUOVAIBLA"
         },
         {
             "nominativo": "ADDAMO MARIA GABRIELLA",
             "voti": "13",
-            "lista": "#NUOVAIBLA"
+            "lista": "NUOVAIBLA"
         },
         {
             "nominativo": "NICOLOSI ANDREA",
             "voti": "43",
-            "lista": "#NUOVAIBLA"
+            "lista": "NUOVAIBLA"
         },
         {
             "nominativo": "INDIGENO VERONICA",
@@ -44,7 +44,7 @@
         {
             "nominativo": "MUNAFO' GIOVANNI",
             "voti": "8",
-            "lista": "#NUOVAIBLA"
+            "lista": "NUOVAIBLA"
         },
         {
             "nominativo": "SANTORO ELENA",

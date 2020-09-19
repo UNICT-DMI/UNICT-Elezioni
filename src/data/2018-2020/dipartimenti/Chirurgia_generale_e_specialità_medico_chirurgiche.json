@@ -30,7 +30,7 @@
             "voti_totali": 56
         },
         {
-            "nome": "FUTURA SANITA'",
+            "nome": "FUTURA SANITÀ",
             "voti_totali": 80
         },
         {
@@ -38,7 +38,7 @@
             "voti_totali": 227
         },
         {
-            "nome": "WE LOVE UNICT",
+            "nome": "WE LOVE UNICT",
             "voti_totali": 140
         }
     ],
@@ -91,7 +91,7 @@
         {
             "nominativo": "CARCIOTTO Gabriele",
             "voti": "60",
-            "lista": "FUTURA SANITA'"
+            "lista": "FUTURA SANITÀ"
         },
         {
             "nominativo": "MACCARRONE Vincenzo",
@@ -106,7 +106,7 @@
         {
             "nominativo": "PETRALIA Giuseppe ‐ detto \"Peppe\"",
             "voti": "72",
-            "lista": "WE LOVE UNICT"
+            "lista": "WE LOVE UNICT"
         }
     ],
     "non_eletti": [
@@ -378,62 +378,62 @@
         {
             "nominativo": "SAITTA Cesare",
             "voti": "5",
-            "lista": "FUTURA SANITA'"
+            "lista": "FUTURA SANITÀ"
         },
         {
             "nominativo": "MAGLIA Agata",
             "voti": "0",
-            "lista": "FUTURA SANITA'"
+            "lista": "FUTURA SANITÀ"
         },
         {
             "nominativo": "MARCINNO' Rachele",
             "voti": "7",
-            "lista": "FUTURA SANITA'"
+            "lista": "FUTURA SANITÀ"
         },
         {
             "nominativo": "VACCINO Marco",
             "voti": "23",
-            "lista": "FUTURA SANITA'"
+            "lista": "FUTURA SANITÀ"
         },
         {
             "nominativo": "MILANA Massimiliano",
             "voti": "16",
-            "lista": "FUTURA SANITA'"
+            "lista": "FUTURA SANITÀ"
         },
         {
             "nominativo": "LEONFORTE Pierfrancesco",
             "voti": "20",
-            "lista": "FUTURA SANITA'"
+            "lista": "FUTURA SANITÀ"
         },
         {
             "nominativo": "RANDAZZO Alessandro",
             "voti": "3",
-            "lista": "FUTURA SANITA'"
+            "lista": "FUTURA SANITÀ"
         },
         {
             "nominativo": "PETRALIA Sabrina",
             "voti": "9",
-            "lista": "FUTURA SANITA'"
+            "lista": "FUTURA SANITÀ"
         },
         {
             "nominativo": "FIORITO Zaira",
             "voti": "0",
-            "lista": "FUTURA SANITA'"
+            "lista": "FUTURA SANITÀ"
         },
         {
             "nominativo": "MELITA Giuseppe",
             "voti": "1",
-            "lista": "FUTURA SANITA'"
+            "lista": "FUTURA SANITÀ"
         },
         {
             "nominativo": "DI FRANCESCO Antonio",
             "voti": "3",
-            "lista": "FUTURA SANITA'"
+            "lista": "FUTURA SANITÀ"
         },
         {
             "nominativo": "LONGO Giusi Maria Chiara",
             "voti": "13",
-            "lista": "FUTURA SANITA'"
+            "lista": "FUTURA SANITÀ"
         },
         {
             "nominativo": "DI GUARDO Simone",
@@ -493,62 +493,62 @@
         {
             "nominativo": "TRICOMI Leonardo Leandro",
             "voti": "59",
-            "lista": "WE LOVE UNICT"
+            "lista": "WE LOVE UNICT"
         },
         {
             "nominativo": "MINEO Alessandro",
             "voti": "15",
-            "lista": "WE LOVE UNICT"
+            "lista": "WE LOVE UNICT"
         },
         {
             "nominativo": "CASTELLI Gianluca",
             "voti": "13",
-            "lista": "WE LOVE UNICT"
+            "lista": "WE LOVE UNICT"
         },
         {
             "nominativo": "GALATI Salvatore",
             "voti": "2",
-            "lista": "WE LOVE UNICT"
+            "lista": "WE LOVE UNICT"
         },
         {
             "nominativo": "MAUGERI Cristina",
             "voti": "0",
-            "lista": "WE LOVE UNICT"
+            "lista": "WE LOVE UNICT"
         },
         {
             "nominativo": "MAMMANA Giulia",
             "voti": "0",
-            "lista": "WE LOVE UNICT"
+            "lista": "WE LOVE UNICT"
         },
         {
             "nominativo": "LOMBARDO Gianmarco ‐ detto \"Jimbo\"",
             "voti": "0",
-            "lista": "WE LOVE UNICT"
+            "lista": "WE LOVE UNICT"
         },
         {
             "nominativo": "TOSCANO Elena",
             "voti": "7",
-            "lista": "WE LOVE UNICT"
+            "lista": "WE LOVE UNICT"
         },
         {
             "nominativo": "GUZZETTA Carla",
             "voti": "0",
-            "lista": "WE LOVE UNICT"
+            "lista": "WE LOVE UNICT"
         },
         {
             "nominativo": "TORNAMBENE Roberta",
             "voti": "23",
-            "lista": "WE LOVE UNICT"
+            "lista": "WE LOVE UNICT"
         },
         {
             "nominativo": "BOTTINO SBARATTA Chiara",
             "voti": "3",
-            "lista": "WE LOVE UNICT"
+            "lista": "WE LOVE UNICT"
         },
         {
             "nominativo": "CHIANTIA Filippo",
             "voti": "0",
-            "lista": "WE LOVE UNICT"
+            "lista": "WE LOVE UNICT"
         }
     ],
     "seggi_da_assegnare": "13",

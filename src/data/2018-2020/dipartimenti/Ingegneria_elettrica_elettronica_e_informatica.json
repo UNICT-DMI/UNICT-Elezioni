@@ -42,7 +42,7 @@
             "voti_totali": 5
         },
         {
-            "nome": "WE LOVE UNICT",
+            "nome": "WE LOVE UNICT",
             "voti_totali": 35
         }
     ],
@@ -90,7 +90,7 @@
         {
             "nominativo": "PELLEGRINO Giuseppe",
             "voti": "35",
-            "lista": "WE LOVE UNICT"
+            "lista": "WE LOVE UNICT"
         }
     ],
     "non_eletti": [
@@ -422,37 +422,37 @@
         {
             "nominativo": "MANTEGNA Giuseppe",
             "voti": "14",
-            "lista": "WE LOVE UNICT"
+            "lista": "WE LOVE UNICT"
         },
         {
             "nominativo": "GIUFFRIDA Carlo",
             "voti": "0",
-            "lista": "WE LOVE UNICT"
+            "lista": "WE LOVE UNICT"
         },
         {
             "nominativo": "GUARNERA Simone",
             "voti": "3",
-            "lista": "WE LOVE UNICT"
+            "lista": "WE LOVE UNICT"
         },
         {
             "nominativo": "NOCITA Gabriele",
             "voti": "2",
-            "lista": "WE LOVE UNICT"
+            "lista": "WE LOVE UNICT"
         },
         {
             "nominativo": "CHIAVETTA Davide",
             "voti": "1",
-            "lista": "WE LOVE UNICT"
+            "lista": "WE LOVE UNICT"
         },
         {
             "nominativo": "LIBRO Salvatore Enrico",
             "voti": "1",
-            "lista": "WE LOVE UNICT"
+            "lista": "WE LOVE UNICT"
         },
         {
             "nominativo": "CANTALE AEO Giuseppe ‐ detto \"Pepe\"",
             "voti": "8",
-            "lista": "WE LOVE UNICT"
+            "lista": "WE LOVE UNICT"
         }
     ],
     "seggi_da_assegnare": "9",

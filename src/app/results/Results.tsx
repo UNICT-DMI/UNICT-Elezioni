@@ -86,7 +86,7 @@ const Results = (props: Props) => {
 
             <div className={show ? 'invisible' : 'visible'}>
               <Collapse in={!show}>
-                <Table striped bordered hover className="liste mt-4">
+                <Table striped bordered hover className="liste">
                   {generateHead()}
                 </Table>
               </Collapse>
@@ -94,7 +94,7 @@ const Results = (props: Props) => {
 
               <Collapse in={show}>
                 <div id="example-collapse-text">
-                  <Table striped bordered hover className="liste mt-4">
+                  <Table striped bordered hover className="liste">
                     {generateHead()}
                     <tbody>
                       {generateTableRows(data)}
