@@ -1,3 +1,4 @@
+import { kMaxLength } from 'buffer';
 import { Console } from 'console';
 import { transpileModule } from 'typescript';
 import { Info, Candidato, schede, elettori, seggi, query, candidati } from './parser.model';
@@ -110,8 +111,14 @@ class Parser {
     }
 
     private isMatch(el: string): boolean {
+        let match = true;
         let s1 = this.info.liste[this.idxList].nome.split(" ");
-        return el.includes(s1[0]);
+        let s2 = el.split(" ");
+        if(s1.length < s2.length || s1.length > s2.length) return false;
+        for(let i=0; i<s2.length && match; ++i) {
+            match = (s1[i] == s2[i]); 
+        }
+        return match;
     }
 
     private extractSchede(el: any[]): void {
@@ -152,7 +159,6 @@ class Parser {
                 this.doc.scrapeLists(this.info, data);
 
                 data.forEach((el: any[]) => {
-
                     if (this.isEndList(el)) {
                         this.idxList++;
                         this.newList = true;

@@ -6,7 +6,7 @@
     },
     "liste": [
         {
-            "nome": "UNIVERSITÀ POPOLARE",
+            "nome": "UNIVERSITA' POPOLARE",
             "voti_totali": 1103
         },
         {
@@ -14,11 +14,11 @@
             "voti_totali": 1202
         },
         {
-            "nome": "ARCHÈ",
+            "nome": "ARCHE'",
             "voti_totali": 1504
         },
         {
-            "nome": "LIBERTÀ È PARTECIPAZIONE",
+            "nome": "LIBERTA' E' PARTECIPAZIONE",
             "voti_totali": 791
         },
         {
@@ -47,7 +47,12 @@
         {
             "nominativo": "DI MAURO Sergio",
             "voti": "437",
-            "lista": "ARCHÈ"
+            "lista": "ARCHE'"
+        },
+        {
+            "nominativo": "MOSCHETTO Antonino Andrea ‐ detto \"Antonio\"",
+            "voti": "744",
+            "lista": "LA FINESTRA - ACTEA"
         },
         {
             "nominativo": "FAVA Giuseppe ‐ detto \"Peppe\"",
@@ -69,32 +74,32 @@
         {
             "nominativo": "FURNITTO Gianluca",
             "voti": "350",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "lista": "UNIVERSITA' POPOLARE"
         },
         {
             "nominativo": "CUTTONE Ottavia ‐ detta \"Cottone\"",
             "voti": "190",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "lista": "UNIVERSITA' POPOLARE"
         },
         {
             "nominativo": "GENTILE Irene",
             "voti": "60",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "lista": "UNIVERSITA' POPOLARE"
         },
         {
             "nominativo": "MAZZARINO Giuseppe",
             "voti": "208",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "lista": "UNIVERSITA' POPOLARE"
         },
         {
             "nominativo": "TOSCANO Dylan Mario ‐ detto \"Dylan\"",
             "voti": "161",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "lista": "UNIVERSITA' POPOLARE"
         },
         {
             "nominativo": "DI PERNA Tania Rita",
             "voti": "29",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "lista": "UNIVERSITA' POPOLARE"
         },
         {
             "nominativo": "ALBANI Marco Sesto",
@@ -124,86 +129,81 @@
         {
             "nominativo": "BIZZINI Elena",
             "voti": "81",
-            "lista": "ARCHÈ"
+            "lista": "ARCHE'"
         },
         {
             "nominativo": "CACCAMESE Dario",
             "voti": "219",
-            "lista": "ARCHÈ"
+            "lista": "ARCHE'"
         },
         {
             "nominativo": "CAVALLI Emanuele",
             "voti": "15",
-            "lista": "ARCHÈ"
+            "lista": "ARCHE'"
         },
         {
             "nominativo": "PANEBIANCO Pierpaolo",
             "voti": "432",
-            "lista": "ARCHÈ"
+            "lista": "ARCHE'"
         },
         {
             "nominativo": "TRICOMI Gianluca",
             "voti": "94",
-            "lista": "ARCHÈ"
+            "lista": "ARCHE'"
         },
         {
             "nominativo": "TROVATO Salvatore Gabriele",
             "voti": "244",
-            "lista": "LIBERTÀ È PARTECIPAZIONE"
+            "lista": "LIBERTA' E' PARTECIPAZIONE"
         },
         {
             "nominativo": "SALERNO Leonardo",
             "voti": "198",
-            "lista": "LIBERTÀ È PARTECIPAZIONE"
+            "lista": "LIBERTA' E' PARTECIPAZIONE"
         },
         {
             "nominativo": "PUTRINO Paolo",
             "voti": "136",
-            "lista": "LIBERTÀ È PARTECIPAZIONE"
+            "lista": "LIBERTA' E' PARTECIPAZIONE"
         },
         {
             "nominativo": "DI GIORGIO Valeria",
             "voti": "49",
-            "lista": "LIBERTÀ È PARTECIPAZIONE"
+            "lista": "LIBERTA' E' PARTECIPAZIONE"
         },
         {
             "nominativo": "NAVARRA Francesco Paolo",
             "voti": "35",
-            "lista": "LIBERTÀ È PARTECIPAZIONE"
+            "lista": "LIBERTA' E' PARTECIPAZIONE"
         },
         {
             "nominativo": "LO PORTO Aurora",
             "voti": "41",
-            "lista": "LIBERTÀ È PARTECIPAZIONE"
+            "lista": "LIBERTA' E' PARTECIPAZIONE"
         },
         {
-            "nominativo": "FURNITTO Gianluca",
-            "voti": "350",
+            "nominativo": "COSTANZO Carlotta",
+            "voti": "550",
             "lista": "LA FINESTRA - ACTEA"
         },
         {
-            "nominativo": "CUTTONE Ottavia ‐ detta \"Cottone\"",
-            "voti": "190",
+            "nominativo": "MONASTRA Dario",
+            "voti": "186",
             "lista": "LA FINESTRA - ACTEA"
         },
         {
-            "nominativo": "GENTILE Irene",
-            "voti": "60",
+            "nominativo": "CALACIURA Giuseppe",
+            "voti": "314",
             "lista": "LA FINESTRA - ACTEA"
         },
         {
-            "nominativo": "MAZZARINO Giuseppe",
-            "voti": "208",
+            "nominativo": "DI PAOLA Francesco Federico",
+            "voti": "292",
             "lista": "LA FINESTRA - ACTEA"
         },
         {
-            "nominativo": "TOSCANO Dylan Mario ‐ detto \"Dylan\"",
-            "voti": "161",
-            "lista": "LA FINESTRA - ACTEA"
-        },
-        {
-            "nominativo": "DI PERNA Tania Rita",
-            "voti": "29",
+            "nominativo": "CHISARI Simona",
+            "voti": "3",
             "lista": "LA FINESTRA - ACTEA"
         },
         {
