@@ -1,8 +1,8 @@
 import React, { FunctionComponent } from 'react';
 import {
-  BrowserRouter as Router,
   Switch,
   Route,
+  HashRouter,
   Redirect,
 } from "react-router-dom";
 import './App.scss';
@@ -13,7 +13,7 @@ import { dipartimenti } from '../data/dipartimenti';
 const App: FunctionComponent = () => {
   return (
     <div className="App">
-      <Router>
+      <HashRouter>
         <Menu />
         <Switch>
           <Route path="/senato">
@@ -42,7 +42,7 @@ const App: FunctionComponent = () => {
           </Route>
           <Redirect to='/senato' />
         </Switch>
-      </Router>
+      </HashRouter>
     </div>
   );
 }
