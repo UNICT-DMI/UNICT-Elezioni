@@ -16,19 +16,19 @@ const App: FunctionComponent = () => {
       <Router>
         <Menu />
         <Switch>
-          <Route path="/senato">
+          <Route exact path="/senato">
             <h2 className="mt-5">Senato</h2>
             <br />
             <Results anno="2018-2020" path="Senato" />
             <Results anno="2016-2018" path="Senato" />
           </Route>
-          <Route path="/cda">
+          <Route exact path="/cda">
             <h2 className="mt-5">Consiglio di Amministrazione</h2>
             <br />
             <Results anno="2018-2020" path="Consiglio_di_amministrazione" />
             <Results anno="2016-2018" path="Consiglio_di_amministrazione" />
           </Route>
-          <Route path="/dipartimenti">
+          <Route exact path="/dipartimenti">
             <h2 className="mt-5">Dipartimenti</h2>
             <br />
             {dipartimenti.map(d => [
@@ -37,7 +37,7 @@ const App: FunctionComponent = () => {
               <Results anno="2016-2018" path={`dipartimenti/${d}`} />
             ])}
           </Route>
-          <Route path="/not-found">
+          <Route exact path="/not-found">
             <NotFound />
           </Route>
           <Redirect to='/senato' />

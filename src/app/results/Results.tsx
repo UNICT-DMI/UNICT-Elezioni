@@ -52,7 +52,21 @@ const Results = (props: Props) => {
   function fix_names(name: string): string {
     return name.replace('#', '')
                .replace(/ /g, ' ')
-               .replace(/ /g, ' ')
+               .replace(/ /g, ' ')
+               .replace('ALLENZA UNIVERSITARIA', 'ALLEANZA UNIVERSITARIA')
+               .replace('NIKE  ‐  ARCADIA', 'ARCADIA - NIKE')
+               .replace('INGENERIATTIVA', 'INGEGNERIATTIVA')
+               .replace('LA FINESTRA  ‐  LIBERI DI SCEGLIERE', 'LA FINESTRA ‐ LIBERI DI SCEGLIERE')
+               .replace('LA FINESTRA‐LIBERI DI SCEGLIERE', 'LA FINESTRA ‐ LIBERI DI SCEGLIERE')
+               .replace('LIBERTAS LIBERI E FORTI', 'LIBERTAS')
+               .replace('NUOVA IBLA', 'NUOVAIBLA')
+               .replace('SANI LAB', 'SANILAB')
+               .replace('ECONOMIATTIVA', 'ECONOMIA ATTIVA')
+               .replace('WE LOVE UNICT/CREDIAMOCI', 'WE LOVE UNICT')
+               .replace('WE LOVE UNICT - ARES', 'WE LOVE UNICT')
+               .replace('PARTECIPA ‐ SOS GIURISTI', 'PARTECIPA')
+               .replace('ARCADIA ‐ REVOLUTION', 'ARCADIA REVOLUTION')
+               .replace('UDU - UNIONE DEGLI UNIVERSITARI', 'UDU  ‐  UNIONE DEGLI UNIVERSITARI')
                .replace(new RegExp("E'", "g"), 'È')
                .replace(new RegExp("A'", "g"), 'À');
   }
@@ -68,9 +82,12 @@ const Results = (props: Props) => {
           <th className="year">{props.anno} </th>
           { data.liste.map((l: any) =>
           <th key={props.anno + '-lista-' + l.nome}>
-            <img src={`loghi/${fix_names(l.nome)}.jpg`} width="80" height="80" alt={l.nome}></img>
-            <p></p>
-            {l.nome} ({l.voti_totali})
+            <div className="logo" key={props.anno + '-logo-' + l.nome}>
+              <img src={`loghi/${fix_names(l.nome)}.jpg`} width="80" height="80" alt={l.nome}></img>
+            </div>
+            <div className="sub-logo" key={props.anno + '-name-' + l.nome}>
+              {l.nome} ({l.voti_totali})
+            </div>
           </th>) }
         </tr>
       </thead>
@@ -94,7 +111,7 @@ const Results = (props: Props) => {
 
             <div className={show ? 'invisible' : 'visible'}>
               <Collapse in={!show}>
-                <Table striped bordered hover className="liste">
+                <Table striped bordered hover responsive className="liste">
                   {generateHead()}
                 </Table>
               </Collapse>
