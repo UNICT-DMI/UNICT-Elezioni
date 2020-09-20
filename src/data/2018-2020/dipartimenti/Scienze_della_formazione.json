@@ -34,7 +34,7 @@
             "voti_totali": 33
         },
         {
-            "nome": "AZIONE UNIVERSITARIA",
+            "nome": "AZIONE UNIVERSITARIA",
             "voti_totali": 123
         }
     ],
@@ -62,22 +62,22 @@
         {
             "nominativo": "BRUNETTO Fabiana",
             "voti": "183",
-            "lista": "AZIONE UNIVERSITARIA"
+            "lista": "AZIONE UNIVERSITARIA"
         },
         {
             "nominativo": "BATTAGLIA Gabriele Mauro",
             "voti": "85",
-            "lista": "AZIONE UNIVERSITARIA"
+            "lista": "AZIONE UNIVERSITARIA"
         },
         {
             "nominativo": "SACCUTA Luisa",
             "voti": "30",
-            "lista": "AZIONE UNIVERSITARIA"
+            "lista": "AZIONE UNIVERSITARIA"
         },
         {
             "nominativo": "GULLIFA Palma Emanuela",
             "voti": "19",
-            "lista": "AZIONE UNIVERSITARIA"
+            "lista": "AZIONE UNIVERSITARIA"
         }
     ],
     "non_eletti": [
@@ -259,22 +259,22 @@
         {
             "nominativo": "DI SIMONE Valentina",
             "voti": "16",
-            "lista": "AZIONE UNIVERSITARIA"
+            "lista": "AZIONE UNIVERSITARIA"
         },
         {
             "nominativo": "DRAGO Alessia Maria",
             "voti": "2",
-            "lista": "AZIONE UNIVERSITARIA"
+            "lista": "AZIONE UNIVERSITARIA"
         },
         {
             "nominativo": "GAGLIANO Giuseppe",
             "voti": "15",
-            "lista": "AZIONE UNIVERSITARIA"
+            "lista": "AZIONE UNIVERSITARIA"
         },
         {
             "nominativo": "SEMINARA Rosaria",
             "voti": "1",
-            "lista": "AZIONE UNIVERSITARIA"
+            "lista": "AZIONE UNIVERSITARIA"
         }
     ],
     "seggi_da_assegnare": "8",
