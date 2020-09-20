@@ -1,11 +1,18 @@
-import React, { FunctionComponent } from 'react';
+import React, { useEffect, useState } from 'react';
 import './Results.scss';
+import Collapse from 'react-bootstrap/Collapse';
+import Table from 'react-bootstrap/Table';
 
-const dmi = require('../../data/2018-2020/dipartimenti/dmi.json');
+interface Props {
+  anno?: string;
+  path?: string;
+}
 
-const Results: FunctionComponent = () => {
+const Results = (props: Props) => {
+  const data = require(`../../data/${props.anno}/${props.path}.json`);
+  const [show, setShow] = useState(false);
 
-  function generateTableRows(data: any) {
+  function generateTableRows(data: any): JSX.Element[] {
 
     // init results
     const results: { [key: string]: any[] } = {}; // any -> eletti[]
@@ -21,15 +28,20 @@ const Results: FunctionComponent = () => {
     const tableRows = [];
     for(let i = 0; i < maxRows; i++)  {
       tableRows.push(
-        <tr key={i}>
-          {Object.keys(results).map(l =>
-            <td key={l + '-' + i}>
-              {(results[l] && results[l][i]) ? ([
-                `${results[l][i].nominativo} (${results[l][i].voti})`,
-                results[l][i].eletto ? (<img src="coccarda.png" alt="eletto" width="16" height="30" className="float-right" />) : ''
-              ]) : ''}
-            </td>)
-          }
+        <tr key={`${props.anno}-${i}`}>
+          <td></td>
+          {Object.keys(results).map(l => 
+            <td key={`${props.anno}-${l}-${i}`}>
+
+              {(results[l] && results[l][i]) ? (
+                [
+                  `${results[l][i].nominativo} (${results[l][i].voti})`,
+                  results[l][i].eletto ? (<img key={`coccarda-${i}`} src="coccarda.png" alt="eletto" width="16" height="30" className="float-right" />) : ''
+                ]
+              ) : ''}
+
+            </td>
+          )}
         </tr>
       )
     }
@@ -37,33 +49,73 @@ const Results: FunctionComponent = () => {
     return tableRows;
   }
 
+  function fix_names(name: string): string {
+    return name.replace('#', '')
+               .replace(/ /g, ' ')
+               .replace(/ /g, ' ')
+               .replace(new RegExp("E'", "g"), 'È')
+               .replace(new RegExp("A'", "g"), 'À');
+  }
+
+  function generateHead(): JSX.Element {
+    return (
+        <thead>
+        <tr
+          onClick={toggleBody}
+          aria-controls="example-collapse-text"
+          aria-expanded={show}
+        >
+          <th className="year">{props.anno} </th>
+          { data.liste.map((l: any) =>
+          <th key={props.anno + '-lista-' + l.nome}>
+            <img src={`loghi/${fix_names(l.nome)}.jpg`} width="80" height="80" alt={l.nome}></img>
+            <p></p>
+            {l.nome} ({l.voti_totali})
+          </th>) }
+        </tr>
+      </thead>
+    );
+  }
+
+  function toggleBody(e: any) {
+    e.preventDefault();
+    setShow(!show);
+  }
+
+  useEffect(() => {}, [show]);
+
   return (
-    <div className="Results mt-5">
-      <div className="container">
-        <h2>Risultati Elezioni Universitarie</h2>
+    <div className="Results">
+      <div className="container-fluid">
 
         <div className="row">
           <div className="col-12">
-            <div className="mt-5">
-              <h2>Dipartimento: {dmi.dipartimento}</h2>
-                <table className="liste mt-4 table table-bordered table-striped">
-                  <thead>
-                    <tr>
-                      { dmi.liste.map((l: any) =>
-                      <th key={l}>
-                        <img src={`loghi/${l.nome}.jpg`} width="80" height="80" alt={l.nome}></img>
-                        <br/>
-                        {l.nome}
-                      </th>) }
-                    </tr>
-                  </thead>
-                  <tbody>
-                      {generateTableRows(dmi)}
-                  </tbody>
-                </table>
+            {/* <h2>Dipartimento: {data.dipartimento}</h2> */}
+
+            <div className={show ? 'invisible' : 'visible'}>
+              <Collapse in={!show}>
+                <Table striped bordered hover className="liste">
+                  {generateHead()}
+                </Table>
+              </Collapse>
             </div>
+
+              <Collapse in={show}>
+                <div id="example-collapse-text">
+                  <Table striped bordered hover className="liste">
+                    {generateHead()}
+                    <tbody>
+                      {generateTableRows(data)}
+                    </tbody>
+                  </Table>
+                </div>
+              </Collapse>
+
           </div>
         </div>
+
+        <br />
+        <br />
 
       </div>
     </div>

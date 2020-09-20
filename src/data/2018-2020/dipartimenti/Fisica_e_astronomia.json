@@ -10,7 +10,7 @@
             "voti_totali": 135
         },
         {
-            "nome": "ARCHE'",
+            "nome": "ARCHÈ",
             "voti_totali": 16
         }
     ],
@@ -53,7 +53,7 @@
         {
             "nominativo": "URSINO Federico",
             "voti": "11",
-            "lista": "ARCHE'"
+            "lista": "ARCHÈ"
         }
     ],
     "non_eletti": [
@@ -75,12 +75,12 @@
         {
             "nominativo": "GIUSTOLISI Lorenzo",
             "voti": "2",
-            "lista": "ARCHE'"
+            "lista": "ARCHÈ"
         },
         {
             "nominativo": "PERNA Adriano",
             "voti": "0",
-            "lista": "ARCHE'"
+            "lista": "ARCHÈ"
         }
     ],
     "seggi_da_assegnare": "8",

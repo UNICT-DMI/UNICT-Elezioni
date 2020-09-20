@@ -1,0 +1,500 @@
+{
+    "schede": {
+        "Schede Bianche": "41",
+        "Schede Nulle": "23",
+        "Schede Contestate": "0"
+    },
+    "liste": [
+        {
+            "nome": "ACTEA",
+            "voti_totali": 52
+        },
+        {
+            "nome": "ORIZZONTE ITALIA",
+            "voti_totali": 19
+        },
+        {
+            "nome": "LA FINESTRA‐LIBERI DI SCEGLIERE",
+            "voti_totali": 19
+        },
+        {
+            "nome": "UNIVERSITÀ POPOLARE",
+            "voti_totali": 67
+        },
+        {
+            "nome": "NIKE",
+            "voti_totali": 32
+        },
+        {
+            "nome": "REVOLUTION",
+            "voti_totali": 32
+        },
+        {
+            "nome": "ARCADIA",
+            "voti_totali": 60
+        },
+        {
+            "nome": "WE LOVE UNICT",
+            "voti_totali": 84
+        },
+        {
+            "nome": "CREDIAMOCI",
+            "voti_totali": 46
+        },
+        {
+            "nome": "IRIDE",
+            "voti_totali": 65
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "voti_totali": 5
+        },
+        {
+            "nome": "ALLEANZA UNIVERSITARIA",
+            "voti_totali": 5
+        },
+        {
+            "nome": "CONTROCAMPUS ‐ POPOLO DEGLI STUDENTI ‐ ARES",
+            "voti_totali": 26
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "MUSUMECI Salvatore",
+            "voti": "27",
+            "lista": "ACTEA"
+        },
+        {
+            "nominativo": "GUAGLIARDO Prospero",
+            "voti": "37",
+            "lista": "LA FINESTRA‐LIBERI DI SCEGLIERE"
+        },
+        {
+            "nominativo": "ZAPPALA' Walter",
+            "voti": "40",
+            "lista": "NIKE"
+        },
+        {
+            "nominativo": "PATERNO' Tommaso",
+            "voti": "48",
+            "lista": "REVOLUTION"
+        },
+        {
+            "nominativo": "SEZZI Corrado",
+            "voti": "52",
+            "lista": "ARCADIA"
+        },
+        {
+            "nominativo": "FARACI Manfredi",
+            "voti": "26",
+            "lista": "ARCADIA"
+        },
+        {
+            "nominativo": "CONSOLI Rosario",
+            "voti": "45",
+            "lista": "ARCADIA"
+        },
+        {
+            "nominativo": "LEONARDI Alessandra",
+            "voti": "71",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "SEQUENZIA Gianluca",
+            "voti": "12",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "MURABITO Andrea ‐ detto \"Mura\"",
+            "voti": "37",
+            "lista": "CREDIAMOCI"
+        },
+        {
+            "nominativo": "DI STEFANO Salvatore",
+            "voti": "44",
+            "lista": "AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "SAETTA Michele",
+            "voti": "39",
+            "lista": "AZIONE UNIVERSITARIA"
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "NICOLOSI Alberto",
+            "voti": "16",
+            "lista": "ACTEA"
+        },
+        {
+            "nominativo": "PIRRACCHIO Raimondo Giovanni",
+            "voti": "1",
+            "lista": "ACTEA"
+        },
+        {
+            "nominativo": "COLOMBO Marco",
+            "voti": "0",
+            "lista": "ACTEA"
+        },
+        {
+            "nominativo": "VIAGGIO Irene",
+            "voti": "4",
+            "lista": "ACTEA"
+        },
+        {
+            "nominativo": "PIPITONE Alessandro",
+            "voti": "10",
+            "lista": "ORIZZONTE ITALIA"
+        },
+        {
+            "nominativo": "MAGRI' Antonio",
+            "voti": "17",
+            "lista": "ORIZZONTE ITALIA"
+        },
+        {
+            "nominativo": "MAZZA Lucia",
+            "voti": "1",
+            "lista": "ORIZZONTE ITALIA"
+        },
+        {
+            "nominativo": "SCUDERI Giulia",
+            "voti": "1",
+            "lista": "ORIZZONTE ITALIA"
+        },
+        {
+            "nominativo": "CASTRO Alice",
+            "voti": "0",
+            "lista": "ORIZZONTE ITALIA"
+        },
+        {
+            "nominativo": "PASTORE Arianna",
+            "voti": "0",
+            "lista": "ORIZZONTE ITALIA"
+        },
+        {
+            "nominativo": "CIACCHELLA Carmelo Sebastiano",
+            "voti": "1",
+            "lista": "LA FINESTRA‐LIBERI DI SCEGLIERE"
+        },
+        {
+            "nominativo": "GULISANO Giuseppe Antonio",
+            "voti": "2",
+            "lista": "LA FINESTRA‐LIBERI DI SCEGLIERE"
+        },
+        {
+            "nominativo": "VINCI Simona",
+            "voti": "0",
+            "lista": "LA FINESTRA‐LIBERI DI SCEGLIERE"
+        },
+        {
+            "nominativo": "DI PERNA Maria Chiara",
+            "voti": "0",
+            "lista": "LA FINESTRA‐LIBERI DI SCEGLIERE"
+        },
+        {
+            "nominativo": "CALVO Francesca",
+            "voti": "0",
+            "lista": "LA FINESTRA‐LIBERI DI SCEGLIERE"
+        },
+        {
+            "nominativo": "BRUNO Giorgia",
+            "voti": "2",
+            "lista": "LA FINESTRA‐LIBERI DI SCEGLIERE"
+        },
+        {
+            "nominativo": "MACCARRONE Roberto",
+            "voti": "1",
+            "lista": "LA FINESTRA‐LIBERI DI SCEGLIERE"
+        },
+        {
+            "nominativo": "ALLEGRA Federico",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "CAIRONE Fiorella",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "MACCARRONE Giorgia",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "MILIO Davide",
+            "voti": "10",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "SANTONOCITO Alberto",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "ZINGALE Noemi Maria",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "MORO Giorgia",
+            "voti": "11",
+            "lista": "NIKE"
+        },
+        {
+            "nominativo": "QASEM Omar",
+            "voti": "0",
+            "lista": "NIKE"
+        },
+        {
+            "nominativo": "SAPUPPO Giuseppe",
+            "voti": "4",
+            "lista": "NIKE"
+        },
+        {
+            "nominativo": "ROMANO Luigi",
+            "voti": "0",
+            "lista": "NIKE"
+        },
+        {
+            "nominativo": "GIAMBELLO Chiara",
+            "voti": "12",
+            "lista": "REVOLUTION"
+        },
+        {
+            "nominativo": "RAPISARDA Ylenia",
+            "voti": "1",
+            "lista": "REVOLUTION"
+        },
+        {
+            "nominativo": "MARRARO Giuliana",
+            "voti": "0",
+            "lista": "REVOLUTION"
+        },
+        {
+            "nominativo": "BRACCIOLANO Monica",
+            "voti": "0",
+            "lista": "REVOLUTION"
+        },
+        {
+            "nominativo": "URSO Umberto",
+            "voti": "0",
+            "lista": "REVOLUTION"
+        },
+        {
+            "nominativo": "BRIGHINA Miriana",
+            "voti": "0",
+            "lista": "REVOLUTION"
+        },
+        {
+            "nominativo": "SANZONE Maria Giulia",
+            "voti": "0",
+            "lista": "REVOLUTION"
+        },
+        {
+            "nominativo": "GARUFI Jennifer",
+            "voti": "14",
+            "lista": "ARCADIA"
+        },
+        {
+            "nominativo": "MODONI Eugenia Maria",
+            "voti": "11",
+            "lista": "ARCADIA"
+        },
+        {
+            "nominativo": "D'ANGELO Marco",
+            "voti": "5",
+            "lista": "ARCADIA"
+        },
+        {
+            "nominativo": "SGRO Ramona",
+            "voti": "4",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "CORIANO' Edoardo",
+            "voti": "6",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "ANZALONE Claudia",
+            "voti": "0",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "GALLINA Roberto",
+            "voti": "3",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "POMA Gabriele Alessio",
+            "voti": "0",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "AMATA Chiara",
+            "voti": "0",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "PONZO Arianna",
+            "voti": "2",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "GIUGA Rosalia",
+            "voti": "3",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "RINCIARI Aldea",
+            "voti": "1",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "NAVARRIA Gianmarco",
+            "voti": "7",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "PLATANIA Eliana Maria",
+            "voti": "17",
+            "lista": "CREDIAMOCI"
+        },
+        {
+            "nominativo": "CANNAVO' Cosimo Francesco",
+            "voti": "0",
+            "lista": "CREDIAMOCI"
+        },
+        {
+            "nominativo": "PULVIRENTI Salvatore ‐ detto \"Toti\"",
+            "voti": "0",
+            "lista": "CREDIAMOCI"
+        },
+        {
+            "nominativo": "FINOCCHIARO Giulia",
+            "voti": "0",
+            "lista": "CREDIAMOCI"
+        },
+        {
+            "nominativo": "PEPE Andrea",
+            "voti": "0",
+            "lista": "CREDIAMOCI"
+        },
+        {
+            "nominativo": "RATTIZZATO Vittorio",
+            "voti": "0",
+            "lista": "CREDIAMOCI"
+        },
+        {
+            "nominativo": "PICCIONE Luigi",
+            "voti": "0",
+            "lista": "CREDIAMOCI"
+        },
+        {
+            "nominativo": "MORABITO Daniele",
+            "voti": "6",
+            "lista": "CREDIAMOCI"
+        },
+        {
+            "nominativo": "LE MURA Ylenia Francesca",
+            "voti": "2",
+            "lista": "IRIDE"
+        },
+        {
+            "nominativo": "FAZZI Alessia",
+            "voti": "0",
+            "lista": "IRIDE"
+        },
+        {
+            "nominativo": "MILITANO Andrea",
+            "voti": "0",
+            "lista": "IRIDE"
+        },
+        {
+            "nominativo": "PISCIOTTA Vincenzo",
+            "voti": "0",
+            "lista": "IRIDE"
+        },
+        {
+            "nominativo": "TIZIANO Gaia",
+            "voti": "24",
+            "lista": "AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "BONANNO Emanuele",
+            "voti": "0",
+            "lista": "AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "FASSARI Alberto",
+            "voti": "0",
+            "lista": "AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "LA SPINA Cristian",
+            "voti": "0",
+            "lista": "ALLEANZA UNIVERSITARIA"
+        },
+        {
+            "nominativo": "VEERAMAH Veeren",
+            "voti": "12",
+            "lista": "ALLEANZA UNIVERSITARIA"
+        },
+        {
+            "nominativo": "D'AGOSTINO Giulia",
+            "voti": "0",
+            "lista": "ALLEANZA UNIVERSITARIA"
+        },
+        {
+            "nominativo": "PRIVITERA Davide Domenico",
+            "voti": "10",
+            "lista": "ALLEANZA UNIVERSITARIA"
+        },
+        {
+            "nominativo": "RANERI Guido",
+            "voti": "25",
+            "lista": "CONTROCAMPUS ‐ POPOLO DEGLI STUDENTI ‐ ARES"
+        },
+        {
+            "nominativo": "CANTARELLA Erica",
+            "voti": "0",
+            "lista": "CONTROCAMPUS ‐ POPOLO DEGLI STUDENTI ‐ ARES"
+        },
+        {
+            "nominativo": "ALOSI Federica",
+            "voti": "1",
+            "lista": "CONTROCAMPUS ‐ POPOLO DEGLI STUDENTI ‐ ARES"
+        },
+        {
+            "nominativo": "DI STEFANO Agnese",
+            "voti": "4",
+            "lista": "CONTROCAMPUS ‐ POPOLO DEGLI STUDENTI ‐ ARES"
+        },
+        {
+            "nominativo": "GIUGNO Carlo",
+            "voti": "0",
+            "lista": "CONTROCAMPUS ‐ POPOLO DEGLI STUDENTI ‐ ARES"
+        },
+        {
+            "nominativo": "MOLE' Giuseppe",
+            "voti": "3",
+            "lista": "CONTROCAMPUS ‐ POPOLO DEGLI STUDENTI ‐ ARES"
+        },
+        {
+            "nominativo": "SCALISI Ambra",
+            "voti": "0",
+            "lista": "CONTROCAMPUS ‐ POPOLO DEGLI STUDENTI ‐ ARES"
+        },
+        {
+            "nominativo": "SCIUTO Alfio",
+            "voti": "0",
+            "lista": "CONTROCAMPUS ‐ POPOLO DEGLI STUDENTI ‐ ARES"
+        }
+    ],
+    "seggi_da_assegnare": "12",
+    "dipartimento": "SCIENZE POLITICHE E SOCIALI",
+    "quoziente": "69,583",
+    "votanti": "899",
+    "perc_votanti": "30,03"
+}

@@ -1,0 +1,144 @@
+{
+    "schede": {
+        "Schede Bianche": "35",
+        "Schede Nulle": "17",
+        "Schede Contestate": "0"
+    },
+    "liste": [
+        {
+            "nome": "ACTEA",
+            "voti_totali": 63
+        },
+        {
+            "nome": "LINK ‐ STUDENTI INDIPENDENTI",
+            "voti_totali": 118
+        },
+        {
+            "nome": "UNIVERSITÀ POPOLARE",
+            "voti_totali": 4
+        },
+        {
+            "nome": "WE LOVE UNICT",
+            "voti_totali": 182
+        },
+        {
+            "nome": "ALLEANZA UNIVERSITARIA",
+            "voti_totali": 50
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "BORZI' Alfio Marco",
+            "voti": "23",
+            "lista": "ACTEA"
+        },
+        {
+            "nominativo": "MENDOZA Ruvic Esguerra",
+            "voti": "7",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "SQUADRITO Alfio",
+            "voti": "7",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "FERLITO Marco Maria",
+            "voti": "151",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "COCORULLO Mario",
+            "voti": "33",
+            "lista": "ALLEANZA UNIVERSITARIA"
+        },
+        {
+            "nominativo": "TORTORICI Francesco Pio",
+            "voti": "40",
+            "lista": "ALLEANZA UNIVERSITARIA"
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "COMMIS Lorenzo",
+            "voti": "19",
+            "lista": "ACTEA"
+        },
+        {
+            "nominativo": "FIGLIOLI Anna",
+            "voti": "8",
+            "lista": "ACTEA"
+        },
+        {
+            "nominativo": "BONACCORSO Alice",
+            "voti": "0",
+            "lista": "ACTEA"
+        },
+        {
+            "nominativo": "SCUDERI Catherine",
+            "voti": "0",
+            "lista": "ACTEA"
+        },
+        {
+            "nominativo": "GIULIO Ludovica",
+            "voti": "0",
+            "lista": "ACTEA"
+        },
+        {
+            "nominativo": "CARNAZZA Giulia",
+            "voti": "0",
+            "lista": "ACTEA"
+        },
+        {
+            "nominativo": "FUSARI Francesco",
+            "voti": "16",
+            "lista": "LINK ‐ STUDENTI INDIPENDENTI"
+        },
+        {
+            "nominativo": "MONTALTO Giada",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "RIZZA Giulia",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "MOTTA Gabriele Salvatore",
+            "voti": "0",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "MAGISTRO Damiana",
+            "voti": "1",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "SANGIORGIO Paola",
+            "voti": "2",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "D'ALPA Francesco",
+            "voti": "0",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "PORROVECCHIO Manuela",
+            "voti": "16",
+            "lista": "ALLEANZA UNIVERSITARIA"
+        },
+        {
+            "nominativo": "SICLARI Eleonora",
+            "voti": "0",
+            "lista": "ALLEANZA UNIVERSITARIA"
+        }
+    ],
+    "seggi_da_assegnare": "7",
+    "dipartimento": "SCIENZE BIOLOGICHE GEOLOGICHE E AMBIENTALI",
+    "quoziente": "56,5714",
+    "votanti": "448",
+    "perc_votanti": "29,75",
+    "elettori": "1506"
+}

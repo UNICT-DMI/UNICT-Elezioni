@@ -1,0 +1,15 @@
+{
+    "schede": {
+        "Schede Bianche": "11",
+        "Schede Nulle": "9",
+        "Schede Contestate": "0"
+    },
+    "liste": [],
+    "eletti": [],
+    "non_eletti": [],
+    "seggi_da_assegnare": "TOTALE",
+    "dipartimento": "FISICA ED ASTRONOMIA - DFA",
+    "quoziente": "13,6",
+    "votanti": "156",
+    "perc_votanti": "39,49"
+}

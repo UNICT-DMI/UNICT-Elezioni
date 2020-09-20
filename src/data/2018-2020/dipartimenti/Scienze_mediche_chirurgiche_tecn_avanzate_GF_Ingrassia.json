@@ -1,0 +1,169 @@
+{
+    "schede": {
+        "Schede Bianche": "17",
+        "Schede Nulle": "17",
+        "Schede Contestate": "0"
+    },
+    "liste": [
+        {
+            "nome": "ARCHÈ",
+            "voti_totali": 48
+        },
+        {
+            "nome": "UNIVERSITÀ POPOLARE",
+            "voti_totali": 21
+        },
+        {
+            "nome": "SANILAB",
+            "voti_totali": 149
+        },
+        {
+            "nome": "INFERMIERISTICAMENTE",
+            "voti_totali": 139
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "VIRZI' LAVIO Luciano",
+            "voti": "20",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "DI PERNA Tania Rita",
+            "voti": "14",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "ZERBO Celeste",
+            "voti": "48",
+            "lista": "SANILAB"
+        },
+        {
+            "nominativo": "CORVAIA Davide",
+            "voti": "12",
+            "lista": "SANILAB"
+        },
+        {
+            "nominativo": "COSTANZO Salvatore",
+            "voti": "19",
+            "lista": "SANILAB"
+        },
+        {
+            "nominativo": "PORTALE Ornella",
+            "voti": "18",
+            "lista": "SANILAB"
+        },
+        {
+            "nominativo": "TUDISCO Enrico",
+            "voti": "25",
+            "lista": "INFERMIERISTICAMENTE"
+        },
+        {
+            "nominativo": "BATTISTA Andrea",
+            "voti": "52",
+            "lista": "INFERMIERISTICAMENTE"
+        },
+        {
+            "nominativo": "MEO Danilo",
+            "voti": "32",
+            "lista": "INFERMIERISTICAMENTE"
+        },
+        {
+            "nominativo": "PAPPALARDO Enrico",
+            "voti": "13",
+            "lista": "INFERMIERISTICAMENTE"
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "BORZI' Orazio Gaspare",
+            "voti": "0",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "CIVILETTI Eleonora",
+            "voti": "0",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "FEDELE Luca",
+            "voti": "0",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "LA ROSA Agata Laura",
+            "voti": "0",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "MAZZONE Flavia",
+            "voti": "0",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "PIGNATARO Andrea",
+            "voti": "0",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "POLITI Maria Ausilia",
+            "voti": "9",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "SCARVAGLIERI Elisa",
+            "voti": "10",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "SPINALE Alessandro",
+            "voti": "5",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "DAMMONE Francesca",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "MUSUMECI Sebastiano",
+            "voti": "6",
+            "lista": "SANILAB"
+        },
+        {
+            "nominativo": "GIUNTA Roberta",
+            "voti": "7",
+            "lista": "SANILAB"
+        },
+        {
+            "nominativo": "IACONINOTO Chiara",
+            "voti": "7",
+            "lista": "SANILAB"
+        },
+        {
+            "nominativo": "MARCHESE Carla",
+            "voti": "9",
+            "lista": "SANILAB"
+        },
+        {
+            "nominativo": "ANTONAZZO Roberta",
+            "voti": "7",
+            "lista": "SANILAB"
+        },
+        {
+            "nominativo": "BORZI Silvia",
+            "voti": "4",
+            "lista": "SANILAB"
+        },
+        {
+            "nominativo": "COLTRARO Rosanna",
+            "voti": "9",
+            "lista": "INFERMIERISTICAMENTE"
+        }
+    ],
+    "seggi_da_assegnare": "10",
+    "dipartimento": "SCIENZE MEDICHE,CHIRURGICHE E TECNOLOGIE AVANZATE \"G.F. INGRASSIA\"",
+    "quoziente": "35,7",
+    "votanti": "391",
+    "perc_votanti": "56,50"
+}

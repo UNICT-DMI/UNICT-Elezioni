@@ -1,0 +1,528 @@
+{
+    "schede": {
+        "Schede Bianche": "69",
+        "Schede Nulle": "67",
+        "Schede Contestate": "0"
+    },
+    "liste": [
+        {
+            "nome": "ARCHÈ",
+            "voti_totali": 350
+        },
+        {
+            "nome": "SI! ‐ STUDENTI INDIPENDENTI",
+            "voti_totali": 242675
+        },
+        {
+            "nome": "ACTEA",
+            "voti_totali": 114
+        },
+        {
+            "nome": "UNIVERSITÀ POPOLARE",
+            "voti_totali": 530716
+        },
+        {
+            "nome": "ECONOMIA ATTIVA",
+            "voti_totali": 692525
+        },
+        {
+            "nome": "ARCADIA‐ORIZZONTE ITALIA",
+            "voti_totali": 6
+        },
+        {
+            "nome": "ARES",
+            "voti_totali": 8
+        },
+        {
+            "nome": "NO STRESS",
+            "voti_totali": 8
+        },
+        {
+            "nome": "LIBERTAS",
+            "voti_totali": 16
+        },
+        {
+            "nome": "WE LOVE UNICT/CREDIAMOCI",
+            "voti_totali": 41
+        },
+        {
+            "nome": "ALLENZA UNIVERSITARIA",
+            "voti_totali": 13
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "RUSSO Salvatore",
+            "voti": "100",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "SALERNO Antonio",
+            "voti": "66",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "PORTO Andrea Giuseppe",
+            "voti": "48",
+            "lista": "SI! ‐ STUDENTI INDIPENDENTI"
+        },
+        {
+            "nominativo": "ARFO' Sergio",
+            "voti": "134",
+            "lista": "ACTEA"
+        },
+        {
+            "nominativo": "BONACCORSI Damien",
+            "voti": "43",
+            "lista": "ECONOMIA ATTIVA"
+        },
+        {
+            "nominativo": "ARDITA Francesco",
+            "voti": "77",
+            "lista": "ARES"
+        },
+        {
+            "nominativo": "MAZZEO Ilenia",
+            "voti": "56",
+            "lista": "NO STRESS"
+        },
+        {
+            "nominativo": "LAURENTINI Andrea",
+            "voti": "71",
+            "lista": "WE LOVE UNICT/CREDIAMOCI"
+        },
+        {
+            "nominativo": "SCILLETTA Salvatore",
+            "voti": "135",
+            "lista": "WE LOVE UNICT/CREDIAMOCI"
+        },
+        {
+            "nominativo": "BRULLO Daniele",
+            "voti": "38",
+            "lista": "ALLENZA UNIVERSITARIA"
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "BARONE Giuseppe",
+            "voti": "50",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "BORDIERI Chiara",
+            "voti": "8",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "CANNAVO' Andrea",
+            "voti": "0",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "LICCIARDELLO Maria Elena",
+            "voti": "3",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "LOMBARDIA Giuseppe",
+            "voti": "18",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "MASUZZO Carlo",
+            "voti": "27",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "NOCERA Gaetana ‐ detta \"Tanya\" o \"Tania\"",
+            "voti": "44",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "ZAPPALA' Simone",
+            "voti": "0",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "AMICO Andrea",
+            "voti": "32",
+            "lista": "SI! ‐ STUDENTI INDIPENDENTI"
+        },
+        {
+            "nominativo": "GRANATA Vittoria",
+            "voti": "5",
+            "lista": "SI! ‐ STUDENTI INDIPENDENTI"
+        },
+        {
+            "nominativo": "MISTRETTA Mario",
+            "voti": "15",
+            "lista": "SI! ‐ STUDENTI INDIPENDENTI"
+        },
+        {
+            "nominativo": "SCRUDATO Alessio",
+            "voti": "3",
+            "lista": "SI! ‐ STUDENTI INDIPENDENTI"
+        },
+        {
+            "nominativo": "SINDONI Nicolo'",
+            "voti": "21",
+            "lista": "SI! ‐ STUDENTI INDIPENDENTI"
+        },
+        {
+            "nominativo": "CAMUGLIA Alessandro",
+            "voti": "23",
+            "lista": "ACTEA"
+        },
+        {
+            "nominativo": "GIUFFRIDA Federica",
+            "voti": "1",
+            "lista": "ACTEA"
+        },
+        {
+            "nominativo": "MARINO Giulia",
+            "voti": "3",
+            "lista": "ACTEA"
+        },
+        {
+            "nominativo": "COMPAGNINI Giulia Rita",
+            "voti": "4",
+            "lista": "ACTEA"
+        },
+        {
+            "nominativo": "PERLA Davide Alessandro",
+            "voti": "0",
+            "lista": "ACTEA"
+        },
+        {
+            "nominativo": "ROMEO Francesco",
+            "voti": "1",
+            "lista": "ACTEA"
+        },
+        {
+            "nominativo": "BARONE Sophia Maria",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "CIRALDO Giorgio",
+            "voti": "14",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "COSTANZO Francesca",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "GIANGRASSO Lorenza",
+            "voti": "7",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "LEONARDI Rosario",
+            "voti": "31",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "MACCARRONE Giorgia Nicole",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "MARINO Fulvio",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "RAPISARDA Enrico Simone",
+            "voti": "36",
+            "lista": "ECONOMIA ATTIVA"
+        },
+        {
+            "nominativo": "GAMBINO Gaetano",
+            "voti": "9",
+            "lista": "ECONOMIA ATTIVA"
+        },
+        {
+            "nominativo": "CALAFATO Calogero",
+            "voti": "7",
+            "lista": "ECONOMIA ATTIVA"
+        },
+        {
+            "nominativo": "LARCHÈ Jean Gregory",
+            "voti": "5",
+            "lista": "ECONOMIA ATTIVA"
+        },
+        {
+            "nominativo": "CRISTALDI Federico",
+            "voti": "0",
+            "lista": "ECONOMIA ATTIVA"
+        },
+        {
+            "nominativo": "DINARO Evelin",
+            "voti": "10",
+            "lista": "ECONOMIA ATTIVA"
+        },
+        {
+            "nominativo": "BORZI' Valentina",
+            "voti": "9",
+            "lista": "ECONOMIA ATTIVA"
+        },
+        {
+            "nominativo": "LONGHITANO Simone",
+            "voti": "5",
+            "lista": "ECONOMIA ATTIVA"
+        },
+        {
+            "nominativo": "MAZZEPPI Alessandro",
+            "voti": "0",
+            "lista": "ECONOMIA ATTIVA"
+        },
+        {
+            "nominativo": "MAZZAGLIA Carmelo Massimiliano",
+            "voti": "2",
+            "lista": "ARCADIA‐ORIZZONTE ITALIA"
+        },
+        {
+            "nominativo": "FICHERA Simone",
+            "voti": "3",
+            "lista": "ARCADIA‐ORIZZONTE ITALIA"
+        },
+        {
+            "nominativo": "MUSMECI Luca",
+            "voti": "0",
+            "lista": "ARCADIA‐ORIZZONTE ITALIA"
+        },
+        {
+            "nominativo": "SANFILIPPO Antonio Luca",
+            "voti": "26",
+            "lista": "ARCADIA‐ORIZZONTE ITALIA"
+        },
+        {
+            "nominativo": "COSTANZA Michele",
+            "voti": "1",
+            "lista": "ARCADIA‐ORIZZONTE ITALIA"
+        },
+        {
+            "nominativo": "RIZZO Maria Chiara",
+            "voti": "0",
+            "lista": "ARCADIA‐ORIZZONTE ITALIA"
+        },
+        {
+            "nominativo": "COCO Andrea",
+            "voti": "1",
+            "lista": "ARCADIA‐ORIZZONTE ITALIA"
+        },
+        {
+            "nominativo": "DI RAIMONDO Riccardo",
+            "voti": "0",
+            "lista": "ARCADIA‐ORIZZONTE ITALIA"
+        },
+        {
+            "nominativo": "GUGLIOTTA Angela",
+            "voti": "0",
+            "lista": "ARCADIA‐ORIZZONTE ITALIA"
+        },
+        {
+            "nominativo": "PICOCO Vincenzo ‐ detto \"Kenzo\"",
+            "voti": "29",
+            "lista": "ARCADIA‐ORIZZONTE ITALIA"
+        },
+        {
+            "nominativo": "FUMOSO Delia Maria",
+            "voti": "16",
+            "lista": "ARES"
+        },
+        {
+            "nominativo": "GIUSTO Tatiana",
+            "voti": "18",
+            "lista": "ARES"
+        },
+        {
+            "nominativo": "COCO Gabriele",
+            "voti": "9",
+            "lista": "ARES"
+        },
+        {
+            "nominativo": "VIRGATA Isabella Paola",
+            "voti": "15",
+            "lista": "ARES"
+        },
+        {
+            "nominativo": "GRILLO Andrea",
+            "voti": "0",
+            "lista": "ARES"
+        },
+        {
+            "nominativo": "MANGANI Carla",
+            "voti": "0",
+            "lista": "ARES"
+        },
+        {
+            "nominativo": "VENTICINQUE Gaetano",
+            "voti": "0",
+            "lista": "ARES"
+        },
+        {
+            "nominativo": "CALI' Giulia",
+            "voti": "0",
+            "lista": "ARES"
+        },
+        {
+            "nominativo": "LOGATTO Marco",
+            "voti": "0",
+            "lista": "ARES"
+        },
+        {
+            "nominativo": "PARRINELLO Valentina",
+            "voti": "0",
+            "lista": "NO STRESS"
+        },
+        {
+            "nominativo": "PIAZZA Mario",
+            "voti": "0",
+            "lista": "NO STRESS"
+        },
+        {
+            "nominativo": "PERNACI Roberta",
+            "voti": "0",
+            "lista": "NO STRESS"
+        },
+        {
+            "nominativo": "BONFIGLIO Claudio",
+            "voti": "6",
+            "lista": "NO STRESS"
+        },
+        {
+            "nominativo": "AMATORE Emanuele",
+            "voti": "0",
+            "lista": "NO STRESS"
+        },
+        {
+            "nominativo": "SERGI Antonio",
+            "voti": "40",
+            "lista": "NO STRESS"
+        },
+        {
+            "nominativo": "CATALDO Cristian",
+            "voti": "0",
+            "lista": "NO STRESS"
+        },
+        {
+            "nominativo": "FAZIO Silvio",
+            "voti": "0",
+            "lista": "NO STRESS"
+        },
+        {
+            "nominativo": "NICOLOSI Dario",
+            "voti": "0",
+            "lista": "NO STRESS"
+        },
+        {
+            "nominativo": "GALVAGNO Simone",
+            "voti": "2",
+            "lista": "LIBERTAS"
+        },
+        {
+            "nominativo": "GUZZARDI Martina",
+            "voti": "14",
+            "lista": "LIBERTAS"
+        },
+        {
+            "nominativo": "VIGLIANISI Giovanni",
+            "voti": "15",
+            "lista": "LIBERTAS"
+        },
+        {
+            "nominativo": "GIOIA Lorenzo",
+            "voti": "1",
+            "lista": "LIBERTAS"
+        },
+        {
+            "nominativo": "BUCCHERI Sergio",
+            "voti": "3",
+            "lista": "LIBERTAS"
+        },
+        {
+            "nominativo": "RUBINO Alessandro",
+            "voti": "0",
+            "lista": "LIBERTAS"
+        },
+        {
+            "nominativo": "CAGGEGI Guglielmo Giuseppe",
+            "voti": "0",
+            "lista": "LIBERTAS"
+        },
+        {
+            "nominativo": "LOMBARDO Gabriele",
+            "voti": "0",
+            "lista": "LIBERTAS"
+        },
+        {
+            "nominativo": "RUSSO Francesco",
+            "voti": "37",
+            "lista": "LIBERTAS"
+        },
+        {
+            "nominativo": "ALOI Anna",
+            "voti": "3",
+            "lista": "WE LOVE UNICT/CREDIAMOCI"
+        },
+        {
+            "nominativo": "BRISCHETTO Santi Sebastian",
+            "voti": "0",
+            "lista": "WE LOVE UNICT/CREDIAMOCI"
+        },
+        {
+            "nominativo": "LENTINI Gianmarco",
+            "voti": "1",
+            "lista": "WE LOVE UNICT/CREDIAMOCI"
+        },
+        {
+            "nominativo": "MARZULLO Simona",
+            "voti": "5",
+            "lista": "WE LOVE UNICT/CREDIAMOCI"
+        },
+        {
+            "nominativo": "MAUGERI Salvatore",
+            "voti": "7",
+            "lista": "WE LOVE UNICT/CREDIAMOCI"
+        },
+        {
+            "nominativo": "RAPISARDA Alfio",
+            "voti": "32",
+            "lista": "WE LOVE UNICT/CREDIAMOCI"
+        },
+        {
+            "nominativo": "ROMEO Luca",
+            "voti": "12",
+            "lista": "WE LOVE UNICT/CREDIAMOCI"
+        },
+        {
+            "nominativo": "SANTAGATI Luca",
+            "voti": "3",
+            "lista": "WE LOVE UNICT/CREDIAMOCI"
+        },
+        {
+            "nominativo": "GRASSI Andrea",
+            "voti": "22",
+            "lista": "ALLENZA UNIVERSITARIA"
+        },
+        {
+            "nominativo": "DIQUATTRO Simone",
+            "voti": "29",
+            "lista": "ALLENZA UNIVERSITARIA"
+        },
+        {
+            "nominativo": "LOMBARDI Andrea",
+            "voti": "2",
+            "lista": "ALLENZA UNIVERSITARIA"
+        }
+    ],
+    "seggi_da_assegnare": "10",
+    "dipartimento": "ECONOMIA E IMPRESA",
+    "quoziente": "168,4",
+    "votanti": "1820",
+    "perc_votanti": "45,35",
+    "elettori": "4013"
+}

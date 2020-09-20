@@ -1,0 +1,302 @@
+{
+    "schede": {
+        "Schede Bianche": "39",
+        "Schede Nulle": "68",
+        "Schede Contestate": "0"
+    },
+    "liste": [
+        {
+            "nome": "ARCHÈ",
+            "voti_totali": 118
+        },
+        {
+            "nome": "ACTEA  ‐  ARCADIA",
+            "voti_totali": 75
+        },
+        {
+            "nome": "ARES",
+            "voti_totali": 0
+        },
+        {
+            "nome": "UNIVERSITÀ POPOLARE",
+            "voti_totali": 52
+        },
+        {
+            "nome": "RIAVVIAMO AGRARIA",
+            "voti_totali": 37
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "voti_totali": 73
+        },
+        {
+            "nome": "LIBERTAS LIBERI E FORTI",
+            "voti_totali": 45
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "BRISCHETTO LUIGI FRANCESCO",
+            "voti": "16",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "GRAVAGNO ROBERTA MARIA",
+            "voti": "27",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "TRICOMI GIANLUCA",
+            "voti": "19",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "CANTONE MARCO SALVATORE",
+            "voti": "29",
+            "lista": "ACTEA  ‐  ARCADIA"
+        },
+        {
+            "nominativo": "GIUIUSA MARTINA MARIA ADRIANA",
+            "voti": "7",
+            "lista": "ACTEA  ‐  ARCADIA"
+        },
+        {
+            "nominativo": "CATUARA ANTONIO",
+            "voti": "41",
+            "lista": "ACTEA  ‐  ARCADIA"
+        },
+        {
+            "nominativo": "SANTANGELO NICOLA",
+            "voti": "25",
+            "lista": "ARES"
+        },
+        {
+            "nominativo": "CALANDRA CHECCO GIACOMO",
+            "voti": "2",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "GRECO ANTONINO",
+            "voti": "38",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "PALERMO ISMAELE",
+            "voti": "78",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "SPAMPINATO MADDALENA",
+            "voti": "2",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "PERCOLLA ALBERTO",
+            "voti": "16",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "CABRAS ANTONIO",
+            "voti": "58",
+            "lista": "AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "LANDRO NORBERT",
+            "voti": "1",
+            "lista": "AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "CAPONNETTO LEONARDO",
+            "voti": "17",
+            "lista": "AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "GALEA ROMANO",
+            "voti": "30",
+            "lista": "LIBERTAS LIBERI E FORTI"
+        },
+        {
+            "nominativo": "AMATO DOMENICO",
+            "voti": "14",
+            "lista": "LIBERTAS LIBERI E FORTI"
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "APRILE CARMELO",
+            "voti": "15",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "GIALLI GIORGIO",
+            "voti": "1",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "LOMBARDO RICCARDO",
+            "voti": "9",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "VALENTI DEBORAH",
+            "voti": "12",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "LOMBARDO MARTINA",
+            "voti": "0",
+            "lista": "ACTEA  ‐  ARCADIA"
+        },
+        {
+            "nominativo": "RANDIS FILIPPA NATALIA",
+            "voti": "0",
+            "lista": "ACTEA  ‐  ARCADIA"
+        },
+        {
+            "nominativo": "LICCIARDELLO DARIO",
+            "voti": "4",
+            "lista": "ACTEA  ‐  ARCADIA"
+        },
+        {
+            "nominativo": "CUTELLO ROBERTA",
+            "voti": "3",
+            "lista": "ACTEA  ‐  ARCADIA"
+        },
+        {
+            "nominativo": "PUGLISI VINCENZO",
+            "voti": "6",
+            "lista": "ACTEA  ‐  ARCADIA"
+        },
+        {
+            "nominativo": "SICURELLA CAROLA MARIA",
+            "voti": "0",
+            "lista": "ACTEA  ‐  ARCADIA"
+        },
+        {
+            "nominativo": "MILANO FRANCESCO",
+            "voti": "0",
+            "lista": "ARES"
+        },
+        {
+            "nominativo": "CASSIBBA SALVATORE",
+            "voti": "5",
+            "lista": "ARES"
+        },
+        {
+            "nominativo": "VINCITORE ILARIA",
+            "voti": "0",
+            "lista": "ARES"
+        },
+        {
+            "nominativo": "TIRENDI MASSIMO",
+            "voti": "4",
+            "lista": "ARES"
+        },
+        {
+            "nominativo": "SPANO' ROSSELLA",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "NASTASI VITTORIA",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "CATANIA ERIKA",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "SAPIENZA GAETANO TOMMASO",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "TROVATO GIUSEPPE MAURIZIO",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "BIRRIOLO SALVATORE",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "TODERO ALESSANDRO MARIO FELICE",
+            "voti": "4",
+            "lista": "RIAVVIAMO AGRARIA"
+        },
+        {
+            "nominativo": "SAPORITO SALVATORE",
+            "voti": "3",
+            "lista": "RIAVVIAMO AGRARIA"
+        },
+        {
+            "nominativo": "NICOLOSI SALVATORE detto \"Dino\"",
+            "voti": "0",
+            "lista": "AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "DI SANO ILIO",
+            "voti": "0",
+            "lista": "AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "DI FAZIO FRANCESCA",
+            "voti": "0",
+            "lista": "AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "RACITI NICOLA",
+            "voti": "0",
+            "lista": "LIBERTAS LIBERI E FORTI"
+        },
+        {
+            "nominativo": "BURRELLO MARCO",
+            "voti": "7",
+            "lista": "LIBERTAS LIBERI E FORTI"
+        },
+        {
+            "nominativo": "CLEMENTI VINCENZO",
+            "voti": "7",
+            "lista": "LIBERTAS LIBERI E FORTI"
+        },
+        {
+            "nominativo": "RAPISARDA ROSARIO",
+            "voti": "3",
+            "lista": "LIBERTAS LIBERI E FORTI"
+        },
+        {
+            "nominativo": "FERRO GIORDANA",
+            "voti": "0",
+            "lista": "LIBERTAS LIBERI E FORTI"
+        },
+        {
+            "nominativo": "FINOCCHIARO ANGELO",
+            "voti": "0",
+            "lista": "LIBERTAS LIBERI E FORTI"
+        },
+        {
+            "nominativo": "BARRANO SALVATORE",
+            "voti": "0",
+            "lista": "LIBERTAS LIBERI E FORTI"
+        },
+        {
+            "nominativo": "GUARNERA ANGELO",
+            "voti": "2",
+            "lista": "LIBERTAS LIBERI E FORTI"
+        },
+        {
+            "nominativo": "ROMANO RITA CHIARA",
+            "voti": "7",
+            "lista": "LIBERTAS LIBERI E FORTI"
+        }
+    ],
+    "seggi_da_assegnare": "17",
+    "dipartimento": "AGRICOLTURA, ALIMENTAZIONE E AMBIENTE - DI3A",
+    "quoziente": "35,2941",
+    "votanti": "707",
+    "perc_votanti": "32,24",
+    "elettori": "2193"
+}

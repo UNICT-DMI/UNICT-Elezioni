@@ -1,0 +1,155 @@
+{
+    "schede": {
+        "Schede Bianche": "44",
+        "Schede Nulle": "36",
+        "Schede Contestate": "0"
+    },
+    "liste": [
+        {
+            "nome": "WE LOVE UNICT",
+            "voti_totali": 132
+        },
+        {
+            "nome": "ACTEA",
+            "voti_totali": 17
+        },
+        {
+            "nome": "IRIDE",
+            "voti_totali": 59
+        },
+        {
+            "nome": "LIBERTAS LIBERI E FORTI",
+            "voti_totali": 384
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "GIALLI CLELIA",
+            "voti": "107",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "MENDOZA RUVIC ESGUERRA",
+            "voti": "11",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "TREFFILETTI ALESSANDRO",
+            "voti": "29",
+            "lista": "ACTEA"
+        },
+        {
+            "nominativo": "CAMPISI MELISSA",
+            "voti": "30",
+            "lista": "ACTEA"
+        },
+        {
+            "nominativo": "MIRTO GIOVANNI",
+            "voti": "103",
+            "lista": "IRIDE"
+        },
+        {
+            "nominativo": "DI VITA MARIA GIOVANNA",
+            "voti": "6",
+            "lista": "IRIDE"
+        },
+        {
+            "nominativo": "ROTONDI SERGIO MARIA VALERIO",
+            "voti": "34",
+            "lista": "LIBERTAS LIBERI E FORTI"
+        },
+        {
+            "nominativo": "FERLITO MARCO MARIA",
+            "voti": "47",
+            "lista": "LIBERTAS LIBERI E FORTI"
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "MARCHESE MARTA MARIA",
+            "voti": "0",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "DI GREGORIO MARIA OTTAVIA",
+            "voti": "1",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "PELLIGRA LORENZO",
+            "voti": "0",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "LA COGNATA THELMA",
+            "voti": "0",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "GUELI ROBERTA",
+            "voti": "0",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "STROSCIO ANTONIO",
+            "voti": "25",
+            "lista": "ACTEA"
+        },
+        {
+            "nominativo": "LO FURNO GIUSEPPE",
+            "voti": "15",
+            "lista": "ACTEA"
+        },
+        {
+            "nominativo": "CULTRERA FRANCESCO",
+            "voti": "10",
+            "lista": "ACTEA"
+        },
+        {
+            "nominativo": "CALI' ELENA",
+            "voti": "1",
+            "lista": "IRIDE"
+        },
+        {
+            "nominativo": "ABDEL HAMED RICCARDO",
+            "voti": "0",
+            "lista": "IRIDE"
+        },
+        {
+            "nominativo": "LICATA LUCA",
+            "voti": "0",
+            "lista": "IRIDE"
+        },
+        {
+            "nominativo": "RUSSO GAETANO",
+            "voti": "3",
+            "lista": "IRIDE"
+        },
+        {
+            "nominativo": "SGARANO ANTONINO",
+            "voti": "0",
+            "lista": "LIBERTAS LIBERI E FORTI"
+        },
+        {
+            "nominativo": "RUSSO SIMONA GIUSEPPA",
+            "voti": "0",
+            "lista": "LIBERTAS LIBERI E FORTI"
+        },
+        {
+            "nominativo": "SANTONOCITO AGATA RITA",
+            "voti": "0",
+            "lista": "LIBERTAS LIBERI E FORTI"
+        },
+        {
+            "nominativo": "PONZO ELENA",
+            "voti": "3",
+            "lista": "LIBERTAS LIBERI E FORTI"
+        }
+    ],
+    "seggi_da_assegnare": "8",
+    "dipartimento": "SCIENZE BIOLOGICHE GEOLOGICHE E AMBIENTALI - BIOMLG",
+    "quoziente": "56,625",
+    "votanti": "533",
+    "perc_votanti": "32,76",
+    "elettori": "1627"
+}

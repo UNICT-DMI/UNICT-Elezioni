@@ -1,0 +1,449 @@
+{
+    "schede": {
+        "Schede Bianche": "84",
+        "Schede Nulle": "78",
+        "Schede Contestate": "0"
+    },
+    "liste": [
+        {
+            "nome": "UDU  ‐  UNIONE DEGLI UNIVERSITARI",
+            "voti_totali": 127
+        },
+        {
+            "nome": "EUREKA",
+            "voti_totali": 0
+        },
+        {
+            "nome": "ARCHÈ",
+            "voti_totali": 1
+        },
+        {
+            "nome": "NIKE  ‐  ARCADIA",
+            "voti_totali": 4
+        },
+        {
+            "nome": "UNIVERSITÀ POPOLARE",
+            "voti_totali": 0
+        },
+        {
+            "nome": "STUDENTI DEMOCRATICI",
+            "voti_totali": 3
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "voti_totali": 2
+        },
+        {
+            "nome": "LIBERTAS LIBERI E FORTI",
+            "voti_totali": 68
+        },
+        {
+            "nome": "ORIZZONTE ITALIA",
+            "voti_totali": 9
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "IMPELLIZZERI MATTEO",
+            "voti": "47",
+            "lista": "UDU  ‐  UNIONE DEGLI UNIVERSITARI"
+        },
+        {
+            "nominativo": "CIAMPI CLAUDIO MARIO",
+            "voti": "55",
+            "lista": "EUREKA"
+        },
+        {
+            "nominativo": "BONGIORNO SIMONE",
+            "voti": "64",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "CHIARENZA GIOVANNI PAOLO SALVATORE",
+            "voti": "48",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "DI GUARDIA ALESSANDRO",
+            "voti": "65",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "LEONARDO AMBRA",
+            "voti": "63",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "PANEBIANCO PIERPAOLO",
+            "voti": "54",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "MELITA GIUSEPPE",
+            "voti": "76",
+            "lista": "NIKE  ‐  ARCADIA"
+        },
+        {
+            "nominativo": "FIUME CARMELO",
+            "voti": "59",
+            "lista": "STUDENTI DEMOCRATICI"
+        },
+        {
+            "nominativo": "ZAPPALA' GRAZIANO MARCO DARIO",
+            "voti": "67",
+            "lista": "AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "ZOZZO ALBERTO",
+            "voti": "113",
+            "lista": "LIBERTAS LIBERI E FORTI"
+        },
+        {
+            "nominativo": "PITICCHIO TOMMASO detto \"Thomas\" o \"Tomas\"",
+            "voti": "80",
+            "lista": "LIBERTAS LIBERI E FORTI"
+        },
+        {
+            "nominativo": "NICOTRA MARCO",
+            "voti": "81",
+            "lista": "LIBERTAS LIBERI E FORTI"
+        },
+        {
+            "nominativo": "PENNISI GIULIANA",
+            "voti": "137",
+            "lista": "LIBERTAS LIBERI E FORTI"
+        },
+        {
+            "nominativo": "ALETTA FRANCESCO detto \"Ciccio\"",
+            "voti": "30",
+            "lista": "ORIZZONTE ITALIA"
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "CICCIARELLA SILVIA GIOVANNA",
+            "voti": "24",
+            "lista": "UDU  ‐  UNIONE DEGLI UNIVERSITARI"
+        },
+        {
+            "nominativo": "PARASOLE ORIANA",
+            "voti": "22",
+            "lista": "UDU  ‐  UNIONE DEGLI UNIVERSITARI"
+        },
+        {
+            "nominativo": "SACCHETTI IGNAZIO",
+            "voti": "16",
+            "lista": "UDU  ‐  UNIONE DEGLI UNIVERSITARI"
+        },
+        {
+            "nominativo": "VACCINO MARCO",
+            "voti": "8",
+            "lista": "EUREKA"
+        },
+        {
+            "nominativo": "ZAPPALA' STEFANO",
+            "voti": "17",
+            "lista": "EUREKA"
+        },
+        {
+            "nominativo": "CELANO ANDREA",
+            "voti": "28",
+            "lista": "EUREKA"
+        },
+        {
+            "nominativo": "BELLANCA CARLO MARIA",
+            "voti": "47",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "CRIMI LUCA",
+            "voti": "38",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "FERRAROTTO LUIGI",
+            "voti": "38",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "LEONCINI ALESSIO",
+            "voti": "43",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "MANUELLO ROBERTO",
+            "voti": "9",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "MILONE FRANCESCA",
+            "voti": "31",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "SVALUTO FERRO LUIGI",
+            "voti": "22",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "TRINGALE MATTIA MARIA",
+            "voti": "44",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "COPPOLA CLAUDIO",
+            "voti": "19",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "BELLA ANDREA",
+            "voti": "30",
+            "lista": "NIKE  ‐  ARCADIA"
+        },
+        {
+            "nominativo": "OLIVA GIOVANNI",
+            "voti": "24",
+            "lista": "NIKE  ‐  ARCADIA"
+        },
+        {
+            "nominativo": "LAGANA' VALENTINA",
+            "voti": "2",
+            "lista": "NIKE  ‐  ARCADIA"
+        },
+        {
+            "nominativo": "GIANGRECO ALESSIO",
+            "voti": "16",
+            "lista": "NIKE  ‐  ARCADIA"
+        },
+        {
+            "nominativo": "PARISI STEFANIE",
+            "voti": "10",
+            "lista": "NIKE  ‐  ARCADIA"
+        },
+        {
+            "nominativo": "ROCCUZZO GIUSEPPE",
+            "voti": "4",
+            "lista": "NIKE  ‐  ARCADIA"
+        },
+        {
+            "nominativo": "LAUDANI ANTONIO",
+            "voti": "2",
+            "lista": "NIKE  ‐  ARCADIA"
+        },
+        {
+            "nominativo": "BELLA ALESSANDRO",
+            "voti": "20",
+            "lista": "NIKE  ‐  ARCADIA"
+        },
+        {
+            "nominativo": "FERRARA CARMELO",
+            "voti": "2",
+            "lista": "NIKE  ‐  ARCADIA"
+        },
+        {
+            "nominativo": "FRANCAVIGLIA MARTINA",
+            "voti": "2",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "GALIOTO VERONICA",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "SANTAMARIA RAFFAELLA",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "CASELLA FEDERICA",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "CANNIZZO ALESSANDRO",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "VERNACI PIETRO PAOLO",
+            "voti": "9",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "TORRISI TITO",
+            "voti": "7",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "SERRO ALEXANDRA",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "LAZZARO GIULIANA",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "CANNIZZO CLAUDIA",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "TOMASELLO GRETA",
+            "voti": "1",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "CASTRO MANUEL CLAUDIO",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "LUCA GIULIANA",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "SCIATA' FEDERICA",
+            "voti": "55",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "CAMPIONE FRANCESCO",
+            "voti": "16",
+            "lista": "STUDENTI DEMOCRATICI"
+        },
+        {
+            "nominativo": "VASILE ALBERTO",
+            "voti": "34",
+            "lista": "STUDENTI DEMOCRATICI"
+        },
+        {
+            "nominativo": "AVENIA VIRGINIA",
+            "voti": "16",
+            "lista": "AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "VOLPICELLI ALESSIO",
+            "voti": "23",
+            "lista": "AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "MACCA ROSSELLA",
+            "voti": "4",
+            "lista": "LIBERTAS LIBERI E FORTI"
+        },
+        {
+            "nominativo": "SAPIENZA GIUSEPPE",
+            "voti": "21",
+            "lista": "LIBERTAS LIBERI E FORTI"
+        },
+        {
+            "nominativo": "PRESTIANNI IGNAZIO",
+            "voti": "32",
+            "lista": "LIBERTAS LIBERI E FORTI"
+        },
+        {
+            "nominativo": "BOATO ANTHONY",
+            "voti": "8",
+            "lista": "LIBERTAS LIBERI E FORTI"
+        },
+        {
+            "nominativo": "SALOMONE CARLO",
+            "voti": "0",
+            "lista": "LIBERTAS LIBERI E FORTI"
+        },
+        {
+            "nominativo": "SAPIENZA MARCO",
+            "voti": "1",
+            "lista": "LIBERTAS LIBERI E FORTI"
+        },
+        {
+            "nominativo": "PISCOPO ROBERTO",
+            "voti": "0",
+            "lista": "LIBERTAS LIBERI E FORTI"
+        },
+        {
+            "nominativo": "MOBILIA ANGELA",
+            "voti": "18",
+            "lista": "LIBERTAS LIBERI E FORTI"
+        },
+        {
+            "nominativo": "CARUSO MARCO",
+            "voti": "1",
+            "lista": "ORIZZONTE ITALIA"
+        },
+        {
+            "nominativo": "DI BELLA SERENA DESIREE",
+            "voti": "0",
+            "lista": "ORIZZONTE ITALIA"
+        },
+        {
+            "nominativo": "MASCALI MIRKO",
+            "voti": "0",
+            "lista": "ORIZZONTE ITALIA"
+        },
+        {
+            "nominativo": "INSERRA ALBERTO detto \"Favara\"",
+            "voti": "14",
+            "lista": "ORIZZONTE ITALIA"
+        },
+        {
+            "nominativo": "LA SPINA ISABELLA",
+            "voti": "1",
+            "lista": "ORIZZONTE ITALIA"
+        },
+        {
+            "nominativo": "GAGLIANO MATTEO",
+            "voti": "3",
+            "lista": "ORIZZONTE ITALIA"
+        },
+        {
+            "nominativo": "GIUNTA NOEMI",
+            "voti": "0",
+            "lista": "ORIZZONTE ITALIA"
+        },
+        {
+            "nominativo": "TERRANA ANDREA BALDASSARE",
+            "voti": "4",
+            "lista": "ORIZZONTE ITALIA"
+        },
+        {
+            "nominativo": "D'AMICO ROBERTA",
+            "voti": "9",
+            "lista": "ORIZZONTE ITALIA"
+        },
+        {
+            "nominativo": "MARESCA ALESSANDRO",
+            "voti": "0",
+            "lista": "ORIZZONTE ITALIA"
+        },
+        {
+            "nominativo": "ORLANDO MATTEO",
+            "voti": "2",
+            "lista": "ORIZZONTE ITALIA"
+        },
+        {
+            "nominativo": "CRISTALDI MARCO",
+            "voti": "11",
+            "lista": "ORIZZONTE ITALIA"
+        },
+        {
+            "nominativo": "MINEO ALESSANDRO",
+            "voti": "1",
+            "lista": "ORIZZONTE ITALIA"
+        },
+        {
+            "nominativo": "PATTI SARA",
+            "voti": "12",
+            "lista": "ORIZZONTE ITALIA"
+        }
+    ],
+    "seggi_da_assegnare": "1",
+    "dipartimento": "CHIRURGIA GENERALE E SPECIALITA' MEDICO-CHIRURGICHE - CHIRMED",
+    "quoziente": "132,93",
+    "votanti": "2156",
+    "perc_votanti": "60,92"
+}

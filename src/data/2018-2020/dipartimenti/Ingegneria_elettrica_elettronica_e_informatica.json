@@ -1,0 +1,463 @@
+{
+    "schede": {
+        "Schede Bianche": "60",
+        "Schede Nulle": "41",
+        "Schede Contestate": "0"
+    },
+    "liste": [
+        {
+            "nome": "LA FINESTRA ‐ KOINÈ",
+            "voti_totali": 141
+        },
+        {
+            "nome": "ARCHÈ",
+            "voti_totali": 8
+        },
+        {
+            "nome": "CITING",
+            "voti_totali": 202
+        },
+        {
+            "nome": "ACTEA",
+            "voti_totali": 55
+        },
+        {
+            "nome": "UNIVERSITÀ POPOLARE",
+            "voti_totali": 12
+        },
+        {
+            "nome": "INGENERIATTIVA",
+            "voti_totali": 63
+        },
+        {
+            "nome": "LIBERTAS",
+            "voti_totali": 47
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "voti_totali": 50
+        },
+        {
+            "nome": "ALLEANZA UNIVERSITARIA",
+            "voti_totali": 5
+        },
+        {
+            "nome": "WE LOVE UNICT",
+            "voti_totali": 35
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "CASTIGLIONE Giorgio",
+            "voti": "53",
+            "lista": "LA FINESTRA ‐ KOINÈ"
+        },
+        {
+            "nominativo": "TROVATO Luigi",
+            "voti": "59",
+            "lista": "CITING"
+        },
+        {
+            "nominativo": "BARBERA Christian",
+            "voti": "31",
+            "lista": "CITING"
+        },
+        {
+            "nominativo": "FINOCCHIARO Giovanni Maria ‐ detta \"Campista\"",
+            "voti": "68",
+            "lista": "ACTEA"
+        },
+        {
+            "nominativo": "FAVA Giuseppe ‐ detto \"Peppe\"",
+            "voti": "60",
+            "lista": "INGENERIATTIVA"
+        },
+        {
+            "nominativo": "TRIBULATO Marco",
+            "voti": "50",
+            "lista": "INGENERIATTIVA"
+        },
+        {
+            "nominativo": "RESTUCCIA Roberta",
+            "voti": "47",
+            "lista": "INGENERIATTIVA"
+        },
+        {
+            "nominativo": "SANTORO Benedetto",
+            "voti": "43",
+            "lista": "AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "PELLEGRINO Giuseppe",
+            "voti": "35",
+            "lista": "WE LOVE UNICT"
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "NAVARRIA Maria ‐ detta \"Marika\" o \"Marica\"",
+            "voti": "6",
+            "lista": "LA FINESTRA ‐ KOINÈ"
+        },
+        {
+            "nominativo": "LA MALFA Giuseppe",
+            "voti": "27",
+            "lista": "LA FINESTRA ‐ KOINÈ"
+        },
+        {
+            "nominativo": "MARLETTA Vito Marco",
+            "voti": "17",
+            "lista": "LA FINESTRA ‐ KOINÈ"
+        },
+        {
+            "nominativo": "RECUPERO Giulia Virginia",
+            "voti": "9",
+            "lista": "LA FINESTRA ‐ KOINÈ"
+        },
+        {
+            "nominativo": "PENNISI Tancredi",
+            "voti": "0",
+            "lista": "LA FINESTRA ‐ KOINÈ"
+        },
+        {
+            "nominativo": "MARINO Alessio",
+            "voti": "0",
+            "lista": "LA FINESTRA ‐ KOINÈ"
+        },
+        {
+            "nominativo": "DI NASO Giuseppe",
+            "voti": "17",
+            "lista": "LA FINESTRA ‐ KOINÈ"
+        },
+        {
+            "nominativo": "VENTICINQUE Luca",
+            "voti": "0",
+            "lista": "LA FINESTRA ‐ KOINÈ"
+        },
+        {
+            "nominativo": "CAVALLI Emanuele",
+            "voti": "0",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "FAVAZZA Enrico",
+            "voti": "0",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "MESSINA Giorgia",
+            "voti": "0",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "MORELLO BAGANELLA Salvatore",
+            "voti": "2",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "PAPPALARDO Carmelo",
+            "voti": "7",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "SIVALINGAM Sivatharsan",
+            "voti": "2",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "SOLERTE Damiano",
+            "voti": "3",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "GERLONI Ilario Gabriele",
+            "voti": "2",
+            "lista": "CITING"
+        },
+        {
+            "nominativo": "MIRULLA Giovanni",
+            "voti": "22",
+            "lista": "CITING"
+        },
+        {
+            "nominativo": "BONGIOVANNI Giusy Agata",
+            "voti": "28",
+            "lista": "CITING"
+        },
+        {
+            "nominativo": "COMITINI Gianfranco",
+            "voti": "17",
+            "lista": "CITING"
+        },
+        {
+            "nominativo": "NICOTRA Claudio",
+            "voti": "13",
+            "lista": "CITING"
+        },
+        {
+            "nominativo": "RUSSO Emanuele",
+            "voti": "24",
+            "lista": "CITING"
+        },
+        {
+            "nominativo": "GRILLO Roberto",
+            "voti": "2",
+            "lista": "CITING"
+        },
+        {
+            "nominativo": "SUERI Pierfrancesco ‐ detto \"Piero\"",
+            "voti": "9",
+            "lista": "CITING"
+        },
+        {
+            "nominativo": "LOSI Alessio",
+            "voti": "2",
+            "lista": "ACTEA"
+        },
+        {
+            "nominativo": "FERRIGNO Gaetano",
+            "voti": "7",
+            "lista": "ACTEA"
+        },
+        {
+            "nominativo": "CARDILLO Mattia",
+            "voti": "16",
+            "lista": "ACTEA"
+        },
+        {
+            "nominativo": "ASERO Vito",
+            "voti": "1",
+            "lista": "ACTEA"
+        },
+        {
+            "nominativo": "SCALZO Filippo",
+            "voti": "14",
+            "lista": "ACTEA"
+        },
+        {
+            "nominativo": "MAGRI' Emiliano Luca",
+            "voti": "4",
+            "lista": "ACTEA"
+        },
+        {
+            "nominativo": "GALLO Giuseppe",
+            "voti": "3",
+            "lista": "ACTEA"
+        },
+        {
+            "nominativo": "CUVATO Francesco",
+            "voti": "10",
+            "lista": "ACTEA"
+        },
+        {
+            "nominativo": "MONTALTO Daniele",
+            "voti": "9",
+            "lista": "ACTEA"
+        },
+        {
+            "nominativo": "BONINA Marco",
+            "voti": "14",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "BRANCHINA Elena",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "BULLA Daniele",
+            "voti": "1",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "CARUSO Alfio",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "PUCCIO Steven",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "VENTURA Gabriele Giovanni",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "CANNIZZO Michele",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "SCEBERRAS Beatrice Maria Daniela",
+            "voti": "20",
+            "lista": "INGENERIATTIVA"
+        },
+        {
+            "nominativo": "BULLA Rita",
+            "voti": "12",
+            "lista": "INGENERIATTIVA"
+        },
+        {
+            "nominativo": "D'ARRIGO Cristian",
+            "voti": "9",
+            "lista": "INGENERIATTIVA"
+        },
+        {
+            "nominativo": "FORMOSO Calogero",
+            "voti": "12",
+            "lista": "INGENERIATTIVA"
+        },
+        {
+            "nominativo": "LIUZZO SCORPO Stefano",
+            "voti": "36",
+            "lista": "INGENERIATTIVA"
+        },
+        {
+            "nominativo": "SURIANO Gabriele",
+            "voti": "2",
+            "lista": "INGENERIATTIVA"
+        },
+        {
+            "nominativo": "CONFORTO Andrew",
+            "voti": "1",
+            "lista": "LIBERTAS"
+        },
+        {
+            "nominativo": "FRIDMAN Daniel",
+            "voti": "0",
+            "lista": "LIBERTAS"
+        },
+        {
+            "nominativo": "ZAFARANA Giuliano",
+            "voti": "4",
+            "lista": "LIBERTAS"
+        },
+        {
+            "nominativo": "INTELISANO Stefano Giuseppe Giorgio",
+            "voti": "4",
+            "lista": "LIBERTAS"
+        },
+        {
+            "nominativo": "AGUGLIA Enrico",
+            "voti": "0",
+            "lista": "LIBERTAS"
+        },
+        {
+            "nominativo": "CULTRONA Giacomo",
+            "voti": "0",
+            "lista": "LIBERTAS"
+        },
+        {
+            "nominativo": "GALIOTO Francesco",
+            "voti": "1",
+            "lista": "LIBERTAS"
+        },
+        {
+            "nominativo": "VACANTE Antonino Michael",
+            "voti": "5",
+            "lista": "AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "UCCIARDELLO Gabriele",
+            "voti": "0",
+            "lista": "AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "LISTO Lorenzo",
+            "voti": "1",
+            "lista": "AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "DI MANNO Salvatore",
+            "voti": "0",
+            "lista": "AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "SCIABICA Laura",
+            "voti": "0",
+            "lista": "AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "MODICA Giusy",
+            "voti": "8",
+            "lista": "AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "MAMO Benedetta",
+            "voti": "4",
+            "lista": "AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "GIANNONE Carmelo",
+            "voti": "6",
+            "lista": "AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "DISTEFANO Andrea",
+            "voti": "0",
+            "lista": "ALLEANZA UNIVERSITARIA"
+        },
+        {
+            "nominativo": "VENOSINO Gabriele",
+            "voti": "0",
+            "lista": "ALLEANZA UNIVERSITARIA"
+        },
+        {
+            "nominativo": "TRIOLO Ludovico",
+            "voti": "1",
+            "lista": "ALLEANZA UNIVERSITARIA"
+        },
+        {
+            "nominativo": "CAVALLARO Roberto",
+            "voti": "6",
+            "lista": "ALLEANZA UNIVERSITARIA"
+        },
+        {
+            "nominativo": "RANNO Antonio",
+            "voti": "20",
+            "lista": "ALLEANZA UNIVERSITARIA"
+        },
+        {
+            "nominativo": "MANTEGNA Giuseppe",
+            "voti": "14",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "GIUFFRIDA Carlo",
+            "voti": "0",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "GUARNERA Simone",
+            "voti": "3",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "NOCITA Gabriele",
+            "voti": "2",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "CHIAVETTA Davide",
+            "voti": "1",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "LIBRO Salvatore Enrico",
+            "voti": "1",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "CANTALE AEO Giuseppe ‐ detto \"Pepe\"",
+            "voti": "8",
+            "lista": "WE LOVE UNICT"
+        }
+    ],
+    "seggi_da_assegnare": "9",
+    "dipartimento": "INGEGNERIA ELETTRICA ELETTRONICA E INFORMATICA (DIEEI)",
+    "quoziente": "114,33",
+    "votanti": "1130",
+    "perc_votanti": "34,98"
+}

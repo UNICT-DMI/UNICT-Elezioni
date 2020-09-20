@@ -1,0 +1,700 @@
+{
+    "schede": {
+        "Schede Bianche": "69",
+        "Schede Nulle": "33",
+        "Schede Contestate": "0"
+    },
+    "liste": [
+        {
+            "nome": "LA FINESTRA ‐ LIBERI DI SCEGLIERE",
+            "voti_totali": 698
+        },
+        {
+            "nome": "IN CAMPO PER IL DISUM ‐ CONTROCAMPUS",
+            "voti_totali": 1
+        },
+        {
+            "nome": "ARCHÈ",
+            "voti_totali": 1
+        },
+        {
+            "nome": "STUDENTI DI FILOSOFIA ‐ UNICT",
+            "voti_totali": 7
+        },
+        {
+            "nome": "UNYDEA",
+            "voti_totali": 39
+        },
+        {
+            "nome": "UNIVERSITÀ POPOLARE",
+            "voti_totali": 6189
+        },
+        {
+            "nome": "LINK ‐ STUDENTI INDIPENDENTI",
+            "voti_totali": 31
+        },
+        {
+            "nome": "NIKE",
+            "voti_totali": 31
+        },
+        {
+            "nome": "ARCADIA",
+            "voti_totali": 24
+        },
+        {
+            "nome": "ARES",
+            "voti_totali": 7
+        },
+        {
+            "nome": "INSIEME PER IL DISUM",
+            "voti_totali": 7
+        },
+        {
+            "nome": "WE LOVE UNICT",
+            "voti_totali": 81414
+        },
+        {
+            "nome": "UNI DISUM",
+            "voti_totali": 75920
+        },
+        {
+            "nome": "ALLEANZA UNIVERSITARIA",
+            "voti_totali": 22715
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "SCIFO Flavia",
+            "voti": "68",
+            "lista": "LA FINESTRA ‐ LIBERI DI SCEGLIERE"
+        },
+        {
+            "nominativo": "ROME' Dimitri",
+            "voti": "27",
+            "lista": "LA FINESTRA ‐ LIBERI DI SCEGLIERE"
+        },
+        {
+            "nominativo": "COSTANZO Carlotta",
+            "voti": "25",
+            "lista": "LA FINESTRA ‐ LIBERI DI SCEGLIERE"
+        },
+        {
+            "nominativo": "MANCUSO Jolanda Paola",
+            "voti": "112",
+            "lista": "LA FINESTRA ‐ LIBERI DI SCEGLIERE"
+        },
+        {
+            "nominativo": "NUCIFORA Roberta Fina",
+            "voti": "143",
+            "lista": "LA FINESTRA ‐ LIBERI DI SCEGLIERE"
+        },
+        {
+            "nominativo": "PAPPALARDO Ariele",
+            "voti": "40",
+            "lista": "LA FINESTRA ‐ LIBERI DI SCEGLIERE"
+        },
+        {
+            "nominativo": "QUARTARONE Mattia Antonio",
+            "voti": "27",
+            "lista": "LA FINESTRA ‐ LIBERI DI SCEGLIERE"
+        },
+        {
+            "nominativo": "TERMINI Salvatore Simone",
+            "voti": "26",
+            "lista": "LA FINESTRA ‐ LIBERI DI SCEGLIERE"
+        },
+        {
+            "nominativo": "CUTRONA Christian",
+            "voti": "68",
+            "lista": "LA FINESTRA ‐ LIBERI DI SCEGLIERE"
+        },
+        {
+            "nominativo": "INGALLINA Pietro",
+            "voti": "31",
+            "lista": "STUDENTI DI FILOSOFIA ‐ UNICT"
+        },
+        {
+            "nominativo": "MAURIZI Davide",
+            "voti": "19",
+            "lista": "STUDENTI DI FILOSOFIA ‐ UNICT"
+        },
+        {
+            "nominativo": "CHILA' Francesco Filippo",
+            "voti": "30",
+            "lista": "UNYDEA"
+        },
+        {
+            "nominativo": "ZAPPULLA Sara",
+            "voti": "16",
+            "lista": "LINK ‐ STUDENTI INDIPENDENTI"
+        },
+        {
+            "nominativo": "CATALANO Mattia",
+            "voti": "62",
+            "lista": "NIKE"
+        },
+        {
+            "nominativo": "PAPA Giulia",
+            "voti": "18",
+            "lista": "NIKE"
+        },
+        {
+            "nominativo": "LIVOLSI Carla",
+            "voti": "49",
+            "lista": "ARCADIA"
+        },
+        {
+            "nominativo": "MURABITO Claudia",
+            "voti": "13",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "RIZZA Amalia",
+            "voti": "41",
+            "lista": "UNI DISUM"
+        },
+        {
+            "nominativo": "INGRAO INGRAO Annamaria",
+            "voti": "21",
+            "lista": "ALLEANZA UNIVERSITARIA"
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "FIGURA Pietro",
+            "voti": "17",
+            "lista": "LA FINESTRA ‐ LIBERI DI SCEGLIERE"
+        },
+        {
+            "nominativo": "OGRODNICZAK Radoslaw Ryszard ‐ detto \"Radek\"",
+            "voti": "3",
+            "lista": "LA FINESTRA ‐ LIBERI DI SCEGLIERE"
+        },
+        {
+            "nominativo": "CORPACE Chiara",
+            "voti": "0",
+            "lista": "LA FINESTRA ‐ LIBERI DI SCEGLIERE"
+        },
+        {
+            "nominativo": "POIDOMANI Simona",
+            "voti": "2",
+            "lista": "LA FINESTRA ‐ LIBERI DI SCEGLIERE"
+        },
+        {
+            "nominativo": "VACCARINI Monica",
+            "voti": "3",
+            "lista": "LA FINESTRA ‐ LIBERI DI SCEGLIERE"
+        },
+        {
+            "nominativo": "NOCE Piero",
+            "voti": "7",
+            "lista": "LA FINESTRA ‐ LIBERI DI SCEGLIERE"
+        },
+        {
+            "nominativo": "RUTELLA Simona",
+            "voti": "0",
+            "lista": "LA FINESTRA ‐ LIBERI DI SCEGLIERE"
+        },
+        {
+            "nominativo": "DEL MONTE Eugenio",
+            "voti": "23",
+            "lista": "LA FINESTRA ‐ LIBERI DI SCEGLIERE"
+        },
+        {
+            "nominativo": "LIUZZO SCORPO Giovanni ‐ detto \"Liuzzo\"",
+            "voti": "5",
+            "lista": "LA FINESTRA ‐ LIBERI DI SCEGLIERE"
+        },
+        {
+            "nominativo": "LIOTTA Emanuele",
+            "voti": "4",
+            "lista": "LA FINESTRA ‐ LIBERI DI SCEGLIERE"
+        },
+        {
+            "nominativo": "MANGANARO Francesca Maria",
+            "voti": "11",
+            "lista": "LA FINESTRA ‐ LIBERI DI SCEGLIERE"
+        },
+        {
+            "nominativo": "GAMIDDO Vito Gabriele",
+            "voti": "0",
+            "lista": "LA FINESTRA ‐ LIBERI DI SCEGLIERE"
+        },
+        {
+            "nominativo": "BUFOLINO Francesco",
+            "voti": "2",
+            "lista": "IN CAMPO PER IL DISUM ‐ CONTROCAMPUS"
+        },
+        {
+            "nominativo": "CONSOLO Martina",
+            "voti": "1",
+            "lista": "IN CAMPO PER IL DISUM ‐ CONTROCAMPUS"
+        },
+        {
+            "nominativo": "CUIUS Daria",
+            "voti": "0",
+            "lista": "IN CAMPO PER IL DISUM ‐ CONTROCAMPUS"
+        },
+        {
+            "nominativo": "SAYA Lorena",
+            "voti": "0",
+            "lista": "IN CAMPO PER IL DISUM ‐ CONTROCAMPUS"
+        },
+        {
+            "nominativo": "SANALITRO Alessia",
+            "voti": "0",
+            "lista": "IN CAMPO PER IL DISUM ‐ CONTROCAMPUS"
+        },
+        {
+            "nominativo": "M'BARKI Soraya Nadia",
+            "voti": "1",
+            "lista": "IN CAMPO PER IL DISUM ‐ CONTROCAMPUS"
+        },
+        {
+            "nominativo": "MACRI' Daniele",
+            "voti": "6",
+            "lista": "IN CAMPO PER IL DISUM ‐ CONTROCAMPUS"
+        },
+        {
+            "nominativo": "SINATRA Beatrice",
+            "voti": "0",
+            "lista": "IN CAMPO PER IL DISUM ‐ CONTROCAMPUS"
+        },
+        {
+            "nominativo": "MORELLO BAGANELLA Giancarlo",
+            "voti": "0",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "DI GREGORIO Giuseppe",
+            "voti": "0",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "SUMA Samuele",
+            "voti": "6",
+            "lista": "STUDENTI DI FILOSOFIA ‐ UNICT"
+        },
+        {
+            "nominativo": "MONCADO Enrico Maria",
+            "voti": "7",
+            "lista": "STUDENTI DI FILOSOFIA ‐ UNICT"
+        },
+        {
+            "nominativo": "BAIAMONTE Francesco",
+            "voti": "17",
+            "lista": "STUDENTI DI FILOSOFIA ‐ UNICT"
+        },
+        {
+            "nominativo": "CALI' Alfonso",
+            "voti": "0",
+            "lista": "STUDENTI DI FILOSOFIA ‐ UNICT"
+        },
+        {
+            "nominativo": "SCARANTINO Noemi Maria",
+            "voti": "0",
+            "lista": "STUDENTI DI FILOSOFIA ‐ UNICT"
+        },
+        {
+            "nominativo": "HAMDANI Hassan Santo",
+            "voti": "3",
+            "lista": "STUDENTI DI FILOSOFIA ‐ UNICT"
+        },
+        {
+            "nominativo": "ARCIDIACONO Alessia",
+            "voti": "8",
+            "lista": "UNYDEA"
+        },
+        {
+            "nominativo": "CONTI Elisa",
+            "voti": "0",
+            "lista": "UNYDEA"
+        },
+        {
+            "nominativo": "RONSIVALLE Delia",
+            "voti": "2",
+            "lista": "UNYDEA"
+        },
+        {
+            "nominativo": "GUARNACCIA Margherita Serena",
+            "voti": "16",
+            "lista": "UNYDEA"
+        },
+        {
+            "nominativo": "LANZA Alexander Simone",
+            "voti": "7",
+            "lista": "UNYDEA"
+        },
+        {
+            "nominativo": "RININA Simona",
+            "voti": "1",
+            "lista": "UNYDEA"
+        },
+        {
+            "nominativo": "BONIFACIO Gaia Elena",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "GENTILE Irene",
+            "voti": "22",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "GRASSIA Giuseppe",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "BONANNO Pietro Pio",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "MOTTA Samuele",
+            "voti": "1",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "PASTANELLA Mariapia",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "LEANZA Antonino",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "CRISCI Sara",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "CONSOLINO Miriam",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "ROCCUZZO Giusy",
+            "voti": "1",
+            "lista": "LINK ‐ STUDENTI INDIPENDENTI"
+        },
+        {
+            "nominativo": "MONTANA Marta",
+            "voti": "0",
+            "lista": "LINK ‐ STUDENTI INDIPENDENTI"
+        },
+        {
+            "nominativo": "ALIZZI Giuseppe",
+            "voti": "12",
+            "lista": "LINK ‐ STUDENTI INDIPENDENTI"
+        },
+        {
+            "nominativo": "FINOCCHIARO Virginia",
+            "voti": "2",
+            "lista": "NIKE"
+        },
+        {
+            "nominativo": "GIACIRA Erika",
+            "voti": "2",
+            "lista": "NIKE"
+        },
+        {
+            "nominativo": "MANIA Chiara",
+            "voti": "10",
+            "lista": "NIKE"
+        },
+        {
+            "nominativo": "MONFRINI Flavia",
+            "voti": "8",
+            "lista": "NIKE"
+        },
+        {
+            "nominativo": "SAPIENZA Federica Maria Lucia",
+            "voti": "9",
+            "lista": "NIKE"
+        },
+        {
+            "nominativo": "JAMJAMA Achraf ‐ detto \"Ash\"",
+            "voti": "18",
+            "lista": "ARCADIA"
+        },
+        {
+            "nominativo": "ZAMMITTI Marco",
+            "voti": "0",
+            "lista": "ARCADIA"
+        },
+        {
+            "nominativo": "GIUGNO Ramona",
+            "voti": "0",
+            "lista": "ARCADIA"
+        },
+        {
+            "nominativo": "PAFUMI Samuele",
+            "voti": "3",
+            "lista": "ARCADIA"
+        },
+        {
+            "nominativo": "DI CARLO Alessio",
+            "voti": "0",
+            "lista": "ARCADIA"
+        },
+        {
+            "nominativo": "FALETRA Miriam",
+            "voti": "0",
+            "lista": "ARCADIA"
+        },
+        {
+            "nominativo": "PUGLISI Emanuele",
+            "voti": "7",
+            "lista": "ARES"
+        },
+        {
+            "nominativo": "GAROFALO Edoardo",
+            "voti": "0",
+            "lista": "ARES"
+        },
+        {
+            "nominativo": "DISTEFANO Gaia",
+            "voti": "4",
+            "lista": "ARES"
+        },
+        {
+            "nominativo": "FAMOSO Martina",
+            "voti": "0",
+            "lista": "ARES"
+        },
+        {
+            "nominativo": "PERNI Claudia",
+            "voti": "15",
+            "lista": "ARES"
+        },
+        {
+            "nominativo": "PENNISI Gloria",
+            "voti": "10",
+            "lista": "INSIEME PER IL DISUM"
+        },
+        {
+            "nominativo": "CANNAVO' Giulia",
+            "voti": "3",
+            "lista": "INSIEME PER IL DISUM"
+        },
+        {
+            "nominativo": "GULISANO Valentina",
+            "voti": "11",
+            "lista": "INSIEME PER IL DISUM"
+        },
+        {
+            "nominativo": "MASCALI Emanuela",
+            "voti": "0",
+            "lista": "INSIEME PER IL DISUM"
+        },
+        {
+            "nominativo": "ZAGAMI Paola",
+            "voti": "1",
+            "lista": "INSIEME PER IL DISUM"
+        },
+        {
+            "nominativo": "CUTULI Nicoletta",
+            "voti": "0",
+            "lista": "INSIEME PER IL DISUM"
+        },
+        {
+            "nominativo": "CONSOLI Marta",
+            "voti": "0",
+            "lista": "INSIEME PER IL DISUM"
+        },
+        {
+            "nominativo": "BOSCO Giacomo",
+            "voti": "1",
+            "lista": "INSIEME PER IL DISUM"
+        },
+        {
+            "nominativo": "NICOTRA Pier Paolo",
+            "voti": "0",
+            "lista": "INSIEME PER IL DISUM"
+        },
+        {
+            "nominativo": "SICILIANO Carola",
+            "voti": "0",
+            "lista": "INSIEME PER IL DISUM"
+        },
+        {
+            "nominativo": "LA SPINA Federico, Agatino",
+            "voti": "0",
+            "lista": "INSIEME PER IL DISUM"
+        },
+        {
+            "nominativo": "GIAMPICCOLO Martina Giorgia",
+            "voti": "0",
+            "lista": "INSIEME PER IL DISUM"
+        },
+        {
+            "nominativo": "VACANTI Aurora",
+            "voti": "0",
+            "lista": "INSIEME PER IL DISUM"
+        },
+        {
+            "nominativo": "VENDEMMIA Nicole",
+            "voti": "1",
+            "lista": "INSIEME PER IL DISUM"
+        },
+        {
+            "nominativo": "NIBALI Jessica",
+            "voti": "0",
+            "lista": "INSIEME PER IL DISUM"
+        },
+        {
+            "nominativo": "SANFILIPPO Giuseppa Deborah",
+            "voti": "0",
+            "lista": "INSIEME PER IL DISUM"
+        },
+        {
+            "nominativo": "CACIA Federico",
+            "voti": "10",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "PAPPALARDO Marco",
+            "voti": "0",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "CONTI Simone Maria",
+            "voti": "0",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "PENNISI Andrea Alfio",
+            "voti": "5",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "GRECO Marielena",
+            "voti": "0",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "MELI Giuseppe",
+            "voti": "0",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "VIRGILLITO Alessia Nerina",
+            "voti": "0",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "GUZZETTA Angelo",
+            "voti": "0",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "STRINO Nicoletta Eva Maria",
+            "voti": "0",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "BONANNO Graziana",
+            "voti": "0",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "CATANIA Gaia",
+            "voti": "0",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "AMODEO Bruno",
+            "voti": "0",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "RUSSO Paola",
+            "voti": "0",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "TOSCANO Arianna",
+            "voti": "0",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "COSTANTINOPOLI Salvatore",
+            "voti": "0",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "RIZZO Agata Agrippina",
+            "voti": "19",
+            "lista": "UNI DISUM"
+        },
+        {
+            "nominativo": "ORLANDO Giuseppe",
+            "voti": "22",
+            "lista": "UNI DISUM"
+        },
+        {
+            "nominativo": "DI BISCEGLIE Claudia",
+            "voti": "0",
+            "lista": "UNI DISUM"
+        },
+        {
+            "nominativo": "TROVATELLO Giulia",
+            "voti": "0",
+            "lista": "UNI DISUM"
+        },
+        {
+            "nominativo": "MOSCARELLI Giorgia",
+            "voti": "1",
+            "lista": "UNI DISUM"
+        },
+        {
+            "nominativo": "BUTERA Laura",
+            "voti": "1",
+            "lista": "UNI DISUM"
+        },
+        {
+            "nominativo": "SCANDURRA Karol Dylan",
+            "voti": "0",
+            "lista": "UNI DISUM"
+        },
+        {
+            "nominativo": "SGARLATA Anna Maria",
+            "voti": "0",
+            "lista": "UNI DISUM"
+        },
+        {
+            "nominativo": "DISTEFANO Egle",
+            "voti": "0",
+            "lista": "UNI DISUM"
+        },
+        {
+            "nominativo": "FALZONE Ludovico",
+            "voti": "12",
+            "lista": "ALLEANZA UNIVERSITARIA"
+        },
+        {
+            "nominativo": "DEBILIO Manuel",
+            "voti": "2",
+            "lista": "ALLEANZA UNIVERSITARIA"
+        },
+        {
+            "nominativo": "LAUDANI Daniele",
+            "voti": "1",
+            "lista": "ALLEANZA UNIVERSITARIA"
+        },
+        {
+            "nominativo": "CONSOLO Guendalina",
+            "voti": "2",
+            "lista": "ALLEANZA UNIVERSITARIA"
+        }
+    ],
+    "seggi_da_assegnare": "19",
+    "dipartimento": "SCIENZE UMANISTICHE",
+    "quoziente": "73,6842",
+    "votanti": "1502",
+    "perc_votanti": "25,20",
+    "elettori": "5961"
+}

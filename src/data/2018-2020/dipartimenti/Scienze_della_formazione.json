@@ -1,0 +1,285 @@
+{
+    "schede": {
+        "Schede Bianche": "35",
+        "Schede Nulle": "30",
+        "Schede Contestate": "0"
+    },
+    "liste": [
+        {
+            "nome": "LA FINESTRA ‐ LIBERI DI SCEGLIERE",
+            "voti_totali": 192
+        },
+        {
+            "nome": "ARCHÈ",
+            "voti_totali": 7
+        },
+        {
+            "nome": "CONTROCAMPUS",
+            "voti_totali": 7
+        },
+        {
+            "nome": "UNIVERSITÀ POPOLARE",
+            "voti_totali": 5
+        },
+        {
+            "nome": "LIBERTAS ‐ IRIDE",
+            "voti_totali": 5
+        },
+        {
+            "nome": "WE LOVE UNICT",
+            "voti_totali": 33
+        },
+        {
+            "nome": "M.S.U. EVOLUTION",
+            "voti_totali": 33
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "voti_totali": 123
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "CAROLLO Ilaria ‐ detta \"Ilenia\" o \"Corallo\"",
+            "voti": "51",
+            "lista": "LA FINESTRA ‐ LIBERI DI SCEGLIERE"
+        },
+        {
+            "nominativo": "MAUGERI Andrea",
+            "voti": "80",
+            "lista": "LA FINESTRA ‐ LIBERI DI SCEGLIERE"
+        },
+        {
+            "nominativo": "FAIA Carola Carmela",
+            "voti": "75",
+            "lista": "M.S.U. EVOLUTION"
+        },
+        {
+            "nominativo": "SANFILIPPO Vanessa",
+            "voti": "46",
+            "lista": "M.S.U. EVOLUTION"
+        },
+        {
+            "nominativo": "BRUNETTO Fabiana",
+            "voti": "183",
+            "lista": "AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "BATTAGLIA Gabriele Mauro",
+            "voti": "85",
+            "lista": "AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "SACCUTA Luisa",
+            "voti": "30",
+            "lista": "AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "GULLIFA Palma Emanuela",
+            "voti": "19",
+            "lista": "AZIONE UNIVERSITARIA"
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "MICELI Silvia",
+            "voti": "23",
+            "lista": "LA FINESTRA ‐ LIBERI DI SCEGLIERE"
+        },
+        {
+            "nominativo": "RICCI Marika Simona Rita",
+            "voti": "10",
+            "lista": "LA FINESTRA ‐ LIBERI DI SCEGLIERE"
+        },
+        {
+            "nominativo": "CURTO Giuliana",
+            "voti": "1",
+            "lista": "LA FINESTRA ‐ LIBERI DI SCEGLIERE"
+        },
+        {
+            "nominativo": "MONASTRA Dario",
+            "voti": "3",
+            "lista": "LA FINESTRA ‐ LIBERI DI SCEGLIERE"
+        },
+        {
+            "nominativo": "CIRAVOLO Miriam",
+            "voti": "0",
+            "lista": "LA FINESTRA ‐ LIBERI DI SCEGLIERE"
+        },
+        {
+            "nominativo": "DE PASQUALE Giulio",
+            "voti": "0",
+            "lista": "LA FINESTRA ‐ LIBERI DI SCEGLIERE"
+        },
+        {
+            "nominativo": "CAPPADONNA Marco",
+            "voti": "8",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "MANCIAGLI Camilla Maria Catena",
+            "voti": "0",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "CRIMI Giada",
+            "voti": "13",
+            "lista": "CONTROCAMPUS"
+        },
+        {
+            "nominativo": "PEZZINO Gloria Maria Rita",
+            "voti": "0",
+            "lista": "CONTROCAMPUS"
+        },
+        {
+            "nominativo": "PIGNATARO Francesco",
+            "voti": "6",
+            "lista": "CONTROCAMPUS"
+        },
+        {
+            "nominativo": "VITANZA Clelia Lucia",
+            "voti": "0",
+            "lista": "CONTROCAMPUS"
+        },
+        {
+            "nominativo": "CRIMI Noemi",
+            "voti": "0",
+            "lista": "CONTROCAMPUS"
+        },
+        {
+            "nominativo": "CAVALLARO Chiara",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "PALMA Michele Alberto",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "SCANDURA Morgana",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "SALEMI Giuseppe",
+            "voti": "5",
+            "lista": "LIBERTAS ‐ IRIDE"
+        },
+        {
+            "nominativo": "SCHEMBARI Michela",
+            "voti": "10",
+            "lista": "LIBERTAS ‐ IRIDE"
+        },
+        {
+            "nominativo": "IGNOTO Serena",
+            "voti": "2",
+            "lista": "LIBERTAS ‐ IRIDE"
+        },
+        {
+            "nominativo": "FICHERA Giulia",
+            "voti": "1",
+            "lista": "LIBERTAS ‐ IRIDE"
+        },
+        {
+            "nominativo": "BERTOLO Alessia",
+            "voti": "0",
+            "lista": "LIBERTAS ‐ IRIDE"
+        },
+        {
+            "nominativo": "GIUSTOLISI Anna",
+            "voti": "0",
+            "lista": "LIBERTAS ‐ IRIDE"
+        },
+        {
+            "nominativo": "DI STEFANO Barbara",
+            "voti": "1",
+            "lista": "LIBERTAS ‐ IRIDE"
+        },
+        {
+            "nominativo": "LO CICERO Simona",
+            "voti": "0",
+            "lista": "LIBERTAS ‐ IRIDE"
+        },
+        {
+            "nominativo": "SPAMPINATO Valentina",
+            "voti": "0",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "IUVARA Enrica",
+            "voti": "0",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "LISI Mariannika",
+            "voti": "0",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "GELSOMINO Orazio",
+            "voti": "0",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "PATERNO' Anastasia",
+            "voti": "0",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "GARGANO Davide",
+            "voti": "0",
+            "lista": "M.S.U. EVOLUTION"
+        },
+        {
+            "nominativo": "VALORE Francesco",
+            "voti": "28",
+            "lista": "M.S.U. EVOLUTION"
+        },
+        {
+            "nominativo": "CELESTRE Giuseppe",
+            "voti": "0",
+            "lista": "M.S.U. EVOLUTION"
+        },
+        {
+            "nominativo": "ROMANO Chiara",
+            "voti": "0",
+            "lista": "M.S.U. EVOLUTION"
+        },
+        {
+            "nominativo": "SCELLATO Silvia",
+            "voti": "3",
+            "lista": "M.S.U. EVOLUTION"
+        },
+        {
+            "nominativo": "RAPISARDA Sabrina",
+            "voti": "1",
+            "lista": "M.S.U. EVOLUTION"
+        },
+        {
+            "nominativo": "DI SIMONE Valentina",
+            "voti": "16",
+            "lista": "AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "DRAGO Alessia Maria",
+            "voti": "2",
+            "lista": "AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "GAGLIANO Giuseppe",
+            "voti": "15",
+            "lista": "AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "SEMINARA Rosaria",
+            "voti": "1",
+            "lista": "AZIONE UNIVERSITARIA"
+        }
+    ],
+    "seggi_da_assegnare": "8",
+    "dipartimento": "SCIENZE DELLA FORMAZIONE",
+    "quoziente": "100,125",
+    "votanti": "866",
+    "perc_votanti": "29,06"
+}

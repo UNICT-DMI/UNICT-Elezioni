@@ -1,0 +1,350 @@
+{
+    "schede": {
+        "Schede Bianche": "93",
+        "Schede Nulle": "43",
+        "Schede Contestate": "0"
+    },
+    "liste": [
+        {
+            "nome": "UDU  ‐  UNIONE DEGLI UNIVERSITARI",
+            "voti_totali": 40
+        },
+        {
+            "nome": "GIOVANI CIDEC",
+            "voti_totali": 107
+        },
+        {
+            "nome": "ACTEA",
+            "voti_totali": 46
+        },
+        {
+            "nome": "UNIVERSITÀ POPOLARE",
+            "voti_totali": 98
+        },
+        {
+            "nome": "ALLEANZA  ‐  CONTROCAMPUS",
+            "voti_totali": 929
+        },
+        {
+            "nome": "STUDENTI PER LE LIBERTÀ  ‐  AZIONE UNIVERSITARIA",
+            "voti_totali": 76
+        },
+        {
+            "nome": "LIBERTAS LIBERI E FORTI",
+            "voti_totali": 46
+        },
+        {
+            "nome": "ARCADIA",
+            "voti_totali": 64
+        },
+        {
+            "nome": "REVOLUTION",
+            "voti_totali": 29
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "FIUMARA LUCA",
+            "voti": "30",
+            "lista": "UDU  ‐  UNIONE DEGLI UNIVERSITARI"
+        },
+        {
+            "nominativo": "TAGLIARINI VALENTINA",
+            "voti": "22",
+            "lista": "GIOVANI CIDEC"
+        },
+        {
+            "nominativo": "VECCHIARELLI MARTINA",
+            "voti": "99",
+            "lista": "GIOVANI CIDEC"
+        },
+        {
+            "nominativo": "TROVATO FEDERICO",
+            "voti": "37",
+            "lista": "ACTEA"
+        },
+        {
+            "nominativo": "MONTEMAGNO LIVIO MARIA",
+            "voti": "26",
+            "lista": "ALLEANZA  ‐  CONTROCAMPUS"
+        },
+        {
+            "nominativo": "NAPOLI MARTA",
+            "voti": "24",
+            "lista": "STUDENTI PER LE LIBERTÀ  ‐  AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "BLANCO ANDREA SANTO",
+            "voti": "39",
+            "lista": "STUDENTI PER LE LIBERTÀ  ‐  AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "LIGGIERI SANTI GIUSEPPE",
+            "voti": "38",
+            "lista": "LIBERTAS LIBERI E FORTI"
+        },
+        {
+            "nominativo": "LEOCATA CONCETTA",
+            "voti": "26",
+            "lista": "LIBERTAS LIBERI E FORTI"
+        },
+        {
+            "nominativo": "DI BELLA FEDERICA",
+            "voti": "49",
+            "lista": "ARCADIA"
+        },
+        {
+            "nominativo": "TUCCI MARCO ROSARIO",
+            "voti": "22",
+            "lista": "ARCADIA"
+        },
+        {
+            "nominativo": "FARACI MANFREDI",
+            "voti": "57",
+            "lista": "ARCADIA"
+        },
+        {
+            "nominativo": "CUPPERI ALESSIO",
+            "voti": "135",
+            "lista": "REVOLUTION"
+        },
+        {
+            "nominativo": "SCHEMBRI DAVIDE CALOGERO",
+            "voti": "30",
+            "lista": "REVOLUTION"
+        },
+        {
+            "nominativo": "SCIUTO ALESSANDRO",
+            "voti": "25",
+            "lista": "REVOLUTION"
+        },
+        {
+            "nominativo": "MARRARO GIULIANA",
+            "voti": "22",
+            "lista": "REVOLUTION"
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "FERLAZZO GABRIELE",
+            "voti": "6",
+            "lista": "GIOVANI CIDEC"
+        },
+        {
+            "nominativo": "GALEOTA CAROLINE detto \"Carola\"",
+            "voti": "2",
+            "lista": "ACTEA"
+        },
+        {
+            "nominativo": "PLATANIA ANNA",
+            "voti": "0",
+            "lista": "ACTEA"
+        },
+        {
+            "nominativo": "SALERNO SALVATORE",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "BARRANO FARFALLA GIUSEPPE",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "ZINGALE NOEMI MARIA",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "MIDOLO ANNAMARIA",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "FERLITO FRANCESCO",
+            "voti": "2",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "MARCHI' DARIO",
+            "voti": "2",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "FARACI DANIELE LUIGI",
+            "voti": "2",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "RANNISI ROBERTA",
+            "voti": "7",
+            "lista": "ALLEANZA  ‐  CONTROCAMPUS"
+        },
+        {
+            "nominativo": "D'AVOLA MARILENA (Candid. Ritirata)",
+            "voti": "0",
+            "lista": "ALLEANZA  ‐  CONTROCAMPUS"
+        },
+        {
+            "nominativo": "BULLA FRANCESCO",
+            "voti": "0",
+            "lista": "ALLEANZA  ‐  CONTROCAMPUS"
+        },
+        {
+            "nominativo": "PRIVITERA VERONICA",
+            "voti": "0",
+            "lista": "ALLEANZA  ‐  CONTROCAMPUS"
+        },
+        {
+            "nominativo": "CORONELLA FEDERICA GRAZIA",
+            "voti": "0",
+            "lista": "ALLEANZA  ‐  CONTROCAMPUS"
+        },
+        {
+            "nominativo": "LO PRESTI LUCA",
+            "voti": "2",
+            "lista": "STUDENTI PER LE LIBERTÀ  ‐  AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "LA SPINA CRISTIAN",
+            "voti": "22",
+            "lista": "STUDENTI PER LE LIBERTÀ  ‐  AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "LEONARDI FRANCESCO",
+            "voti": "3",
+            "lista": "STUDENTI PER LE LIBERTÀ  ‐  AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "REITANO FLAVIA MARIA RITA",
+            "voti": "8",
+            "lista": "STUDENTI PER LE LIBERTÀ  ‐  AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "ZHAO YUN ELISABETH",
+            "voti": "10",
+            "lista": "STUDENTI PER LE LIBERTÀ  ‐  AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "BONELLI HARLEY",
+            "voti": "0",
+            "lista": "LIBERTAS LIBERI E FORTI"
+        },
+        {
+            "nominativo": "CRISMA FAUSTO",
+            "voti": "7",
+            "lista": "LIBERTAS LIBERI E FORTI"
+        },
+        {
+            "nominativo": "BRUNO GIORGIA",
+            "voti": "0",
+            "lista": "LIBERTAS LIBERI E FORTI"
+        },
+        {
+            "nominativo": "MONDELLO VIVIANA",
+            "voti": "0",
+            "lista": "LIBERTAS LIBERI E FORTI"
+        },
+        {
+            "nominativo": "ZISA MATTEO",
+            "voti": "2",
+            "lista": "LIBERTAS LIBERI E FORTI"
+        },
+        {
+            "nominativo": "SARANITI ERIKA",
+            "voti": "0",
+            "lista": "LIBERTAS LIBERI E FORTI"
+        },
+        {
+            "nominativo": "ITALIANO ALESSANDRO",
+            "voti": "10",
+            "lista": "LIBERTAS LIBERI E FORTI"
+        },
+        {
+            "nominativo": "FLORIDIA DAVIDE",
+            "voti": "20",
+            "lista": "ARCADIA"
+        },
+        {
+            "nominativo": "FINOCCHIARO MICAELE detto \"Michael\"",
+            "voti": "12",
+            "lista": "ARCADIA"
+        },
+        {
+            "nominativo": "LO PRESTI MATTIA LUIGI",
+            "voti": "0",
+            "lista": "ARCADIA"
+        },
+        {
+            "nominativo": "LIOTTA DARIO",
+            "voti": "0",
+            "lista": "ARCADIA"
+        },
+        {
+            "nominativo": "CUCE' SEBASTIANO SALVATORE",
+            "voti": "1",
+            "lista": "ARCADIA"
+        },
+        {
+            "nominativo": "CASELLA ANGELO",
+            "voti": "0",
+            "lista": "ARCADIA"
+        },
+        {
+            "nominativo": "SALERNO CHIARA",
+            "voti": "0",
+            "lista": "ARCADIA"
+        },
+        {
+            "nominativo": "AIELLO GIOVANNI",
+            "voti": "2",
+            "lista": "ARCADIA"
+        },
+        {
+            "nominativo": "DE MELIO DAMIANO",
+            "voti": "1",
+            "lista": "ARCADIA"
+        },
+        {
+            "nominativo": "DI STEFANO DANIELE",
+            "voti": "2",
+            "lista": "ARCADIA"
+        },
+        {
+            "nominativo": "SANTORO SIMONA MARIA",
+            "voti": "6",
+            "lista": "REVOLUTION"
+        },
+        {
+            "nominativo": "DA CAMPO MARIA LORENA",
+            "voti": "0",
+            "lista": "REVOLUTION"
+        },
+        {
+            "nominativo": "PATANE' CARLA ANGELA",
+            "voti": "0",
+            "lista": "REVOLUTION"
+        },
+        {
+            "nominativo": "GIAMBELLO CHIARA",
+            "voti": "0",
+            "lista": "REVOLUTION"
+        },
+        {
+            "nominativo": "BONFIGLIO SAMUELE",
+            "voti": "0",
+            "lista": "REVOLUTION"
+        },
+        {
+            "nominativo": "ANDRONACO LUCA",
+            "voti": "0",
+            "lista": "REVOLUTION"
+        }
+    ],
+    "seggi_da_assegnare": "16",
+    "dipartimento": "SCIENZE POLITICHE E SOCIALI - DSPS",
+    "quoziente": "57,625",
+    "votanti": "1058",
+    "perc_votanti": "32,99",
+    "elettori": "3207"
+}

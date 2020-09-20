@@ -1,0 +1,170 @@
+{
+    "schede": {
+        "Schede Bianche": "37",
+        "Schede Nulle": "39",
+        "Schede Contestate": "0"
+    },
+    "liste": [
+        {
+            "nome": "ARCHÈ",
+            "voti_totali": 178
+        },
+        {
+            "nome": "UNIVERSITÀ POPOLARE",
+            "voti_totali": 1
+        },
+        {
+            "nome": "LIBERTAS LIBERI E FORTI",
+            "voti_totali": 38
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "FIORITO MARIO",
+            "voti": "40",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "LA ROSA CLAUDIA",
+            "voti": "23",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "GUERRIERI ADRIANA",
+            "voti": "18",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "NUNNARI VERONICA",
+            "voti": "19",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "TOMASELLI ALFIO ANDREA",
+            "voti": "26",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "LA SPINA VALERIO",
+            "voti": "17",
+            "lista": "LIBERTAS LIBERI E FORTI"
+        },
+        {
+            "nominativo": "GIANNI' MANUELA",
+            "voti": "20",
+            "lista": "LIBERTAS LIBERI E FORTI"
+        },
+        {
+            "nominativo": "TUDISCO ENRICO",
+            "voti": "59",
+            "lista": "LIBERTAS LIBERI E FORTI"
+        },
+        {
+            "nominativo": "DAMIGELLA ADRIANO MARIA",
+            "voti": "37",
+            "lista": "LIBERTAS LIBERI E FORTI"
+        },
+        {
+            "nominativo": "RAGUSA JESSICA",
+            "voti": "34",
+            "lista": "LIBERTAS LIBERI E FORTI"
+        },
+        {
+            "nominativo": "MUSUMECI SEBASTIANO",
+            "voti": "25",
+            "lista": "LIBERTAS LIBERI E FORTI"
+        },
+        {
+            "nominativo": "CHISARI GIORGIA",
+            "voti": "41",
+            "lista": "LIBERTAS LIBERI E FORTI"
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "ANTOCI MARTA",
+            "voti": "16",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "CAIAZZO FEDERICO",
+            "voti": "5",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "GUARDO SEBASTIANO",
+            "voti": "0",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "PAPALE ELIA",
+            "voti": "0",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "SANTOROCCO LORENZO",
+            "voti": "0",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "TIDONA LUCIA",
+            "voti": "0",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "ZAPPALA' ERIKA RITA",
+            "voti": "8",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "NARCISO ROBERTA",
+            "voti": "8",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "BARBAGALLO SALVATORE",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "NASELLO SHARON",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "DIOLOSA' SALVATORE",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "MARANO CARMELO",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "MAMMANA MARIA TERESA",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "ZAPPALA' CRISTINA LAURA",
+            "voti": "0",
+            "lista": "LIBERTAS LIBERI E FORTI"
+        },
+        {
+            "nominativo": "BARCHI SIMONE",
+            "voti": "0",
+            "lista": "LIBERTAS LIBERI E FORTI"
+        },
+        {
+            "nominativo": "ARCORIA ANTONIO",
+            "voti": "0",
+            "lista": "LIBERTAS LIBERI E FORTI"
+        }
+    ],
+    "seggi_da_assegnare": "12",
+    "dipartimento": "SCIENZE MEDICHE,CHIRURGICHE E TECNOLOGIE AVANZATE - DGFI",
+    "votanti": "512",
+    "perc_votanti": "56,57",
+    "elettori": "905"
+}

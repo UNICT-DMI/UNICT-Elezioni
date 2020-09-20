@@ -1,0 +1,236 @@
+{
+    "schede": {
+        "Schede Bianche": "29",
+        "Schede Nulle": "14",
+        "Schede Contestate": "0"
+    },
+    "liste": [
+        {
+            "nome": "ARCHÈ",
+            "voti_totali": 304
+        },
+        {
+            "nome": "MEGALIDEA",
+            "voti_totali": 232
+        },
+        {
+            "nome": "UNIVERSITÀ POPOLARE",
+            "voti_totali": 27
+        },
+        {
+            "nome": "KOINÈ",
+            "voti_totali": 25
+        },
+        {
+            "nome": "WE LOVE UNICT",
+            "voti_totali": 12
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "voti_totali": 5
+        },
+        {
+            "nome": "ALLEANZA UNIVERSITARIA",
+            "voti_totali": 6
+        },
+        {
+            "nome": "PHARMA",
+            "voti_totali": 19
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "DIELI Raffaella Maria",
+            "voti": "17",
+            "lista": "MEGALIDEA"
+        },
+        {
+            "nominativo": "PUGLISI Prisca",
+            "voti": "41",
+            "lista": "MEGALIDEA"
+        },
+        {
+            "nominativo": "FISICHELLA Antonio",
+            "voti": "239",
+            "lista": "MEGALIDEA"
+        },
+        {
+            "nominativo": "ALESSANDRO Francesca",
+            "voti": "64",
+            "lista": "KOINÈ"
+        },
+        {
+            "nominativo": "ADESSO Andrea",
+            "voti": "17",
+            "lista": "KOINÈ"
+        },
+        {
+            "nominativo": "LA TORA Roberta",
+            "voti": "44",
+            "lista": "AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "ANICITO Maurizio",
+            "voti": "70",
+            "lista": "ALLEANZA UNIVERSITARIA"
+        },
+        {
+            "nominativo": "MONTES Hilary",
+            "voti": "56",
+            "lista": "PHARMA"
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "DRIDI Vittoria",
+            "voti": "0",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "SCACCIANOCE Michelangelo",
+            "voti": "0",
+            "lista": "ARCHÈ"
+        },
+        {
+            "nominativo": "AMOROSO Elena",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "CONDORELLI Alessandro",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "IUDICI Anna",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "LIGGIERI Graziella",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "PAPPALARDO Sara",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "SIGNORELLI Umberto",
+            "voti": "5",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "ARANGIO Sara Maria",
+            "voti": "11",
+            "lista": "KOINÈ"
+        },
+        {
+            "nominativo": "PRINZI Chiara",
+            "voti": "2",
+            "lista": "KOINÈ"
+        },
+        {
+            "nominativo": "REINA Davide",
+            "voti": "1",
+            "lista": "KOINÈ"
+        },
+        {
+            "nominativo": "UCCELLATORE Francesco",
+            "voti": "2",
+            "lista": "KOINÈ"
+        },
+        {
+            "nominativo": "BALLOTTA Maria Grazia",
+            "voti": "4",
+            "lista": "KOINÈ"
+        },
+        {
+            "nominativo": "IACOBELLO Federico",
+            "voti": "12",
+            "lista": "KOINÈ"
+        },
+        {
+            "nominativo": "COSTANZO Daniele",
+            "voti": "5",
+            "lista": "KOINÈ"
+        },
+        {
+            "nominativo": "FERLITO Marco",
+            "voti": "10",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "MAVILLA Mirco Mattia",
+            "voti": "10",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "MIO Emanuela",
+            "voti": "0",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "MERCORILLO Andrea Giusi Maria",
+            "voti": "0",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "MINARDO Nicoletta",
+            "voti": "0",
+            "lista": "WE LOVE UNICT"
+        },
+        {
+            "nominativo": "TERLATI Chiara",
+            "voti": "0",
+            "lista": "AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "GUARNERA Carmelo",
+            "voti": "8",
+            "lista": "AZIONE UNIVERSITARIA"
+        },
+        {
+            "nominativo": "ARANGIO Giuseppe",
+            "voti": "15",
+            "lista": "ALLEANZA UNIVERSITARIA"
+        },
+        {
+            "nominativo": "FLORI Francesco Gerardo",
+            "voti": "17",
+            "lista": "ALLEANZA UNIVERSITARIA"
+        },
+        {
+            "nominativo": "INFARINATO Nancy",
+            "voti": "1",
+            "lista": "ALLEANZA UNIVERSITARIA"
+        },
+        {
+            "nominativo": "BURRAGATO Rita",
+            "voti": "19",
+            "lista": "PHARMA"
+        },
+        {
+            "nominativo": "CALCAGNO Carola",
+            "voti": "1",
+            "lista": "PHARMA"
+        },
+        {
+            "nominativo": "ZAPPALA' Gabriele",
+            "voti": "2",
+            "lista": "PHARMA"
+        },
+        {
+            "nominativo": "PULVIRENTI Fabrizio",
+            "voti": "9",
+            "lista": "PHARMA"
+        }
+    ],
+    "seggi_da_assegnare": "9",
+    "dipartimento": "SCIENZE DEL FARMACO",
+    "quoziente": "82",
+    "votanti": "781",
+    "perc_votanti": "40,11",
+    "elettori": "1947"
+}

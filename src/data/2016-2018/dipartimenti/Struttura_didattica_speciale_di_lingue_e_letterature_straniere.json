@@ -1,0 +1,76 @@
+{
+    "schede": {
+        "Schede Bianche": "19",
+        "Schede Nulle": "35",
+        "Schede Contestate": "0"
+    },
+    "liste": [
+        {
+            "nome": "NUOVAIBLA",
+            "voti_totali": 129
+        },
+        {
+            "nome": "UNIVERSITÀ POPOLARE",
+            "voti_totali": 20
+        },
+        {
+            "nome": "ARCADIA REVOLUTION",
+            "voti_totali": 56
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "LONGHITANO VITA VALENTINA",
+            "voti": "47",
+            "lista": "NUOVAIBLA"
+        },
+        {
+            "nominativo": "ADDAMO MARIA GABRIELLA",
+            "voti": "13",
+            "lista": "NUOVAIBLA"
+        },
+        {
+            "nominativo": "NICOLOSI ANDREA",
+            "voti": "43",
+            "lista": "NUOVAIBLA"
+        },
+        {
+            "nominativo": "INDIGENO VERONICA",
+            "voti": "50",
+            "lista": "ARCADIA REVOLUTION"
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "MUNAFO' GIOVANNI",
+            "voti": "8",
+            "lista": "NUOVAIBLA"
+        },
+        {
+            "nominativo": "SANTORO ELENA",
+            "voti": "5",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "SEGUENZIA ALESSANDRO ALBERTO MARIA",
+            "voti": "8",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "DONATO SILVIA",
+            "voti": "0",
+            "lista": "UNIVERSITÀ POPOLARE"
+        },
+        {
+            "nominativo": "MOTTA MARIA FRANCESCA",
+            "voti": "0",
+            "lista": "ARCADIA REVOLUTION"
+        }
+    ],
+    "seggi_da_assegnare": "4",
+    "dipartimento": "STRUTTURA DIDATTICA SPECIALE DI LINGUE DI RAGUSA - SDS LIN_RG",
+    "quoziente": "51,25",
+    "votanti": "259",
+    "perc_votanti": "25,67",
+    "elettori": "1009"
+}

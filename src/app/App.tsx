@@ -6,40 +6,45 @@ import {
   Redirect,
 } from "react-router-dom";
 import './App.scss';
-import Navbar from './navbar/Navbar';
+import Menu from './navbar/Navbar';
 import Results from './results/Results';
+import { dipartimenti } from '../data/dipartimenti';
 
 const App: FunctionComponent = () => {
   return (
     <div className="App">
       <Router>
-        <Navbar />
+        <Menu />
         <Switch>
-          <Route path="/home">
-            <Home />
+          <Route path="/senato">
+            <h2 className="mt-5">Senato</h2>
+            <br />
+            <Results anno="2018-2020" path="Senato" />
+            <Results anno="2016-2018" path="Senato" />
           </Route>
-          <Route path="/results">
-            <Results />
+          <Route path="/cda">
+            <h2 className="mt-5">Consiglio di Amministrazione</h2>
+            <br />
+            <Results anno="2018-2020" path="Consiglio_di_amministrazione" />
+            <Results anno="2016-2018" path="Consiglio_di_amministrazione" />
           </Route>
-          <Route path="/page">
-            <AnotherPage />
+          <Route path="/dipartimenti">
+            <h2 className="mt-5">Dipartimenti</h2>
+            <br />
+            {dipartimenti.map(d => [
+              <h3>{d.replace(/_/g, ' ')}</h3>,
+              <Results anno="2018-2020" path={`dipartimenti/${d}`} />,
+              <Results anno="2016-2018" path={`dipartimenti/${d}`} />
+            ])}
           </Route>
           <Route path="/not-found">
             <NotFound />
           </Route>
-          <Redirect to='/not-found' />
+          <Redirect to='/senato' />
         </Switch>
       </Router>
     </div>
   );
-}
-
-function Home() {
-  return <h2>Hello world!</h2>;
-}
-
-function AnotherPage() {
-  return <h2>Another Page!</h2>;
 }
 
 function NotFound() {
