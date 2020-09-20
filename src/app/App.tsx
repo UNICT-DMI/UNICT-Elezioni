@@ -13,7 +13,7 @@ import { dipartimenti } from '../data/dipartimenti';
 const App: FunctionComponent = () => {
   return (
     <div className="App">
-      <HashRouter>
+      <HashRouter basename="/UNICT-Elezioni">
         <Menu />
         <Switch>
           <Route path="/senato">
