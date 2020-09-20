@@ -49,6 +49,14 @@ const Results = (props: Props) => {
     return tableRows;
   }
 
+  function fix_names(name: string): string {
+    return name.replace('#', '')
+               .replace(/ /g, ' ')
+               .replace(/ /g, ' ')
+               .replace(new RegExp("E'", "g"), 'È')
+               .replace(new RegExp("A'", "g"), 'À');
+  }
+
   function generateHead(): JSX.Element {
     return (
         <thead>
@@ -60,7 +68,7 @@ const Results = (props: Props) => {
           <th className="year">{props.anno} </th>
           { data.liste.map((l: any) =>
           <th key={props.anno + '-lista-' + l.nome}>
-            <img src={`loghi/${l.nome.replace('#', '')}.jpg`} width="80" height="80" alt={l.nome}></img>
+            <img src={`loghi/${fix_names(l.nome)}.jpg`} width="80" height="80" alt={l.nome}></img>
             <p></p>
             {l.nome} ({l.voti_totali})
           </th>) }

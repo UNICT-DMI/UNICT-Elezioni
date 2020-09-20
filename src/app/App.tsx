@@ -17,16 +17,19 @@ const App: FunctionComponent = () => {
         <Navbar />
         <Switch>
           <Route path="/senato">
+          <h2 className="mt-5">Senato</h2>
             <Results anno="2018-2020" path="Senato" />
             <Results anno="2016-2018" path="Senato" />
           </Route>
           <Route path="/cda">
+            <h2 className="mt-5">Consiglio di Amministrazione</h2>
             <Results anno="2018-2020" path="Consiglio_di_amministrazione" />
             <Results anno="2016-2018" path="Consiglio_di_amministrazione" />
           </Route>
           <Route path="/dipartimenti">
+            <h2 className="mt-5">Dipartimenti</h2>
             {dipartimenti.map(d => [
-              <h3>{d}</h3>,
+              <h3>{d.replace(/_/g, ' ')}</h3>,
               <Results anno="2018-2020" path={`dipartimenti/${d}`} />,
               <Results anno="2016-2018" path={`dipartimenti/${d}`} />
             ])}
