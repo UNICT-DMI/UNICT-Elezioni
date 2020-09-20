@@ -61,6 +61,12 @@ const Results = (props: Props) => {
                .replace('LIBERTAS LIBERI E FORTI', 'LIBERTAS')
                .replace('NUOVA IBLA', 'NUOVAIBLA')
                .replace('SANI LAB', 'SANILAB')
+               .replace('ECONOMIATTIVA', 'ECONOMIA ATTIVA')
+               .replace('WE LOVE UNICT/CREDIAMOCI', 'WE LOVE UNICT')
+               .replace('WE LOVE UNICT - ARES', 'WE LOVE UNICT')
+               .replace('PARTECIPA ‐ SOS GIURISTI', 'PARTECIPA')
+               .replace('ARCADIA ‐ REVOLUTION', 'ARCADIA REVOLUTION')
+               .replace('UDU - UNIONE DEGLI UNIVERSITARI', 'UDU  ‐  UNIONE DEGLI UNIVERSITARI')
                .replace(new RegExp("E'", "g"), 'È')
                .replace(new RegExp("A'", "g"), 'À');
   }
@@ -105,7 +111,7 @@ const Results = (props: Props) => {
 
             <div className={show ? 'invisible' : 'visible'}>
               <Collapse in={!show}>
-                <Table striped bordered hover className="liste">
+                <Table striped bordered hover responsive className="liste">
                   {generateHead()}
                 </Table>
               </Collapse>
