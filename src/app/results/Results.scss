@@ -1,5 +1,4 @@
 .Results {
-  margin: 0px 55px;
   font-size: 10px;
 
   .year {
@@ -11,5 +10,17 @@
   }
   .invisible {
     display: none;
+  }
+
+  .logo {
+    height: 100px;
+
+    img {
+      margin: auto;
+    }
+  }
+
+  .sub-logo {
+    height: 50px;
   }
 }

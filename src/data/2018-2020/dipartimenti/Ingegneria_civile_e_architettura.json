@@ -26,7 +26,7 @@
             "voti_totali": 25
         },
         {
-            "nome": "AZIONE UNIVERSITARIA",
+            "nome": "AZIONE UNIVERSITARIA",
             "voti_totali": 65
         }
     ],
@@ -99,17 +99,17 @@
         {
             "nominativo": "SACCUZZO Salvatore",
             "voti": "49",
-            "lista": "AZIONE UNIVERSITARIA"
+            "lista": "AZIONE UNIVERSITARIA"
         },
         {
             "nominativo": "GRECO Sebastiano",
             "voti": "48",
-            "lista": "AZIONE UNIVERSITARIA"
+            "lista": "AZIONE UNIVERSITARIA"
         },
         {
             "nominativo": "COSTANTE AMORE Edoardo",
             "voti": "17",
-            "lista": "AZIONE UNIVERSITARIA"
+            "lista": "AZIONE UNIVERSITARIA"
         }
     ],
     "non_eletti": [
@@ -236,27 +236,27 @@
         {
             "nominativo": "MANGANO Saverio",
             "voti": "12",
-            "lista": "AZIONE UNIVERSITARIA"
+            "lista": "AZIONE UNIVERSITARIA"
         },
         {
             "nominativo": "FISICARO Fabio",
             "voti": "0",
-            "lista": "AZIONE UNIVERSITARIA"
+            "lista": "AZIONE UNIVERSITARIA"
         },
         {
             "nominativo": "SETOLA Riccardo",
             "voti": "3",
-            "lista": "AZIONE UNIVERSITARIA"
+            "lista": "AZIONE UNIVERSITARIA"
         },
         {
             "nominativo": "AMBROSIO Angelo",
             "voti": "0",
-            "lista": "AZIONE UNIVERSITARIA"
+            "lista": "AZIONE UNIVERSITARIA"
         },
         {
             "nominativo": "RADICCHIO Massimiliano",
             "voti": "5",
-            "lista": "AZIONE UNIVERSITARIA"
+            "lista": "AZIONE UNIVERSITARIA"
         }
     ],
     "seggi_da_assegnare": "15",
