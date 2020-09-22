@@ -43,7 +43,7 @@ const Results = (props: Props) => {
               ) : ''}
             </td>
           )}
-       </tr>
+        </tr>
       )
     }
 
@@ -148,15 +148,24 @@ const Results = (props: Props) => {
               <div className="col-12 lists">
                 {/* <h2>Dipartimento: {data.dipartimento}</h2> */}
 
-                <Table striped bordered hover className="liste">
-                  {generateHead()}
+                <div className={show ? 'invisible' : 'visible'}>
+                  <Collapse in={!show}>
+                    <Table striped bordered hover responsive className="liste">
+                      {generateHead()}
+                    </Table>
+                  </Collapse>
+                </div>
 
-                  <Collapse in={show}>
-                  <div className="generatedRows">
-                  <tbody>
-                    {generateTableRows(data)}
-                  </tbody></div></Collapse>         
-                </Table>
+                <Collapse in={show}>
+                  <div id="example-collapse-text">
+                    <Table striped bordered hover className="liste">
+                      {generateHead()}
+                      <tbody>
+                        {generateTableRows(data)}
+                      </tbody>
+                    </Table>
+                  </div>
+                </Collapse>
               </div>
             </div>
             <div className="row">
