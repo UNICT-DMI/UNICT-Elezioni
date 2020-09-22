@@ -8,36 +8,40 @@ import {
 import './App.scss';
 import Menu from './navbar/Navbar';
 import Results from './results/Results';
-import { dipartimenti } from '../data/dipartimenti';
+import { departments } from '../data/departments';
+import { years } from '../data/years';
+import Department from './department/Department';
 
 const App: FunctionComponent = () => {
   return (
     <div className="App">
       <HashRouter basename="/">
         <Menu />
-        <div className="container">
+        <br />
+        <div className="container-fluid">
           <Switch>
             <Route exact path="/senato">
               <h2 className="mt-5">Senato</h2>
               <br />
-              <Results anno="2018-2020" path="Senato" />
-              <Results anno="2016-2018" path="Senato" />
+              <Results anno="2018-2020" path="Senato" details={false} />
+              <Results anno="2016-2018" path="Senato" details={false} />
             </Route>
             <Route exact path="/cda">
               <h2 className="mt-5">Consiglio di Amministrazione</h2>
               <br />
-              <Results anno="2018-2020" path="Consiglio_di_amministrazione" />
-              <Results anno="2016-2018" path="Consiglio_di_amministrazione" />
+              <Results anno="2018-2020" path="Consiglio_di_amministrazione" details={false} />
+              <Results anno="2016-2018" path="Consiglio_di_amministrazione" details={false} />
             </Route>
             <Route exact path="/dipartimenti">
               <h2 className="mt-5">Dipartimenti</h2>
               <br />
-              {dipartimenti.map(d => [
-                  <h3>{d.replace(/_/g, ' ')}</h3>,
-              <Results anno="2018-2020" path={`dipartimenti/${d}`} />,
-              <Results anno="2016-2018" path={`dipartimenti/${d}`} />
+              {departments.map(d => [
+                <hr className="my-5" />,
+                <h3><a href={`#/dipartimento/${d}`}>{d.replace(/_/g, ' ')}</a></h3>,
+                years.map(y => <Results anno={y} path={`dipartimenti/${d}`} details={false} />)
               ])}
             </Route>
+            <Route path="/dipartimento/:dipartimento" component={Department} />
             <Route exact path="/not-found">
               <NotFound />
             </Route>

@@ -2,14 +2,14 @@ import React, { useEffect, useState } from 'react';
 import './Results.scss';
 import Collapse from 'react-bootstrap/Collapse';
 import Table from 'react-bootstrap/Table';
-import Card from 'react-bootstrap/Card';
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Tooltip from 'react-bootstrap/Tooltip';
 
 
 interface Props {
-  anno?: string;
-  path?: string;
+  anno: string;
+  path: string;
+  details: boolean;
 }
 
 const Results = (props: Props) => {
@@ -81,6 +81,7 @@ const Results = (props: Props) => {
           <th>Schede Nulle</th>
           <th>Schede Contestate</th>
           <th>Votanti</th>
+          <th>Quoziente</th>
           <th>Seggi</th>
         </tr>
         <tr>
@@ -88,6 +89,7 @@ const Results = (props: Props) => {
           <td>{data.schede['Schede Nulle']}</td>
           <td>{data.schede['Schede Contestate']}</td>
           <td>{data.perc_votanti}</td>
+          <td>{data.quoziente}</td>
           <td>{data.seggi_da_assegnare}</td>
         </tr>
       </thead>
@@ -97,13 +99,17 @@ const Results = (props: Props) => {
   function generateHead(): JSX.Element {
     return (
       <thead className="cursorPointer">
+        <tr>
+          <th className="bg-secondary" colSpan={data.liste.length}>{props.anno}</th>
+        </tr>
         <tr
           className="head-row"
           onClick={toggleBody}
-          aria-controls="example-collapse-text"
+          aria-controls="collapse-tbody"
           aria-expanded={show}>
           {data.liste.map((l: any) =>
-            <OverlayTrigger placement="top"
+            <OverlayTrigger
+              placement="top"
               overlay={tooltipExpandCollapse}>
               <th key={props.anno + '-lista-' + l.nome}>
                 <div className="logo" key={props.anno + '-logo-' + l.nome}>
@@ -128,49 +134,39 @@ const Results = (props: Props) => {
 
   const tooltipExpandCollapse = (props: any) => (
     <Tooltip id="button-tooltip" {...props}>
-      Click to Expand/Collapse
+      {show ? 'Nascondi candidati' : 'Mostra candidati'}
     </Tooltip>
   );
 
   return (
     <div className="Results">
-      <div className="container-fluid p-4">
-        <Card>
-          <Card.Header><b>{props.anno}</b></Card.Header>
-          <Card.Body>
-            <div className="row">
-              <div className="col-12 lists">
-                {/* <h2>Dipartimento: {data.dipartimento}</h2> */}
+      <div className="p-2">
+        <div className="row">
+          <div className="col-12 lists">
 
-                <div className={show ? 'invisible' : 'visible'}>
-                  <Collapse in={!show}>
-                    <Table striped bordered hover responsive className="liste">
-                      {generateHead()}
-                    </Table>
-                  </Collapse>
-                </div>
-
-                <Collapse in={show}>
-                  <div id="example-collapse-text">
-                    <Table striped bordered hover className="liste">
-                      {generateHead()}
-                      <tbody>
-                        {generateTableRows(data)}
-                      </tbody>
-                    </Table>
-                  </div>
-                </Collapse>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-12 mt-2">
+            <div className={show ? 'invisible' : 'visible'}>
+              <Collapse in={!show}>
                 <Table striped bordered hover responsive className="liste">
-                  {generateNOTA()}
+                  {generateHead()}
+                </Table>
+              </Collapse>
+            </div>
+
+            <Collapse in={show}>
+              <div id="collapse-tbody">
+                <Table striped bordered hover className="liste">
+                  {generateHead()}
+                  <tbody>
+                    {generateTableRows(data)}
+                  </tbody>
                 </Table>
               </div>
-            </div>
-          </Card.Body>
-        </Card>
+            </Collapse>
+          </div>
+        </div>
+          <Table striped bordered hover responsive className="liste">
+            {props.details ? generateNOTA() : ''}
+          </Table>
       </div>
     </div>
   );

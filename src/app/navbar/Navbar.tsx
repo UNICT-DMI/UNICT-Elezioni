@@ -11,7 +11,7 @@ const Menu: FunctionComponent = () => {
 
     <div className="Menu">
 
-      <Navbar expand="lg" className="bg-navbar navbar-expand-lg navbar-dark bg-primary">
+      <Navbar expand="lg" className="bg-navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
         <div className="container">
           <Navbar.Brand href="#/senato">UNICT Elezioni</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
