@@ -16,13 +16,20 @@ def errorStart(argc):
 def printPars(text):
     for x in text:
         print(x)
+    
+def saveJson(str_json, filename_pdf):
+    filename = filename_pdf.replace("pdf", "json")
+    with open(filename, "w") as f:
+        f.write(str_json)
+        f.close()
+    print("JSON file has been created.")
 
 def main(argv):
     errorStart(len(argv))
     formatted_text = FormatPDF.formatPdf(argv[0])
     target = selectTarget.getInstance().getTarget(argv[1])
-    printPars(formatted_text)
-    target.scrapeList(formatted_text)
+    #printPars(formatted_text)
+    saveJson(target.scrapeList(formatted_text), argv[0])
 
 
 if __name__ == "__main__":
