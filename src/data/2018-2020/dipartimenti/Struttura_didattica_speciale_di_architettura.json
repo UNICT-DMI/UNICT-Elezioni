@@ -1,91 +1,172 @@
 {
+    "dipartimento": "STRUTTURA DIDATTICA SPECIALE DI ARCHITETTURA",
+    "seggi_da_assegnare": "6",
     "schede": {
-        "Schede Bianche": "14",
-        "Schede Nulle": "12",
-        "Schede Contestate": "0"
+        "bianche": {
+            "totali": 14,
+            "seggio_n_34": 14
+        },
+        "nulle": {
+            "totali": 12,
+            "seggio_n_34": 12
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_34": 0
+        }
     },
     "liste": [
         {
-            "nome": "ARCHÈ",
-            "voti_totali": 202
+            "nome": "ARCHE'",
+            "seggi": {
+                "seggi_pieni": "4",
+                "resti": "32,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "5"
+            },
+            "voti": {
+                "totali": 202,
+                "seggio_n_34": 202
+            }
         },
         {
-            "nome": "SI! ‐ STUDENTI INDIPENDENTI",
-            "voti_totali": 44
+            "nome": "SI! \u2010 STUDENTI INDIPENDENTI",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "1,5",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 44,
+                "seggio_n_34": 44
+            }
         },
         {
             "nome": "AZIONE UNIVERSITARIA",
-            "voti_totali": 9
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "9,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 9,
+                "seggio_n_34": 9
+            }
+        },
+        {
+            "totale": 255
         }
     ],
     "eletti": [
         {
-            "nominativo": "CONTRAFATTO Francesco",
-            "voti": "5",
-            "lista": "ARCHÈ"
+            "nominativo": "CONTRAFATTO Francesco",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 5,
+                "seggio_n_34": 5
+            }
         },
         {
-            "nominativo": "INCOGNITO Paola",
-            "voti": "17",
-            "lista": "ARCHÈ"
+            "nominativo": "INCOGNITO Paola",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 17,
+                "seggio_n_34": 17
+            }
         },
         {
-            "nominativo": "LICCIARDELLO Cristina",
-            "voti": "82",
-            "lista": "ARCHÈ"
+            "nominativo": "LICCIARDELLO Cristina",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 82,
+                "seggio_n_34": 82
+            }
         },
         {
-            "nominativo": "MACCARRONE Salvatore",
-            "voti": "45",
-            "lista": "ARCHÈ"
+            "nominativo": "MACCARRONE Salvatore",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 45,
+                "seggio_n_34": 45
+            }
         },
         {
-            "nominativo": "STRAZZERI Eleonora",
-            "voti": "6",
-            "lista": "ARCHÈ"
+            "nominativo": "STRAZZERI Eleonora",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 6,
+                "seggio_n_34": 6
+            }
         },
         {
-            "nominativo": "ALLEGRA Andrea",
-            "voti": "12",
-            "lista": "SI! ‐ STUDENTI INDIPENDENTI"
+            "nominativo": "ALLEGRA Andrea",
+            "lista": "SI! \u2010 STUDENTI INDIPENDENTI",
+            "voti": {
+                "totali": 12,
+                "seggio_n_34": 12
+            }
         }
     ],
     "non_eletti": [
         {
-            "nominativo": "MANNINO Salvatore Thomas",
-            "voti": "0",
-            "lista": "ARCHÈ"
+            "nominativo": "MANNINO Salvatore Thomas",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 0,
+                "seggio_n_34": 0
+            }
         },
         {
-            "nominativo": "DI MARIA Paolo",
-            "voti": "10",
-            "lista": "SI! ‐ STUDENTI INDIPENDENTI"
+            "nominativo": "DI MARIA Paolo",
+            "lista": "SI! \u2010 STUDENTI INDIPENDENTI",
+            "voti": {
+                "totali": 10,
+                "seggio_n_34": 10
+            }
         },
         {
-            "nominativo": "MOTTA Giuseppe",
-            "voti": "10",
-            "lista": "SI! ‐ STUDENTI INDIPENDENTI"
+            "nominativo": "MOTTA Giuseppe",
+            "lista": "SI! \u2010 STUDENTI INDIPENDENTI",
+            "voti": {
+                "totali": 10,
+                "seggio_n_34": 10
+            }
         },
         {
-            "nominativo": "PETRALIA Gianluca",
-            "voti": "6",
-            "lista": "SI! ‐ STUDENTI INDIPENDENTI"
+            "nominativo": "PETRALIA Gianluca",
+            "lista": "SI! \u2010 STUDENTI INDIPENDENTI",
+            "voti": {
+                "totali": 6,
+                "seggio_n_34": 6
+            }
         },
         {
-            "nominativo": "RUSSO Gaetano",
-            "voti": "2",
-            "lista": "SI! ‐ STUDENTI INDIPENDENTI"
+            "nominativo": "RUSSO Gaetano",
+            "lista": "SI! \u2010 STUDENTI INDIPENDENTI",
+            "voti": {
+                "totali": 2,
+                "seggio_n_34": 2
+            }
         },
         {
-            "nominativo": "TENERELLI Simone",
-            "voti": "5",
-            "lista": "AZIONE UNIVERSITARIA"
+            "nominativo": "TENERELLI Simone",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 5,
+                "seggio_n_34": 5
+            }
         }
     ],
-    "seggi_da_assegnare": "6",
-    "dipartimento": "STRUTTURA DIDATTICA SPECIALE DI ARCHITETTURA",
-    "quoziente": "42,5",
-    "votanti": "281",
-    "perc_votanti": "40,96",
-    "elettori": "686"
+    "quoziente": 42.5,
+    "votanti": {
+        "totali": 281,
+        "percentuale": 40.96,
+        "seggio_n_34": 281
+    },
+    "elettori": {
+        "totali": 686,
+        "seggio_n_34": 686
+    }
 }

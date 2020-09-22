@@ -1,169 +1,305 @@
 {
+    "dipartimento": "SCIENZE MEDICHE,CHIRURGICHE E TECNOLOGIE AVANZATE \"G.F. INGRASSIA\"",
+    "seggi_da_assegnare": "10",
     "schede": {
-        "Schede Bianche": "17",
-        "Schede Nulle": "17",
-        "Schede Contestate": "0"
+        "bianche": {
+            "totali": 17,
+            "seggio_n_16": 17
+        },
+        "nulle": {
+            "totali": 17,
+            "seggio_n_16": 17
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_16": 0
+        }
     },
     "liste": [
         {
-            "nome": "ARCHÈ",
-            "voti_totali": 48
+            "nome": "ARCHE'",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "12,3",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 48,
+                "seggio_n_16": 48
+            }
         },
         {
-            "nome": "UNIVERSITÀ POPOLARE",
-            "voti_totali": 21
+            "nome": "UNIVERSITA' POPOLARE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "21,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 21,
+                "seggio_n_16": 21
+            }
         },
         {
             "nome": "SANILAB",
-            "voti_totali": 149
+            "seggi": {
+                "seggi_pieni": "4",
+                "resti": "6,2",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "4"
+            },
+            "voti": {
+                "totali": 149,
+                "seggio_n_16": 149
+            }
         },
         {
             "nome": "INFERMIERISTICAMENTE",
-            "voti_totali": 139
+            "seggi": {
+                "seggi_pieni": "3",
+                "resti": "31,9",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "4"
+            },
+            "voti": {
+                "totali": 139,
+                "seggio_n_16": 139
+            }
+        },
+        {
+            "totale": 357
         }
     ],
     "eletti": [
         {
-            "nominativo": "VIRZI' LAVIO Luciano",
-            "voti": "20",
-            "lista": "ARCHÈ"
+            "nominativo": "VIRZI' LAVIO Luciano",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 20,
+                "seggio_n_16": 20
+            }
         },
         {
-            "nominativo": "DI PERNA Tania Rita",
-            "voti": "14",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "nominativo": "DI PERNA Tania Rita",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 14,
+                "seggio_n_16": 14
+            }
         },
         {
-            "nominativo": "ZERBO Celeste",
-            "voti": "48",
-            "lista": "SANILAB"
+            "nominativo": "ZERBO Celeste",
+            "lista": "SANILAB",
+            "voti": {
+                "totali": 48,
+                "seggio_n_16": 48
+            }
         },
         {
-            "nominativo": "CORVAIA Davide",
-            "voti": "12",
-            "lista": "SANILAB"
+            "nominativo": "CORVAIA Davide",
+            "lista": "SANILAB",
+            "voti": {
+                "totali": 12,
+                "seggio_n_16": 12
+            }
         },
         {
-            "nominativo": "COSTANZO Salvatore",
-            "voti": "19",
-            "lista": "SANILAB"
+            "nominativo": "COSTANZO Salvatore",
+            "lista": "SANILAB",
+            "voti": {
+                "totali": 19,
+                "seggio_n_16": 19
+            }
         },
         {
-            "nominativo": "PORTALE Ornella",
-            "voti": "18",
-            "lista": "SANILAB"
+            "nominativo": "PORTALE Ornella",
+            "lista": "SANILAB",
+            "voti": {
+                "totali": 18,
+                "seggio_n_16": 18
+            }
         },
         {
-            "nominativo": "TUDISCO Enrico",
-            "voti": "25",
-            "lista": "INFERMIERISTICAMENTE"
+            "nominativo": "TUDISCO Enrico",
+            "lista": "INFERMIERISTICAMENTE",
+            "voti": {
+                "totali": 25,
+                "seggio_n_16": 25
+            }
         },
         {
-            "nominativo": "BATTISTA Andrea",
-            "voti": "52",
-            "lista": "INFERMIERISTICAMENTE"
+            "nominativo": "BATTISTA Andrea",
+            "lista": "INFERMIERISTICAMENTE",
+            "voti": {
+                "totali": 52,
+                "seggio_n_16": 52
+            }
         },
         {
-            "nominativo": "MEO Danilo",
-            "voti": "32",
-            "lista": "INFERMIERISTICAMENTE"
+            "nominativo": "MEO Danilo",
+            "lista": "INFERMIERISTICAMENTE",
+            "voti": {
+                "totali": 32,
+                "seggio_n_16": 32
+            }
         },
         {
-            "nominativo": "PAPPALARDO Enrico",
-            "voti": "13",
-            "lista": "INFERMIERISTICAMENTE"
+            "nominativo": "PAPPALARDO Enrico",
+            "lista": "INFERMIERISTICAMENTE",
+            "voti": {
+                "totali": 13,
+                "seggio_n_16": 13
+            }
         }
     ],
     "non_eletti": [
         {
-            "nominativo": "BORZI' Orazio Gaspare",
-            "voti": "0",
-            "lista": "ARCHÈ"
+            "nominativo": "BORZI' Orazio Gaspare",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 0,
+                "seggio_n_16": 0
+            }
         },
         {
-            "nominativo": "CIVILETTI Eleonora",
-            "voti": "0",
-            "lista": "ARCHÈ"
+            "nominativo": "CIVILETTI Eleonora",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 0,
+                "seggio_n_16": 0
+            }
         },
         {
-            "nominativo": "FEDELE Luca",
-            "voti": "0",
-            "lista": "ARCHÈ"
+            "nominativo": "FEDELE Luca",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 0,
+                "seggio_n_16": 0
+            }
         },
         {
-            "nominativo": "LA ROSA Agata Laura",
-            "voti": "0",
-            "lista": "ARCHÈ"
+            "nominativo": "LA ROSA Agata Laura",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 0,
+                "seggio_n_16": 0
+            }
         },
         {
-            "nominativo": "MAZZONE Flavia",
-            "voti": "0",
-            "lista": "ARCHÈ"
+            "nominativo": "MAZZONE Flavia",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 0,
+                "seggio_n_16": 0
+            }
         },
         {
-            "nominativo": "PIGNATARO Andrea",
-            "voti": "0",
-            "lista": "ARCHÈ"
+            "nominativo": "PIGNATARO Andrea",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 0,
+                "seggio_n_16": 0
+            }
         },
         {
-            "nominativo": "POLITI Maria Ausilia",
-            "voti": "9",
-            "lista": "ARCHÈ"
+            "nominativo": "POLITI Maria Ausilia",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 9,
+                "seggio_n_16": 9
+            }
         },
         {
-            "nominativo": "SCARVAGLIERI Elisa",
-            "voti": "10",
-            "lista": "ARCHÈ"
+            "nominativo": "SCARVAGLIERI Elisa",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 10,
+                "seggio_n_16": 10
+            }
         },
         {
-            "nominativo": "SPINALE Alessandro",
-            "voti": "5",
-            "lista": "ARCHÈ"
+            "nominativo": "SPINALE Alessandro",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 5,
+                "seggio_n_16": 5
+            }
         },
         {
-            "nominativo": "DAMMONE Francesca",
-            "voti": "0",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "nominativo": "DAMMONE Francesca",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_16": 0
+            }
         },
         {
-            "nominativo": "MUSUMECI Sebastiano",
-            "voti": "6",
-            "lista": "SANILAB"
+            "nominativo": "MUSUMECI Sebastiano",
+            "lista": "SANILAB",
+            "voti": {
+                "totali": 6,
+                "seggio_n_16": 6
+            }
         },
         {
-            "nominativo": "GIUNTA Roberta",
-            "voti": "7",
-            "lista": "SANILAB"
+            "nominativo": "GIUNTA Roberta",
+            "lista": "SANILAB",
+            "voti": {
+                "totali": 7,
+                "seggio_n_16": 7
+            }
         },
         {
-            "nominativo": "IACONINOTO Chiara",
-            "voti": "7",
-            "lista": "SANILAB"
+            "nominativo": "IACONINOTO Chiara",
+            "lista": "SANILAB",
+            "voti": {
+                "totali": 7,
+                "seggio_n_16": 7
+            }
         },
         {
-            "nominativo": "MARCHESE Carla",
-            "voti": "9",
-            "lista": "SANILAB"
+            "nominativo": "MARCHESE Carla",
+            "lista": "SANILAB",
+            "voti": {
+                "totali": 9,
+                "seggio_n_16": 9
+            }
         },
         {
-            "nominativo": "ANTONAZZO Roberta",
-            "voti": "7",
-            "lista": "SANILAB"
+            "nominativo": "ANTONAZZO Roberta",
+            "lista": "SANILAB",
+            "voti": {
+                "totali": 7,
+                "seggio_n_16": 7
+            }
         },
         {
-            "nominativo": "BORZI Silvia",
-            "voti": "4",
-            "lista": "SANILAB"
+            "nominativo": "BORZI Silvia",
+            "lista": "SANILAB",
+            "voti": {
+                "totali": 4,
+                "seggio_n_16": 4
+            }
         },
         {
-            "nominativo": "COLTRARO Rosanna",
-            "voti": "9",
-            "lista": "INFERMIERISTICAMENTE"
+            "nominativo": "COLTRARO Rosanna",
+            "lista": "INFERMIERISTICAMENTE",
+            "voti": {
+                "totali": 9,
+                "seggio_n_16": 9
+            }
         }
     ],
-    "seggi_da_assegnare": "10",
-    "dipartimento": "SCIENZE MEDICHE,CHIRURGICHE E TECNOLOGIE AVANZATE \"G.F. INGRASSIA\"",
-    "quoziente": "35,7",
-    "votanti": "391",
-    "perc_votanti": "56,50"
+    "quoziente": 35.7,
+    "votanti": {
+        "totali": 391,
+        "percentuale": 56.5,
+        "seggio_n_16": 391
+    },
+    "elettori": {
+        "totali": 692,
+        "seggio_n_16": 692
+    }
 }

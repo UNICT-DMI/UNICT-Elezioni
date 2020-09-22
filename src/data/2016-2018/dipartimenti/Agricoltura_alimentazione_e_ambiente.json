@@ -1,302 +1,694 @@
 {
+    "dipartimento": "AGRICOLTURA, ALIMENTAZIONE E AMBIENTE - DI3A",
+    "seggi_da_assegnare": "17",
     "schede": {
-        "Schede Bianche": "39",
-        "Schede Nulle": "68",
-        "Schede Contestate": "0"
+        "bianche": {
+            "totali": 39,
+            "seggio_n_24": 12,
+            "seggio_n_25": 27
+        },
+        "nulle": {
+            "totali": 68,
+            "seggio_n_24": 31,
+            "seggio_n_25": 37
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_24": 0,
+            "seggio_n_25": 0
+        }
     },
     "liste": [
         {
-            "nome": "ARCHÈ",
-            "voti_totali": 118
+            "nome": "AGRARIA 2.0",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "33,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 33,
+                "seggio_n_24": 30,
+                "seggio_n_25": 3
+            }
         },
         {
-            "nome": "ACTEA  ‐  ARCADIA",
-            "voti_totali": 75
+            "nome": "ARCH\u00c8",
+            "seggi": {
+                "seggi_pieni": "3",
+                "resti": "12,1",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "3"
+            },
+            "voti": {
+                "totali": 118,
+                "seggio_n_24": 93,
+                "seggio_n_25": 25
+            }
+        },
+        {
+            "nome": "ACTEA \u2010 ARCADIA",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "20,4",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "3"
+            },
+            "voti": {
+                "totali": 91,
+                "seggio_n_24": 16,
+                "seggio_n_25": 75
+            }
         },
         {
             "nome": "ARES",
-            "voti_totali": 0
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "0,7",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 36,
+                "seggio_n_24": 36,
+                "seggio_n_25": 0
+            }
         },
         {
-            "nome": "UNIVERSITÀ POPOLARE",
-            "voti_totali": 52
+            "nome": "UNIVERSIT\u00c0 POPOLARE",
+            "seggi": {
+                "seggi_pieni": "4",
+                "resti": "7,8",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "4"
+            },
+            "voti": {
+                "totali": 149,
+                "seggio_n_24": 97,
+                "seggio_n_25": 52
+            }
         },
         {
             "nome": "RIAVVIAMO AGRARIA",
-            "voti_totali": 37
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "10,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 10,
+                "seggio_n_24": 3,
+                "seggio_n_25": 7
+            }
         },
         {
             "nome": "AZIONE UNIVERSITARIA",
-            "voti_totali": 73
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "13,4",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "3"
+            },
+            "voti": {
+                "totali": 84,
+                "seggio_n_24": 11,
+                "seggio_n_25": 73
+            }
         },
         {
-            "nome": "LIBERTAS LIBERI E FORTI",
-            "voti_totali": 45
+            "nome": "LIBERTAS \u2010 LIBERI E FORTI",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "8,4",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 79,
+                "seggio_n_24": 34,
+                "seggio_n_25": 45
+            }
+        },
+        {
+            "totale": 600
         }
     ],
     "eletti": [
         {
+            "nominativo": "TOSTO MIKA' EL MARIO detto \"Mika\" o \"Mika Etna\" o \"Etna\"",
+            "lista": "AGRARIA 2.0",
+            "voti": {
+                "totali": 17,
+                "seggio_n_24": 16,
+                "seggio_n_25": 1
+            }
+        },
+        {
             "nominativo": "BRISCHETTO LUIGI FRANCESCO",
-            "voti": "16",
-            "lista": "ARCHÈ"
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 16,
+                "seggio_n_24": 15,
+                "seggio_n_25": 1
+            }
         },
         {
             "nominativo": "GRAVAGNO ROBERTA MARIA",
-            "voti": "27",
-            "lista": "ARCHÈ"
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 27,
+                "seggio_n_24": 24,
+                "seggio_n_25": 3
+            }
         },
         {
             "nominativo": "TRICOMI GIANLUCA",
-            "voti": "19",
-            "lista": "ARCHÈ"
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 19,
+                "seggio_n_24": 18,
+                "seggio_n_25": 1
+            }
         },
         {
             "nominativo": "CANTONE MARCO SALVATORE",
-            "voti": "29",
-            "lista": "ACTEA  ‐  ARCADIA"
+            "lista": "ACTEA \u2010 ARCADIA",
+            "voti": {
+                "totali": 29,
+                "seggio_n_24": 9,
+                "seggio_n_25": 20
+            }
         },
         {
             "nominativo": "GIUIUSA MARTINA MARIA ADRIANA",
-            "voti": "7",
-            "lista": "ACTEA  ‐  ARCADIA"
+            "lista": "ACTEA \u2010 ARCADIA",
+            "voti": {
+                "totali": 7,
+                "seggio_n_24": 1,
+                "seggio_n_25": 6
+            }
         },
         {
             "nominativo": "CATUARA ANTONIO",
-            "voti": "41",
-            "lista": "ACTEA  ‐  ARCADIA"
+            "lista": "ACTEA \u2010 ARCADIA",
+            "voti": {
+                "totali": 41,
+                "seggio_n_24": 5,
+                "seggio_n_25": 36
+            }
         },
         {
             "nominativo": "SANTANGELO NICOLA",
-            "voti": "25",
-            "lista": "ARES"
+            "lista": "ARES",
+            "voti": {
+                "totali": 25,
+                "seggio_n_24": 25,
+                "seggio_n_25": 0
+            }
         },
         {
             "nominativo": "CALANDRA CHECCO GIACOMO",
-            "voti": "2",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 2,
+                "seggio_n_24": 2,
+                "seggio_n_25": 0
+            }
         },
         {
             "nominativo": "GRECO ANTONINO",
-            "voti": "38",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 38,
+                "seggio_n_24": 6,
+                "seggio_n_25": 32
+            }
         },
         {
             "nominativo": "PALERMO ISMAELE",
-            "voti": "78",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 78,
+                "seggio_n_24": 65,
+                "seggio_n_25": 13
+            }
         },
         {
             "nominativo": "SPAMPINATO MADDALENA",
-            "voti": "2",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 2,
+                "seggio_n_24": 0,
+                "seggio_n_25": 2
+            }
         },
         {
             "nominativo": "PERCOLLA ALBERTO",
-            "voti": "16",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 16,
+                "seggio_n_24": 14,
+                "seggio_n_25": 2
+            }
         },
         {
             "nominativo": "CABRAS ANTONIO",
-            "voti": "58",
-            "lista": "AZIONE UNIVERSITARIA"
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 58,
+                "seggio_n_24": 9,
+                "seggio_n_25": 49
+            }
         },
         {
             "nominativo": "LANDRO NORBERT",
-            "voti": "1",
-            "lista": "AZIONE UNIVERSITARIA"
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_24": 0,
+                "seggio_n_25": 1
+            }
         },
         {
             "nominativo": "CAPONNETTO LEONARDO",
-            "voti": "17",
-            "lista": "AZIONE UNIVERSITARIA"
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 17,
+                "seggio_n_24": 0,
+                "seggio_n_25": 17
+            }
         },
         {
             "nominativo": "GALEA ROMANO",
-            "voti": "30",
-            "lista": "LIBERTAS LIBERI E FORTI"
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 30,
+                "seggio_n_24": 2,
+                "seggio_n_25": 28
+            }
         },
         {
             "nominativo": "AMATO DOMENICO",
-            "voti": "14",
-            "lista": "LIBERTAS LIBERI E FORTI"
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 14,
+                "seggio_n_24": 14,
+                "seggio_n_25": 0
+            }
         }
     ],
     "non_eletti": [
         {
+            "nominativo": "TILARO CARMELO",
+            "lista": "AGRARIA 2.0",
+            "voti": {
+                "totali": 0,
+                "seggio_n_24": 0,
+                "seggio_n_25": 0
+            }
+        },
+        {
+            "nominativo": "FIORENZO GIUSEPPE",
+            "lista": "AGRARIA 2.0",
+            "voti": {
+                "totali": 3,
+                "seggio_n_24": 3,
+                "seggio_n_25": 0
+            }
+        },
+        {
+            "nominativo": "LO VECCHIO BRUNO SALVATORE",
+            "lista": "AGRARIA 2.0",
+            "voti": {
+                "totali": 0,
+                "seggio_n_24": 0,
+                "seggio_n_25": 0
+            }
+        },
+        {
+            "nominativo": "ARDITA ANDREA, GIUSEPPE detto \"Andrea\"",
+            "lista": "AGRARIA 2.0",
+            "voti": {
+                "totali": 0,
+                "seggio_n_24": 0,
+                "seggio_n_25": 0
+            }
+        },
+        {
+            "nominativo": "PUGLISI ROBERTO GIUSEPPE",
+            "lista": "AGRARIA 2.0",
+            "voti": {
+                "totali": 7,
+                "seggio_n_24": 6,
+                "seggio_n_25": 1
+            }
+        },
+        {
+            "nominativo": "PRESTIGIOVANNI GABRIELE",
+            "lista": "AGRARIA 2.0",
+            "voti": {
+                "totali": 0,
+                "seggio_n_24": 0,
+                "seggio_n_25": 0
+            }
+        },
+        {
+            "nominativo": "BITETTI MICHELE",
+            "lista": "AGRARIA 2.0",
+            "voti": {
+                "totali": 1,
+                "seggio_n_24": 1,
+                "seggio_n_25": 0
+            }
+        },
+        {
+            "nominativo": "GIUSTOLISI GABRIELE",
+            "lista": "AGRARIA 2.0",
+            "voti": {
+                "totali": 0,
+                "seggio_n_24": 0,
+                "seggio_n_25": 0
+            }
+        },
+        {
             "nominativo": "APRILE CARMELO",
-            "voti": "15",
-            "lista": "ARCHÈ"
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 15,
+                "seggio_n_24": 4,
+                "seggio_n_25": 11
+            }
         },
         {
             "nominativo": "GIALLI GIORGIO",
-            "voti": "1",
-            "lista": "ARCHÈ"
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 1,
+                "seggio_n_24": 0,
+                "seggio_n_25": 1
+            }
         },
         {
             "nominativo": "LOMBARDO RICCARDO",
-            "voti": "9",
-            "lista": "ARCHÈ"
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 9,
+                "seggio_n_24": 6,
+                "seggio_n_25": 3
+            }
         },
         {
             "nominativo": "VALENTI DEBORAH",
-            "voti": "12",
-            "lista": "ARCHÈ"
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 12,
+                "seggio_n_24": 11,
+                "seggio_n_25": 1
+            }
         },
         {
             "nominativo": "LOMBARDO MARTINA",
-            "voti": "0",
-            "lista": "ACTEA  ‐  ARCADIA"
+            "lista": "ACTEA \u2010 ARCADIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_24": 0,
+                "seggio_n_25": 0
+            }
         },
         {
             "nominativo": "RANDIS FILIPPA NATALIA",
-            "voti": "0",
-            "lista": "ACTEA  ‐  ARCADIA"
+            "lista": "ACTEA \u2010 ARCADIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_24": 0,
+                "seggio_n_25": 0
+            }
         },
         {
             "nominativo": "LICCIARDELLO DARIO",
-            "voti": "4",
-            "lista": "ACTEA  ‐  ARCADIA"
+            "lista": "ACTEA \u2010 ARCADIA",
+            "voti": {
+                "totali": 4,
+                "seggio_n_24": 1,
+                "seggio_n_25": 3
+            }
         },
         {
             "nominativo": "CUTELLO ROBERTA",
-            "voti": "3",
-            "lista": "ACTEA  ‐  ARCADIA"
+            "lista": "ACTEA \u2010 ARCADIA",
+            "voti": {
+                "totali": 3,
+                "seggio_n_24": 0,
+                "seggio_n_25": 3
+            }
         },
         {
             "nominativo": "PUGLISI VINCENZO",
-            "voti": "6",
-            "lista": "ACTEA  ‐  ARCADIA"
+            "lista": "ACTEA \u2010 ARCADIA",
+            "voti": {
+                "totali": 6,
+                "seggio_n_24": 0,
+                "seggio_n_25": 6
+            }
         },
         {
             "nominativo": "SICURELLA CAROLA MARIA",
-            "voti": "0",
-            "lista": "ACTEA  ‐  ARCADIA"
+            "lista": "ACTEA \u2010 ARCADIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_24": 0,
+                "seggio_n_25": 0
+            }
         },
         {
             "nominativo": "MILANO FRANCESCO",
-            "voti": "0",
-            "lista": "ARES"
+            "lista": "ARES",
+            "voti": {
+                "totali": 0,
+                "seggio_n_24": 0,
+                "seggio_n_25": 0
+            }
         },
         {
             "nominativo": "CASSIBBA SALVATORE",
-            "voti": "5",
-            "lista": "ARES"
+            "lista": "ARES",
+            "voti": {
+                "totali": 5,
+                "seggio_n_24": 5,
+                "seggio_n_25": 0
+            }
         },
         {
             "nominativo": "VINCITORE ILARIA",
-            "voti": "0",
-            "lista": "ARES"
+            "lista": "ARES",
+            "voti": {
+                "totali": 0,
+                "seggio_n_24": 0,
+                "seggio_n_25": 0
+            }
         },
         {
             "nominativo": "TIRENDI MASSIMO",
-            "voti": "4",
-            "lista": "ARES"
+            "lista": "ARES",
+            "voti": {
+                "totali": 4,
+                "seggio_n_24": 4,
+                "seggio_n_25": 0
+            }
         },
         {
             "nominativo": "SPANO' ROSSELLA",
-            "voti": "0",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_24": 0,
+                "seggio_n_25": 0
+            }
         },
         {
             "nominativo": "NASTASI VITTORIA",
-            "voti": "0",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_24": 0,
+                "seggio_n_25": 0
+            }
         },
         {
             "nominativo": "CATANIA ERIKA",
-            "voti": "0",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_24": 0,
+                "seggio_n_25": 0
+            }
         },
         {
             "nominativo": "SAPIENZA GAETANO TOMMASO",
-            "voti": "0",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_24": 0,
+                "seggio_n_25": 0
+            }
         },
         {
             "nominativo": "TROVATO GIUSEPPE MAURIZIO",
-            "voti": "0",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_24": 0,
+                "seggio_n_25": 0
+            }
         },
         {
             "nominativo": "BIRRIOLO SALVATORE",
-            "voti": "0",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_24": 0,
+                "seggio_n_25": 0
+            }
         },
         {
             "nominativo": "TODERO ALESSANDRO MARIO FELICE",
-            "voti": "4",
-            "lista": "RIAVVIAMO AGRARIA"
+            "lista": "RIAVVIAMO AGRARIA",
+            "voti": {
+                "totali": 4,
+                "seggio_n_24": 0,
+                "seggio_n_25": 4
+            }
         },
         {
             "nominativo": "SAPORITO SALVATORE",
-            "voti": "3",
-            "lista": "RIAVVIAMO AGRARIA"
+            "lista": "RIAVVIAMO AGRARIA",
+            "voti": {
+                "totali": 3,
+                "seggio_n_24": 2,
+                "seggio_n_25": 1
+            }
         },
         {
             "nominativo": "NICOLOSI SALVATORE detto \"Dino\"",
-            "voti": "0",
-            "lista": "AZIONE UNIVERSITARIA"
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_24": 0,
+                "seggio_n_25": 0
+            }
         },
         {
             "nominativo": "DI SANO ILIO",
-            "voti": "0",
-            "lista": "AZIONE UNIVERSITARIA"
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_24": 0,
+                "seggio_n_25": 0
+            }
         },
         {
             "nominativo": "DI FAZIO FRANCESCA",
-            "voti": "0",
-            "lista": "AZIONE UNIVERSITARIA"
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_24": 0,
+                "seggio_n_25": 0
+            }
         },
         {
             "nominativo": "RACITI NICOLA",
-            "voti": "0",
-            "lista": "LIBERTAS LIBERI E FORTI"
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_24": 0,
+                "seggio_n_25": 0
+            }
         },
         {
             "nominativo": "BURRELLO MARCO",
-            "voti": "7",
-            "lista": "LIBERTAS LIBERI E FORTI"
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 7,
+                "seggio_n_24": 7,
+                "seggio_n_25": 0
+            }
         },
         {
             "nominativo": "CLEMENTI VINCENZO",
-            "voti": "7",
-            "lista": "LIBERTAS LIBERI E FORTI"
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 7,
+                "seggio_n_24": 4,
+                "seggio_n_25": 3
+            }
         },
         {
             "nominativo": "RAPISARDA ROSARIO",
-            "voti": "3",
-            "lista": "LIBERTAS LIBERI E FORTI"
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 3,
+                "seggio_n_24": 0,
+                "seggio_n_25": 3
+            }
         },
         {
             "nominativo": "FERRO GIORDANA",
-            "voti": "0",
-            "lista": "LIBERTAS LIBERI E FORTI"
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_24": 0,
+                "seggio_n_25": 0
+            }
         },
         {
             "nominativo": "FINOCCHIARO ANGELO",
-            "voti": "0",
-            "lista": "LIBERTAS LIBERI E FORTI"
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_24": 0,
+                "seggio_n_25": 0
+            }
         },
         {
             "nominativo": "BARRANO SALVATORE",
-            "voti": "0",
-            "lista": "LIBERTAS LIBERI E FORTI"
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_24": 0,
+                "seggio_n_25": 0
+            }
         },
         {
             "nominativo": "GUARNERA ANGELO",
-            "voti": "2",
-            "lista": "LIBERTAS LIBERI E FORTI"
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 2,
+                "seggio_n_24": 2,
+                "seggio_n_25": 0
+            }
         },
         {
             "nominativo": "ROMANO RITA CHIARA",
-            "voti": "7",
-            "lista": "LIBERTAS LIBERI E FORTI"
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 7,
+                "seggio_n_24": 0,
+                "seggio_n_25": 7
+            }
         }
     ],
-    "seggi_da_assegnare": "17",
-    "dipartimento": "AGRICOLTURA, ALIMENTAZIONE E AMBIENTE - DI3A",
-    "quoziente": "35,2941",
-    "votanti": "707",
-    "perc_votanti": "32,24",
-    "elettori": "2193"
+    "quoziente": 35.2941,
+    "votanti": {
+        "totali": 707,
+        "percentuale": 32.24,
+        "seggio_n_24": 363,
+        "seggio_n_25": 344
+    },
+    "elettori": {
+        "totali": 2193,
+        "seggio_n_24": 1044,
+        "seggio_n_25": 1149
+    }
 }

@@ -1,0 +1,972 @@
+{
+    "dipartimento": "CHIRURGIA GENERALE E SPECIALITA' MEDICO-CHIRURGICHE - CHIRMED",
+    "seggi_da_assegnare": "15",
+    "schede": {
+        "bianche": {
+            "totali": 84,
+            "seggio_n_13": 29,
+            "seggio_n_14": 50,
+            "seggio_n_17": 5
+        },
+        "nulle": {
+            "totali": 78,
+            "seggio_n_13": 24,
+            "seggio_n_14": 47,
+            "seggio_n_17": 7
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_13": 0,
+            "seggio_n_14": 0,
+            "seggio_n_17": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "UDU \u2010 UNIONE DEGLI UNIVERSITARI",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "127,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 127,
+                "seggio_n_13": 73,
+                "seggio_n_14": 54,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nome": "EUREKA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "110,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 110,
+                "seggio_n_13": 70,
+                "seggio_n_14": 40,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nome": "ARCH\u00c8",
+            "seggi": {
+                "seggi_pieni": "4",
+                "resti": "88,3",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "5"
+            },
+            "voti": {
+                "totali": 620,
+                "seggio_n_13": 377,
+                "seggio_n_14": 242,
+                "seggio_n_17": 1
+            }
+        },
+        {
+            "nome": "NIKE \u2010 ARCADIA",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "78,1",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 211,
+                "seggio_n_13": 117,
+                "seggio_n_14": 90,
+                "seggio_n_17": 4
+            }
+        },
+        {
+            "nome": "UNIVERSIT\u00c0 POPOLARE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "83,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 83,
+                "seggio_n_13": 13,
+                "seggio_n_14": 70,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nome": "STUDENTI DEMOCRATICI",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "118,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 118,
+                "seggio_n_13": 61,
+                "seggio_n_14": 54,
+                "seggio_n_17": 3
+            }
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "119,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 119,
+                "seggio_n_13": 54,
+                "seggio_n_14": 63,
+                "seggio_n_17": 2
+            }
+        },
+        {
+            "nome": "LIBERTAS \u2010 LIBERI E FORTI",
+            "seggi": {
+                "seggi_pieni": "3",
+                "resti": "115,2",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "4"
+            },
+            "voti": {
+                "totali": 514,
+                "seggio_n_13": 141,
+                "seggio_n_14": 305,
+                "seggio_n_17": 68
+            }
+        },
+        {
+            "nome": "ORIZZONTE ITALIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "92,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 92,
+                "seggio_n_13": 48,
+                "seggio_n_14": 35,
+                "seggio_n_17": 9
+            }
+        },
+        {
+            "totale": 1994
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "IMPELLIZZERI MATTEO",
+            "lista": "UDU \u2010 UNIONE DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 47,
+                "seggio_n_13": 42,
+                "seggio_n_14": 5,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "CIAMPI CLAUDIO MARIO",
+            "lista": "EUREKA",
+            "voti": {
+                "totali": 55,
+                "seggio_n_13": 42,
+                "seggio_n_14": 13,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "BONGIORNO SIMONE",
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 64,
+                "seggio_n_13": 63,
+                "seggio_n_14": 1,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "CHIARENZA GIOVANNI PAOLO SALVATORE",
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 48,
+                "seggio_n_13": 7,
+                "seggio_n_14": 41,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "DI GUARDIA ALESSANDRO",
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 65,
+                "seggio_n_13": 65,
+                "seggio_n_14": 0,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "LEONARDO AMBRA",
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 63,
+                "seggio_n_13": 34,
+                "seggio_n_14": 29,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "PANEBIANCO PIERPAOLO",
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 54,
+                "seggio_n_13": 6,
+                "seggio_n_14": 48,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "MELITA GIUSEPPE",
+            "lista": "NIKE \u2010 ARCADIA",
+            "voti": {
+                "totali": 76,
+                "seggio_n_13": 29,
+                "seggio_n_14": 47,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "FIUME CARMELO",
+            "lista": "STUDENTI DEMOCRATICI",
+            "voti": {
+                "totali": 59,
+                "seggio_n_13": 46,
+                "seggio_n_14": 13,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "ZAPPALA' GRAZIANO MARCO DARIO",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 67,
+                "seggio_n_13": 17,
+                "seggio_n_14": 48,
+                "seggio_n_17": 2
+            }
+        },
+        {
+            "nominativo": "ZOZZO ALBERTO",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 113,
+                "seggio_n_13": 20,
+                "seggio_n_14": 69,
+                "seggio_n_17": 24
+            }
+        },
+        {
+            "nominativo": "PITICCHIO TOMMASO detto \"Thomas\" o \"Tomas\"",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 80,
+                "seggio_n_13": 40,
+                "seggio_n_14": 39,
+                "seggio_n_17": 1
+            }
+        },
+        {
+            "nominativo": "NICOTRA MARCO",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 81,
+                "seggio_n_13": 16,
+                "seggio_n_14": 49,
+                "seggio_n_17": 16
+            }
+        },
+        {
+            "nominativo": "PENNISI GIULIANA",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 137,
+                "seggio_n_13": 19,
+                "seggio_n_14": 94,
+                "seggio_n_17": 24
+            }
+        },
+        {
+            "nominativo": "ALETTA FRANCESCO detto \"Ciccio\"",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 30,
+                "seggio_n_13": 13,
+                "seggio_n_14": 9,
+                "seggio_n_17": 8
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "CICCIARELLA SILVIA GIOVANNA",
+            "lista": "UDU \u2010 UNIONE DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 24,
+                "seggio_n_13": 23,
+                "seggio_n_14": 1,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "PARASOLE ORIANA",
+            "lista": "UDU \u2010 UNIONE DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 22,
+                "seggio_n_13": 3,
+                "seggio_n_14": 19,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "SACCHETTI IGNAZIO",
+            "lista": "UDU \u2010 UNIONE DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 16,
+                "seggio_n_13": 1,
+                "seggio_n_14": 15,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "VACCINO MARCO",
+            "lista": "EUREKA",
+            "voti": {
+                "totali": 8,
+                "seggio_n_13": 0,
+                "seggio_n_14": 8,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "ZAPPALA' STEFANO",
+            "lista": "EUREKA",
+            "voti": {
+                "totali": 17,
+                "seggio_n_13": 1,
+                "seggio_n_14": 16,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "CELANO ANDREA",
+            "lista": "EUREKA",
+            "voti": {
+                "totali": 28,
+                "seggio_n_13": 26,
+                "seggio_n_14": 2,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "BELLANCA CARLO MARIA",
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 47,
+                "seggio_n_13": 35,
+                "seggio_n_14": 12,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "CRIMI LUCA",
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 38,
+                "seggio_n_13": 38,
+                "seggio_n_14": 0,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "FERRAROTTO LUIGI",
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 38,
+                "seggio_n_13": 37,
+                "seggio_n_14": 1,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "LEONCINI ALESSIO",
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 43,
+                "seggio_n_13": 34,
+                "seggio_n_14": 9,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "MANUELLO ROBERTO",
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 9,
+                "seggio_n_13": 9,
+                "seggio_n_14": 0,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "MILONE FRANCESCA",
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 31,
+                "seggio_n_13": 13,
+                "seggio_n_14": 18,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "SVALUTO FERRO LUIGI",
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 22,
+                "seggio_n_13": 0,
+                "seggio_n_14": 22,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "TRINGALE MATTIA MARIA",
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 44,
+                "seggio_n_13": 2,
+                "seggio_n_14": 42,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "COPPOLA CLAUDIO",
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 19,
+                "seggio_n_13": 18,
+                "seggio_n_14": 1,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "BELLA ANDREA",
+            "lista": "NIKE \u2010 ARCADIA",
+            "voti": {
+                "totali": 30,
+                "seggio_n_13": 23,
+                "seggio_n_14": 6,
+                "seggio_n_17": 1
+            }
+        },
+        {
+            "nominativo": "OLIVA GIOVANNI",
+            "lista": "NIKE \u2010 ARCADIA",
+            "voti": {
+                "totali": 24,
+                "seggio_n_13": 7,
+                "seggio_n_14": 17,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "LAGANA' VALENTINA",
+            "lista": "NIKE \u2010 ARCADIA",
+            "voti": {
+                "totali": 2,
+                "seggio_n_13": 2,
+                "seggio_n_14": 0,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "GIANGRECO ALESSIO",
+            "lista": "NIKE \u2010 ARCADIA",
+            "voti": {
+                "totali": 16,
+                "seggio_n_13": 16,
+                "seggio_n_14": 0,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "PARISI STEFANIE",
+            "lista": "NIKE \u2010 ARCADIA",
+            "voti": {
+                "totali": 10,
+                "seggio_n_13": 4,
+                "seggio_n_14": 6,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "ROCCUZZO GIUSEPPE",
+            "lista": "NIKE \u2010 ARCADIA",
+            "voti": {
+                "totali": 4,
+                "seggio_n_13": 0,
+                "seggio_n_14": 4,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "LAUDANI ANTONIO",
+            "lista": "NIKE \u2010 ARCADIA",
+            "voti": {
+                "totali": 2,
+                "seggio_n_13": 2,
+                "seggio_n_14": 0,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "BELLA ALESSANDRO",
+            "lista": "NIKE \u2010 ARCADIA",
+            "voti": {
+                "totali": 20,
+                "seggio_n_13": 17,
+                "seggio_n_14": 3,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "FERRARA CARMELO",
+            "lista": "NIKE \u2010 ARCADIA",
+            "voti": {
+                "totali": 2,
+                "seggio_n_13": 2,
+                "seggio_n_14": 0,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "FRANCAVIGLIA MARTINA",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 2,
+                "seggio_n_13": 2,
+                "seggio_n_14": 0,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "GALIOTO VERONICA",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_13": 0,
+                "seggio_n_14": 0,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "SANTAMARIA RAFFAELLA",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_13": 0,
+                "seggio_n_14": 0,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "CASELLA FEDERICA",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_13": 0,
+                "seggio_n_14": 0,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "CANNIZZO ALESSANDRO",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_13": 0,
+                "seggio_n_14": 0,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "VERNACI PIETRO PAOLO",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 9,
+                "seggio_n_13": 0,
+                "seggio_n_14": 9,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "TORRISI TITO",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 7,
+                "seggio_n_13": 1,
+                "seggio_n_14": 6,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "SERRO ALEXANDRA",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_13": 0,
+                "seggio_n_14": 0,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "LAZZARO GIULIANA",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_13": 0,
+                "seggio_n_14": 0,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "CANNIZZO CLAUDIA",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_13": 0,
+                "seggio_n_14": 0,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "TOMASELLO GRETA",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 1,
+                "seggio_n_13": 1,
+                "seggio_n_14": 0,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "CASTRO MANUEL CLAUDIO",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_13": 0,
+                "seggio_n_14": 0,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "LUCA GIULIANA",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_13": 0,
+                "seggio_n_14": 0,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "SCIATA' FEDERICA",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 55,
+                "seggio_n_13": 3,
+                "seggio_n_14": 52,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "CAMPIONE FRANCESCO",
+            "lista": "STUDENTI DEMOCRATICI",
+            "voti": {
+                "totali": 16,
+                "seggio_n_13": 10,
+                "seggio_n_14": 6,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "VASILE ALBERTO",
+            "lista": "STUDENTI DEMOCRATICI",
+            "voti": {
+                "totali": 34,
+                "seggio_n_13": 2,
+                "seggio_n_14": 32,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "AVENIA VIRGINIA",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 16,
+                "seggio_n_13": 15,
+                "seggio_n_14": 1,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "VOLPICELLI ALESSIO",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 23,
+                "seggio_n_13": 14,
+                "seggio_n_14": 9,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "MACCA ROSSELLA",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 4,
+                "seggio_n_13": 4,
+                "seggio_n_14": 0,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "SAPIENZA GIUSEPPE",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 21,
+                "seggio_n_13": 2,
+                "seggio_n_14": 19,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "PRESTIANNI IGNAZIO",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 32,
+                "seggio_n_13": 13,
+                "seggio_n_14": 19,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "BOATO ANTHONY",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 8,
+                "seggio_n_13": 8,
+                "seggio_n_14": 0,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "SALOMONE CARLO",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_13": 0,
+                "seggio_n_14": 0,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "SAPIENZA MARCO",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 1,
+                "seggio_n_13": 0,
+                "seggio_n_14": 0,
+                "seggio_n_17": 1
+            }
+        },
+        {
+            "nominativo": "PISCOPO ROBERTO",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_13": 0,
+                "seggio_n_14": 0,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "MOBILIA ANGELA",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 18,
+                "seggio_n_13": 17,
+                "seggio_n_14": 1,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "CARUSO MARCO",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_13": 1,
+                "seggio_n_14": 0,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "DI BELLA SERENA DESIREE",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_13": 0,
+                "seggio_n_14": 0,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "MASCALI MIRKO",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_13": 0,
+                "seggio_n_14": 0,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "INSERRA ALBERTO detto \"Favara\"",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 14,
+                "seggio_n_13": 10,
+                "seggio_n_14": 4,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "LA SPINA ISABELLA",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_13": 1,
+                "seggio_n_14": 0,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "GAGLIANO MATTEO",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 3,
+                "seggio_n_13": 2,
+                "seggio_n_14": 1,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "GIUNTA NOEMI",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_13": 0,
+                "seggio_n_14": 0,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "TERRANA ANDREA BALDASSARE",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 4,
+                "seggio_n_13": 1,
+                "seggio_n_14": 3,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "D'AMICO ROBERTA",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 9,
+                "seggio_n_13": 7,
+                "seggio_n_14": 2,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "MARESCA ALESSANDRO",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_13": 0,
+                "seggio_n_14": 0,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "ORLANDO MATTEO",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 2,
+                "seggio_n_13": 0,
+                "seggio_n_14": 2,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "CRISTALDI MARCO",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 11,
+                "seggio_n_13": 10,
+                "seggio_n_14": 1,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "MINEO ALESSANDRO",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_13": 0,
+                "seggio_n_14": 1,
+                "seggio_n_17": 0
+            }
+        },
+        {
+            "nominativo": "PATTI SARA",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 12,
+                "seggio_n_13": 0,
+                "seggio_n_14": 12,
+                "seggio_n_17": 0
+            }
+        }
+    ],
+    "quoziente": 132.93,
+    "votanti": {
+        "totali": 2156,
+        "percentuale": 60.92,
+        "seggio_n_13": 1007,
+        "seggio_n_14": 1050,
+        "seggio_n_17": 99
+    },
+    "elettori": {
+        "totali": 3539,
+        "seggio_n_13": 1613,
+        "seggio_n_14": 1489,
+        "seggio_n_17": 437
+    }
+}

@@ -1,500 +1,998 @@
 {
+    "dipartimento": "SCIENZE POLITICHE E SOCIALI",
+    "seggi_da_assegnare": "12",
     "schede": {
-        "Schede Bianche": "41",
-        "Schede Nulle": "23",
-        "Schede Contestate": "0"
+        "bianche": {
+            "totali": 41,
+            "seggio_n_4": 26,
+            "seggio_n_5": 15
+        },
+        "nulle": {
+            "totali": 23,
+            "seggio_n_4": 11,
+            "seggio_n_5": 12
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_4": 0,
+            "seggio_n_5": 0
+        }
     },
     "liste": [
         {
             "nome": "ACTEA",
-            "voti_totali": 52
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "52,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 52,
+                "seggio_n_4": 19,
+                "seggio_n_5": 33
+            }
         },
         {
-            "nome": "ORIZZONTE ITALIA",
-            "voti_totali": 19
+            "nome": "ORIZZONTE ITALIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "29,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 29,
+                "seggio_n_4": 9,
+                "seggio_n_5": 20
+            }
         },
         {
-            "nome": "LA FINESTRA‐LIBERI DI SCEGLIERE",
-            "voti_totali": 19
+            "nome": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "50,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 50,
+                "seggio_n_4": 31,
+                "seggio_n_5": 19
+            }
         },
         {
-            "nome": "UNIVERSITÀ POPOLARE",
-            "voti_totali": 67
+            "nome": "UNIVERSITA' POPOLARE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "13,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 13,
+                "seggio_n_4": 6,
+                "seggio_n_5": 7
+            }
         },
         {
             "nome": "NIKE",
-            "voti_totali": 32
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "58,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 58,
+                "seggio_n_4": 7,
+                "seggio_n_5": 51
+            }
         },
         {
             "nome": "REVOLUTION",
-            "voti_totali": 32
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "64,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 64,
+                "seggio_n_4": 32,
+                "seggio_n_5": 32
+            }
         },
         {
             "nome": "ARCADIA",
-            "voti_totali": 60
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "44,8",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "3"
+            },
+            "voti": {
+                "totali": 184,
+                "seggio_n_4": 124,
+                "seggio_n_5": 60
+            }
         },
         {
             "nome": "WE LOVE UNICT",
-            "voti_totali": 84
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "64,4",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 134,
+                "seggio_n_4": 50,
+                "seggio_n_5": 84
+            }
         },
         {
             "nome": "CREDIAMOCI",
-            "voti_totali": 46
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "63,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 63,
+                "seggio_n_4": 17,
+                "seggio_n_5": 46
+            }
         },
         {
             "nome": "IRIDE",
-            "voti_totali": 65
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "4,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 4,
+                "seggio_n_4": 1,
+                "seggio_n_5": 3
+            }
         },
         {
             "nome": "AZIONE UNIVERSITARIA",
-            "voti_totali": 5
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "48,4",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 118,
+                "seggio_n_4": 53,
+                "seggio_n_5": 65
+            }
         },
         {
-            "nome": "ALLEANZA UNIVERSITARIA",
-            "voti_totali": 5
+            "nome": "ALLEANZA UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "23,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 23,
+                "seggio_n_4": 18,
+                "seggio_n_5": 5
+            }
         },
         {
-            "nome": "CONTROCAMPUS ‐ POPOLO DEGLI STUDENTI ‐ ARES",
-            "voti_totali": 26
+            "nome": "CONTROCAMPUS \u2010 POPOLO DEGLI STUDENTI \u2010 ARES",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "43,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 43,
+                "seggio_n_4": 17,
+                "seggio_n_5": 26
+            }
+        },
+        {
+            "totale": 835
         }
     ],
     "eletti": [
         {
-            "nominativo": "MUSUMECI Salvatore",
-            "voti": "27",
-            "lista": "ACTEA"
+            "nominativo": "MUSUMECI Salvatore",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 27,
+                "seggio_n_4": 4,
+                "seggio_n_5": 23
+            }
         },
         {
-            "nominativo": "GUAGLIARDO Prospero",
-            "voti": "37",
-            "lista": "LA FINESTRA‐LIBERI DI SCEGLIERE"
+            "nominativo": "GUAGLIARDO Prospero",
+            "lista": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 37,
+                "seggio_n_4": 24,
+                "seggio_n_5": 13
+            }
         },
         {
-            "nominativo": "ZAPPALA' Walter",
-            "voti": "40",
-            "lista": "NIKE"
+            "nominativo": "ZAPPALA' Walter",
+            "lista": "NIKE",
+            "voti": {
+                "totali": 40,
+                "seggio_n_4": 6,
+                "seggio_n_5": 34
+            }
         },
         {
-            "nominativo": "PATERNO' Tommaso",
-            "voti": "48",
-            "lista": "REVOLUTION"
+            "nominativo": "PATERNO' Tommaso",
+            "lista": "REVOLUTION",
+            "voti": {
+                "totali": 48,
+                "seggio_n_4": 31,
+                "seggio_n_5": 17
+            }
         },
         {
-            "nominativo": "SEZZI Corrado",
-            "voti": "52",
-            "lista": "ARCADIA"
+            "nominativo": "SEZZI Corrado",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 52,
+                "seggio_n_4": 13,
+                "seggio_n_5": 39
+            }
         },
         {
-            "nominativo": "FARACI Manfredi",
-            "voti": "26",
-            "lista": "ARCADIA"
+            "nominativo": "FARACI Manfredi",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 26,
+                "seggio_n_4": 25,
+                "seggio_n_5": 1
+            }
         },
         {
-            "nominativo": "CONSOLI Rosario",
-            "voti": "45",
-            "lista": "ARCADIA"
+            "nominativo": "CONSOLI Rosario",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 45,
+                "seggio_n_4": 45,
+                "seggio_n_5": 0
+            }
         },
         {
-            "nominativo": "LEONARDI Alessandra",
-            "voti": "71",
-            "lista": "WE LOVE UNICT"
+            "nominativo": "LEONARDI Alessandra",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 71,
+                "seggio_n_4": 18,
+                "seggio_n_5": 53
+            }
         },
         {
-            "nominativo": "SEQUENZIA Gianluca",
-            "voti": "12",
-            "lista": "WE LOVE UNICT"
+            "nominativo": "SEQUENZIA Gianluca",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 12,
+                "seggio_n_4": 11,
+                "seggio_n_5": 1
+            }
         },
         {
-            "nominativo": "MURABITO Andrea ‐ detto \"Mura\"",
-            "voti": "37",
-            "lista": "CREDIAMOCI"
+            "nominativo": "MURABITO Andrea \u2010 detto \"Mura\"",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 37,
+                "seggio_n_4": 6,
+                "seggio_n_5": 31
+            }
         },
         {
-            "nominativo": "DI STEFANO Salvatore",
-            "voti": "44",
-            "lista": "AZIONE UNIVERSITARIA"
+            "nominativo": "DI STEFANO Salvatore",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 44,
+                "seggio_n_4": 35,
+                "seggio_n_5": 9
+            }
         },
         {
-            "nominativo": "SAETTA Michele",
-            "voti": "39",
-            "lista": "AZIONE UNIVERSITARIA"
+            "nominativo": "SAETTA Michele",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 39,
+                "seggio_n_4": 5,
+                "seggio_n_5": 34
+            }
         }
     ],
     "non_eletti": [
         {
-            "nominativo": "NICOLOSI Alberto",
-            "voti": "16",
-            "lista": "ACTEA"
-        },
-        {
-            "nominativo": "PIRRACCHIO Raimondo Giovanni",
-            "voti": "1",
-            "lista": "ACTEA"
-        },
-        {
-            "nominativo": "COLOMBO Marco",
-            "voti": "0",
-            "lista": "ACTEA"
-        },
-        {
-            "nominativo": "VIAGGIO Irene",
-            "voti": "4",
-            "lista": "ACTEA"
-        },
-        {
-            "nominativo": "PIPITONE Alessandro",
-            "voti": "10",
-            "lista": "ORIZZONTE ITALIA"
-        },
-        {
-            "nominativo": "MAGRI' Antonio",
-            "voti": "17",
-            "lista": "ORIZZONTE ITALIA"
-        },
-        {
-            "nominativo": "MAZZA Lucia",
-            "voti": "1",
-            "lista": "ORIZZONTE ITALIA"
-        },
-        {
-            "nominativo": "SCUDERI Giulia",
-            "voti": "1",
-            "lista": "ORIZZONTE ITALIA"
-        },
-        {
-            "nominativo": "CASTRO Alice",
-            "voti": "0",
-            "lista": "ORIZZONTE ITALIA"
-        },
-        {
-            "nominativo": "PASTORE Arianna",
-            "voti": "0",
-            "lista": "ORIZZONTE ITALIA"
-        },
-        {
-            "nominativo": "CIACCHELLA Carmelo Sebastiano",
-            "voti": "1",
-            "lista": "LA FINESTRA‐LIBERI DI SCEGLIERE"
-        },
-        {
-            "nominativo": "GULISANO Giuseppe Antonio",
-            "voti": "2",
-            "lista": "LA FINESTRA‐LIBERI DI SCEGLIERE"
-        },
-        {
-            "nominativo": "VINCI Simona",
-            "voti": "0",
-            "lista": "LA FINESTRA‐LIBERI DI SCEGLIERE"
-        },
-        {
-            "nominativo": "DI PERNA Maria Chiara",
-            "voti": "0",
-            "lista": "LA FINESTRA‐LIBERI DI SCEGLIERE"
-        },
-        {
-            "nominativo": "CALVO Francesca",
-            "voti": "0",
-            "lista": "LA FINESTRA‐LIBERI DI SCEGLIERE"
-        },
-        {
-            "nominativo": "BRUNO Giorgia",
-            "voti": "2",
-            "lista": "LA FINESTRA‐LIBERI DI SCEGLIERE"
-        },
-        {
-            "nominativo": "MACCARRONE Roberto",
-            "voti": "1",
-            "lista": "LA FINESTRA‐LIBERI DI SCEGLIERE"
-        },
-        {
-            "nominativo": "ALLEGRA Federico",
-            "voti": "0",
-            "lista": "UNIVERSITÀ POPOLARE"
-        },
-        {
-            "nominativo": "CAIRONE Fiorella",
-            "voti": "0",
-            "lista": "UNIVERSITÀ POPOLARE"
-        },
-        {
-            "nominativo": "MACCARRONE Giorgia",
-            "voti": "0",
-            "lista": "UNIVERSITÀ POPOLARE"
-        },
-        {
-            "nominativo": "MILIO Davide",
-            "voti": "10",
-            "lista": "UNIVERSITÀ POPOLARE"
-        },
-        {
-            "nominativo": "SANTONOCITO Alberto",
-            "voti": "0",
-            "lista": "UNIVERSITÀ POPOLARE"
-        },
-        {
-            "nominativo": "ZINGALE Noemi Maria",
-            "voti": "0",
-            "lista": "UNIVERSITÀ POPOLARE"
-        },
-        {
-            "nominativo": "MORO Giorgia",
-            "voti": "11",
-            "lista": "NIKE"
-        },
-        {
-            "nominativo": "QASEM Omar",
-            "voti": "0",
-            "lista": "NIKE"
-        },
-        {
-            "nominativo": "SAPUPPO Giuseppe",
-            "voti": "4",
-            "lista": "NIKE"
-        },
-        {
-            "nominativo": "ROMANO Luigi",
-            "voti": "0",
-            "lista": "NIKE"
-        },
-        {
-            "nominativo": "GIAMBELLO Chiara",
-            "voti": "12",
-            "lista": "REVOLUTION"
-        },
-        {
-            "nominativo": "RAPISARDA Ylenia",
-            "voti": "1",
-            "lista": "REVOLUTION"
-        },
-        {
-            "nominativo": "MARRARO Giuliana",
-            "voti": "0",
-            "lista": "REVOLUTION"
-        },
-        {
-            "nominativo": "BRACCIOLANO Monica",
-            "voti": "0",
-            "lista": "REVOLUTION"
-        },
-        {
-            "nominativo": "URSO Umberto",
-            "voti": "0",
-            "lista": "REVOLUTION"
-        },
-        {
-            "nominativo": "BRIGHINA Miriana",
-            "voti": "0",
-            "lista": "REVOLUTION"
-        },
-        {
-            "nominativo": "SANZONE Maria Giulia",
-            "voti": "0",
-            "lista": "REVOLUTION"
-        },
-        {
-            "nominativo": "GARUFI Jennifer",
-            "voti": "14",
-            "lista": "ARCADIA"
-        },
-        {
-            "nominativo": "MODONI Eugenia Maria",
-            "voti": "11",
-            "lista": "ARCADIA"
-        },
-        {
-            "nominativo": "D'ANGELO Marco",
-            "voti": "5",
-            "lista": "ARCADIA"
-        },
-        {
-            "nominativo": "SGRO Ramona",
-            "voti": "4",
-            "lista": "WE LOVE UNICT"
-        },
-        {
-            "nominativo": "CORIANO' Edoardo",
-            "voti": "6",
-            "lista": "WE LOVE UNICT"
-        },
-        {
-            "nominativo": "ANZALONE Claudia",
-            "voti": "0",
-            "lista": "WE LOVE UNICT"
-        },
-        {
-            "nominativo": "GALLINA Roberto",
-            "voti": "3",
-            "lista": "WE LOVE UNICT"
-        },
-        {
-            "nominativo": "POMA Gabriele Alessio",
-            "voti": "0",
-            "lista": "WE LOVE UNICT"
-        },
-        {
-            "nominativo": "AMATA Chiara",
-            "voti": "0",
-            "lista": "WE LOVE UNICT"
-        },
-        {
-            "nominativo": "PONZO Arianna",
-            "voti": "2",
-            "lista": "WE LOVE UNICT"
-        },
-        {
-            "nominativo": "GIUGA Rosalia",
-            "voti": "3",
-            "lista": "WE LOVE UNICT"
-        },
-        {
-            "nominativo": "RINCIARI Aldea",
-            "voti": "1",
-            "lista": "WE LOVE UNICT"
-        },
-        {
-            "nominativo": "NAVARRIA Gianmarco",
-            "voti": "7",
-            "lista": "WE LOVE UNICT"
-        },
-        {
-            "nominativo": "PLATANIA Eliana Maria",
-            "voti": "17",
-            "lista": "CREDIAMOCI"
-        },
-        {
-            "nominativo": "CANNAVO' Cosimo Francesco",
-            "voti": "0",
-            "lista": "CREDIAMOCI"
-        },
-        {
-            "nominativo": "PULVIRENTI Salvatore ‐ detto \"Toti\"",
-            "voti": "0",
-            "lista": "CREDIAMOCI"
-        },
-        {
-            "nominativo": "FINOCCHIARO Giulia",
-            "voti": "0",
-            "lista": "CREDIAMOCI"
-        },
-        {
-            "nominativo": "PEPE Andrea",
-            "voti": "0",
-            "lista": "CREDIAMOCI"
-        },
-        {
-            "nominativo": "RATTIZZATO Vittorio",
-            "voti": "0",
-            "lista": "CREDIAMOCI"
-        },
-        {
-            "nominativo": "PICCIONE Luigi",
-            "voti": "0",
-            "lista": "CREDIAMOCI"
-        },
-        {
-            "nominativo": "MORABITO Daniele",
-            "voti": "6",
-            "lista": "CREDIAMOCI"
-        },
-        {
-            "nominativo": "LE MURA Ylenia Francesca",
-            "voti": "2",
-            "lista": "IRIDE"
-        },
-        {
-            "nominativo": "FAZZI Alessia",
-            "voti": "0",
-            "lista": "IRIDE"
-        },
-        {
-            "nominativo": "MILITANO Andrea",
-            "voti": "0",
-            "lista": "IRIDE"
-        },
-        {
-            "nominativo": "PISCIOTTA Vincenzo",
-            "voti": "0",
-            "lista": "IRIDE"
-        },
-        {
-            "nominativo": "TIZIANO Gaia",
-            "voti": "24",
-            "lista": "AZIONE UNIVERSITARIA"
-        },
-        {
-            "nominativo": "BONANNO Emanuele",
-            "voti": "0",
-            "lista": "AZIONE UNIVERSITARIA"
-        },
-        {
-            "nominativo": "FASSARI Alberto",
-            "voti": "0",
-            "lista": "AZIONE UNIVERSITARIA"
-        },
-        {
-            "nominativo": "LA SPINA Cristian",
-            "voti": "0",
-            "lista": "ALLEANZA UNIVERSITARIA"
-        },
-        {
-            "nominativo": "VEERAMAH Veeren",
-            "voti": "12",
-            "lista": "ALLEANZA UNIVERSITARIA"
-        },
-        {
-            "nominativo": "D'AGOSTINO Giulia",
-            "voti": "0",
-            "lista": "ALLEANZA UNIVERSITARIA"
-        },
-        {
-            "nominativo": "PRIVITERA Davide Domenico",
-            "voti": "10",
-            "lista": "ALLEANZA UNIVERSITARIA"
-        },
-        {
-            "nominativo": "RANERI Guido",
-            "voti": "25",
-            "lista": "CONTROCAMPUS ‐ POPOLO DEGLI STUDENTI ‐ ARES"
-        },
-        {
-            "nominativo": "CANTARELLA Erica",
-            "voti": "0",
-            "lista": "CONTROCAMPUS ‐ POPOLO DEGLI STUDENTI ‐ ARES"
-        },
-        {
-            "nominativo": "ALOSI Federica",
-            "voti": "1",
-            "lista": "CONTROCAMPUS ‐ POPOLO DEGLI STUDENTI ‐ ARES"
-        },
-        {
-            "nominativo": "DI STEFANO Agnese",
-            "voti": "4",
-            "lista": "CONTROCAMPUS ‐ POPOLO DEGLI STUDENTI ‐ ARES"
-        },
-        {
-            "nominativo": "GIUGNO Carlo",
-            "voti": "0",
-            "lista": "CONTROCAMPUS ‐ POPOLO DEGLI STUDENTI ‐ ARES"
-        },
-        {
-            "nominativo": "MOLE' Giuseppe",
-            "voti": "3",
-            "lista": "CONTROCAMPUS ‐ POPOLO DEGLI STUDENTI ‐ ARES"
-        },
-        {
-            "nominativo": "SCALISI Ambra",
-            "voti": "0",
-            "lista": "CONTROCAMPUS ‐ POPOLO DEGLI STUDENTI ‐ ARES"
-        },
-        {
-            "nominativo": "SCIUTO Alfio",
-            "voti": "0",
-            "lista": "CONTROCAMPUS ‐ POPOLO DEGLI STUDENTI ‐ ARES"
+            "nominativo": "NICOLOSI Alberto",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 16,
+                "seggio_n_4": 13,
+                "seggio_n_5": 3
+            }
+        },
+        {
+            "nominativo": "PIRRACCHIO Raimondo Giovanni",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_4": 1,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "COLOMBO Marco",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "VIAGGIO Irene",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 4,
+                "seggio_n_4": 0,
+                "seggio_n_5": 4
+            }
+        },
+        {
+            "nominativo": "PIPITONE Alessandro",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 10,
+                "seggio_n_4": 8,
+                "seggio_n_5": 2
+            }
+        },
+        {
+            "nominativo": "MAGRI' Antonio",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 17,
+                "seggio_n_4": 0,
+                "seggio_n_5": 17
+            }
+        },
+        {
+            "nominativo": "MAZZA Lucia",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_4": 0,
+                "seggio_n_5": 1
+            }
+        },
+        {
+            "nominativo": "SCUDERI Giulia",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_4": 1,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "CASTRO Alice",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "PASTORE Arianna",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "CIACCHELLA Carmelo Sebastiano",
+            "lista": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 1,
+                "seggio_n_4": 1,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "GULISANO Giuseppe Antonio",
+            "lista": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 2,
+                "seggio_n_4": 0,
+                "seggio_n_5": 2
+            }
+        },
+        {
+            "nominativo": "VINCI Simona",
+            "lista": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "DI PERNA Maria Chiara",
+            "lista": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "CALVO Francesca",
+            "lista": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "BRUNO Giorgia",
+            "lista": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 2,
+                "seggio_n_4": 2,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "MACCARRONE Roberto",
+            "lista": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 1,
+                "seggio_n_4": 1,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "ALLEGRA Federico",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "CAIRONE Fiorella",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "MACCARRONE Giorgia",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "MILIO Davide",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 10,
+                "seggio_n_4": 5,
+                "seggio_n_5": 5
+            }
+        },
+        {
+            "nominativo": "SANTONOCITO Alberto",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "ZINGALE Noemi Maria",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "MORO Giorgia",
+            "lista": "NIKE",
+            "voti": {
+                "totali": 11,
+                "seggio_n_4": 0,
+                "seggio_n_5": 11
+            }
+        },
+        {
+            "nominativo": "QASEM Omar",
+            "lista": "NIKE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "SAPUPPO Giuseppe",
+            "lista": "NIKE",
+            "voti": {
+                "totali": 4,
+                "seggio_n_4": 1,
+                "seggio_n_5": 3
+            }
+        },
+        {
+            "nominativo": "ROMANO Luigi",
+            "lista": "NIKE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "GIAMBELLO Chiara",
+            "lista": "REVOLUTION",
+            "voti": {
+                "totali": 12,
+                "seggio_n_4": 0,
+                "seggio_n_5": 12
+            }
+        },
+        {
+            "nominativo": "RAPISARDA Ylenia",
+            "lista": "REVOLUTION",
+            "voti": {
+                "totali": 1,
+                "seggio_n_4": 0,
+                "seggio_n_5": 1
+            }
+        },
+        {
+            "nominativo": "MARRARO Giuliana",
+            "lista": "REVOLUTION",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "BRACCIOLANO Monica",
+            "lista": "REVOLUTION",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "URSO Umberto",
+            "lista": "REVOLUTION",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "BRIGHINA Miriana",
+            "lista": "REVOLUTION",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "SANZONE Maria Giulia",
+            "lista": "REVOLUTION",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "GARUFI Jennifer",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 14,
+                "seggio_n_4": 13,
+                "seggio_n_5": 1
+            }
+        },
+        {
+            "nominativo": "MODONI Eugenia Maria",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 11,
+                "seggio_n_4": 8,
+                "seggio_n_5": 3
+            }
+        },
+        {
+            "nominativo": "D'ANGELO Marco",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 5,
+                "seggio_n_4": 1,
+                "seggio_n_5": 4
+            }
+        },
+        {
+            "nominativo": "SGRO Ramona",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 4,
+                "seggio_n_4": 4,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "CORIANO' Edoardo",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 6,
+                "seggio_n_4": 2,
+                "seggio_n_5": 4
+            }
+        },
+        {
+            "nominativo": "ANZALONE Claudia",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "GALLINA Roberto",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 3,
+                "seggio_n_4": 1,
+                "seggio_n_5": 2
+            }
+        },
+        {
+            "nominativo": "POMA Gabriele Alessio",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "AMATA Chiara",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "PONZO Arianna",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 2,
+                "seggio_n_4": 0,
+                "seggio_n_5": 2
+            }
+        },
+        {
+            "nominativo": "GIUGA Rosalia",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 3,
+                "seggio_n_4": 0,
+                "seggio_n_5": 3
+            }
+        },
+        {
+            "nominativo": "RINCIARI Aldea",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 1,
+                "seggio_n_4": 0,
+                "seggio_n_5": 1
+            }
+        },
+        {
+            "nominativo": "NAVARRIA Gianmarco",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 7,
+                "seggio_n_4": 1,
+                "seggio_n_5": 6
+            }
+        },
+        {
+            "nominativo": "PLATANIA Eliana Maria",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 17,
+                "seggio_n_4": 6,
+                "seggio_n_5": 11
+            }
+        },
+        {
+            "nominativo": "CANNAVO' Cosimo Francesco",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "PULVIRENTI Salvatore \u2010 detto \"Toti\"",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "FINOCCHIARO Giulia",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "PEPE Andrea",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "RATTIZZATO Vittorio",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "PICCIONE Luigi",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "MORABITO Daniele",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 6,
+                "seggio_n_4": 4,
+                "seggio_n_5": 2
+            }
+        },
+        {
+            "nominativo": "LE MURA Ylenia Francesca",
+            "lista": "IRIDE",
+            "voti": {
+                "totali": 2,
+                "seggio_n_4": 0,
+                "seggio_n_5": 2
+            }
+        },
+        {
+            "nominativo": "FAZZI Alessia",
+            "lista": "IRIDE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "MILITANO Andrea",
+            "lista": "IRIDE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "PISCIOTTA Vincenzo",
+            "lista": "IRIDE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "TIZIANO Gaia",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 24,
+                "seggio_n_4": 6,
+                "seggio_n_5": 18
+            }
+        },
+        {
+            "nominativo": "BONANNO Emanuele",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "FASSARI Alberto",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "LA SPINA Cristian",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "VEERAMAH Veeren",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 12,
+                "seggio_n_4": 7,
+                "seggio_n_5": 5
+            }
+        },
+        {
+            "nominativo": "D'AGOSTINO Giulia",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "PRIVITERA Davide Domenico",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 10,
+                "seggio_n_4": 10,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "RANERI Guido",
+            "lista": "CONTROCAMPUS \u2010 POPOLO DEGLI STUDENTI \u2010 ARES",
+            "voti": {
+                "totali": 25,
+                "seggio_n_4": 3,
+                "seggio_n_5": 22
+            }
+        },
+        {
+            "nominativo": "CANTARELLA Erica",
+            "lista": "CONTROCAMPUS \u2010 POPOLO DEGLI STUDENTI \u2010 ARES",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "ALOSI Federica",
+            "lista": "CONTROCAMPUS \u2010 POPOLO DEGLI STUDENTI \u2010 ARES",
+            "voti": {
+                "totali": 1,
+                "seggio_n_4": 1,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "DI STEFANO Agnese",
+            "lista": "CONTROCAMPUS \u2010 POPOLO DEGLI STUDENTI \u2010 ARES",
+            "voti": {
+                "totali": 4,
+                "seggio_n_4": 2,
+                "seggio_n_5": 2
+            }
+        },
+        {
+            "nominativo": "GIUGNO Carlo",
+            "lista": "CONTROCAMPUS \u2010 POPOLO DEGLI STUDENTI \u2010 ARES",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "MOLE' Giuseppe",
+            "lista": "CONTROCAMPUS \u2010 POPOLO DEGLI STUDENTI \u2010 ARES",
+            "voti": {
+                "totali": 3,
+                "seggio_n_4": 3,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "SCALISI Ambra",
+            "lista": "CONTROCAMPUS \u2010 POPOLO DEGLI STUDENTI \u2010 ARES",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "SCIUTO Alfio",
+            "lista": "CONTROCAMPUS \u2010 POPOLO DEGLI STUDENTI \u2010 ARES",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
         }
     ],
-    "seggi_da_assegnare": "12",
-    "dipartimento": "SCIENZE POLITICHE E SOCIALI",
-    "quoziente": "69,583",
-    "votanti": "899",
-    "perc_votanti": "30,03"
+    "quoziente": 69.583,
+    "votanti": {
+        "totali": 899,
+        "percentuale": 30.03,
+        "seggio_n_4": 421,
+        "seggio_n_5": 478
+    },
+    "elettori": {
+        "totali": 2994,
+        "seggio_n_4": 1558,
+        "seggio_n_5": 1436
+    }
 }

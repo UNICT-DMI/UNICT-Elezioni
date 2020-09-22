@@ -1,552 +1,1078 @@
 {
+    "dipartimento": "AGRICOLTURA, ALIMENTAZIONE E AMBIENTE",
+    "seggi_da_assegnare": "12",
     "schede": {
-        "Schede Bianche": "35",
-        "Schede Nulle": "33",
-        "Schede Contestate": "0"
+        "bianche": {
+            "totali": 35,
+            "seggio_n_25": 25,
+            "seggio_n_26": 10
+        },
+        "nulle": {
+            "totali": 33,
+            "seggio_n_25": 16,
+            "seggio_n_26": 17
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_25": 0,
+            "seggio_n_26": 0
+        }
     },
     "liste": [
         {
             "nome": "CONTROCAMPUS",
-            "voti_totali": 31
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "31,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 31,
+                "seggio_n_25": 13,
+                "seggio_n_26": 18
+            }
         },
         {
-            "nome": "ARCHÈ",
-            "voti_totali": 6
+            "nome": "ARCHE'",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "12,9",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 71,
+                "seggio_n_25": 65,
+                "seggio_n_26": 6
+            }
         },
         {
             "nome": "ACTEA",
-            "voti_totali": 125
+            "seggi": {
+                "seggi_pieni": "3",
+                "resti": "4,7",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "3"
+            },
+            "voti": {
+                "totali": 179,
+                "seggio_n_25": 54,
+                "seggio_n_26": 125
+            }
         },
         {
-            "nome": "PROGETTO PER IL DI3A",
-            "voti_totali": 55
+            "nome": "PROGETTO PER IL DI3A",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "28,9",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 87,
+                "seggio_n_25": 32,
+                "seggio_n_26": 55
+            }
         },
         {
             "nome": "ARCADIA",
-            "voti_totali": 959
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "9,9",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 68,
+                "seggio_n_25": 9,
+                "seggio_n_26": 59
+            }
         },
         {
             "nome": "REVOLUTION",
-            "voti_totali": 62
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "24,9",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 83,
+                "seggio_n_25": 21,
+                "seggio_n_26": 62
+            }
         },
         {
             "nome": "ARES",
-            "voti_totali": 2
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "32,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 32,
+                "seggio_n_25": 30,
+                "seggio_n_26": 2
+            }
         },
         {
             "nome": "LIBERTAS",
-            "voti_totali": 2
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "23,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 23,
+                "seggio_n_25": 21,
+                "seggio_n_26": 2
+            }
         },
         {
             "nome": "WE LOVE UNICT",
-            "voti_totali": 23
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "45,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 45,
+                "seggio_n_25": 22,
+                "seggio_n_26": 23
+            }
         },
         {
             "nome": "AZIONE UNIVERSITARIA",
-            "voti_totali": 4
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "45,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 45,
+                "seggio_n_25": 41,
+                "seggio_n_26": 4
+            }
         },
         {
-            "nome": "ALLEANZA UNIVERSITARIA",
-            "voti_totali": 10
+            "nome": "ALLEANZA UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "33,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 33,
+                "seggio_n_25": 23,
+                "seggio_n_26": 10
+            }
+        },
+        {
+            "totale": 697
         }
     ],
     "eletti": [
         {
-            "nominativo": "MANGIAGLI Davide",
-            "voti": "17",
-            "lista": "CONTROCAMPUS"
+            "nominativo": "MANGIAGLI Davide",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 17,
+                "seggio_n_25": 0,
+                "seggio_n_26": 17
+            }
         },
         {
-            "nominativo": "TRICOMI Gianluca",
-            "voti": "44",
-            "lista": "ARCHÈ"
+            "nominativo": "TRICOMI Gianluca",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 44,
+                "seggio_n_25": 43,
+                "seggio_n_26": 1
+            }
         },
         {
-            "nominativo": "CUTULI Giuseppe",
-            "voti": "23",
-            "lista": "ACTEA"
+            "nominativo": "CUTULI Giuseppe",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 23,
+                "seggio_n_25": 2,
+                "seggio_n_26": 21
+            }
         },
         {
-            "nominativo": "CONFALONE Domenica",
-            "voti": "37",
-            "lista": "ACTEA"
+            "nominativo": "CONFALONE Domenica",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 37,
+                "seggio_n_25": 0,
+                "seggio_n_26": 37
+            }
         },
         {
-            "nominativo": "NICOTRA Roberta",
-            "voti": "23",
-            "lista": "ACTEA"
+            "nominativo": "NICOTRA Roberta",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 23,
+                "seggio_n_25": 1,
+                "seggio_n_26": 22
+            }
         },
         {
-            "nominativo": "PROJETTO Francesco",
-            "voti": "24",
-            "lista": "ACTEA"
+            "nominativo": "PROJETTO Francesco",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 24,
+                "seggio_n_25": 24,
+                "seggio_n_26": 0
+            }
         },
         {
-            "nominativo": "CUTTONE Ottavia",
-            "voti": "33",
-            "lista": "PROGETTO PER IL DI3A"
+            "nominativo": "CUTTONE Ottavia",
+            "lista": "PROGETTO PER IL DI3A",
+            "voti": {
+                "totali": 33,
+                "seggio_n_25": 1,
+                "seggio_n_26": 32
+            }
         },
         {
-            "nominativo": "PUGLISI Vincenzo",
-            "voti": "24",
-            "lista": "ARCADIA"
+            "nominativo": "PUGLISI Vincenzo",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 24,
+                "seggio_n_25": 0,
+                "seggio_n_26": 24
+            }
         },
         {
-            "nominativo": "FURNITTO Nicola",
-            "voti": "30",
-            "lista": "REVOLUTION"
+            "nominativo": "FURNITTO Nicola",
+            "lista": "REVOLUTION",
+            "voti": {
+                "totali": 30,
+                "seggio_n_25": 12,
+                "seggio_n_26": 18
+            }
         },
         {
-            "nominativo": "PARRINELLO Antonio",
-            "voti": "27",
-            "lista": "ARES"
+            "nominativo": "PARRINELLO Antonio",
+            "lista": "ARES",
+            "voti": {
+                "totali": 27,
+                "seggio_n_25": 26,
+                "seggio_n_26": 1
+            }
         },
         {
-            "nominativo": "MICCICHE' Pasquale",
-            "voti": "22",
-            "lista": "WE LOVE UNICT"
+            "nominativo": "MICCICHE' Pasquale",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 22,
+                "seggio_n_25": 4,
+                "seggio_n_26": 18
+            }
         },
         {
-            "nominativo": "VITALE Alessio",
-            "voti": "29",
-            "lista": "AZIONE UNIVERSITARIA"
+            "nominativo": "VITALE Alessio",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 29,
+                "seggio_n_25": 28,
+                "seggio_n_26": 1
+            }
         },
         {
-            "nominativo": "BRULLO Davide",
-            "voti": "11",
-            "lista": "ALLEANZA UNIVERSITARIA"
+            "nominativo": "BRULLO Davide",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 11,
+                "seggio_n_25": 10,
+                "seggio_n_26": 1
+            }
         }
     ],
     "non_eletti": [
         {
-            "nominativo": "ASERO Giada",
-            "voti": "1",
-            "lista": "CONTROCAMPUS"
-        },
-        {
-            "nominativo": "DI GRAZIA Francesco",
-            "voti": "0",
-            "lista": "CONTROCAMPUS"
-        },
-        {
-            "nominativo": "DI STEFANO Chantal",
-            "voti": "2",
-            "lista": "CONTROCAMPUS"
-        },
-        {
-            "nominativo": "DI STEFANO Giulia Graziella",
-            "voti": "2",
-            "lista": "CONTROCAMPUS"
-        },
-        {
-            "nominativo": "LIZZIO Angelo",
-            "voti": "6",
-            "lista": "CONTROCAMPUS"
-        },
-        {
-            "nominativo": "SANTAMARIA Eugenio",
-            "voti": "1",
-            "lista": "CONTROCAMPUS"
-        },
-        {
-            "nominativo": "STRACQUADANIO Giulia",
-            "voti": "0",
-            "lista": "CONTROCAMPUS"
-        },
-        {
-            "nominativo": "UMANA Annalisa Maria",
-            "voti": "1",
-            "lista": "CONTROCAMPUS"
-        },
-        {
-            "nominativo": "URSO Mario",
-            "voti": "0",
-            "lista": "CONTROCAMPUS"
-        },
-        {
-            "nominativo": "APRILE Carmelo",
-            "voti": "0",
-            "lista": "ARCHÈ"
-        },
-        {
-            "nominativo": "ASMUNDO Roberto Gualtiero Maria",
-            "voti": "0",
-            "lista": "ARCHÈ"
-        },
-        {
-            "nominativo": "CALANDRA CHECCO Giacomo",
-            "voti": "0",
-            "lista": "ARCHÈ"
-        },
-        {
-            "nominativo": "CANNATA Claudio",
-            "voti": "2",
-            "lista": "ARCHÈ"
-        },
-        {
-            "nominativo": "FAGONE Antonio Vincenzo",
-            "voti": "0",
-            "lista": "ARCHÈ"
-        },
-        {
-            "nominativo": "GIANNINO Rocco",
-            "voti": "1",
-            "lista": "ARCHÈ"
-        },
-        {
-            "nominativo": "PAPA Erika",
-            "voti": "4",
-            "lista": "ARCHÈ"
-        },
-        {
-            "nominativo": "PREVITERA Salvo",
-            "voti": "3",
-            "lista": "ARCHÈ"
-        },
-        {
-            "nominativo": "PRIVITERA Domenico Alessio",
-            "voti": "1",
-            "lista": "ARCHÈ"
-        },
-        {
-            "nominativo": "SALICOLA Salvatore Alfio",
-            "voti": "0",
-            "lista": "ARCHÈ"
-        },
-        {
-            "nominativo": "SCAMPORRINO Salvatore",
-            "voti": "0",
-            "lista": "ARCHÈ"
-        },
-        {
-            "nominativo": "SCHILLACI Enrico",
-            "voti": "0",
-            "lista": "ARCHÈ"
-        },
-        {
-            "nominativo": "SCOLLO Federico",
-            "voti": "0",
-            "lista": "ARCHÈ"
-        },
-        {
-            "nominativo": "LA TERRA Giuseppe",
-            "voti": "6",
-            "lista": "ACTEA"
-        },
-        {
-            "nominativo": "MICELI Anna",
-            "voti": "6",
-            "lista": "ACTEA"
-        },
-        {
-            "nominativo": "CATALANO Salvatore",
-            "voti": "8",
-            "lista": "ACTEA"
-        },
-        {
-            "nominativo": "PISANI Manuel",
-            "voti": "11",
-            "lista": "ACTEA"
-        },
-        {
-            "nominativo": "CHISARI Simona",
-            "voti": "17",
-            "lista": "ACTEA"
-        },
-        {
-            "nominativo": "ROSA Rosario",
-            "voti": "4",
-            "lista": "ACTEA"
-        },
-        {
-            "nominativo": "RIZZO Alessia",
-            "voti": "7",
-            "lista": "ACTEA"
-        },
-        {
-            "nominativo": "ARDU Francesca",
-            "voti": "5",
-            "lista": "PROGETTO PER IL DI3A"
-        },
-        {
-            "nominativo": "BIRRIOLO Salvatore",
-            "voti": "6",
-            "lista": "PROGETTO PER IL DI3A"
-        },
-        {
-            "nominativo": "CAPACE Alessandro",
-            "voti": "0",
-            "lista": "PROGETTO PER IL DI3A"
-        },
-        {
-            "nominativo": "FALLICO Salvatore",
-            "voti": "1",
-            "lista": "PROGETTO PER IL DI3A"
-        },
-        {
-            "nominativo": "FIRRIGNO Giulia",
-            "voti": "0",
-            "lista": "PROGETTO PER IL DI3A"
-        },
-        {
-            "nominativo": "GENNUSO Andrea",
-            "voti": "13",
-            "lista": "PROGETTO PER IL DI3A"
-        },
-        {
-            "nominativo": "LIOTTA Edoardo Giovanni",
-            "voti": "10",
-            "lista": "PROGETTO PER IL DI3A"
-        },
-        {
-            "nominativo": "MELI Nunzio",
-            "voti": "0",
-            "lista": "PROGETTO PER IL DI3A"
-        },
-        {
-            "nominativo": "PALERMO Ismaele",
-            "voti": "0",
-            "lista": "PROGETTO PER IL DI3A"
-        },
-        {
-            "nominativo": "SCINARDO Giacomo",
-            "voti": "3",
-            "lista": "PROGETTO PER IL DI3A"
-        },
-        {
-            "nominativo": "SIRAGUSA Alice",
-            "voti": "8",
-            "lista": "PROGETTO PER IL DI3A"
-        },
-        {
-            "nominativo": "SPANO' Rossella",
-            "voti": "3",
-            "lista": "PROGETTO PER IL DI3A"
-        },
-        {
-            "nominativo": "CATUARA Antonio",
-            "voti": "18",
-            "lista": "ARCADIA"
-        },
-        {
-            "nominativo": "CHIAVETTA Elisa",
-            "voti": "7",
-            "lista": "ARCADIA"
-        },
-        {
-            "nominativo": "SAPIENZA Gabriele",
-            "voti": "2",
-            "lista": "ARCADIA"
-        },
-        {
-            "nominativo": "ANDRONICO Danilo",
-            "voti": "1",
-            "lista": "ARCADIA"
-        },
-        {
-            "nominativo": "NICOLOSI Salvatore",
-            "voti": "0",
-            "lista": "ARCADIA"
-        },
-        {
-            "nominativo": "NICOTRA Giorgia",
-            "voti": "1",
-            "lista": "ARCADIA"
-        },
-        {
-            "nominativo": "SCAVO Simona",
-            "voti": "3",
-            "lista": "ARCADIA"
-        },
-        {
-            "nominativo": "SICILIANO Graziano Carlo",
-            "voti": "1",
-            "lista": "ARCADIA"
-        },
-        {
-            "nominativo": "SANTISI Laura",
-            "voti": "0",
-            "lista": "ARCADIA"
-        },
-        {
-            "nominativo": "TODERO Alessandro Mario Felice",
-            "voti": "17",
-            "lista": "REVOLUTION"
-        },
-        {
-            "nominativo": "GALVAGNA Giuliano",
-            "voti": "14",
-            "lista": "REVOLUTION"
-        },
-        {
-            "nominativo": "MODICA Francesco",
-            "voti": "5",
-            "lista": "REVOLUTION"
-        },
-        {
-            "nominativo": "PANTANO Sofia",
-            "voti": "0",
-            "lista": "REVOLUTION"
-        },
-        {
-            "nominativo": "ZANTI Giulia",
-            "voti": "0",
-            "lista": "REVOLUTION"
-        },
-        {
-            "nominativo": "SARTA Erika",
-            "voti": "12",
-            "lista": "REVOLUTION"
-        },
-        {
-            "nominativo": "BARCHITTA Andrea",
-            "voti": "0",
-            "lista": "REVOLUTION"
-        },
-        {
-            "nominativo": "GAROFALO Marco",
-            "voti": "1",
-            "lista": "REVOLUTION"
-        },
-        {
-            "nominativo": "DI BELLA Ennio Maria",
-            "voti": "0",
-            "lista": "ARES"
-        },
-        {
-            "nominativo": "CINARDI Salvatore",
-            "voti": "2",
-            "lista": "ARES"
-        },
-        {
-            "nominativo": "MILANO Francesco",
-            "voti": "0",
-            "lista": "ARES"
-        },
-        {
-            "nominativo": "SANTANGELO Nicola",
-            "voti": "0",
-            "lista": "ARES"
-        },
-        {
-            "nominativo": "PALAZZOTTO Ilenia",
-            "voti": "0",
-            "lista": "ARES"
-        },
-        {
-            "nominativo": "POMILLO Sofia",
-            "voti": "0",
-            "lista": "ARES"
-        },
-        {
-            "nominativo": "SANFILIPPO Clara",
-            "voti": "0",
-            "lista": "ARES"
-        },
-        {
-            "nominativo": "GUGLIELMINO Valentina",
-            "voti": "0",
-            "lista": "ARES"
-        },
-        {
-            "nominativo": "GULLOTTA Francesca",
-            "voti": "0",
-            "lista": "ARES"
-        },
-        {
-            "nominativo": "MONTANA Patrick",
-            "voti": "0",
-            "lista": "LIBERTAS"
-        },
-        {
-            "nominativo": "ALESSANDRELLO Luca",
-            "voti": "19",
-            "lista": "LIBERTAS"
-        },
-        {
-            "nominativo": "FURNARI Alberto",
-            "voti": "0",
-            "lista": "WE LOVE UNICT"
-        },
-        {
-            "nominativo": "CARCAGNOLO Antonio",
-            "voti": "11",
-            "lista": "WE LOVE UNICT"
-        },
-        {
-            "nominativo": "RONSIVALLE Andrea",
-            "voti": "0",
-            "lista": "WE LOVE UNICT"
-        },
-        {
-            "nominativo": "D'URSO Federica, Agata",
-            "voti": "5",
-            "lista": "WE LOVE UNICT"
-        },
-        {
-            "nominativo": "MURABITO Giuseppe",
-            "voti": "0",
-            "lista": "WE LOVE UNICT"
-        },
-        {
-            "nominativo": "SCILLETTA Antonio",
-            "voti": "0",
-            "lista": "WE LOVE UNICT"
-        },
-        {
-            "nominativo": "CAROSELLA Enrico",
-            "voti": "0",
-            "lista": "WE LOVE UNICT"
-        },
-        {
-            "nominativo": "CALI' Sebastiano",
-            "voti": "0",
-            "lista": "WE LOVE UNICT"
-        },
-        {
-            "nominativo": "CHINNICI Federica",
-            "voti": "0",
-            "lista": "WE LOVE UNICT"
-        },
-        {
-            "nominativo": "SPARTI Sabrina",
-            "voti": "0",
-            "lista": "WE LOVE UNICT"
-        },
-        {
-            "nominativo": "PITRUZZELLO Maria Flavia",
-            "voti": "4",
-            "lista": "AZIONE UNIVERSITARIA"
-        },
-        {
-            "nominativo": "DI BENEDETTO Luigi",
-            "voti": "4",
-            "lista": "AZIONE UNIVERSITARIA"
-        },
-        {
-            "nominativo": "MOLLICA Carlo",
-            "voti": "1",
-            "lista": "AZIONE UNIVERSITARIA"
-        },
-        {
-            "nominativo": "GIARRUSSO Salvatore",
-            "voti": "4",
-            "lista": "ALLEANZA UNIVERSITARIA"
-        },
-        {
-            "nominativo": "ARGENTO Giordano",
-            "voti": "7",
-            "lista": "ALLEANZA UNIVERSITARIA"
-        },
-        {
-            "nominativo": "PORTO Mario",
-            "voti": "1",
-            "lista": "ALLEANZA UNIVERSITARIA"
+            "nominativo": "ASERO Giada",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 1,
+                "seggio_n_25": 1,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "DI GRAZIA Francesco",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 0,
+                "seggio_n_25": 0,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "DI STEFANO Chantal",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 2,
+                "seggio_n_25": 2,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "DI STEFANO Giulia Graziella",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 2,
+                "seggio_n_25": 2,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "LIZZIO Angelo",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 6,
+                "seggio_n_25": 6,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "SANTAMARIA Eugenio",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 1,
+                "seggio_n_25": 1,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "STRACQUADANIO Giulia",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 0,
+                "seggio_n_25": 0,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "UMANA Annalisa Maria",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 1,
+                "seggio_n_25": 0,
+                "seggio_n_26": 1
+            }
+        },
+        {
+            "nominativo": "URSO Mario",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 0,
+                "seggio_n_25": 0,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "APRILE Carmelo",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 0,
+                "seggio_n_25": 0,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "ASMUNDO Roberto Gualtiero Maria",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 0,
+                "seggio_n_25": 0,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "CALANDRA CHECCO Giacomo",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 0,
+                "seggio_n_25": 0,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "CANNATA Claudio",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 2,
+                "seggio_n_25": 2,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "FAGONE Antonio Vincenzo",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 0,
+                "seggio_n_25": 0,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "GIANNINO Rocco",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 1,
+                "seggio_n_25": 1,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "PAPA Erika",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 4,
+                "seggio_n_25": 4,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "PREVITERA Salvo",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 3,
+                "seggio_n_25": 3,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "PRIVITERA Domenico Alessio",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 1,
+                "seggio_n_25": 1,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "SALICOLA Salvatore Alfio",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 0,
+                "seggio_n_25": 0,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "SCAMPORRINO Salvatore",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 0,
+                "seggio_n_25": 0,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "SCHILLACI Enrico",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 0,
+                "seggio_n_25": 0,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "SCOLLO Federico",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 0,
+                "seggio_n_25": 0,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "LA TERRA Giuseppe",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 6,
+                "seggio_n_25": 6,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "MICELI Anna",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 6,
+                "seggio_n_25": 0,
+                "seggio_n_26": 6
+            }
+        },
+        {
+            "nominativo": "CATALANO Salvatore",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 8,
+                "seggio_n_25": 7,
+                "seggio_n_26": 1
+            }
+        },
+        {
+            "nominativo": "PISANI Manuel",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 11,
+                "seggio_n_25": 0,
+                "seggio_n_26": 11
+            }
+        },
+        {
+            "nominativo": "CHISARI Simona",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 17,
+                "seggio_n_25": 6,
+                "seggio_n_26": 11
+            }
+        },
+        {
+            "nominativo": "ROSA Rosario",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 4,
+                "seggio_n_25": 0,
+                "seggio_n_26": 4
+            }
+        },
+        {
+            "nominativo": "RIZZO Alessia",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 7,
+                "seggio_n_25": 2,
+                "seggio_n_26": 5
+            }
+        },
+        {
+            "nominativo": "ARDU Francesca",
+            "lista": "PROGETTO PER IL DI3A",
+            "voti": {
+                "totali": 5,
+                "seggio_n_25": 3,
+                "seggio_n_26": 2
+            }
+        },
+        {
+            "nominativo": "BIRRIOLO Salvatore",
+            "lista": "PROGETTO PER IL DI3A",
+            "voti": {
+                "totali": 6,
+                "seggio_n_25": 0,
+                "seggio_n_26": 6
+            }
+        },
+        {
+            "nominativo": "CAPACE Alessandro",
+            "lista": "PROGETTO PER IL DI3A",
+            "voti": {
+                "totali": 0,
+                "seggio_n_25": 0,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "FALLICO Salvatore",
+            "lista": "PROGETTO PER IL DI3A",
+            "voti": {
+                "totali": 1,
+                "seggio_n_25": 1,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "FIRRIGNO Giulia",
+            "lista": "PROGETTO PER IL DI3A",
+            "voti": {
+                "totali": 0,
+                "seggio_n_25": 0,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "GENNUSO Andrea",
+            "lista": "PROGETTO PER IL DI3A",
+            "voti": {
+                "totali": 13,
+                "seggio_n_25": 12,
+                "seggio_n_26": 1
+            }
+        },
+        {
+            "nominativo": "LIOTTA Edoardo Giovanni",
+            "lista": "PROGETTO PER IL DI3A",
+            "voti": {
+                "totali": 10,
+                "seggio_n_25": 0,
+                "seggio_n_26": 10
+            }
+        },
+        {
+            "nominativo": "MELI Nunzio",
+            "lista": "PROGETTO PER IL DI3A",
+            "voti": {
+                "totali": 0,
+                "seggio_n_25": 0,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "PALERMO Ismaele",
+            "lista": "PROGETTO PER IL DI3A",
+            "voti": {
+                "totali": 0,
+                "seggio_n_25": 0,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "SCINARDO Giacomo",
+            "lista": "PROGETTO PER IL DI3A",
+            "voti": {
+                "totali": 3,
+                "seggio_n_25": 3,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "SIRAGUSA Alice",
+            "lista": "PROGETTO PER IL DI3A",
+            "voti": {
+                "totali": 8,
+                "seggio_n_25": 7,
+                "seggio_n_26": 1
+            }
+        },
+        {
+            "nominativo": "SPANO' Rossella",
+            "lista": "PROGETTO PER IL DI3A",
+            "voti": {
+                "totali": 3,
+                "seggio_n_25": 3,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "CATUARA Antonio",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 18,
+                "seggio_n_25": 4,
+                "seggio_n_26": 14
+            }
+        },
+        {
+            "nominativo": "CHIAVETTA Elisa",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 7,
+                "seggio_n_25": 2,
+                "seggio_n_26": 5
+            }
+        },
+        {
+            "nominativo": "SAPIENZA Gabriele",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 2,
+                "seggio_n_25": 2,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "ANDRONICO Danilo",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_25": 0,
+                "seggio_n_26": 1
+            }
+        },
+        {
+            "nominativo": "NICOLOSI Salvatore",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_25": 0,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "NICOTRA Giorgia",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_25": 0,
+                "seggio_n_26": 1
+            }
+        },
+        {
+            "nominativo": "SCAVO Simona",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 3,
+                "seggio_n_25": 1,
+                "seggio_n_26": 2
+            }
+        },
+        {
+            "nominativo": "SICILIANO Graziano Carlo",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_25": 0,
+                "seggio_n_26": 1
+            }
+        },
+        {
+            "nominativo": "SANTISI Laura",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_25": 0,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "TODERO Alessandro Mario Felice",
+            "lista": "REVOLUTION",
+            "voti": {
+                "totali": 17,
+                "seggio_n_25": 1,
+                "seggio_n_26": 16
+            }
+        },
+        {
+            "nominativo": "GALVAGNA Giuliano",
+            "lista": "REVOLUTION",
+            "voti": {
+                "totali": 14,
+                "seggio_n_25": 2,
+                "seggio_n_26": 12
+            }
+        },
+        {
+            "nominativo": "MODICA Francesco",
+            "lista": "REVOLUTION",
+            "voti": {
+                "totali": 5,
+                "seggio_n_25": 3,
+                "seggio_n_26": 2
+            }
+        },
+        {
+            "nominativo": "PANTANO Sofia",
+            "lista": "REVOLUTION",
+            "voti": {
+                "totali": 0,
+                "seggio_n_25": 0,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "ZANTI Giulia",
+            "lista": "REVOLUTION",
+            "voti": {
+                "totali": 0,
+                "seggio_n_25": 0,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "SARTA Erika",
+            "lista": "REVOLUTION",
+            "voti": {
+                "totali": 12,
+                "seggio_n_25": 1,
+                "seggio_n_26": 11
+            }
+        },
+        {
+            "nominativo": "BARCHITTA Andrea",
+            "lista": "REVOLUTION",
+            "voti": {
+                "totali": 0,
+                "seggio_n_25": 0,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "GAROFALO Marco",
+            "lista": "REVOLUTION",
+            "voti": {
+                "totali": 1,
+                "seggio_n_25": 0,
+                "seggio_n_26": 1
+            }
+        },
+        {
+            "nominativo": "DI BELLA Ennio Maria",
+            "lista": "ARES",
+            "voti": {
+                "totali": 0,
+                "seggio_n_25": 0,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "CINARDI Salvatore",
+            "lista": "ARES",
+            "voti": {
+                "totali": 2,
+                "seggio_n_25": 2,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "MILANO Francesco",
+            "lista": "ARES",
+            "voti": {
+                "totali": 0,
+                "seggio_n_25": 0,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "SANTANGELO Nicola",
+            "lista": "ARES",
+            "voti": {
+                "totali": 0,
+                "seggio_n_25": 0,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "PALAZZOTTO Ilenia",
+            "lista": "ARES",
+            "voti": {
+                "totali": 0,
+                "seggio_n_25": 0,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "POMILLO Sofia",
+            "lista": "ARES",
+            "voti": {
+                "totali": 0,
+                "seggio_n_25": 0,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "SANFILIPPO Clara",
+            "lista": "ARES",
+            "voti": {
+                "totali": 0,
+                "seggio_n_25": 0,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "GUGLIELMINO Valentina",
+            "lista": "ARES",
+            "voti": {
+                "totali": 0,
+                "seggio_n_25": 0,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "GULLOTTA Francesca",
+            "lista": "ARES",
+            "voti": {
+                "totali": 0,
+                "seggio_n_25": 0,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "MONTANA Patrick",
+            "lista": "LIBERTAS",
+            "voti": {
+                "totali": 0,
+                "seggio_n_25": 0,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "ALESSANDRELLO Luca",
+            "lista": "LIBERTAS",
+            "voti": {
+                "totali": 19,
+                "seggio_n_25": 18,
+                "seggio_n_26": 1
+            }
+        },
+        {
+            "nominativo": "FURNARI Alberto",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_25": 0,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "CARCAGNOLO Antonio",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 11,
+                "seggio_n_25": 10,
+                "seggio_n_26": 1
+            }
+        },
+        {
+            "nominativo": "RONSIVALLE Andrea",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_25": 0,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "D'URSO Federica, Agata",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 5,
+                "seggio_n_25": 4,
+                "seggio_n_26": 1
+            }
+        },
+        {
+            "nominativo": "MURABITO Giuseppe",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_25": 0,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "SCILLETTA Antonio",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_25": 0,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "CAROSELLA Enrico",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_25": 0,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "CALI' Sebastiano",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_25": 0,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "CHINNICI Federica",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_25": 0,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "SPARTI Sabrina",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_25": 0,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "PITRUZZELLO Maria Flavia",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 4,
+                "seggio_n_25": 4,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "DI BENEDETTO Luigi",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 4,
+                "seggio_n_25": 4,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "MOLLICA Carlo",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_25": 0,
+                "seggio_n_26": 1
+            }
+        },
+        {
+            "nominativo": "GIARRUSSO Salvatore",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 4,
+                "seggio_n_25": 0,
+                "seggio_n_26": 4
+            }
+        },
+        {
+            "nominativo": "ARGENTO Giordano",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 7,
+                "seggio_n_25": 6,
+                "seggio_n_26": 1
+            }
+        },
+        {
+            "nominativo": "PORTO Mario",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_25": 0,
+                "seggio_n_26": 1
+            }
         }
     ],
-    "seggi_da_assegnare": "12",
-    "dipartimento": "AGRICOLTURA, ALIMENTAZIONE E AMBIENTE",
-    "quoziente": "58,083",
-    "votanti": "765",
-    "perc_votanti": "37,68"
+    "quoziente": 58.083,
+    "votanti": {
+        "totali": 765,
+        "percentuale": 37.68,
+        "seggio_n_25": 372,
+        "seggio_n_26": 393
+    },
+    "elettori": {
+        "totali": 2030,
+        "seggio_n_25": 1029,
+        "seggio_n_26": 1001
+    }
 }

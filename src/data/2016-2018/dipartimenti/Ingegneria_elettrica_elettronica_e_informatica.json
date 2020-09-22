@@ -1,327 +1,748 @@
 {
+    "dipartimento": "INGEGNERIA ELETTRICA ELETTRONICA E INFORMATICA - DIEEI",
+    "seggi_da_assegnare": "12",
     "schede": {
-        "Schede Bianche": "67",
-        "Schede Nulle": "31",
-        "Schede Contestate": "0"
+        "bianche": {
+            "totali": 67,
+            "seggio_n_28": 37,
+            "seggio_n_29": 30
+        },
+        "nulle": {
+            "totali": 31,
+            "seggio_n_28": 14,
+            "seggio_n_29": 17
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_28": 0,
+            "seggio_n_29": 0
+        }
     },
     "liste": [
         {
-            "nome": "GIOVANI CIDEC  ‐  LA FINESTRA",
-            "voti_totali": 85
+            "nome": "CONTROCAMPUS",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "46,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 46,
+                "seggio_n_28": 4,
+                "seggio_n_29": 42
+            }
+        },
+        {
+            "nome": "GIOVANI CIDEC \u2010 LA FINESTRA",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "0,5",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 85,
+                "seggio_n_28": 71,
+                "seggio_n_29": 14
+            }
         },
         {
             "nome": "ACTEA",
-            "voti_totali": 189
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "57,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "3"
+            },
+            "voti": {
+                "totali": 226,
+                "seggio_n_28": 37,
+                "seggio_n_29": 189
+            }
         },
         {
             "nome": "INGEGNERIATTIVA",
-            "voti_totali": 43
+            "seggi": {
+                "seggi_pieni": "4",
+                "resti": "61,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "5"
+            },
+            "voti": {
+                "totali": 399,
+                "seggio_n_28": 356,
+                "seggio_n_29": 43
+            }
         },
         {
-            "nome": "UNIVERSITÀ POPOLARE",
-            "voti_totali": 29
+            "nome": "UNIVERSIT\u00c0 POPOLARE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "41,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 41,
+                "seggio_n_28": 12,
+                "seggio_n_29": 29
+            }
         },
         {
             "nome": "AZIONE UNIVERSITARIA",
-            "voti_totali": 19
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "64,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 64,
+                "seggio_n_28": 45,
+                "seggio_n_29": 19
+            }
         },
         {
-            "nome": "LIBERTAS LIBERI E FORTI",
-            "voti_totali": 86
+            "nome": "LIBERTAS \u2010 LIBERI E FORTI",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "28,5",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 113,
+                "seggio_n_28": 27,
+                "seggio_n_29": 86
+            }
         },
         {
             "nome": "ARCADIA",
-            "voti_totali": 18
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "40,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 40,
+                "seggio_n_28": 22,
+                "seggio_n_29": 18
+            }
+        },
+        {
+            "totale": 1014
         }
     ],
     "eletti": [
         {
+            "nominativo": "RUSCIFINA MARCO",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 35,
+                "seggio_n_28": 1,
+                "seggio_n_29": 34
+            }
+        },
+        {
             "nominativo": "ITALIA MIRKO",
-            "voti": "60",
-            "lista": "GIOVANI CIDEC  ‐  LA FINESTRA"
+            "lista": "GIOVANI CIDEC \u2010 LA FINESTRA",
+            "voti": {
+                "totali": 60,
+                "seggio_n_28": 58,
+                "seggio_n_29": 2
+            }
         },
         {
             "nominativo": "LOSI ALESSIO",
-            "voti": "130",
-            "lista": "ACTEA"
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 130,
+                "seggio_n_28": 8,
+                "seggio_n_29": 122
+            }
         },
         {
             "nominativo": "PORTO FABRIZIO",
-            "voti": "45",
-            "lista": "ACTEA"
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 45,
+                "seggio_n_28": 5,
+                "seggio_n_29": 40
+            }
         },
         {
             "nominativo": "SIRNA FABIO",
-            "voti": "15",
-            "lista": "ACTEA"
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 15,
+                "seggio_n_28": 13,
+                "seggio_n_29": 2
+            }
         },
         {
             "nominativo": "FAVA GIUSEPPE detto \"Peppe\"",
-            "voti": "130",
-            "lista": "INGEGNERIATTIVA"
+            "lista": "INGEGNERIATTIVA",
+            "voti": {
+                "totali": 130,
+                "seggio_n_28": 125,
+                "seggio_n_29": 5
+            }
         },
         {
             "nominativo": "CIFALINO' GIULIA",
-            "voti": "24",
-            "lista": "INGEGNERIATTIVA"
+            "lista": "INGEGNERIATTIVA",
+            "voti": {
+                "totali": 24,
+                "seggio_n_28": 18,
+                "seggio_n_29": 6
+            }
         },
         {
             "nominativo": "RIZZO FEDERICO",
-            "voti": "99",
-            "lista": "INGEGNERIATTIVA"
+            "lista": "INGEGNERIATTIVA",
+            "voti": {
+                "totali": 99,
+                "seggio_n_28": 92,
+                "seggio_n_29": 7
+            }
         },
         {
             "nominativo": "L'ABBATE ANTONIO",
-            "voti": "30",
-            "lista": "INGEGNERIATTIVA"
+            "lista": "INGEGNERIATTIVA",
+            "voti": {
+                "totali": 30,
+                "seggio_n_28": 27,
+                "seggio_n_29": 3
+            }
         },
         {
             "nominativo": "GALVAGNA GABRIELE GASPARE",
-            "voti": "24",
-            "lista": "INGEGNERIATTIVA"
+            "lista": "INGEGNERIATTIVA",
+            "voti": {
+                "totali": 24,
+                "seggio_n_28": 20,
+                "seggio_n_29": 4
+            }
         },
         {
             "nominativo": "TRIBULATO MARCO",
-            "voti": "39",
-            "lista": "INGEGNERIATTIVA"
+            "lista": "INGEGNERIATTIVA",
+            "voti": {
+                "totali": 39,
+                "seggio_n_28": 33,
+                "seggio_n_29": 6
+            }
         },
         {
             "nominativo": "TRIOLO LUDOVICO",
-            "voti": "47",
-            "lista": "AZIONE UNIVERSITARIA"
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 47,
+                "seggio_n_28": 41,
+                "seggio_n_29": 6
+            }
         },
         {
             "nominativo": "COTTONE MARIO",
-            "voti": "28",
-            "lista": "LIBERTAS LIBERI E FORTI"
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 28,
+                "seggio_n_28": 1,
+                "seggio_n_29": 27
+            }
         }
     ],
     "non_eletti": [
         {
+            "nominativo": "CONIGLIO TONINO",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 1,
+                "seggio_n_28": 0,
+                "seggio_n_29": 1
+            }
+        },
+        {
+            "nominativo": "CUTRERA ALESSANDRO",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 0,
+                "seggio_n_28": 0,
+                "seggio_n_29": 0
+            }
+        },
+        {
+            "nominativo": "GORGONE FEDERICO",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 2,
+                "seggio_n_28": 0,
+                "seggio_n_29": 2
+            }
+        },
+        {
+            "nominativo": "POLISANO FABIO",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 4,
+                "seggio_n_28": 0,
+                "seggio_n_29": 4
+            }
+        },
+        {
+            "nominativo": "LA ROSA SALVATORE",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 1,
+                "seggio_n_28": 1,
+                "seggio_n_29": 0
+            }
+        },
+        {
+            "nominativo": "MARINO ANTONINO",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 1,
+                "seggio_n_28": 1,
+                "seggio_n_29": 0
+            }
+        },
+        {
+            "nominativo": "STRANO NUNZIA MARTINA",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 0,
+                "seggio_n_28": 0,
+                "seggio_n_29": 0
+            }
+        },
+        {
+            "nominativo": "RIDOLFO EDOARDO MASSIMO",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 1,
+                "seggio_n_28": 1,
+                "seggio_n_29": 0
+            }
+        },
+        {
+            "nominativo": "PAPA MARCO",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 1,
+                "seggio_n_28": 0,
+                "seggio_n_29": 1
+            }
+        },
+        {
             "nominativo": "TROVATO PAOLO ANTONIO",
-            "voti": "15",
-            "lista": "GIOVANI CIDEC  ‐  LA FINESTRA"
+            "lista": "GIOVANI CIDEC \u2010 LA FINESTRA",
+            "voti": {
+                "totali": 15,
+                "seggio_n_28": 4,
+                "seggio_n_29": 11
+            }
         },
         {
             "nominativo": "NARDO DOMENICO",
-            "voti": "12",
-            "lista": "ACTEA"
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 12,
+                "seggio_n_28": 3,
+                "seggio_n_29": 9
+            }
         },
         {
             "nominativo": "BONAVENTURA GIULIANO",
-            "voti": "1",
-            "lista": "INGEGNERIATTIVA"
+            "lista": "INGEGNERIATTIVA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_28": 0,
+                "seggio_n_29": 1
+            }
         },
         {
             "nominativo": "GIUFFRIDA ROSARIO VINCENZO",
-            "voti": "2",
-            "lista": "INGEGNERIATTIVA"
+            "lista": "INGEGNERIATTIVA",
+            "voti": {
+                "totali": 2,
+                "seggio_n_28": 0,
+                "seggio_n_29": 2
+            }
         },
         {
             "nominativo": "DARA GIUSEPPE LORIS",
-            "voti": "6",
-            "lista": "INGEGNERIATTIVA"
+            "lista": "INGEGNERIATTIVA",
+            "voti": {
+                "totali": 6,
+                "seggio_n_28": 6,
+                "seggio_n_29": 0
+            }
         },
         {
             "nominativo": "PORTARO SIMONE",
-            "voti": "16",
-            "lista": "INGEGNERIATTIVA"
+            "lista": "INGEGNERIATTIVA",
+            "voti": {
+                "totali": 16,
+                "seggio_n_28": 14,
+                "seggio_n_29": 2
+            }
         },
         {
             "nominativo": "ZAPPALA' FABIO",
-            "voti": "0",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_28": 0,
+                "seggio_n_29": 0
+            }
         },
         {
             "nominativo": "CONSOLI FABRIZIO",
-            "voti": "20",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 20,
+                "seggio_n_28": 0,
+                "seggio_n_29": 20
+            }
         },
         {
             "nominativo": "NANIA ROBERTO",
-            "voti": "0",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_28": 0,
+                "seggio_n_29": 0
+            }
         },
         {
             "nominativo": "MAZZARA STEFANO",
-            "voti": "0",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_28": 0,
+                "seggio_n_29": 0
+            }
         },
         {
             "nominativo": "PATANE' FRANCESCO",
-            "voti": "2",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 2,
+                "seggio_n_28": 2,
+                "seggio_n_29": 0
+            }
         },
         {
             "nominativo": "VENTURA GABRIELE GIOVANNI",
-            "voti": "0",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_28": 0,
+                "seggio_n_29": 0
+            }
         },
         {
             "nominativo": "AMOROSO DAVIDE MARIA",
-            "voti": "0",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_28": 0,
+                "seggio_n_29": 0
+            }
         },
         {
             "nominativo": "GRILLO GIUSEPPE ANDREA",
-            "voti": "2",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 2,
+                "seggio_n_28": 2,
+                "seggio_n_29": 0
+            }
         },
         {
             "nominativo": "PRANIO GIANMARCO",
-            "voti": "0",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_28": 0,
+                "seggio_n_29": 0
+            }
         },
         {
             "nominativo": "OREFICE IVANA",
-            "voti": "1",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 1,
+                "seggio_n_28": 0,
+                "seggio_n_29": 1
+            }
         },
         {
             "nominativo": "TRIGILA MARTINA",
-            "voti": "3",
-            "lista": "AZIONE UNIVERSITARIA"
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 3,
+                "seggio_n_28": 1,
+                "seggio_n_29": 2
+            }
         },
         {
             "nominativo": "SCARLATA RAFFAELE",
-            "voti": "0",
-            "lista": "AZIONE UNIVERSITARIA"
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_28": 0,
+                "seggio_n_29": 0
+            }
         },
         {
             "nominativo": "MANCUSO FILIBERTO",
-            "voti": "0",
-            "lista": "AZIONE UNIVERSITARIA"
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_28": 0,
+                "seggio_n_29": 0
+            }
         },
         {
             "nominativo": "CASTRO DANIELE",
-            "voti": "0",
-            "lista": "AZIONE UNIVERSITARIA"
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_28": 0,
+                "seggio_n_29": 0
+            }
         },
         {
             "nominativo": "DI MANNO SALVATORE",
-            "voti": "6",
-            "lista": "AZIONE UNIVERSITARIA"
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 6,
+                "seggio_n_28": 0,
+                "seggio_n_29": 6
+            }
         },
         {
             "nominativo": "LA PORTA EDOARDO",
-            "voti": "0",
-            "lista": "AZIONE UNIVERSITARIA"
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_28": 0,
+                "seggio_n_29": 0
+            }
         },
         {
             "nominativo": "TERRANOVA GIUSEPPE",
-            "voti": "0",
-            "lista": "AZIONE UNIVERSITARIA"
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_28": 0,
+                "seggio_n_29": 0
+            }
         },
         {
             "nominativo": "STURIALE MICHELE",
-            "voti": "17",
-            "lista": "LIBERTAS LIBERI E FORTI"
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 17,
+                "seggio_n_28": 15,
+                "seggio_n_29": 2
+            }
         },
         {
             "nominativo": "FUSTO ANDREA",
-            "voti": "0",
-            "lista": "LIBERTAS LIBERI E FORTI"
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_28": 0,
+                "seggio_n_29": 0
+            }
         },
         {
             "nominativo": "GRASSO GIORGIO",
-            "voti": "18",
-            "lista": "LIBERTAS LIBERI E FORTI"
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 18,
+                "seggio_n_28": 0,
+                "seggio_n_29": 18
+            }
         },
         {
             "nominativo": "GROSSO GIOVANFRANCESCO",
-            "voti": "0",
-            "lista": "LIBERTAS LIBERI E FORTI"
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_28": 0,
+                "seggio_n_29": 0
+            }
         },
         {
             "nominativo": "PARISI ANDREA",
-            "voti": "8",
-            "lista": "LIBERTAS LIBERI E FORTI"
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 8,
+                "seggio_n_28": 0,
+                "seggio_n_29": 8
+            }
         },
         {
             "nominativo": "BELLUOMO RUGGERO",
-            "voti": "0",
-            "lista": "LIBERTAS LIBERI E FORTI"
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_28": 0,
+                "seggio_n_29": 0
+            }
         },
         {
             "nominativo": "GALOFARO ANDREA",
-            "voti": "1",
-            "lista": "LIBERTAS LIBERI E FORTI"
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 1,
+                "seggio_n_28": 0,
+                "seggio_n_29": 1
+            }
         },
         {
             "nominativo": "PUGLISI ANGELO",
-            "voti": "25",
-            "lista": "LIBERTAS LIBERI E FORTI"
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 25,
+                "seggio_n_28": 4,
+                "seggio_n_29": 21
+            }
         },
         {
             "nominativo": "MOLE' GIOVANNI",
-            "voti": "0",
-            "lista": "LIBERTAS LIBERI E FORTI"
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_28": 0,
+                "seggio_n_29": 0
+            }
         },
         {
             "nominativo": "SUERI PIERFRANCESCO",
-            "voti": "2",
-            "lista": "LIBERTAS LIBERI E FORTI"
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 2,
+                "seggio_n_28": 0,
+                "seggio_n_29": 2
+            }
         },
         {
             "nominativo": "SANTANGELO GAETANO MARIA",
-            "voti": "0",
-            "lista": "LIBERTAS LIBERI E FORTI"
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_28": 0,
+                "seggio_n_29": 0
+            }
         },
         {
             "nominativo": "RIDOLFO SARA",
-            "voti": "6",
-            "lista": "ARCADIA"
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 6,
+                "seggio_n_28": 6,
+                "seggio_n_29": 0
+            }
         },
         {
             "nominativo": "PREVITE SIMONE",
-            "voti": "0",
-            "lista": "ARCADIA"
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_28": 0,
+                "seggio_n_29": 0
+            }
         },
         {
             "nominativo": "GIOVIALE LORENZO",
-            "voti": "0",
-            "lista": "ARCADIA"
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_28": 0,
+                "seggio_n_29": 0
+            }
         },
         {
             "nominativo": "GIORDANO GIANCARLO",
-            "voti": "0",
-            "lista": "ARCADIA"
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_28": 0,
+                "seggio_n_29": 0
+            }
         },
         {
             "nominativo": "FRAZZONI GIORGIO",
-            "voti": "0",
-            "lista": "ARCADIA"
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_28": 0,
+                "seggio_n_29": 0
+            }
         },
         {
             "nominativo": "BAIAMONTE GIULIANA",
-            "voti": "0",
-            "lista": "ARCADIA"
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_28": 0,
+                "seggio_n_29": 0
+            }
         },
         {
             "nominativo": "PRIVITERA MARCO",
-            "voti": "0",
-            "lista": "ARCADIA"
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_28": 0,
+                "seggio_n_29": 0
+            }
         },
         {
             "nominativo": "MESSINA GUIDO",
-            "voti": "0",
-            "lista": "ARCADIA"
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_28": 0,
+                "seggio_n_29": 0
+            }
         },
         {
             "nominativo": "PIOPPO FRANCESCO",
-            "voti": "0",
-            "lista": "ARCADIA"
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_28": 0,
+                "seggio_n_29": 0
+            }
         },
         {
             "nominativo": "PORTARO UMBERTO",
-            "voti": "24",
-            "lista": "ARCADIA"
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 24,
+                "seggio_n_28": 12,
+                "seggio_n_29": 12
+            }
         }
     ],
-    "seggi_da_assegnare": "12",
-    "dipartimento": "INGEGNERIA ELETTRICA ELETTRONICA E INFORMATICA - DIEEI",
-    "quoziente": "84,5",
-    "votanti": "1112",
-    "perc_votanti": "34,51",
-    "elettori": "3222"
+    "quoziente": 84.5,
+    "votanti": {
+        "totali": 1112,
+        "percentuale": 34.51,
+        "seggio_n_28": 625,
+        "seggio_n_29": 487
+    },
+    "elettori": {
+        "totali": 3222,
+        "seggio_n_28": 1644,
+        "seggio_n_29": 1578
+    }
 }

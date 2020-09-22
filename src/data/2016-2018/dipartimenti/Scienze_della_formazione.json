@@ -1,306 +1,622 @@
 {
+    "dipartimento": "SCIENZE DELLA FORMAZIONE - DISFOR",
+    "seggi_da_assegnare": "9",
     "schede": {
-        "Schede Bianche": "65",
-        "Schede Nulle": "24",
-        "Schede Contestate": "0"
+        "bianche": {
+            "totali": 65,
+            "seggio_n_30": 54,
+            "seggio_n_31": 11
+        },
+        "nulle": {
+            "totali": 24,
+            "seggio_n_30": 21,
+            "seggio_n_31": 3
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_30": 0,
+            "seggio_n_31": 0
+        }
     },
     "liste": [
         {
             "nome": "CONTROCAMPUS",
-            "voti_totali": 35
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "35,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 35,
+                "seggio_n_30": 33,
+                "seggio_n_31": 2
+            }
         },
         {
             "nome": "ACTEA",
-            "voti_totali": 2
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "21,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 21,
+                "seggio_n_30": 19,
+                "seggio_n_31": 2
+            }
         },
         {
-            "nome": "UNIVERSITÀ POPOLARE",
-            "voti_totali": 79
+            "nome": "UNIVERSIT\u00c0 POPOLARE",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "46,9",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 118,
+                "seggio_n_30": 39,
+                "seggio_n_31": 79
+            }
         },
         {
             "nome": "IRIDE",
-            "voti_totali": 18
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "0,9",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 72,
+                "seggio_n_30": 54,
+                "seggio_n_31": 18
+            }
         },
         {
             "nome": "STUDENTI PER SCIENZE DELLA FORMAZIONE",
-            "voti_totali": 6
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "71,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 71,
+                "seggio_n_30": 65,
+                "seggio_n_31": 6
+            }
         },
         {
             "nome": "AZIONE UNIVERSITARIA",
-            "voti_totali": 63
+            "seggi": {
+                "seggi_pieni": "3",
+                "resti": "50,7",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "4"
+            },
+            "voti": {
+                "totali": 264,
+                "seggio_n_30": 201,
+                "seggio_n_31": 63
+            }
         },
         {
-            "nome": "LIBERTAS LIBERI E FORTI",
-            "voti_totali": 4
+            "nome": "LIBERTAS \u2010 LIBERI E FORTI",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "29,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 29,
+                "seggio_n_30": 25,
+                "seggio_n_31": 4
+            }
         },
         {
             "nome": "ARCADIA",
-            "voti_totali": 16
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "30,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 30,
+                "seggio_n_30": 14,
+                "seggio_n_31": 16
+            }
+        },
+        {
+            "totale": 640
         }
     ],
     "eletti": [
         {
             "nominativo": "FALLICO VALENTINA",
-            "voti": "27",
-            "lista": "CONTROCAMPUS"
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 27,
+                "seggio_n_30": 27,
+                "seggio_n_31": 0
+            }
         },
         {
             "nominativo": "D'URSO EPIFANIO DAMIANO",
-            "voti": "93",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 93,
+                "seggio_n_30": 25,
+                "seggio_n_31": 68
+            }
         },
         {
             "nominativo": "PELLEGRINO PRATTELLA ALBA",
-            "voti": "2",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 2,
+                "seggio_n_30": 0,
+                "seggio_n_31": 2
+            }
         },
         {
             "nominativo": "PENNISI EMANUELE",
-            "voti": "55",
-            "lista": "IRIDE"
+            "lista": "IRIDE",
+            "voti": {
+                "totali": 55,
+                "seggio_n_30": 39,
+                "seggio_n_31": 16
+            }
         },
         {
             "nominativo": "GARGANO DAVIDE",
-            "voti": "58",
-            "lista": "STUDENTI PER SCIENZE DELLA FORMAZIONE"
+            "lista": "STUDENTI PER SCIENZE DELLA FORMAZIONE",
+            "voti": {
+                "totali": 58,
+                "seggio_n_30": 58,
+                "seggio_n_31": 0
+            }
         },
         {
-            "nominativo": "GARGANO DAVIDE",
-            "voti": "58",
-            "lista": "AZIONE UNIVERSITARIA"
+            "nominativo": "CIRINO ANTONIO",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 167,
+                "seggio_n_30": 132,
+                "seggio_n_31": 35
+            }
+        },
+        {
+            "nominativo": "GUARNERA MAGDALENA",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 18,
+                "seggio_n_30": 8,
+                "seggio_n_31": 10
+            }
+        },
+        {
+            "nominativo": "NERI STEFANO CARMELO",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 30,
+                "seggio_n_30": 28,
+                "seggio_n_31": 2
+            }
+        },
+        {
+            "nominativo": "SCIACCA ANNAGRAZIA",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 30,
+                "seggio_n_30": 20,
+                "seggio_n_31": 10
+            }
         }
     ],
     "non_eletti": [
         {
             "nominativo": "BREDA ALESSIA",
-            "voti": "0",
-            "lista": "CONTROCAMPUS"
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 0,
+                "seggio_n_30": 0,
+                "seggio_n_31": 0
+            }
         },
         {
             "nominativo": "CALVANO LUDOVICA",
-            "voti": "3",
-            "lista": "CONTROCAMPUS"
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 3,
+                "seggio_n_30": 2,
+                "seggio_n_31": 1
+            }
         },
         {
             "nominativo": "LIOTTA FEDERICA VERONICA MARIA",
-            "voti": "0",
-            "lista": "CONTROCAMPUS"
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 0,
+                "seggio_n_30": 0,
+                "seggio_n_31": 0
+            }
         },
         {
             "nominativo": "MOSCATO MARZIA",
-            "voti": "0",
-            "lista": "CONTROCAMPUS"
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 0,
+                "seggio_n_30": 0,
+                "seggio_n_31": 0
+            }
         },
         {
             "nominativo": "RAGNO SIMONA",
-            "voti": "0",
-            "lista": "CONTROCAMPUS"
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 0,
+                "seggio_n_30": 0,
+                "seggio_n_31": 0
+            }
         },
         {
             "nominativo": "RUSSO GIOVANNA",
-            "voti": "3",
-            "lista": "CONTROCAMPUS"
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 3,
+                "seggio_n_30": 3,
+                "seggio_n_31": 0
+            }
         },
         {
             "nominativo": "CORCIULO SILVIA",
-            "voti": "5",
-            "lista": "ACTEA"
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 5,
+                "seggio_n_30": 5,
+                "seggio_n_31": 0
+            }
         },
         {
             "nominativo": "RAGUSA EVITA",
-            "voti": "0",
-            "lista": "ACTEA"
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_30": 0,
+                "seggio_n_31": 0
+            }
         },
         {
             "nominativo": "BAZZANO FABIANA",
-            "voti": "13",
-            "lista": "ACTEA"
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 13,
+                "seggio_n_30": 11,
+                "seggio_n_31": 2
+            }
         },
         {
             "nominativo": "SCURATTI SABRINA",
-            "voti": "1",
-            "lista": "ACTEA"
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_30": 1,
+                "seggio_n_31": 0
+            }
         },
         {
             "nominativo": "PRIVITERA GIULIA",
-            "voti": "2",
-            "lista": "ACTEA"
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 2,
+                "seggio_n_30": 2,
+                "seggio_n_31": 0
+            }
         },
         {
             "nominativo": "CANNATA NAOMI",
-            "voti": "0",
-            "lista": "ACTEA"
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_30": 0,
+                "seggio_n_31": 0
+            }
         },
         {
             "nominativo": "DI BELLA MARIA CRISTINA",
-            "voti": "0",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_30": 0,
+                "seggio_n_31": 0
+            }
         },
         {
             "nominativo": "DE LUCA ROBERTA FRANCESCA",
-            "voti": "0",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_30": 0,
+                "seggio_n_31": 0
+            }
         },
         {
             "nominativo": "PALMA MICHELE ALBERTO",
-            "voti": "0",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_30": 0,
+                "seggio_n_31": 0
+            }
         },
         {
             "nominativo": "RENNA ERIKA",
-            "voti": "0",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_30": 0,
+                "seggio_n_31": 0
+            }
         },
         {
             "nominativo": "VELLA DEBORA",
-            "voti": "1",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 1,
+                "seggio_n_30": 1,
+                "seggio_n_31": 0
+            }
         },
         {
             "nominativo": "PROCOPIO GIUSEPPINA",
-            "voti": "0",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_30": 0,
+                "seggio_n_31": 0
+            }
         },
         {
             "nominativo": "BILLECI DEASY",
-            "voti": "0",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_30": 0,
+                "seggio_n_31": 0
+            }
         },
         {
             "nominativo": "SANFILIPPO GABRIELE",
-            "voti": "0",
-            "lista": "IRIDE"
+            "lista": "IRIDE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_30": 0,
+                "seggio_n_31": 0
+            }
         },
         {
             "nominativo": "MAUGERI MARIAGRAZIA",
-            "voti": "8",
-            "lista": "IRIDE"
+            "lista": "IRIDE",
+            "voti": {
+                "totali": 8,
+                "seggio_n_30": 8,
+                "seggio_n_31": 0
+            }
         },
         {
             "nominativo": "FAIA CAROLA CARMELA",
-            "voti": "0",
-            "lista": "STUDENTI PER SCIENZE DELLA FORMAZIONE"
+            "lista": "STUDENTI PER SCIENZE DELLA FORMAZIONE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_30": 0,
+                "seggio_n_31": 0
+            }
         },
         {
             "nominativo": "FAZIO VITTORIA",
-            "voti": "0",
-            "lista": "STUDENTI PER SCIENZE DELLA FORMAZIONE"
+            "lista": "STUDENTI PER SCIENZE DELLA FORMAZIONE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_30": 0,
+                "seggio_n_31": 0
+            }
         },
         {
             "nominativo": "RAPISARDA LUCA FRANCESCO",
-            "voti": "5",
-            "lista": "STUDENTI PER SCIENZE DELLA FORMAZIONE"
+            "lista": "STUDENTI PER SCIENZE DELLA FORMAZIONE",
+            "voti": {
+                "totali": 5,
+                "seggio_n_30": 1,
+                "seggio_n_31": 4
+            }
         },
         {
             "nominativo": "PATERNO' DI RADDUSA CAROLINA",
-            "voti": "1",
-            "lista": "STUDENTI PER SCIENZE DELLA FORMAZIONE"
+            "lista": "STUDENTI PER SCIENZE DELLA FORMAZIONE",
+            "voti": {
+                "totali": 1,
+                "seggio_n_30": 1,
+                "seggio_n_31": 0
+            }
         },
         {
             "nominativo": "BELLA ELEONORA",
-            "voti": "0",
-            "lista": "STUDENTI PER SCIENZE DELLA FORMAZIONE"
+            "lista": "STUDENTI PER SCIENZE DELLA FORMAZIONE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_30": 0,
+                "seggio_n_31": 0
+            }
         },
         {
-            "nominativo": "FAIA CAROLA CARMELA",
-            "voti": "0",
-            "lista": "AZIONE UNIVERSITARIA"
+            "nominativo": "GIORDANO ESTER",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_30": 0,
+                "seggio_n_31": 0
+            }
         },
         {
-            "nominativo": "FAZIO VITTORIA",
-            "voti": "0",
-            "lista": "AZIONE UNIVERSITARIA"
+            "nominativo": "PULVIRENTI GIACOMO",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_30": 0,
+                "seggio_n_31": 0
+            }
         },
         {
-            "nominativo": "RAPISARDA LUCA FRANCESCO",
-            "voti": "5",
-            "lista": "AZIONE UNIVERSITARIA"
-        },
-        {
-            "nominativo": "PATERNO' DI RADDUSA CAROLINA",
-            "voti": "1",
-            "lista": "AZIONE UNIVERSITARIA"
-        },
-        {
-            "nominativo": "BELLA ELEONORA",
-            "voti": "0",
-            "lista": "AZIONE UNIVERSITARIA"
+            "nominativo": "DI MARCO SERENA",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_30": 0,
+                "seggio_n_31": 0
+            }
         },
         {
             "nominativo": "LENTINI LIDIA",
-            "voti": "0",
-            "lista": "LIBERTAS LIBERI E FORTI"
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_30": 0,
+                "seggio_n_31": 0
+            }
         },
         {
             "nominativo": "LA FICO GIULIANA CONCETTA",
-            "voti": "12",
-            "lista": "LIBERTAS LIBERI E FORTI"
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 12,
+                "seggio_n_30": 12,
+                "seggio_n_31": 0
+            }
         },
         {
             "nominativo": "LOMBARDO FEDERICA FRANCESCA",
-            "voti": "1",
-            "lista": "LIBERTAS LIBERI E FORTI"
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 1,
+                "seggio_n_30": 0,
+                "seggio_n_31": 1
+            }
         },
         {
             "nominativo": "SCIUTO MICHELA",
-            "voti": "0",
-            "lista": "LIBERTAS LIBERI E FORTI"
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_30": 0,
+                "seggio_n_31": 0
+            }
         },
         {
             "nominativo": "LATINA ALESSANDRA",
-            "voti": "0",
-            "lista": "LIBERTAS LIBERI E FORTI"
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_30": 0,
+                "seggio_n_31": 0
+            }
         },
         {
             "nominativo": "BONOMO MARIA",
-            "voti": "8",
-            "lista": "LIBERTAS LIBERI E FORTI"
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 8,
+                "seggio_n_30": 7,
+                "seggio_n_31": 1
+            }
         },
         {
             "nominativo": "STATELLA ELENA MARIA CHIARA",
-            "voti": "0",
-            "lista": "LIBERTAS LIBERI E FORTI"
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_30": 0,
+                "seggio_n_31": 0
+            }
         },
         {
             "nominativo": "SCIUTO NAOMI",
-            "voti": "4",
-            "lista": "ARCADIA"
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 4,
+                "seggio_n_30": 2,
+                "seggio_n_31": 2
+            }
         },
         {
             "nominativo": "LEONARDI ALESSIA",
-            "voti": "0",
-            "lista": "ARCADIA"
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_30": 0,
+                "seggio_n_31": 0
+            }
         },
         {
             "nominativo": "CORSARO SERENA",
-            "voti": "0",
-            "lista": "ARCADIA"
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_30": 0,
+                "seggio_n_31": 0
+            }
         },
         {
             "nominativo": "LEOTTA GHISLENA VERONICA ALFINA",
-            "voti": "18",
-            "lista": "ARCADIA"
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 18,
+                "seggio_n_30": 9,
+                "seggio_n_31": 9
+            }
         },
         {
             "nominativo": "LA ROSA NOEMI",
-            "voti": "0",
-            "lista": "ARCADIA"
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_30": 0,
+                "seggio_n_31": 0
+            }
         },
         {
             "nominativo": "PELLEGRINO GEORGIA",
-            "voti": "3",
-            "lista": "ARCADIA"
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 3,
+                "seggio_n_30": 3,
+                "seggio_n_31": 0
+            }
         },
         {
             "nominativo": "CELANO GIULIA",
-            "voti": "2",
-            "lista": "ARCADIA"
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 2,
+                "seggio_n_30": 0,
+                "seggio_n_31": 2
+            }
         }
     ],
-    "seggi_da_assegnare": "9",
-    "dipartimento": "SCIENZE DELLA FORMAZIONE - DISFOR",
-    "quoziente": "71,1111",
-    "votanti": "729",
-    "perc_votanti": "20,80",
-    "elettori": "3505"
+    "quoziente": 71.1111,
+    "votanti": {
+        "totali": 729,
+        "percentuale": 20.8,
+        "seggio_n_30": 525,
+        "seggio_n_31": 204
+    },
+    "elettori": {
+        "totali": 3505,
+        "seggio_n_30": 1884,
+        "seggio_n_31": 1621
+    }
 }
