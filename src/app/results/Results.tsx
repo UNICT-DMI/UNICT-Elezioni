@@ -76,7 +76,7 @@ const Results = (props: Props) => {
         <thead>
         <tr
           onClick={toggleBody}
-          aria-controls="example-collapse-text"
+          aria-controls="collapse-tbody"
           aria-expanded={show}
         >
           <th className="year">{props.anno} </th>
@@ -118,7 +118,7 @@ const Results = (props: Props) => {
             </div>
 
               <Collapse in={show}>
-                <div id="example-collapse-text">
+                <div id="collapse-tbody">
                   <Table striped bordered hover className="liste">
                     {generateHead()}
                     <tbody>
