@@ -43,7 +43,7 @@ const Department = () => {
         </Collapse>
 
         <div className="mt-5">
-          {years.map(y => <Results key={`${y}-${params.dipartimento}`} anno={y} path={`dipartimenti/${params.dipartimento}`} />)}
+          {years.map(y => <Results key={`${y}-${params.dipartimento}`} anno={y} path={`dipartimenti/${params.dipartimento}`} details={true} />)}
         </div>
       </div>
     </div>
