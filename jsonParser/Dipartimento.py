@@ -2,58 +2,66 @@ from Target import Target
 import json
 
 class Dipartimento(Target):
-    def scrapeList(self, text, data):
+
+    __i = 0
+    __lists = []
+
+    def __findNameDepartment(self, text) -> str:
+        nome = text[1]
+        self.__i = 2
+        while("BIENNIO" not in text[self.__i]):
+            nome += "\n" + text[self.__i]
+            self.__i = self.__i + 1
+        self.__i = self.__i + 2
+        return nome
+
+    def __findNumberOfSeats(self, text) -> str:
+        r = text[self.__i].split()[len(text[self.__i].split())-1]
+        self.__i = self.__i + 1
+        return r
         
-        # Find the name of the department
-        nomeDipartimento = text[1]
-        i = 2
-        while("BIENNIO" not in text[i]):
-            nomeDipartimento += "\n" + text[i]
-            i = i+1
-        i = i+2
+    def __findInfoLists(self, text):
+        while "L I S T E" not in text[self.__i]:
+            self.__i = self.__i + 1
+        self.__i = self.__i + 1
 
-        # Find the number of seats
-        seggiDaAssegnare = text[i].split()[len(text[i].split())-1]
-        i = i+1
-
-        # Find the name of the lists and their info
-        while("L I S T E" not in text[i]):
-            i = i+1
-        i = i+1;
+    def __getSeats(self, text) -> object:
         listOfSeats = []
-        split_text = text[i].split()
+        split_text = text[self.__i].split()
         for s in split_text:
             if self.is_integer(s) == True:
                 listOfSeats.append(int(s))
-        i = i+1
-        lists = []
-        votesOfSeats = []
-        SingleLists = []
-        Seats = []
-        nameOfList = ""
-        voteOfList = 0
-        findVote = False
-        while("TOTALE" not in text[i]):
-            split_text = text[i].split()
+        self.__i = self.__i + 1
+        return listOfSeats
+
+    def __getInfoLists(self, text, listOfSeats) -> object:
+        infoLists = []
+        while("TOTALE" not in text[self.__i]):
+            votesOfSeats = []
+            Seats = []
+            nameOfList = ""
+            voteOfList = 0
+            findVote = False
+            split_text = text[self.__i].split()
             for s in split_text:
                 if self.is_integer(s) == False and findVote == False:
                     nameOfList += (s + " ")
                 elif findVote == False:
                     voteOfList = int(s)
-                    lists.append(nameOfList.strip())
+                    self.__lists.append(nameOfList.strip())
                     findVote = True
                 else:
                     Seats.append(s)
             
             votes = {}
+            votes["totali"] = voteOfList
             j = len(listOfSeats)-1
             k = 0
-            votes["totali"] = voteOfList
             while j>=0:
                 votes["seggio_n_" + str(listOfSeats[k])] = int(Seats.pop(len(Seats)-(j+1)))
                 k = k+1
                 j = j-1
-            SingleLists.append({
+            infoLists.append({
                 "nome": nameOfList.strip(), 
                 "seggi": {
                     "seggi_pieni": Seats.pop(0),
@@ -63,93 +71,53 @@ class Dipartimento(Target):
                     },
                     "voti": votes
             })
-            voteOfList = 0
-            nameOfList = ""
-            findVote = False
-            votesOfSeats.clear()
-            Seats.clear()
-            i = i+1
-        SingleLists.append({"totale": int(text[i].split()[1])})
-        i = i+1
-
+            self.__i = self.__i + 1
+        infoLists.append({"totale": int(text[self.__i].split()[1])})
+        self.__i = self.__i + 1
+        return infoLists
+    
+    def __findCard(self, type, text, listOfSeats, listOfType) -> int:
         listTmp = []
-        # Find white card
-        while "BIANCHE" not in text[i].upper():
-            i = i+1
-        listOfWhite = []
-        split_text = text[i].split()
+        while type not in text[self.__i].upper():
+            self.__i = self.__i + 1
+        split_text = text[self.__i].split()
         for s in split_text:
             if self.is_integer(s) == True:
                 listTmp.append(int(s))
         j = len(listOfSeats) - 1
         while j>=0:
-            listOfWhite.append(listTmp.pop(len(listTmp)-(j+1)))
+            listOfType.append(listTmp.pop(len(listTmp)-(j+1)))
             j = j-1
-        schede_bianche = listTmp.pop(0)
+        return listTmp.pop(0)
 
-        listTmp.clear()
-        # Find null card
-        while "NULLE" not in text[i].upper():
-            i = i+1
-        listOfNull = []
-        split_text = text[i].split()
-        for s in split_text:
-            if self.is_integer(s) == True:
-                listTmp.append(int(s))
-        j = len(listOfSeats) - 1
-        while j>=0:
-            listOfNull.append(listTmp.pop(len(listTmp)-(j+1)))
-            j = j-1
-        schede_nulle = listTmp.pop(0)
-
-        listTmp.clear()
-        # Find contested card
-        while "CONTESTATE" not in text[i].upper():
-            i = i+1
-        listOfContested = []
-        split_text = text[i].split()
-        for s in split_text:
-            if self.is_integer(s) == True:
-                listTmp.append(int(s))
-        j = len(listOfSeats) - 1
-        while j>=0:
-            listOfContested.append(listTmp.pop(len(listTmp)-(j+1)))
-            j = j-1
-        schede_contestate = listTmp.pop(0)
-
+    def __scheda(self, type, schedeType, listOfType, listOfSeats):
+        type["totali"] = schedeType
+        k = 0
+        for v in listOfType:
+            type["seggio_n_" + str(listOfSeats[k])] = v
+            k = k+1
+    
+    def __formatSchede(self, schede_bianche, schede_nulle, schede_contestate, listOfWhite, listOfNull, listOfContested, listOfSeats) -> object:
         bianche = {}
         nulle = {}
         contestate = {}
 
-        bianche["totali"] = schede_bianche
-        k = 0
-        for v in listOfWhite:
-            bianche["seggio_n_" + str(listOfSeats[k])] = v
-            k = k+1
-        
-        nulle["totali"] = schede_nulle
-        k = 0
-        for v in listOfWhite:
-            nulle["seggio_n_" + str(listOfSeats[k])] = v
-            k = k+1
-
-        contestate["totali"] = schede_contestate
-        k = 0
-        for v in listOfWhite:
-            contestate["seggio_n_" + str(listOfSeats[k])] = v
-            k = k+1
+        self.__scheda(bianche, schede_bianche, listOfWhite, listOfSeats)
+        self.__scheda(nulle, schede_nulle, listOfNull, listOfSeats)
+        self.__scheda(contestate, schede_contestate, listOfContested, listOfSeats)
         
         schede = {
             "bianche": bianche,
             "nulle": nulle,
             "contestate": contestate
         }
-
-        # Quotient extraction
-        while("QUOZIENTE" not in text[i].upper()):
-            i = i+1
-        text[i] = text[i].replace(",", ".")
-        split_text = text[i].split()
+        return schede
+    
+    def __getQuotient(self, text) -> int:
+        while("QUOZIENTE" not in text[self.__i].upper()):
+            self.__i = self.__i + 1
+        text[self.__i] = text[self.__i].replace(",", ".")
+        split_text = text[self.__i].split()
         quoziente = -1
         for s in split_text:
             try:
@@ -168,7 +136,31 @@ class Dipartimento(Target):
                 else:
                     quoziente = int(s)
                     break
+        return quoziente
+
+
+    def scrapeList(self, text):
+        nomeDipartimento = self.__findNameDepartment(text)
+        seggiDaAssegnare = self.__findNumberOfSeats(text)
+        self.__findInfoLists(text)
+        listOfSeats = self.__getSeats(text)
+        infoList = self.__getInfoLists(text, listOfSeats)
+
+        listOfWhite = []
+        schede_bianche = self.__findCard("BIANCHE", text, listOfSeats, listOfWhite)
+
+        listOfNull = []
+        schede_nulle = self.__findCard("NULLE", text, listOfSeats, listOfNull)
+
+        listOfContested = []
+        schede_contestate = self.__findCard("CONTESTATE", text, listOfSeats, listOfContested)
+
+        schede = self.__formatSchede(schede_bianche, schede_nulle, schede_contestate, listOfWhite, listOfNull, listOfContested, listOfSeats)
+
+        quoziente = self.__getQuotient(text)
         
+        i = self.__i
+        ### Qui devo continuare con il refactoring
         # Extract votanti info
         listOfVoters = []
         while "VOTANTI" not in text[i].upper():
@@ -227,7 +219,7 @@ class Dipartimento(Target):
             i = i+1
         i = i+1
 
-        num_lists = len(lists)
+        num_lists = len(self.__lists)
 
         eletti = []
         non_eletti = []
@@ -252,7 +244,7 @@ class Dipartimento(Target):
 
                 voteOfCandidate = listOfSeatsVote.pop(0)
                 candidato["nominativo"] = nameOfCandidate.strip()
-                candidato["lista"] = lists[j-1]
+                candidato["lista"] = self.__lists[j-1]
                 voti = {}
                 voti["totali"] = voteOfCandidate
                 k = 0
@@ -271,11 +263,13 @@ class Dipartimento(Target):
             "dipartimento": nomeDipartimento,
             "seggi_da_assegnare": seggiDaAssegnare,
             "schede": schede,
-            "liste": SingleLists,
+            "liste": infoList,
             "eletti": eletti,
             "non_eletti": non_eletti,
             "quoziente": quoziente,
             "votanti": vot,
             "elettori": info_elettori
         }
+
+        print(json.dumps(file_json))
         pass

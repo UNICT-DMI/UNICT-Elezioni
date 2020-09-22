@@ -21,9 +21,8 @@ def main(argv):
     errorStart(len(argv))
     formatted_text = FormatPDF.formatPdf(argv[0])
     target = selectTarget.getInstance().getTarget(argv[1])
-    data_set = {}
     printPars(formatted_text)
-    target.scrapeList(formatted_text, data_set)
+    target.scrapeList(formatted_text)
 
 
 if __name__ == "__main__":

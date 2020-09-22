@@ -2,7 +2,7 @@ from abc import ABC, abstractmethod
 import json
 
 class Target(ABC):
-    def scrapeLists(self, text, data):
+    def scrapeLists(self, text):
         """This method permits to create a JSON."""
         pass
 
