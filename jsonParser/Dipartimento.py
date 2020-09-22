@@ -6,10 +6,9 @@ class Dipartimento(Target):
     def __findNameDepartment(self, text) -> str:
         nome = text[1]
         self.i = 2
-        while("BIENNIO" not in text[self.i]):
+        while "BIENNIO" not in text[self.i].upper() and "VOTI DI LISTA" not in text[self.i].upper():
             nome += "\n" + text[self.i]
             self.i = self.i + 1
-        self.i = self.i + 2
         return nome
 
     def __findNumberOfSeats(self, text) -> str:
@@ -18,7 +17,7 @@ class Dipartimento(Target):
         return r
         
     def __findInfoLists(self, text):
-        while "L I S T E" not in text[self.i]:
+        while "L I S T E" not in text[self.i].upper():
             self.i = self.i + 1
         self.i = self.i + 1
 
@@ -31,7 +30,7 @@ class Dipartimento(Target):
         self.i = self.i + 1
         return listOfSeats
 
-    def __getInfoLists(self, text, listOfSeats) -> object:
+    def __getInfoLists(self, text, listOfSeats, seggiDaAssegnare) -> object:
         infoLists = []
         while("TOTALE" not in text[self.i]):
             votesOfSeats = []
@@ -44,9 +43,15 @@ class Dipartimento(Target):
                 if self.is_integer(s) == False and findVote == False:
                     nameOfList += (s + " ")
                 elif findVote == False:
-                    voteOfList = int(s)
-                    self.lists.append(nameOfList.strip())
-                    findVote = True
+                    try:
+                        int(s)
+                    except ValueError:
+                        nameOfList += (s + " ")
+                        continue
+                    else:
+                        voteOfList = int(s)
+                        self.lists.append(nameOfList.strip())
+                        findVote = True
                 else:
                     Seats.append(s)
             
@@ -69,7 +74,10 @@ class Dipartimento(Target):
                     "voti": votes
             })
             self.i = self.i + 1
-        infoLists.append({"totale": int(text[self.i].split()[1])})
+        
+        tmp = text[self.i].split()
+        infoLists.append({"totale": int(tmp[1])})
+        seggiDaAssegnare[0] = tmp[len(tmp)-1]
         self.i = self.i + 1
         return infoLists
 
@@ -81,7 +89,8 @@ class Dipartimento(Target):
         split_text = text[self.i].split()
         for s in split_text:
             if self.is_integer(s) == True:
-                listOfVoters.append(int(s))
+                ssplit = s.split(".")
+                listOfVoters.append(int(ssplit[0]))
             else:
                 try:
                     float(s)
@@ -132,10 +141,10 @@ class Dipartimento(Target):
 
     def scrapeList(self, text) -> object:
         nomeDipartimento = self.__findNameDepartment(text)
-        seggiDaAssegnare = self.__findNumberOfSeats(text)
+        seggiDaAssegnare = [1]
         self.__findInfoLists(text)
         listOfSeats = self.__getSeats(text)
-        infoList = self.__getInfoLists(text, listOfSeats)
+        infoList = self.__getInfoLists(text, listOfSeats, seggiDaAssegnare)
 
         listOfWhite = []
         schede_bianche = self.findCard("BIANCHE", text, listOfSeats, listOfWhite)
@@ -159,7 +168,7 @@ class Dipartimento(Target):
 
         file_json = {
             "dipartimento": nomeDipartimento,
-            "seggi_da_assegnare": seggiDaAssegnare,
+            "seggi_da_assegnare": seggiDaAssegnare[0],
             "schede": schede,
             "liste": infoList,
             "eletti": eletti,

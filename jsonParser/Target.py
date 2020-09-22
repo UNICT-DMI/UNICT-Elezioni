@@ -90,7 +90,10 @@ class Target(ABC):
             elif self.is_integer(s) == True:
                 findName = True
                 listOfSeatsVote.append(int(s))
-        voteOfCandidate[0] = listOfSeatsVote.pop(0)
+        if len(listOfSeatsVote) > 0:
+            voteOfCandidate[0] = listOfSeatsVote.pop(0)
+        else:
+            nameOfCandidate = "<fine>"
         return nameOfCandidate
             
 
@@ -110,7 +113,8 @@ class Target(ABC):
                 listOfSeatsVote = []
                 split_text = text[self.i].split()
                 nameOfCandidate = self.__getInfoCandidato(split_text, listOfSeatsVote, voteOfCandidate)
-                
+                if nameOfCandidate == "<fine>":
+                    break
                 candidato = {}
                 candidato["nominativo"] = nameOfCandidate.strip()
                 candidato["lista"] = self.lists[j-1]

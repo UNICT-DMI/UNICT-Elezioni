@@ -21,12 +21,12 @@ def isFile(filename):
 def isImportant(filename):
     return(bool("CDL_B" not in filename.upper() and "INFERIORE" not in filename.upper() and "COMITATO" not in filename.upper() and "COORDIMAMENTO" not in filename.upper() and "COORDINAMENTO" not in filename.upper() and "NUCLEO" not in filename.upper() and "DOTTORANDI" not in filename.upper()))
 
-def createJSON(pathname, option):
+def createJSON(pathname, option, command):
     print("Create JSON: " + pathname)
-    os.system("ts-node parser.js " + "\"" + pathname + "\" " + option)
+    os.system("python3 " + command + "parser.py " + "\"" + pathname + "\" " + option)
 
-def subUrl(url, directory):
-    os.system("mkdir " + directory)
+def subUrl(url, directory, command):
+    os.system("mkdir " + directory + " && " + "chmod 777 -R " + directory)
     x = requests.get(url)
     if x.status_code != 200:
         print("ERROR", x.status_code, ":", x.text)
@@ -61,18 +61,22 @@ def subUrl(url, directory):
                 file[len(file)-1] = file[len(file)-1].replace("%2", "_")
                 open(directory + "/" + file[len(file)-1], "wb").write(requests.get(link).content)
                 if "CONSIGLIO" in file[len(file)-1].upper() or "SENATO" in file[len(file)-1].upper():
-                    createJSON(directory + "/" + file[len(file)-1], "other")
+                    createJSON(directory + "/" + file[len(file)-1], "other", command)
                 else:
-                    createJSON(directory + "/" + file[len(file)-1], "0")
+                    createJSON(directory + "/" + file[len(file)-1], "0", command)
                 os.unlink(directory + "/" + file[len(file)-1])
         else:
-            subUrl(link, file[len(file)-1])
+            subUrl(link, directory + "/" + file[len(file)-1], command)
 
 def main(argv):
-    if len(argv) != 1:
-        print("USAGE: python3 create-json.py <url>")
+    if len(argv) != 3:
+        print("USAGE: python3 create-json.py <url> <start_directory> <command_parser_directory>")
         sys.exit(0)
-    subUrl(argv[0], ".")
+    if argv[1][len(argv[1])-1] == "/":
+        argv[1] = argv[1][:-1]
+    if argv[2][len(argv[2])-1] != "/":
+        argv[2] += "/"
+    subUrl(argv[0], argv[1], argv[2])
 
 if __name__ == "__main__":
     main(sys.argv[1:])

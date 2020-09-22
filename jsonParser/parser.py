@@ -29,6 +29,7 @@ def main(argv):
     formatted_text = FormatPDF.formatPdf(argv[0])
     target = selectTarget.getInstance().getTarget(argv[1])
     #printPars(formatted_text)
+    #print(argv[0])
     saveJson(target.scrapeList(formatted_text), argv[0])
 
 
