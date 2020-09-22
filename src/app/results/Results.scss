@@ -1,5 +1,9 @@
 .Results {
-  font-size: 10px;
+  font-size: 12px;
+
+  .lists {
+    overflow-x: auto;
+  }
 
   .year {
     padding: 50px 10px !important;
@@ -23,4 +27,14 @@
   .sub-logo {
     height: 50px;
   }
+
+  .cursorPointer {
+    cursor: pointer;
+  }
+
+  // fix thead
+  .generatedRows.collapse.show {
+    display: contents;
+  }
+
 }
