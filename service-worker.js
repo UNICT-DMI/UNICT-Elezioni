@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/UNICT-Elezioni/precache-manifest.3bc95cfe4d1ccac32c29f9b1f967ac36.js"
+  "/UNICT-Elezioni/precache-manifest.ccd105dd142c419c80aad707f1b82a5a.js"
 );
 
 self.addEventListener('message', (event) => {
