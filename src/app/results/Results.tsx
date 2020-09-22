@@ -4,8 +4,8 @@ import Collapse from 'react-bootstrap/Collapse';
 import Table from 'react-bootstrap/Table';
 
 interface Props {
-  anno?: string;
-  path?: string;
+  anno: string;
+  path: string;
 }
 
 const Results = (props: Props) => {
