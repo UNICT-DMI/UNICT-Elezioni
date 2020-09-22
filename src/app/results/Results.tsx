@@ -53,24 +53,24 @@ const Results = (props: Props) => {
 
   function fix_names(name: string): string {
     return name.replace('#', '')
-      .replace(/ /g, ' ')
-      .replace(/ /g, ' ')
-      .replace('ALLENZA UNIVERSITARIA', 'ALLEANZA UNIVERSITARIA')
-      .replace('NIKE  ‐  ARCADIA', 'ARCADIA - NIKE')
-      .replace('INGENERIATTIVA', 'INGEGNERIATTIVA')
-      .replace('LA FINESTRA  ‐  LIBERI DI SCEGLIERE', 'LA FINESTRA ‐ LIBERI DI SCEGLIERE')
-      .replace('LA FINESTRA‐LIBERI DI SCEGLIERE', 'LA FINESTRA ‐ LIBERI DI SCEGLIERE')
-      .replace('LIBERTAS LIBERI E FORTI', 'LIBERTAS')
-      .replace('NUOVA IBLA', 'NUOVAIBLA')
-      .replace('SANI LAB', 'SANILAB')
-      .replace('ECONOMIATTIVA', 'ECONOMIA ATTIVA')
-      .replace('WE LOVE UNICT/CREDIAMOCI', 'WE LOVE UNICT')
-      .replace('WE LOVE UNICT - ARES', 'WE LOVE UNICT')
-      .replace('PARTECIPA ‐ SOS GIURISTI', 'PARTECIPA')
-      .replace('ARCADIA ‐ REVOLUTION', 'ARCADIA REVOLUTION')
-      .replace('UDU - UNIONE DEGLI UNIVERSITARI', 'UDU  ‐  UNIONE DEGLI UNIVERSITARI')
-      .replace(new RegExp("E'", "g"), 'È')
-      .replace(new RegExp("A'", "g"), 'À');
+                .replace(/ /g, ' ')
+                .replace(/ /g, ' ')
+                .replace('ALLENZA UNIVERSITARIA', 'ALLEANZA UNIVERSITARIA')
+                .replace('NIKE  ‐  ARCADIA', 'ARCADIA - NIKE')
+                .replace('INGENERIATTIVA', 'INGEGNERIATTIVA')
+                .replace('LA FINESTRA  ‐  LIBERI DI SCEGLIERE', 'LA FINESTRA ‐ LIBERI DI SCEGLIERE')
+                .replace('LA FINESTRA‐LIBERI DI SCEGLIERE', 'LA FINESTRA ‐ LIBERI DI SCEGLIERE')
+                .replace('LIBERTAS LIBERI E FORTI', 'LIBERTAS')
+                .replace('NUOVA IBLA', 'NUOVAIBLA')
+                .replace('SANI LAB', 'SANILAB')
+                .replace('ECONOMIATTIVA', 'ECONOMIA ATTIVA')
+                .replace('WE LOVE UNICT/CREDIAMOCI', 'WE LOVE UNICT')
+                .replace('WE LOVE UNICT - ARES', 'WE LOVE UNICT')
+                .replace('PARTECIPA ‐ SOS GIURISTI', 'PARTECIPA')
+                .replace('ARCADIA ‐ REVOLUTION', 'ARCADIA REVOLUTION')
+                .replace('UDU - UNIONE DEGLI UNIVERSITARI', 'UDU  ‐  UNIONE DEGLI UNIVERSITARI')
+                .replace(new RegExp("E'", "g"), 'È')
+                .replace(new RegExp("A'", "g"), 'À');
   }
 
   function generateNOTA(): JSX.Element {
@@ -83,18 +83,10 @@ const Results = (props: Props) => {
           <th>Votanti</th>
         </tr>
         <tr>
-          <td>
-            {data.schede['Schede Bianche']}
-          </td>
-          <td>
-            {data.schede['Schede Nulle']}
-          </td>
-          <td>
-            {data.schede['Schede Contestate']}
-          </td>
-          <td>
-            {data.perc_votanti}
-          </td>
+          <td>{data.schede['Schede Bianche']}</td>
+          <td>{data.schede['Schede Nulle']}</td>
+          <td>{data.schede['Schede Contestate']}</td>
+          <td>{data.perc_votanti}</td>
         </tr>
       </thead>
     );
@@ -130,7 +122,7 @@ const Results = (props: Props) => {
     setShow(!show);
   }
 
-  useEffect(() => { }, [show]);
+  useEffect(() => {}, [show]);
 
   const tooltipExpandCollapse = (props: any) => (
     <Tooltip id="button-tooltip" {...props}>
