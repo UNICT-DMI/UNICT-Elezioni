@@ -1,236 +1,487 @@
 {
+    "dipartimento": "SCIENZE DEL FARMACO",
+    "seggi_da_assegnare": "9",
     "schede": {
-        "Schede Bianche": "29",
-        "Schede Nulle": "14",
-        "Schede Contestate": "0"
+        "bianche": {
+            "totali": 29,
+            "seggio_n_23": 19,
+            "seggio_n_24": 10
+        },
+        "nulle": {
+            "totali": 14,
+            "seggio_n_23": 5,
+            "seggio_n_24": 9
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_23": 0,
+            "seggio_n_24": 0
+        }
     },
     "liste": [
         {
-            "nome": "ARCHÈ",
-            "voti_totali": 304
+            "nome": "ARCHE'",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "4,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 4,
+                "seggio_n_23": 0,
+                "seggio_n_24": 4
+            }
         },
         {
             "nome": "MEGALIDEA",
-            "voti_totali": 232
+            "seggi": {
+                "seggi_pieni": "3",
+                "resti": "58,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "4"
+            },
+            "voti": {
+                "totali": 304,
+                "seggio_n_23": 72,
+                "seggio_n_24": 232
+            }
         },
         {
-            "nome": "UNIVERSITÀ POPOLARE",
-            "voti_totali": 27
+            "nome": "UNIVERSITA' POPOLARE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "9,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 9,
+                "seggio_n_23": 2,
+                "seggio_n_24": 7
+            }
         },
         {
-            "nome": "KOINÈ",
-            "voti_totali": 25
+            "nome": "KOINE'",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "45,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 127,
+                "seggio_n_23": 102,
+                "seggio_n_24": 25
+            }
         },
         {
             "nome": "WE LOVE UNICT",
-            "voti_totali": 12
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "22,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 22,
+                "seggio_n_23": 10,
+                "seggio_n_24": 12
+            }
         },
         {
             "nome": "AZIONE UNIVERSITARIA",
-            "voti_totali": 5
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "60,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 60,
+                "seggio_n_23": 55,
+                "seggio_n_24": 5
+            }
         },
         {
-            "nome": "ALLEANZA UNIVERSITARIA",
-            "voti_totali": 6
+            "nome": "ALLEANZA UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "32,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 114,
+                "seggio_n_23": 108,
+                "seggio_n_24": 6
+            }
         },
         {
             "nome": "PHARMA",
-            "voti_totali": 19
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "16,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 98,
+                "seggio_n_23": 79,
+                "seggio_n_24": 19
+            }
+        },
+        {
+            "totale": 738
         }
     ],
     "eletti": [
         {
-            "nominativo": "DIELI Raffaella Maria",
-            "voti": "17",
-            "lista": "MEGALIDEA"
+            "nominativo": "DIELI Raffaella Maria",
+            "lista": "MEGALIDEA",
+            "voti": {
+                "totali": 17,
+                "seggio_n_23": 13,
+                "seggio_n_24": 4
+            }
         },
         {
-            "nominativo": "PUGLISI Prisca",
-            "voti": "41",
-            "lista": "MEGALIDEA"
+            "nominativo": "PUGLISI Prisca",
+            "lista": "MEGALIDEA",
+            "voti": {
+                "totali": 41,
+                "seggio_n_23": 38,
+                "seggio_n_24": 3
+            }
         },
         {
-            "nominativo": "FISICHELLA Antonio",
-            "voti": "239",
-            "lista": "MEGALIDEA"
+            "nominativo": "FISICHELLA Antonio",
+            "lista": "MEGALIDEA",
+            "voti": {
+                "totali": 239,
+                "seggio_n_23": 17,
+                "seggio_n_24": 222
+            }
         },
         {
-            "nominativo": "ALESSANDRO Francesca",
-            "voti": "64",
-            "lista": "KOINÈ"
+            "nominativo": "ALESSANDRO Francesca",
+            "lista": "KOINE'",
+            "voti": {
+                "totali": 64,
+                "seggio_n_23": 56,
+                "seggio_n_24": 8
+            }
         },
         {
-            "nominativo": "ADESSO Andrea",
-            "voti": "17",
-            "lista": "KOINÈ"
+            "nominativo": "ADESSO Andrea",
+            "lista": "KOINE'",
+            "voti": {
+                "totali": 17,
+                "seggio_n_23": 5,
+                "seggio_n_24": 12
+            }
         },
         {
-            "nominativo": "LA TORA Roberta",
-            "voti": "44",
-            "lista": "AZIONE UNIVERSITARIA"
+            "nominativo": "LA TORA Roberta",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 44,
+                "seggio_n_23": 41,
+                "seggio_n_24": 3
+            }
         },
         {
-            "nominativo": "ANICITO Maurizio",
-            "voti": "70",
-            "lista": "ALLEANZA UNIVERSITARIA"
+            "nominativo": "ANICITO Maurizio",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 70,
+                "seggio_n_23": 70,
+                "seggio_n_24": 0
+            }
         },
         {
-            "nominativo": "MONTES Hilary",
-            "voti": "56",
-            "lista": "PHARMA"
+            "nominativo": "MONTES Hilary",
+            "lista": "PHARMA",
+            "voti": {
+                "totali": 56,
+                "seggio_n_23": 55,
+                "seggio_n_24": 1
+            }
         }
     ],
     "non_eletti": [
         {
-            "nominativo": "DRIDI Vittoria",
-            "voti": "0",
-            "lista": "ARCHÈ"
+            "nominativo": "DRIDI Vittoria",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 0,
+                "seggio_n_23": 0,
+                "seggio_n_24": 0
+            }
         },
         {
-            "nominativo": "SCACCIANOCE Michelangelo",
-            "voti": "0",
-            "lista": "ARCHÈ"
+            "nominativo": "SCACCIANOCE Michelangelo",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 0,
+                "seggio_n_23": 0,
+                "seggio_n_24": 0
+            }
         },
         {
-            "nominativo": "AMOROSO Elena",
-            "voti": "0",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "nominativo": "AMOROSO Elena",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_23": 0,
+                "seggio_n_24": 0
+            }
         },
         {
-            "nominativo": "CONDORELLI Alessandro",
-            "voti": "0",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "nominativo": "CONDORELLI Alessandro",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_23": 0,
+                "seggio_n_24": 0
+            }
         },
         {
-            "nominativo": "IUDICI Anna",
-            "voti": "0",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "nominativo": "IUDICI Anna",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_23": 0,
+                "seggio_n_24": 0
+            }
         },
         {
-            "nominativo": "LIGGIERI Graziella",
-            "voti": "0",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "nominativo": "LIGGIERI Graziella",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_23": 0,
+                "seggio_n_24": 0
+            }
         },
         {
-            "nominativo": "PAPPALARDO Sara",
-            "voti": "0",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "nominativo": "PAPPALARDO Sara",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_23": 0,
+                "seggio_n_24": 0
+            }
         },
         {
-            "nominativo": "SIGNORELLI Umberto",
-            "voti": "5",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "nominativo": "SIGNORELLI Umberto",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 5,
+                "seggio_n_23": 0,
+                "seggio_n_24": 5
+            }
         },
         {
-            "nominativo": "ARANGIO Sara Maria",
-            "voti": "11",
-            "lista": "KOINÈ"
+            "nominativo": "ARANGIO Sara Maria",
+            "lista": "KOINE'",
+            "voti": {
+                "totali": 11,
+                "seggio_n_23": 11,
+                "seggio_n_24": 0
+            }
         },
         {
-            "nominativo": "PRINZI Chiara",
-            "voti": "2",
-            "lista": "KOINÈ"
+            "nominativo": "PRINZI Chiara",
+            "lista": "KOINE'",
+            "voti": {
+                "totali": 2,
+                "seggio_n_23": 2,
+                "seggio_n_24": 0
+            }
         },
         {
-            "nominativo": "REINA Davide",
-            "voti": "1",
-            "lista": "KOINÈ"
+            "nominativo": "REINA Davide",
+            "lista": "KOINE'",
+            "voti": {
+                "totali": 1,
+                "seggio_n_23": 0,
+                "seggio_n_24": 1
+            }
         },
         {
-            "nominativo": "UCCELLATORE Francesco",
-            "voti": "2",
-            "lista": "KOINÈ"
+            "nominativo": "UCCELLATORE Francesco",
+            "lista": "KOINE'",
+            "voti": {
+                "totali": 2,
+                "seggio_n_23": 0,
+                "seggio_n_24": 2
+            }
         },
         {
-            "nominativo": "BALLOTTA Maria Grazia",
-            "voti": "4",
-            "lista": "KOINÈ"
+            "nominativo": "BALLOTTA Maria Grazia",
+            "lista": "KOINE'",
+            "voti": {
+                "totali": 4,
+                "seggio_n_23": 4,
+                "seggio_n_24": 0
+            }
         },
         {
-            "nominativo": "IACOBELLO Federico",
-            "voti": "12",
-            "lista": "KOINÈ"
+            "nominativo": "IACOBELLO Federico",
+            "lista": "KOINE'",
+            "voti": {
+                "totali": 12,
+                "seggio_n_23": 12,
+                "seggio_n_24": 0
+            }
         },
         {
-            "nominativo": "COSTANZO Daniele",
-            "voti": "5",
-            "lista": "KOINÈ"
+            "nominativo": "COSTANZO Daniele",
+            "lista": "KOINE'",
+            "voti": {
+                "totali": 5,
+                "seggio_n_23": 5,
+                "seggio_n_24": 0
+            }
         },
         {
-            "nominativo": "FERLITO Marco",
-            "voti": "10",
-            "lista": "WE LOVE UNICT"
+            "nominativo": "FERLITO Marco",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 10,
+                "seggio_n_23": 6,
+                "seggio_n_24": 4
+            }
         },
         {
-            "nominativo": "MAVILLA Mirco Mattia",
-            "voti": "10",
-            "lista": "WE LOVE UNICT"
+            "nominativo": "MAVILLA Mirco Mattia",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 10,
+                "seggio_n_23": 2,
+                "seggio_n_24": 8
+            }
         },
         {
-            "nominativo": "MIO Emanuela",
-            "voti": "0",
-            "lista": "WE LOVE UNICT"
+            "nominativo": "MIO Emanuela",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_23": 0,
+                "seggio_n_24": 0
+            }
         },
         {
-            "nominativo": "MERCORILLO Andrea Giusi Maria",
-            "voti": "0",
-            "lista": "WE LOVE UNICT"
+            "nominativo": "MERCORILLO Andrea Giusi Maria",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_23": 0,
+                "seggio_n_24": 0
+            }
         },
         {
-            "nominativo": "MINARDO Nicoletta",
-            "voti": "0",
-            "lista": "WE LOVE UNICT"
+            "nominativo": "MINARDO Nicoletta",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_23": 0,
+                "seggio_n_24": 0
+            }
         },
         {
-            "nominativo": "TERLATI Chiara",
-            "voti": "0",
-            "lista": "AZIONE UNIVERSITARIA"
+            "nominativo": "TERLATI Chiara",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_23": 0,
+                "seggio_n_24": 0
+            }
         },
         {
-            "nominativo": "GUARNERA Carmelo",
-            "voti": "8",
-            "lista": "AZIONE UNIVERSITARIA"
+            "nominativo": "GUARNERA Carmelo",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 8,
+                "seggio_n_23": 6,
+                "seggio_n_24": 2
+            }
         },
         {
-            "nominativo": "ARANGIO Giuseppe",
-            "voti": "15",
-            "lista": "ALLEANZA UNIVERSITARIA"
+            "nominativo": "ARANGIO Giuseppe",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 15,
+                "seggio_n_23": 14,
+                "seggio_n_24": 1
+            }
         },
         {
-            "nominativo": "FLORI Francesco Gerardo",
-            "voti": "17",
-            "lista": "ALLEANZA UNIVERSITARIA"
+            "nominativo": "FLORI Francesco Gerardo",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 17,
+                "seggio_n_23": 17,
+                "seggio_n_24": 0
+            }
         },
         {
-            "nominativo": "INFARINATO Nancy",
-            "voti": "1",
-            "lista": "ALLEANZA UNIVERSITARIA"
+            "nominativo": "INFARINATO Nancy",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_23": 0,
+                "seggio_n_24": 1
+            }
         },
         {
-            "nominativo": "BURRAGATO Rita",
-            "voti": "19",
-            "lista": "PHARMA"
+            "nominativo": "BURRAGATO Rita",
+            "lista": "PHARMA",
+            "voti": {
+                "totali": 19,
+                "seggio_n_23": 2,
+                "seggio_n_24": 17
+            }
         },
         {
-            "nominativo": "CALCAGNO Carola",
-            "voti": "1",
-            "lista": "PHARMA"
+            "nominativo": "CALCAGNO Carola",
+            "lista": "PHARMA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_23": 0,
+                "seggio_n_24": 1
+            }
         },
         {
-            "nominativo": "ZAPPALA' Gabriele",
-            "voti": "2",
-            "lista": "PHARMA"
+            "nominativo": "ZAPPALA' Gabriele",
+            "lista": "PHARMA",
+            "voti": {
+                "totali": 2,
+                "seggio_n_23": 2,
+                "seggio_n_24": 0
+            }
         },
         {
-            "nominativo": "PULVIRENTI Fabrizio",
-            "voti": "9",
-            "lista": "PHARMA"
+            "nominativo": "PULVIRENTI Fabrizio",
+            "lista": "PHARMA",
+            "voti": {
+                "totali": 9,
+                "seggio_n_23": 9,
+                "seggio_n_24": 0
+            }
         }
     ],
-    "seggi_da_assegnare": "9",
-    "dipartimento": "SCIENZE DEL FARMACO",
-    "quoziente": "82",
-    "votanti": "781",
-    "perc_votanti": "40,11",
-    "elettori": "1947"
+    "quoziente": 82.0,
+    "votanti": {
+        "totali": 781,
+        "percentuale": 40.11,
+        "seggio_n_23": 452,
+        "seggio_n_24": 329
+    },
+    "elettori": {
+        "totali": 1947,
+        "seggio_n_23": 1166,
+        "seggio_n_24": 781
+    }
 }

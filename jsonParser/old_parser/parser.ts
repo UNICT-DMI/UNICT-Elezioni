@@ -1,6 +1,5 @@
-import { Console } from 'console';
-import { transpileModule } from 'typescript';
 import { Info, Candidato, schede, elettori, seggi, query, candidati } from './parser.model';
+import { FormatName } from './FormatName';
 const pdf2table = require('pdf2table');
 const fs = require('fs');
 
@@ -110,8 +109,17 @@ class Parser {
     }
 
     private isMatch(el: string): boolean {
+        let match = true;
+        el = FormatName.formatNamesLists(el);
         let s1 = this.info.liste[this.idxList].nome.split(" ");
-        return el.includes(s1[0]);
+        let s2 = el.split(" ");
+        if(s1.length < s2.length || s1.length > s2.length) return false;
+        for(let i=0; i<s2.length && match; ++i) {
+            s1[i] = s1[i].trim().replace("‐", "-");
+            s2[i] = s2[i].trim().replace("‐", "-");
+            match = (s1[i] == s2[i]); 
+        }
+        return match;
     }
 
     private extractSchede(el: any[]): void {
@@ -152,7 +160,6 @@ class Parser {
                 this.doc.scrapeLists(this.info, data);
 
                 data.forEach((el: any[]) => {
-
                     if (this.isEndList(el)) {
                         this.idxList++;
                         this.newList = true;
@@ -204,14 +211,15 @@ class Dipartimento implements Target {
                     let k;
                     for(k = 0; k<data[i].length; k++) {
                         if(!isNaN(parseInt(data[i][k]))) break;
-                        name += (data[i][k] + " ");
+                        name += (FormatName.formatNamesLists(data[i][k]) + " ");
                     }
 
                     const tmp = {
                         nome: name.trim(),
                         voti_totali: 0
                     }
-                    
+
+                    let brk = false; 
                     for(let j = k; j<data[i].length; j++) {
                         tmp.voti_totali = parseInt(data[i][j]);
                         if(!isNaN(tmp.voti_totali)) {
@@ -220,9 +228,14 @@ class Dipartimento implements Target {
                                     next = parseInt(data[i][data[i].length-2]);
                                 else
                                     next = parseInt(data[i][data[i].length-1]);
+                                brk = true;
                                 break;
                             }
                         }
+                    }
+
+                    if(!brk) {
+                        tmp.voti_totali = parseInt(data[i][k]);
                     }
 
                     info.liste.push(tmp);
@@ -255,7 +268,7 @@ class Organo implements Target {
                     const tot = data[i].reduce((acc, pilot) => acc + pilot.length, 0);
 
                     const tmp = {
-                        nome: data[i][0],
+                        nome: FormatName.formatNamesLists(data[i][0]),
                         voti_totali: 0
                     }
 

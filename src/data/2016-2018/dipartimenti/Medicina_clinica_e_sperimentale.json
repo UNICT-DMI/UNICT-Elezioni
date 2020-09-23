@@ -1,101 +1,205 @@
 {
+    "dipartimento": "MEDICINA CLINICA E SPERIMENTALE - MEDCLIN",
+    "seggi_da_assegnare": "12",
     "schede": {
-        "Schede Bianche": "21",
-        "Schede Nulle": "30",
-        "Schede Contestate": "0"
+        "bianche": {
+            "totali": 21,
+            "seggio_n_15": 9,
+            "seggio_n_17": 12
+        },
+        "nulle": {
+            "totali": 30,
+            "seggio_n_15": 21,
+            "seggio_n_17": 9
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_15": 0,
+            "seggio_n_17": 0
+        }
     },
     "liste": [
         {
-            "nome": "ARCHÈ",
-            "voti_totali": 59
+            "nome": "ARCH\u00c8",
+            "seggi": {
+                "seggi_pieni": "6",
+                "resti": "4,5",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "6"
+            },
+            "voti": {
+                "totali": 59,
+                "seggio_n_15": 59,
+                "seggio_n_17": 0
+            }
         },
         {
-            "nome": "LIBERTAS LIBERI E FORTI",
-            "voti_totali": 20
+            "nome": "LIBERTAS \u2010 LIBERI E FORTI",
+            "seggi": {
+                "seggi_pieni": "5",
+                "resti": "4,6",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "6"
+            },
+            "voti": {
+                "totali": 50,
+                "seggio_n_15": 30,
+                "seggio_n_17": 20
+            }
+        },
+        {
+            "totale": 109
         }
     ],
     "eletti": [
         {
             "nominativo": "DI DIO GIORGIA ANDREA",
-            "voti": "4",
-            "lista": "ARCHÈ"
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 4,
+                "seggio_n_15": 4,
+                "seggio_n_17": 0
+            }
         },
         {
             "nominativo": "GAROFALO FILIPPO",
-            "voti": "9",
-            "lista": "ARCHÈ"
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 9,
+                "seggio_n_15": 9,
+                "seggio_n_17": 0
+            }
         },
         {
             "nominativo": "GENNARO ROSARIA",
-            "voti": "6",
-            "lista": "ARCHÈ"
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 6,
+                "seggio_n_15": 6,
+                "seggio_n_17": 0
+            }
         },
         {
             "nominativo": "GIUMMARRESI MARIANGELA",
-            "voti": "9",
-            "lista": "ARCHÈ"
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 9,
+                "seggio_n_15": 9,
+                "seggio_n_17": 0
+            }
         },
         {
             "nominativo": "POLIZZI RAMONA",
-            "voti": "6",
-            "lista": "ARCHÈ"
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 6,
+                "seggio_n_15": 6,
+                "seggio_n_17": 0
+            }
         },
         {
             "nominativo": "SCUDERI CLAUDIO",
-            "voti": "10",
-            "lista": "ARCHÈ"
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 10,
+                "seggio_n_15": 10,
+                "seggio_n_17": 0
+            }
         },
         {
             "nominativo": "FURNARI FRANCESCA",
-            "voti": "0",
-            "lista": "LIBERTAS LIBERI E FORTI"
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_15": 0,
+                "seggio_n_17": 0
+            }
         },
         {
             "nominativo": "CARUSO GIUSEPPE",
-            "voti": "21",
-            "lista": "LIBERTAS LIBERI E FORTI"
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 21,
+                "seggio_n_15": 6,
+                "seggio_n_17": 15
+            }
         },
         {
             "nominativo": "MILLAURO MARIANO",
-            "voti": "3",
-            "lista": "LIBERTAS LIBERI E FORTI"
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 3,
+                "seggio_n_15": 3,
+                "seggio_n_17": 0
+            }
         },
         {
             "nominativo": "CIPRIA ALESSANDRA MARIA MICHELA",
-            "voti": "0",
-            "lista": "LIBERTAS LIBERI E FORTI"
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_15": 0,
+                "seggio_n_17": 0
+            }
         },
         {
             "nominativo": "LAUDANI MATTEO",
-            "voti": "11",
-            "lista": "LIBERTAS LIBERI E FORTI"
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 11,
+                "seggio_n_15": 11,
+                "seggio_n_17": 0
+            }
         },
         {
             "nominativo": "GOZZA EMMANUEL SALVATORE SANTO",
-            "voti": "0",
-            "lista": "LIBERTAS LIBERI E FORTI"
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_15": 0,
+                "seggio_n_17": 0
+            }
         }
     ],
     "non_eletti": [
         {
             "nominativo": "ARCIDIACONO ALESSIA",
-            "voti": "0",
-            "lista": "ARCHÈ"
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 0,
+                "seggio_n_15": 0,
+                "seggio_n_17": 0
+            }
         },
         {
             "nominativo": "ARENA ROBERTA AGATA",
-            "voti": "0",
-            "lista": "ARCHÈ"
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 0,
+                "seggio_n_15": 0,
+                "seggio_n_17": 0
+            }
         },
         {
             "nominativo": "FINOCCHIARO LORIANA",
-            "voti": "1",
-            "lista": "ARCHÈ"
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 1,
+                "seggio_n_15": 1,
+                "seggio_n_17": 0
+            }
         }
     ],
-    "seggi_da_assegnare": "12",
-    "dipartimento": "MEDICINA CLINICA E SPERIMENTALE - MEDCLIN",
-    "quoziente": "9,08333",
-    "votanti": "160",
-    "perc_votanti": "35,32"
+    "quoziente": 9.08333,
+    "votanti": {
+        "totali": 160,
+        "percentuale": 35.32,
+        "seggio_n_15": 119,
+        "seggio_n_17": 41
+    },
+    "elettori": {
+        "totali": 453,
+        "seggio_n_15": 251,
+        "seggio_n_17": 202
+    }
 }

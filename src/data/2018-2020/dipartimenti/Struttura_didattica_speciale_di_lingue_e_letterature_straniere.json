@@ -1,109 +1,214 @@
 {
+    "dipartimento": "STRUTTURA DIDATTICA SPECIALE DI LINGUE",
+    "seggi_da_assegnare": "3",
     "schede": {
-        "Schede Bianche": "6",
-        "Schede Nulle": "25",
-        "Schede Contestate": "0"
+        "bianche": {
+            "totali": 6,
+            "seggio_n_33": 6
+        },
+        "nulle": {
+            "totali": 25,
+            "seggio_n_33": 25
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_33": 0
+        }
     },
     "liste": [
         {
             "nome": "CONTROCAMPUS",
-            "voti_totali": 80
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "80,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 80,
+                "seggio_n_33": 80
+            }
         },
         {
-            "nome": "NUOVAIBLA",
-            "voti_totali": 36
+            "nome": "NUOVA IBLA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "36,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 36,
+                "seggio_n_33": 36
+            }
         },
         {
-            "nome": "CREAZIONE GIOVANE",
-            "voti_totali": 16
+            "nome": "CREAZIONE GIOVANE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "16,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 16,
+                "seggio_n_33": 16
+            }
         },
         {
-            "nome": "UNIVERSITÀ POPOLARE",
-            "voti_totali": 2
+            "nome": "UNIVERSITA' POPOLARE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "2,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 2,
+                "seggio_n_33": 2
+            }
         },
         {
-            "nome": "ARCADIA ‐ REVOLUTION",
-            "voti_totali": 114
+            "nome": "ARCADIA \u2010 REVOLUTION",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "31,3",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 114,
+                "seggio_n_33": 114
+            }
+        },
+        {
+            "totale": 248
         }
     ],
     "eletti": [
         {
-            "nominativo": "NICOLOSI Andrea",
-            "voti": "61",
-            "lista": "CONTROCAMPUS"
+            "nominativo": "NICOLOSI Andrea",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 61,
+                "seggio_n_33": 61
+            }
         },
         {
-            "nominativo": "MUSUMECI Chiara",
-            "voti": "21",
-            "lista": "NUOVAIBLA"
+            "nominativo": "MUSUMECI Chiara",
+            "lista": "NUOVA IBLA",
+            "voti": {
+                "totali": 21,
+                "seggio_n_33": 21
+            }
         },
         {
-            "nominativo": "ASCIA Claudia",
-            "voti": "53",
-            "lista": "ARCADIA ‐ REVOLUTION"
+            "nominativo": "ASCIA Claudia",
+            "lista": "ARCADIA \u2010 REVOLUTION",
+            "voti": {
+                "totali": 53,
+                "seggio_n_33": 53
+            }
         }
     ],
     "non_eletti": [
         {
-            "nominativo": "FRAGALA' Giovanni",
-            "voti": "4",
-            "lista": "CONTROCAMPUS"
+            "nominativo": "FRAGALA' Giovanni",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 4,
+                "seggio_n_33": 4
+            }
         },
         {
-            "nominativo": "PARISI Roberta Giuseppina Maria",
-            "voti": "6",
-            "lista": "CONTROCAMPUS"
+            "nominativo": "PARISI Roberta Giuseppina Maria",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 6,
+                "seggio_n_33": 6
+            }
         },
         {
-            "nominativo": "FALCONE Matteo Giuseppe",
-            "voti": "4",
-            "lista": "NUOVAIBLA"
+            "nominativo": "FALCONE Matteo Giuseppe",
+            "lista": "NUOVA IBLA",
+            "voti": {
+                "totali": 4,
+                "seggio_n_33": 4
+            }
         },
         {
-            "nominativo": "LIPSA Mihaela",
-            "voti": "10",
-            "lista": "NUOVAIBLA"
+            "nominativo": "LIPSA Mihaela",
+            "lista": "NUOVA IBLA",
+            "voti": {
+                "totali": 10,
+                "seggio_n_33": 10
+            }
         },
         {
-            "nominativo": "SCRIBANO Ismael Giovanni",
-            "voti": "13",
-            "lista": "CREAZIONE GIOVANE"
+            "nominativo": "SCRIBANO Ismael Giovanni",
+            "lista": "CREAZIONE GIOVANE",
+            "voti": {
+                "totali": 13,
+                "seggio_n_33": 13
+            }
         },
         {
-            "nominativo": "MAUGERI Monica",
-            "voti": "0",
-            "lista": "CREAZIONE GIOVANE"
+            "nominativo": "MAUGERI Monica",
+            "lista": "CREAZIONE GIOVANE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_33": 0
+            }
         },
         {
-            "nominativo": "MAUGERI Antonino Matteo",
-            "voti": "1",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "nominativo": "MAUGERI Antonino Matteo",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 1,
+                "seggio_n_33": 1
+            }
         },
         {
-            "nominativo": "GALVAGNO Federica",
-            "voti": "0",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "nominativo": "GALVAGNO Federica",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_33": 0
+            }
         },
         {
-            "nominativo": "PLATANIA Alfio",
-            "voti": "0",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "nominativo": "PLATANIA Alfio",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_33": 0
+            }
         },
         {
-            "nominativo": "FINOCCHIARO Michelle",
-            "voti": "44",
-            "lista": "ARCADIA ‐ REVOLUTION"
+            "nominativo": "FINOCCHIARO Michelle",
+            "lista": "ARCADIA \u2010 REVOLUTION",
+            "voti": {
+                "totali": 44,
+                "seggio_n_33": 44
+            }
         },
         {
-            "nominativo": "NARBONE Mirko",
-            "voti": "1",
-            "lista": "ARCADIA ‐ REVOLUTION"
+            "nominativo": "NARBONE Mirko",
+            "lista": "ARCADIA \u2010 REVOLUTION",
+            "voti": {
+                "totali": 1,
+                "seggio_n_33": 1
+            }
         }
     ],
-    "seggi_da_assegnare": "e",
-    "dipartimento": "STRUTTURA DIDATTICA SPECIALE DI LINGUE",
-    "quoziente": "82,6667",
-    "votanti": "279",
-    "perc_votanti": "29,37",
-    "elettori": "950"
+    "quoziente": 82.6667,
+    "votanti": {
+        "totali": 279,
+        "percentuale": 29.37,
+        "seggio_n_33": 279
+    },
+    "elettori": {
+        "totali": 950,
+        "seggio_n_33": 950
+    }
 }

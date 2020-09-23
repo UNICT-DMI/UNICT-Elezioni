@@ -1,559 +1,1077 @@
 {
+    "dipartimento": "CHIRURGIA GENERALE E SPECIALITA' MEDICO-CHIRURGICHE",
+    "seggi_da_assegnare": "13",
     "schede": {
-        "Schede Bianche": "88",
-        "Schede Nulle": "44",
-        "Schede Contestate": "0"
+        "bianche": {
+            "totali": 88,
+            "seggio_n_13": 36,
+            "seggio_n_14": 52
+        },
+        "nulle": {
+            "totali": 44,
+            "seggio_n_13": 10,
+            "seggio_n_14": 34
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_13": 0,
+            "seggio_n_14": 0
+        }
     },
     "liste": [
         {
-            "nome": "LA FINESTRA ‐ LIBERI DI SCEGLIERE",
-            "voti_totali": 371
+            "nome": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "82,5",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "3"
+            },
+            "voti": {
+                "totali": 371,
+                "seggio_n_13": 237,
+                "seggio_n_14": 134
+            }
         },
         {
-            "nome": "ALLEANZA ‐ CONTROCAMPUS ‐ AZIONE",
-            "voti_totali": 26
+            "nome": "ALLEANZA \u2010 CONTROCAMPUS \u2010 AZIONE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "80,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 80,
+                "seggio_n_13": 54,
+                "seggio_n_14": 26
+            }
         },
         {
-            "nome": "ARCHÈ",
-            "voti_totali": 232
+            "nome": "ARCHE'",
+            "seggi": {
+                "seggi_pieni": "3",
+                "resti": "60,3",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "3"
+            },
+            "voti": {
+                "totali": 493,
+                "seggio_n_13": 261,
+                "seggio_n_14": 232
+            }
         },
         {
-            "nome": "ORIZZONTE ITALIA",
-            "voti_totali": 18
+            "nome": "ORIZZONTE ITALIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "69,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 69,
+                "seggio_n_13": 51,
+                "seggio_n_14": 18
+            }
         },
         {
-            "nome": "UNIVERSITÀ POPOLARE",
-            "voti_totali": 43
+            "nome": "UNIVERSITA' POPOLARE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "7,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 7,
+                "seggio_n_13": 4,
+                "seggio_n_14": 3
+            }
         },
         {
             "nome": "ARCADIA",
-            "voti_totali": 56
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "2,8",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 147,
+                "seggio_n_13": 91,
+                "seggio_n_14": 56
+            }
         },
         {
-            "nome": "FUTURA SANITÀ",
-            "voti_totali": 80
+            "nome": "FUTURA SANITA'",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "20,8",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 165,
+                "seggio_n_13": 85,
+                "seggio_n_14": 80
+            }
         },
         {
-            "nome": "LIBERTAS‐SANILAB",
-            "voti_totali": 227
+            "nome": "LIBERTAS\u2010SANILAB",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "53,5",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 342,
+                "seggio_n_13": 115,
+                "seggio_n_14": 227
+            }
         },
         {
             "nome": "WE LOVE UNICT",
-            "voti_totali": 140
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "56,8",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 201,
+                "seggio_n_13": 61,
+                "seggio_n_14": 140
+            }
+        },
+        {
+            "totale": 1875
         }
     ],
     "eletti": [
         {
-            "nominativo": "LAMAGNA Francesco Benedetto Giuseppe ‐ detto \"La Magna\"",
-            "voti": "55",
-            "lista": "LA FINESTRA ‐ LIBERI DI SCEGLIERE"
+            "nominativo": "LAMAGNA Francesco Benedetto Giuseppe \u2010 detto \"La Magna\"",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 55,
+                "seggio_n_13": 17,
+                "seggio_n_14": 38
+            }
         },
         {
-            "nominativo": "TORRISI Eleonora",
-            "voti": "85",
-            "lista": "LA FINESTRA ‐ LIBERI DI SCEGLIERE"
+            "nominativo": "TORRISI Eleonora",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 85,
+                "seggio_n_13": 25,
+                "seggio_n_14": 60
+            }
         },
         {
-            "nominativo": "D'AMICO Sabrina",
-            "voti": "69",
-            "lista": "LA FINESTRA ‐ LIBERI DI SCEGLIERE"
+            "nominativo": "D'AMICO Sabrina",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 69,
+                "seggio_n_13": 61,
+                "seggio_n_14": 8
+            }
         },
         {
-            "nominativo": "FAILLA Giorgio",
-            "voti": "47",
-            "lista": "ALLEANZA ‐ CONTROCAMPUS ‐ AZIONE"
+            "nominativo": "FAILLA Giorgio",
+            "lista": "ALLEANZA \u2010 CONTROCAMPUS \u2010 AZIONE",
+            "voti": {
+                "totali": 47,
+                "seggio_n_13": 34,
+                "seggio_n_14": 13
+            }
         },
         {
-            "nominativo": "GIANNINO Emanuela",
-            "voti": "68",
-            "lista": "ARCHÈ"
+            "nominativo": "GIANNINO Emanuela",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 68,
+                "seggio_n_13": 52,
+                "seggio_n_14": 16
+            }
         },
         {
-            "nominativo": "PULVIRENTI Paola",
-            "voti": "78",
-            "lista": "ARCHÈ"
+            "nominativo": "PULVIRENTI Paola",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 78,
+                "seggio_n_13": 14,
+                "seggio_n_14": 64
+            }
         },
         {
-            "nominativo": "PUTAGGIO Antonio",
-            "voti": "69",
-            "lista": "ARCHÈ"
+            "nominativo": "PUTAGGIO Antonio",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 69,
+                "seggio_n_13": 14,
+                "seggio_n_14": 55
+            }
         },
         {
-            "nominativo": "CARUSO Marco ‐ detto \"La Morella\"",
-            "voti": "44",
-            "lista": "ORIZZONTE ITALIA"
+            "nominativo": "CARUSO Marco \u2010 detto \"La Morella\"",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 44,
+                "seggio_n_13": 38,
+                "seggio_n_14": 6
+            }
         },
         {
-            "nominativo": "D'ARMA Federica, Maria, Alessandra",
-            "voti": "67",
-            "lista": "ARCADIA"
+            "nominativo": "D'ARMA Federica, Maria, Alessandra",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 67,
+                "seggio_n_13": 55,
+                "seggio_n_14": 12
+            }
         },
         {
-            "nominativo": "CARCIOTTO Gabriele",
-            "voti": "60",
-            "lista": "FUTURA SANITÀ"
+            "nominativo": "CARCIOTTO Gabriele",
+            "lista": "FUTURA SANITA'",
+            "voti": {
+                "totali": 60,
+                "seggio_n_13": 51,
+                "seggio_n_14": 9
+            }
         },
         {
-            "nominativo": "MACCARRONE Vincenzo",
-            "voti": "70",
-            "lista": "LIBERTAS‐SANILAB"
+            "nominativo": "MACCARRONE Vincenzo",
+            "lista": "LIBERTAS\u2010SANILAB",
+            "voti": {
+                "totali": 70,
+                "seggio_n_13": 26,
+                "seggio_n_14": 44
+            }
         },
         {
-            "nominativo": "SPIRIO Gerlando",
-            "voti": "109",
-            "lista": "LIBERTAS‐SANILAB"
+            "nominativo": "SPIRIO Gerlando",
+            "lista": "LIBERTAS\u2010SANILAB",
+            "voti": {
+                "totali": 109,
+                "seggio_n_13": 9,
+                "seggio_n_14": 100
+            }
         },
         {
-            "nominativo": "PETRALIA Giuseppe ‐ detto \"Peppe\"",
-            "voti": "72",
-            "lista": "WE LOVE UNICT"
+            "nominativo": "PETRALIA Giuseppe \u2010 detto \"Peppe\"",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 72,
+                "seggio_n_13": 19,
+                "seggio_n_14": 53
+            }
         }
     ],
     "non_eletti": [
         {
-            "nominativo": "CARTILLONE Marco",
-            "voti": "19",
-            "lista": "LA FINESTRA ‐ LIBERI DI SCEGLIERE"
-        },
-        {
-            "nominativo": "CASA Paolo",
-            "voti": "35",
-            "lista": "LA FINESTRA ‐ LIBERI DI SCEGLIERE"
-        },
-        {
-            "nominativo": "DISTEFANO Costanza ‐ detta \"Di Stefano\"",
-            "voti": "47",
-            "lista": "LA FINESTRA ‐ LIBERI DI SCEGLIERE"
-        },
-        {
-            "nominativo": "REGOLO Matteo",
-            "voti": "23",
-            "lista": "LA FINESTRA ‐ LIBERI DI SCEGLIERE"
-        },
-        {
-            "nominativo": "CANONICO Salvatore",
-            "voti": "4",
-            "lista": "LA FINESTRA ‐ LIBERI DI SCEGLIERE"
-        },
-        {
-            "nominativo": "CALACIURA Giuseppe",
-            "voti": "4",
-            "lista": "LA FINESTRA ‐ LIBERI DI SCEGLIERE"
-        },
-        {
-            "nominativo": "FIUME Carmelo",
-            "voti": "1",
-            "lista": "LA FINESTRA ‐ LIBERI DI SCEGLIERE"
-        },
-        {
-            "nominativo": "BATTAGLIA Salvatore",
-            "voti": "17",
-            "lista": "ALLEANZA ‐ CONTROCAMPUS ‐ AZIONE"
-        },
-        {
-            "nominativo": "CARLISI Giovanni",
-            "voti": "2",
-            "lista": "ALLEANZA ‐ CONTROCAMPUS ‐ AZIONE"
-        },
-        {
-            "nominativo": "GIUNTA Giorgia",
-            "voti": "6",
-            "lista": "ALLEANZA ‐ CONTROCAMPUS ‐ AZIONE"
-        },
-        {
-            "nominativo": "PENNISI Alba, Maria, Giulia",
-            "voti": "0",
-            "lista": "ALLEANZA ‐ CONTROCAMPUS ‐ AZIONE"
-        },
-        {
-            "nominativo": "POMA Agnese",
-            "voti": "1",
-            "lista": "ALLEANZA ‐ CONTROCAMPUS ‐ AZIONE"
-        },
-        {
-            "nominativo": "PUGLISI Matteo, Rosario, Ivan",
-            "voti": "0",
-            "lista": "ALLEANZA ‐ CONTROCAMPUS ‐ AZIONE"
-        },
-        {
-            "nominativo": "SPITALI Federica",
-            "voti": "0",
-            "lista": "ALLEANZA ‐ CONTROCAMPUS ‐ AZIONE"
-        },
-        {
-            "nominativo": "BARBAGALLO Joseph Samuele Alfio",
-            "voti": "0",
-            "lista": "ALLEANZA ‐ CONTROCAMPUS ‐ AZIONE"
-        },
-        {
-            "nominativo": "CAVIGLIA Giuseppe",
-            "voti": "0",
-            "lista": "ALLEANZA ‐ CONTROCAMPUS ‐ AZIONE"
-        },
-        {
-            "nominativo": "CARASI Salvatore",
-            "voti": "19",
-            "lista": "ARCHÈ"
-        },
-        {
-            "nominativo": "COPPOLA Claudio",
-            "voti": "57",
-            "lista": "ARCHÈ"
-        },
-        {
-            "nominativo": "CRIMI Luca",
-            "voti": "31",
-            "lista": "ARCHÈ"
-        },
-        {
-            "nominativo": "GARGIULO Valeria",
-            "voti": "5",
-            "lista": "ARCHÈ"
-        },
-        {
-            "nominativo": "GRASSO Brenda Benedetta",
-            "voti": "12",
-            "lista": "ARCHÈ"
-        },
-        {
-            "nominativo": "LEONARDO Ambra",
-            "voti": "51",
-            "lista": "ARCHÈ"
-        },
-        {
-            "nominativo": "REINA Andrea",
-            "voti": "20",
-            "lista": "ARCHÈ"
-        },
-        {
-            "nominativo": "RICCERI Chiara Grazia",
-            "voti": "2",
-            "lista": "ARCHÈ"
-        },
-        {
-            "nominativo": "SCIUTO Leandra",
-            "voti": "29",
-            "lista": "ARCHÈ"
-        },
-        {
-            "nominativo": "TRUPIA Giulia",
-            "voti": "24",
-            "lista": "ARCHÈ"
-        },
-        {
-            "nominativo": "BOSCO Giosiana",
-            "voti": "9",
-            "lista": "ORIZZONTE ITALIA"
-        },
-        {
-            "nominativo": "TINNIRELLO Giordana",
-            "voti": "1",
-            "lista": "ORIZZONTE ITALIA"
-        },
-        {
-            "nominativo": "RAPISARDA Carmen",
-            "voti": "5",
-            "lista": "ORIZZONTE ITALIA"
-        },
-        {
-            "nominativo": "LA DELFA Benedetta",
-            "voti": "0",
-            "lista": "ORIZZONTE ITALIA"
-        },
-        {
-            "nominativo": "BELLARDITA Deborah",
-            "voti": "0",
-            "lista": "ORIZZONTE ITALIA"
-        },
-        {
-            "nominativo": "PARASOLE Oriana",
-            "voti": "0",
-            "lista": "ORIZZONTE ITALIA"
-        },
-        {
-            "nominativo": "COCO Fabio",
-            "voti": "0",
-            "lista": "ORIZZONTE ITALIA"
-        },
-        {
-            "nominativo": "FERRARO Alberto",
-            "voti": "1",
-            "lista": "ORIZZONTE ITALIA"
-        },
-        {
-            "nominativo": "RONSIVALLE Vincenzo",
-            "voti": "4",
-            "lista": "ORIZZONTE ITALIA"
-        },
-        {
-            "nominativo": "BONOMO Ornella",
-            "voti": "1",
-            "lista": "UNIVERSITÀ POPOLARE"
-        },
-        {
-            "nominativo": "COCO Davide",
-            "voti": "0",
-            "lista": "UNIVERSITÀ POPOLARE"
-        },
-        {
-            "nominativo": "GAROFALO Alfredo",
-            "voti": "0",
-            "lista": "UNIVERSITÀ POPOLARE"
-        },
-        {
-            "nominativo": "INTERLANDI Giovanni",
-            "voti": "0",
-            "lista": "UNIVERSITÀ POPOLARE"
-        },
-        {
-            "nominativo": "LAURICELLA Martina",
-            "voti": "0",
-            "lista": "UNIVERSITÀ POPOLARE"
-        },
-        {
-            "nominativo": "LAZZARO Giuliana",
-            "voti": "0",
-            "lista": "UNIVERSITÀ POPOLARE"
-        },
-        {
-            "nominativo": "LONGO Sara",
-            "voti": "0",
-            "lista": "UNIVERSITÀ POPOLARE"
-        },
-        {
-            "nominativo": "MAMMOLITI Andrea",
-            "voti": "1",
-            "lista": "UNIVERSITÀ POPOLARE"
-        },
-        {
-            "nominativo": "MAZZA Gabriele",
-            "voti": "0",
-            "lista": "UNIVERSITÀ POPOLARE"
-        },
-        {
-            "nominativo": "SALANITRO Daniele",
-            "voti": "0",
-            "lista": "UNIVERSITÀ POPOLARE"
-        },
-        {
-            "nominativo": "FERRARA Carmelo",
-            "voti": "7",
-            "lista": "ARCADIA"
-        },
-        {
-            "nominativo": "MAURO Maria Sara",
-            "voti": "0",
-            "lista": "ARCADIA"
-        },
-        {
-            "nominativo": "PAGANA Antonio Gaetano",
-            "voti": "3",
-            "lista": "ARCADIA"
-        },
-        {
-            "nominativo": "PANTORNO Gaetano Gabriele Maria",
-            "voti": "0",
-            "lista": "ARCADIA"
-        },
-        {
-            "nominativo": "SCIACCA Antonio",
-            "voti": "42",
-            "lista": "ARCADIA"
-        },
-        {
-            "nominativo": "FAVA Joseph",
-            "voti": "0",
-            "lista": "ARCADIA"
-        },
-        {
-            "nominativo": "SCIONTI Adriana",
-            "voti": "16",
-            "lista": "ARCADIA"
-        },
-        {
-            "nominativo": "PATANE' Alberto",
-            "voti": "1",
-            "lista": "ARCADIA"
-        },
-        {
-            "nominativo": "SAITTA Cesare",
-            "voti": "5",
-            "lista": "FUTURA SANITÀ"
-        },
-        {
-            "nominativo": "MAGLIA Agata",
-            "voti": "0",
-            "lista": "FUTURA SANITÀ"
-        },
-        {
-            "nominativo": "MARCINNO' Rachele",
-            "voti": "7",
-            "lista": "FUTURA SANITÀ"
-        },
-        {
-            "nominativo": "VACCINO Marco",
-            "voti": "23",
-            "lista": "FUTURA SANITÀ"
-        },
-        {
-            "nominativo": "MILANA Massimiliano",
-            "voti": "16",
-            "lista": "FUTURA SANITÀ"
-        },
-        {
-            "nominativo": "LEONFORTE Pierfrancesco",
-            "voti": "20",
-            "lista": "FUTURA SANITÀ"
-        },
-        {
-            "nominativo": "RANDAZZO Alessandro",
-            "voti": "3",
-            "lista": "FUTURA SANITÀ"
-        },
-        {
-            "nominativo": "PETRALIA Sabrina",
-            "voti": "9",
-            "lista": "FUTURA SANITÀ"
-        },
-        {
-            "nominativo": "FIORITO Zaira",
-            "voti": "0",
-            "lista": "FUTURA SANITÀ"
-        },
-        {
-            "nominativo": "MELITA Giuseppe",
-            "voti": "1",
-            "lista": "FUTURA SANITÀ"
-        },
-        {
-            "nominativo": "DI FRANCESCO Antonio",
-            "voti": "3",
-            "lista": "FUTURA SANITÀ"
-        },
-        {
-            "nominativo": "LONGO Giusi Maria Chiara",
-            "voti": "13",
-            "lista": "FUTURA SANITÀ"
-        },
-        {
-            "nominativo": "DI GUARDO Simone",
-            "voti": "20",
-            "lista": "LIBERTAS‐SANILAB"
-        },
-        {
-            "nominativo": "BORGIA Eutichia",
-            "voti": "37",
-            "lista": "LIBERTAS‐SANILAB"
-        },
-        {
-            "nominativo": "SOTERA Giuseppe",
-            "voti": "21",
-            "lista": "LIBERTAS‐SANILAB"
-        },
-        {
-            "nominativo": "MESSINA Jessica",
-            "voti": "9",
-            "lista": "LIBERTAS‐SANILAB"
-        },
-        {
-            "nominativo": "SALMERI Andrea",
-            "voti": "15",
-            "lista": "LIBERTAS‐SANILAB"
-        },
-        {
-            "nominativo": "VINCI Francesca",
-            "voti": "2",
-            "lista": "LIBERTAS‐SANILAB"
-        },
-        {
-            "nominativo": "FALZONE Matteo",
-            "voti": "0",
-            "lista": "LIBERTAS‐SANILAB"
-        },
-        {
-            "nominativo": "PATTI Vittorio",
-            "voti": "29",
-            "lista": "LIBERTAS‐SANILAB"
-        },
-        {
-            "nominativo": "PECORA Antonio",
-            "voti": "15",
-            "lista": "LIBERTAS‐SANILAB"
-        },
-        {
-            "nominativo": "LANZAFAME Erika Angela",
-            "voti": "0",
-            "lista": "LIBERTAS‐SANILAB"
-        },
-        {
-            "nominativo": "NICOTRA Marco",
-            "voti": "0",
-            "lista": "LIBERTAS‐SANILAB"
-        },
-        {
-            "nominativo": "TRICOMI Leonardo Leandro",
-            "voti": "59",
-            "lista": "WE LOVE UNICT"
-        },
-        {
-            "nominativo": "MINEO Alessandro",
-            "voti": "15",
-            "lista": "WE LOVE UNICT"
-        },
-        {
-            "nominativo": "CASTELLI Gianluca",
-            "voti": "13",
-            "lista": "WE LOVE UNICT"
-        },
-        {
-            "nominativo": "GALATI Salvatore",
-            "voti": "2",
-            "lista": "WE LOVE UNICT"
-        },
-        {
-            "nominativo": "MAUGERI Cristina",
-            "voti": "0",
-            "lista": "WE LOVE UNICT"
-        },
-        {
-            "nominativo": "MAMMANA Giulia",
-            "voti": "0",
-            "lista": "WE LOVE UNICT"
-        },
-        {
-            "nominativo": "LOMBARDO Gianmarco ‐ detto \"Jimbo\"",
-            "voti": "0",
-            "lista": "WE LOVE UNICT"
-        },
-        {
-            "nominativo": "TOSCANO Elena",
-            "voti": "7",
-            "lista": "WE LOVE UNICT"
-        },
-        {
-            "nominativo": "GUZZETTA Carla",
-            "voti": "0",
-            "lista": "WE LOVE UNICT"
-        },
-        {
-            "nominativo": "TORNAMBENE Roberta",
-            "voti": "23",
-            "lista": "WE LOVE UNICT"
-        },
-        {
-            "nominativo": "BOTTINO SBARATTA Chiara",
-            "voti": "3",
-            "lista": "WE LOVE UNICT"
-        },
-        {
-            "nominativo": "CHIANTIA Filippo",
-            "voti": "0",
-            "lista": "WE LOVE UNICT"
+            "nominativo": "CARTILLONE Marco",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 19,
+                "seggio_n_13": 19,
+                "seggio_n_14": 0
+            }
+        },
+        {
+            "nominativo": "CASA Paolo",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 35,
+                "seggio_n_13": 35,
+                "seggio_n_14": 0
+            }
+        },
+        {
+            "nominativo": "DISTEFANO Costanza \u2010 detta \"Di Stefano\"",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 47,
+                "seggio_n_13": 44,
+                "seggio_n_14": 3
+            }
+        },
+        {
+            "nominativo": "REGOLO Matteo",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 23,
+                "seggio_n_13": 8,
+                "seggio_n_14": 15
+            }
+        },
+        {
+            "nominativo": "CANONICO Salvatore",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 4,
+                "seggio_n_13": 4,
+                "seggio_n_14": 0
+            }
+        },
+        {
+            "nominativo": "CALACIURA Giuseppe",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 4,
+                "seggio_n_13": 4,
+                "seggio_n_14": 0
+            }
+        },
+        {
+            "nominativo": "FIUME Carmelo",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 1,
+                "seggio_n_13": 1,
+                "seggio_n_14": 0
+            }
+        },
+        {
+            "nominativo": "BATTAGLIA Salvatore",
+            "lista": "ALLEANZA \u2010 CONTROCAMPUS \u2010 AZIONE",
+            "voti": {
+                "totali": 17,
+                "seggio_n_13": 15,
+                "seggio_n_14": 2
+            }
+        },
+        {
+            "nominativo": "CARLISI Giovanni",
+            "lista": "ALLEANZA \u2010 CONTROCAMPUS \u2010 AZIONE",
+            "voti": {
+                "totali": 2,
+                "seggio_n_13": 1,
+                "seggio_n_14": 1
+            }
+        },
+        {
+            "nominativo": "GIUNTA Giorgia",
+            "lista": "ALLEANZA \u2010 CONTROCAMPUS \u2010 AZIONE",
+            "voti": {
+                "totali": 6,
+                "seggio_n_13": 2,
+                "seggio_n_14": 4
+            }
+        },
+        {
+            "nominativo": "PENNISI Alba, Maria, Giulia",
+            "lista": "ALLEANZA \u2010 CONTROCAMPUS \u2010 AZIONE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_13": 0,
+                "seggio_n_14": 0
+            }
+        },
+        {
+            "nominativo": "POMA Agnese",
+            "lista": "ALLEANZA \u2010 CONTROCAMPUS \u2010 AZIONE",
+            "voti": {
+                "totali": 1,
+                "seggio_n_13": 0,
+                "seggio_n_14": 1
+            }
+        },
+        {
+            "nominativo": "PUGLISI Matteo, Rosario, Ivan",
+            "lista": "ALLEANZA \u2010 CONTROCAMPUS \u2010 AZIONE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_13": 0,
+                "seggio_n_14": 0
+            }
+        },
+        {
+            "nominativo": "SPITALI Federica",
+            "lista": "ALLEANZA \u2010 CONTROCAMPUS \u2010 AZIONE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_13": 0,
+                "seggio_n_14": 0
+            }
+        },
+        {
+            "nominativo": "BARBAGALLO Joseph Samuele Alfio",
+            "lista": "ALLEANZA \u2010 CONTROCAMPUS \u2010 AZIONE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_13": 0,
+                "seggio_n_14": 0
+            }
+        },
+        {
+            "nominativo": "CAVIGLIA Giuseppe",
+            "lista": "ALLEANZA \u2010 CONTROCAMPUS \u2010 AZIONE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_13": 0,
+                "seggio_n_14": 0
+            }
+        },
+        {
+            "nominativo": "CARASI Salvatore",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 19,
+                "seggio_n_13": 19,
+                "seggio_n_14": 0
+            }
+        },
+        {
+            "nominativo": "COPPOLA Claudio",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 57,
+                "seggio_n_13": 54,
+                "seggio_n_14": 3
+            }
+        },
+        {
+            "nominativo": "CRIMI Luca",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 31,
+                "seggio_n_13": 31,
+                "seggio_n_14": 0
+            }
+        },
+        {
+            "nominativo": "GARGIULO Valeria",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 5,
+                "seggio_n_13": 5,
+                "seggio_n_14": 0
+            }
+        },
+        {
+            "nominativo": "GRASSO Brenda Benedetta",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 12,
+                "seggio_n_13": 10,
+                "seggio_n_14": 2
+            }
+        },
+        {
+            "nominativo": "LEONARDO Ambra",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 51,
+                "seggio_n_13": 40,
+                "seggio_n_14": 11
+            }
+        },
+        {
+            "nominativo": "REINA Andrea",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 20,
+                "seggio_n_13": 1,
+                "seggio_n_14": 19
+            }
+        },
+        {
+            "nominativo": "RICCERI Chiara Grazia",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 2,
+                "seggio_n_13": 0,
+                "seggio_n_14": 2
+            }
+        },
+        {
+            "nominativo": "SCIUTO Leandra",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 29,
+                "seggio_n_13": 4,
+                "seggio_n_14": 25
+            }
+        },
+        {
+            "nominativo": "TRUPIA Giulia",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 24,
+                "seggio_n_13": 0,
+                "seggio_n_14": 24
+            }
+        },
+        {
+            "nominativo": "BOSCO Giosiana",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 9,
+                "seggio_n_13": 5,
+                "seggio_n_14": 4
+            }
+        },
+        {
+            "nominativo": "TINNIRELLO Giordana",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_13": 0,
+                "seggio_n_14": 1
+            }
+        },
+        {
+            "nominativo": "RAPISARDA Carmen",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 5,
+                "seggio_n_13": 5,
+                "seggio_n_14": 0
+            }
+        },
+        {
+            "nominativo": "LA DELFA Benedetta",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_13": 0,
+                "seggio_n_14": 0
+            }
+        },
+        {
+            "nominativo": "BELLARDITA Deborah",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_13": 0,
+                "seggio_n_14": 0
+            }
+        },
+        {
+            "nominativo": "PARASOLE Oriana",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_13": 0,
+                "seggio_n_14": 0
+            }
+        },
+        {
+            "nominativo": "COCO Fabio",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_13": 0,
+                "seggio_n_14": 0
+            }
+        },
+        {
+            "nominativo": "FERRARO Alberto",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_13": 1,
+                "seggio_n_14": 0
+            }
+        },
+        {
+            "nominativo": "RONSIVALLE Vincenzo",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 4,
+                "seggio_n_13": 0,
+                "seggio_n_14": 4
+            }
+        },
+        {
+            "nominativo": "BONOMO Ornella",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 1,
+                "seggio_n_13": 1,
+                "seggio_n_14": 0
+            }
+        },
+        {
+            "nominativo": "COCO Davide",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_13": 0,
+                "seggio_n_14": 0
+            }
+        },
+        {
+            "nominativo": "GAROFALO Alfredo",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_13": 0,
+                "seggio_n_14": 0
+            }
+        },
+        {
+            "nominativo": "INTERLANDI Giovanni",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_13": 0,
+                "seggio_n_14": 0
+            }
+        },
+        {
+            "nominativo": "LAURICELLA Martina",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_13": 0,
+                "seggio_n_14": 0
+            }
+        },
+        {
+            "nominativo": "LAZZARO Giuliana",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_13": 0,
+                "seggio_n_14": 0
+            }
+        },
+        {
+            "nominativo": "LONGO Sara",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_13": 0,
+                "seggio_n_14": 0
+            }
+        },
+        {
+            "nominativo": "MAMMOLITI Andrea",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 1,
+                "seggio_n_13": 0,
+                "seggio_n_14": 1
+            }
+        },
+        {
+            "nominativo": "MAZZA Gabriele",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_13": 0,
+                "seggio_n_14": 0
+            }
+        },
+        {
+            "nominativo": "SALANITRO Daniele",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_13": 0,
+                "seggio_n_14": 0
+            }
+        },
+        {
+            "nominativo": "FERRARA Carmelo",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 7,
+                "seggio_n_13": 6,
+                "seggio_n_14": 1
+            }
+        },
+        {
+            "nominativo": "MAURO Maria Sara",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_13": 0,
+                "seggio_n_14": 0
+            }
+        },
+        {
+            "nominativo": "PAGANA Antonio Gaetano",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 3,
+                "seggio_n_13": 1,
+                "seggio_n_14": 2
+            }
+        },
+        {
+            "nominativo": "PANTORNO Gaetano Gabriele Maria",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_13": 0,
+                "seggio_n_14": 0
+            }
+        },
+        {
+            "nominativo": "SCIACCA Antonio",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 42,
+                "seggio_n_13": 17,
+                "seggio_n_14": 25
+            }
+        },
+        {
+            "nominativo": "FAVA Joseph",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_13": 0,
+                "seggio_n_14": 0
+            }
+        },
+        {
+            "nominativo": "SCIONTI Adriana",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 16,
+                "seggio_n_13": 4,
+                "seggio_n_14": 12
+            }
+        },
+        {
+            "nominativo": "PATANE' Alberto",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_13": 0,
+                "seggio_n_14": 1
+            }
+        },
+        {
+            "nominativo": "SAITTA Cesare",
+            "lista": "FUTURA SANITA'",
+            "voti": {
+                "totali": 5,
+                "seggio_n_13": 0,
+                "seggio_n_14": 5
+            }
+        },
+        {
+            "nominativo": "MAGLIA Agata",
+            "lista": "FUTURA SANITA'",
+            "voti": {
+                "totali": 0,
+                "seggio_n_13": 0,
+                "seggio_n_14": 0
+            }
+        },
+        {
+            "nominativo": "MARCINNO' Rachele",
+            "lista": "FUTURA SANITA'",
+            "voti": {
+                "totali": 7,
+                "seggio_n_13": 0,
+                "seggio_n_14": 7
+            }
+        },
+        {
+            "nominativo": "VACCINO Marco",
+            "lista": "FUTURA SANITA'",
+            "voti": {
+                "totali": 23,
+                "seggio_n_13": 4,
+                "seggio_n_14": 19
+            }
+        },
+        {
+            "nominativo": "MILANA Massimiliano",
+            "lista": "FUTURA SANITA'",
+            "voti": {
+                "totali": 16,
+                "seggio_n_13": 4,
+                "seggio_n_14": 12
+            }
+        },
+        {
+            "nominativo": "LEONFORTE Pierfrancesco",
+            "lista": "FUTURA SANITA'",
+            "voti": {
+                "totali": 20,
+                "seggio_n_13": 8,
+                "seggio_n_14": 12
+            }
+        },
+        {
+            "nominativo": "RANDAZZO Alessandro",
+            "lista": "FUTURA SANITA'",
+            "voti": {
+                "totali": 3,
+                "seggio_n_13": 0,
+                "seggio_n_14": 3
+            }
+        },
+        {
+            "nominativo": "PETRALIA Sabrina",
+            "lista": "FUTURA SANITA'",
+            "voti": {
+                "totali": 9,
+                "seggio_n_13": 1,
+                "seggio_n_14": 8
+            }
+        },
+        {
+            "nominativo": "FIORITO Zaira",
+            "lista": "FUTURA SANITA'",
+            "voti": {
+                "totali": 0,
+                "seggio_n_13": 0,
+                "seggio_n_14": 0
+            }
+        },
+        {
+            "nominativo": "MELITA Giuseppe",
+            "lista": "FUTURA SANITA'",
+            "voti": {
+                "totali": 1,
+                "seggio_n_13": 0,
+                "seggio_n_14": 1
+            }
+        },
+        {
+            "nominativo": "DI FRANCESCO Antonio",
+            "lista": "FUTURA SANITA'",
+            "voti": {
+                "totali": 3,
+                "seggio_n_13": 3,
+                "seggio_n_14": 0
+            }
+        },
+        {
+            "nominativo": "LONGO Giusi Maria Chiara",
+            "lista": "FUTURA SANITA'",
+            "voti": {
+                "totali": 13,
+                "seggio_n_13": 11,
+                "seggio_n_14": 2
+            }
+        },
+        {
+            "nominativo": "DI GUARDO Simone",
+            "lista": "LIBERTAS\u2010SANILAB",
+            "voti": {
+                "totali": 20,
+                "seggio_n_13": 19,
+                "seggio_n_14": 1
+            }
+        },
+        {
+            "nominativo": "BORGIA Eutichia",
+            "lista": "LIBERTAS\u2010SANILAB",
+            "voti": {
+                "totali": 37,
+                "seggio_n_13": 24,
+                "seggio_n_14": 13
+            }
+        },
+        {
+            "nominativo": "SOTERA Giuseppe",
+            "lista": "LIBERTAS\u2010SANILAB",
+            "voti": {
+                "totali": 21,
+                "seggio_n_13": 0,
+                "seggio_n_14": 21
+            }
+        },
+        {
+            "nominativo": "MESSINA Jessica",
+            "lista": "LIBERTAS\u2010SANILAB",
+            "voti": {
+                "totali": 9,
+                "seggio_n_13": 9,
+                "seggio_n_14": 0
+            }
+        },
+        {
+            "nominativo": "SALMERI Andrea",
+            "lista": "LIBERTAS\u2010SANILAB",
+            "voti": {
+                "totali": 15,
+                "seggio_n_13": 2,
+                "seggio_n_14": 13
+            }
+        },
+        {
+            "nominativo": "VINCI Francesca",
+            "lista": "LIBERTAS\u2010SANILAB",
+            "voti": {
+                "totali": 2,
+                "seggio_n_13": 0,
+                "seggio_n_14": 2
+            }
+        },
+        {
+            "nominativo": "FALZONE Matteo",
+            "lista": "LIBERTAS\u2010SANILAB",
+            "voti": {
+                "totali": 0,
+                "seggio_n_13": 0,
+                "seggio_n_14": 0
+            }
+        },
+        {
+            "nominativo": "PATTI Vittorio",
+            "lista": "LIBERTAS\u2010SANILAB",
+            "voti": {
+                "totali": 29,
+                "seggio_n_13": 17,
+                "seggio_n_14": 12
+            }
+        },
+        {
+            "nominativo": "PECORA Antonio",
+            "lista": "LIBERTAS\u2010SANILAB",
+            "voti": {
+                "totali": 15,
+                "seggio_n_13": 4,
+                "seggio_n_14": 11
+            }
+        },
+        {
+            "nominativo": "LANZAFAME Erika Angela",
+            "lista": "LIBERTAS\u2010SANILAB",
+            "voti": {
+                "totali": 0,
+                "seggio_n_13": 0,
+                "seggio_n_14": 0
+            }
+        },
+        {
+            "nominativo": "NICOTRA Marco",
+            "lista": "LIBERTAS\u2010SANILAB",
+            "voti": {
+                "totali": 0,
+                "seggio_n_13": 0,
+                "seggio_n_14": 0
+            }
+        },
+        {
+            "nominativo": "TRICOMI Leonardo Leandro",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 59,
+                "seggio_n_13": 14,
+                "seggio_n_14": 45
+            }
+        },
+        {
+            "nominativo": "MINEO Alessandro",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 15,
+                "seggio_n_13": 4,
+                "seggio_n_14": 11
+            }
+        },
+        {
+            "nominativo": "CASTELLI Gianluca",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 13,
+                "seggio_n_13": 10,
+                "seggio_n_14": 3
+            }
+        },
+        {
+            "nominativo": "GALATI Salvatore",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 2,
+                "seggio_n_13": 2,
+                "seggio_n_14": 0
+            }
+        },
+        {
+            "nominativo": "MAUGERI Cristina",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_13": 0,
+                "seggio_n_14": 0
+            }
+        },
+        {
+            "nominativo": "MAMMANA Giulia",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_13": 0,
+                "seggio_n_14": 0
+            }
+        },
+        {
+            "nominativo": "LOMBARDO Gianmarco \u2010 detto \"Jimbo\"",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_13": 0,
+                "seggio_n_14": 0
+            }
+        },
+        {
+            "nominativo": "TOSCANO Elena",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 7,
+                "seggio_n_13": 7,
+                "seggio_n_14": 0
+            }
+        },
+        {
+            "nominativo": "GUZZETTA Carla",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_13": 0,
+                "seggio_n_14": 0
+            }
+        },
+        {
+            "nominativo": "TORNAMBENE Roberta",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 23,
+                "seggio_n_13": 2,
+                "seggio_n_14": 21
+            }
+        },
+        {
+            "nominativo": "BOTTINO SBARATTA Chiara",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 3,
+                "seggio_n_13": 3,
+                "seggio_n_14": 0
+            }
+        },
+        {
+            "nominativo": "CHIANTIA Filippo",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_13": 0,
+                "seggio_n_14": 0
+            }
         }
     ],
-    "seggi_da_assegnare": "13",
-    "dipartimento": "CHIRURGIA GENERALE E SPECIALITA' MEDICO-CHIRURGICHE",
-    "quoziente": "144,231",
-    "votanti": "2007",
-    "perc_votanti": "71,81"
+    "quoziente": 144.231,
+    "votanti": {
+        "totali": 2007,
+        "percentuale": 71.81,
+        "seggio_n_13": 1005,
+        "seggio_n_14": 1002
+    },
+    "elettori": {
+        "totali": 2795,
+        "seggio_n_13": 1455,
+        "seggio_n_14": 1340
+    }
 }

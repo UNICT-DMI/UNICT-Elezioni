@@ -1,100 +1,193 @@
 {
+    "dipartimento": "MATEMATICA E INFORMATICA - DMI",
+    "seggi_da_assegnare": "14",
     "schede": {
-        "Schede Bianche": "32",
-        "Schede Nulle": "15",
-        "Schede Contestate": "0"
+        "bianche": {
+            "totali": 32,
+            "seggio_n_18": 32
+        },
+        "nulle": {
+            "totali": 15,
+            "seggio_n_18": 15
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_18": 0
+        }
     },
     "liste": [
         {
             "nome": "DMI INSIDER",
-            "voti_totali": 132
+            "seggi": {
+                "seggi_pieni": "9",
+                "resti": "11,1",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "10"
+            },
+            "voti": {
+                "totali": 132,
+                "seggio_n_18": 132
+            }
         },
         {
             "nome": "ACTEA",
-            "voti_totali": 26
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "12,6",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 26,
+                "seggio_n_18": 26
+            }
         },
         {
-            "nome": "UNIVERSITÀ POPOLARE",
-            "voti_totali": 24
+            "nome": "UNIVERSIT\u00c0 POPOLARE",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "10,6",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 24,
+                "seggio_n_18": 24
+            }
         },
         {
-            "nome": "LIBERTAS LIBERI E FORTI",
-            "voti_totali": 6
+            "nome": "LIBERTAS \u2010 LIBERI E FORTI",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "6,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 6,
+                "seggio_n_18": 6
+            }
+        },
+        {
+            "totale": 188
         }
     ],
     "eletti": [
         {
             "nominativo": "ALIPERTI VINCENZO",
-            "voti": "13",
-            "lista": "DMI INSIDER"
+            "lista": "DMI INSIDER",
+            "voti": {
+                "totali": 13,
+                "seggio_n_18": 13
+            }
         },
         {
             "nominativo": "APA MARCO",
-            "voti": "16",
-            "lista": "DMI INSIDER"
+            "lista": "DMI INSIDER",
+            "voti": {
+                "totali": 16,
+                "seggio_n_18": 16
+            }
         },
         {
             "nominativo": "BORZI' STEFANO",
-            "voti": "60",
-            "lista": "DMI INSIDER"
+            "lista": "DMI INSIDER",
+            "voti": {
+                "totali": 60,
+                "seggio_n_18": 60
+            }
         },
         {
             "nominativo": "COSTA ALBERTO",
-            "voti": "3",
-            "lista": "DMI INSIDER"
+            "lista": "DMI INSIDER",
+            "voti": {
+                "totali": 3,
+                "seggio_n_18": 3
+            }
         },
         {
             "nominativo": "PRESENTE FABRIZIO",
-            "voti": "3",
-            "lista": "DMI INSIDER"
+            "lista": "DMI INSIDER",
+            "voti": {
+                "totali": 3,
+                "seggio_n_18": 3
+            }
         },
         {
             "nominativo": "MARROCCIA MARCO",
-            "voti": "12",
-            "lista": "ACTEA"
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 12,
+                "seggio_n_18": 12
+            }
         },
         {
             "nominativo": "RAPISARDA SIMONE",
-            "voti": "6",
-            "lista": "ACTEA"
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 6,
+                "seggio_n_18": 6
+            }
         },
         {
             "nominativo": "PETRALIA LUCA",
-            "voti": "0",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_18": 0
+            }
         },
         {
             "nominativo": "MATTIA ALESSANDRO FERDINANDO",
-            "voti": "11",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 11,
+                "seggio_n_18": 11
+            }
         }
     ],
     "non_eletti": [
         {
             "nominativo": "AMANTIA ROSARIO",
-            "voti": "1",
-            "lista": "ACTEA"
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_18": 1
+            }
         },
         {
             "nominativo": "LIOTTA ALESSIO ANGELO",
-            "voti": "3",
-            "lista": "ACTEA"
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 3,
+                "seggio_n_18": 3
+            }
         },
         {
             "nominativo": "SACCA' MAURA",
-            "voti": "3",
-            "lista": "LIBERTAS LIBERI E FORTI"
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 3,
+                "seggio_n_18": 3
+            }
         },
         {
             "nominativo": "LA SPINA LUIGI",
-            "voti": "0",
-            "lista": "LIBERTAS LIBERI E FORTI"
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_18": 0
+            }
         }
     ],
-    "seggi_da_assegnare": "14",
-    "dipartimento": "MATEMATICA E INFORMATICA - DMI",
-    "quoziente": "13,4286",
-    "votanti": "235",
-    "perc_votanti": "26,40",
-    "elettori": "890"
+    "quoziente": 13.4286,
+    "votanti": {
+        "totali": 235,
+        "percentuale": 26.4,
+        "seggio_n_18": 235
+    },
+    "elettori": {
+        "totali": 890,
+        "seggio_n_18": 890
+    }
 }

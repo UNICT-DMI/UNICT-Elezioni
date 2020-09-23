@@ -1,92 +1,167 @@
 {
+    "dipartimento": "FISICA ED ASTRONOMIA",
+    "seggi_da_assegnare": "8",
     "schede": {
-        "Schede Bianche": "11",
-        "Schede Nulle": "6",
-        "Schede Contestate": "0"
+        "bianche": {
+            "totali": 11,
+            "seggio_n_19": 11
+        },
+        "nulle": {
+            "totali": 6,
+            "seggio_n_19": 6
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_19": 0
+        }
     },
     "liste": [
         {
-            "nome": "PHYSICS INSIDERS",
-            "voti_totali": 135
+            "nome": "PHYSICS INSIDERS",
+            "seggi": {
+                "seggi_pieni": "7",
+                "resti": "2,9",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "7"
+            },
+            "voti": {
+                "totali": 135,
+                "seggio_n_19": 135
+            }
         },
         {
-            "nome": "ARCHÈ",
-            "voti_totali": 16
+            "nome": "ARCHE'",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "16,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 16,
+                "seggio_n_19": 16
+            }
+        },
+        {
+            "totale": 151
         }
     ],
     "eletti": [
         {
-            "nominativo": "SPINA Francesco",
-            "voti": "14",
-            "lista": "PHYSICS INSIDERS"
+            "nominativo": "SPINA Francesco",
+            "lista": "PHYSICS INSIDERS",
+            "voti": {
+                "totali": 14,
+                "seggio_n_19": 14
+            }
         },
         {
-            "nominativo": "TROVATO Gabriele",
-            "voti": "12",
-            "lista": "PHYSICS INSIDERS"
+            "nominativo": "TROVATO Gabriele",
+            "lista": "PHYSICS INSIDERS",
+            "voti": {
+                "totali": 12,
+                "seggio_n_19": 12
+            }
         },
         {
-            "nominativo": "ANFUSO Giorgio",
-            "voti": "11",
-            "lista": "PHYSICS INSIDERS"
+            "nominativo": "ANFUSO Giorgio",
+            "lista": "PHYSICS INSIDERS",
+            "voti": {
+                "totali": 11,
+                "seggio_n_19": 11
+            }
         },
         {
-            "nominativo": "RIZZO Daniele",
-            "voti": "31",
-            "lista": "PHYSICS INSIDERS"
+            "nominativo": "RIZZO Daniele",
+            "lista": "PHYSICS INSIDERS",
+            "voti": {
+                "totali": 31,
+                "seggio_n_19": 31
+            }
         },
         {
-            "nominativo": "PUTRINO Paolo",
-            "voti": "14",
-            "lista": "PHYSICS INSIDERS"
+            "nominativo": "PUTRINO Paolo",
+            "lista": "PHYSICS INSIDERS",
+            "voti": {
+                "totali": 14,
+                "seggio_n_19": 14
+            }
         },
         {
-            "nominativo": "ROVERE Filippo",
-            "voti": "7",
-            "lista": "PHYSICS INSIDERS"
+            "nominativo": "ROVERE Filippo",
+            "lista": "PHYSICS INSIDERS",
+            "voti": {
+                "totali": 7,
+                "seggio_n_19": 7
+            }
         },
         {
-            "nominativo": "MUZZIO Irene",
-            "voti": "10",
-            "lista": "PHYSICS INSIDERS"
+            "nominativo": "MUZZIO Irene",
+            "lista": "PHYSICS INSIDERS",
+            "voti": {
+                "totali": 10,
+                "seggio_n_19": 10
+            }
         },
         {
-            "nominativo": "URSINO Federico",
-            "voti": "11",
-            "lista": "ARCHÈ"
+            "nominativo": "URSINO Federico",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 11,
+                "seggio_n_19": 11
+            }
         }
     ],
     "non_eletti": [
         {
-            "nominativo": "FERRARA Luca",
-            "voti": "2",
-            "lista": "PHYSICS INSIDERS"
+            "nominativo": "FERRARA Luca",
+            "lista": "PHYSICS INSIDERS",
+            "voti": {
+                "totali": 2,
+                "seggio_n_19": 2
+            }
         },
         {
-            "nominativo": "GORGONE Marco",
-            "voti": "4",
-            "lista": "PHYSICS INSIDERS"
+            "nominativo": "GORGONE Marco",
+            "lista": "PHYSICS INSIDERS",
+            "voti": {
+                "totali": 4,
+                "seggio_n_19": 4
+            }
         },
         {
-            "nominativo": "MARCHETTI Simone",
-            "voti": "5",
-            "lista": "PHYSICS INSIDERS"
+            "nominativo": "MARCHETTI Simone",
+            "lista": "PHYSICS INSIDERS",
+            "voti": {
+                "totali": 5,
+                "seggio_n_19": 5
+            }
         },
         {
-            "nominativo": "GIUSTOLISI Lorenzo",
-            "voti": "2",
-            "lista": "ARCHÈ"
+            "nominativo": "GIUSTOLISI Lorenzo",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 2,
+                "seggio_n_19": 2
+            }
         },
         {
-            "nominativo": "PERNA Adriano",
-            "voti": "0",
-            "lista": "ARCHÈ"
+            "nominativo": "PERNA Adriano",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 0,
+                "seggio_n_19": 0
+            }
         }
     ],
-    "seggi_da_assegnare": "8",
-    "dipartimento": "FISICA ED ASTRONOMIA",
-    "quoziente": "18,875",
-    "votanti": "168",
-    "perc_votanti": "41,79",
-    "elettori": "402"
+    "quoziente": 18.875,
+    "votanti": {
+        "totali": 168,
+        "percentuale": 41.79,
+        "seggio_n_19": 168
+    },
+    "elettori": {
+        "totali": 402,
+        "seggio_n_19": 402
+    }
 }

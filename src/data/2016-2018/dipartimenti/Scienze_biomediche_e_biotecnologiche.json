@@ -1,143 +1,301 @@
 {
+    "dipartimento": "SCIENZE BIOMEDICHE E BIOTECNOLOGICHE - BIOMETEC",
+    "seggi_da_assegnare": "15",
     "schede": {
-        "Schede Bianche": "28",
-        "Schede Nulle": "16",
-        "Schede Contestate": "0"
+        "bianche": {
+            "totali": 28,
+            "seggio_n_15": 26,
+            "seggio_n_17": 2
+        },
+        "nulle": {
+            "totali": 16,
+            "seggio_n_15": 15,
+            "seggio_n_17": 1
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_15": 0,
+            "seggio_n_17": 0
+        }
     },
     "liste": [
         {
             "nome": "CONTROCAMPUS",
-            "voti_totali": 38
+            "seggi": {
+                "seggi_pieni": "3",
+                "resti": "2,6",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "3"
+            },
+            "voti": {
+                "totali": 38,
+                "seggio_n_15": 37,
+                "seggio_n_17": 1
+            }
         },
         {
-            "nome": "ARCHÈ",
-            "voti_totali": 1
+            "nome": "ARCH\u00c8",
+            "seggi": {
+                "seggi_pieni": "4",
+                "resti": "3,8",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "5"
+            },
+            "voti": {
+                "totali": 51,
+                "seggio_n_15": 51,
+                "seggio_n_17": 0
+            }
         },
         {
-            "nome": "UNIVERSITÀ POPOLARE",
-            "voti_totali": 0
+            "nome": "UNIVERSIT\u00c0 POPOLARE",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "3,4",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 27,
+                "seggio_n_15": 27,
+                "seggio_n_17": 0
+            }
         },
         {
             "nome": "AZIONE UNIVERSITARIA",
-            "voti_totali": 2
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "10,2",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 22,
+                "seggio_n_15": 20,
+                "seggio_n_17": 2
+            }
         },
         {
-            "nome": "LIBERTAS LIBERI E FORTI",
-            "voti_totali": 6
+            "nome": "LIBERTAS \u2010 LIBERI E FORTI",
+            "seggi": {
+                "seggi_pieni": "3",
+                "resti": "3,6",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "3"
+            },
+            "voti": {
+                "totali": 39,
+                "seggio_n_15": 33,
+                "seggio_n_17": 6
+            }
+        },
+        {
+            "totale": 177
         }
     ],
     "eletti": [
         {
             "nominativo": "BOCCAFOSCHI ENRICO",
-            "voti": "26",
-            "lista": "CONTROCAMPUS"
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 26,
+                "seggio_n_15": 26,
+                "seggio_n_17": 0
+            }
         },
         {
             "nominativo": "COLOMBRITA GIANLUCA",
-            "voti": "0",
-            "lista": "CONTROCAMPUS"
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 0,
+                "seggio_n_15": 0,
+                "seggio_n_17": 0
+            }
         },
         {
             "nominativo": "SCUDERI SIMONE",
-            "voti": "11",
-            "lista": "CONTROCAMPUS"
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 11,
+                "seggio_n_15": 11,
+                "seggio_n_17": 0
+            }
         },
         {
             "nominativo": "SPANO' ALBERTO",
-            "voti": "0",
-            "lista": "CONTROCAMPUS"
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 0,
+                "seggio_n_15": 0,
+                "seggio_n_17": 0
+            }
         },
         {
             "nominativo": "ZUMBO SALVATORE",
-            "voti": "0",
-            "lista": "CONTROCAMPUS"
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 0,
+                "seggio_n_15": 0,
+                "seggio_n_17": 0
+            }
         },
         {
             "nominativo": "D'ARMA GAETANO ANDREA FRANCESCO",
-            "voti": "20",
-            "lista": "ARCHÈ"
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 20,
+                "seggio_n_15": 20,
+                "seggio_n_17": 0
+            }
         },
         {
             "nominativo": "DI SILVESTRE VINCENZO",
-            "voti": "0",
-            "lista": "ARCHÈ"
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 0,
+                "seggio_n_15": 0,
+                "seggio_n_17": 0
+            }
         },
         {
             "nominativo": "GULISANO GIANPIERO",
-            "voti": "2",
-            "lista": "ARCHÈ"
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 2,
+                "seggio_n_15": 2,
+                "seggio_n_17": 0
+            }
         },
         {
             "nominativo": "RISICATO ROBERTA VICKY",
-            "voti": "17",
-            "lista": "ARCHÈ"
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 17,
+                "seggio_n_15": 17,
+                "seggio_n_17": 0
+            }
         },
         {
             "nominativo": "BUSCEMI CARLO",
-            "voti": "7",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 7,
+                "seggio_n_15": 7,
+                "seggio_n_17": 0
+            }
         },
         {
             "nominativo": "APOLLO DARIO",
-            "voti": "6",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 6,
+                "seggio_n_15": 6,
+                "seggio_n_17": 0
+            }
         },
         {
             "nominativo": "MASSIMINO CHRISTIAN",
-            "voti": "16",
-            "lista": "AZIONE UNIVERSITARIA"
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 16,
+                "seggio_n_15": 16,
+                "seggio_n_17": 0
+            }
         },
         {
             "nominativo": "D'ANNA STEFANO",
-            "voti": "0",
-            "lista": "AZIONE UNIVERSITARIA"
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_15": 0,
+                "seggio_n_17": 0
+            }
         },
         {
             "nominativo": "COSTANZO GAIA VIOLA CHIARA",
-            "voti": "16",
-            "lista": "LIBERTAS LIBERI E FORTI"
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 16,
+                "seggio_n_15": 11,
+                "seggio_n_17": 5
+            }
         },
         {
             "nominativo": "SCIURELLO SALVATORE ANDREA",
-            "voti": "12",
-            "lista": "LIBERTAS LIBERI E FORTI"
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 12,
+                "seggio_n_15": 12,
+                "seggio_n_17": 0
+            }
         },
         {
             "nominativo": "GRECUZZO MARTA",
-            "voti": "2",
-            "lista": "LIBERTAS LIBERI E FORTI"
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 2,
+                "seggio_n_15": 2,
+                "seggio_n_17": 0
+            }
         }
     ],
     "non_eletti": [
         {
             "nominativo": "BARBAGALLO MARCO",
-            "voti": "0",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_15": 0,
+                "seggio_n_17": 0
+            }
         },
         {
             "nominativo": "BRANCHINA VINCENZO AUGUSTO",
-            "voti": "0",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_15": 0,
+                "seggio_n_17": 0
+            }
         },
         {
             "nominativo": "GALATI PRICCHIA ROBERTA",
-            "voti": "3",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 3,
+                "seggio_n_15": 3,
+                "seggio_n_17": 0
+            }
         },
         {
             "nominativo": "STRANO ALFIO GABRIELE",
-            "voti": "0",
-            "lista": "LIBERTAS LIBERI E FORTI"
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_15": 0,
+                "seggio_n_17": 0
+            }
         },
         {
             "nominativo": "LO GRANDE SALVO WILLIAMS",
-            "voti": "1",
-            "lista": "LIBERTAS LIBERI E FORTI"
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 1,
+                "seggio_n_15": 1,
+                "seggio_n_17": 0
+            }
         }
     ],
-    "seggi_da_assegnare": "15",
-    "dipartimento": "SCIENZE BIOMEDICHE E BIOTECNOLOGICHE - BIOMETEC",
-    "quoziente": "11,8",
-    "votanti": "221",
-    "perc_votanti": "30,19"
+    "quoziente": 11.8,
+    "votanti": {
+        "totali": 221,
+        "percentuale": 30.19,
+        "seggio_n_15": 209,
+        "seggio_n_17": 12
+    },
+    "elettori": {
+        "totali": 732,
+        "seggio_n_15": 658,
+        "seggio_n_17": 74
+    }
 }

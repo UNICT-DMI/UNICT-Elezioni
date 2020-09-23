@@ -1,350 +1,697 @@
 {
+    "dipartimento": "SCIENZE POLITICHE E SOCIALI - DSPS",
+    "seggi_da_assegnare": "16",
     "schede": {
-        "Schede Bianche": "93",
-        "Schede Nulle": "43",
-        "Schede Contestate": "0"
+        "bianche": {
+            "totali": 93,
+            "seggio_n_4": 42,
+            "seggio_n_5": 51
+        },
+        "nulle": {
+            "totali": 43,
+            "seggio_n_4": 17,
+            "seggio_n_5": 26
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_4": 0,
+            "seggio_n_5": 0
+        }
     },
     "liste": [
         {
-            "nome": "UDU  ‐  UNIONE DEGLI UNIVERSITARI",
-            "voti_totali": 40
+            "nome": "UDU \u2010 UNIONE DEGLI UNIVERSITARI",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "40,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 40,
+                "seggio_n_4": 7,
+                "seggio_n_5": 33
+            }
         },
         {
             "nome": "GIOVANI CIDEC",
-            "voti_totali": 107
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "15,8",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 131,
+                "seggio_n_4": 24,
+                "seggio_n_5": 107
+            }
         },
         {
             "nome": "ACTEA",
-            "voti_totali": 46
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "57,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 57,
+                "seggio_n_4": 11,
+                "seggio_n_5": 46
+            }
         },
         {
-            "nome": "UNIVERSITÀ POPOLARE",
-            "voti_totali": 98
+            "nome": "UNIVERSIT\u00c0 POPOLARE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "17,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 17,
+                "seggio_n_4": 9,
+                "seggio_n_5": 8
+            }
         },
         {
-            "nome": "ALLEANZA  ‐  CONTROCAMPUS",
-            "voti_totali": 929
+            "nome": "ALLEANZA \u2010 CONTROCAMPUS",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "38,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 38,
+                "seggio_n_4": 9,
+                "seggio_n_5": 29
+            }
         },
         {
-            "nome": "STUDENTI PER LE LIBERTÀ  ‐  AZIONE UNIVERSITARIA",
-            "voti_totali": 76
+            "nome": "STUDENTI PER LE LIBERT\u00c0 \u2010 AZIONE UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "12,8",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 128,
+                "seggio_n_4": 52,
+                "seggio_n_5": 76
+            }
         },
         {
-            "nome": "LIBERTAS LIBERI E FORTI",
-            "voti_totali": 46
+            "nome": "LIBERTAS \u2010 LIBERI E FORTI",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "33,4",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 91,
+                "seggio_n_4": 45,
+                "seggio_n_5": 46
+            }
         },
         {
             "nome": "ARCADIA",
-            "voti_totali": 64
+            "seggi": {
+                "seggi_pieni": "3",
+                "resti": "9,1",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "3"
+            },
+            "voti": {
+                "totali": 182,
+                "seggio_n_4": 118,
+                "seggio_n_5": 64
+            }
         },
         {
             "nome": "REVOLUTION",
-            "voti_totali": 29
+            "seggi": {
+                "seggi_pieni": "4",
+                "resti": "7,5",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "4"
+            },
+            "voti": {
+                "totali": 238,
+                "seggio_n_4": 209,
+                "seggio_n_5": 29
+            }
+        },
+        {
+            "totale": 922
         }
     ],
     "eletti": [
         {
             "nominativo": "FIUMARA LUCA",
-            "voti": "30",
-            "lista": "UDU  ‐  UNIONE DEGLI UNIVERSITARI"
+            "lista": "UDU \u2010 UNIONE DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 30,
+                "seggio_n_4": 5,
+                "seggio_n_5": 25
+            }
         },
         {
             "nominativo": "TAGLIARINI VALENTINA",
-            "voti": "22",
-            "lista": "GIOVANI CIDEC"
+            "lista": "GIOVANI CIDEC",
+            "voti": {
+                "totali": 22,
+                "seggio_n_4": 9,
+                "seggio_n_5": 13
+            }
         },
         {
             "nominativo": "VECCHIARELLI MARTINA",
-            "voti": "99",
-            "lista": "GIOVANI CIDEC"
+            "lista": "GIOVANI CIDEC",
+            "voti": {
+                "totali": 99,
+                "seggio_n_4": 8,
+                "seggio_n_5": 91
+            }
         },
         {
             "nominativo": "TROVATO FEDERICO",
-            "voti": "37",
-            "lista": "ACTEA"
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 37,
+                "seggio_n_4": 6,
+                "seggio_n_5": 31
+            }
         },
         {
             "nominativo": "MONTEMAGNO LIVIO MARIA",
-            "voti": "26",
-            "lista": "ALLEANZA  ‐  CONTROCAMPUS"
+            "lista": "ALLEANZA \u2010 CONTROCAMPUS",
+            "voti": {
+                "totali": 26,
+                "seggio_n_4": 1,
+                "seggio_n_5": 25
+            }
         },
         {
             "nominativo": "NAPOLI MARTA",
-            "voti": "24",
-            "lista": "STUDENTI PER LE LIBERTÀ  ‐  AZIONE UNIVERSITARIA"
+            "lista": "STUDENTI PER LE LIBERT\u00c0 \u2010 AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 24,
+                "seggio_n_4": 20,
+                "seggio_n_5": 4
+            }
         },
         {
             "nominativo": "BLANCO ANDREA SANTO",
-            "voti": "39",
-            "lista": "STUDENTI PER LE LIBERTÀ  ‐  AZIONE UNIVERSITARIA"
+            "lista": "STUDENTI PER LE LIBERT\u00c0 \u2010 AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 39,
+                "seggio_n_4": 3,
+                "seggio_n_5": 36
+            }
         },
         {
             "nominativo": "LIGGIERI SANTI GIUSEPPE",
-            "voti": "38",
-            "lista": "LIBERTAS LIBERI E FORTI"
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 38,
+                "seggio_n_4": 7,
+                "seggio_n_5": 31
+            }
         },
         {
             "nominativo": "LEOCATA CONCETTA",
-            "voti": "26",
-            "lista": "LIBERTAS LIBERI E FORTI"
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 26,
+                "seggio_n_4": 22,
+                "seggio_n_5": 4
+            }
         },
         {
             "nominativo": "DI BELLA FEDERICA",
-            "voti": "49",
-            "lista": "ARCADIA"
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 49,
+                "seggio_n_4": 46,
+                "seggio_n_5": 3
+            }
         },
         {
             "nominativo": "TUCCI MARCO ROSARIO",
-            "voti": "22",
-            "lista": "ARCADIA"
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 22,
+                "seggio_n_4": 22,
+                "seggio_n_5": 0
+            }
         },
         {
             "nominativo": "FARACI MANFREDI",
-            "voti": "57",
-            "lista": "ARCADIA"
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 57,
+                "seggio_n_4": 9,
+                "seggio_n_5": 48
+            }
         },
         {
             "nominativo": "CUPPERI ALESSIO",
-            "voti": "135",
-            "lista": "REVOLUTION"
+            "lista": "REVOLUTION",
+            "voti": {
+                "totali": 135,
+                "seggio_n_4": 123,
+                "seggio_n_5": 12
+            }
         },
         {
             "nominativo": "SCHEMBRI DAVIDE CALOGERO",
-            "voti": "30",
-            "lista": "REVOLUTION"
+            "lista": "REVOLUTION",
+            "voti": {
+                "totali": 30,
+                "seggio_n_4": 27,
+                "seggio_n_5": 3
+            }
         },
         {
             "nominativo": "SCIUTO ALESSANDRO",
-            "voti": "25",
-            "lista": "REVOLUTION"
+            "lista": "REVOLUTION",
+            "voti": {
+                "totali": 25,
+                "seggio_n_4": 23,
+                "seggio_n_5": 2
+            }
         },
         {
             "nominativo": "MARRARO GIULIANA",
-            "voti": "22",
-            "lista": "REVOLUTION"
+            "lista": "REVOLUTION",
+            "voti": {
+                "totali": 22,
+                "seggio_n_4": 14,
+                "seggio_n_5": 8
+            }
         }
     ],
     "non_eletti": [
         {
             "nominativo": "FERLAZZO GABRIELE",
-            "voti": "6",
-            "lista": "GIOVANI CIDEC"
+            "lista": "GIOVANI CIDEC",
+            "voti": {
+                "totali": 6,
+                "seggio_n_4": 5,
+                "seggio_n_5": 1
+            }
         },
         {
             "nominativo": "GALEOTA CAROLINE detto \"Carola\"",
-            "voti": "2",
-            "lista": "ACTEA"
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 2,
+                "seggio_n_4": 2,
+                "seggio_n_5": 0
+            }
         },
         {
             "nominativo": "PLATANIA ANNA",
-            "voti": "0",
-            "lista": "ACTEA"
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
         },
         {
             "nominativo": "SALERNO SALVATORE",
-            "voti": "0",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
         },
         {
             "nominativo": "BARRANO FARFALLA GIUSEPPE",
-            "voti": "0",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
         },
         {
             "nominativo": "ZINGALE NOEMI MARIA",
-            "voti": "0",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
         },
         {
             "nominativo": "MIDOLO ANNAMARIA",
-            "voti": "0",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
         },
         {
             "nominativo": "FERLITO FRANCESCO",
-            "voti": "2",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 2,
+                "seggio_n_4": 0,
+                "seggio_n_5": 2
+            }
         },
         {
             "nominativo": "MARCHI' DARIO",
-            "voti": "2",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 2,
+                "seggio_n_4": 2,
+                "seggio_n_5": 0
+            }
         },
         {
             "nominativo": "FARACI DANIELE LUIGI",
-            "voti": "2",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 2,
+                "seggio_n_4": 2,
+                "seggio_n_5": 0
+            }
         },
         {
             "nominativo": "RANNISI ROBERTA",
-            "voti": "7",
-            "lista": "ALLEANZA  ‐  CONTROCAMPUS"
+            "lista": "ALLEANZA \u2010 CONTROCAMPUS",
+            "voti": {
+                "totali": 7,
+                "seggio_n_4": 7,
+                "seggio_n_5": 0
+            }
         },
         {
             "nominativo": "D'AVOLA MARILENA (Candid. Ritirata)",
-            "voti": "0",
-            "lista": "ALLEANZA  ‐  CONTROCAMPUS"
+            "lista": "ALLEANZA \u2010 CONTROCAMPUS",
+            "voti": {
+                "totali": 0
+            }
         },
         {
             "nominativo": "BULLA FRANCESCO",
-            "voti": "0",
-            "lista": "ALLEANZA  ‐  CONTROCAMPUS"
+            "lista": "ALLEANZA \u2010 CONTROCAMPUS",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
         },
         {
             "nominativo": "PRIVITERA VERONICA",
-            "voti": "0",
-            "lista": "ALLEANZA  ‐  CONTROCAMPUS"
+            "lista": "ALLEANZA \u2010 CONTROCAMPUS",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
         },
         {
             "nominativo": "CORONELLA FEDERICA GRAZIA",
-            "voti": "0",
-            "lista": "ALLEANZA  ‐  CONTROCAMPUS"
+            "lista": "ALLEANZA \u2010 CONTROCAMPUS",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
         },
         {
             "nominativo": "LO PRESTI LUCA",
-            "voti": "2",
-            "lista": "STUDENTI PER LE LIBERTÀ  ‐  AZIONE UNIVERSITARIA"
+            "lista": "STUDENTI PER LE LIBERT\u00c0 \u2010 AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 2,
+                "seggio_n_4": 0,
+                "seggio_n_5": 2
+            }
         },
         {
             "nominativo": "LA SPINA CRISTIAN",
-            "voti": "22",
-            "lista": "STUDENTI PER LE LIBERTÀ  ‐  AZIONE UNIVERSITARIA"
+            "lista": "STUDENTI PER LE LIBERT\u00c0 \u2010 AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 22,
+                "seggio_n_4": 13,
+                "seggio_n_5": 9
+            }
         },
         {
             "nominativo": "LEONARDI FRANCESCO",
-            "voti": "3",
-            "lista": "STUDENTI PER LE LIBERTÀ  ‐  AZIONE UNIVERSITARIA"
+            "lista": "STUDENTI PER LE LIBERT\u00c0 \u2010 AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 3,
+                "seggio_n_4": 3,
+                "seggio_n_5": 0
+            }
         },
         {
             "nominativo": "REITANO FLAVIA MARIA RITA",
-            "voti": "8",
-            "lista": "STUDENTI PER LE LIBERTÀ  ‐  AZIONE UNIVERSITARIA"
+            "lista": "STUDENTI PER LE LIBERT\u00c0 \u2010 AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 8,
+                "seggio_n_4": 0,
+                "seggio_n_5": 8
+            }
         },
         {
             "nominativo": "ZHAO YUN ELISABETH",
-            "voti": "10",
-            "lista": "STUDENTI PER LE LIBERTÀ  ‐  AZIONE UNIVERSITARIA"
+            "lista": "STUDENTI PER LE LIBERT\u00c0 \u2010 AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 10,
+                "seggio_n_4": 1,
+                "seggio_n_5": 9
+            }
         },
         {
             "nominativo": "BONELLI HARLEY",
-            "voti": "0",
-            "lista": "LIBERTAS LIBERI E FORTI"
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
         },
         {
             "nominativo": "CRISMA FAUSTO",
-            "voti": "7",
-            "lista": "LIBERTAS LIBERI E FORTI"
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 7,
+                "seggio_n_4": 2,
+                "seggio_n_5": 5
+            }
         },
         {
             "nominativo": "BRUNO GIORGIA",
-            "voti": "0",
-            "lista": "LIBERTAS LIBERI E FORTI"
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
         },
         {
             "nominativo": "MONDELLO VIVIANA",
-            "voti": "0",
-            "lista": "LIBERTAS LIBERI E FORTI"
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
         },
         {
             "nominativo": "ZISA MATTEO",
-            "voti": "2",
-            "lista": "LIBERTAS LIBERI E FORTI"
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 2,
+                "seggio_n_4": 2,
+                "seggio_n_5": 0
+            }
         },
         {
             "nominativo": "SARANITI ERIKA",
-            "voti": "0",
-            "lista": "LIBERTAS LIBERI E FORTI"
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
         },
         {
             "nominativo": "ITALIANO ALESSANDRO",
-            "voti": "10",
-            "lista": "LIBERTAS LIBERI E FORTI"
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 10,
+                "seggio_n_4": 9,
+                "seggio_n_5": 1
+            }
         },
         {
             "nominativo": "FLORIDIA DAVIDE",
-            "voti": "20",
-            "lista": "ARCADIA"
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 20,
+                "seggio_n_4": 15,
+                "seggio_n_5": 5
+            }
         },
         {
             "nominativo": "FINOCCHIARO MICAELE detto \"Michael\"",
-            "voti": "12",
-            "lista": "ARCADIA"
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 12,
+                "seggio_n_4": 11,
+                "seggio_n_5": 1
+            }
         },
         {
             "nominativo": "LO PRESTI MATTIA LUIGI",
-            "voti": "0",
-            "lista": "ARCADIA"
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
         },
         {
             "nominativo": "LIOTTA DARIO",
-            "voti": "0",
-            "lista": "ARCADIA"
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
         },
         {
             "nominativo": "CUCE' SEBASTIANO SALVATORE",
-            "voti": "1",
-            "lista": "ARCADIA"
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_4": 0,
+                "seggio_n_5": 1
+            }
         },
         {
             "nominativo": "CASELLA ANGELO",
-            "voti": "0",
-            "lista": "ARCADIA"
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
         },
         {
             "nominativo": "SALERNO CHIARA",
-            "voti": "0",
-            "lista": "ARCADIA"
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
         },
         {
             "nominativo": "AIELLO GIOVANNI",
-            "voti": "2",
-            "lista": "ARCADIA"
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 2,
+                "seggio_n_4": 0,
+                "seggio_n_5": 2
+            }
         },
         {
             "nominativo": "DE MELIO DAMIANO",
-            "voti": "1",
-            "lista": "ARCADIA"
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_4": 1,
+                "seggio_n_5": 0
+            }
         },
         {
             "nominativo": "DI STEFANO DANIELE",
-            "voti": "2",
-            "lista": "ARCADIA"
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 2,
+                "seggio_n_4": 0,
+                "seggio_n_5": 2
+            }
         },
         {
             "nominativo": "SANTORO SIMONA MARIA",
-            "voti": "6",
-            "lista": "REVOLUTION"
+            "lista": "REVOLUTION",
+            "voti": {
+                "totali": 6,
+                "seggio_n_4": 6,
+                "seggio_n_5": 0
+            }
         },
         {
             "nominativo": "DA CAMPO MARIA LORENA",
-            "voti": "0",
-            "lista": "REVOLUTION"
+            "lista": "REVOLUTION",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
         },
         {
             "nominativo": "PATANE' CARLA ANGELA",
-            "voti": "0",
-            "lista": "REVOLUTION"
+            "lista": "REVOLUTION",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
         },
         {
             "nominativo": "GIAMBELLO CHIARA",
-            "voti": "0",
-            "lista": "REVOLUTION"
+            "lista": "REVOLUTION",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
         },
         {
             "nominativo": "BONFIGLIO SAMUELE",
-            "voti": "0",
-            "lista": "REVOLUTION"
+            "lista": "REVOLUTION",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
         },
         {
             "nominativo": "ANDRONACO LUCA",
-            "voti": "0",
-            "lista": "REVOLUTION"
+            "lista": "REVOLUTION",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0,
+                "seggio_n_5": 0
+            }
         }
     ],
-    "seggi_da_assegnare": "16",
-    "dipartimento": "SCIENZE POLITICHE E SOCIALI - DSPS",
-    "quoziente": "57,625",
-    "votanti": "1058",
-    "perc_votanti": "32,99",
-    "elettori": "3207"
+    "quoziente": 57.625,
+    "votanti": {
+        "totali": 1058,
+        "percentuale": 32.99,
+        "seggio_n_4": 543,
+        "seggio_n_5": 515
+    },
+    "elettori": {
+        "totali": 3207,
+        "seggio_n_4": 1639,
+        "seggio_n_5": 1568
+    }
 }

@@ -1,285 +1,577 @@
 {
+    "dipartimento": "SCIENZE DELLA FORMAZIONE",
+    "seggi_da_assegnare": "8",
     "schede": {
-        "Schede Bianche": "35",
-        "Schede Nulle": "30",
-        "Schede Contestate": "0"
+        "bianche": {
+            "totali": 35,
+            "seggio_n_31": 20,
+            "seggio_n_32": 15
+        },
+        "nulle": {
+            "totali": 30,
+            "seggio_n_31": 22,
+            "seggio_n_32": 8
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_31": 0,
+            "seggio_n_32": 0
+        }
     },
     "liste": [
         {
-            "nome": "LA FINESTRA ‐ LIBERI DI SCEGLIERE",
-            "voti_totali": 192
+            "nome": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "91,9",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 192,
+                "seggio_n_31": 150,
+                "seggio_n_32": 42
+            }
         },
         {
-            "nome": "ARCHÈ",
-            "voti_totali": 7
+            "nome": "ARCHE'",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "10,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 10,
+                "seggio_n_31": 9,
+                "seggio_n_32": 1
+            }
         },
         {
             "nome": "CONTROCAMPUS",
-            "voti_totali": 7
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "23,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 23,
+                "seggio_n_31": 16,
+                "seggio_n_32": 7
+            }
         },
         {
-            "nome": "UNIVERSITÀ POPOLARE",
-            "voti_totali": 5
+            "nome": "UNIVERSITA' POPOLARE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "3,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 3,
+                "seggio_n_31": 1,
+                "seggio_n_32": 2
+            }
         },
         {
-            "nome": "LIBERTAS ‐ IRIDE",
-            "voti_totali": 5
+            "nome": "LIBERTAS \u2010 IRIDE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "23,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 23,
+                "seggio_n_31": 18,
+                "seggio_n_32": 5
+            }
         },
         {
             "nome": "WE LOVE UNICT",
-            "voti_totali": 33
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "11,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 11,
+                "seggio_n_31": 5,
+                "seggio_n_32": 6
+            }
         },
         {
-            "nome": "M.S.U. EVOLUTION",
-            "voti_totali": 33
+            "nome": "M.S.U. EVOLUTION",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "63,9",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 164,
+                "seggio_n_31": 131,
+                "seggio_n_32": 33
+            }
         },
         {
             "nome": "AZIONE UNIVERSITARIA",
-            "voti_totali": 123
+            "seggi": {
+                "seggi_pieni": "3",
+                "resti": "74,6",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "4"
+            },
+            "voti": {
+                "totali": 375,
+                "seggio_n_31": 252,
+                "seggio_n_32": 123
+            }
+        },
+        {
+            "totale": 801
         }
     ],
     "eletti": [
         {
-            "nominativo": "CAROLLO Ilaria ‐ detta \"Ilenia\" o \"Corallo\"",
-            "voti": "51",
-            "lista": "LA FINESTRA ‐ LIBERI DI SCEGLIERE"
+            "nominativo": "CAROLLO Ilaria \u2010 detta \"Ilenia\" o \"Corallo\"",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 51,
+                "seggio_n_31": 37,
+                "seggio_n_32": 14
+            }
         },
         {
-            "nominativo": "MAUGERI Andrea",
-            "voti": "80",
-            "lista": "LA FINESTRA ‐ LIBERI DI SCEGLIERE"
+            "nominativo": "MAUGERI Andrea",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 80,
+                "seggio_n_31": 74,
+                "seggio_n_32": 6
+            }
         },
         {
-            "nominativo": "FAIA Carola Carmela",
-            "voti": "75",
-            "lista": "M.S.U. EVOLUTION"
+            "nominativo": "FAIA Carola Carmela",
+            "lista": "M.S.U. EVOLUTION",
+            "voti": {
+                "totali": 75,
+                "seggio_n_31": 53,
+                "seggio_n_32": 22
+            }
         },
         {
-            "nominativo": "SANFILIPPO Vanessa",
-            "voti": "46",
-            "lista": "M.S.U. EVOLUTION"
+            "nominativo": "SANFILIPPO Vanessa",
+            "lista": "M.S.U. EVOLUTION",
+            "voti": {
+                "totali": 46,
+                "seggio_n_31": 42,
+                "seggio_n_32": 4
+            }
         },
         {
-            "nominativo": "BRUNETTO Fabiana",
-            "voti": "183",
-            "lista": "AZIONE UNIVERSITARIA"
+            "nominativo": "BRUNETTO Fabiana",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 183,
+                "seggio_n_31": 176,
+                "seggio_n_32": 7
+            }
         },
         {
-            "nominativo": "BATTAGLIA Gabriele Mauro",
-            "voti": "85",
-            "lista": "AZIONE UNIVERSITARIA"
+            "nominativo": "BATTAGLIA Gabriele Mauro",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 85,
+                "seggio_n_31": 1,
+                "seggio_n_32": 84
+            }
         },
         {
-            "nominativo": "SACCUTA Luisa",
-            "voti": "30",
-            "lista": "AZIONE UNIVERSITARIA"
+            "nominativo": "SACCUTA Luisa",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 30,
+                "seggio_n_31": 30,
+                "seggio_n_32": 0
+            }
         },
         {
-            "nominativo": "GULLIFA Palma Emanuela",
-            "voti": "19",
-            "lista": "AZIONE UNIVERSITARIA"
+            "nominativo": "GULLIFA Palma Emanuela",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 19,
+                "seggio_n_31": 0,
+                "seggio_n_32": 19
+            }
         }
     ],
     "non_eletti": [
         {
-            "nominativo": "MICELI Silvia",
-            "voti": "23",
-            "lista": "LA FINESTRA ‐ LIBERI DI SCEGLIERE"
+            "nominativo": "MICELI Silvia",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 23,
+                "seggio_n_31": 15,
+                "seggio_n_32": 8
+            }
         },
         {
-            "nominativo": "RICCI Marika Simona Rita",
-            "voti": "10",
-            "lista": "LA FINESTRA ‐ LIBERI DI SCEGLIERE"
+            "nominativo": "RICCI Marika Simona Rita",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 10,
+                "seggio_n_31": 0,
+                "seggio_n_32": 10
+            }
         },
         {
-            "nominativo": "CURTO Giuliana",
-            "voti": "1",
-            "lista": "LA FINESTRA ‐ LIBERI DI SCEGLIERE"
+            "nominativo": "CURTO Giuliana",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 1,
+                "seggio_n_31": 1,
+                "seggio_n_32": 0
+            }
         },
         {
-            "nominativo": "MONASTRA Dario",
-            "voti": "3",
-            "lista": "LA FINESTRA ‐ LIBERI DI SCEGLIERE"
+            "nominativo": "MONASTRA Dario",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 3,
+                "seggio_n_31": 1,
+                "seggio_n_32": 2
+            }
         },
         {
-            "nominativo": "CIRAVOLO Miriam",
-            "voti": "0",
-            "lista": "LA FINESTRA ‐ LIBERI DI SCEGLIERE"
+            "nominativo": "CIRAVOLO Miriam",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0,
+                "seggio_n_32": 0
+            }
         },
         {
-            "nominativo": "DE PASQUALE Giulio",
-            "voti": "0",
-            "lista": "LA FINESTRA ‐ LIBERI DI SCEGLIERE"
+            "nominativo": "DE PASQUALE Giulio",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0,
+                "seggio_n_32": 0
+            }
         },
         {
-            "nominativo": "CAPPADONNA Marco",
-            "voti": "8",
-            "lista": "ARCHÈ"
+            "nominativo": "CAPPADONNA Marco",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 8,
+                "seggio_n_31": 8,
+                "seggio_n_32": 0
+            }
         },
         {
-            "nominativo": "MANCIAGLI Camilla Maria Catena",
-            "voti": "0",
-            "lista": "ARCHÈ"
+            "nominativo": "MANCIAGLI Camilla Maria Catena",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0,
+                "seggio_n_32": 0
+            }
         },
         {
-            "nominativo": "CRIMI Giada",
-            "voti": "13",
-            "lista": "CONTROCAMPUS"
+            "nominativo": "CRIMI Giada",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 13,
+                "seggio_n_31": 13,
+                "seggio_n_32": 0
+            }
         },
         {
-            "nominativo": "PEZZINO Gloria Maria Rita",
-            "voti": "0",
-            "lista": "CONTROCAMPUS"
+            "nominativo": "PEZZINO Gloria Maria Rita",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0,
+                "seggio_n_32": 0
+            }
         },
         {
-            "nominativo": "PIGNATARO Francesco",
-            "voti": "6",
-            "lista": "CONTROCAMPUS"
+            "nominativo": "PIGNATARO Francesco",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 6,
+                "seggio_n_31": 0,
+                "seggio_n_32": 6
+            }
         },
         {
-            "nominativo": "VITANZA Clelia Lucia",
-            "voti": "0",
-            "lista": "CONTROCAMPUS"
+            "nominativo": "VITANZA Clelia Lucia",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0,
+                "seggio_n_32": 0
+            }
         },
         {
-            "nominativo": "CRIMI Noemi",
-            "voti": "0",
-            "lista": "CONTROCAMPUS"
+            "nominativo": "CRIMI Noemi",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0,
+                "seggio_n_32": 0
+            }
         },
         {
-            "nominativo": "CAVALLARO Chiara",
-            "voti": "0",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "nominativo": "CAVALLARO Chiara",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0,
+                "seggio_n_32": 0
+            }
         },
         {
-            "nominativo": "PALMA Michele Alberto",
-            "voti": "0",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "nominativo": "PALMA Michele Alberto",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0,
+                "seggio_n_32": 0
+            }
         },
         {
-            "nominativo": "SCANDURA Morgana",
-            "voti": "0",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "nominativo": "SCANDURA Morgana",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0,
+                "seggio_n_32": 0
+            }
         },
         {
-            "nominativo": "SALEMI Giuseppe",
-            "voti": "5",
-            "lista": "LIBERTAS ‐ IRIDE"
+            "nominativo": "SALEMI Giuseppe",
+            "lista": "LIBERTAS \u2010 IRIDE",
+            "voti": {
+                "totali": 5,
+                "seggio_n_31": 4,
+                "seggio_n_32": 1
+            }
         },
         {
-            "nominativo": "SCHEMBARI Michela",
-            "voti": "10",
-            "lista": "LIBERTAS ‐ IRIDE"
+            "nominativo": "SCHEMBARI Michela",
+            "lista": "LIBERTAS \u2010 IRIDE",
+            "voti": {
+                "totali": 10,
+                "seggio_n_31": 9,
+                "seggio_n_32": 1
+            }
         },
         {
-            "nominativo": "IGNOTO Serena",
-            "voti": "2",
-            "lista": "LIBERTAS ‐ IRIDE"
+            "nominativo": "IGNOTO Serena",
+            "lista": "LIBERTAS \u2010 IRIDE",
+            "voti": {
+                "totali": 2,
+                "seggio_n_31": 1,
+                "seggio_n_32": 1
+            }
         },
         {
-            "nominativo": "FICHERA Giulia",
-            "voti": "1",
-            "lista": "LIBERTAS ‐ IRIDE"
+            "nominativo": "FICHERA Giulia",
+            "lista": "LIBERTAS \u2010 IRIDE",
+            "voti": {
+                "totali": 1,
+                "seggio_n_31": 1,
+                "seggio_n_32": 0
+            }
         },
         {
-            "nominativo": "BERTOLO Alessia",
-            "voti": "0",
-            "lista": "LIBERTAS ‐ IRIDE"
+            "nominativo": "BERTOLO Alessia",
+            "lista": "LIBERTAS \u2010 IRIDE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0,
+                "seggio_n_32": 0
+            }
         },
         {
-            "nominativo": "GIUSTOLISI Anna",
-            "voti": "0",
-            "lista": "LIBERTAS ‐ IRIDE"
+            "nominativo": "GIUSTOLISI Anna",
+            "lista": "LIBERTAS \u2010 IRIDE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0,
+                "seggio_n_32": 0
+            }
         },
         {
-            "nominativo": "DI STEFANO Barbara",
-            "voti": "1",
-            "lista": "LIBERTAS ‐ IRIDE"
+            "nominativo": "DI STEFANO Barbara",
+            "lista": "LIBERTAS \u2010 IRIDE",
+            "voti": {
+                "totali": 1,
+                "seggio_n_31": 1,
+                "seggio_n_32": 0
+            }
         },
         {
-            "nominativo": "LO CICERO Simona",
-            "voti": "0",
-            "lista": "LIBERTAS ‐ IRIDE"
+            "nominativo": "LO CICERO Simona",
+            "lista": "LIBERTAS \u2010 IRIDE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0,
+                "seggio_n_32": 0
+            }
         },
         {
-            "nominativo": "SPAMPINATO Valentina",
-            "voti": "0",
-            "lista": "WE LOVE UNICT"
+            "nominativo": "SPAMPINATO Valentina",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0,
+                "seggio_n_32": 0
+            }
         },
         {
-            "nominativo": "IUVARA Enrica",
-            "voti": "0",
-            "lista": "WE LOVE UNICT"
+            "nominativo": "IUVARA Enrica",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0,
+                "seggio_n_32": 0
+            }
         },
         {
-            "nominativo": "LISI Mariannika",
-            "voti": "0",
-            "lista": "WE LOVE UNICT"
+            "nominativo": "LISI Mariannika",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0,
+                "seggio_n_32": 0
+            }
         },
         {
-            "nominativo": "GELSOMINO Orazio",
-            "voti": "0",
-            "lista": "WE LOVE UNICT"
+            "nominativo": "GELSOMINO Orazio",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0,
+                "seggio_n_32": 0
+            }
         },
         {
-            "nominativo": "PATERNO' Anastasia",
-            "voti": "0",
-            "lista": "WE LOVE UNICT"
+            "nominativo": "PATERNO' Anastasia",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0,
+                "seggio_n_32": 0
+            }
         },
         {
-            "nominativo": "GARGANO Davide",
-            "voti": "0",
-            "lista": "M.S.U. EVOLUTION"
+            "nominativo": "GARGANO Davide",
+            "lista": "M.S.U. EVOLUTION",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0,
+                "seggio_n_32": 0
+            }
         },
         {
-            "nominativo": "VALORE Francesco",
-            "voti": "28",
-            "lista": "M.S.U. EVOLUTION"
+            "nominativo": "VALORE Francesco",
+            "lista": "M.S.U. EVOLUTION",
+            "voti": {
+                "totali": 28,
+                "seggio_n_31": 27,
+                "seggio_n_32": 1
+            }
         },
         {
-            "nominativo": "CELESTRE Giuseppe",
-            "voti": "0",
-            "lista": "M.S.U. EVOLUTION"
+            "nominativo": "CELESTRE Giuseppe",
+            "lista": "M.S.U. EVOLUTION",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0,
+                "seggio_n_32": 0
+            }
         },
         {
-            "nominativo": "ROMANO Chiara",
-            "voti": "0",
-            "lista": "M.S.U. EVOLUTION"
+            "nominativo": "ROMANO Chiara",
+            "lista": "M.S.U. EVOLUTION",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0,
+                "seggio_n_32": 0
+            }
         },
         {
-            "nominativo": "SCELLATO Silvia",
-            "voti": "3",
-            "lista": "M.S.U. EVOLUTION"
+            "nominativo": "SCELLATO Silvia",
+            "lista": "M.S.U. EVOLUTION",
+            "voti": {
+                "totali": 3,
+                "seggio_n_31": 0,
+                "seggio_n_32": 3
+            }
         },
         {
-            "nominativo": "RAPISARDA Sabrina",
-            "voti": "1",
-            "lista": "M.S.U. EVOLUTION"
+            "nominativo": "RAPISARDA Sabrina",
+            "lista": "M.S.U. EVOLUTION",
+            "voti": {
+                "totali": 1,
+                "seggio_n_31": 0,
+                "seggio_n_32": 1
+            }
         },
         {
-            "nominativo": "DI SIMONE Valentina",
-            "voti": "16",
-            "lista": "AZIONE UNIVERSITARIA"
+            "nominativo": "DI SIMONE Valentina",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 16,
+                "seggio_n_31": 14,
+                "seggio_n_32": 2
+            }
         },
         {
-            "nominativo": "DRAGO Alessia Maria",
-            "voti": "2",
-            "lista": "AZIONE UNIVERSITARIA"
+            "nominativo": "DRAGO Alessia Maria",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 2,
+                "seggio_n_31": 2,
+                "seggio_n_32": 0
+            }
         },
         {
-            "nominativo": "GAGLIANO Giuseppe",
-            "voti": "15",
-            "lista": "AZIONE UNIVERSITARIA"
+            "nominativo": "GAGLIANO Giuseppe",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 15,
+                "seggio_n_31": 15,
+                "seggio_n_32": 0
+            }
         },
         {
-            "nominativo": "SEMINARA Rosaria",
-            "voti": "1",
-            "lista": "AZIONE UNIVERSITARIA"
+            "nominativo": "SEMINARA Rosaria",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_31": 0,
+                "seggio_n_32": 1
+            }
         }
     ],
-    "seggi_da_assegnare": "8",
-    "dipartimento": "SCIENZE DELLA FORMAZIONE",
-    "quoziente": "100,125",
-    "votanti": "866",
-    "perc_votanti": "29,06"
+    "quoziente": 100.125,
+    "votanti": {
+        "totali": 866,
+        "percentuale": 29.06,
+        "seggio_n_31": 624,
+        "seggio_n_32": 242
+    },
+    "elettori": {
+        "totali": 2980,
+        "seggio_n_31": 1983,
+        "seggio_n_32": 997
+    }
 }

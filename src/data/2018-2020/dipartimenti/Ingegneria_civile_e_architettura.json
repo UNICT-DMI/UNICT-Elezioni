@@ -1,267 +1,531 @@
 {
+    "dipartimento": "INGEGNERIA CIVILE E ARCHITETTURA (DICAR)",
+    "seggi_da_assegnare": "15",
     "schede": {
-        "Schede Bianche": "29",
-        "Schede Nulle": "19",
-        "Schede Contestate": "0"
+        "bianche": {
+            "totali": 29,
+            "seggio_n_27": 16,
+            "seggio_n_28": 13
+        },
+        "nulle": {
+            "totali": 19,
+            "seggio_n_27": 6,
+            "seggio_n_28": 13
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_27": 0,
+            "seggio_n_28": 0
+        }
     },
     "liste": [
         {
             "nome": "LAYOUT",
-            "voti_totali": 153
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "49,9",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "3"
+            },
+            "voti": {
+                "totali": 153,
+                "seggio_n_27": 44,
+                "seggio_n_28": 109
+            }
         },
         {
             "nome": "ACTEA",
-            "voti_totali": 33
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "38,9",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "3"
+            },
+            "voti": {
+                "totali": 142,
+                "seggio_n_27": 109,
+                "seggio_n_28": 33
+            }
         },
         {
-            "nome": "UNIVERSITÀ POPOLARE",
-            "voti_totali": 91
+            "nome": "UNIVERSITA' POPOLARE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "10,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 10,
+                "seggio_n_27": 9,
+                "seggio_n_28": 1
+            }
         },
         {
             "nome": "INGENERIATTIVA",
-            "voti_totali": 197
+            "seggi": {
+                "seggi_pieni": "4",
+                "resti": "23,9",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "4"
+            },
+            "voti": {
+                "totali": 230,
+                "seggio_n_27": 33,
+                "seggio_n_28": 197
+            }
         },
         {
             "nome": "WE LOVE UNICT",
-            "voti_totali": 25
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "42,5",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 94,
+                "seggio_n_27": 69,
+                "seggio_n_28": 25
+            }
         },
         {
             "nome": "AZIONE UNIVERSITARIA",
-            "voti_totali": 65
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "40,9",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "3"
+            },
+            "voti": {
+                "totali": 144,
+                "seggio_n_27": 79,
+                "seggio_n_28": 65
+            }
+        },
+        {
+            "totale": 773
         }
     ],
     "eletti": [
         {
-            "nominativo": "CONSOLO Mattia",
-            "voti": "45",
-            "lista": "LAYOUT"
+            "nominativo": "CONSOLO Mattia",
+            "lista": "LAYOUT",
+            "voti": {
+                "totali": 45,
+                "seggio_n_27": 1,
+                "seggio_n_28": 44
+            }
         },
         {
-            "nominativo": "D 'AMORE Rosario",
-            "voti": "39",
-            "lista": "LAYOUT"
+            "nominativo": "D 'AMORE Rosario",
+            "lista": "LAYOUT",
+            "voti": {
+                "totali": 39,
+                "seggio_n_27": 1,
+                "seggio_n_28": 38
+            }
         },
         {
-            "nominativo": "FAZIO Martina",
-            "voti": "25",
-            "lista": "LAYOUT"
+            "nominativo": "FAZIO Martina",
+            "lista": "LAYOUT",
+            "voti": {
+                "totali": 25,
+                "seggio_n_27": 25,
+                "seggio_n_28": 0
+            }
         },
         {
-            "nominativo": "DI GRAZIA Federico Filippo",
-            "voti": "25",
-            "lista": "LAYOUT"
+            "nominativo": "DI GRAZIA Federico Filippo",
+            "lista": "LAYOUT",
+            "voti": {
+                "totali": 25,
+                "seggio_n_27": 14,
+                "seggio_n_28": 11
+            }
         },
         {
-            "nominativo": "SCAVONE Giuseppe",
-            "voti": "80",
-            "lista": "ACTEA"
+            "nominativo": "SCAVONE Giuseppe",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 80,
+                "seggio_n_27": 79,
+                "seggio_n_28": 1
+            }
         },
         {
-            "nominativo": "VIAGGIO Carmelo",
-            "voti": "17",
-            "lista": "ACTEA"
+            "nominativo": "VIAGGIO Carmelo",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 17,
+                "seggio_n_27": 2,
+                "seggio_n_28": 15
+            }
         },
         {
-            "nominativo": "ROSANO Salvatore",
-            "voti": "11",
-            "lista": "ACTEA"
+            "nominativo": "ROSANO Salvatore",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 11,
+                "seggio_n_27": 11,
+                "seggio_n_28": 0
+            }
         },
         {
-            "nominativo": "CAMPOLO Pietro",
-            "voti": "67",
-            "lista": "INGENERIATTIVA"
+            "nominativo": "CAMPOLO Pietro",
+            "lista": "INGENERIATTIVA",
+            "voti": {
+                "totali": 67,
+                "seggio_n_27": 0,
+                "seggio_n_28": 67
+            }
         },
         {
-            "nominativo": "ALLEGRA Giuseppe",
-            "voti": "47",
-            "lista": "INGENERIATTIVA"
+            "nominativo": "ALLEGRA Giuseppe",
+            "lista": "INGENERIATTIVA",
+            "voti": {
+                "totali": 47,
+                "seggio_n_27": 16,
+                "seggio_n_28": 31
+            }
         },
         {
-            "nominativo": "NICODEMO Adriano",
-            "voti": "30",
-            "lista": "INGENERIATTIVA"
+            "nominativo": "NICODEMO Adriano",
+            "lista": "INGENERIATTIVA",
+            "voti": {
+                "totali": 30,
+                "seggio_n_27": 1,
+                "seggio_n_28": 29
+            }
         },
         {
-            "nominativo": "LONGHITANO Andrea",
-            "voti": "26",
-            "lista": "INGENERIATTIVA"
+            "nominativo": "LONGHITANO Andrea",
+            "lista": "INGENERIATTIVA",
+            "voti": {
+                "totali": 26,
+                "seggio_n_27": 0,
+                "seggio_n_28": 26
+            }
         },
         {
-            "nominativo": "D'AGATE Rosario ‐ detto \"Saro\"",
-            "voti": "37",
-            "lista": "WE LOVE UNICT"
+            "nominativo": "D'AGATE Rosario \u2010 detto \"Saro\"",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 37,
+                "seggio_n_27": 30,
+                "seggio_n_28": 7
+            }
         },
         {
-            "nominativo": "ANFUSO Fabio Giovanni",
-            "voti": "35",
-            "lista": "WE LOVE UNICT"
+            "nominativo": "ANFUSO Fabio Giovanni",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 35,
+                "seggio_n_27": 23,
+                "seggio_n_28": 12
+            }
         },
         {
-            "nominativo": "SACCUZZO Salvatore",
-            "voti": "49",
-            "lista": "AZIONE UNIVERSITARIA"
+            "nominativo": "SACCUZZO Salvatore",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 49,
+                "seggio_n_27": 45,
+                "seggio_n_28": 4
+            }
         },
         {
-            "nominativo": "GRECO Sebastiano",
-            "voti": "48",
-            "lista": "AZIONE UNIVERSITARIA"
+            "nominativo": "GRECO Sebastiano",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 48,
+                "seggio_n_27": 0,
+                "seggio_n_28": 48
+            }
         },
         {
-            "nominativo": "COSTANTE AMORE Edoardo",
-            "voti": "17",
-            "lista": "AZIONE UNIVERSITARIA"
+            "nominativo": "COSTANTE AMORE Edoardo",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 17,
+                "seggio_n_27": 17,
+                "seggio_n_28": 0
+            }
         }
     ],
     "non_eletti": [
         {
-            "nominativo": "SFERRAZZO Antonio",
-            "voti": "13",
-            "lista": "LAYOUT"
+            "nominativo": "SFERRAZZO Antonio",
+            "lista": "LAYOUT",
+            "voti": {
+                "totali": 13,
+                "seggio_n_27": 1,
+                "seggio_n_28": 12
+            }
         },
         {
-            "nominativo": "GULISANO Valeria",
-            "voti": "2",
-            "lista": "LAYOUT"
+            "nominativo": "GULISANO Valeria",
+            "lista": "LAYOUT",
+            "voti": {
+                "totali": 2,
+                "seggio_n_27": 0,
+                "seggio_n_28": 2
+            }
         },
         {
-            "nominativo": "MOSCHETTO Antonino Andrea",
-            "voti": "10",
-            "lista": "ACTEA"
+            "nominativo": "MOSCHETTO Antonino Andrea",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 10,
+                "seggio_n_27": 6,
+                "seggio_n_28": 4
+            }
         },
         {
-            "nominativo": "MALATINO Anna Maria ‐ detta \"Anna\"",
-            "voti": "4",
-            "lista": "ACTEA"
+            "nominativo": "MALATINO Anna Maria \u2010 detta \"Anna\"",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 4,
+                "seggio_n_27": 4,
+                "seggio_n_28": 0
+            }
         },
         {
-            "nominativo": "BOMBACI Luca",
-            "voti": "1",
-            "lista": "ACTEA"
+            "nominativo": "BOMBACI Luca",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_27": 1,
+                "seggio_n_28": 0
+            }
         },
         {
-            "nominativo": "FAZIO Simone",
-            "voti": "4",
-            "lista": "ACTEA"
+            "nominativo": "FAZIO Simone",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 4,
+                "seggio_n_27": 0,
+                "seggio_n_28": 4
+            }
         },
         {
-            "nominativo": "GRIGOLI Giuseppe",
-            "voti": "4",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "nominativo": "GRIGOLI Giuseppe",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 4,
+                "seggio_n_27": 4,
+                "seggio_n_28": 0
+            }
         },
         {
-            "nominativo": "STANCAMPIANO Ornella",
-            "voti": "0",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "nominativo": "STANCAMPIANO Ornella",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_27": 0,
+                "seggio_n_28": 0
+            }
         },
         {
-            "nominativo": "CAROLLO Federica Carla",
-            "voti": "0",
-            "lista": "INGENERIATTIVA"
+            "nominativo": "CAROLLO Federica Carla",
+            "lista": "INGENERIATTIVA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_27": 0,
+                "seggio_n_28": 0
+            }
         },
         {
-            "nominativo": "ATTARDO Ivan",
-            "voti": "6",
-            "lista": "INGENERIATTIVA"
+            "nominativo": "ATTARDO Ivan",
+            "lista": "INGENERIATTIVA",
+            "voti": {
+                "totali": 6,
+                "seggio_n_27": 0,
+                "seggio_n_28": 6
+            }
         },
         {
-            "nominativo": "PRIVITERA Salvatore",
-            "voti": "4",
-            "lista": "INGENERIATTIVA"
+            "nominativo": "PRIVITERA Salvatore",
+            "lista": "INGENERIATTIVA",
+            "voti": {
+                "totali": 4,
+                "seggio_n_27": 0,
+                "seggio_n_28": 4
+            }
         },
         {
-            "nominativo": "LOMEO Francesco ‐ detto \"Ciccio\"",
-            "voti": "6",
-            "lista": "INGENERIATTIVA"
+            "nominativo": "LOMEO Francesco \u2010 detto \"Ciccio\"",
+            "lista": "INGENERIATTIVA",
+            "voti": {
+                "totali": 6,
+                "seggio_n_27": 1,
+                "seggio_n_28": 5
+            }
         },
         {
-            "nominativo": "QUACECI Nicholas",
-            "voti": "7",
-            "lista": "INGENERIATTIVA"
+            "nominativo": "QUACECI Nicholas",
+            "lista": "INGENERIATTIVA",
+            "voti": {
+                "totali": 7,
+                "seggio_n_27": 0,
+                "seggio_n_28": 7
+            }
         },
         {
-            "nominativo": "COSTANTINO Alice",
-            "voti": "22",
-            "lista": "INGENERIATTIVA"
+            "nominativo": "COSTANTINO Alice",
+            "lista": "INGENERIATTIVA",
+            "voti": {
+                "totali": 22,
+                "seggio_n_27": 4,
+                "seggio_n_28": 18
+            }
         },
         {
-            "nominativo": "TOMASELLO Stefano",
-            "voti": "1",
-            "lista": "INGENERIATTIVA"
+            "nominativo": "TOMASELLO Stefano",
+            "lista": "INGENERIATTIVA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_27": 1,
+                "seggio_n_28": 0
+            }
         },
         {
-            "nominativo": "FICHERA Sofia",
-            "voti": "6",
-            "lista": "WE LOVE UNICT"
+            "nominativo": "FICHERA Sofia",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 6,
+                "seggio_n_27": 4,
+                "seggio_n_28": 2
+            }
         },
         {
-            "nominativo": "PANTO' Dario Emanuele",
-            "voti": "0",
-            "lista": "WE LOVE UNICT"
+            "nominativo": "PANTO' Dario Emanuele",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_27": 0,
+                "seggio_n_28": 0
+            }
         },
         {
-            "nominativo": "SANTINI Andrea",
-            "voti": "1",
-            "lista": "WE LOVE UNICT"
+            "nominativo": "SANTINI Andrea",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 1,
+                "seggio_n_27": 0,
+                "seggio_n_28": 1
+            }
         },
         {
-            "nominativo": "ANZA' Mario Gaspare",
-            "voti": "0",
-            "lista": "WE LOVE UNICT"
+            "nominativo": "ANZA' Mario Gaspare",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_27": 0,
+                "seggio_n_28": 0
+            }
         },
         {
-            "nominativo": "FASSARI Filippo",
-            "voti": "0",
-            "lista": "WE LOVE UNICT"
+            "nominativo": "FASSARI Filippo",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_27": 0,
+                "seggio_n_28": 0
+            }
         },
         {
-            "nominativo": "PIANA Alberto Sebastiano",
-            "voti": "0",
-            "lista": "WE LOVE UNICT"
+            "nominativo": "PIANA Alberto Sebastiano",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_27": 0,
+                "seggio_n_28": 0
+            }
         },
         {
-            "nominativo": "GRECO Marco Pio",
-            "voti": "0",
-            "lista": "WE LOVE UNICT"
+            "nominativo": "GRECO Marco Pio",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_27": 0,
+                "seggio_n_28": 0
+            }
         },
         {
-            "nominativo": "FERRO Noemi",
-            "voti": "2",
-            "lista": "WE LOVE UNICT"
+            "nominativo": "FERRO Noemi",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 2,
+                "seggio_n_27": 0,
+                "seggio_n_28": 2
+            }
         },
         {
-            "nominativo": "LICANDRI Giorgia",
-            "voti": "0",
-            "lista": "WE LOVE UNICT"
+            "nominativo": "LICANDRI Giorgia",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_27": 0,
+                "seggio_n_28": 0
+            }
         },
         {
-            "nominativo": "MANGANO Saverio",
-            "voti": "12",
-            "lista": "AZIONE UNIVERSITARIA"
+            "nominativo": "MANGANO Saverio",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 12,
+                "seggio_n_27": 3,
+                "seggio_n_28": 9
+            }
         },
         {
-            "nominativo": "FISICARO Fabio",
-            "voti": "0",
-            "lista": "AZIONE UNIVERSITARIA"
+            "nominativo": "FISICARO Fabio",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_27": 0,
+                "seggio_n_28": 0
+            }
         },
         {
-            "nominativo": "SETOLA Riccardo",
-            "voti": "3",
-            "lista": "AZIONE UNIVERSITARIA"
+            "nominativo": "SETOLA Riccardo",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 3,
+                "seggio_n_27": 2,
+                "seggio_n_28": 1
+            }
         },
         {
-            "nominativo": "AMBROSIO Angelo",
-            "voti": "0",
-            "lista": "AZIONE UNIVERSITARIA"
+            "nominativo": "AMBROSIO Angelo",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_27": 0,
+                "seggio_n_28": 0
+            }
         },
         {
-            "nominativo": "RADICCHIO Massimiliano",
-            "voti": "5",
-            "lista": "AZIONE UNIVERSITARIA"
+            "nominativo": "RADICCHIO Massimiliano",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 5,
+                "seggio_n_27": 5,
+                "seggio_n_28": 0
+            }
         }
     ],
-    "seggi_da_assegnare": "15",
-    "dipartimento": "INGEGNERIA CIVILE E ARCHITETTURA  (DICAR)",
-    "quoziente": "51,5333",
-    "votanti": "821",
-    "perc_votanti": "49,58"
+    "quoziente": 51.5333,
+    "votanti": {
+        "totali": 821,
+        "percentuale": 49.58,
+        "seggio_n_27": 365,
+        "seggio_n_28": 456
+    },
+    "elettori": {
+        "totali": 1656,
+        "seggio_n_27": 829,
+        "seggio_n_28": 827
+    }
 }

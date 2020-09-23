@@ -1,164 +1,302 @@
 {
+    "dipartimento": "SCIENZE BIOMEDICHE E BIOTECNOLOGICHE",
+    "seggi_da_assegnare": "11",
     "schede": {
-        "Schede Bianche": "19",
-        "Schede Nulle": "7",
-        "Schede Contestate": "0"
+        "bianche": {
+            "totali": 19,
+            "seggio_n_15": 19
+        },
+        "nulle": {
+            "totali": 7,
+            "seggio_n_15": 7
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_15": 0
+        }
     },
     "liste": [
         {
             "nome": "CONTROCAMPUS",
-            "voti_totali": 50
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "5,1",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 50,
+                "seggio_n_15": 50
+            }
         },
         {
-            "nome": "ARCHÈ",
-            "voti_totali": 8
+            "nome": "ARCHE'",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "8,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 8,
+                "seggio_n_15": 8
+            }
         },
         {
             "nome": "ARCADIA",
-            "voti_totali": 36
+            "seggi": {
+                "seggi_pieni": "5",
+                "resti": "4,7",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "5"
+            },
+            "voti": {
+                "totali": 117,
+                "seggio_n_15": 117
+            }
         },
         {
-            "nome": "FUTURA SANITÀ",
-            "voti_totali": 36
+            "nome": "FUTURA SANITA'",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "13,5",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 36,
+                "seggio_n_15": 36
+            }
         },
         {
             "nome": "WE LOVE UNICT",
-            "voti_totali": 36
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "13,5",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 36,
+                "seggio_n_15": 36
+            }
+        },
+        {
+            "totale": 247
         }
     ],
     "eletti": [
         {
-            "nominativo": "PIGNATARO Simone",
-            "voti": "27",
-            "lista": "CONTROCAMPUS"
+            "nominativo": "PIGNATARO Simone",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 27,
+                "seggio_n_15": 27
+            }
         },
         {
-            "nominativo": "PETRALIA Nicolo'",
-            "voti": "13",
-            "lista": "CONTROCAMPUS"
+            "nominativo": "PETRALIA Nicolo'",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 13,
+                "seggio_n_15": 13
+            }
         },
         {
-            "nominativo": "BARBAGALLO Christian",
-            "voti": "19",
-            "lista": "ARCADIA"
+            "nominativo": "BARBAGALLO Christian",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 19,
+                "seggio_n_15": 19
+            }
         },
         {
-            "nominativo": "BELLOMO Antonio",
-            "voti": "28",
-            "lista": "ARCADIA"
+            "nominativo": "BELLOMO Antonio",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 28,
+                "seggio_n_15": 28
+            }
         },
         {
-            "nominativo": "CASTORINA Simone",
-            "voti": "35",
-            "lista": "ARCADIA"
+            "nominativo": "CASTORINA Simone",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 35,
+                "seggio_n_15": 35
+            }
         },
         {
-            "nominativo": "CANNAVO' Anna",
-            "voti": "0",
-            "lista": "ARCADIA"
+            "nominativo": "CANNAVO' Anna",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_15": 0
+            }
         },
         {
-            "nominativo": "CALA' Edoardo",
-            "voti": "0",
-            "lista": "ARCADIA"
+            "nominativo": "CALA' Edoardo",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_15": 0
+            }
         },
         {
-            "nominativo": "DI STEFANO Grazia Carola ‐ detta \"Stella\"",
-            "voti": "29",
-            "lista": "ARCADIA"
+            "nominativo": "DI STEFANO Grazia Carola \u2010 detta \"Stella\"",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 29,
+                "seggio_n_15": 29
+            }
         },
         {
-            "nominativo": "BUSCEMI Carlo",
-            "voti": "19",
-            "lista": "FUTURA SANITÀ"
+            "nominativo": "BUSCEMI Carlo",
+            "lista": "FUTURA SANITA'",
+            "voti": {
+                "totali": 19,
+                "seggio_n_15": 19
+            }
         },
         {
-            "nominativo": "FALLICA Giorgio",
-            "voti": "12",
-            "lista": "FUTURA SANITÀ"
+            "nominativo": "FALLICA Giorgio",
+            "lista": "FUTURA SANITA'",
+            "voti": {
+                "totali": 12,
+                "seggio_n_15": 12
+            }
         },
         {
-            "nominativo": "NICOTRA Simone",
-            "voti": "17",
-            "lista": "WE LOVE UNICT"
+            "nominativo": "NICOTRA Simone",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 17,
+                "seggio_n_15": 17
+            }
         },
         {
-            "nominativo": "PARISI Vincenzo",
-            "voti": "8",
-            "lista": "WE LOVE UNICT"
+            "nominativo": "PARISI Vincenzo",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 8,
+                "seggio_n_15": 8
+            }
         }
     ],
     "non_eletti": [
         {
-            "nominativo": "FISICARO Alessia",
-            "voti": "2",
-            "lista": "CONTROCAMPUS"
+            "nominativo": "FISICARO Alessia",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 2,
+                "seggio_n_15": 2
+            }
         },
         {
-            "nominativo": "BIUSO Jody",
-            "voti": "2",
-            "lista": "CONTROCAMPUS"
+            "nominativo": "BIUSO Jody",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 2,
+                "seggio_n_15": 2
+            }
         },
         {
-            "nominativo": "MAMMOLA Martina",
-            "voti": "0",
-            "lista": "CONTROCAMPUS"
+            "nominativo": "MAMMOLA Martina",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 0,
+                "seggio_n_15": 0
+            }
         },
         {
-            "nominativo": "LISIO Marcello",
-            "voti": "0",
-            "lista": "CONTROCAMPUS"
+            "nominativo": "LISIO Marcello",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 0,
+                "seggio_n_15": 0
+            }
         },
         {
-            "nominativo": "DI GRAZIA Greta",
-            "voti": "4",
-            "lista": "ARCHÈ"
+            "nominativo": "DI GRAZIA Greta",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 4,
+                "seggio_n_15": 4
+            }
         },
         {
-            "nominativo": "GRECUZZO Marta",
-            "voti": "2",
-            "lista": "ARCHÈ"
+            "nominativo": "GRECUZZO Marta",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 2,
+                "seggio_n_15": 2
+            }
         },
         {
-            "nominativo": "NICOLOSI Marcello",
-            "voti": "0",
-            "lista": "ARCHÈ"
+            "nominativo": "NICOLOSI Marcello",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 0,
+                "seggio_n_15": 0
+            }
         },
         {
-            "nominativo": "LONGO Lorenzo Francesco",
-            "voti": "2",
-            "lista": "FUTURA SANITÀ"
+            "nominativo": "LONGO Lorenzo Francesco",
+            "lista": "FUTURA SANITA'",
+            "voti": {
+                "totali": 2,
+                "seggio_n_15": 2
+            }
         },
         {
-            "nominativo": "GAZZARA Giuseppe Salvatore",
-            "voti": "0",
-            "lista": "WE LOVE UNICT"
+            "nominativo": "GAZZARA Giuseppe Salvatore",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_15": 0
+            }
         },
         {
-            "nominativo": "MANNO Paolo",
-            "voti": "0",
-            "lista": "WE LOVE UNICT"
+            "nominativo": "MANNO Paolo",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_15": 0
+            }
         },
         {
-            "nominativo": "FAZIO Alfio Riccardo",
-            "voti": "0",
-            "lista": "WE LOVE UNICT"
+            "nominativo": "FAZIO Alfio Riccardo",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_15": 0
+            }
         },
         {
-            "nominativo": "PLATANIA Rachele",
-            "voti": "1",
-            "lista": "WE LOVE UNICT"
+            "nominativo": "PLATANIA Rachele",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 1,
+                "seggio_n_15": 1
+            }
         },
         {
-            "nominativo": "FURNARI Stefano",
-            "voti": "2",
-            "lista": "WE LOVE UNICT"
+            "nominativo": "FURNARI Stefano",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 2,
+                "seggio_n_15": 2
+            }
         }
     ],
-    "seggi_da_assegnare": "11",
-    "dipartimento": "SCIENZE BIOMEDICHE E BIOTECNOLOGICHE",
-    "quoziente": "22,4545",
-    "votanti": "273",
-    "perc_votanti": "42,00",
-    "elettori": "650"
+    "quoziente": 22.4545,
+    "votanti": {
+        "totali": 273,
+        "percentuale": 42,
+        "seggio_n_15": 273
+    },
+    "elettori": {
+        "totali": 650,
+        "seggio_n_15": 650
+    }
 }

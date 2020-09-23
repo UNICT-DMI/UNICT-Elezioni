@@ -1,144 +1,342 @@
 {
+    "dipartimento": "SCIENZE BIOLOGICHE GEOLOGICHE E AMBIENTALI",
+    "seggi_da_assegnare": "7",
     "schede": {
-        "Schede Bianche": "35",
-        "Schede Nulle": "17",
-        "Schede Contestate": "0"
+        "bianche": {
+            "totali": 35,
+            "seggio_n_20": 6,
+            "seggio_n_21": 29
+        },
+        "nulle": {
+            "totali": 17,
+            "seggio_n_20": 2,
+            "seggio_n_21": 15
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_20": 0,
+            "seggio_n_21": 0
+        }
     },
     "liste": [
         {
+            "nome": "IL FUTURO DELLA SCIENZA \u2010 CONTROCAMPUS",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "26,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 26,
+                "seggio_n_20": 23,
+                "seggio_n_21": 3
+            }
+        },
+        {
             "nome": "ACTEA",
-            "voti_totali": 63
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "6,4",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 63,
+                "seggio_n_20": 59,
+                "seggio_n_21": 4
+            }
         },
         {
-            "nome": "LINK ‐ STUDENTI INDIPENDENTI",
-            "voti_totali": 118
+            "nome": "LINK \u2010 STUDENTI INDIPENDENTI",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "19,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 19,
+                "seggio_n_20": 1,
+                "seggio_n_21": 18
+            }
         },
         {
-            "nome": "UNIVERSITÀ POPOLARE",
-            "voti_totali": 4
+            "nome": "UNIVERSITA' POPOLARE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "7,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 7,
+                "seggio_n_20": 2,
+                "seggio_n_21": 5
+            }
         },
         {
             "nome": "WE LOVE UNICT",
-            "voti_totali": 182
+            "seggi": {
+                "seggi_pieni": "3",
+                "resti": "16,3",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "3"
+            },
+            "voti": {
+                "totali": 186,
+                "seggio_n_20": 4,
+                "seggio_n_21": 182
+            }
         },
         {
-            "nome": "ALLEANZA UNIVERSITARIA",
-            "voti_totali": 50
+            "nome": "ALLEANZA UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "38,4",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 95,
+                "seggio_n_20": 45,
+                "seggio_n_21": 50
+            }
+        },
+        {
+            "totale": 396
         }
     ],
     "eletti": [
         {
-            "nominativo": "BORZI' Alfio Marco",
-            "voti": "23",
-            "lista": "ACTEA"
+            "nominativo": "BASILE Antonio",
+            "lista": "IL FUTURO DELLA SCIENZA \u2010 CONTROCAMPUS",
+            "voti": {
+                "totali": 16,
+                "seggio_n_20": 15,
+                "seggio_n_21": 1
+            }
         },
         {
-            "nominativo": "MENDOZA Ruvic Esguerra",
-            "voti": "7",
-            "lista": "WE LOVE UNICT"
+            "nominativo": "BORZI' Alfio Marco",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 23,
+                "seggio_n_20": 23,
+                "seggio_n_21": 0
+            }
         },
         {
-            "nominativo": "SQUADRITO Alfio",
-            "voti": "7",
-            "lista": "WE LOVE UNICT"
+            "nominativo": "MENDOZA Ruvic Esguerra",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 7,
+                "seggio_n_20": 0,
+                "seggio_n_21": 7
+            }
         },
         {
-            "nominativo": "FERLITO Marco Maria",
-            "voti": "151",
-            "lista": "WE LOVE UNICT"
+            "nominativo": "SQUADRITO Alfio",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 7,
+                "seggio_n_20": 0,
+                "seggio_n_21": 7
+            }
         },
         {
-            "nominativo": "COCORULLO Mario",
-            "voti": "33",
-            "lista": "ALLEANZA UNIVERSITARIA"
+            "nominativo": "FERLITO Marco Maria",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 151,
+                "seggio_n_20": 0,
+                "seggio_n_21": 151
+            }
         },
         {
-            "nominativo": "TORTORICI Francesco Pio",
-            "voti": "40",
-            "lista": "ALLEANZA UNIVERSITARIA"
+            "nominativo": "COCORULLO Mario",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 33,
+                "seggio_n_20": 1,
+                "seggio_n_21": 32
+            }
+        },
+        {
+            "nominativo": "TORTORICI Francesco Pio",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 40,
+                "seggio_n_20": 38,
+                "seggio_n_21": 2
+            }
         }
     ],
     "non_eletti": [
         {
-            "nominativo": "COMMIS Lorenzo",
-            "voti": "19",
-            "lista": "ACTEA"
+            "nominativo": "BENVENUTO SINFISI Daniele",
+            "lista": "IL FUTURO DELLA SCIENZA \u2010 CONTROCAMPUS",
+            "voti": {
+                "totali": 1,
+                "seggio_n_20": 1,
+                "seggio_n_21": 0
+            }
         },
         {
-            "nominativo": "FIGLIOLI Anna",
-            "voti": "8",
-            "lista": "ACTEA"
+            "nominativo": "LONGHITANO Antonino",
+            "lista": "IL FUTURO DELLA SCIENZA \u2010 CONTROCAMPUS",
+            "voti": {
+                "totali": 0,
+                "seggio_n_20": 0,
+                "seggio_n_21": 0
+            }
         },
         {
-            "nominativo": "BONACCORSO Alice",
-            "voti": "0",
-            "lista": "ACTEA"
+            "nominativo": "COMMIS Lorenzo",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 19,
+                "seggio_n_20": 17,
+                "seggio_n_21": 2
+            }
         },
         {
-            "nominativo": "SCUDERI Catherine",
-            "voti": "0",
-            "lista": "ACTEA"
+            "nominativo": "FIGLIOLI Anna",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 8,
+                "seggio_n_20": 8,
+                "seggio_n_21": 0
+            }
         },
         {
-            "nominativo": "GIULIO Ludovica",
-            "voti": "0",
-            "lista": "ACTEA"
+            "nominativo": "BONACCORSO Alice",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_20": 0,
+                "seggio_n_21": 0
+            }
         },
         {
-            "nominativo": "CARNAZZA Giulia",
-            "voti": "0",
-            "lista": "ACTEA"
+            "nominativo": "SCUDERI Catherine",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_20": 0,
+                "seggio_n_21": 0
+            }
         },
         {
-            "nominativo": "FUSARI Francesco",
-            "voti": "16",
-            "lista": "LINK ‐ STUDENTI INDIPENDENTI"
+            "nominativo": "GIULIO Ludovica",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_20": 0,
+                "seggio_n_21": 0
+            }
         },
         {
-            "nominativo": "MONTALTO Giada",
-            "voti": "0",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "nominativo": "CARNAZZA Giulia",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_20": 0,
+                "seggio_n_21": 0
+            }
         },
         {
-            "nominativo": "RIZZA Giulia",
-            "voti": "0",
-            "lista": "UNIVERSITÀ POPOLARE"
+            "nominativo": "FUSARI Francesco",
+            "lista": "LINK \u2010 STUDENTI INDIPENDENTI",
+            "voti": {
+                "totali": 16,
+                "seggio_n_20": 0,
+                "seggio_n_21": 16
+            }
         },
         {
-            "nominativo": "MOTTA Gabriele Salvatore",
-            "voti": "0",
-            "lista": "WE LOVE UNICT"
+            "nominativo": "MONTALTO Giada",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_20": 0,
+                "seggio_n_21": 0
+            }
         },
         {
-            "nominativo": "MAGISTRO Damiana",
-            "voti": "1",
-            "lista": "WE LOVE UNICT"
+            "nominativo": "RIZZA Giulia",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_20": 0,
+                "seggio_n_21": 0
+            }
         },
         {
-            "nominativo": "SANGIORGIO Paola",
-            "voti": "2",
-            "lista": "WE LOVE UNICT"
+            "nominativo": "MOTTA Gabriele Salvatore",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_20": 0,
+                "seggio_n_21": 0
+            }
         },
         {
-            "nominativo": "D'ALPA Francesco",
-            "voti": "0",
-            "lista": "WE LOVE UNICT"
+            "nominativo": "MAGISTRO Damiana",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 1,
+                "seggio_n_20": 0,
+                "seggio_n_21": 1
+            }
         },
         {
-            "nominativo": "PORROVECCHIO Manuela",
-            "voti": "16",
-            "lista": "ALLEANZA UNIVERSITARIA"
+            "nominativo": "SANGIORGIO Paola",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 2,
+                "seggio_n_20": 0,
+                "seggio_n_21": 2
+            }
         },
         {
-            "nominativo": "SICLARI Eleonora",
-            "voti": "0",
-            "lista": "ALLEANZA UNIVERSITARIA"
+            "nominativo": "D'ALPA Francesco",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_20": 0,
+                "seggio_n_21": 0
+            }
+        },
+        {
+            "nominativo": "PORROVECCHIO Manuela",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 16,
+                "seggio_n_20": 2,
+                "seggio_n_21": 14
+            }
+        },
+        {
+            "nominativo": "SICLARI Eleonora",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_20": 0,
+                "seggio_n_21": 0
+            }
         }
     ],
-    "seggi_da_assegnare": "7",
-    "dipartimento": "SCIENZE BIOLOGICHE GEOLOGICHE E AMBIENTALI",
-    "quoziente": "56,5714",
-    "votanti": "448",
-    "perc_votanti": "29,75",
-    "elettori": "1506"
+    "quoziente": 56.5714,
+    "votanti": {
+        "totali": 448,
+        "percentuale": 29.75,
+        "seggio_n_20": 142,
+        "seggio_n_21": 306
+    },
+    "elettori": {
+        "totali": 1506,
+        "seggio_n_20": 289,
+        "seggio_n_21": 1217
+    }
 }
