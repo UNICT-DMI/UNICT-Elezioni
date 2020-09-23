@@ -4,7 +4,7 @@ import os
 
 class FormatPDF:
     @staticmethod
-    def formatPdf(pathname):
+    def formatPdf(pathname) -> None:
         '''
             Create a list that contains the lines of the pdf.\n
             @params:\n

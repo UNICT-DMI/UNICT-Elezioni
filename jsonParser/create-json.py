@@ -14,18 +14,18 @@ start_parser = [
         ]
 end_parser = ["</ul>", "</ul></div></div></div>", "</span></div></div></div>", "</div></div></div>"]
 
-def isFile(filename):
+def isFile(filename) -> bool:
     file = filename.split(".")
     return(bool(len(file) > 1 and file[len(file)-1] == "pdf"))
 
-def isImportant(filename):
+def isImportant(filename) -> bool:
     return(bool("CDL_B" not in filename.upper() and "INFERIORE" not in filename.upper() and "COMITATO" not in filename.upper() and "COORDIMAMENTO" not in filename.upper() and "COORDINAMENTO" not in filename.upper() and "NUCLEO" not in filename.upper() and "DOTTORANDI" not in filename.upper()))
 
-def createJSON(pathname, option, command):
+def createJSON(pathname, option, command) -> None:
     print("Create JSON: " + pathname)
     os.system("python3 " + command + "parser.py " + "\"" + pathname + "\" " + option)
 
-def subUrl(url, directory, command):
+def subUrl(url, directory, command) -> None:
     os.system("mkdir " + directory + " && " + "chmod 777 -R " + directory)
     x = requests.get(url)
     if x.status_code != 200:
@@ -68,7 +68,7 @@ def subUrl(url, directory, command):
         else:
             subUrl(link, directory + "/" + file[len(file)-1], command)
 
-def main(argv):
+def main(argv) -> None:
     if len(argv) != 3:
         print("USAGE: python3 create-json.py <url> <start_directory> <command_parser_directory>")
         sys.exit(0)

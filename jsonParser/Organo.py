@@ -38,7 +38,7 @@ class Organo(Target):
         
         return infoList
 
-    def __getTotaleVoti(self, text, voti, seggi):
+    def __getTotaleVoti(self, text, voti, seggi) -> None:
         split_text = text[self.i].split()
         voti[0] = int(split_text[1])
         seggi[0] = int(split_text[3])

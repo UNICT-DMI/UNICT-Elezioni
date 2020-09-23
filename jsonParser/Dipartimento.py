@@ -16,7 +16,7 @@ class Dipartimento(Target):
         self.i += 1
         return r
         
-    def __findInfoLists(self, text):
+    def __findInfoLists(self, text) -> None:
         while "L I S T E" not in text[self.i].upper():
             self.i += 1
         self.i += 1

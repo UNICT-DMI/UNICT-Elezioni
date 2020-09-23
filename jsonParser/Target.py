@@ -10,7 +10,7 @@ class Target(ABC):
         """This method permits to create a JSON."""
         pass
 
-    def is_integer(self, n):
+    def is_integer(self, n) -> None:
         """Thos method verify if n is an Integer"""
         try:
             fn = float(n)
@@ -33,7 +33,7 @@ class Target(ABC):
             j = j-1
         return listTmp.pop(0)
 
-    def __scheda(self, type, schedeType, listOfType, listOfSeats):
+    def __scheda(self, type, schedeType, listOfType, listOfSeats) -> None:
         type["totali"] = schedeType
         k = 0
         for v in listOfType:
@@ -97,7 +97,7 @@ class Target(ABC):
         return nameOfCandidate
             
 
-    def getCandidati(self, text, eletti, non_eletti, listOfSeats, index):
+    def getCandidati(self, text, eletti, non_eletti, listOfSeats, index) -> None:
         while "PREFERENZE" not in text[self.i].upper():
             self.i += 1
         self.i += 1
