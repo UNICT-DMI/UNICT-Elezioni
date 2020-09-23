@@ -904,8 +904,9 @@
             "lista": "ORIZZONTE ITALIA",
             "voti": {
                 "totali": 3,
-                "seggio_n_1": 0,
-                "seggio_n_2": 0
+                "seggio_n_1": 3,
+                "seggio_n_2": 0,
+                "seggio_n_3": 0
             }
         },
         {
@@ -914,7 +915,8 @@
             "voti": {
                 "totali": 0,
                 "seggio_n_1": 0,
-                "seggio_n_2": 0
+                "seggio_n_2": 0,
+                "seggio_n_3": 0
             }
         },
         {
@@ -923,34 +925,38 @@
             "voti": {
                 "totali": 0,
                 "seggio_n_1": 0,
-                "seggio_n_2": 0
+                "seggio_n_2": 0,
+                "seggio_n_3": 0
             }
         },
         {
             "nominativo": "TORRISI GABAEL",
             "lista": "ORIZZONTE ITALIA",
             "voti": {
-                "totali": 0,
-                "seggio_n_1": 3,
-                "seggio_n_2": 4
+                "totali": 7,
+                "seggio_n_1": 0,
+                "seggio_n_2": 3,
+                "seggio_n_3": 4
             }
         },
         {
             "nominativo": "GAMMINO GIORGIA",
             "lista": "ORIZZONTE ITALIA",
             "voti": {
-                "totali": 0,
-                "seggio_n_1": 1,
-                "seggio_n_2": 0
+                "totali": 1,
+                "seggio_n_1": 0,
+                "seggio_n_2": 1,
+                "seggio_n_3": 0
             }
         },
         {
             "nominativo": "RUBINO CARLA",
             "lista": "ORIZZONTE ITALIA",
             "voti": {
-                "totali": 1,
-                "seggio_n_1": 0,
-                "seggio_n_2": 2
+                "totali": 3,
+                "seggio_n_1": 1,
+                "seggio_n_2": 0,
+                "seggio_n_3": 2
             }
         },
         {
@@ -958,8 +964,9 @@
             "lista": "ORIZZONTE ITALIA",
             "voti": {
                 "totali": 1,
-                "seggio_n_1": 0,
-                "seggio_n_2": 0
+                "seggio_n_1": 1,
+                "seggio_n_2": 0,
+                "seggio_n_3": 0
             }
         },
         {
@@ -968,16 +975,18 @@
             "voti": {
                 "totali": 0,
                 "seggio_n_1": 0,
-                "seggio_n_2": 0
+                "seggio_n_2": 0,
+                "seggio_n_3": 0
             }
         },
         {
             "nominativo": "MACALUSO CARLO",
             "lista": "ORIZZONTE ITALIA",
             "voti": {
-                "totali": 0,
-                "seggio_n_1": 1,
-                "seggio_n_2": 0
+                "totali": 1,
+                "seggio_n_1": 0,
+                "seggio_n_2": 1,
+                "seggio_n_3": 0
             }
         },
         {
@@ -986,7 +995,8 @@
             "voti": {
                 "totali": 0,
                 "seggio_n_1": 0,
-                "seggio_n_2": 0
+                "seggio_n_2": 0,
+                "seggio_n_3": 0
             }
         },
         {
