@@ -72,6 +72,11 @@ const Results = (props: Props) => {
                 .replace('PARTECIPA ‐ SOS GIURISTI', 'PARTECIPA')
                 .replace('ARCADIA ‐ REVOLUTION', 'ARCADIA REVOLUTION')
                 .replace('UDU - UNIONE DEGLI UNIVERSITARI', 'UDU  ‐  UNIONE DEGLI UNIVERSITARI')
+                .replace('ACTEA - ARCADIA', 'ACTEA  ‐  ARCADIA')
+                .replace('LIBERTAS ‐ LIBERI E FORTI', 'LIBERTAS')
+                .replace('UDU ‐ UNIONE DEGLI UNIVERSITARI', 'UDU  ‐  UNIONE DEGLI UNIVERSITARI')
+                .replace('CONTROCAMPUS ‐ AZIONE UNIVERSITARIA', 'CONTROCAMPUS')
+                .replace('GIOVANI CIDEC ‐ LA FINESTRA', 'GIOVANI CIDEC  ‐  LA FINESTRA')
                 .replace(new RegExp("E'", "g"), 'È')
                 .replace(new RegExp("A'", "g"), 'À');
   }
