@@ -34,14 +34,17 @@ const Results = (props: Props) => {
       tableRows.push(
         <tr key={`${props.anno}-${i}`}>
           {Object.keys(results).map(l =>
+            l !== 'undefined' ? (
             <td key={`${props.anno}-${l}-${i}`}>
-              {(results[l] && results[l][i]) ? (
+              {
+                results[l] && results[l][i] ? (
                 [
                   `${results[l][i].nominativo} (${results[l][i].voti.totali})`,
                   results[l][i].eletto ? (<img key={`coccarda-${i}`} src="coccarda.png" alt="eletto" width="16" height="30" className="float-right" />) : ''
-                ]
-              ) : ''}
+                ]) : ''
+              }
             </td>
+          ) : ''
           )}
         </tr>
       )
@@ -69,6 +72,16 @@ const Results = (props: Props) => {
                 .replace('PARTECIPA ‐ SOS GIURISTI', 'PARTECIPA')
                 .replace('ARCADIA ‐ REVOLUTION', 'ARCADIA REVOLUTION')
                 .replace('UDU - UNIONE DEGLI UNIVERSITARI', 'UDU  ‐  UNIONE DEGLI UNIVERSITARI')
+                .replace('ACTEA - ARCADIA', 'ACTEA  ‐  ARCADIA')
+                .replace('ACTEA ‐ ARCADIA', 'ACTEA  ‐  ARCADIA')
+                .replace('LIBERTAS ‐ LIBERI E FORTI', 'LIBERTAS')
+                .replace('NIKE ‐ ARCADIA', 'NIKE')
+                .replace('ALLEANZA ‐ CONTROCAMPUS', 'ALLEANZA  ‐  CONTROCAMPUS')
+                .replace('UDU ‐ UNIONE DEGLI UNIVERSITARI', 'UDU  ‐  UNIONE DEGLI UNIVERSITARI')
+                .replace('CONTROCAMPUS ‐ AZIONE UNIVERSITARIA', 'CONTROCAMPUS')
+                .replace('ALLEANZA  ‐  CONTROCAMPUS ‐ AZIONE', 'ALLEANZA - AZIONE UNIVERSITARIA - CONTROCAMPUS')
+                .replace('STUDENTI PER LE LIBERTÀ ‐ AZIONE UNIVERSITARIA', 'STUDENTI PER LE LIBERTÀ  ‐  AZIONE UNIVERSITARIA')
+                .replace('GIOVANI CIDEC ‐ LA FINESTRA', 'GIOVANI CIDEC  ‐  LA FINESTRA')
                 .replace(new RegExp("E'", "g"), 'È')
                 .replace(new RegExp("A'", "g"), 'À');
   }
@@ -85,10 +98,10 @@ const Results = (props: Props) => {
           <th>Seggi</th>
         </tr>
         <tr>
-          <td>{data.schede['Schede Bianche']}</td>
-          <td>{data.schede['Schede Nulle']}</td>
-          <td>{data.schede['Schede Contestate']}</td>
-          <td>{data.perc_votanti}</td>
+          <td>{data.schede.bianche.totali}</td>
+          <td>{data.schede.nulle.totali}</td>
+          <td>{data.schede.contestate.totali}</td>
+          <td>{data.votanti.percentuale}</td>
           <td>{data.quoziente}</td>
           <td>{data.seggi_da_assegnare}</td>
         </tr>
