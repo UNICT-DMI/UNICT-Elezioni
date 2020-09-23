@@ -8,18 +8,18 @@ class Dipartimento(Target):
         self.i = 2
         while "BIENNIO" not in text[self.i].upper() and "VOTI DI LISTA" not in text[self.i].upper():
             nome += "\n" + text[self.i]
-            self.i = self.i + 1
+            self.i += 1
         return nome
 
     def __findNumberOfSeats(self, text) -> str:
         r = text[self.i].split()[len(text[self.i].split())-1]
-        self.i = self.i + 1
+        self.i += 1
         return r
         
     def __findInfoLists(self, text):
         while "L I S T E" not in text[self.i].upper():
-            self.i = self.i + 1
-        self.i = self.i + 1
+            self.i += 1
+        self.i += 1
 
     def __getSeats(self, text) -> object:
         listOfSeats = []
@@ -27,7 +27,7 @@ class Dipartimento(Target):
         for s in split_text:
             if self.is_integer(s) == True:
                 listOfSeats.append(int(s))
-        self.i = self.i + 1
+        self.i += 1
         return listOfSeats
 
     def __getInfoLists(self, text, listOfSeats, seggiDaAssegnare) -> object:
@@ -71,18 +71,18 @@ class Dipartimento(Target):
                     },
                     "voti": votes
             })
-            self.i = self.i + 1
+            self.i += 1
         
         tmp = text[self.i].split()
         infoLists.append({"totale": int(tmp[1])})
         seggiDaAssegnare[0] = tmp[len(tmp)-1]
-        self.i = self.i + 1
+        self.i += 1
         return infoLists
 
     def __getVotanti(self, text, listOfSeats) -> object:
         listOfVoters = []
         while "VOTANTI" not in text[self.i].upper():
-            self.i = self.i + 1
+            self.i += 1
         text[self.i] = text[self.i].replace(",", ".")
         split_text = text[self.i].split()
         for s in split_text:
@@ -109,17 +109,17 @@ class Dipartimento(Target):
     
     def __getInfoElettori(self, text, listOfSeats) -> object:
         while "ELETTORI" not in text[self.i].upper():
-            self.i = self.i + 1
+            self.i += 1
         
         split_text = text[self.i].split()
         for s in split_text:
             if self.is_integer(s) == True:
                 totale_elettori = int(s)
                 break
-        self.i = self.i + 1
+        self.i += 1
         
         while "ELETTORI" not in text[self.i].upper():
-            self.i = self.i + 1
+            self.i += 1
         
         elettori_per_seggio = []
         split_text = text[self.i].split()

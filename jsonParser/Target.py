@@ -22,7 +22,7 @@ class Target(ABC):
     def findCard(self, type, text, listOfSeats, listOfType) -> int:
         listTmp = []
         while type not in text[self.i].upper():
-            self.i = self.i + 1
+            self.i += 1
         split_text = text[self.i].split()
         for s in split_text:
             if self.is_integer(s) == True:
@@ -58,7 +58,7 @@ class Target(ABC):
     
     def getQuotient(self, text) -> int:
         while("QUOZIENTE" not in text[self.i].upper()):
-            self.i = self.i + 1
+            self.i += 1
         text[self.i] = text[self.i].replace(",", ".")
         split_text = text[self.i].split()
         quoziente = -1
@@ -99,14 +99,14 @@ class Target(ABC):
 
     def getCandidati(self, text, eletti, non_eletti, listOfSeats, index):
         while "PREFERENZE" not in text[self.i].upper():
-            self.i = self.i + 1
-        self.i = self.i + 1
+            self.i += 1
+        self.i += 1
 
         num_lists = len(self.lists)
         j = 1
         while j <= num_lists:
             while ("L"+str(j)) not in text[self.i]:
-                self.i = self.i + 1
+                self.i += 1
             self.i = self.i + index
             while "SCRUTINATI" not in text[self.i]:
                 voteOfCandidate = [1]
@@ -130,5 +130,5 @@ class Target(ABC):
                     eletti.append(candidato)
                 else:
                     non_eletti.append(candidato)
-                self.i = self.i + 1
+                self.i += 1
             j = j+1

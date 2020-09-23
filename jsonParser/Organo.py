@@ -5,13 +5,13 @@ class Organo(Target):
 
     def __findNameOrgano(self, text) -> str:
         while "ELEZIONI" not in text[self.i].upper():
-            self.i = self.i + 1
+            self.i += 1
         
         return text[self.i]
 
     def __findListOfSeats(self, text) -> object:
         while "LISTE" not in text[self.i].upper():
-            self.i = self.i + 1
+            self.i += 1
         
         listOfSeats = []
         split_text = text[self.i].split()
@@ -22,8 +22,8 @@ class Organo(Target):
     
     def __getInfoLists(self, text) -> object:
         while "TOTALE" not in text[self.i].upper():
-            self.i = self.i + 1
-        self.i = self.i + 1
+            self.i += 1
+        self.i += 1
 
         infoList = []
         while "TOTALE" not in text[self.i].upper():
@@ -33,7 +33,7 @@ class Organo(Target):
                 nameList += (split_text.pop(0) + " ")
             self.lists.append(nameList.strip())
             infoList.append(split_text)
-            self.i = self.i + 1
+            self.i += 1
 
         
         return infoList
@@ -46,7 +46,7 @@ class Organo(Target):
     def __getType(self, text, type) -> object: 
         lista = []
         while type not in text[self.i].upper():
-            self.i = self.i + 1
+            self.i += 1
         text[self.i] = text[self.i].replace(",", ".")
         text[self.i] = text[self.i].replace("%", "")
         split_text = text[self.i].split()
