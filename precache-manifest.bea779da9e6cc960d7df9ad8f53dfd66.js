@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "073e916e29dab8f97a6dd47ad2f18774",
+    "revision": "5363dcac8c9b7f35d2af32660c75bcda",
     "url": "/UNICT-Elezioni/index.html"
   },
   {
-    "revision": "49263d4d54244a12c8a4",
+    "revision": "daa019bbcb6245b16f82",
     "url": "/UNICT-Elezioni/static/css/main.4587b739.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/UNICT-Elezioni/static/js/2.63d0a8e5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "49263d4d54244a12c8a4",
-    "url": "/UNICT-Elezioni/static/js/main.aa4c8f9a.chunk.js"
+    "revision": "daa019bbcb6245b16f82",
+    "url": "/UNICT-Elezioni/static/js/main.9e6e622e.chunk.js"
   },
   {
     "revision": "db43d5085399f891de84",
