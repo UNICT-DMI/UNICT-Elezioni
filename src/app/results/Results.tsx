@@ -85,10 +85,10 @@ const Results = (props: Props) => {
           <th>Seggi</th>
         </tr>
         <tr>
-          <td>{data.schede['Schede Bianche']}</td>
-          <td>{data.schede['Schede Nulle']}</td>
-          <td>{data.schede['Schede Contestate']}</td>
-          <td>{data.perc_votanti}</td>
+          <td>{data.schede.bianche.totali}</td>
+          <td>{data.schede.nulle.totali}</td>
+          <td>{data.schede.contestate.totali}</td>
+          <td>{data.votanti.percentuale}</td>
           <td>{data.quoziente}</td>
           <td>{data.seggi_da_assegnare}</td>
         </tr>
