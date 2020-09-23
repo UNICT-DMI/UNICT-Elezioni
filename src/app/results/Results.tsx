@@ -34,14 +34,17 @@ const Results = (props: Props) => {
       tableRows.push(
         <tr key={`${props.anno}-${i}`}>
           {Object.keys(results).map(l =>
+            l !== 'undefined' ? (
             <td key={`${props.anno}-${l}-${i}`}>
-              {(results[l] && results[l][i]) ? (
+              {
+                results[l] && results[l][i] ? (
                 [
                   `${results[l][i].nominativo} (${results[l][i].voti.totali})`,
                   results[l][i].eletto ? (<img key={`coccarda-${i}`} src="coccarda.png" alt="eletto" width="16" height="30" className="float-right" />) : ''
-                ]
-              ) : ''}
+                ]) : ''
+              }
             </td>
+          ) : ''
           )}
         </tr>
       )
