@@ -16,7 +16,7 @@ class FormatPDF:
         
         # Create a temp file
         original_stdout = sys.stdout
-        with open("temp.txt", "w") as f:
+        with open("temp.txt", "w+") as f:
             sys.stdout = f
             for page in pdf:
                 print(page)
