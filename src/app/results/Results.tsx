@@ -79,6 +79,7 @@ const Results = (props: Props) => {
                 .replace('ALLEANZA ‐ CONTROCAMPUS', 'ALLEANZA  ‐  CONTROCAMPUS')
                 .replace('UDU ‐ UNIONE DEGLI UNIVERSITARI', 'UDU  ‐  UNIONE DEGLI UNIVERSITARI')
                 .replace('CONTROCAMPUS ‐ AZIONE UNIVERSITARIA', 'CONTROCAMPUS')
+                .replace('ALLEANZA  ‐  CONTROCAMPUS ‐ AZIONE', 'ALLEANZA - AZIONE UNIVERSITARIA - CONTROCAMPUS')
                 .replace('STUDENTI PER LE LIBERTÀ ‐ AZIONE UNIVERSITARIA', 'STUDENTI PER LE LIBERTÀ  ‐  AZIONE UNIVERSITARIA')
                 .replace('GIOVANI CIDEC ‐ LA FINESTRA', 'GIOVANI CIDEC  ‐  LA FINESTRA')
                 .replace(new RegExp("E'", "g"), 'È')
