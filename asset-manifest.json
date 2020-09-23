@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/UNICT-Elezioni/static/css/main.4587b739.chunk.css",
-    "main.js": "/UNICT-Elezioni/static/js/main.425a33af.chunk.js",
-    "main.js.map": "/UNICT-Elezioni/static/js/main.425a33af.chunk.js.map",
+    "main.js": "/UNICT-Elezioni/static/js/main.aa4c8f9a.chunk.js",
+    "main.js.map": "/UNICT-Elezioni/static/js/main.aa4c8f9a.chunk.js.map",
     "runtime-main.js": "/UNICT-Elezioni/static/js/runtime-main.81c45da5.js",
     "runtime-main.js.map": "/UNICT-Elezioni/static/js/runtime-main.81c45da5.js.map",
     "static/js/2.63d0a8e5.chunk.js": "/UNICT-Elezioni/static/js/2.63d0a8e5.chunk.js",
     "static/js/2.63d0a8e5.chunk.js.map": "/UNICT-Elezioni/static/js/2.63d0a8e5.chunk.js.map",
     "index.html": "/UNICT-Elezioni/index.html",
-    "precache-manifest.7c68e7f1683632e743ee87f116cac0cd.js": "/UNICT-Elezioni/precache-manifest.7c68e7f1683632e743ee87f116cac0cd.js",
+    "precache-manifest.f1aa69f53338452adcdc467d7287b21f.js": "/UNICT-Elezioni/precache-manifest.f1aa69f53338452adcdc467d7287b21f.js",
     "service-worker.js": "/UNICT-Elezioni/service-worker.js",
     "static/css/main.4587b739.chunk.css.map": "/UNICT-Elezioni/static/css/main.4587b739.chunk.css.map",
     "static/js/2.63d0a8e5.chunk.js.LICENSE.txt": "/UNICT-Elezioni/static/js/2.63d0a8e5.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.81c45da5.js",
     "static/js/2.63d0a8e5.chunk.js",
     "static/css/main.4587b739.chunk.css",
-    "static/js/main.425a33af.chunk.js"
+    "static/js/main.aa4c8f9a.chunk.js"
   ]
 }
