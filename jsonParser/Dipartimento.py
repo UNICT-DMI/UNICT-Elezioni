@@ -25,7 +25,7 @@ class Dipartimento(Target):
         listOfSeats = []
         split_text = text[self.i].split()
         for s in split_text:
-            if self.is_integer(s) == True:
+            if self.is_integer(s):
                 listOfSeats.append(int(s))
         self.i += 1
         return listOfSeats
@@ -40,7 +40,7 @@ class Dipartimento(Target):
             findVote = False
             split_text = text[self.i].split()
             for s in split_text:
-                if self.is_integer(s) == False and findVote == False:
+                if not self.is_integer(s) and not findVote:
                     nameOfList += (s + " ")
                 elif findVote == False:
                     try:
@@ -86,7 +86,7 @@ class Dipartimento(Target):
         text[self.i] = text[self.i].replace(",", ".")
         split_text = text[self.i].split()
         for s in split_text:
-            if self.is_integer(s) == True:
+            if self.is_integer(s):
                 ssplit = s.split(".")
                 listOfVoters.append(int(ssplit[0]))
             else:
@@ -113,7 +113,7 @@ class Dipartimento(Target):
         
         split_text = text[self.i].split()
         for s in split_text:
-            if self.is_integer(s) == True:
+            if self.is_integer(s):
                 totale_elettori = int(s)
                 break
         self.i += 1
@@ -124,7 +124,7 @@ class Dipartimento(Target):
         elettori_per_seggio = []
         split_text = text[self.i].split()
         for s in split_text:
-            if self.is_integer(s) == True:
+            if self.is_integer(s):
                 elettori_per_seggio.append(int(s))
 
         info_elettori = {}

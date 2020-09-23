@@ -25,7 +25,7 @@ class Target(ABC):
             self.i += 1
         split_text = text[self.i].split()
         for s in split_text:
-            if self.is_integer(s) == True:
+            if self.is_integer(s):
                 listTmp.append(int(s))
         j = len(listOfSeats) - 1
         while j>=0:
@@ -85,11 +85,12 @@ class Target(ABC):
         nameOfCandidate = ""
         findName = False
         for s in split_text:
-            if self.is_integer(s) == False and findName == False:
-                nameOfCandidate += (s + " ")
-            elif self.is_integer(s) == True:
-                findName = True
-                listOfSeatsVote.append(int(s))
+            if self.is_integer(s):
+                if not findName:
+                    nameOfCandidate += (s + " ")
+                else:
+                    findName = True
+                    listOfSeatsVote.append(int(s))
         if len(listOfSeatsVote) > 0:
             voteOfCandidate[0] = listOfSeatsVote.pop(0)
         else:
