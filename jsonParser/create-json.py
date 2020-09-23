@@ -26,7 +26,10 @@ def createJSON(pathname, option, command) -> None:
     os.system("python3 " + command + "parser.py " + "\"" + pathname + "\" " + option)
 
 def subUrl(url, directory, command) -> None:
-    os.system("mkdir " + directory + " && " + "chmod 777 -R " + directory)
+    try:
+        os.makedirs(directory, mode = 0o777, exist_ok = True)
+    except ValueError:
+        pass
     x = requests.get(url)
     if x.status_code != 200:
         print("ERROR", x.status_code, ":", x.text)
