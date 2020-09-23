@@ -16,7 +16,7 @@ class Organo(Target):
         listOfSeats = []
         split_text = text[self.i].split()
         for s in split_text:
-            if self.is_integer(s) == True:
+            if self.is_integer(s):
                 listOfSeats.append(int(s))
         return listOfSeats
     
@@ -29,7 +29,7 @@ class Organo(Target):
         while "TOTALE" not in text[self.i].upper():
             split_text = text[self.i].split()
             nameList = ""
-            while self.is_integer(split_text[0]) == False:
+            while not self.is_integer(split_text[0]):
                 nameList += (split_text.pop(0) + " ")
             self.lists.append(nameList.strip())
             infoList.append(split_text)
@@ -51,7 +51,7 @@ class Organo(Target):
         text[self.i] = text[self.i].replace("%", "")
         split_text = text[self.i].split()
         for s in split_text:
-            if self.is_integer(s) == True:
+            if self.is_integer(s):
                 lista.append(int(s))
             else:
                 try:
