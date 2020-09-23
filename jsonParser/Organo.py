@@ -55,11 +55,10 @@ class Organo(Target):
                 lista.append(int(s))
             else:
                 try:
-                    float(s)
+                    fs = float(s)
+                    lista.append(fs)
                 except ValueError:
                     continue
-                else:
-                    lista.append(float(s))
         return lista
 
     def __createJsonInfoList(self, infoList, voti_totali, listOfSeats) -> object:

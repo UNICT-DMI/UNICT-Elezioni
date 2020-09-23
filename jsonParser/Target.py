@@ -13,11 +13,11 @@ class Target(ABC):
     def is_integer(self, n):
         """Thos method verify if n is an Integer"""
         try:
-            float(n)
+            fn = float(n)
+            return fn.is_integer()
         except ValueError:
             return False
-        else:
-            return float(n).is_integer()
+            
     
     def findCard(self, type, text, listOfSeats, listOfType) -> int:
         listTmp = []
@@ -64,21 +64,21 @@ class Target(ABC):
         quoziente = -1
         for s in split_text:
             try:
-                float(s)
+                fs = float(s)
+                quoziente = fs
+                break
             except ValueError:
                 continue
-            else:
-                quoziente = float(s)
-                break
+    
         if quoziente == -1:
             for s in split_text:
                 try:
-                    int(s)
+                    int_s = int(s)
+                    quoziente = int_s
+                    break
                 except ValueError:
                     continue
-                else:
-                    quoziente = int(s)
-                    break
+                    
         return quoziente
 
     def __getInfoCandidato(self, split_text, listOfSeatsVote, voteOfCandidate) -> str:

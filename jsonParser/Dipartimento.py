@@ -44,14 +44,12 @@ class Dipartimento(Target):
                     nameOfList += (s + " ")
                 elif findVote == False:
                     try:
-                        int(s)
-                    except ValueError:
-                        nameOfList += (s + " ")
-                        continue
-                    else:
-                        voteOfList = int(s)
+                        int_s = int(s)
+                        voteOfList = int_s
                         self.lists.append(nameOfList.strip())
                         findVote = True
+                    except ValueError:
+                        nameOfList += (s + " ")
                 else:
                     Seats.append(s)
             
@@ -93,11 +91,10 @@ class Dipartimento(Target):
                 listOfVoters.append(int(ssplit[0]))
             else:
                 try:
-                    float(s)
+                    fs = float(s)
+                    listOfVoters.append(fs)
                 except ValueError:
                     continue
-                else:
-                    listOfVoters.append(float(s))
         votanti = listOfVoters.pop(0)
         votanti_perc = listOfVoters.pop(0)
 
