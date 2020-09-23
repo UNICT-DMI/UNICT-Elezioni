@@ -1,6 +1,6 @@
 {
   "name": "unict-elezioni",
-  "homepage": "/UNICT-Elezioni",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
