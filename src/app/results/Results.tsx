@@ -37,7 +37,7 @@ const Results = (props: Props) => {
             <td key={`${props.anno}-${l}-${i}`}>
               {(results[l] && results[l][i]) ? (
                 [
-                  `${results[l][i].nominativo} (${results[l][i].voti})`,
+                  `${results[l][i].nominativo} (${results[l][i].voti.totali})`,
                   results[l][i].eletto ? (<img key={`coccarda-${i}`} src="coccarda.png" alt="eletto" width="16" height="30" className="float-right" />) : ''
                 ]
               ) : ''}
@@ -97,6 +97,7 @@ const Results = (props: Props) => {
   }
 
   function generateHead(): JSX.Element {
+    console.warn(data);
     return (
       <thead className="cursorPointer">
         <tr>
@@ -107,7 +108,7 @@ const Results = (props: Props) => {
           onClick={toggleBody}
           aria-controls="collapse-tbody"
           aria-expanded={show}>
-          {data.liste.map((l: any) =>
+          {data.liste.map((l: any) => !l.totale &&
             <OverlayTrigger
               placement="top"
               overlay={tooltipExpandCollapse}>
@@ -116,7 +117,7 @@ const Results = (props: Props) => {
                   <img src={`loghi/${fix_names(l.nome)}.jpg`} width="80" height="80" alt={l.nome}></img>
                 </div>
                 <div className="sub-logo" key={props.anno + '-name-' + l.nome}>
-                  {l.nome} ({l.voti_totali})
+                  {l.nome} ({l.voti.totali})
                 </div>
               </th>
             </OverlayTrigger>)}
