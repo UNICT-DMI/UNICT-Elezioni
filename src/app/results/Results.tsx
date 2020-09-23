@@ -73,9 +73,13 @@ const Results = (props: Props) => {
                 .replace('ARCADIA ‐ REVOLUTION', 'ARCADIA REVOLUTION')
                 .replace('UDU - UNIONE DEGLI UNIVERSITARI', 'UDU  ‐  UNIONE DEGLI UNIVERSITARI')
                 .replace('ACTEA - ARCADIA', 'ACTEA  ‐  ARCADIA')
+                .replace('ACTEA ‐ ARCADIA', 'ACTEA  ‐  ARCADIA')
                 .replace('LIBERTAS ‐ LIBERI E FORTI', 'LIBERTAS')
+                .replace('NIKE ‐ ARCADIA', 'NIKE')
+                .replace('ALLEANZA ‐ CONTROCAMPUS', 'ALLEANZA  ‐  CONTROCAMPUS')
                 .replace('UDU ‐ UNIONE DEGLI UNIVERSITARI', 'UDU  ‐  UNIONE DEGLI UNIVERSITARI')
                 .replace('CONTROCAMPUS ‐ AZIONE UNIVERSITARIA', 'CONTROCAMPUS')
+                .replace('STUDENTI PER LE LIBERTÀ ‐ AZIONE UNIVERSITARIA', 'STUDENTI PER LE LIBERTÀ  ‐  AZIONE UNIVERSITARIA')
                 .replace('GIOVANI CIDEC ‐ LA FINESTRA', 'GIOVANI CIDEC  ‐  LA FINESTRA')
                 .replace(new RegExp("E'", "g"), 'È')
                 .replace(new RegExp("A'", "g"), 'À');
