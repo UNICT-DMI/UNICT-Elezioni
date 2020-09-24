@@ -34,7 +34,6 @@ const Results = (props: Props) => {
       tableRows.push(
         <tr key={`${props.anno}-${i}`}>
           {Object.keys(results).map(l =>
-            l !== 'undefined' ? (
             <td key={`${props.anno}-${l}-${i}`}>
               {
                 results[l] && results[l][i] ? (
@@ -44,7 +43,6 @@ const Results = (props: Props) => {
                 ]) : ''
               }
             </td>
-          ) : ''
           )}
         </tr>
       )
@@ -110,13 +108,13 @@ const Results = (props: Props) => {
   }
 
   function generateHead(): JSX.Element {
-    console.warn(data);
     return (
       <thead className="cursorPointer">
         <tr>
           <th className="bg-secondary" colSpan={data.liste.length}>{props.anno}</th>
         </tr>
         <tr
+          key={`tr-${props.anno}-row-${Math.random()}`}
           className="head-row"
           onClick={toggleBody}
           aria-controls="collapse-tbody"
@@ -124,10 +122,11 @@ const Results = (props: Props) => {
           {data.liste.map((l: any) => !l.totale &&
             <OverlayTrigger
               placement="top"
-              overlay={tooltipExpandCollapse}>
+              overlay={tooltipExpandCollapse}
+              key={Math.random()}>
               <th key={props.anno + '-lista-' + l.nome}>
-                <div className="logo" key={props.anno + '-logo-' + l.nome}>
-                  <img src={`loghi/${fix_names(l.nome)}.jpg`} width="80" height="80" alt={l.nome}></img>
+              <div className="logo" key={props.anno + '-logo-' + l.nome}>
+                  <img key={l.nome} src={`loghi/${fix_names(l.nome)}.jpg`} width="80" height="80" alt={l.nome} />
                 </div>
                 <div className="sub-logo" key={props.anno + '-name-' + l.nome}>
                   {l.nome} ({l.voti.totali})
@@ -178,9 +177,9 @@ const Results = (props: Props) => {
             </Collapse>
           </div>
         </div>
-          <Table striped bordered hover responsive className="liste">
+          {/* <Table striped bordered hover responsive className="liste">
             {props.details ? generateNOTA() : ''}
-          </Table>
+          </Table> */}
       </div>
     </div>
   );
