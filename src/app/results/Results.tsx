@@ -4,6 +4,7 @@ import Collapse from 'react-bootstrap/Collapse';
 import Table from 'react-bootstrap/Table';
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Tooltip from 'react-bootstrap/Tooltip';
+import ListLogo from './ListLogo/ListLogo';
 
 
 interface Props {
@@ -12,7 +13,7 @@ interface Props {
   details: boolean;
 }
 
-const Results = (props: Props) => {
+export const Results = (props: Props) => {
   const data = require(`../../data/${props.anno}/${props.path}.json`);
   const [show, setShow] = useState(false);
 
@@ -53,39 +54,6 @@ const Results = (props: Props) => {
     return tableRows;
   }
 
-
-  function fix_names(name: string): string {
-    return name.replace('#', '')
-                .replace(/ /g, ' ')
-                .replace(/ /g, ' ')
-                .replace('ALLENZA UNIVERSITARIA', 'ALLEANZA UNIVERSITARIA')
-                .replace('NIKE  ‐  ARCADIA', 'ARCADIA - NIKE')
-                .replace('INGENERIATTIVA', 'INGEGNERIATTIVA')
-                .replace('LA FINESTRA  ‐  LIBERI DI SCEGLIERE', 'LA FINESTRA ‐ LIBERI DI SCEGLIERE')
-                .replace('LA FINESTRA‐LIBERI DI SCEGLIERE', 'LA FINESTRA ‐ LIBERI DI SCEGLIERE')
-                .replace('LIBERTAS LIBERI E FORTI', 'LIBERTAS')
-                .replace('NUOVA IBLA', 'NUOVAIBLA')
-                .replace('SANI LAB', 'SANILAB')
-                .replace('ECONOMIATTIVA', 'ECONOMIA ATTIVA')
-                .replace('WE LOVE UNICT/CREDIAMOCI', 'WE LOVE UNICT')
-                .replace('WE LOVE UNICT - ARES', 'WE LOVE UNICT')
-                .replace('PARTECIPA ‐ SOS GIURISTI', 'PARTECIPA')
-                .replace('ARCADIA ‐ REVOLUTION', 'ARCADIA REVOLUTION')
-                .replace('UDU - UNIONE DEGLI UNIVERSITARI', 'UDU  ‐  UNIONE DEGLI UNIVERSITARI')
-                .replace('ACTEA - ARCADIA', 'ACTEA  ‐  ARCADIA')
-                .replace('ACTEA ‐ ARCADIA', 'ACTEA  ‐  ARCADIA')
-                .replace('LIBERTAS ‐ LIBERI E FORTI', 'LIBERTAS')
-                .replace('NIKE ‐ ARCADIA', 'NIKE')
-                .replace('ALLEANZA ‐ CONTROCAMPUS', 'ALLEANZA  ‐  CONTROCAMPUS')
-                .replace('UDU ‐ UNIONE DEGLI UNIVERSITARI', 'UDU  ‐  UNIONE DEGLI UNIVERSITARI')
-                .replace('CONTROCAMPUS ‐ AZIONE UNIVERSITARIA', 'CONTROCAMPUS')
-                .replace('ALLEANZA  ‐  CONTROCAMPUS ‐ AZIONE', 'ALLEANZA - AZIONE UNIVERSITARIA - CONTROCAMPUS')
-                .replace('STUDENTI PER LE LIBERTÀ ‐ AZIONE UNIVERSITARIA', 'STUDENTI PER LE LIBERTÀ  ‐  AZIONE UNIVERSITARIA')
-                .replace('GIOVANI CIDEC ‐ LA FINESTRA', 'GIOVANI CIDEC  ‐  LA FINESTRA')
-                .replace(new RegExp("E'", "g"), 'È')
-                .replace(new RegExp("A'", "g"), 'À');
-  }
-
   function generateNOTA(): JSX.Element {
     return (
       <thead>
@@ -95,7 +63,7 @@ const Results = (props: Props) => {
           <th>Schede Contestate</th>
           <th>Votanti</th>
           <th>Quoziente</th>
-          <th>Seggi</th>
+          <th>Seggi da Assegnare</th>
         </tr>
         <tr>
           <td>{data.schede.bianche.totali}</td>
@@ -127,7 +95,7 @@ const Results = (props: Props) => {
               overlay={tooltipExpandCollapse}>
               <th key={props.anno + '-lista-' + l.nome}>
                 <div className="logo" key={props.anno + '-logo-' + l.nome}>
-                  <img src={`loghi/${fix_names(l.nome)}.jpg`} width="80" height="80" alt={l.nome}></img>
+                  <ListLogo listName={l.nome} />
                 </div>
                 <div className="sub-logo" key={props.anno + '-name-' + l.nome}>
                   {l.nome} ({l.voti.totali})
