@@ -44,7 +44,7 @@ const Results = (props: Props) => {
     for (let i = 0; i < maxRows; i++) {
       tableRows.push(
         <tr key={`${props.anno}-${i}`}>
-          {Object.keys(results).map(l =>
+          {Object.keys(results).map(l => !!l &&
             <td key={`${props.anno}-${l}-${i}`}>
               {
                 results[l] && results[l][i] ? (
@@ -73,6 +73,8 @@ const Results = (props: Props) => {
                 .replace('LA FINESTRA  ‐  LIBERI DI SCEGLIERE', 'LA FINESTRA ‐ LIBERI DI SCEGLIERE')
                 .replace('LA FINESTRA‐LIBERI DI SCEGLIERE', 'LA FINESTRA ‐ LIBERI DI SCEGLIERE')
                 .replace('LIBERTAS LIBERI E FORTI', 'LIBERTAS')
+                .replace('LIBERTAS ‐ LIBERI E FORTI', 'LIBERTAS')
+                .replace('LIBERTAS - LIBERI E FORTI', 'LIBERTAS')
                 .replace('NUOVA IBLA', 'NUOVAIBLA')
                 .replace('SANI LAB', 'SANILAB')
                 .replace('ECONOMIATTIVA', 'ECONOMIA ATTIVA')
@@ -83,7 +85,6 @@ const Results = (props: Props) => {
                 .replace('UDU - UNIONE DEGLI UNIVERSITARI', 'UDU  ‐  UNIONE DEGLI UNIVERSITARI')
                 .replace('ACTEA - ARCADIA', 'ACTEA  ‐  ARCADIA')
                 .replace('ACTEA ‐ ARCADIA', 'ACTEA  ‐  ARCADIA')
-                .replace('LIBERTAS ‐ LIBERI E FORTI', 'LIBERTAS')
                 .replace('NIKE ‐ ARCADIA', 'NIKE')
                 .replace('ALLEANZA ‐ CONTROCAMPUS', 'ALLEANZA  ‐  CONTROCAMPUS')
                 .replace('UDU ‐ UNIONE DEGLI UNIVERSITARI', 'UDU  ‐  UNIONE DEGLI UNIVERSITARI')
@@ -91,6 +92,7 @@ const Results = (props: Props) => {
                 .replace('ALLEANZA  ‐  CONTROCAMPUS ‐ AZIONE', 'ALLEANZA - AZIONE UNIVERSITARIA - CONTROCAMPUS')
                 .replace('STUDENTI PER LE LIBERTÀ ‐ AZIONE UNIVERSITARIA', 'STUDENTI PER LE LIBERTÀ  ‐  AZIONE UNIVERSITARIA')
                 .replace('GIOVANI CIDEC ‐ LA FINESTRA', 'GIOVANI CIDEC  ‐  LA FINESTRA')
+                .replace('P.D. - STUDENTI DEMOCRATICI', 'PARTITO DEMOCRATICO - STUDENTI DEMOCRATICI')
                 .replace(new RegExp("E'", "g"), 'È')
                 .replace(new RegExp("A'", "g"), 'À');
   }
