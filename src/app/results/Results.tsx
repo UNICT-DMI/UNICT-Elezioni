@@ -4,21 +4,32 @@ import Collapse from 'react-bootstrap/Collapse';
 import Table from 'react-bootstrap/Table';
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Tooltip from 'react-bootstrap/Tooltip';
+import { dict } from '../department/Department';
 
 
 interface Props {
   anno: string;
   path: string;
   details: boolean;
+  seggio?: dict;
+  multi_dip?: dict;
 }
 
 const Results = (props: Props) => {
   const data = require(`../../data/${props.anno}/${props.path}.json`);
   const [show, setShow] = useState(false);
+  const seggi = props.seggio ? props.seggio[props.anno] : null;
+
+  function getVotiSeggio(votazioni: any) {
+    return (
+      !!seggi
+      ? seggi.reduce((acc, prev) => acc + votazioni[`seggio_n_${prev}`], 0)
+      : votazioni.totali
+    );
+  }
 
   function generateTableRows(data: any): JSX.Element[] {
 
-    // init results
     const results: { [key: string]: any[] } = {}; // any -> eletti[]
 
     data.liste.forEach((l: any) => results[l.nome] = []);
@@ -38,7 +49,7 @@ const Results = (props: Props) => {
               {
                 results[l] && results[l][i] ? (
                 [
-                  `${results[l][i].nominativo} (${results[l][i].voti.totali})`,
+                  `${results[l][i].nominativo} (${getVotiSeggio(results[l][i].voti)})`,
                   results[l][i].eletto ? (<img key={`coccarda-${i}`} src="coccarda.png" alt="eletto" width="16" height="30" className="float-right" />) : ''
                 ]) : ''
               }
@@ -96,10 +107,10 @@ const Results = (props: Props) => {
           <th>Seggi</th>
         </tr>
         <tr>
-          <td>{data.schede.bianche.totali}</td>
-          <td>{data.schede.nulle.totali}</td>
-          <td>{data.schede.contestate.totali}</td>
-          <td>{data.votanti.percentuale}</td>
+          <td>{getVotiSeggio(data.schede.bianche)}</td>
+          <td>{getVotiSeggio(data.schede.nulle)}</td>
+          <td>{getVotiSeggio(data.schede.contestate)}</td>
+          <td>{getVotiSeggio(data.votanti)} {!props.seggio ? `(${data.votanti.percentuale} %)` : ''}</td>
           <td>{data.quoziente}</td>
           <td>{data.seggi_da_assegnare}</td>
         </tr>
@@ -111,7 +122,18 @@ const Results = (props: Props) => {
     return (
       <thead className="cursorPointer">
         <tr>
-          <th className="bg-secondary" colSpan={data.liste.length}>{props.anno}</th>
+          <th className="bg-secondary" colSpan={data.liste.length}>
+            {props.anno} {
+              !!seggi
+              ? (
+                  '- Seggi' + (seggi.length === 1 ? 'o' : '') + ': ' + seggi.join(', ') +
+                  (!!props.multi_dip && props.multi_dip[props.anno].length > 1
+                      ? ' - ' + props.multi_dip[props.anno].map(d => d.replace(/_/g, ' ')).join(', ')
+                      : '')
+                )
+              : ''
+            }
+          </th>
         </tr>
         <tr
           key={`tr-${props.anno}-row-${Math.random()}`}
@@ -123,13 +145,13 @@ const Results = (props: Props) => {
             <OverlayTrigger
               placement="top"
               overlay={tooltipExpandCollapse}
-              key={Math.random()}>
+              key={props.anno + '-overlay-' + l.nome}>
               <th key={props.anno + '-lista-' + l.nome}>
               <div className="logo" key={props.anno + '-logo-' + l.nome}>
                   <img key={l.nome} src={`loghi/${fix_names(l.nome)}.jpg`} width="80" height="80" alt={l.nome} />
                 </div>
                 <div className="sub-logo" key={props.anno + '-name-' + l.nome}>
-                  {l.nome} ({l.voti.totali})
+                  {l.nome} ({getVotiSeggio(l.voti)})
                 </div>
               </th>
             </OverlayTrigger>)}
@@ -177,9 +199,9 @@ const Results = (props: Props) => {
             </Collapse>
           </div>
         </div>
-          {/* <Table striped bordered hover responsive className="liste">
+          <Table striped bordered hover responsive className="liste">
             {props.details ? generateNOTA() : ''}
-          </Table> */}
+          </Table>
       </div>
     </div>
   );

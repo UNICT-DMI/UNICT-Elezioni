@@ -12,9 +12,36 @@ interface Params {
   dipartimento: string;
 }
 
+export type dict = { [key: string]: string[] };
+
 const Department = () => {
   const params: Params = useParams();
   const [show, setShow] = useState(false);
+
+  // { year: seggi } -> { "2018-2020": ['1','2','3'] }
+  const seggi: dict = {};
+  const multi_dip_seggio: dict = {};
+  
+  years.forEach(y => {
+    const seggio_per_year: dict = require(`../../data/${y}/seggi.json`);
+
+    seggi[y] = [];
+    multi_dip_seggio[y] = [];
+
+    for (let s of Object.keys(seggio_per_year)) {
+      if (seggio_per_year[s].includes(params.dipartimento)) {
+        seggi[y].push(s);
+
+        if (seggio_per_year[s].length > 1) {
+          seggio_per_year[s].forEach(d => multi_dip_seggio[y].push(d));
+        }
+      }
+    }
+
+    // remove duplicates
+    multi_dip_seggio[y] = Array.from(new Set(multi_dip_seggio[y]));
+  });
+
 
   function toggleFormula(e: any) {
     e.preventDefault();
@@ -43,8 +70,35 @@ const Department = () => {
         </Collapse>
 
         <div className="mt-5">
-          {years.map(y => <Results key={`${y}-${params.dipartimento}`} anno={y} path={`dipartimenti/${params.dipartimento}`} details={true} />)}
+          {years.map(y => <Results
+              key={`${y}-${params.dipartimento}`}
+              anno={y}
+              path={`dipartimenti/${params.dipartimento}`}
+              details={true} />)}
         </div>
+
+        <div className="mt-5">
+          <h2>Senato</h2>
+          {years.map(y => <Results
+              key={`${y}-${params.dipartimento}`}
+              anno={y}
+              path={`Senato`}
+              seggio={seggi}
+              multi_dip={multi_dip_seggio}
+              details={true} />)}
+        </div>
+
+        <div className="mt-5">
+          <h2>Consiglio di Amministrazione</h2>
+          {years.map(y => <Results
+              key={`${y}-${params.dipartimento}`}
+              anno={y}
+              path={`Consiglio_di_amministrazione`}
+              seggio={seggi}
+              multi_dip={multi_dip_seggio}
+              details={true} />)}
+        </div>
+
       </div>
     </div>
   );
