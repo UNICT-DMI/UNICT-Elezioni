@@ -17,7 +17,7 @@ export const ListLogo = (props: Props) => {
   }
 
   return (
-    <img src={`loghi/${getListName()}.jpg`}
+    <img key={getListName()} src={`loghi/${getListName()}.jpg`}
       width="80"
       height="80"
       alt={getListName()} />
