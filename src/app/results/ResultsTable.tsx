@@ -56,7 +56,7 @@ export const ResultTable = (props: Props) => {
 				</tr>
 				<tr
 					key={`tr-${props.anno}-row-${Math.random()}`}
-					className="head-row cursorPointer"
+					className="head-row cursor-pointer"
 					onClick={toggleBody}
 					aria-controls="collapse-tbody"
 					aria-expanded={show}>
