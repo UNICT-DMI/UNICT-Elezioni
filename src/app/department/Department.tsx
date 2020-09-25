@@ -103,7 +103,7 @@ const Department = () => {
             details={true} />
           )}
         </div>
-        
+
       </div>
     </div>
   );
