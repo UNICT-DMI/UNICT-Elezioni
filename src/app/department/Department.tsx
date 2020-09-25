@@ -21,7 +21,7 @@ const Department = () => {
   // { year: seggi } -> { "2018-2020": ['1','2','3'] }
   const seggi: dict = {};
   const multi_dip_seggio: dict = {};
-  
+
   years.forEach(y => {
     const seggio_per_year: dict = require(`../../data/${y}/seggi.json`);
 
@@ -42,7 +42,6 @@ const Department = () => {
     multi_dip_seggio[y] = Array.from(new Set(multi_dip_seggio[y]));
   });
 
-
   function toggleFormula(e: any) {
     e.preventDefault();
     setShow(!show);
@@ -58,10 +57,10 @@ const Department = () => {
           onClick={toggleFormula}
           aria-controls="collapse-tbody"
           aria-expanded={show}>
-            <h3 className="text-white">
-              <FontAwesomeIcon icon={faInfoCircle} /> &nbsp; &nbsp; Eleggibilità &nbsp; &nbsp; <FontAwesomeIcon icon={faInfoCircle} />
-            </h3>
-          </Button>
+          <h3 className="text-white">
+            <FontAwesomeIcon icon={faInfoCircle} /> &nbsp; &nbsp; Eleggibilità &nbsp; &nbsp; <FontAwesomeIcon icon={faInfoCircle} />
+          </h3>
+        </Button>
 
         <Collapse in={show}>
           <div id="collapse-formula" className="mt-3">
@@ -71,34 +70,34 @@ const Department = () => {
 
         <div className="mt-5">
           {years.map(y => <Results
-              key={`${y}-${params.dipartimento}`}
-              anno={y}
-              path={`dipartimenti/${params.dipartimento}`}
-              details={true} />
+            key={`${y}-${params.dipartimento}`}
+            anno={y}
+            path={`dipartimenti/${params.dipartimento}`}
+            details={true} />
           )}
         </div>
 
         <div className="mt-5">
           <h2>Senato</h2>
           {years.map(y => <Results
-              key={`${y}-${params.dipartimento}`}
-              anno={y}
-              path={`Senato`}
-              seggio={seggi}
-              multi_dip={multi_dip_seggio}
-              details={true} />
+            key={`${y}-${params.dipartimento}`}
+            anno={y}
+            path={`Senato`}
+            seggio={seggi}
+            multi_dip={multi_dip_seggio}
+            details={true} />
           )}
         </div>
 
         <div className="mt-5">
           <h2>Consiglio di Amministrazione</h2>
           {years.map(y => <Results
-              key={`${y}-${params.dipartimento}`}
-              anno={y}
-              path={`Consiglio_di_amministrazione`}
-              seggio={seggi}
-              multi_dip={multi_dip_seggio}
-              details={true} />
+            key={`${y}-${params.dipartimento}`}
+            anno={y}
+            path={`Consiglio_di_amministrazione`}
+            seggio={seggi}
+            multi_dip={multi_dip_seggio}
+            details={true} />
           )}
         </div>
 
