@@ -2,18 +2,30 @@ import React, { useEffect, useState } from 'react';
 import Collapse from 'react-bootstrap/Collapse';
 import { OverlayTrigger, Table, Tooltip } from 'react-bootstrap';
 import ListLogo from './ListLogo/ListLogo';
+import { dict } from '../department/Department';
 
 interface Props {
 	data: any;
 	anno: string;
+	seggio?: dict;
+	multi_dip?: dict;
 }
 
 export const ResultTable = (props: Props) => {
 
 	const [show, setShow] = useState(false);
 
+	const seggi = props.seggio ? props.seggio[props.anno] : null;
+
+	function getVotiSeggio(votazioni: any) {
+		return (
+			!!seggi
+				? seggi.reduce((acc: any, prev: any) => acc + votazioni[`seggio_n_${prev}`], 0)
+				: votazioni.totali
+		);
+	}
+
 	function generateTableRows(): JSX.Element[] {
-		// init results
 		const results: { [key: string]: any[] } = {}; // any -> eletti[]
 
 		props.data.liste.forEach((l: any) => results[l.nome] = []);
@@ -28,18 +40,16 @@ export const ResultTable = (props: Props) => {
 		for (let i = 0; i < maxRows; i++) {
 			tableRows.push(
 				<tr key={`${props.anno}-${i}`}>
-					{Object.keys(results).map(l =>
-						l !== 'undefined' ? (
-							<td key={`${props.anno}-${l}-${i}`}>
-								{
-									results[l] && results[l][i] ? (
-										[
-											`${results[l][i].nominativo} (${results[l][i].voti.totali})`,
-											results[l][i].eletto ? (<img key={`coccarda-${i}`} src="coccarda.png" alt="eletto" width="16" height="30" className="float-right" />) : ''
-										]) : ''
-								}
-							</td>
-						) : ''
+					{Object.keys(results).map(l => !!l &&
+						<td key={`${props.anno}-${l}-${i}`}>
+							{
+								results[l] && results[l][i] ? (
+									[
+										`${results[l][i].nominativo} (${getVotiSeggio(results[l][i].voti)})`,
+										results[l][i].eletto ? (<img key={`coccarda-${i}`} src="coccarda.png" alt="eletto" width="16" height="30" className="float-right" />) : ''
+									]) : ''
+							}
+						</td>
 					)}
 				</tr>
 			)
@@ -52,67 +62,78 @@ export const ResultTable = (props: Props) => {
 		return (
 			<thead>
 				<tr>
-					<th className="bg-secondary" colSpan={props.data.liste.length}>{props.anno}</th>
+					<th className="bg-secondary" colSpan={props.data.liste.length}>
+						{props.anno} {
+							!!seggi
+								? (
+									'- Seggi' + (seggi.length === 1 ? 'o' : '') + ': ' + seggi.join(', ') +
+									(!!props.multi_dip && props.multi_dip[props.anno].length > 1
+										? ' - ' + props.multi_dip[props.anno].map(d => d.replace(/_/g, ' ')).join(', ')
+										: '')
+								)
+								: ''
+						}
+					</th>
 				</tr>
-				<tr
-					key={`tr-${props.anno}-row-${Math.random()}`}
-					className="head-row cursor-pointer"
-					onClick={toggleBody}
-					aria-controls="collapse-tbody"
-					aria-expanded={show}>
-					{props.data.liste.map((l: any) => !l.totale &&
-						<OverlayTrigger
-							placement="top"
-							overlay={tooltipExpandCollapse}
-							key={Math.random()}>
-							<th key={props.anno + '-lista-' + l.nome}>
-								<div className="logo" key={props.anno + '-logo-' + l.nome}>
-									<ListLogo listName={l.nome} />
-								</div>
-								<div className="sub-logo" key={props.anno + '-name-' + l.nome}>
-									{l.nome} ({l.voti.totali})
+					<tr
+						key={`tr-${props.anno}-row-${Math.random()}`}
+						className="head-row cursor-pointer"
+						onClick={toggleBody}
+						aria-controls="collapse-tbody"
+						aria-expanded={show}>
+						{props.data.liste.map((l: any) => !l.totale &&
+							<OverlayTrigger
+								placement="top"
+								overlay={tooltipExpandCollapse}
+								key={props.anno + '-overlay-' + l.nome}>
+								<th key={props.anno + '-lista-' + l.nome}>
+									<div className="logo" key={props.anno + '-logo-' + l.nome}>
+										<ListLogo listName={l.nome} />
+									</div>
+									<div className="sub-logo" key={props.anno + '-name-' + l.nome}>
+										{l.nome} ({getVotiSeggio(l.voti)})
                 </div>
-							</th>
-						</OverlayTrigger>)}
-				</tr>
+								</th>
+							</OverlayTrigger>)}
+					</tr>
 			</thead>
 		);
 	}
 
 	const tooltipExpandCollapse = (props: any) => (
-		<Tooltip id="button-tooltip" {...props}>
-			{show ? 'Nascondi candidati' : 'Mostra candidati'}
-		</Tooltip>
+				<Tooltip id="button-tooltip" {...props}>
+					{show ? 'Nascondi candidati' : 'Mostra candidati'}
+				</Tooltip>
 	);
 
 	function toggleBody(e: any) {
-		e.preventDefault();
+					e.preventDefault();
 		setShow(!show);
 	}
 
-	useEffect(() => { }, [show]);
+	useEffect(() => {}, [show]);
 
 	return (
-		<div className="ResultsTable">
-			<div className={show ? 'd-none' : 'd-block'}>
-				<Collapse in={!show}>
-					<Table striped bordered hover responsive className="liste">
-						{generateHead()}
-					</Table>
-				</Collapse>
-			</div>
+				<div className="ResultsTable">
+					<div className={show ? 'd-none' : 'd-block'}>
+						<Collapse in={!show}>
+							<Table striped bordered hover responsive className="liste">
+								{generateHead()}
+							</Table>
+						</Collapse>
+					</div>
 
-			<Collapse in={show}>
-				<div id="collapse-tbody">
-					<Table striped bordered hover className="liste">
-						{generateHead()}
-						<tbody>
-							{generateTableRows()}
-						</tbody>
-					</Table>
+					<Collapse in={show}>
+						<div id="collapse-tbody">
+							<Table striped bordered hover className="liste">
+								{generateHead()}
+								<tbody>
+									{generateTableRows()}
+								</tbody>
+							</Table>
+						</div>
+					</Collapse>
 				</div>
-			</Collapse>
-		</div>
 	)
 }
 export default ResultTable;
