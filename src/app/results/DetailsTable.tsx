@@ -1,13 +1,10 @@
 import React from 'react';
 
-
-
 interface Props {
   data: any;
 }
 
 export const DetailsTable = (props: Props) => {
-
   return (
     <thead>
       <tr>
@@ -28,7 +25,6 @@ export const DetailsTable = (props: Props) => {
       </tr>
     </thead>
   );
-
 }
 
 export default DetailsTable;

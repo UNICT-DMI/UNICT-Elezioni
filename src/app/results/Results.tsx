@@ -17,13 +17,13 @@ export const Results = (props: Props) => {
     <div className="Results">
       <div className="p-2">
         <div className="row">
-          <div className="col-12 lists">
+          <div className="col-12 overflow-x-auto">
             <ResultTable data={data} anno={props.anno} />
           </div>
         </div>
-          <Table striped bordered hover responsive className="liste">
-            {props.details ? <DetailsTable data={data} /> : ''}
-          </Table>
+        <Table striped bordered hover responsive className="liste">
+          {props.details ? <DetailsTable data={data} /> : ''}
+        </Table>
       </div>
     </div>
   );

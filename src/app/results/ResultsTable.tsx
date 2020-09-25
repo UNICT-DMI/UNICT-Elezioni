@@ -44,20 +44,19 @@ export const ResultTable = (props: Props) => {
 				</tr>
 			)
 		}
-
 		return tableRows;
 	}
 
 
 	function generateHead(): JSX.Element {
 		return (
-			<thead className="cursorPointer">
+			<thead>
 				<tr>
 					<th className="bg-secondary" colSpan={props.data.liste.length}>{props.anno}</th>
 				</tr>
 				<tr
-				  key={`tr-${props.anno}-row-${Math.random()}`}
-					className="head-row"
+					key={`tr-${props.anno}-row-${Math.random()}`}
+					className="head-row cursorPointer"
 					onClick={toggleBody}
 					aria-controls="collapse-tbody"
 					aria-expanded={show}>
@@ -91,11 +90,11 @@ export const ResultTable = (props: Props) => {
 		setShow(!show);
 	}
 
-	useEffect(() => {}, [show]);
+	useEffect(() => { }, [show]);
 
 	return (
 		<div className="ResultsTable">
-			<div className={show ? 'invisible' : 'visible'}>
+			<div className={show ? 'd-none' : 'd-block'}>
 				<Collapse in={!show}>
 					<Table striped bordered hover responsive className="liste">
 						{generateHead()}
@@ -115,7 +114,5 @@ export const ResultTable = (props: Props) => {
 			</Collapse>
 		</div>
 	)
-
 }
-
 export default ResultTable;
