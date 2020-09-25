@@ -12,9 +12,7 @@ interface Params {
   dipartimento: string;
 }
 
-
 export type dict = { [key: string]: string[] };
-
 
 const Department = () => {
   const params: Params = useParams();
@@ -79,7 +77,6 @@ const Department = () => {
           )}
         </div>
 
-
         <div className="mt-5">
           <h2>Senato</h2>
           {years.map(y => <Results
@@ -103,7 +100,7 @@ const Department = () => {
             details={true} />
           )}
         </div>
-        
+
       </div>
     </div>
   );

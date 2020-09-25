@@ -4,20 +4,20 @@ import { dict } from '../department/Department';
 interface Props {
   data: any;
   anno: string;
-	seggio?: dict;
+  seggio?: dict;
 }
 
 export const DetailsTable = (props: Props) => {
 
   const seggi = props.seggio ? props.seggio[props.anno] : null;
 
-	function getVotiSeggio(votazioni: any) {
-		return (
-			!!seggi
-				? seggi.reduce((acc: any, prev: any) => acc + votazioni[`seggio_n_${prev}`], 0)
-				: votazioni.totali
-		);
-	}
+  function getVotiSeggio(votazioni: any) {
+    return (
+      !!seggi
+        ? seggi.reduce((acc: any, prev: any) => acc + votazioni[`seggio_n_${prev}`], 0)
+        : votazioni.totali
+    );
+  }
 
   return (
     <thead>

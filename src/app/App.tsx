@@ -25,6 +25,7 @@ const App: FunctionComponent = () => {
               <br />
               <Results anno="2018-2020" path="Senato" details={false} />
               <Results anno="2016-2018" path="Senato" details={false} />
+              <Results anno="2014-2016" path="Senato" details={false} />
             </Route>
             <Route exact path="/cda">
               <h2 className="mt-5">Consiglio di Amministrazione</h2>
