@@ -19,7 +19,7 @@ def isFile(filename) -> bool:
     return(bool(len(file) > 1 and file[len(file)-1] == "pdf"))
 
 def isImportant(filename) -> bool:
-    return(bool("CDL_B" not in filename.upper() and "INFERIORE" not in filename.upper() and "COMITATO" not in filename.upper() and "COORDIMAMENTO" not in filename.upper() and "COORDINAMENTO" not in filename.upper() and "NUCLEO" not in filename.upper() and "DOTTORANDI" not in filename.upper()))
+    return(bool("CDL_B" not in filename.upper() and "INFERIORE" not in filename.upper() and "COORDIMAMENTO" not in filename.upper() and "COORDINAMENTO" not in filename.upper() and "DOTTORANDI" not in filename.upper()))
 
 def createJSON(pathname, option, command) -> None:
     print("Create JSON: " + pathname)
@@ -63,7 +63,7 @@ def subUrl(url, directory, command) -> None:
                 file[len(file)-1] = file[len(file)-1].replace("%20", "_")
                 file[len(file)-1] = file[len(file)-1].replace("%2", "_")
                 open(directory + "/" + file[len(file)-1], "wb").write(requests.get(link).content)
-                if "CONSIGLIO" in file[len(file)-1].upper() or "SENATO" in file[len(file)-1].upper():
+                if "CONSIGLIO" in file[len(file)-1].upper() or "SENATO" in file[len(file)-1].upper() or "NUCLEO" in file[len(file)-1].upper() or "COMITATO" in file[len(file)-1].upper():
                     createJSON(directory + "/" + file[len(file)-1], "other", command)
                 else:
                     createJSON(directory + "/" + file[len(file)-1], "0", command)

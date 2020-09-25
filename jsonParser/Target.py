@@ -86,11 +86,11 @@ class Target(ABC):
         findName = False
         for s in split_text:
             if self.is_integer(s):
+                findName = True
+                listOfSeatsVote.append(int(s))
+            else:
                 if not findName:
                     nameOfCandidate += (s + " ")
-                else:
-                    findName = True
-                    listOfSeatsVote.append(int(s))
         if len(listOfSeatsVote) > 0:
             voteOfCandidate[0] = listOfSeatsVote.pop(0)
         else:
