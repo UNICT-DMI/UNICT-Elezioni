@@ -17,11 +17,13 @@ const Menu: FunctionComponent = () => {
             <Nav className="mr-auto">
               <Nav.Link href="#/senato">Senato</Nav.Link>
               <Nav.Link href="#/cda">Consiglio di Amministrazione</Nav.Link>
+              <Nav.Link href="#/ndv">Nucleo di Valutazione</Nav.Link>
+              <Nav.Link href="#/csu">Comitato per lo sport Universitario</Nav.Link>
               <Nav.Link href="#/dipartimenti">Dipartimenti</Nav.Link>
             </Nav>
             <Nav className="ml-auto">
               <Nav.Link href="https://github.com/UNICT-DMI/UNICT-elezioni" target="_blank">
-                GitHub&nbsp;<FontAwesomeIcon icon={faGithub} />
+                <FontAwesomeIcon icon={faGithub} />
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
