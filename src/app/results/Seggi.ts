@@ -5,7 +5,7 @@ interface ISeggi {
   getVotes(): number[];
 }
 
-export class DepartmentSeggi implements ISeggi {
+class DepartmentSeggi implements ISeggi {
 
   candidateList: any;
 
@@ -27,7 +27,7 @@ export class DepartmentSeggi implements ISeggi {
   }
 }
 
-export class OtherSeggi implements ISeggi {
+class OtherSeggi implements ISeggi {
   candidateList: any;
   seggi: any;
   constructor(candidateList: any, seggi: any) {

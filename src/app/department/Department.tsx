@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
+import { useParams } from 'react-router-dom';
+import { Collapse, Button } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInfoCircle } from '@fortawesome/free-solid-svg-icons';
 import './Department.scss';
 import { years } from '../../data/years';
 import Results from '../results/Results';
-import { useParams } from 'react-router-dom';
-import Collapse from 'react-bootstrap/esm/Collapse';
-import Button from 'react-bootstrap/esm/Button';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInfoCircle } from '@fortawesome/free-solid-svg-icons';
 
 interface Params {
   dipartimento: string;
@@ -103,7 +102,6 @@ const Department = () => {
             showDetailsList={true}/>
           )}
         </div>
-
       </div>
     </div>
   );

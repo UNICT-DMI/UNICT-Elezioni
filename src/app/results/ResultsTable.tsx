@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Collapse from 'react-bootstrap/Collapse';
-import { OverlayTrigger, Popover, Table, Tooltip } from 'react-bootstrap';
+import { Collapse, OverlayTrigger, Popover, Table, Tooltip } from 'react-bootstrap';
 import ListLogo from './ListLogo/ListLogo';
 import { dict } from '../department/Department';
 import DetailsList from './DetailsList';
@@ -110,7 +109,6 @@ export const ResultTable = (props: Props) => {
                   {l.nome} ({getVotiSeggio(l.voti)})
                 </div>
               </th>
-
             </OverlayTrigger>)}
         </tr>
       </thead>
