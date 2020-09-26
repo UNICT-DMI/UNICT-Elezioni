@@ -1,14 +1,15 @@
 import React, { useEffect, useState } from 'react';
-import Collapse from 'react-bootstrap/Collapse';
-import { OverlayTrigger, Table, Tooltip } from 'react-bootstrap';
+import { Collapse, OverlayTrigger, Popover, Table, Tooltip } from 'react-bootstrap';
 import ListLogo from './ListLogo/ListLogo';
 import { dict } from '../department/Department';
+import DetailsList from './DetailList/DetailsList';
 
 interface Props {
   data: any;
   anno: string;
   seggio?: dict;
   multi_dip?: dict;
+  showDetailsList?: boolean;
 }
 
 export const ResultTable = (props: Props) => {
@@ -57,6 +58,16 @@ export const ResultTable = (props: Props) => {
     return tableRows;
   }
 
+  function detailsListPopover(candidateList: any): JSX.Element {
+    if (props.showDetailsList) {
+      return (
+        <Popover id="popover" key={candidateList.nome + '-popover-' + props.anno}>
+          <DetailsList candidateList={candidateList} seggi={seggi} anno={props.anno} />
+        </Popover>
+      );
+    } 
+    return (<div />);
+  }
 
   function generateHead(): JSX.Element {
     return (
@@ -75,65 +86,70 @@ export const ResultTable = (props: Props) => {
             }
           </th>
         </tr>
-          <tr
-            key={`tr-${props.anno}-row-${Math.random()}`}
-            className="head-row cursor-pointer"
-            onClick={toggleBody}
-            aria-controls="collapse-tbody"
-            aria-expanded={show}>
-            {props.data.liste.map((l: any) => !l.totale &&
-              <OverlayTrigger
-                placement="top"
-                overlay={tooltipExpandCollapse}
-                key={props.anno + '-overlay-' + l.nome}>
-                <th key={props.anno + '-lista-' + l.nome}>
+        <tr
+          key={`tr-${props.anno}-row-${Math.random()}`}
+          className="head-row cursor-pointer"
+          onClick={toggleBody}
+          aria-controls="collapse-tbody"
+          aria-expanded={show}>
+          {props.data.liste.map((l: any) => !l.totale &&
+            <OverlayTrigger
+              placement="top"
+              overlay={tooltipExpandCollapse}
+              key={props.anno + '-overlay-' + l.nome}>
+              <th key={props.anno + '-lista-' + l.nome}>
+                <OverlayTrigger
+                  placement="bottom"
+                  overlay={detailsListPopover(l)}
+                  key={props.anno + '-overlay-' + l.nome}>
                   <div className="logo" key={props.anno + '-logo-' + l.nome}>
                     <ListLogo listName={l.nome} />
                   </div>
-                  <div className="sub-logo" key={props.anno + '-name-' + l.nome}>
-                    {l.nome} ({getVotiSeggio(l.voti)})
+                </OverlayTrigger>
+                <div className="sub-logo" key={props.anno + '-name-' + l.nome}>
+                  {l.nome} ({getVotiSeggio(l.voti)})
                 </div>
-                </th>
-              </OverlayTrigger>)}
-          </tr>
+              </th>
+            </OverlayTrigger>)}
+        </tr>
       </thead>
     );
   }
 
   const tooltipExpandCollapse = (props: any) => (
-        <Tooltip id="button-tooltip" {...props}>
-          {show ? 'Nascondi candidati' : 'Mostra candidati'}
-        </Tooltip>
+    <Tooltip id="button-tooltip" {...props}>
+      {show ? 'Nascondi candidati' : 'Mostra candidati'}
+    </Tooltip>
   );
 
   function toggleBody(e: any) {
-          e.preventDefault();
+    e.preventDefault();
     setShow(!show);
   }
 
-  useEffect(() => {}, [show]);
+  useEffect(() => { }, [show]);
 
   return (
-        <div className="ResultsTable">
-          <div className={show ? 'd-none' : 'd-block'}>
-            <Collapse in={!show}>
-              <Table striped bordered hover responsive className="liste">
-                {generateHead()}
-              </Table>
-            </Collapse>
-          </div>
+    <div className="ResultsTable">
+      <div className={show ? 'd-none' : 'd-block'}>
+        <Collapse in={!show}>
+          <Table striped bordered hover responsive className="liste">
+            {generateHead()}
+          </Table>
+        </Collapse>
+      </div>
 
-          <Collapse in={show}>
-            <div id="collapse-tbody">
-              <Table striped bordered hover className="liste">
-                {generateHead()}
-                <tbody>
-                  {generateTableRows()}
-                </tbody>
-              </Table>
-            </div>
-          </Collapse>
+      <Collapse in={show}>
+        <div id="collapse-tbody">
+          <Table striped bordered hover className="liste">
+            {generateHead()}
+            <tbody>
+              {generateTableRows()}
+            </tbody>
+          </Table>
         </div>
+      </Collapse>
+    </div>
   )
 }
 export default ResultTable;

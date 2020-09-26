@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
+import { useParams } from 'react-router-dom';
+import { Collapse, Button } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInfoCircle } from '@fortawesome/free-solid-svg-icons';
 import './Department.scss';
 import { years } from '../../data/years';
 import Results from '../results/Results';
-import { useParams } from 'react-router-dom';
-import Collapse from 'react-bootstrap/esm/Collapse';
-import Button from 'react-bootstrap/esm/Button';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInfoCircle } from '@fortawesome/free-solid-svg-icons';
 
 interface Params {
   dipartimento: string;
@@ -73,7 +72,8 @@ const Department = () => {
             key={`${y}-${params.dipartimento}`}
             anno={y}
             path={`dipartimenti/${params.dipartimento}`}
-            details={true} />
+            details={true}
+            showDetailsList={true} />
           )}
         </div>
 
@@ -85,7 +85,8 @@ const Department = () => {
             path={`Senato`}
             seggio={seggi}
             multi_dip={multi_dip_seggio}
-            details={true} />
+            details={true}
+            showDetailsList={true} />
           )}
         </div>
 
@@ -97,10 +98,10 @@ const Department = () => {
             path={`Consiglio_di_amministrazione`}
             seggio={seggi}
             multi_dip={multi_dip_seggio}
-            details={true} />
+            details={true} 
+            showDetailsList={true}/>
           )}
         </div>
-
       </div>
     </div>
   );

@@ -54,7 +54,7 @@ const App: FunctionComponent = () => {
               {departments.map(d => [
                 <hr className="my-5" />,
                 <h3><a href={`#/dipartimento/${d}`}>{d.replace(/_/g, ' ')}</a></h3>,
-                years.map(y => <Results anno={y} path={`dipartimenti/${d}`} details={false} />)
+                years.map(y => <Results anno={y} path={`dipartimenti/${d}`} details={false} showDetailsList={true} />)
               ])}
             </Route>
             <Route path="/dipartimento/:dipartimento" component={Department} />
