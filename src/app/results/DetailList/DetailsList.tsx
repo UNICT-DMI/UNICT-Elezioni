@@ -15,7 +15,7 @@ export const DetailsList = (props: Props) => {
   function generateHead(): JSX.Element {
     const seggiList = seggi.getSeggi();
     let seggiItems = [];
-    for (let seggio of seggiList) {
+    for (const seggio of seggiList) {
       seggiItems.push(
         <th>{seggio.replace("seggio_n_", "")}</th>
       )
@@ -34,7 +34,7 @@ export const DetailsList = (props: Props) => {
     const votes = seggi.getVotes();
     let voteItems = [];
 
-    for (let vote of votes) {
+    for (const vote of votes) {
       voteItems.push(
         <td>{vote}</td>
       )
