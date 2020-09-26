@@ -4,7 +4,7 @@ import Seggi from './Seggi';
 
 interface Props {
   candidateList: any;
-  seggi: any;
+  seggi: string[] | null;
   anno: string;
 }
 
@@ -12,10 +12,10 @@ export const DetailsList = (props: Props) => {
 
   let seggi: Seggi = new Seggi(props.candidateList, props.seggi)
 
-  function generateHead() {
-    let seggiList = seggi.getSeggi();
+  function generateHead(): JSX.Element {
+    const seggiList = seggi.getSeggi();
     let seggiItems = [];
-    for (let seggio of seggiList!) {
+    for (let seggio of seggiList) {
       seggiItems.push(
         <th>{seggio.replace("seggio_n_", "")}</th>
       )
@@ -30,11 +30,11 @@ export const DetailsList = (props: Props) => {
     )
   }
 
-  function generateVotesRow() {
-    let votes = seggi.getVotes();
+  function generateVotesRow(): JSX.Element {
+    const votes = seggi.getVotes();
     let voteItems = [];
 
-    for (let vote of votes!) {
+    for (let vote of votes) {
       voteItems.push(
         <td>{vote}</td>
       )

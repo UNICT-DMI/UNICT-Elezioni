@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Collapse, OverlayTrigger, Popover, Table, Tooltip } from 'react-bootstrap';
 import ListLogo from './ListLogo/ListLogo';
 import { dict } from '../department/Department';
-import DetailsList from './DetailsList';
+import DetailsList from './DetailList/DetailsList';
 
 interface Props {
   data: any;
@@ -58,13 +58,14 @@ export const ResultTable = (props: Props) => {
     return tableRows;
   }
 
-  function detailsListPopover(candidateList: any) {
-    if (props.showDetailsList)
+  function detailsListPopover(candidateList: any): JSX.Element {
+    if (props.showDetailsList) {
       return (
-        <Popover id="popover" key={Math.random()}>
+        <Popover id="popover" key={candidateList.nome + '-popover-' + props.anno}>
           <DetailsList candidateList={candidateList} seggi={seggi} anno={props.anno} />
         </Popover>
       );
+    } 
     return (<div />);
   }
 
