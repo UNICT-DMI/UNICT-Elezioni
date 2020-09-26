@@ -73,7 +73,8 @@ const Department = () => {
             key={`${y}-${params.dipartimento}`}
             anno={y}
             path={`dipartimenti/${params.dipartimento}`}
-            details={true} />
+            details={true}
+            showDetailsList={true} />
           )}
         </div>
 
@@ -85,7 +86,8 @@ const Department = () => {
             path={`Senato`}
             seggio={seggi}
             multi_dip={multi_dip_seggio}
-            details={true} />
+            details={true}
+            showDetailsList={true} />
           )}
         </div>
 
@@ -97,7 +99,8 @@ const Department = () => {
             path={`Consiglio_di_amministrazione`}
             seggio={seggi}
             multi_dip={multi_dip_seggio}
-            details={true} />
+            details={true} 
+            showDetailsList={true}/>
           )}
         </div>
 

@@ -11,6 +11,7 @@ interface Props {
   details: boolean;
   seggio?: dict;
   multi_dip?: dict;
+  showDetailsList?: boolean;
 }
 
 export const Results = (props: Props) => {
@@ -21,7 +22,7 @@ export const Results = (props: Props) => {
       <div className="p-2">
         <div className="row">
           <div className="col-12 overflow-x-auto">
-            <ResultTable seggio={props.seggio} multi_dip={props.multi_dip} data={data} anno={props.anno} />
+            <ResultTable seggio={props.seggio} multi_dip={props.multi_dip} data={data} anno={props.anno} showDetailsList={props.showDetailsList} />
           </div>
         </div>
         <Table striped bordered hover responsive className="liste">
