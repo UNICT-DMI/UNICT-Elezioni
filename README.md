@@ -1,5 +1,16 @@
 # UNICT-Elezioni
 
+## Docker
+Build the image:
+```
+$ ./docker-build.sh
+```
+
+Run:
+```
+$ ./docker-run.sh
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
