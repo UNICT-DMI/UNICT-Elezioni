@@ -107,7 +107,7 @@ docker build --tag unict-elezioni/parser .
 - *parser.py*
 
   ```bash
-  docker run -tv $path/:/etc/parser/disk unict-elezioni/parser ./code/parser.py $fileName [0|other]
+  docker run -itv $path/:/etc/parser/disk unict-elezioni/parser ./code/parser.py ./disk/$fileName [0|other]
   ```
 
   `$path` is where you want to map the docker volume and where is stored the `$fileName`.
@@ -123,7 +123,7 @@ docker build --tag unict-elezioni/parser .
 - *create-parser.py*
 
   ```bash
-  docker run -tv $path/:/etc/parser/disk unict-elezioni/parser ./code/create-json.py $url ./disk ./code
+  docker run -itv $path/:/etc/parser/disk unict-elezioni/parser ./code/create-json.py $url ./disk ./code
   ```
 
   `$path` is where you want to map the docker volume and where you want to store all JSON files.
