@@ -3,84 +3,78 @@ import json
 
 class Dipartimento(Target):
 
-    def __findNameDepartment(self, text) -> str:
+    def __find_name_department(self, text) -> str:
         nome = text[1]
         self.i = 2
         while "BIENNIO" not in text[self.i].upper() and "VOTI DI LISTA" not in text[self.i].upper():
             nome += "\n" + text[self.i]
             self.i += 1
         return nome
-
-    def __findNumberOfSeats(self, text) -> str:
-        r = text[self.i].split()[len(text[self.i].split())-1]
-        self.i += 1
-        return r
         
-    def __findInfoLists(self, text) -> None:
+    def __find_info_lists(self, text) -> None:
         while "L I S T E" not in text[self.i].upper():
             self.i += 1
         self.i += 1
 
-    def __getSeats(self, text) -> object:
-        listOfSeats = []
+    def __get_seats(self, text) -> object:
+        list_of_seats = []
         split_text = text[self.i].split()
         for s in split_text:
             if self.is_integer(s):
-                listOfSeats.append(int(s))
+                list_of_seats.append(int(s))
         self.i += 1
-        return listOfSeats
+        return list_of_seats
 
-    def __getInfoLists(self, text, listOfSeats, seggiDaAssegnare) -> object:
-        infoLists = []
+    def __get_info_lists(self, text, list_of_seats, seggi_da_assegnare) -> object:
+        info_lists = []
         while("TOTALE" not in text[self.i]):
-            votesOfSeats = []
-            Seats = []
-            nameOfList = ""
-            voteOfList = 0
-            findVote = False
+            seats = []
+            name_of_list = ""
+            vote_of_list = 0
+            find_vote = False
             split_text = text[self.i].split()
             for s in split_text:
-                if not self.is_integer(s) and not findVote:
-                    nameOfList += (s + " ")
-                elif findVote == False:
+                if not self.is_integer(s) and not find_vote:
+                    name_of_list += (s + " ")
+                elif find_vote == False:
                     try:
                         int_s = int(s)
-                        voteOfList = int_s
-                        self.lists.append(nameOfList.strip())
-                        findVote = True
+                        vote_of_list = int_s
+                        self.lists.append(name_of_list.strip())
+                        find_vote = True
                     except ValueError:
-                        nameOfList += (s + " ")
+                        name_of_list += (s + " ")
                 else:
-                    Seats.append(s)
+                    seats.append(s)
             
             votes = {}
-            votes["totali"] = voteOfList
-            j = len(listOfSeats)-1
+            votes["totali"] = vote_of_list
+            j = len(list_of_seats)-1
             k = 0
             while j>=0:
-                votes["seggio_n_" + str(listOfSeats[k])] = int(Seats.pop(len(Seats)-(j+1)))
-                k = k+1
+                votes["seggio_n_" + str(list_of_seats[k])] = int(seats.pop(len(seats)-(j+1)))
+                k += 1
                 j = j-1
-            infoLists.append({
-                "nome": nameOfList.strip(), 
+            info_lists.append({
+                "nome": name_of_list.strip(), 
                 "seggi": {
-                    "seggi_pieni": Seats.pop(0),
-                    "resti": Seats.pop(0),
-                    "seggi_ai_resti": Seats.pop(0),
-                    "seggi_totali": Seats.pop(0)
+                    "seggi_pieni": seats.pop(0),
+                    "resti": seats.pop(0),
+                    "seggi_ai_resti": seats.pop(0),
+                    "seggi_totali": seats.pop(0)
                     },
                     "voti": votes
             })
             self.i += 1
         
         tmp = text[self.i].split()
-        infoLists.append({"totale": int(tmp[1])})
-        seggiDaAssegnare[0] = tmp[len(tmp)-1]
+        info_lists.append({"totale": int(tmp[1])})
+        seggi_da_assegnare[0] = tmp[len(tmp)-1]
         self.i += 1
-        return infoLists
+        return info_lists
 
-    def __getVotanti(self, text, listOfSeats) -> object:
-        listOfVoters = []
+    def __getVotanti(self, text, list_of_seats) -> object:
+        list_of_voters = []
         while "VOTANTI" not in text[self.i].upper():
             self.i += 1
         text[self.i] = text[self.i].replace(",", ".")
@@ -88,26 +82,26 @@ class Dipartimento(Target):
         for s in split_text:
             if self.is_integer(s):
                 ssplit = s.split(".")
-                listOfVoters.append(int(ssplit[0]))
+                list_of_voters.append(int(ssplit[0]))
             else:
                 try:
                     fs = float(s)
-                    listOfVoters.append(fs)
+                    list_of_voters.append(fs)
                 except ValueError:
                     continue
-        votanti = listOfVoters.pop(0)
-        votanti_perc = listOfVoters.pop(0)
+        votanti = list_of_voters.pop(0)
+        votanti_perc = list_of_voters.pop(0)
 
         vot = {}
         vot["totali"] = votanti
         vot["percentuale"] = votanti_perc
         k = 0
-        for v in listOfVoters:
-            vot["seggio_n_" + str(listOfSeats[k])] = v
-            k = k+1
+        for v in list_of_voters:
+            vot["seggio_n_" + str(list_of_seats[k])] = v
+            k += 1
         return vot
     
-    def __getInfoElettori(self, text, listOfSeats) -> object:
+    def __getInfoElettori(self, text, list_of_seats) -> object:
         while "ELETTORI" not in text[self.i].upper():
             self.i += 1
         
@@ -131,43 +125,43 @@ class Dipartimento(Target):
         info_elettori["totali"] = totale_elettori
         k = 0
         for v in elettori_per_seggio:
-            info_elettori["seggio_n_" + str(listOfSeats[k])] = v
-            k = k+1
+            info_elettori["seggio_n_" + str(list_of_seats[k])] = v
+            k += 1
         return info_elettori
 
 
-    def scrapeList(self, text) -> object:
-        nomeDipartimento = self.__findNameDepartment(text)
-        seggiDaAssegnare = [1]
-        self.__findInfoLists(text)
-        listOfSeats = self.__getSeats(text)
-        infoList = self.__getInfoLists(text, listOfSeats, seggiDaAssegnare)
+    def scrape_list(self, text) -> object:
+        nome_dipartimento = self.__find_name_department(text)
+        seggi_da_assegnare = [1]
+        self.__find_info_lists(text)
+        list_of_seats = self.__get_seats(text)
+        info_lists = self.__get_info_lists(text, list_of_seats, seggi_da_assegnare)
 
-        listOfWhite = []
-        schede_bianche = self.findCard("BIANCHE", text, listOfSeats, listOfWhite)
+        list_of_white = []
+        schede_bianche = self.find_card("BIANCHE", text, list_of_seats, list_of_white)
 
-        listOfNull = []
-        schede_nulle = self.findCard("NULLE", text, listOfSeats, listOfNull)
+        list_of_null = []
+        schede_nulle = self.find_card("NULLE", text, list_of_seats, list_of_null)
 
-        listOfContested = []
-        schede_contestate = self.findCard("CONTESTATE", text, listOfSeats, listOfContested)
+        list_of_contested = []
+        schede_contestate = self.find_card("CONTESTATE", text, list_of_seats, list_of_contested)
 
-        schede = self.formatSchede(schede_bianche, schede_nulle, schede_contestate, listOfWhite, listOfNull, listOfContested, listOfSeats)
+        schede = self.format_schede(schede_bianche, schede_nulle, schede_contestate, list_of_white, list_of_null, list_of_contested, list_of_seats)
         
-        quoziente = self.getQuotient(text)
+        quoziente = self.get_quotient(text)
         
-        votanti = self.__getVotanti(text, listOfSeats)
-        info_elettori = self.__getInfoElettori(text, listOfSeats)
+        votanti = self.__getVotanti(text, list_of_seats)
+        info_elettori = self.__getInfoElettori(text, list_of_seats)
 
         eletti = []
         non_eletti = []
-        self.getCandidati(text, eletti, non_eletti, listOfSeats, 1)
+        self.get_candidati(text, eletti, non_eletti, list_of_seats, 1)
 
         file_json = {
-            "dipartimento": nomeDipartimento,
-            "seggi_da_assegnare": seggiDaAssegnare[0],
+            "dipartimento": nome_dipartimento,
+            "seggi_da_assegnare": seggi_da_assegnare[0],
             "schede": schede,
-            "liste": infoList,
+            "liste": info_lists,
             "eletti": eletti,
             "non_eletti": non_eletti,
             "quoziente": quoziente,
@@ -177,4 +171,3 @@ class Dipartimento(Target):
         file = json.dumps(file_json)
         parsed = json.loads(file)
         return json.dumps(parsed, indent=4, sort_keys=False)
-        pass
