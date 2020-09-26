@@ -17,8 +17,8 @@ class DepartmentSeggi implements ISeggi {
 
   getVotes(): number[] {
     const seggi: string[] = this.getSeggi();
-    let votes: number[] = [];
-    for (let seggio of seggi) {
+    const votes: number[] = [];
+    for (const seggio of seggi) {
       votes.push(this._candidateList.voti[seggio])
     }
     return votes;
@@ -39,8 +39,8 @@ class OtherSeggi implements ISeggi {
 
   getVotes(): number[] {
     const seggi: string[] = this.getSeggi();
-    let votes: number[] = [];
-    for (let seggio of seggi) {
+    const votes: number[] = [];
+    for (const seggio of seggi) {
       votes.push(this._candidateList.voti["seggio_n_" + seggio])
     }
     return votes;
