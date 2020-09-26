@@ -1,34 +1,15 @@
 .Results {
   font-size: 12px;
 
-  .lists {
-    overflow-x: auto;
-  }
-
   .year {
     padding: 50px 10px !important;
   }  
-
-  .visible {
-    display: block;
-  }
-  .invisible {
-    display: none;
-  }
-
-  .logo {
-    height: 100px;
-
-    img {
-      margin: auto;
-    }
-  }
 
   .sub-logo {
     height: 50px;
   }
 
-  .cursorPointer {
+  .cursor-pointer {
     cursor: pointer;
   }
 

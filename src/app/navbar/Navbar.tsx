@@ -1,10 +1,8 @@
 import React, { FunctionComponent } from 'react';
-import './Navbar.scss';
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import Button from 'react-bootstrap/Button';
 
 const Menu: FunctionComponent = () => {
   return (
@@ -21,19 +19,15 @@ const Menu: FunctionComponent = () => {
               <Nav.Link href="#/cda">Consiglio di Amministrazione</Nav.Link>
               <Nav.Link href="#/dipartimenti">Dipartimenti</Nav.Link>
             </Nav>
-            <div className="collapse navbar-collapse" id="navbarColor01">
-             <div className="navbar-nav mr-auto"></div>
-             <a href="https://github.com/UNICT-DMI/UNICT-elezioni" target="_blank" rel="noopener noreferrer">
-               <span className="text-white">GitHub</span>
-               <Button className="btn-empty">
-                 <FontAwesomeIcon icon={faGithub} />
-               </Button>
-             </a>
-           </div>
+            <Nav className="ml-auto">
+              <Nav.Link href="https://github.com/UNICT-DMI/UNICT-elezioni" target="_blank">
+                GitHub&nbsp;<FontAwesomeIcon icon={faGithub} />
+              </Nav.Link>
+            </Nav>
           </Navbar.Collapse>
         </div>
       </Navbar>
-     </div>
+    </div>
   );
 }
 
