@@ -1,6 +1,6 @@
 import React from 'react';
+import { Table } from 'react-bootstrap';
 import './Results.scss';
-import Table from 'react-bootstrap/Table';
 import ResultTable from './ResultsTable';
 import DetailsTable from './DetailsTable';
 import { dict } from '../department/Department';
