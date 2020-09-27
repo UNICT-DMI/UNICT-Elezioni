@@ -15,6 +15,7 @@ export const DetailsList = (props: Props) => {
   function generateHead(): JSX.Element {
     const seggiList = seggi.getSeggi();
     const seggiItems = [];
+
     for (const seggio of seggiList) {
       seggiItems.push(
         <th>{seggio.replace("seggio_n_", "")}</th>

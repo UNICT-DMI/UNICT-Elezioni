@@ -14,18 +14,18 @@ start_parser = [
         ]
 end_parser = ["</ul>", "</ul></div></div></div>", "</span></div></div></div>", "</div></div></div>"]
 
-def isFile(filename) -> bool:
+def is_file(filename) -> bool:
     file = filename.split(".")
     return(bool(len(file) > 1 and file[len(file)-1] == "pdf"))
 
-def isImportant(filename) -> bool:
-    return(bool("CDL_B" not in filename.upper() and "INFERIORE" not in filename.upper() and "COMITATO" not in filename.upper() and "COORDIMAMENTO" not in filename.upper() and "COORDINAMENTO" not in filename.upper() and "NUCLEO" not in filename.upper() and "DOTTORANDI" not in filename.upper()))
+def is_important(filename) -> bool:
+    return(bool("CDL_B" not in filename.upper() and "INFERIORE" not in filename.upper() and "COORDIMAMENTO" not in filename.upper() and "COORDINAMENTO" not in filename.upper() and "DOTTORANDI" not in filename.upper()))
 
-def createJSON(pathname, option, command) -> None:
+def create_json(pathname, option, command) -> None:
     print("Create JSON: " + pathname)
     os.system("python3 " + command + "parser.py " + "\"" + pathname + "\" " + option)
 
-def subUrl(url, directory, command) -> None:
+def sub_url(url, directory, command) -> None:
     try:
         os.makedirs(directory, mode = 0o777, exist_ok = True)
     except ValueError:
@@ -58,18 +58,18 @@ def subUrl(url, directory, command) -> None:
         if link.find("https://") < 0 and link.find("http://") < 0:
             link = "https://www.unict.it" + link
         file = link.split("/")
-        if isFile(file[len(file)-1]):
-            if isImportant(file[len(file)-1]):
+        if is_file(file[len(file)-1]):
+            if is_important(file[len(file)-1]):
                 file[len(file)-1] = file[len(file)-1].replace("%20", "_")
                 file[len(file)-1] = file[len(file)-1].replace("%2", "_")
                 open(directory + "/" + file[len(file)-1], "wb").write(requests.get(link).content)
-                if "CONSIGLIO" in file[len(file)-1].upper() or "SENATO" in file[len(file)-1].upper():
-                    createJSON(directory + "/" + file[len(file)-1], "other", command)
+                if "CONSIGLIO" in file[len(file)-1].upper() or "SENATO" in file[len(file)-1].upper() or "NUCLEO" in file[len(file)-1].upper() or "COMITATO" in file[len(file)-1].upper():
+                    create_json(directory + "/" + file[len(file)-1], "other", command)
                 else:
-                    createJSON(directory + "/" + file[len(file)-1], "0", command)
+                    create_json(directory + "/" + file[len(file)-1], "0", command)
                 os.unlink(directory + "/" + file[len(file)-1])
         else:
-            subUrl(link, directory + "/" + file[len(file)-1], command)
+            sub_url(link, directory + "/" + file[len(file)-1], command)
 
 def main(argv) -> None:
     if len(argv) != 3:
@@ -79,7 +79,7 @@ def main(argv) -> None:
         argv[1] = argv[1][:-1]
     if argv[2][len(argv[2])-1] != "/":
         argv[2] += "/"
-    subUrl(argv[0], argv[1], argv[2])
+    sub_url(argv[0], argv[1], argv[2])
 
 if __name__ == "__main__":
     main(sys.argv[1:])
