@@ -36,8 +36,8 @@ const App: FunctionComponent = () => (
             <h2 className="mt-5">Dipartimenti</h2>
             <br />
             {departments.map((d) => [
-              <hr className="my-5" key={d} />,
-              <h3 key={d}><a href={`#/dipartimento/${d}`}>{d.replace(/_/g, ' ')}</a></h3>,
+              <hr className="my-5" key={`hr${d}`} />,
+              <h3 key={`h3${d}`}><a href={`#/dipartimento/${d}`}>{d.replace(/_/g, ' ')}</a></h3>,
               years.map((y) => <Results anno={y} path={`dipartimenti/${d}`} details={false} key={`${d}${y}`} showDetailsList />)
             ])}
           </Route>

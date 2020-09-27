@@ -17,7 +17,7 @@ export const DetailsList = (props: Props): JSX.Element => {
 
     for (const seggio of seggiList) {
       seggiItems.push(
-        <th>{seggio.replace('seggio_n_', '')}</th>
+        <th key={seggio}>{seggio.replace('seggio_n_', '')}</th>
       );
     }
     return (
@@ -36,7 +36,7 @@ export const DetailsList = (props: Props): JSX.Element => {
 
     for (const vote of votes) {
       voteItems.push(
-        <td>{vote}</td>
+        <td key={vote}>{vote}</td>
       );
     }
     return (

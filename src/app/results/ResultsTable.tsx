@@ -61,14 +61,13 @@ export const ResultTable = (props: Props): JSX.Element => {
   }
 
   function detailsListPopover (candidateList: any): JSX.Element {
-    if (props.showDetailsList) {
-      return (
-        <Popover id="popover" key={`${candidateList.nome}-popover-${props.anno}`}>
-          <DetailsList candidateList={candidateList} seggi={seggi} anno={props.anno} />
-        </Popover>
-      );
-    }
-    return (<div />);
+    return (
+      <Popover id="popover"
+        className={props.showDetailsList ? 'd-block' : 'd-none'}
+        key={`${candidateList.nome}-popover-${props.anno}`}>
+        <DetailsList candidateList={candidateList} seggi={seggi} anno={props.anno} />
+      </Popover>
+    );
   }
 
   function generateHead (): JSX.Element {
