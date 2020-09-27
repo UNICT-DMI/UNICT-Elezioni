@@ -10,12 +10,12 @@ interface Props {
 
 export const DetailsList = (props: Props) => {
 
-  let seggi: Seggi = new Seggi(props.candidateList, props.seggi)
+  const seggi: Seggi = new Seggi(props.candidateList, props.seggi)
 
   function generateHead(): JSX.Element {
     const seggiList = seggi.getSeggi();
-    let seggiItems = [];
-    for (let seggio of seggiList) {
+    const seggiItems = [];
+    for (const seggio of seggiList) {
       seggiItems.push(
         <th>{seggio.replace("seggio_n_", "")}</th>
       )
@@ -32,9 +32,9 @@ export const DetailsList = (props: Props) => {
 
   function generateVotesRow(): JSX.Element {
     const votes = seggi.getVotes();
-    let voteItems = [];
+    const voteItems = [];
 
-    for (let vote of votes) {
+    for (const vote of votes) {
       voteItems.push(
         <td>{vote}</td>
       )

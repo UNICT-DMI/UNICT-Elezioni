@@ -1,4 +1,4 @@
-export const departments = [
+const departments = [
   'Agricoltura_alimentazione_e_ambiente',
   'Chirurgia_generale_e_specialità_medico_chirurgiche',
   'Economia_e_impresa',
@@ -17,5 +17,7 @@ export const departments = [
   'Scienze_politiche_e_sociali',
   'Scienze_umanistiche',
   'Struttura_didattica_speciale_di_architettura',
-  'Struttura_didattica_speciale_di_lingue_e_letterature_straniere',
+  'Struttura_didattica_speciale_di_lingue_e_letterature_straniere'
 ];
+
+export default departments;
