@@ -3,7 +3,7 @@ import {
   Switch,
   Route,
   HashRouter,
-  Redirect,
+  Redirect
 } from 'react-router-dom';
 import './App.scss';
 import Menu from './navbar/Navbar';
@@ -36,9 +36,9 @@ const App: FunctionComponent = () => (
             <h2 className="mt-5">Dipartimenti</h2>
             <br />
             {departments.map((d) => [
-              <hr className="my-5" />,
-              <h3><a href={`#/dipartimento/${d}`}>{d.replace(/_/g, ' ')}</a></h3>,
-              years.map((y) => <Results anno={y} path={`dipartimenti/${d}`} details={false} showDetailsList />),
+              <hr className="my-5" key={d} />,
+              <h3 key={d}><a href={`#/dipartimento/${d}`}>{d.replace(/_/g, ' ')}</a></h3>,
+              years.map((y) => <Results anno={y} path={`dipartimenti/${d}`} details={false} key={`${d}${y}`} showDetailsList />)
             ])}
           </Route>
           <Route path="/dipartimento/:dipartimento" component={Department} />
@@ -52,7 +52,7 @@ const App: FunctionComponent = () => (
   </div>
 );
 
-function NotFound() {
+function NotFound (): JSX.Element {
   return <h2>404 - Not Found</h2>;
 }
 
