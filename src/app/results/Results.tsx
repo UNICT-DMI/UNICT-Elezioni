@@ -10,11 +10,11 @@ interface Props {
   path: string;
   details: boolean;
   seggio?: dict;
-  multi_dip?: dict;
+  multiDip?: dict;
   showDetailsList?: boolean;
 }
 
-export const Results = (props: Props) => {
+export const Results = (props: Props): JSX.Element => {
   const data = require(`../../data/${props.anno}/${props.path}.json`);
 
   return (
@@ -22,7 +22,7 @@ export const Results = (props: Props) => {
       <div className="p-2">
         <div className="row">
           <div className="col-12 overflow-x-auto">
-            <ResultTable seggio={props.seggio} multi_dip={props.multi_dip} data={data} anno={props.anno} showDetailsList={props.showDetailsList} />
+            <ResultTable seggio={props.seggio} multiDip={props.multiDip} data={data} anno={props.anno} showDetailsList={props.showDetailsList} />
           </div>
         </div>
         <Table striped bordered hover responsive className="liste">
@@ -31,6 +31,6 @@ export const Results = (props: Props) => {
       </div>
     </div>
   );
-}
+};
 
 export default Results;

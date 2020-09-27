@@ -4,22 +4,21 @@ interface ISeggi {
 }
 
 class DepartmentSeggi implements ISeggi {
-
   private _candidateList: any;
 
-  constructor(candidateList: string[]) {
+  constructor (candidateList: any) {
     this._candidateList = candidateList;
   }
 
-  getSeggi(): string[] {
-    return Object.keys(this._candidateList.voti).filter(v => v.startsWith('seggio_n_'));
+  getSeggi (): string[] {
+    return Object.keys(this._candidateList.voti).filter((v) => v.startsWith('seggio_n_'));
   }
 
-  getVotes(): number[] {
+  getVotes (): number[] {
     const seggi: string[] = this.getSeggi();
     const votes: number[] = [];
     for (const seggio of seggi) {
-      votes.push(this._candidateList.voti[seggio])
+      votes.push(this._candidateList.voti[seggio]);
     }
     return votes;
   }
@@ -27,41 +26,42 @@ class DepartmentSeggi implements ISeggi {
 
 class OtherSeggi implements ISeggi {
   private _candidateList: any;
-  private _seggi: any;
-  constructor(candidateList: any, seggi: any) {
+
+  private _seggi: string[];
+
+  constructor (candidateList: any, seggi: string[]) {
     this._candidateList = candidateList;
     this._seggi = seggi;
   }
 
-  getSeggi(): string[] {
+  getSeggi (): string[] {
     return this._seggi;
   }
 
-  getVotes(): number[] {
+  getVotes (): number[] {
     const seggi: string[] = this.getSeggi();
     const votes: number[] = [];
     for (const seggio of seggi) {
-      votes.push(this._candidateList.voti["seggio_n_" + seggio])
+      votes.push(this._candidateList.voti[`seggio_n_${seggio}`]);
     }
     return votes;
   }
 }
 
 export class Seggi {
-  seggiState: ISeggi | undefined;
+  seggiState: ISeggi;
 
-  constructor(candidateList: any, seggi: any) {
+  constructor (candidateList: any, seggi: string[] | null) {
     this.seggiState = seggi ? new OtherSeggi(candidateList, seggi) : new DepartmentSeggi(candidateList);
   }
 
-  getSeggi(): string[] {
-    return this.seggiState!.getSeggi();
+  getSeggi (): string[] {
+    return this.seggiState.getSeggi();
   }
 
-  getVotes(): number[] {
-    return this.seggiState!.getVotes();
+  getVotes (): number[] {
+    return this.seggiState.getVotes();
   }
-
 }
 
 export default Seggi;
