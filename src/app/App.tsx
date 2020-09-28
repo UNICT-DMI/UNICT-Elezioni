@@ -27,10 +27,25 @@ const App: FunctionComponent = () => (
             <Results anno="2014-2016" path="Senato" details={false} />
           </Route>
           <Route exact path="/cda">
-            <h2 className="mt-5">Consiglio di Amministrazione</h2>
+            <h2 className="mt-5">Consiglio di Amministrazione (CdA)</h2>
             <br />
             <Results anno="2018-2020" path="Consiglio_di_amministrazione" details={false} />
             <Results anno="2016-2018" path="Consiglio_di_amministrazione" details={false} />
+            <Results anno="2014-2016" path="Consiglio_di_amministrazione" details={false} />
+          </Route>
+          <Route exact path="/ndv">
+            <h2 className="mt-5">Nucleo di Valutazione (NdV)</h2>
+            <br />
+            <Results anno="2018-2020" path="Nucleo_di_valutazione" details={false} />
+            <Results anno="2016-2018" path="Nucleo_di_valutazione" details={false} />
+            <Results anno="2014-2016" path="Nucleo_di_valutazione" details={false} />
+          </Route>
+          <Route exact path="/csu">
+            <h2 className="mt-5">Comitato per lo Sport Universitario (CSU)</h2>
+            <br />
+            <Results anno="2018-2020" path="Comitato_per_lo_sport_universitario" details={false} />
+            <Results anno="2016-2018" path="Comitato_per_lo_sport_universitario" details={false} />
+            <Results anno="2014-2016" path="Comitato_per_lo_sport_universitario" details={false} />
           </Route>
           <Route exact path="/dipartimenti">
             <h2 className="mt-5">Dipartimenti</h2>
