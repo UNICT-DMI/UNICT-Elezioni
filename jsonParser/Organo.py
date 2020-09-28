@@ -1,3 +1,4 @@
+from os import name
 from Target import Target
 import json
 
@@ -16,7 +17,10 @@ class Organo(Target):
             if self.__word_not_in_control("AGGIORNAMENTO", text):
                 nome_organo += (text[self.i].upper() + " ")
             self.i += 1
-        nome_organo += (text[self.i].upper() + " ") 
+        nome_organo += (text[self.i].upper() + " ")
+        self.i += 1
+        if not self.__word_not_in_control("ERSU", text):
+            nome_organo += (text[self.i].upper() + " ")
         return nome_organo.strip()
 
     def __automatic_control1(self, index, text) -> bool:
@@ -84,17 +88,30 @@ class Organo(Target):
         else:
             return self.__find_list_of_seats_manual(text1, list_of_not)
     
+    def __get_name_list(self, text, split_text) -> str:
+        name_list = ""
+        while not self.is_integer(split_text[0][0]):
+            name_list += (split_text[0].pop(0) + " ")
+            if len(split_text[0]) <= 0:
+                self.i += 1
+                split_text[0] = text[self.i].split()
+                name_list += self.__get_name_list(text, split_text)
+                return name_list
+        return name_list
+
     def __get_info_lists(self, text) -> object:
         self.__word_not_in_update("TOTALE", text)
         self.i += 1
         info_list = []
         while self.__word_not_in_control("TOTALE", text):
-            split_text = text[self.i].split()
-            name_list = ""
-            while not self.is_integer(split_text[0]):
-                name_list += (split_text.pop(0) + " ")
+            split_text = [1]
+            split_text[0] = text[self.i].split()
+            #name_list = ""
+            #while not self.is_integer(split_text[0]):
+            #    name_list += (split_text.pop(0) + " ")
+            name_list = self.__get_name_list(text, split_text)
             self.lists.append(name_list.strip())
-            info_list.append(split_text)
+            info_list.append(split_text[0])
             self.i += 1        
         return info_list
 
