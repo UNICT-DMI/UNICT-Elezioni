@@ -1,7 +1,7 @@
-from os import name
 from Target import Target
 import json
 
+@Target.register
 class Organo(Target):
 
     def __word_not_in_update(self, word, text) -> None:

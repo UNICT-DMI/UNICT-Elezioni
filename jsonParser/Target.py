@@ -1,11 +1,11 @@
 from abc import ABC, abstractmethod
-import json
 
 class Target(ABC):
 
     i = 0
     lists = []
 
+    @abstractmethod
     def scrape_list(self, text) -> object:
         """This method permits to create a JSON."""
         pass

@@ -1,6 +1,7 @@
 from Target import Target
 import json
 
+@Target.register
 class Dipartimento(Target):
 
     def __find_name_department(self, text) -> str:
