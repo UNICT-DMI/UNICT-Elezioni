@@ -7,14 +7,14 @@ export const SearchForm = (): JSX.Element => {
   const [formValue, setFormValue] = useState('');
   const [suggestions, setSuggestions] = useState(['']);
 
-  function onInputFormChange (event: any): void {
+  function onInputFormChange(event: any): void {
     setFormValue(event.target.value);
     const value = event.target.value;
     const searchEngine = new SearchEngine(null);
     setSuggestions(searchEngine.search(value));
   }
 
-  function generateSuggestions (): JSX.Element[] {
+  function generateSuggestions(): JSX.Element[] {
     const results = [];
     for (const suggestion of suggestions) {
       results.push(

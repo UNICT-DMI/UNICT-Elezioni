@@ -19,7 +19,7 @@ export const ResultTable = (props: Props): JSX.Element => {
 
   const seggi: string[] | null = props.seggio ? props.seggio[props.anno] : null;
 
-  function getVotiSeggio (votazioni: any): string[] | null {
+  function getVotiSeggio(votazioni: any): string[] | null {
     return (
       seggi
         ? seggi.reduce((acc: any, prev: any) => acc + votazioni[`seggio_n_${prev}`], 0)
@@ -27,7 +27,7 @@ export const ResultTable = (props: Props): JSX.Element => {
     );
   }
 
-  function generateTableRows (): JSX.Element[] {
+  function generateTableRows(): JSX.Element[] {
     const results: { [key: string]: any[] } = {}; // any -> eletti[]
 
     props.data.liste.forEach((l: any) => (results[l.nome] = []));
@@ -60,7 +60,7 @@ export const ResultTable = (props: Props): JSX.Element => {
     return tableRows;
   }
 
-  function detailsListPopover (candidateList: any): JSX.Element {
+  function detailsListPopover(candidateList: any): JSX.Element {
     return (
       <Popover id="popover"
         className={props.showDetailsList ? 'd-block' : 'd-none'}
@@ -70,7 +70,7 @@ export const ResultTable = (props: Props): JSX.Element => {
     );
   }
 
-  function generateHead (): JSX.Element {
+  function generateHead(): JSX.Element {
     return (
       <thead>
         <tr>
@@ -131,7 +131,7 @@ export const ResultTable = (props: Props): JSX.Element => {
     </Tooltip>
   );
 
-  function toggleBody (e: any): void {
+  function toggleBody(e: any): void {
     e.preventDefault();
     setShow(!show);
   }

@@ -6,7 +6,7 @@ interface Props {
 }
 
 export const ListLogo = (props: Props): JSX.Element => {
-  function getListName (): string {
+  function getListName(): string {
     return props.listName.replace('#', '')
       .replace(/ /g, ' ')
       .replace(/ /g, ' ')

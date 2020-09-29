@@ -11,7 +11,7 @@ interface Props {
 export const DetailsList = (props: Props): JSX.Element => {
   const seggi: Seggi = new Seggi(props.candidateList, props.seggi);
 
-  function generateHead (): JSX.Element {
+  function generateHead(): JSX.Element {
     const seggiList = seggi.getSeggi();
     const seggiItems = [];
 
@@ -30,7 +30,7 @@ export const DetailsList = (props: Props): JSX.Element => {
     );
   }
 
-  function generateVotesRow (): JSX.Element {
+  function generateVotesRow(): JSX.Element {
     const votes = seggi.getVotes();
     const voteItems = [];
 

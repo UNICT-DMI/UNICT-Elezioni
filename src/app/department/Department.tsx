@@ -41,7 +41,7 @@ const Department = (): JSX.Element => {
     multiDipSeggio[y] = Array.from(new Set(multiDipSeggio[y]));
   });
 
-  function toggleFormula (e: any): void {
+  function toggleFormula(e: any): void {
     e.preventDefault();
     setShow(!show);
   }

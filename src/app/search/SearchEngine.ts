@@ -1,7 +1,7 @@
 import departments from '../../data/departments';
 
 class SearchDepartment {
-  search (str: string): string[] {
+  search(str: string): string[] {
     const results: string[] = [];
     str = str.replace(' ', '_').toUpperCase();
     for (const depart of departments) {
@@ -16,11 +16,11 @@ class SearchDepartment {
 class SearchEngine {
   private _data: any;
   private searchDep = new SearchDepartment()
-  constructor (data: any) {
+  constructor(data: any) {
     this._data = data;
   }
 
-  search (str: string): string[] {
+  search(str: string): string[] {
     return this.searchDep.search(str);
   }
 }

@@ -53,7 +53,7 @@ const App: FunctionComponent = () => (
   </div>
 );
 
-function NotFound (): JSX.Element {
+function NotFound(): JSX.Element {
   return <h2>404 - Not Found</h2>;
 }
 

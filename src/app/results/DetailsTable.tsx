@@ -10,7 +10,7 @@ interface Props {
 export const DetailsTable = (props: Props): JSX.Element => {
   const seggi: string[] | null = props.seggio ? props.seggio[props.anno] : null;
 
-  function getVotiSeggio (votazioni: any): string[] | null {
+  function getVotiSeggio(votazioni: any): string[] | null {
     return (
       seggi
         ? seggi.reduce((acc: any, prev: any) => acc + votazioni[`seggio_n_${prev}`], 0)
