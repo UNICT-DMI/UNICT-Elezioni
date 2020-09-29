@@ -11,13 +11,14 @@ import Results from './results/Results';
 import departments from '../data/departments';
 import { years } from '../data/years';
 import Department from './department/Department';
+import { SearchForm } from './search/SearchForm';
 
 const App: FunctionComponent = () => (
   <div className="App">
     <HashRouter basename="/">
       <Menu />
-      <br />
-      <div className="container-fluid">
+      <div className="container-fluid pt-4">
+        <SearchForm/>
         <Switch>
           <Route exact path="/senato">
             <h2 className="mt-5">Senato</h2>

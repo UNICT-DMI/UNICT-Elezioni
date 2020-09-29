@@ -41,7 +41,7 @@ export const DetailsList = (props: Props): JSX.Element => {
     }
     return (
       <tbody>
-        <tr>
+        <tr key={`${props.candidateList.nome}-voteRow-${props.anno}`}>
           <td><b>Voti</b></td>
           {voteItems}
         </tr>
