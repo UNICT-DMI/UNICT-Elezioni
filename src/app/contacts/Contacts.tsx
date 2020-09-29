@@ -1,11 +1,6 @@
 import React from 'react';
 import { ListGroup } from 'react-bootstrap';
 import './Contacts.scss';
-//import { useParams } from 'react-router-dom';
-// import Collapse from 'react-bootstrap/esm/Collapse';
-// import Button from 'react-bootstrap/esm/Button';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faInfoCircle } from '@fortawesome/free-solid-svg-icons';
 
 const Contacts = () => {
 
@@ -18,6 +13,9 @@ const Contacts = () => {
             <ListGroup.Item>Stefano Borzì</ListGroup.Item>
             <ListGroup.Item>Vincenzo Filetti</ListGroup.Item>
             <ListGroup.Item>Andrea Maugeri</ListGroup.Item>
+            <ListGroup.Item>Graziano Di Grande</ListGroup.Item>
+            <ListGroup.Item>Luigi Seminara</ListGroup.Item>
+            <ListGroup.Item>Davide Carnemolla</ListGroup.Item>
         </ListGroup>
       </div>
     </div>
