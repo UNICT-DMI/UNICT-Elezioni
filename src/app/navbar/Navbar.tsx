@@ -21,7 +21,9 @@ const Menu: FunctionComponent = () => (
             </NavDropdown>
           </Nav>
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mr-auto"></Nav>
+          <Nav className="mr-auto">
+            <Nav.Link href="#/contatti">Contatti</Nav.Link>
+          </Nav>
           <Nav className="ml-auto">
             <Nav.Link href="https://github.com/UNICT-DMI/UNICT-elezioni" target="_blank">
               GitHub&nbsp;
