@@ -11,6 +11,7 @@ import Results from './results/Results';
 import departments from '../data/departments';
 import { years } from '../data/years';
 import Department from './department/Department';
+import Contacts from './contacts/Contacts';
 
 const App: FunctionComponent = () => (
   <div className="App">
@@ -46,6 +47,9 @@ const App: FunctionComponent = () => (
             <Results anno="2018-2020" path="Comitato_per_lo_sport_universitario" details={false} />
             <Results anno="2016-2018" path="Comitato_per_lo_sport_universitario" details={false} />
             <Results anno="2014-2016" path="Comitato_per_lo_sport_universitario" details={false} />
+          </Route>
+          <Route exact path="/contatti">
+            <Contacts></Contacts>
           </Route>
           <Route exact path="/dipartimenti">
             <h2 className="mt-5">Dipartimenti</h2>

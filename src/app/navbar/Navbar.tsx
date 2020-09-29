@@ -19,6 +19,10 @@ const Menu: FunctionComponent = () => (
               <NavDropdown.Item href="#/csu">Comitato per lo sport Universitario</NavDropdown.Item>
               <NavDropdown.Item href="#/dipartimenti">Dipartimenti</NavDropdown.Item>
             </NavDropdown>
+          <Nav className="mr-auto"></Nav>
+          <Nav className="ml-auto">
+            <Nav.Link href="#/contatti" className="marginLeft: 'auto'">Contatti</Nav.Link>
+          </Nav>
           </Nav>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto"></Nav>
