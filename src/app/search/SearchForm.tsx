@@ -15,18 +15,13 @@ export const SearchForm = (): JSX.Element => {
   }
 
   function generateSuggestions(): JSX.Element[] {
-    const results = [];
-    for (const suggestion of suggestions) {
-      results.push(
-        <a href={`#/dipartimento/${suggestion}`}>
-          <ListGroup.Item action variant="light">
-            {suggestion.replaceAll('_', ' ')}
-          </ListGroup.Item>
-        </a>
-
-      );
-    }
-    return results;
+    return suggestions.map((s) =>
+      <a key={`#/dipartimento/${s}`} href={`#/dipartimento/${s}`}>
+        <ListGroup.Item action variant="light">
+          {s.replaceAll('_', ' ')}
+        </ListGroup.Item>
+      </a>
+    ) as any;
   }
 
   return (<div className="search col-2 ml-auto">
@@ -35,7 +30,7 @@ export const SearchForm = (): JSX.Element => {
       value={formValue}
       onChange={onInputFormChange}
       placeholder="Cerca dipartimento, candidato, lista..." />
-    <ListGroup className={formValue.length > 0 ? 'suggestions-list' : 'd-none' }>
+    <ListGroup className={formValue.length > 0 ? 'suggestions-list' : 'd-none'}>
       {generateSuggestions()}
     </ListGroup>
   </div>);
