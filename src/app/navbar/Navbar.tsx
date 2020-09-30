@@ -12,14 +12,14 @@ const Menu: FunctionComponent = () => (
         <Navbar.Brand href="#/senato">UNICT Elezioni</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Nav variant="pills" activeKey="1">
-            <NavDropdown title="Risultati" id="nav-dropdown">
-              <NavDropdown.Item href="#/senato">Senato</NavDropdown.Item>
-              <NavDropdown.Item href="#/cda">Consiglio di Amministrazione</NavDropdown.Item>
-              <NavDropdown.Item href="#/ndv">Nucleo di Valutazione</NavDropdown.Item>
-              <NavDropdown.Item href="#/csu">Comitato per lo sport Universitario</NavDropdown.Item>
-              <NavDropdown.Item href="#/dipartimenti">Dipartimenti</NavDropdown.Item>
-            </NavDropdown>
-          </Nav>
+          <NavDropdown title="Risultati" id="nav-dropdown">
+            <NavDropdown.Item href="#/senato">Senato</NavDropdown.Item>
+            <NavDropdown.Item href="#/cda">Consiglio di Amministrazione</NavDropdown.Item>
+            <NavDropdown.Item href="#/ndv">Nucleo di Valutazione</NavDropdown.Item>
+            <NavDropdown.Item href="#/csu">Comitato per lo sport Universitario</NavDropdown.Item>
+            <NavDropdown.Item href="#/dipartimenti">Dipartimenti</NavDropdown.Item>
+          </NavDropdown>
+        </Nav>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Link href="#/contatti">Contatti</Nav.Link>
