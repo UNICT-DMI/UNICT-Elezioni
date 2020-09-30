@@ -1,4 +1,38 @@
 import departments from '../../data/departments';
+import years from '../../data/years';
+
+export interface ListInfo {
+  name: string;
+  year: string;
+  department: string;
+}
+
+export interface SearchResult {
+  departments: string[];
+  lists: ListInfo[];
+}
+
+class SearchList {
+  search(str: string): ListInfo[] {
+    const results: ListInfo[] = [];
+    str = str.toUpperCase();
+    for (const year of years) {
+      for (const dep of departments) {
+        const depData = require(`../../data/${year}/dipartimenti/${dep}.json`);
+        for (const list of depData.liste) {
+          if (list.nome && (list.nome as string).toUpperCase().indexOf(str) !== -1) {
+            results.push({
+              name: list.nome,
+              year: year,
+              department: dep
+            });
+          }
+        }
+      }
+    }
+    return results;
+  }
+}
 
 class SearchDepartment {
   search(str: string): string[] {
@@ -14,14 +48,14 @@ class SearchDepartment {
 }
 
 class SearchEngine {
-  private _data: any;
   private searchDep = new SearchDepartment()
-  constructor(data: any) {
-    this._data = data;
-  }
+  private searchList = new SearchList()
 
-  search(str: string): string[] {
-    return this.searchDep.search(str);
+  search(str: string): SearchResult {
+    return {
+      departments: this.searchDep.search(str),
+      lists: this.searchList.search(str)
+    };
   }
 }
 
