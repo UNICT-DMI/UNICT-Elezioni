@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import {
-  Collapse, OverlayTrigger, Popover, Table, Tooltip
-} from 'react-bootstrap';
+import { Collapse, OverlayTrigger, Popover, Table, Tooltip } from 'react-bootstrap';
 import ListLogo from './ListLogo/ListLogo';
 import { dict } from '../department/Department';
 import DetailsList from './DetailList/DetailsList';
@@ -42,7 +40,7 @@ export const ResultTable = (props: Props): JSX.Element => {
     for (let i = 0; i < maxRows; i++) {
       tableRows.push(
         <tr key={`${props.anno}-${i}`}>
-          {Object.keys(results).map((l) => !!l &&
+          {Object.keys(results).map((l: string) => l !== 'undefined' &&
             (
               <td key={`${props.anno}-${l}-${i}`}>
                 {
