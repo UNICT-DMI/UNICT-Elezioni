@@ -40,7 +40,7 @@ export const ResultTable = (props: Props): JSX.Element => {
     for (let i = 0; i < maxRows; i++) {
       tableRows.push(
         <tr key={`${props.anno}-${i}`}>
-          {Object.keys(results).map((l: string) => results[l][i] !== undefined &&
+          {Object.keys(results).map((l: string) => l !== 'undefined' &&
             (
               <td key={`${props.anno}-${l}-${i}`}>
                 {
