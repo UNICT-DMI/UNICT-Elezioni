@@ -29,14 +29,15 @@ export const SearchForm = (): JSX.Element => {
 
   function generateListSuggests(): JSX.Element[] {
     return listSuggests.map((suggestion) =>
-      <a key={`list-${suggestion.name}${suggestion.department}${suggestion.year}`}
-        href={`#/dipartimento/${suggestion.department}`}>
+      <a key={`list-${suggestion.name}${suggestion.department}${suggestion.entity}${suggestion.year}`}
+        href={suggestion.path}>
         <ListGroup.Item action variant="light">
           {suggestion.name}
           <sub>
             {suggestion.year}
             <sub>
-              {suggestion.department.replaceAll('_', ' ')}
+              {suggestion.department?.replaceAll('_', ' ')}
+              {suggestion.entity?.replaceAll('_', ' ')}
             </sub>
           </sub>
         </ListGroup.Item>
