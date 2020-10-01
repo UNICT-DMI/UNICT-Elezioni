@@ -44,11 +44,11 @@ export const ResultTable = (props: Props): JSX.Element => {
             (
               <td key={`${props.anno}-${l}-${i}`}>
                 {
-                  results[l] && results[l][i] ? (
+                  results[l] && results[l][i] && (
                     [
                       `${results[l][i].nominativo} (${getVotiSeggio(results[l][i].voti)})`,
                       results[l][i].eletto ? (<img key={`coccarda-${i}`} src="coccarda.png" alt="eletto" width="16" height="30" className="float-right" />) : ''
-                    ]) : ''
+                    ])
                 }
               </td>
             ))}
@@ -63,7 +63,9 @@ export const ResultTable = (props: Props): JSX.Element => {
       <Popover id="popover"
         className={props.showDetailsList ? 'd-block' : 'd-none'}
         key={`${candidateList.nome}-popover-${props.anno}`}>
-        <DetailsList candidateList={candidateList} seggi={seggi} anno={props.anno} />
+        {props.showDetailsList &&
+          <DetailsList candidateList={candidateList} seggi={seggi} anno={props.anno} />
+        }
       </Popover>
     );
   }
@@ -76,14 +78,12 @@ export const ResultTable = (props: Props): JSX.Element => {
             {props.anno}
             {' '}
             {
-              seggi
-                ? (
+              seggi && (
                   `- Seggi${seggi.length === 1 ? 'o' : ''}: ${seggi.join(', ')
                   }${!!props.multiDip && props.multiDip[props.anno].length > 1
                     ? ` - ${props.multiDip[props.anno].map((d) => d.replace(/_/g, ' ')).join(', ')}`
                     : ''}`
-                )
-                : ''
+              )
             }
           </th>
         </tr>

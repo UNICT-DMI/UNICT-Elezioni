@@ -1,5 +1,4 @@
 import React from 'react';
-import { Table } from 'react-bootstrap';
 import './Results.scss';
 import ResultTable from './ResultsTable';
 import DetailsTable from './DetailsTable';
@@ -25,9 +24,9 @@ export const Results = (props: Props): JSX.Element => {
             <ResultTable seggio={props.seggio} multiDip={props.multiDip} data={data} anno={props.anno} showDetailsList={props.showDetailsList} />
           </div>
         </div>
-        <Table striped bordered hover responsive className="liste">
-          {props.details ? <DetailsTable seggio={props.seggio} data={data} anno={props.anno} /> : ''}
-        </Table>
+        {props.details &&
+          <DetailsTable seggio={props.seggio} data={data} anno={props.anno} />
+        }
       </div>
     </div>
   );
