@@ -16,12 +16,12 @@ interface SearchResult {
 }
 
 class SearchList {
-  searchListDep(str: string): ListInfo[] {
+  searchListDep(str: string, data: any): ListInfo[] {
     const results: ListInfo[] = [];
     str = str.toUpperCase();
     for (const year of years) {
       for (const dep of departments) {
-        const depData = require(`../../data/${year}/dipartimenti/${dep}.json`);
+        const depData = data[year].departments[dep];
         for (const list of depData.liste) {
           if (list.nome && (list.nome as string).toUpperCase().indexOf(str) !== -1) {
             results.push({
@@ -37,12 +37,12 @@ class SearchList {
     return results;
   }
 
-  searchOther(str: string): ListInfo[] {
+  searchOther(str: string, data: any): ListInfo[] {
     const results: ListInfo[] = [];
     str = str.toUpperCase();
     for (const year of years) {
       for (const entity of entities) {
-        const entityData = require(`../../data/${year}/${entity}.json`);
+        const entityData = data[year][entity];
         for (const list of entityData.liste) {
           if (list.nome && (list.nome as string).toUpperCase().indexOf(str) !== -1) {
             results.push({
@@ -58,8 +58,8 @@ class SearchList {
     return results;
   }
 
-  search(str: string): ListInfo[] {
-    return [...this.searchListDep(str), ...this.searchOther(str)];
+  search(str: string, data: any): ListInfo[] {
+    return [...this.searchListDep(str, data), ...this.searchOther(str, data)];
   }
 }
 
@@ -79,11 +79,34 @@ class SearchDepartment {
 class SearchEngine {
   private searchDep = new SearchDepartment()
   private searchList = new SearchList()
+  private data: any;
+  private static instance: SearchEngine;
+
+  private constructor() {
+    this.data = [];
+    for (const year of years) {
+      this.data[year] = [];
+      for (const entity of entities) {
+        this.data[year][entity] = require(`../../data/${year}/${entity}.json`);
+      }
+      this.data[year].departments = [];
+      for (const depart of departments) {
+        this.data[year].departments[depart] = require(`../../data/${year}/dipartimenti/${depart}.json`);
+      }
+    }
+  }
+
+  static getInstance(): SearchEngine {
+    if (!SearchEngine.instance) {
+      SearchEngine.instance = new SearchEngine();
+    }
+    return SearchEngine.instance;
+  }
 
   search(str: string): SearchResult {
     return {
       departments: this.searchDep.search(str),
-      lists: this.searchList.search(str)
+      lists: this.searchList.search(str, this.data)
     };
   }
 }

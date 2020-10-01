@@ -10,7 +10,7 @@ export const SearchForm = (): JSX.Element => {
 
   function onInputFormChange(event: any): void {
     const value = event.target.value;
-    const searchEngine = new SearchEngine();
+    const searchEngine = SearchEngine.getInstance();
     const results = searchEngine.search(value);
     setDepSuggests(results.departments);
     setListSuggests(results.lists);
