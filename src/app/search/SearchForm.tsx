@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import { Form, ListGroup } from 'react-bootstrap';
-import SearchEngine, { ListInfo } from './SearchEngine';
+import SearchEngine, { CandidateInfo, ListInfo } from './SearchEngine';
 import './SearchForm.scss';
 
 export const SearchForm = (): JSX.Element => {
   const [formValue, setFormValue] = useState('');
   const [depSuggests, setDepSuggests] = useState([] as string[]);
   const [listSuggests, setListSuggests] = useState([] as ListInfo[]);
+  const [candidatesSuggests, setCandidatesSuggests] = useState([] as CandidateInfo[]);
 
   function onInputFormChange(event: any): void {
     const value = event.target.value;
@@ -14,6 +15,7 @@ export const SearchForm = (): JSX.Element => {
     const results = searchEngine.search(value);
     setDepSuggests(results.departments);
     setListSuggests(results.lists);
+    setCandidatesSuggests(results.candidates);
     setFormValue(value);
   }
 
@@ -45,11 +47,30 @@ export const SearchForm = (): JSX.Element => {
     ) as any;
   }
 
+  function generateCandidatesSuggests(): JSX.Element[] {
+    return candidatesSuggests.map((suggestion) =>
+      <a key={`list-${suggestion.name}${suggestion.department}${suggestion.entity}${suggestion.year}`}
+        href={suggestion.path}>
+        <ListGroup.Item action variant="light">
+          {suggestion.name}
+          <sub>
+            {suggestion.year}
+            <sub>
+              {suggestion.department?.replaceAll('_', ' ')}
+              {suggestion.entity?.replaceAll('_', ' ')}
+            </sub>
+          </sub>
+        </ListGroup.Item>
+      </a>
+    ) as any;
+  }
+
   function generateSuggestions(): JSX.Element {
     return (
       <div className="suggestions">
         {generateDepSuggests()}
         {generateListSuggests()}
+        {generateCandidatesSuggests()}
       </div>
     );
   }

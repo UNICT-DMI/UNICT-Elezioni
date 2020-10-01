@@ -10,9 +10,43 @@ export interface ListInfo {
   path: string;
 }
 
+export interface CandidateInfo {
+  name: string;
+  year: string;
+  listName: string;
+  department?: string;
+  entity?: string;
+  path: string;
+}
+
 interface SearchResult {
   departments: string[];
   lists: ListInfo[];
+  candidates: CandidateInfo[];
+}
+
+class SearchCandidate {
+  search(str: string, data: any): CandidateInfo[] {
+    const results: CandidateInfo[] = [];
+    str = str.toUpperCase();
+    for (const year of years) {
+      for (const dep of departments) {
+        const electedList = (data[year].departments[dep].eletti as any[]).concat(data[year].departments[dep].non_eletti);
+        for (const candidate of electedList) {
+          if ((candidate.nominativo as string).toUpperCase().indexOf(str) !== -1) {
+            results.push({
+              name: candidate.nominativo,
+              listName: candidate.nominativo,
+              year: year,
+              department: dep,
+              path: '#/dipartimento/' + dep
+            });
+          }
+        }
+      }
+    }
+    return results;
+  }
 }
 
 class SearchList {
@@ -21,8 +55,8 @@ class SearchList {
     str = str.toUpperCase();
     for (const year of years) {
       for (const dep of departments) {
-        const depData = data[year].departments[dep];
-        for (const list of depData.liste) {
+        const depData = data[year].departments[dep].liste;
+        for (const list of depData) {
           if (list.nome && (list.nome as string).toUpperCase().indexOf(str) !== -1) {
             results.push({
               name: list.nome,
@@ -42,8 +76,8 @@ class SearchList {
     str = str.toUpperCase();
     for (const year of years) {
       for (const entity of entities) {
-        const entityData = data[year][entity];
-        for (const list of entityData.liste) {
+        const lists = data[year][entity].liste;
+        for (const list of lists) {
           if (list.nome && (list.nome as string).toUpperCase().indexOf(str) !== -1) {
             results.push({
               name: list.nome,
@@ -79,6 +113,8 @@ class SearchDepartment {
 class SearchEngine {
   private searchDep = new SearchDepartment()
   private searchList = new SearchList()
+  private searchCandidate = new SearchCandidate()
+
   private data: any;
   private static instance: SearchEngine;
 
@@ -106,7 +142,8 @@ class SearchEngine {
   search(str: string): SearchResult {
     return {
       departments: this.searchDep.search(str),
-      lists: this.searchList.search(str, this.data)
+      lists: this.searchList.search(str, this.data),
+      candidates: this.searchCandidate.search(str, this.data)
     };
   }
 }
