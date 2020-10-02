@@ -1,0 +1,61 @@
+{
+    "dipartimento": "FISICA",
+    "quorum": true,
+    "seggi_da_assegnare": 5,
+    "schede": {
+        "bianche": 1,
+        "nulle": 3,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "ANFUSO Giorgio",
+            "voti": 20
+        },
+        {
+            "nome_candidato": "PUTRINO Paolo",
+            "voti": 20
+        },
+        {
+            "nome_candidato": "RIZZO Daniele",
+            "voti": 37
+        },
+        {
+            "nome_candidato": "TROVATO Gabriele",
+            "voti": 15
+        },
+        {
+            "nome_candidato": "URSINO Federico",
+            "voti": 16
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "D'ANGELO Francesco",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "FERRARA Luca",
+            "voti": 10
+        },
+        {
+            "nome_candidato": "GIUSTOLISI Lorenzo",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "INZERILLI Pietro",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "PERNA Adriano",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "ROVERE Filippo",
+            "voti": 10
+        }
+    ],
+    "totale_voti": 123,
+    "aventi_diritto": 307,
+    "perc_votanti": 40.07
+}

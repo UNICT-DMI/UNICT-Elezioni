@@ -1,0 +1,37 @@
+{
+    "dipartimento": "CHIMICA INDUSTRIALE-Laurea (D.M.270/2004)\nCHIMICA INDUSTRIALE-Laurea Triennale (D.M. 509/99)\nTECNOLOGIE APPLICATE ALLA CONSERVAZIONE E AL RESTAURO DEI BENI CULTURALI-Laurea Triennale (D.M. 509/99)",
+    "quorum": true,
+    "seggi_da_assegnare": 5,
+    "schede": {
+        "bianche": 3,
+        "nulle": 1,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "CALANNI PILERI STEFANO",
+            "voti": 11
+        },
+        {
+            "nome_candidato": "CIRALDO NICOLO'",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "VACIRCA BENEDETTA",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "VELLA ANDREA",
+            "voti": 35
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "LONGO DAMIANO ANTONIO",
+            "voti": 0
+        }
+    ],
+    "totale_voti": 54,
+    "aventi_diritto": 227,
+    "perc_votanti": 23.79
+}

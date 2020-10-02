@@ -1,0 +1,61 @@
+{
+    "dipartimento": "DIETISTICA",
+    "quorum": true,
+    "seggi_da_assegnare": 6,
+    "schede": {
+        "bianche": 0,
+        "nulle": 1,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "AVERSA Dario",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "DIOLOSA' Laura",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "FURNARI Fabrizio",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "NICOTRA Lorenzo",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "POLIZZI Ramona",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "TOSTO Isabella",
+            "voti": 4
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "BUTERA Dorothy",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "CASSIA Roberta",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "DI DIO Giorgia Andrea",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "LA ROSA Maria Paola",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "MUSUMARRA Giuseppe",
+            "voti": 1
+        }
+    ],
+    "totale_voti": 33,
+    "aventi_diritto": 53,
+    "perc_votanti": 62.26
+}

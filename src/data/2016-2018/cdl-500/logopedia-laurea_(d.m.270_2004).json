@@ -1,0 +1,49 @@
+{
+    "dipartimento": "LOGOPEDIA-Laurea (D.M.270/2004)\nLOGOPEDIA-Laurea Triennale (D.M. 509/99)",
+    "quorum": true,
+    "seggi_da_assegnare": 5,
+    "schede": {
+        "bianche": 1,
+        "nulle": 3,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "ARDITA VINCENZO",
+            "voti": 7
+        },
+        {
+            "nome_candidato": "NUNNARI VERONICA",
+            "voti": 11
+        },
+        {
+            "nome_candidato": "SGROI CARMELO",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "SPINELLA DEBORAH",
+            "voti": 7
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "CAMUTO ALESSANDRA",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "DI STEFANO MARTINA",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "MAZZONE FLAVIA",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "ZAPPALA' CRISTINA LAURA",
+            "voti": 4
+        }
+    ],
+    "totale_voti": 51,
+    "aventi_diritto": 57,
+    "perc_votanti": 89.47
+}

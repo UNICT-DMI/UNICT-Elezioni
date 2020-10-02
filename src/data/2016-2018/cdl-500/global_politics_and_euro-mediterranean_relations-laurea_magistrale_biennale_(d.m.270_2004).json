@@ -1,0 +1,20 @@
+{
+    "dipartimento": "GLOBAL POLITICS AND EURO-MEDITERRANEAN RELATIONS-Laurea Magistrale biennale (D.M.270/2004)\nGOVERNO DELL'UNIONE EUROPEA E POLITICA INTERNAZIONAZIONALE-Laurea Specialistica biennale (D.M. 509/99)",
+    "quorum": false,
+    "seggi_da_assegnare": 3,
+    "schede": {
+        "bianche": 1,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [],
+    "non_eletti": [
+        {
+            "nome_candidato": "FARACI DANIELE LUIGI",
+            "voti": 2
+        }
+    ],
+    "totale_voti": 3,
+    "aventi_diritto": 37,
+    "perc_votanti": 8.11
+}

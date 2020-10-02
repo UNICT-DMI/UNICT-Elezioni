@@ -1,0 +1,426 @@
+{
+    "dipartimento": "SCIENZE DELL'AMMINISTRAZIONE-Laurea (D.M.270/2004)\nCOMUNICAZIONE E RELAZIONI PUBBLICHE-Laurea Triennale (D.M. 509/99)\nSCIENZE DEL GOVERNO E DELL'AMMINISTRAZIONE-Laurea Triennale (D.M. 509/99)\nSCIENZE DELL'AMMINISTRAZIONE-Laurea Triennale (D.M. 509/99)",
+    "seggi_da_assegnare": "6",
+    "schede": {
+        "bianche": {
+            "totali": 22,
+            "seggio_n_4": 22
+        },
+        "nulle": {
+            "totali": 22,
+            "seggio_n_4": 22
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_4": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "CONTROCAMPUS \u2010 POPOLO DEGLI STUDENTI \u2010 LIBERI E FORTI",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "20,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 20,
+                "seggio_n_4": 20
+            }
+        },
+        {
+            "nome": "ACTEA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "12,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 12,
+                "seggio_n_4": 12
+            }
+        },
+        {
+            "nome": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "33,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 33,
+                "seggio_n_4": 33
+            }
+        },
+        {
+            "nome": "UNIVERSITA' POPOLARE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "6,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 6,
+                "seggio_n_4": 6
+            }
+        },
+        {
+            "nome": "ARCADIA",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "2,3",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 102,
+                "seggio_n_4": 102
+            }
+        },
+        {
+            "nome": "REVOLUTION",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "32,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 32,
+                "seggio_n_4": 32
+            }
+        },
+        {
+            "nome": "WE LOVE UNICT",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "47,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 47,
+                "seggio_n_4": 47
+            }
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "39,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 39,
+                "seggio_n_4": 39
+            }
+        },
+        {
+            "nome": "ALLEANZA UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "8,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 8,
+                "seggio_n_4": 8
+            }
+        },
+        {
+            "totale": 299
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "GUAGLIARDO Prospero",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 18,
+                "seggio_n_4": 18
+            }
+        },
+        {
+            "nominativo": "TOSCANO Denise",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 43,
+                "seggio_n_4": 43
+            }
+        },
+        {
+            "nominativo": "CONSOLI Rosario",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 45,
+                "seggio_n_4": 45
+            }
+        },
+        {
+            "nominativo": "PAPPALARDO Dario",
+            "lista": "REVOLUTION",
+            "voti": {
+                "totali": 15,
+                "seggio_n_4": 15
+            }
+        },
+        {
+            "nominativo": "SGRO Ramona \u2010 detta \"Sgroi\"",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 30,
+                "seggio_n_4": 30
+            }
+        },
+        {
+            "nominativo": "CUNDARI Federico",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 24,
+                "seggio_n_4": 24
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "AGNELLO Chiara",
+            "lista": "CONTROCAMPUS \u2010 POPOLO DEGLI STUDENTI \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 10,
+                "seggio_n_4": 10
+            }
+        },
+        {
+            "nominativo": "IZZIA Carola",
+            "lista": "CONTROCAMPUS \u2010 POPOLO DEGLI STUDENTI \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0
+            }
+        },
+        {
+            "nominativo": "COSTA Matteo",
+            "lista": "CONTROCAMPUS \u2010 POPOLO DEGLI STUDENTI \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0
+            }
+        },
+        {
+            "nominativo": "PAVONE Rosario",
+            "lista": "CONTROCAMPUS \u2010 POPOLO DEGLI STUDENTI \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 1,
+                "seggio_n_4": 1
+            }
+        },
+        {
+            "nominativo": "SCUDERI Rosa Alessandra",
+            "lista": "CONTROCAMPUS \u2010 POPOLO DEGLI STUDENTI \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 3,
+                "seggio_n_4": 3
+            }
+        },
+        {
+            "nominativo": "DI GUARDO Alfio",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_4": 1
+            }
+        },
+        {
+            "nominativo": "ZAPPALA' Giuseppe",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 5,
+                "seggio_n_4": 5
+            }
+        },
+        {
+            "nominativo": "MUSUMECI Salvatore",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0
+            }
+        },
+        {
+            "nominativo": "TEODORO Giorgio",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0
+            }
+        },
+        {
+            "nominativo": "CIACCHELLA Carmelo Sebastiano",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 10,
+                "seggio_n_4": 10
+            }
+        },
+        {
+            "nominativo": "BRUNO Giorgia",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 3,
+                "seggio_n_4": 3
+            }
+        },
+        {
+            "nominativo": "MACCARRONE Roberto",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 1,
+                "seggio_n_4": 1
+            }
+        },
+        {
+            "nominativo": "MACCARRONE Giorgia",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0
+            }
+        },
+        {
+            "nominativo": "SANTONOCITO Alberto",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 2,
+                "seggio_n_4": 2
+            }
+        },
+        {
+            "nominativo": "GRECO Fabrizio",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_4": 1
+            }
+        },
+        {
+            "nominativo": "ROCCELLA Antonio",
+            "lista": "REVOLUTION",
+            "voti": {
+                "totali": 7,
+                "seggio_n_4": 7
+            }
+        },
+        {
+            "nominativo": "ALEO Gabriele",
+            "lista": "REVOLUTION",
+            "voti": {
+                "totali": 9,
+                "seggio_n_4": 9
+            }
+        },
+        {
+            "nominativo": "CONSOLI BARONE Giuliana",
+            "lista": "REVOLUTION",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0
+            }
+        },
+        {
+            "nominativo": "CATANIA Marzia",
+            "lista": "REVOLUTION",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0
+            }
+        },
+        {
+            "nominativo": "DI BARTOLO Nancy",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 5,
+                "seggio_n_4": 5
+            }
+        },
+        {
+            "nominativo": "PEPE Andrea",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0
+            }
+        },
+        {
+            "nominativo": "MORABITO Daniele",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 4,
+                "seggio_n_4": 4
+            }
+        },
+        {
+            "nominativo": "MIRAGLIA Salvatore",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0
+            }
+        },
+        {
+            "nominativo": "FIORILLA Agnese",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0
+            }
+        },
+        {
+            "nominativo": "EVOLA Paolo Maria",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_4": 1
+            }
+        },
+        {
+            "nominativo": "CRIMI STIGLIOLO Tatyana",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0
+            }
+        },
+        {
+            "nominativo": "PRIVITERA Davide Domenico",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 6,
+                "seggio_n_4": 6
+            }
+        },
+        {
+            "nominativo": "MARRANO Alessio",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0
+            }
+        }
+    ],
+    "quoziente": 49.8333,
+    "votanti": {
+        "totali": 343,
+        "percentuale": 32.76,
+        "seggio_n_4": 343
+    },
+    "elettori": {
+        "totali": 1047,
+        "seggio_n_4": 1047
+    }
+}

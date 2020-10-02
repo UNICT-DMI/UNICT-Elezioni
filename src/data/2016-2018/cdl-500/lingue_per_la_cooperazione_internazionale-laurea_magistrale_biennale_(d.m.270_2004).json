@@ -1,0 +1,28 @@
+{
+    "dipartimento": "LINGUE PER LA COOPERAZIONE INTERNAZIONALE-Laurea Magistrale biennale (D.M.270/2004)\nCULTURE E LINGUAGGI PER LA COMUNICAZIONE-Laurea Specialistica biennale (D.M. 509/99)\nLINGUE STRANIERE PER LA COMUNICAZIONE INTERNAZIONALE-Laurea Specialistica biennale(D.M. 509/99)",
+    "quorum": true,
+    "seggi_da_assegnare": 4,
+    "schede": {
+        "bianche": 5,
+        "nulle": 1,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "CALASCIBETTA EUGENIA ELISA",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "LO RE ILEANA",
+            "voti": 15
+        },
+        {
+            "nome_candidato": "PERNI SIMONA",
+            "voti": 9
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 32,
+    "aventi_diritto": 212,
+    "perc_votanti": 15.09
+}

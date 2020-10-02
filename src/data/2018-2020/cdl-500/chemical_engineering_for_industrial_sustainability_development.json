@@ -1,0 +1,24 @@
+{
+    "dipartimento": "CHEMICAL ENGINEERING FOR INDUSTRIAL SUSTAINABILITY DEVELOPMENT",
+    "quorum": true,
+    "seggi_da_assegnare": 2,
+    "schede": {
+        "bianche": 1,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "PARRINELLO Nunzio",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "SACCUZZO Salvatore",
+            "voti": 17
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 20,
+    "aventi_diritto": 28,
+    "perc_votanti": 71.43
+}

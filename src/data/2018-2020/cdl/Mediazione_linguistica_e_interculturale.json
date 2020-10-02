@@ -1,0 +1,276 @@
+{
+    "dipartimento": "MEDIAZIONE LINGUISTICA E INTERCULTURALE-Laurea (D.M.270/2004)\nSCIENZE DELLA MEDIAZIONE LINGUISTICA-Laurea Triennale (D.M. 509/99)\nSTUDI COMPARATISTICI-Laurea Triennale (D.M. 509/99)",
+    "seggi_da_assegnare": "9",
+    "schede": {
+        "bianche": {
+            "totali": 11,
+            "seggio_n_33": 11
+        },
+        "nulle": {
+            "totali": 14,
+            "seggio_n_33": 14
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_33": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "CONTROCAMPUS",
+            "seggi": {
+                "seggi_pieni": "4",
+                "resti": "18,1",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "5"
+            },
+            "voti": {
+                "totali": 119,
+                "seggio_n_33": 119
+            }
+        },
+        {
+            "nome": "UNIVERSITA' POPOLARE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "4,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 4,
+                "seggio_n_33": 4
+            }
+        },
+        {
+            "nome": "ARCADIA \u2010 REVOLUTION",
+            "seggi": {
+                "seggi_pieni": "4",
+                "resti": "3,1",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "4"
+            },
+            "voti": {
+                "totali": 104,
+                "seggio_n_33": 104
+            }
+        },
+        {
+            "totale": 227
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "ALFIERI Omar",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 17,
+                "seggio_n_33": 17
+            }
+        },
+        {
+            "nominativo": "LUCA Valentina Giuseppa",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 35,
+                "seggio_n_33": 35
+            }
+        },
+        {
+            "nominativo": "DI MATTIA Alessia",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 15,
+                "seggio_n_33": 15
+            }
+        },
+        {
+            "nominativo": "LINGUANTI Ivan",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 11,
+                "seggio_n_33": 11
+            }
+        },
+        {
+            "nominativo": "VILARDO Michael",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 10,
+                "seggio_n_33": 10
+            }
+        },
+        {
+            "nominativo": "FINOCCHIARO Michelle",
+            "lista": "ARCADIA \u2010 REVOLUTION",
+            "voti": {
+                "totali": 41,
+                "seggio_n_33": 41
+            }
+        },
+        {
+            "nominativo": "RUBERTO Concetta",
+            "lista": "ARCADIA \u2010 REVOLUTION",
+            "voti": {
+                "totali": 27,
+                "seggio_n_33": 27
+            }
+        },
+        {
+            "nominativo": "LONGO Federica",
+            "lista": "ARCADIA \u2010 REVOLUTION",
+            "voti": {
+                "totali": 13,
+                "seggio_n_33": 13
+            }
+        },
+        {
+            "nominativo": "MESSINA Antonio",
+            "lista": "ARCADIA \u2010 REVOLUTION",
+            "voti": {
+                "totali": 8,
+                "seggio_n_33": 8
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "CARUSO Salvatore",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 8,
+                "seggio_n_33": 8
+            }
+        },
+        {
+            "nominativo": "GRASSO Fausto",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 3,
+                "seggio_n_33": 3
+            }
+        },
+        {
+            "nominativo": "GRAVINA Biagio",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 7,
+                "seggio_n_33": 7
+            }
+        },
+        {
+            "nominativo": "GALLINA Maria Alessandra",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 0,
+                "seggio_n_33": 0
+            }
+        },
+        {
+            "nominativo": "GANGI Michela",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_33": 0
+            }
+        },
+        {
+            "nominativo": "MAUGERI Antonino Matteo",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 2,
+                "seggio_n_33": 2
+            }
+        },
+        {
+            "nominativo": "FAILLA Damiano",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_33": 0
+            }
+        },
+        {
+            "nominativo": "GALVAGNO Federica",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_33": 0
+            }
+        },
+        {
+            "nominativo": "MOTTOLA Martina",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_33": 0
+            }
+        },
+        {
+            "nominativo": "PLATANIA Alfio",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_33": 0
+            }
+        },
+        {
+            "nominativo": "OLIVERI Marina",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_33": 0
+            }
+        },
+        {
+            "nominativo": "ASCIA Claudia",
+            "lista": "ARCADIA \u2010 REVOLUTION",
+            "voti": {
+                "totali": 5,
+                "seggio_n_33": 5
+            }
+        },
+        {
+            "nominativo": "NARBONE Mirko",
+            "lista": "ARCADIA \u2010 REVOLUTION",
+            "voti": {
+                "totali": 1,
+                "seggio_n_33": 1
+            }
+        },
+        {
+            "nominativo": "SAMPERI Elisabeth",
+            "lista": "ARCADIA \u2010 REVOLUTION",
+            "voti": {
+                "totali": 0,
+                "seggio_n_33": 0
+            }
+        },
+        {
+            "nominativo": "FASSARI Federica",
+            "lista": "ARCADIA \u2010 REVOLUTION",
+            "voti": {
+                "totali": 2,
+                "seggio_n_33": 2
+            }
+        },
+        {
+            "nominativo": "MISSUD Jessica",
+            "lista": "ARCADIA \u2010 REVOLUTION",
+            "voti": {
+                "totali": 0,
+                "seggio_n_33": 0
+            }
+        }
+    ],
+    "quoziente": 25.2222,
+    "votanti": {
+        "totali": 252,
+        "percentuale": 31.27,
+        "seggio_n_33": 252
+    },
+    "elettori": {
+        "totali": 806,
+        "seggio_n_33": 806
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "dipartimento": "FINANZA AZIENDALE-Laurea Magistrale biennale (D.M.270/2004)\nFINANZA AZIENDALE-Laurea Specialistica biennale (D.M. 509/99)",
+    "quorum": true,
+    "seggi_da_assegnare": 3,
+    "schede": {
+        "bianche": 3,
+        "nulle": 1,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "ADORNI DANIELA",
+            "voti": 9
+        },
+        {
+            "nome_candidato": "ANGELICO DARIO",
+            "voti": 14
+        },
+        {
+            "nome_candidato": "POLIGNANO PIERLUIGI",
+            "voti": 23
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "ESPOSITO ANTONIO",
+            "voti": 7
+        }
+    ],
+    "totale_voti": 57,
+    "aventi_diritto": 133,
+    "perc_votanti": 42.86
+}

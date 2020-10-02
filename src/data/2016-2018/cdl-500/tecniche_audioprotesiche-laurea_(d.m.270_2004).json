@@ -1,0 +1,36 @@
+{
+    "dipartimento": "TECNICHE AUDIOPROTESICHE-Laurea (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 5,
+    "schede": {
+        "bianche": 0,
+        "nulle": 1,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "BORDONALI ARTURO",
+            "voti": 7
+        },
+        {
+            "nome_candidato": "GUARDO SEBASTIANO",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "MARANO CARMELO",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "MIGLIORISI GIOVANNI",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "STANCO ELEONORA",
+            "voti": 3
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 22,
+    "aventi_diritto": 39,
+    "perc_votanti": 56.41
+}

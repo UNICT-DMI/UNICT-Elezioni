@@ -1,0 +1,506 @@
+{
+    "dipartimento": "SCIENZE E TECNOLOGIE AGRARIE-Laurea (D.M.270/2004)\nSCIENZE E TECNOLOGIE AGRARIE TROPICALI E SUBTROPICALI-Laurea Triennale (D.M. 509/99)\nSCIENZE E TECNOLOGIE AGRARIE-Laurea Triennale (D.M. 509/99)",
+    "seggi_da_assegnare": "6",
+    "schede": {
+        "bianche": {
+            "totali": 27,
+            "seggio_n_25": 27
+        },
+        "nulle": {
+            "totali": 13,
+            "seggio_n_25": 13
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_25": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "CONTROCAMPUS",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "10,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 10,
+                "seggio_n_25": 10
+            }
+        },
+        {
+            "nome": "ARCHE'",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "41,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 86,
+                "seggio_n_25": 86
+            }
+        },
+        {
+            "nome": "PCG \u2010 PER CIO' CHE E' GIUSTO",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "4,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 4,
+                "seggio_n_25": 4
+            }
+        },
+        {
+            "nome": "ACTEA",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "0,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 45,
+                "seggio_n_25": 45
+            }
+        },
+        {
+            "nome": "PROGETTO PER AGRARIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "35,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 35,
+                "seggio_n_25": 35
+            }
+        },
+        {
+            "nome": "ARES",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "23,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 23,
+                "seggio_n_25": 23
+            }
+        },
+        {
+            "nome": "WE LOVE UNICT",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "18,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 18,
+                "seggio_n_25": 18
+            }
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "38,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 38,
+                "seggio_n_25": 38
+            }
+        },
+        {
+            "nome": "ALLEANZA UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "11,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 11,
+                "seggio_n_25": 11
+            }
+        },
+        {
+            "totale": 270
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "TRICOMI Gianluca",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 43,
+                "seggio_n_25": 43
+            }
+        },
+        {
+            "nominativo": "SIPIONE Anna",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 22,
+                "seggio_n_25": 22
+            }
+        },
+        {
+            "nominativo": "PROJETTO Francesco",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 29,
+                "seggio_n_25": 29
+            }
+        },
+        {
+            "nominativo": "CAPACE Alessandro",
+            "lista": "PROGETTO PER AGRARIA",
+            "voti": {
+                "totali": 18,
+                "seggio_n_25": 18
+            }
+        },
+        {
+            "nominativo": "CINARDI Salvatore",
+            "lista": "ARES",
+            "voti": {
+                "totali": 11,
+                "seggio_n_25": 11
+            }
+        },
+        {
+            "nominativo": "VITALE Alessio",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 16,
+                "seggio_n_25": 16
+            }
+        },
+        {
+            "nominativo": "PITRUZZELLO Maria Flavia",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 16,
+                "seggio_n_25": 16
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "ASERO Giada",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 0,
+                "seggio_n_25": 0
+            }
+        },
+        {
+            "nominativo": "DI STEFANO Giulia Graziella",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 0,
+                "seggio_n_25": 0
+            }
+        },
+        {
+            "nominativo": "LIZZIO Angelo",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 3,
+                "seggio_n_25": 3
+            }
+        },
+        {
+            "nominativo": "SANTAMARIA Eugenio",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 2,
+                "seggio_n_25": 2
+            }
+        },
+        {
+            "nominativo": "UMANA Annalisa Maria",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 0,
+                "seggio_n_25": 0
+            }
+        },
+        {
+            "nominativo": "AVOLA Marco",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 5,
+                "seggio_n_25": 5
+            }
+        },
+        {
+            "nominativo": "GIANNINO Rocco",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 2,
+                "seggio_n_25": 2
+            }
+        },
+        {
+            "nominativo": "PREVITERA Salvo",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 1,
+                "seggio_n_25": 1
+            }
+        },
+        {
+            "nominativo": "VALENTI Deborah",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 2,
+                "seggio_n_25": 2
+            }
+        },
+        {
+            "nominativo": "ASMUNDO Roberto Gualtiero Maria",
+            "lista": "PCG \u2010 PER CIO' CHE E' GIUSTO",
+            "voti": {
+                "totali": 0,
+                "seggio_n_25": 0
+            }
+        },
+        {
+            "nominativo": "CALANDRA CHECCO Giacomo",
+            "lista": "PCG \u2010 PER CIO' CHE E' GIUSTO",
+            "voti": {
+                "totali": 0,
+                "seggio_n_25": 0
+            }
+        },
+        {
+            "nominativo": "PAPA Erika",
+            "lista": "PCG \u2010 PER CIO' CHE E' GIUSTO",
+            "voti": {
+                "totali": 1,
+                "seggio_n_25": 1
+            }
+        },
+        {
+            "nominativo": "ROMANO Gaetano",
+            "lista": "PCG \u2010 PER CIO' CHE E' GIUSTO",
+            "voti": {
+                "totali": 2,
+                "seggio_n_25": 2
+            }
+        },
+        {
+            "nominativo": "SALICOLA Salvatore Alfio",
+            "lista": "PCG \u2010 PER CIO' CHE E' GIUSTO",
+            "voti": {
+                "totali": 0,
+                "seggio_n_25": 0
+            }
+        },
+        {
+            "nominativo": "SCOLLO Federico",
+            "lista": "PCG \u2010 PER CIO' CHE E' GIUSTO",
+            "voti": {
+                "totali": 0,
+                "seggio_n_25": 0
+            }
+        },
+        {
+            "nominativo": "LA TERRA Giuseppe",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 7,
+                "seggio_n_25": 7
+            }
+        },
+        {
+            "nominativo": "BRIZZI Maria Stella",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_25": 1
+            }
+        },
+        {
+            "nominativo": "CATALANO Salvatore",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 5,
+                "seggio_n_25": 5
+            }
+        },
+        {
+            "nominativo": "MACEDONE Luigi",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_25": 0
+            }
+        },
+        {
+            "nominativo": "FALLICO Salvatore",
+            "lista": "PROGETTO PER AGRARIA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_25": 1
+            }
+        },
+        {
+            "nominativo": "MELI Nunzio",
+            "lista": "PROGETTO PER AGRARIA",
+            "voti": {
+                "totali": 3,
+                "seggio_n_25": 3
+            }
+        },
+        {
+            "nominativo": "SCINARDO Giacomo",
+            "lista": "PROGETTO PER AGRARIA",
+            "voti": {
+                "totali": 3,
+                "seggio_n_25": 3
+            }
+        },
+        {
+            "nominativo": "SIRAGUSA Alice",
+            "lista": "PROGETTO PER AGRARIA",
+            "voti": {
+                "totali": 8,
+                "seggio_n_25": 8
+            }
+        },
+        {
+            "nominativo": "SPITALERI Lisa",
+            "lista": "PROGETTO PER AGRARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_25": 0
+            }
+        },
+        {
+            "nominativo": "DI BELLA Ennio Maria",
+            "lista": "ARES",
+            "voti": {
+                "totali": 0,
+                "seggio_n_25": 0
+            }
+        },
+        {
+            "nominativo": "SANTANGELO Nicola",
+            "lista": "ARES",
+            "voti": {
+                "totali": 1,
+                "seggio_n_25": 1
+            }
+        },
+        {
+            "nominativo": "MILANO Francesco",
+            "lista": "ARES",
+            "voti": {
+                "totali": 1,
+                "seggio_n_25": 1
+            }
+        },
+        {
+            "nominativo": "PARRINELLO Antonio",
+            "lista": "ARES",
+            "voti": {
+                "totali": 9,
+                "seggio_n_25": 9
+            }
+        },
+        {
+            "nominativo": "MURABITO Giuseppe",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 1,
+                "seggio_n_25": 1
+            }
+        },
+        {
+            "nominativo": "JUVARA Vincenzo",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_25": 0
+            }
+        },
+        {
+            "nominativo": "TERMINELLO Vito",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 8,
+                "seggio_n_25": 8
+            }
+        },
+        {
+            "nominativo": "CARCAGNOLO Antonio",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 9,
+                "seggio_n_25": 9
+            }
+        },
+        {
+            "nominativo": "CAROSELLA Enrico",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_25": 0
+            }
+        },
+        {
+            "nominativo": "MONTEMAGNO Carmen",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 2,
+                "seggio_n_25": 2
+            }
+        },
+        {
+            "nominativo": "RANDAZZO Valentina",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 3,
+                "seggio_n_25": 3
+            }
+        },
+        {
+            "nominativo": "BRULLO Davide",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 7,
+                "seggio_n_25": 7
+            }
+        },
+        {
+            "nominativo": "MANNA Giacomo Rosario",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_25": 1
+            }
+        }
+    ],
+    "quoziente": 45.0,
+    "votanti": {
+        "totali": 310,
+        "percentuale": 41.89,
+        "seggio_n_25": 310
+    },
+    "elettori": {
+        "totali": 740,
+        "seggio_n_25": 740
+    }
+}

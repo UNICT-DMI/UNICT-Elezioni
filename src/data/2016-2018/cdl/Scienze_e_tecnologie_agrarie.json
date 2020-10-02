@@ -1,0 +1,453 @@
+{
+    "dipartimento": "SCIENZE E TECNOLOGIE AGRARIE-Laurea (D.M.270/2004)\nSCIENZE E TECNOLOGIE AGRARIE TROPICALI E SUBTROPICALI-Laurea Triennale (D.M. 509/99)\nSCIENZE E TECNOLOGIE AGRARIE-Laurea Triennale (D.M. 509/99)",
+    "seggi_da_assegnare": "6",
+    "schede": {
+        "bianche": {
+            "totali": 21,
+            "seggio_n_24": 21
+        },
+        "nulle": {
+            "totali": 40,
+            "seggio_n_24": 40
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_24": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "AGRARIA 2.0",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "14,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 14,
+                "seggio_n_24": 14
+            }
+        },
+        {
+            "nome": "ARCH\u00c8",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "33,5",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 78,
+                "seggio_n_24": 78
+            }
+        },
+        {
+            "nome": "PCG \u2010 PER CI\u00d2 CHE \u00c8 GIUSTO",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "18,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 18,
+                "seggio_n_24": 18
+            }
+        },
+        {
+            "nome": "ARES",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "30,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 30,
+                "seggio_n_24": 30
+            }
+        },
+        {
+            "nome": "PROGETTO DEGLI UNIVERSITARI",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "14,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 14,
+                "seggio_n_24": 14
+            }
+        },
+        {
+            "nome": "UNIVERSIT\u00c0 POPOLARE",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "14,5",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 59,
+                "seggio_n_24": 59
+            }
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "20,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 20,
+                "seggio_n_24": 20
+            }
+        },
+        {
+            "nome": "LIBERTAS \u2010 LIBERI E FORTI",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "34,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 34,
+                "seggio_n_24": 34
+            }
+        },
+        {
+            "totale": 267
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "GRAVAGNO ROBERTA MARIA",
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 29,
+                "seggio_n_24": 29
+            }
+        },
+        {
+            "nominativo": "TRICOMI GIANLUCA",
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 16,
+                "seggio_n_24": 16
+            }
+        },
+        {
+            "nominativo": "TIRENDI MASSIMO",
+            "lista": "ARES",
+            "voti": {
+                "totali": 13,
+                "seggio_n_24": 13
+            }
+        },
+        {
+            "nominativo": "PALERMO ISMAELE",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 26,
+                "seggio_n_24": 26
+            }
+        },
+        {
+            "nominativo": "NICOLOSI SALVATORE detto \"Dino\"",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 9,
+                "seggio_n_24": 9
+            }
+        },
+        {
+            "nominativo": "GUARNERA ANGELO",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 21,
+                "seggio_n_24": 21
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "GIUSTOLISI GABRIELE",
+            "lista": "AGRARIA 2.0",
+            "voti": {
+                "totali": 0,
+                "seggio_n_24": 0
+            }
+        },
+        {
+            "nominativo": "TILARO CARMELO",
+            "lista": "AGRARIA 2.0",
+            "voti": {
+                "totali": 6,
+                "seggio_n_24": 6
+            }
+        },
+        {
+            "nominativo": "FIORENZO GIUSEPPE",
+            "lista": "AGRARIA 2.0",
+            "voti": {
+                "totali": 3,
+                "seggio_n_24": 3
+            }
+        },
+        {
+            "nominativo": "LOMBARDO RICCARDO",
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 4,
+                "seggio_n_24": 4
+            }
+        },
+        {
+            "nominativo": "MELLONE GIANLUCA",
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 6,
+                "seggio_n_24": 6
+            }
+        },
+        {
+            "nominativo": "VALENTI DEBORAH",
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 3,
+                "seggio_n_24": 3
+            }
+        },
+        {
+            "nominativo": "BRISCHETTO LUIGI FRANCESCO",
+            "lista": "PCG \u2010 PER CI\u00d2 CHE \u00c8 GIUSTO",
+            "voti": {
+                "totali": 2,
+                "seggio_n_24": 2
+            }
+        },
+        {
+            "nominativo": "FERLAZZO ENRICO",
+            "lista": "PCG \u2010 PER CI\u00d2 CHE \u00c8 GIUSTO",
+            "voti": {
+                "totali": 1,
+                "seggio_n_24": 1
+            }
+        },
+        {
+            "nominativo": "NASELLI ENRICO",
+            "lista": "PCG \u2010 PER CI\u00d2 CHE \u00c8 GIUSTO",
+            "voti": {
+                "totali": 10,
+                "seggio_n_24": 10
+            }
+        },
+        {
+            "nominativo": "SCOLLO FEDERICO",
+            "lista": "PCG \u2010 PER CI\u00d2 CHE \u00c8 GIUSTO",
+            "voti": {
+                "totali": 4,
+                "seggio_n_24": 4
+            }
+        },
+        {
+            "nominativo": "ARRIGO FRANCESCO",
+            "lista": "PCG \u2010 PER CI\u00d2 CHE \u00c8 GIUSTO",
+            "voti": {
+                "totali": 0,
+                "seggio_n_24": 0
+            }
+        },
+        {
+            "nominativo": "MILANO FRANCESCO",
+            "lista": "ARES",
+            "voti": {
+                "totali": 1,
+                "seggio_n_24": 1
+            }
+        },
+        {
+            "nominativo": "CASSIBBA SALVATORE",
+            "lista": "ARES",
+            "voti": {
+                "totali": 4,
+                "seggio_n_24": 4
+            }
+        },
+        {
+            "nominativo": "CALTABIANO SERGIO",
+            "lista": "ARES",
+            "voti": {
+                "totali": 0,
+                "seggio_n_24": 0
+            }
+        },
+        {
+            "nominativo": "VINCITORE ILARIA",
+            "lista": "ARES",
+            "voti": {
+                "totali": 0,
+                "seggio_n_24": 0
+            }
+        },
+        {
+            "nominativo": "SANTANGELO NICOLA",
+            "lista": "ARES",
+            "voti": {
+                "totali": 10,
+                "seggio_n_24": 10
+            }
+        },
+        {
+            "nominativo": "PERCOLLA ALBERTO",
+            "lista": "PROGETTO DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 13,
+                "seggio_n_24": 13
+            }
+        },
+        {
+            "nominativo": "SPITALERI LISA",
+            "lista": "PROGETTO DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_24": 0
+            }
+        },
+        {
+            "nominativo": "CALANDRA CHECCO GIACOMO",
+            "lista": "PROGETTO DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_24": 0
+            }
+        },
+        {
+            "nominativo": "PRIMO DOMENICO",
+            "lista": "PROGETTO DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_24": 0
+            }
+        },
+        {
+            "nominativo": "GENNUSO ANDREA",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 13,
+                "seggio_n_24": 13
+            }
+        },
+        {
+            "nominativo": "SCAVO PAOLO",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 3,
+                "seggio_n_24": 3
+            }
+        },
+        {
+            "nominativo": "MANGANO EDOARDO",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 4,
+                "seggio_n_24": 4
+            }
+        },
+        {
+            "nominativo": "COLLURA GIOVANNI BATTISTA",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 1,
+                "seggio_n_24": 1
+            }
+        },
+        {
+            "nominativo": "SPANO' ROSSELLA",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 5,
+                "seggio_n_24": 5
+            }
+        },
+        {
+            "nominativo": "MURATORI VIVIANA",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 2,
+                "seggio_n_24": 2
+            }
+        },
+        {
+            "nominativo": "DISTEFANO LUCA",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 3,
+                "seggio_n_24": 3
+            }
+        },
+        {
+            "nominativo": "MAUGERI MARCO",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_24": 0
+            }
+        },
+        {
+            "nominativo": "GIGLIO SALVATORE",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_24": 0
+            }
+        },
+        {
+            "nominativo": "SANSONE FRANCESCO",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_24": 0
+            }
+        },
+        {
+            "nominativo": "AMATO DOMENICO",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 10,
+                "seggio_n_24": 10
+            }
+        },
+        {
+            "nominativo": "CLEMENTI VINCENZO",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_24": 0
+            }
+        },
+        {
+            "nominativo": "BURRELLO MARCO",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 1,
+                "seggio_n_24": 1
+            }
+        }
+    ],
+    "quoziente": 44.5,
+    "votanti": {
+        "totali": 328,
+        "percentuale": 42.21,
+        "seggio_n_24": 328
+    },
+    "elettori": {
+        "totali": 777,
+        "seggio_n_24": 777
+    }
+}

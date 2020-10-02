@@ -1,0 +1,49 @@
+{
+    "dipartimento": "SCIENZE GEOLOGICHE Laurea triennale",
+    "quorum": true,
+    "seggi_da_assegnare": 5,
+    "schede": {
+        "bianche": 7,
+        "nulle": 5,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "BERTINO Antonella",
+            "voti": 35
+        },
+        {
+            "nome_candidato": "BORZI' Alfio Marco",
+            "voti": 17
+        },
+        {
+            "nome_candidato": "COMMIS Lorenzo",
+            "voti": 17
+        },
+        {
+            "nome_candidato": "GERBARO MAZZONE Lorenzo",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "SCAFITI Carlo",
+            "voti": 11
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "BASILE Antonio",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "BENVENUTO SINFISI Daniele",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "MONTALTO Giada",
+            "voti": 3
+        }
+    ],
+    "totale_voti": 107,
+    "aventi_diritto": 205,
+    "perc_votanti": 52.2
+}

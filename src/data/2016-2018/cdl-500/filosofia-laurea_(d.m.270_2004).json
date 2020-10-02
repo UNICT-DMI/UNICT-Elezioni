@@ -1,0 +1,61 @@
+{
+    "dipartimento": "FILOSOFIA-Laurea (D.M.270/2004)\nFILOSOFIA-Laurea Triennale (D.M. 509/99)",
+    "quorum": true,
+    "seggi_da_assegnare": 4,
+    "schede": {
+        "bianche": 6,
+        "nulle": 7,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "CONDORELLI TANCREDI",
+            "voti": 15
+        },
+        {
+            "nome_candidato": "FASSARI LUCIA",
+            "voti": 48
+        },
+        {
+            "nome_candidato": "GIUBILANTE MIRKO",
+            "voti": 10
+        },
+        {
+            "nome_candidato": "PUGLISI ADRIANA",
+            "voti": 7
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "BERTOLINO ANDREA",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "D'ALLURA FABRIZIO",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "MALGIOGLIO ROBERTA",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "PAPPALARDO ALESSANDRA",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "PUGLISI MASSIMILIANO",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "RININA SIMONA",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "RIZZO STEFANO ANGELO",
+            "voti": 6
+        }
+    ],
+    "totale_voti": 119,
+    "aventi_diritto": 473,
+    "perc_votanti": 25.16
+}

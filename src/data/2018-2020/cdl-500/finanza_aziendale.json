@@ -1,0 +1,41 @@
+{
+    "dipartimento": "FINANZA AZIENDALE",
+    "quorum": true,
+    "seggi_da_assegnare": 3,
+    "schede": {
+        "bianche": 2,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "BENNICI Salvatore",
+            "voti": 11
+        },
+        {
+            "nome_candidato": "NOCERA Gaetana - detta \"Tanya\" o \"Tania\"",
+            "voti": 15
+        },
+        {
+            "nome_candidato": "PLATANIA Simone Alberto",
+            "voti": 9
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "ARDITA Francesco",
+            "voti": 8
+        },
+        {
+            "nome_candidato": "LENTINI Gianmarco",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "SIPALA Giovanni",
+            "voti": 6
+        }
+    ],
+    "totale_voti": 51,
+    "aventi_diritto": 102,
+    "perc_votanti": 50.0
+}

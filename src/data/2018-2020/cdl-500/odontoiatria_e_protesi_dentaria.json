@@ -1,0 +1,89 @@
+{
+    "dipartimento": "ODONTOIATRIA E PROTESI DENTARIA",
+    "quorum": true,
+    "seggi_da_assegnare": 12,
+    "schede": {
+        "bianche": 1,
+        "nulle": 9,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "ALBANI Marco Sesto",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "BARBAGALLO Joseph Samuele Alfio",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "CANNIZZO Alessandro",
+            "voti": 9
+        },
+        {
+            "nome_candidato": "CILIA Giuseppe",
+            "voti": 10
+        },
+        {
+            "nome_candidato": "DI STEFANO Mattia",
+            "voti": 15
+        },
+        {
+            "nome_candidato": "FALZONE Matteo",
+            "voti": 11
+        },
+        {
+            "nome_candidato": "GRECO Giuseppe",
+            "voti": 9
+        },
+        {
+            "nome_candidato": "MINEO Alessandro",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "PATTI Sara",
+            "voti": 15
+        },
+        {
+            "nome_candidato": "RICCERI Chiara Grazia",
+            "voti": 8
+        },
+        {
+            "nome_candidato": "RONSIVALLE Vincenzo",
+            "voti": 8
+        },
+        {
+            "nome_candidato": "SCARDINA Gianfranco",
+            "voti": 7
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "DE LUCA Nicoletta",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "DI GRAZIA CURIA Clementina",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "DI MAURO Edoardo Sebastiano",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "GUZZETTA Carla",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "LONGO Sara",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "MANTARRO Gabriele Maria",
+            "voti": 0
+        }
+    ],
+    "totale_voti": 119,
+    "aventi_diritto": 151,
+    "perc_votanti": 78.81
+}

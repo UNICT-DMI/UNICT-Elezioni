@@ -1,0 +1,28 @@
+{
+    "dipartimento": "PSICOLOGIA-Laurea Magistrale biennale (D.M.270/2004)\nPSICOLOGIA-Laurea Specialistica biennale (D.M. 509/99)",
+    "quorum": true,
+    "seggi_da_assegnare": 4,
+    "schede": {
+        "bianche": 1,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "D'URSO EPIFANIO DAMIANO",
+            "voti": 64
+        },
+        {
+            "nome_candidato": "PENNISI EMANUELE",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "SCIACCA ANNAGRAZIA",
+            "voti": 11
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 78,
+    "aventi_diritto": 400,
+    "perc_votanti": 19.5
+}

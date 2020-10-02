@@ -1,0 +1,29 @@
+{
+    "dipartimento": "INGEGNERIA ELETTRONICA-Laurea Magistrale biennale (D.M.270/2004)\nINGEGNERIA MICROELETTRONICA-Laurea Specialistica biennale (D.M. 509/99)",
+    "quorum": true,
+    "seggi_da_assegnare": 2,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "CARAMAGNO DARIO",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "NANIA ROBERTO",
+            "voti": 8
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "PUGLISI ANGELO",
+            "voti": 4
+        }
+    ],
+    "totale_voti": 16,
+    "aventi_diritto": 39,
+    "perc_votanti": 41.03
+}

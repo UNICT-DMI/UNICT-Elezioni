@@ -1,0 +1,418 @@
+{
+    "dipartimento": "INGEGNERIA INFORMATICA-Laurea (D.M.270/2004)\nINGEGNERIA DELLE TELECOMUNICAZIONI-Laurea Triennale (D.M. 509/99)\nINGEGNERIA INFORMATICA-Laurea Triennale (D.M. 509/99)\nINGEGNERIA TELEMATICA-Laurea Triennale (D.M. 509/99)",
+    "seggi_da_assegnare": "8",
+    "schede": {
+        "bianche": {
+            "totali": 30,
+            "seggio_n_30": 30
+        },
+        "nulle": {
+            "totali": 11,
+            "seggio_n_30": 11
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_30": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "SPACE WINDOW",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "3,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 73,
+                "seggio_n_30": 73
+            }
+        },
+        {
+            "nome": "ARCHE'",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "6,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 6,
+                "seggio_n_30": 6
+            }
+        },
+        {
+            "nome": "CITING",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "9,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 79,
+                "seggio_n_30": 79
+            }
+        },
+        {
+            "nome": "ACTEA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "30,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 30,
+                "seggio_n_30": 30
+            }
+        },
+        {
+            "nome": "KOINE'",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "15,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 15,
+                "seggio_n_30": 15
+            }
+        },
+        {
+            "nome": "INGEGNERIATTIVA",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "2,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 37,
+                "seggio_n_30": 37
+            }
+        },
+        {
+            "nome": "UNIVERSITA' POPOLARE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "6,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 6,
+                "seggio_n_30": 6
+            }
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "7,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 7,
+                "seggio_n_30": 7
+            }
+        },
+        {
+            "nome": "WE LOVE UNICT",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "27,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 27,
+                "seggio_n_30": 27
+            }
+        },
+        {
+            "totale": 280
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "RUSSO Emanuele",
+            "lista": "SPACE WINDOW",
+            "voti": {
+                "totali": 34,
+                "seggio_n_30": 34
+            }
+        },
+        {
+            "nominativo": "MARLETTA Vito Marco",
+            "lista": "SPACE WINDOW",
+            "voti": {
+                "totali": 15,
+                "seggio_n_30": 15
+            }
+        },
+        {
+            "nominativo": "BONGIOVANNI Giusy Agata",
+            "lista": "CITING",
+            "voti": {
+                "totali": 23,
+                "seggio_n_30": 23
+            }
+        },
+        {
+            "nominativo": "COMITINI Gianfranco",
+            "lista": "CITING",
+            "voti": {
+                "totali": 18,
+                "seggio_n_30": 18
+            }
+        },
+        {
+            "nominativo": "DI BELLA Davide",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 11,
+                "seggio_n_30": 11
+            }
+        },
+        {
+            "nominativo": "DI NASO Giuseppe",
+            "lista": "KOINE'",
+            "voti": {
+                "totali": 7,
+                "seggio_n_30": 7
+            }
+        },
+        {
+            "nominativo": "LA GRECA Michele",
+            "lista": "KOINE'",
+            "voti": {
+                "totali": 7,
+                "seggio_n_30": 7
+            }
+        },
+        {
+            "nominativo": "LIUZZO SCORPO Stefano",
+            "lista": "INGEGNERIATTIVA",
+            "voti": {
+                "totali": 18,
+                "seggio_n_30": 18
+            }
+        },
+        {
+            "nominativo": "MAZZAGLIA Pietro",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 16,
+                "seggio_n_30": 16
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "CASTRO Giuseppe",
+            "lista": "SPACE WINDOW",
+            "voti": {
+                "totali": 6,
+                "seggio_n_30": 6
+            }
+        },
+        {
+            "nominativo": "NAVARRIA Maria \u2010 detta \"Marica\" o \"Marika\"",
+            "lista": "SPACE WINDOW",
+            "voti": {
+                "totali": 9,
+                "seggio_n_30": 9
+            }
+        },
+        {
+            "nominativo": "GRILLO Roberto",
+            "lista": "SPACE WINDOW",
+            "voti": {
+                "totali": 5,
+                "seggio_n_30": 5
+            }
+        },
+        {
+            "nominativo": "MAZZUCCHELLI Marta Maria",
+            "lista": "SPACE WINDOW",
+            "voti": {
+                "totali": 0,
+                "seggio_n_30": 0
+            }
+        },
+        {
+            "nominativo": "MESSINA Giorgia",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 0,
+                "seggio_n_30": 0
+            }
+        },
+        {
+            "nominativo": "SIVALINGAM Sivatharsan",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 2,
+                "seggio_n_30": 2
+            }
+        },
+        {
+            "nominativo": "SOLERTE Damiano",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 2,
+                "seggio_n_30": 2
+            }
+        },
+        {
+            "nominativo": "CASELLA Bruno",
+            "lista": "CITING",
+            "voti": {
+                "totali": 10,
+                "seggio_n_30": 10
+            }
+        },
+        {
+            "nominativo": "FLORIDIA Paride",
+            "lista": "CITING",
+            "voti": {
+                "totali": 0,
+                "seggio_n_30": 0
+            }
+        },
+        {
+            "nominativo": "FERRIGNO Gaetano",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 5,
+                "seggio_n_30": 5
+            }
+        },
+        {
+            "nominativo": "DI GUARDO Massimiliano",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 3,
+                "seggio_n_30": 3
+            }
+        },
+        {
+            "nominativo": "BIUSO Jordan",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 4,
+                "seggio_n_30": 4
+            }
+        },
+        {
+            "nominativo": "PARENTI Valeria",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_30": 1
+            }
+        },
+        {
+            "nominativo": "DI BLASI Simone",
+            "lista": "INGEGNERIATTIVA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_30": 0
+            }
+        },
+        {
+            "nominativo": "DI PAOLA Rino",
+            "lista": "INGEGNERIATTIVA",
+            "voti": {
+                "totali": 16,
+                "seggio_n_30": 16
+            }
+        },
+        {
+            "nominativo": "TORCETTA Simone",
+            "lista": "INGEGNERIATTIVA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_30": 1
+            }
+        },
+        {
+            "nominativo": "CARUSO Alfio",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_30": 0
+            }
+        },
+        {
+            "nominativo": "SAITTA Nunzio",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 3,
+                "seggio_n_30": 3
+            }
+        },
+        {
+            "nominativo": "DI MANNO Salvatore",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 4,
+                "seggio_n_30": 4
+            }
+        },
+        {
+            "nominativo": "TOSTO Giuseppe",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_30": 0
+            }
+        },
+        {
+            "nominativo": "MANTEGNA Giuseppe",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 7,
+                "seggio_n_30": 7
+            }
+        },
+        {
+            "nominativo": "MULE' Samuele",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_30": 0
+            }
+        },
+        {
+            "nominativo": "SANTONOCITO Piero Alessandro",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_30": 0
+            }
+        },
+        {
+            "nominativo": "ODDO Francesco",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_30": 0
+            }
+        }
+    ],
+    "quoziente": 35.0,
+    "votanti": {
+        "totali": 321,
+        "percentuale": 28.36,
+        "seggio_n_30": 321
+    },
+    "elettori": {
+        "totali": 1132,
+        "seggio_n_30": 1132
+    }
+}

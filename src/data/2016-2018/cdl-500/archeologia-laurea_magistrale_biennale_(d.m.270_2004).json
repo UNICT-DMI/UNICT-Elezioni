@@ -1,0 +1,20 @@
+{
+    "dipartimento": "ARCHEOLOGIA-Laurea Magistrale biennale (D.M.270/2004)\nVALORIZZAZIONE DEI BENI ARCHEOLOGICI-Laurea Specialistica biennale (D.M. 509/99)",
+    "quorum": true,
+    "seggi_da_assegnare": 3,
+    "schede": {
+        "bianche": 1,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "ARCIDIACONO FEDERICA AGATA",
+            "voti": 16
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 17,
+    "aventi_diritto": 101,
+    "perc_votanti": 16.83
+}

@@ -1,0 +1,20 @@
+{
+    "dipartimento": "SCIENZE PEDAGOGICHE E PROGETTAZIONE EDUCATIVA-Laurea Magistrale biennale (D.M.270/2004)\nSCIENZE PEDAGOGICHE-Laurea Specialistica biennale (D.M. 509/99)",
+    "quorum": true,
+    "seggi_da_assegnare": 3,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [],
+    "non_eletti": [
+        {
+            "nome_candidato": "PANETTIERE JESSICA",
+            "voti": 0
+        }
+    ],
+    "totale_voti": 0,
+    "aventi_diritto": 274,
+    "perc_votanti": 0.0
+}

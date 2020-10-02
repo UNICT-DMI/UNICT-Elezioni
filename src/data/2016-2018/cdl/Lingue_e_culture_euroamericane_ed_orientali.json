@@ -1,0 +1,387 @@
+{
+    "dipartimento": "LINGUE E CULTURE EUROAMERICANE ED ORIENTALI-Laurea (D.M.270/2004)\nLINGUE E CULTURE EUROPEE EUROAMERICANE ED ORIENTALI-Laurea (D.M.270/2004)\nLINGUE E CULTURE EUROPEE-Laurea Triennale (D.M. 509/99)",
+    "seggi_da_assegnare": "8",
+    "schede": {
+        "bianche": {
+            "totali": 51,
+            "seggio_n_11": 51
+        },
+        "nulle": {
+            "totali": 32,
+            "seggio_n_11": 32
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_11": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "34,5",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "3"
+            },
+            "voti": {
+                "totali": 114,
+                "seggio_n_11": 114
+            }
+        },
+        {
+            "nome": "VOLJA",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "7,5",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 87,
+                "seggio_n_11": 87
+            }
+        },
+        {
+            "nome": "EBLA",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "5,3",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 45,
+                "seggio_n_11": 45
+            }
+        },
+        {
+            "nome": "LIBERTAS \u2010 LIBERI E FORTI",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "8,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 8,
+                "seggio_n_11": 8
+            }
+        },
+        {
+            "nome": "ORIZZONTE ITALIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "5,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 5,
+                "seggio_n_11": 5
+            }
+        },
+        {
+            "nome": "ARCADIA",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "19,3",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 59,
+                "seggio_n_11": 59
+            }
+        },
+        {
+            "totale": 318
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "GIARRIZZO FLAVIO",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 31,
+                "seggio_n_11": 31
+            }
+        },
+        {
+            "nominativo": "SCIFO FLAVIA",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 27,
+                "seggio_n_11": 27
+            }
+        },
+        {
+            "nominativo": "D'ORSI GRAZIA MARIA VALENTINA",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 5,
+                "seggio_n_11": 5
+            }
+        },
+        {
+            "nominativo": "ROME' DIMITRI",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 5,
+                "seggio_n_11": 5
+            }
+        },
+        {
+            "nominativo": "DI PINO DELIA",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 5,
+                "seggio_n_11": 5
+            }
+        },
+        {
+            "nominativo": "SCALIA DAVIDE",
+            "lista": "VOLJA",
+            "voti": {
+                "totali": 66,
+                "seggio_n_11": 66
+            }
+        },
+        {
+            "nominativo": "ROMANO MIRKO",
+            "lista": "VOLJA",
+            "voti": {
+                "totali": 11,
+                "seggio_n_11": 11
+            }
+        },
+        {
+            "nominativo": "FIGURA PIETRO",
+            "lista": "EBLA",
+            "voti": {
+                "totali": 37,
+                "seggio_n_11": 37
+            }
+        },
+        {
+            "nominativo": "TRIPI DOMENICO",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 29,
+                "seggio_n_11": 29
+            }
+        },
+        {
+            "nominativo": "ARRA PAOLO",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 15,
+                "seggio_n_11": 15
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "TOMARCHIO PAMELA",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_11": 0
+            }
+        },
+        {
+            "nominativo": "ALPARONE ILEANA",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_11": 0
+            }
+        },
+        {
+            "nominativo": "FINOCCHIARO ALESSIA",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_11": 0
+            }
+        },
+        {
+            "nominativo": "MALTESE GIULIANA",
+            "lista": "VOLJA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_11": 0
+            }
+        },
+        {
+            "nominativo": "DI PINO SILVIA",
+            "lista": "VOLJA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_11": 0
+            }
+        },
+        {
+            "nominativo": "SALATINO VALENTINA",
+            "lista": "VOLJA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_11": 0
+            }
+        },
+        {
+            "nominativo": "SANTAGATI NICOLETTA",
+            "lista": "VOLJA",
+            "voti": {
+                "totali": 3,
+                "seggio_n_11": 3
+            }
+        },
+        {
+            "nominativo": "LA FAUCI ROBERTA",
+            "lista": "VOLJA",
+            "voti": {
+                "totali": 3,
+                "seggio_n_11": 3
+            }
+        },
+        {
+            "nominativo": "DI FEDE GIULIA MARIA",
+            "lista": "VOLJA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_11": 0
+            }
+        },
+        {
+            "nominativo": "NOVELLA CHIARA MARTINA",
+            "lista": "EBLA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_11": 1
+            }
+        },
+        {
+            "nominativo": "TUCCIO ALESSIO",
+            "lista": "EBLA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_11": 0
+            }
+        },
+        {
+            "nominativo": "RAPISARDA NICOLETTA MARIA",
+            "lista": "EBLA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_11": 0
+            }
+        },
+        {
+            "nominativo": "MOSCHITTA MAURO",
+            "lista": "EBLA",
+            "voti": {
+                "totali": 3,
+                "seggio_n_11": 3
+            }
+        },
+        {
+            "nominativo": "DI SALVO NOEMI MARIA",
+            "lista": "EBLA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_11": 0
+            }
+        },
+        {
+            "nominativo": "MORGANTE ERIC",
+            "lista": "EBLA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_11": 0
+            }
+        },
+        {
+            "nominativo": "LA SPINA GLORIA MARIA",
+            "lista": "EBLA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_11": 0
+            }
+        },
+        {
+            "nominativo": "CANTALE CHIARA MARIA RITA",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 1,
+                "seggio_n_11": 1
+            }
+        },
+        {
+            "nominativo": "COSTA ILARIA",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 1,
+                "seggio_n_11": 1
+            }
+        },
+        {
+            "nominativo": "CAPUTO MARIA CHIARA",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_11": 0
+            }
+        },
+        {
+            "nominativo": "BONGIOVANNI SIMONA",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 4,
+                "seggio_n_11": 4
+            }
+        },
+        {
+            "nominativo": "LICCIARDELLO MARIALUDOVICA",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_11": 0
+            }
+        },
+        {
+            "nominativo": "CHIAVARO DILETTA",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_11": 0
+            }
+        },
+        {
+            "nominativo": "LA ROSA CLELIA",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_11": 0
+            }
+        },
+        {
+            "nominativo": "TORRE GIOVANNI",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_11": 0
+            }
+        }
+    ],
+    "quoziente": 39.75,
+    "votanti": {
+        "totali": 401,
+        "percentuale": 30.22,
+        "seggio_n_11": 401
+    },
+    "elettori": {
+        "totali": 1327,
+        "seggio_n_11": 1327
+    }
+}

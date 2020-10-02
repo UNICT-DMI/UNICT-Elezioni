@@ -1,0 +1,85 @@
+{
+    "dipartimento": "CHIMICA-Laurea (D.M.270/2004)\nCHIMICA-Laurea Specialistica biennale (D.M. 509/99)\nCHIMICA-Laurea Triennale (D.M. 509/99)",
+    "quorum": true,
+    "seggi_da_assegnare": 5,
+    "schede": {
+        "bianche": 6,
+        "nulle": 4,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "CONSOLI NANCY",
+            "voti": 14
+        },
+        {
+            "nome_candidato": "FAZIO SIMONE",
+            "voti": 18
+        },
+        {
+            "nome_candidato": "FOTI ALICE",
+            "voti": 54
+        },
+        {
+            "nome_candidato": "GIUFFRIDA FEDERICO",
+            "voti": 11
+        },
+        {
+            "nome_candidato": "ZAMMATARO AGATINO",
+            "voti": 9
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "AMATO FRANCESCO",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "BAIUNCO SALVATORE",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "CARDONE CLAUDIO FEDERICO EDOARDO",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "FORMAGGIO GIUSEPPE",
+            "voti": 9
+        },
+        {
+            "nome_candidato": "GRASSO SILVIA",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "LA BARBERA LAURA",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "LA SPINA STEFANO",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "LENTINI CAMPALLEGIO CLAUDIO",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "MAITA GIOSUE'",
+            "voti": 7
+        },
+        {
+            "nome_candidato": "ROMANO GIORGIA",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "SINATRA SALVATORE",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "TERMINI GIUSEPPE",
+            "voti": 2
+        }
+    ],
+    "totale_voti": 152,
+    "aventi_diritto": 391,
+    "perc_votanti": 38.87
+}

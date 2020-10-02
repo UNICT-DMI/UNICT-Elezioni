@@ -1,0 +1,408 @@
+{
+    "dipartimento": "LETTERE-Laurea (D.M.270/2004)\nLETTERE-Laurea Triennale (D.M. 509/99)",
+    "seggi_da_assegnare": "8",
+    "schede": {
+        "bianche": {
+            "totali": 29,
+            "seggio_n_11": 29
+        },
+        "nulle": {
+            "totali": 8,
+            "seggio_n_11": 8
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_11": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "28,5",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "3"
+            },
+            "voti": {
+                "totali": 100,
+                "seggio_n_11": 100
+            }
+        },
+        {
+            "nome": "OLTRE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "34,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 34,
+                "seggio_n_11": 34
+            }
+        },
+        {
+            "nome": "ASTRA",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "10,3",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 46,
+                "seggio_n_11": 46
+            }
+        },
+        {
+            "nome": "UNIVERSITA' POPOLARE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "16,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 16,
+                "seggio_n_11": 16
+            }
+        },
+        {
+            "nome": "LINK\u2010STUDENTI INDIPENDENTI \u2010 LETTERE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "18,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 18,
+                "seggio_n_11": 18
+            }
+        },
+        {
+            "nome": "INSIEME PER IL DISUM",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "8,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 8,
+                "seggio_n_11": 8
+            }
+        },
+        {
+            "nome": "I LETTERATI DEL DISUM",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "28,3",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 64,
+                "seggio_n_11": 64
+            }
+        },
+        {
+            "totale": 286
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "NUCIFORA Roberta Fina",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 42,
+                "seggio_n_11": 42
+            }
+        },
+        {
+            "nominativo": "LIUZZO SCORPO Giovanni \u2010 detto \"Liuzzo\"",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 6,
+                "seggio_n_11": 6
+            }
+        },
+        {
+            "nominativo": "SALVIA Niccolo'",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 20,
+                "seggio_n_11": 20
+            }
+        },
+        {
+            "nominativo": "CORPACE Chiara",
+            "lista": "OLTRE",
+            "voti": {
+                "totali": 31,
+                "seggio_n_11": 31
+            }
+        },
+        {
+            "nominativo": "RICCIOLI Andrea",
+            "lista": "ASTRA",
+            "voti": {
+                "totali": 18,
+                "seggio_n_11": 18
+            }
+        },
+        {
+            "nominativo": "ZAPPULLA Sara",
+            "lista": "LINK\u2010STUDENTI INDIPENDENTI \u2010 LETTERE",
+            "voti": {
+                "totali": 10,
+                "seggio_n_11": 10
+            }
+        },
+        {
+            "nominativo": "DIBENEDETTO Ilaria",
+            "lista": "I LETTERATI DEL DISUM",
+            "voti": {
+                "totali": 22,
+                "seggio_n_11": 22
+            }
+        },
+        {
+            "nominativo": "ORLANDO Giuseppe",
+            "lista": "I LETTERATI DEL DISUM",
+            "voti": {
+                "totali": 14,
+                "seggio_n_11": 14
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "INCONTRO Andrea",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 2,
+                "seggio_n_11": 2
+            }
+        },
+        {
+            "nominativo": "PAFUMI Eva Maria",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_11": 0
+            }
+        },
+        {
+            "nominativo": "GIUFFRIDA Federica Sefora",
+            "lista": "OLTRE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_11": 0
+            }
+        },
+        {
+            "nominativo": "TUCCI Natale Emanuele",
+            "lista": "OLTRE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_11": 0
+            }
+        },
+        {
+            "nominativo": "SCHILLACI Marika",
+            "lista": "OLTRE",
+            "voti": {
+                "totali": 1,
+                "seggio_n_11": 1
+            }
+        },
+        {
+            "nominativo": "RANERI Edith",
+            "lista": "OLTRE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_11": 0
+            }
+        },
+        {
+            "nominativo": "CONSIGLIO Alessia",
+            "lista": "ASTRA",
+            "voti": {
+                "totali": 17,
+                "seggio_n_11": 17
+            }
+        },
+        {
+            "nominativo": "DISTEFANO Mauro \u2010 detto \"Di Stefano\"",
+            "lista": "ASTRA",
+            "voti": {
+                "totali": 5,
+                "seggio_n_11": 5
+            }
+        },
+        {
+            "nominativo": "CHINDEMI Giovanni",
+            "lista": "ASTRA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_11": 0
+            }
+        },
+        {
+            "nominativo": "RIZZO Simone",
+            "lista": "ASTRA",
+            "voti": {
+                "totali": 6,
+                "seggio_n_11": 6
+            }
+        },
+        {
+            "nominativo": "BIONDO Marika",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_11": 0
+            }
+        },
+        {
+            "nominativo": "BONIFACIO Gaia Elena",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_11": 0
+            }
+        },
+        {
+            "nominativo": "BUSACCA Elsa Leda",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_11": 0
+            }
+        },
+        {
+            "nominativo": "DAMIGELLA Erika",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_11": 0
+            }
+        },
+        {
+            "nominativo": "MOTTA Samuele",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 9,
+                "seggio_n_11": 9
+            }
+        },
+        {
+            "nominativo": "PISTARA' Sarah",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_11": 0
+            }
+        },
+        {
+            "nominativo": "ROCCUZZO Giusy",
+            "lista": "LINK\u2010STUDENTI INDIPENDENTI \u2010 LETTERE",
+            "voti": {
+                "totali": 3,
+                "seggio_n_11": 3
+            }
+        },
+        {
+            "nominativo": "MONTANA Marta",
+            "lista": "LINK\u2010STUDENTI INDIPENDENTI \u2010 LETTERE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_11": 0
+            }
+        },
+        {
+            "nominativo": "BOSCO Giacomo",
+            "lista": "INSIEME PER IL DISUM",
+            "voti": {
+                "totali": 3,
+                "seggio_n_11": 3
+            }
+        },
+        {
+            "nominativo": "CONSOLI Marta",
+            "lista": "INSIEME PER IL DISUM",
+            "voti": {
+                "totali": 1,
+                "seggio_n_11": 1
+            }
+        },
+        {
+            "nominativo": "NICOTRA Pier Paolo",
+            "lista": "INSIEME PER IL DISUM",
+            "voti": {
+                "totali": 0,
+                "seggio_n_11": 0
+            }
+        },
+        {
+            "nominativo": "RIZZA Amalia",
+            "lista": "I LETTERATI DEL DISUM",
+            "voti": {
+                "totali": 12,
+                "seggio_n_11": 12
+            }
+        },
+        {
+            "nominativo": "COLOMBO Alessia",
+            "lista": "I LETTERATI DEL DISUM",
+            "voti": {
+                "totali": 1,
+                "seggio_n_11": 1
+            }
+        },
+        {
+            "nominativo": "PROVINZANO Enrico",
+            "lista": "I LETTERATI DEL DISUM",
+            "voti": {
+                "totali": 0,
+                "seggio_n_11": 0
+            }
+        },
+        {
+            "nominativo": "GIUFFRIDA Angelo",
+            "lista": "I LETTERATI DEL DISUM",
+            "voti": {
+                "totali": 0,
+                "seggio_n_11": 0
+            }
+        },
+        {
+            "nominativo": "CAMMARATA Federica Maria Pia",
+            "lista": "I LETTERATI DEL DISUM",
+            "voti": {
+                "totali": 1,
+                "seggio_n_11": 1
+            }
+        },
+        {
+            "nominativo": "BUTERA Laura",
+            "lista": "I LETTERATI DEL DISUM",
+            "voti": {
+                "totali": 7,
+                "seggio_n_11": 7
+            }
+        }
+    ],
+    "quoziente": 35.75,
+    "votanti": {
+        "totali": 323,
+        "percentuale": 30.94,
+        "seggio_n_11": 323
+    },
+    "elettori": {
+        "totali": 1044,
+        "seggio_n_11": 1044
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "dipartimento": "TECNICHE DI LABORATORIO BIOMEDICO",
+    "quorum": true,
+    "seggi_da_assegnare": 6,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "LA MANNA Maria Chiara",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "LONGHITANO Sergio",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "SPOTO Vincenzoleo",
+            "voti": 5
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "LO IACONO Nicola Francesco",
+            "voti": 4
+        }
+    ],
+    "totale_voti": 13,
+    "aventi_diritto": 37,
+    "perc_votanti": 35.14
+}

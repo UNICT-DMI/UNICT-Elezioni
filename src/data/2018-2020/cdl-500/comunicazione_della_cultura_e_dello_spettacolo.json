@@ -1,0 +1,24 @@
+{
+    "dipartimento": "COMUNICAZIONE DELLA CULTURA E DELLO SPETTACOLO",
+    "quorum": true,
+    "seggi_da_assegnare": 2,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "ODDO Nicol",
+            "voti": 17
+        },
+        {
+            "nome_candidato": "SIGNORELLO Mariachiara",
+            "voti": 1
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 18,
+    "aventi_diritto": 103,
+    "perc_votanti": 17.48
+}

@@ -1,0 +1,45 @@
+{
+    "dipartimento": "DIETISTICA-Laurea (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 5,
+    "schede": {
+        "bianche": 0,
+        "nulle": 1,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "DI DIO ANTONIO",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "DI DIO GIORGIA ANDREA",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "FINOCCHIARO LORIANA",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "FURNARI FRANCESCA",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "POLIZZI RAMONA",
+            "voti": 5
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "ARENA ROBERTA AGATA",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "CARUSO GIUSEPPE",
+            "voti": 1
+        }
+    ],
+    "totale_voti": 23,
+    "aventi_diritto": 51,
+    "perc_votanti": 45.1
+}

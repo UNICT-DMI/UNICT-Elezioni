@@ -1,0 +1,24 @@
+{
+    "dipartimento": "SALVAGUARDIA DEL TERRITORIO DELL'AMBIENTE E DEL PAESAGGIO-Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 3,
+    "schede": {
+        "bianche": 0,
+        "nulle": 1,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "ARDITA ANDREA, GIUSEPPE detto \"Andrea\"",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "BUSCEMI LUCA",
+            "voti": 10
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 13,
+    "aventi_diritto": 45,
+    "perc_votanti": 28.89
+}

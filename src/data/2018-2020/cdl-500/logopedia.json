@@ -1,0 +1,49 @@
+{
+    "dipartimento": "LOGOPEDIA",
+    "quorum": true,
+    "seggi_da_assegnare": 5,
+    "schede": {
+        "bianche": 1,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "DI PERNA Tania Rita",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "MUNZONE Chiara",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "POLITI Maria Ausilia",
+            "voti": 7
+        },
+        {
+            "nome_candidato": "SCARVAGLIERI Elisa",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "SPITALERI Claudio",
+            "voti": 7
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "DAMMONE Francesca",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "LA ROSA Vittoria",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "MAZZONE Flavia",
+            "voti": 0
+        }
+    ],
+    "totale_voti": 33,
+    "aventi_diritto": 49,
+    "perc_votanti": 67.35
+}

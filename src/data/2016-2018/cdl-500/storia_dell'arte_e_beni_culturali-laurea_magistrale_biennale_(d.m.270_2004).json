@@ -1,0 +1,28 @@
+{
+    "dipartimento": "STORIA DELL'ARTE E BENI CULTURALI-Laurea Magistrale biennale (D.M.270/2004)\nVALORIZZAZIONE DEI BENI ARCHIVISTICI E LIBRARI-Laurea Specialistica biennale (D.M. 509/99)",
+    "quorum": true,
+    "seggi_da_assegnare": 3,
+    "schede": {
+        "bianche": 1,
+        "nulle": 2,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "MAJORANA SILVIA",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "PENNISI FEDERICA MARIA",
+            "voti": 12
+        },
+        {
+            "nome_candidato": "TOMASELLO ALESSANDRA",
+            "voti": 8
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 28,
+    "aventi_diritto": 155,
+    "perc_votanti": 18.06
+}

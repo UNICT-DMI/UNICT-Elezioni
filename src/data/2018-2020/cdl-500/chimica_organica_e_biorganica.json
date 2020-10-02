@@ -1,0 +1,24 @@
+{
+    "dipartimento": "CHIMICA ORGANICA E BIORGANICA",
+    "quorum": true,
+    "seggi_da_assegnare": 3,
+    "schede": {
+        "bianche": 1,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "RUSSO Fabio",
+            "voti": 8
+        },
+        {
+            "nome_candidato": "TRAVAGLIANTE Gabriele",
+            "voti": 6
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 15,
+    "aventi_diritto": 24,
+    "perc_votanti": 62.5
+}

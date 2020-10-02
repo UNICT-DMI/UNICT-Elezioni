@@ -1,0 +1,24 @@
+{
+    "dipartimento": "SCIENZE GEOLOGICHE Laurea magistrale",
+    "quorum": true,
+    "seggi_da_assegnare": 3,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "DE GIORGIO Giovanni",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "TREFFILETTI Alessandro",
+            "voti": 8
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 13,
+    "aventi_diritto": 42,
+    "perc_votanti": 30.95
+}

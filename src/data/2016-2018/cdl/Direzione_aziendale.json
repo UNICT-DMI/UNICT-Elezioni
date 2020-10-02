@@ -1,0 +1,235 @@
+{
+    "dipartimento": "DIREZIONE AZIENDALE-Laurea Magistrale biennale (D.M.270/2004)\nDIREZIONE AZIENDALE-Laurea Specialistica biennale (D.M. 509/99)",
+    "seggi_da_assegnare": "4",
+    "schede": {
+        "bianche": {
+            "totali": 7,
+            "seggio_n_6": 7
+        },
+        "nulle": {
+            "totali": 14,
+            "seggio_n_6": 14
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_6": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "WE LOVE UNICT",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "46,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 46,
+                "seggio_n_6": 46
+            }
+        },
+        {
+            "nome": "ARES",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "39,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 98,
+                "seggio_n_6": 98
+            }
+        },
+        {
+            "nome": "UNIVERSIT\u00c0 POPOLARE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "32,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 32,
+                "seggio_n_6": 32
+            }
+        },
+        {
+            "nome": "LIBERTAS \u2010 LIBERI E FORTI",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "10,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 10,
+                "seggio_n_6": 10
+            }
+        },
+        {
+            "nome": "ORIZZONTE ITALIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "34,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 34,
+                "seggio_n_6": 34
+            }
+        },
+        {
+            "nome": "ARCADIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "16,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 16,
+                "seggio_n_6": 16
+            }
+        },
+        {
+            "totale": 236
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "RIZZO CARMELO",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 24,
+                "seggio_n_6": 24
+            }
+        },
+        {
+            "nominativo": "MACCARRONE GIUSEPPE",
+            "lista": "ARES",
+            "voti": {
+                "totali": 68,
+                "seggio_n_6": 68
+            }
+        },
+        {
+            "nominativo": "GUARDABASSO MATTEO CARMELO",
+            "lista": "ARES",
+            "voti": {
+                "totali": 21,
+                "seggio_n_6": 21
+            }
+        },
+        {
+            "nominativo": "SADDEMI STEFANIA",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 17,
+                "seggio_n_6": 17
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "D'ANTONI LORENZO",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 13,
+                "seggio_n_6": 13
+            }
+        },
+        {
+            "nominativo": "URSO FEDERICO",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 7,
+                "seggio_n_6": 7
+            }
+        },
+        {
+            "nominativo": "GIAMBOI ANTONIO RICCARDO",
+            "lista": "ARES",
+            "voti": {
+                "totali": 9,
+                "seggio_n_6": 9
+            }
+        },
+        {
+            "nominativo": "PETRALIA DANIEL",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 4,
+                "seggio_n_6": 4
+            }
+        },
+        {
+            "nominativo": "NICITA ALESSANDRA",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_6": 0
+            }
+        },
+        {
+            "nominativo": "ZISA LUCA",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 15,
+                "seggio_n_6": 15
+            }
+        },
+        {
+            "nominativo": "MAUCERI FRANCESCO",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_6": 0
+            }
+        },
+        {
+            "nominativo": "MUSUMECI CARMELO",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 8,
+                "seggio_n_6": 8
+            }
+        },
+        {
+            "nominativo": "GARDANI DINO",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 6,
+                "seggio_n_6": 6
+            }
+        },
+        {
+            "nominativo": "MELFI ANTONIO",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 9,
+                "seggio_n_6": 9
+            }
+        },
+        {
+            "nominativo": "ZAPPULLA CLAUDIO",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 6,
+                "seggio_n_6": 6
+            }
+        }
+    ],
+    "quoziente": 59.0,
+    "votanti": {
+        "totali": 257,
+        "percentuale": 40.28,
+        "seggio_n_6": 257
+    },
+    "elettori": {
+        "totali": 638,
+        "seggio_n_6": 638
+    }
+}

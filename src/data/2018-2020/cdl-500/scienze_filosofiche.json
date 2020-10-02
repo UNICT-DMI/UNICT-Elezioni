@@ -1,0 +1,28 @@
+{
+    "dipartimento": "SCIENZE FILOSOFICHE",
+    "quorum": true,
+    "seggi_da_assegnare": 4,
+    "schede": {
+        "bianche": 2,
+        "nulle": 1,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "INGALLINA Pietro",
+            "voti": 13
+        },
+        {
+            "nome_candidato": "MANIA Chiara",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "MONCADO Enrico Maria",
+            "voti": 10
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 32,
+    "aventi_diritto": 138,
+    "perc_votanti": 23.19
+}

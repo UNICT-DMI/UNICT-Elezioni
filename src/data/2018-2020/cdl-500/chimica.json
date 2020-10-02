@@ -1,0 +1,65 @@
+{
+    "dipartimento": "CHIMICA",
+    "quorum": true,
+    "seggi_da_assegnare": 7,
+    "schede": {
+        "bianche": 5,
+        "nulle": 2,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "CAMPISI Roberta",
+            "voti": 31
+        },
+        {
+            "nome_candidato": "CARBONARO Antonino Biagio",
+            "voti": 20
+        },
+        {
+            "nome_candidato": "FABIANO Luigi",
+            "voti": 24
+        },
+        {
+            "nome_candidato": "MILIA Manuela",
+            "voti": 15
+        },
+        {
+            "nome_candidato": "SALVICCIO Federica Rita",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "SICALI Luciano Amedeo",
+            "voti": 17
+        },
+        {
+            "nome_candidato": "TOMASELLA Pascal",
+            "voti": 12
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "FRANCO Luca",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "PALAZZO Ilaria",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "PRIVITERA Dana Ivana",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "RIZZO Giuliana",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "VULLO Andrea Antonino",
+            "voti": 3
+        }
+    ],
+    "totale_voti": 139,
+    "aventi_diritto": 369,
+    "perc_votanti": 37.67
+}

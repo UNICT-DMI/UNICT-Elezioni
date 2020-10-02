@@ -1,0 +1,49 @@
+{
+    "dipartimento": "SCIENZE DELLE PUBBLICHE AMMINISTRAZIONI-Laurea Magistrale biennale (D.M.270/2004)\nGOVERNO E GESTIONE DI AMMINISTRAZIONI E IMPRESE-Laurea Specialistica biennale (D.M. 509/99)\nSCIENZE DELLE PUBBLICHE AMMINISTRAZIONI-Laurea Specialistica biennale (D.M.509/99)",
+    "quorum": true,
+    "seggi_da_assegnare": 4,
+    "schede": {
+        "bianche": 8,
+        "nulle": 2,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "FARRUGGIA DENIS",
+            "voti": 11
+        },
+        {
+            "nome_candidato": "PERNA SIMONE",
+            "voti": 22
+        },
+        {
+            "nome_candidato": "PERROTTA GABRIELE",
+            "voti": 33
+        },
+        {
+            "nome_candidato": "PETRALIA FEDERICA",
+            "voti": 15
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "BAGLIERI FRANCESCO",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "MARCHI' DARIO",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "STIMOLI ARIANNA",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "TOMASELLO AGATA LUCIANA",
+            "voti": 0
+        }
+    ],
+    "totale_voti": 100,
+    "aventi_diritto": 278,
+    "perc_votanti": 35.97
+}

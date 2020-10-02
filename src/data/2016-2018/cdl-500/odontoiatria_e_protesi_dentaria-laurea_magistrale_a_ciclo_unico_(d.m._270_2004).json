@@ -1,0 +1,97 @@
+{
+    "dipartimento": "ODONTOIATRIA E PROTESI DENTARIA-Laurea Magistrale a ciclo unico (D.M. 270/2004)\nODONTOIATRIA E PROTESI DENTARIA-Laurea Specialistica a ciclo unico (D.M. 509/99)",
+    "quorum": true,
+    "seggi_da_assegnare": 10,
+    "schede": {
+        "bianche": 1,
+        "nulle": 8,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "BOCCHIERI SALVATORE",
+            "voti": 9
+        },
+        {
+            "nome_candidato": "CHIARENZA GIOVANNI PAOLO SALVATORE",
+            "voti": 14
+        },
+        {
+            "nome_candidato": "CHIARENZA MARCO",
+            "voti": 9
+        },
+        {
+            "nome_candidato": "CUCCIA STEFANO",
+            "voti": 7
+        },
+        {
+            "nome_candidato": "LEOTTA MARIA LAURA",
+            "voti": 13
+        },
+        {
+            "nome_candidato": "MAZZA GIUSEPPE GIANLUCA",
+            "voti": 21
+        },
+        {
+            "nome_candidato": "RICCERI CHIARA GRAZIA",
+            "voti": 8
+        },
+        {
+            "nome_candidato": "SIGARI GIANCARLO",
+            "voti": 11
+        },
+        {
+            "nome_candidato": "ZAPPALA' GRAZIANO MARCO DARIO",
+            "voti": 9
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "CANNIZZO ALESSANDRO",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "CATALANO GIOVANNI",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "GIUDICE ROBERTA",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "GRASSO MICHELE",
+            "voti": 7
+        },
+        {
+            "nome_candidato": "IUVARA GIUSTINA",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "LA FERLA SEBASTIANO",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "LUCIFORA NICOLO'",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "MAZZURCO ENRICO VITO detto \"Enrico\" o \"Vito\"",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "MINEO ALESSANDRO",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "PATTI SARA",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "SVALUTO FERRO LUIGI",
+            "voti": 7
+        }
+    ],
+    "totale_voti": 133,
+    "aventi_diritto": 175,
+    "perc_votanti": 76.0
+}

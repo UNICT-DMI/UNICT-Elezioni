@@ -1,0 +1,53 @@
+{
+    "dipartimento": "FILOSOFIA",
+    "quorum": true,
+    "seggi_da_assegnare": 4,
+    "schede": {
+        "bianche": 16,
+        "nulle": 3,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "BAIAMONTE Francesco",
+            "voti": 12
+        },
+        {
+            "nome_candidato": "HAMDANI Hassan Santo",
+            "voti": 24
+        },
+        {
+            "nome_candidato": "LEANZA Salvatore Mattia",
+            "voti": 17
+        },
+        {
+            "nome_candidato": "SCARANTINO Noemi Maria",
+            "voti": 12
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "AZZARA Francesco",
+            "voti": 10
+        },
+        {
+            "nome_candidato": "CALI' Alfonso",
+            "voti": 11
+        },
+        {
+            "nome_candidato": "CUIUS Daria",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "MAURIZI Davide",
+            "voti": 9
+        },
+        {
+            "nome_candidato": "SANFILIPPO Giuseppa Deborah",
+            "voti": 1
+        }
+    ],
+    "totale_voti": 117,
+    "aventi_diritto": 453,
+    "perc_votanti": 25.83
+}

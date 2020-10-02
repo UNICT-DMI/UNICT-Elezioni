@@ -1,0 +1,458 @@
+{
+    "dipartimento": "SCIENZE E TECNICHE PSICOLOGICHE-Laurea (D.M.270/2004)\nSCIENZE E TECNICHE PSICOLOGICHE-Laurea Triennale (D.M. 509/99)",
+    "seggi_da_assegnare": "5",
+    "schede": {
+        "bianche": {
+            "totali": 12,
+            "seggio_n_30": 12
+        },
+        "nulle": {
+            "totali": 27,
+            "seggio_n_30": 27
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_30": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "26,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 26,
+                "seggio_n_30": 26
+            }
+        },
+        {
+            "nome": "UDU \u2010 UNIONE DEGLI UNIVERSITARI \u2010 KOIN\u00c8",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "25,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 25,
+                "seggio_n_30": 25
+            }
+        },
+        {
+            "nome": "CONTROCAMPUS",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "15,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 15,
+                "seggio_n_30": 15
+            }
+        },
+        {
+            "nome": "ARCH\u00c8",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "7,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 7,
+                "seggio_n_30": 7
+            }
+        },
+        {
+            "nome": "UNIVERSIT\u00c0 POPOLARE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "21,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 21,
+                "seggio_n_30": 21
+            }
+        },
+        {
+            "nome": "IRIDE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "35,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 35,
+                "seggio_n_30": 35
+            }
+        },
+        {
+            "nome": "ALTERNATIVA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "57,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 57,
+                "seggio_n_30": 57
+            }
+        },
+        {
+            "nome": "INFORMAZIONE",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "5,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 73,
+                "seggio_n_30": 73
+            }
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "13,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 81,
+                "seggio_n_30": 81
+            }
+        },
+        {
+            "totale": 340
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "VITALE ANNA",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 19,
+                "seggio_n_30": 19
+            }
+        },
+        {
+            "nominativo": "TUBEROSA GLORIA",
+            "lista": "IRIDE",
+            "voti": {
+                "totali": 11,
+                "seggio_n_30": 11
+            }
+        },
+        {
+            "nominativo": "CANNAVO' KRISTIAN",
+            "lista": "ALTERNATIVA",
+            "voti": {
+                "totali": 38,
+                "seggio_n_30": 38
+            }
+        },
+        {
+            "nominativo": "DI STEFANO SALVATORE",
+            "lista": "INFORMAZIONE",
+            "voti": {
+                "totali": 67,
+                "seggio_n_30": 67
+            }
+        },
+        {
+            "nominativo": "ZANGHI' ROBERTA",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 55,
+                "seggio_n_30": 55
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "MIRABELLA LORENZO ORAZIO",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 4,
+                "seggio_n_30": 4
+            }
+        },
+        {
+            "nominativo": "ORLANDO DARIO ALBERTO",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 2,
+                "seggio_n_30": 2
+            }
+        },
+        {
+            "nominativo": "RUFFINO VIRGINIA",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_30": 0
+            }
+        },
+        {
+            "nominativo": "MIGLIORISI ERICA",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_30": 0
+            }
+        },
+        {
+            "nominativo": "DOSSI DALILA",
+            "lista": "UDU \u2010 UNIONE DEGLI UNIVERSITARI \u2010 KOIN\u00c8",
+            "voti": {
+                "totali": 18,
+                "seggio_n_30": 18
+            }
+        },
+        {
+            "nominativo": "DE CARO MARINA",
+            "lista": "UDU \u2010 UNIONE DEGLI UNIVERSITARI \u2010 KOIN\u00c8",
+            "voti": {
+                "totali": 1,
+                "seggio_n_30": 1
+            }
+        },
+        {
+            "nominativo": "TOMASELLO MARGHERITA",
+            "lista": "UDU \u2010 UNIONE DEGLI UNIVERSITARI \u2010 KOIN\u00c8",
+            "voti": {
+                "totali": 2,
+                "seggio_n_30": 2
+            }
+        },
+        {
+            "nominativo": "GERVASI FLAVIA FRANCESCA",
+            "lista": "UDU \u2010 UNIONE DEGLI UNIVERSITARI \u2010 KOIN\u00c8",
+            "voti": {
+                "totali": 0,
+                "seggio_n_30": 0
+            }
+        },
+        {
+            "nominativo": "CANTELLA STEFANO",
+            "lista": "UDU \u2010 UNIONE DEGLI UNIVERSITARI \u2010 KOIN\u00c8",
+            "voti": {
+                "totali": 1,
+                "seggio_n_30": 1
+            }
+        },
+        {
+            "nominativo": "CALVANO LUDOVICA",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 0,
+                "seggio_n_30": 0
+            }
+        },
+        {
+            "nominativo": "FALLICO VALENTINA",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 15,
+                "seggio_n_30": 15
+            }
+        },
+        {
+            "nominativo": "RAGNO SIMONA",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 0,
+                "seggio_n_30": 0
+            }
+        },
+        {
+            "nominativo": "MONASTRA DARIO",
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 3,
+                "seggio_n_30": 3
+            }
+        },
+        {
+            "nominativo": "RANIOLO JACOPO",
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 3,
+                "seggio_n_30": 3
+            }
+        },
+        {
+            "nominativo": "REITANO MARTA",
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 1,
+                "seggio_n_30": 1
+            }
+        },
+        {
+            "nominativo": "DI BELLA MARIA CRISTINA",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_30": 0
+            }
+        },
+        {
+            "nominativo": "CASTAGNOLA ENRICO",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 15,
+                "seggio_n_30": 15
+            }
+        },
+        {
+            "nominativo": "DE LUCA ROBERTA FRANCESCA",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_30": 0
+            }
+        },
+        {
+            "nominativo": "VENTURA LUDOVICA",
+            "lista": "IRIDE",
+            "voti": {
+                "totali": 5,
+                "seggio_n_30": 5
+            }
+        },
+        {
+            "nominativo": "RAPISARDA MARTINA",
+            "lista": "IRIDE",
+            "voti": {
+                "totali": 2,
+                "seggio_n_30": 2
+            }
+        },
+        {
+            "nominativo": "RAPISARDA SEBASTIANO",
+            "lista": "IRIDE",
+            "voti": {
+                "totali": 1,
+                "seggio_n_30": 1
+            }
+        },
+        {
+            "nominativo": "AMATO GUGLIELMO",
+            "lista": "IRIDE",
+            "voti": {
+                "totali": 5,
+                "seggio_n_30": 5
+            }
+        },
+        {
+            "nominativo": "SEHILI AMEL",
+            "lista": "ALTERNATIVA",
+            "voti": {
+                "totali": 6,
+                "seggio_n_30": 6
+            }
+        },
+        {
+            "nominativo": "GALOFARO VALERIA",
+            "lista": "ALTERNATIVA",
+            "voti": {
+                "totali": 11,
+                "seggio_n_30": 11
+            }
+        },
+        {
+            "nominativo": "POLIZZI REBECCA",
+            "lista": "ALTERNATIVA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_30": 0
+            }
+        },
+        {
+            "nominativo": "SAIA MICHELA ALESSANDRA",
+            "lista": "ALTERNATIVA",
+            "voti": {
+                "totali": 2,
+                "seggio_n_30": 2
+            }
+        },
+        {
+            "nominativo": "MOTTA GIUSI LUCIA",
+            "lista": "INFORMAZIONE",
+            "voti": {
+                "totali": 5,
+                "seggio_n_30": 5
+            }
+        },
+        {
+            "nominativo": "PACINI GIUSI",
+            "lista": "INFORMAZIONE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_30": 0
+            }
+        },
+        {
+            "nominativo": "VIRZI' ALESSIA TERESA",
+            "lista": "INFORMAZIONE",
+            "voti": {
+                "totali": 1,
+                "seggio_n_30": 1
+            }
+        },
+        {
+            "nominativo": "MAUGERI DOROTEA CAROLA",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 6,
+                "seggio_n_30": 6
+            }
+        },
+        {
+            "nominativo": "LEONARDI ANTONINO",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 4,
+                "seggio_n_30": 4
+            }
+        },
+        {
+            "nominativo": "SPINACI SALVATORE",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_30": 1
+            }
+        },
+        {
+            "nominativo": "PLATANIA RUGGERO",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 4,
+                "seggio_n_30": 4
+            }
+        }
+    ],
+    "quoziente": 68.0,
+    "votanti": {
+        "totali": 379,
+        "percentuale": 35.89,
+        "seggio_n_30": 379
+    },
+    "elettori": {
+        "totali": 1056,
+        "seggio_n_30": 1056
+    }
+}

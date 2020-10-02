@@ -1,0 +1,405 @@
+{
+    "dipartimento": "SOCIOLOGIA E SERVIZIO SOCIALE-Laurea (D.M.270/2004)\nSCIENZE DEL SERVIZIO SOCIALE-Laurea Triennale (D.M. 509/99)\nSCIENZE SOCIOLOGICHE-Laurea Triennale (D.M. 509/99)",
+    "seggi_da_assegnare": "7",
+    "schede": {
+        "bianche": {
+            "totali": 14,
+            "seggio_n_5": 14
+        },
+        "nulle": {
+            "totali": 5,
+            "seggio_n_5": 5
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_5": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "CONTROCAMPUS",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "12,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 12,
+                "seggio_n_5": 12
+            }
+        },
+        {
+            "nome": "LAFINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "19,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 19,
+                "seggio_n_5": 19
+            }
+        },
+        {
+            "nome": "ARES",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "0,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nome": "NIKE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "25,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 25,
+                "seggio_n_5": 25
+            }
+        },
+        {
+            "nome": "ARCADIA",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "14,3",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 43,
+                "seggio_n_5": 43
+            }
+        },
+        {
+            "nome": "WE LOVE UNICT",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "23,6",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "3"
+            },
+            "voti": {
+                "totali": 81,
+                "seggio_n_5": 81
+            }
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "16,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 16,
+                "seggio_n_5": 16
+            }
+        },
+        {
+            "nome": "ALLEANZA UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "5,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 5,
+                "seggio_n_5": 5
+            }
+        },
+        {
+            "totale": 201
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "CALVO Francesca",
+            "lista": "LAFINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 9,
+                "seggio_n_5": 9
+            }
+        },
+        {
+            "nominativo": "FICHERA Agata",
+            "lista": "NIKE",
+            "voti": {
+                "totali": 15,
+                "seggio_n_5": 15
+            }
+        },
+        {
+            "nominativo": "GIAMBELLO Chiara",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 15,
+                "seggio_n_5": 15
+            }
+        },
+        {
+            "nominativo": "BIVONA Damiano",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 28,
+                "seggio_n_5": 28
+            }
+        },
+        {
+            "nominativo": "PENNISI Laura",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 25,
+                "seggio_n_5": 25
+            }
+        },
+        {
+            "nominativo": "RINCIARI Aldea",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 20,
+                "seggio_n_5": 20
+            }
+        },
+        {
+            "nominativo": "SORTINO Giulia",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 11,
+                "seggio_n_5": 11
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "CAVALLARO Valentina Maria",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 12,
+                "seggio_n_5": 12
+            }
+        },
+        {
+            "nominativo": "GULISANO Giuseppe Antonio",
+            "lista": "LAFINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 6,
+                "seggio_n_5": 6
+            }
+        },
+        {
+            "nominativo": "DI PERNA Maria Chiara",
+            "lista": "LAFINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "VINCI Simona",
+            "lista": "LAFINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "CALVO Giada",
+            "lista": "ARES",
+            "voti": {
+                "totali": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "MONCALIERI Mariaelisa",
+            "lista": "ARES",
+            "voti": {
+                "totali": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "CANTARELLA Erica",
+            "lista": "ARES",
+            "voti": {
+                "totali": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "SCALISI Ambra",
+            "lista": "ARES",
+            "voti": {
+                "totali": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "MORO Giorgia",
+            "lista": "NIKE",
+            "voti": {
+                "totali": 1,
+                "seggio_n_5": 1
+            }
+        },
+        {
+            "nominativo": "BOVO Andrea Giorgia",
+            "lista": "NIKE",
+            "voti": {
+                "totali": 8,
+                "seggio_n_5": 8
+            }
+        },
+        {
+            "nominativo": "PETTIGLIONE Alessio Giovanni",
+            "lista": "NIKE",
+            "voti": {
+                "totali": 1,
+                "seggio_n_5": 1
+            }
+        },
+        {
+            "nominativo": "GUTTADAURO Stefania",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 13,
+                "seggio_n_5": 16
+            }
+        },
+        {
+            "nominativo": "URSO Umberto",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "BRACCIOLANO Monica",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 3,
+                "seggio_n_5": 3
+            }
+        },
+        {
+            "nominativo": "FORTUNA Francesca",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 7,
+                "seggio_n_5": 7
+            }
+        },
+        {
+            "nominativo": "VALORE Bruna",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "BRIGHINA Miriana",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "POMA Gabriele Alessio",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 1,
+                "seggio_n_5": 1
+            }
+        },
+        {
+            "nominativo": "AMATA Chiara",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 1,
+                "seggio_n_5": 1
+            }
+        },
+        {
+            "nominativo": "INDELICATO Elvira",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "DI MAURO Alessia Maria",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "PALMERI Angela",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "MERCORILLO Simona",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "VALENTINO Giorgia",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "VEERAMAH Veeren",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 5,
+                "seggio_n_5": 5
+            }
+        },
+        {
+            "nominativo": "D'AGOSTINO Giulia",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_5": 0
+            }
+        }
+    ],
+    "quoziente": 28.7143,
+    "votanti": {
+        "totali": 220,
+        "percentuale": 31.47,
+        "seggio_n_5": 220
+    },
+    "elettori": {
+        "totali": 699,
+        "seggio_n_5": 699
+    }
+}

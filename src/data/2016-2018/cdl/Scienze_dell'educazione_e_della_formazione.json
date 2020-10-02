@@ -1,0 +1,322 @@
+{
+    "dipartimento": "SCIENZE DELL'EDUCAZIONE E DELLA FORMAZIONE-Laurea (D.M.270/2004)\nSCIENZE EDUCATIVE PER L'INFANZIA-Laurea (D.M.270/2004)\nEDUCATORE DELL'INFANZIA-Laurea Triennale (D.M. 509/99)\nSCIENZE DELL'EDUCAZIONE E DELLA FORMAZIONE-Laurea Triennale (D.M. 509/99)",
+    "seggi_da_assegnare": "5",
+    "schede": {
+        "bianche": {
+            "totali": 0,
+            "seggio_n_31": 0
+        },
+        "nulle": {
+            "totali": 0,
+            "seggio_n_31": 0
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_31": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "ARCHÈ",
+            "seggi": {
+                "seggi_pieni": null,
+                "resti": null,
+                "seggi_ai_resti": null,
+                "seggi_totali": null
+            },
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        },
+        {
+            "nome": "UNIVERSITÀ POPOLARE",
+            "seggi": {
+                "seggi_pieni": null,
+                "resti": null,
+                "seggi_ai_resti": null,
+                "seggi_totali": null
+            },
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        },
+        {
+            "nome": "INFORMAZIONE",
+            "seggi": {
+                "seggi_pieni": null,
+                "resti": null,
+                "seggi_ai_resti": null,
+                "seggi_totali": null
+            },
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        },
+        {
+            "nome": "DESTRA UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": null,
+                "resti": null,
+                "seggi_ai_resti": null,
+                "seggi_totali": null
+            },
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": null,
+                "resti": null,
+                "seggi_ai_resti": null,
+                "seggi_totali": null
+            },
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        },
+        {
+            "nome": "NUOVA GENERAZIONE",
+            "seggi": {
+                "seggi_pieni": null,
+                "resti": null,
+                "seggi_ai_resti": null,
+                "seggi_totali": null
+            },
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        },
+        {
+            "totale": 0
+        }
+    ],
+    "eletti": [],
+    "non_eletti": [
+        {
+            "nominativo": "CAROLLO ILARIA",
+            "lista": "ARCHÈ",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        },
+        {
+            "nominativo": "DI PIAZZA ROBERTA",
+            "lista": "ARCHÈ",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        },
+        {
+            "nominativo": "RENNA ERIKA",
+            "lista": "UNIVERSITÀ POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        },
+        {
+            "nominativo": "PALMA MICHELE ALBERTO",
+            "lista": "UNIVERSITÀ POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        },
+        {
+            "nominativo": "PELLEGRINO PRATTELLA ALBA",
+            "lista": "UNIVERSITÀ POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        },
+        {
+            "nominativo": "CANNONE ANDREA",
+            "lista": "UNIVERSITÀ POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        },
+        {
+            "nominativo": "PRINZIVALLI EMANUELE ROSOLINO FRANCESCO",
+            "lista": "INFORMAZIONE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        },
+        {
+            "nominativo": "PATTI RICCARDO",
+            "lista": "INFORMAZIONE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        },
+        {
+            "nominativo": "PROFESSO SHARON DEBORA",
+            "lista": "INFORMAZIONE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        },
+        {
+            "nominativo": "MAUGERI PATRIZIA",
+            "lista": "INFORMAZIONE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        },
+        {
+            "nominativo": "FICHERA LETIZIA",
+            "lista": "INFORMAZIONE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        },
+        {
+            "nominativo": "ASCIA AURORA",
+            "lista": "DESTRA UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        },
+        {
+            "nominativo": "SANCHIOLI ELIANA",
+            "lista": "DESTRA UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        },
+        {
+            "nominativo": "DE ROSA VALENTINA",
+            "lista": "DESTRA UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        },
+        {
+            "nominativo": "LEONE GIULIO MARCELLO",
+            "lista": "DESTRA UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        },
+        {
+            "nominativo": "GOZZI AGATA VALENTINA",
+            "lista": "DESTRA UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        },
+        {
+            "nominativo": "GUARNERA MAGDALENA",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        },
+        {
+            "nominativo": "ARDITA LETIZIA",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        },
+        {
+            "nominativo": "RODANO ROBERTO MARIA",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        },
+        {
+            "nominativo": "MIRABELLA ADRIANA",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        },
+        {
+            "nominativo": "DI SIMONE VALENTINA",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        },
+        {
+            "nominativo": "RAPISARDA LUCA FRANCESCO",
+            "lista": "NUOVA GENERAZIONE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        },
+        {
+            "nominativo": "GROSSO SABRINA",
+            "lista": "NUOVA GENERAZIONE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        },
+        {
+            "nominativo": "AFFETTA YLENIA",
+            "lista": "NUOVA GENERAZIONE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        },
+        {
+            "nominativo": "LEANZA MARIANNA LUANA",
+            "lista": "NUOVA GENERAZIONE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        },
+        {
+            "nominativo": "PALERMO ALESSANDRA RITA",
+            "lista": "NUOVA GENERAZIONE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        }
+    ],
+    "quoziente": 0,
+    "votanti": {
+        "totali": 0,
+        "percentuale": 0.00,
+        "seggio_n_31": 0
+    },
+    "elettori": {
+        "totali": 1219,
+        "seggio_n_31": 0
+    }
+} 

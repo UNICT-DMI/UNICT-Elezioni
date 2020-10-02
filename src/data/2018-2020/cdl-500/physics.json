@@ -1,0 +1,36 @@
+{
+    "dipartimento": "PHYSICS",
+    "quorum": true,
+    "seggi_da_assegnare": 8,
+    "schede": {
+        "bianche": 1,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "CUTULI Mauro",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "FERRENTE Fabiana",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "IRRERA Domenico",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "MUZZIO Irene",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "SPINA Francesco",
+            "voti": 8
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 25,
+    "aventi_diritto": 95,
+    "perc_votanti": 26.32
+}

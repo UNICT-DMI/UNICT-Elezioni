@@ -1,0 +1,33 @@
+{
+    "dipartimento": "CHIMICA DEI MATERIALI",
+    "quorum": true,
+    "seggi_da_assegnare": 2,
+    "schede": {
+        "bianche": 3,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "GIUFFRIDA Federico",
+            "voti": 13
+        },
+        {
+            "nome_candidato": "SANGREGORIO Enrico",
+            "voti": 6
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "MANGANO Marco Agatino",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "PATANE' Marco",
+            "voti": 3
+        }
+    ],
+    "totale_voti": 30,
+    "aventi_diritto": 45,
+    "perc_votanti": 66.67
+}

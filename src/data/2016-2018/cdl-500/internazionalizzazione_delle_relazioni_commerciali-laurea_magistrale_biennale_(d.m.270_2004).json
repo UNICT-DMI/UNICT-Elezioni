@@ -1,0 +1,28 @@
+{
+    "dipartimento": "INTERNAZIONALIZZAZIONE DELLE RELAZIONI COMMERCIALI-Laurea Magistrale biennale (D.M.270/2004)\nINTERNAZIONALIZZAZIONE DELLE RELAZIONI COMMERCIALI-Laurea Specialistica biennale (D.M. 509/99)",
+    "quorum": true,
+    "seggi_da_assegnare": 3,
+    "schede": {
+        "bianche": 0,
+        "nulle": 1,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "CRISMA FAUSTO",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "ITALIANO ALESSANDRO",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "LA SPINA CRISTIAN",
+            "voti": 9
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 21,
+    "aventi_diritto": 69,
+    "perc_votanti": 30.43
+}

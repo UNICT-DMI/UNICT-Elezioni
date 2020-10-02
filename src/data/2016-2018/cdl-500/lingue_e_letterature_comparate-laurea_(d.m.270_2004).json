@@ -1,0 +1,20 @@
+{
+    "dipartimento": "LINGUE E LETTERATURE COMPARATE-Laurea (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 7,
+    "schede": {
+        "bianche": 6,
+        "nulle": 2,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "TERRANOVA ELENA CONCETTA",
+            "voti": 28
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 36,
+    "aventi_diritto": 110,
+    "perc_votanti": 32.73
+}

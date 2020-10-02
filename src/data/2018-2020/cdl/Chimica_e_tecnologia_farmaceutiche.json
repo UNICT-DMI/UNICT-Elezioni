@@ -1,0 +1,328 @@
+{
+    "dipartimento": "CHIMICA E TECNOLOGIA FARMACEUTICHE-Laurea Magistrale a ciclo unico (D.M. 270/2004)\nCHIMICA E TECNOLOGIA FARMACEUTICHE-Laurea Specialistica a ciclo unico (D.M. 509/99)",
+    "seggi_da_assegnare": "6",
+    "schede": {
+        "bianche": {
+            "totali": 13,
+            "seggio_n_23": 13
+        },
+        "nulle": {
+            "totali": 8,
+            "seggio_n_23": 8
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_23": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "MEGALIDEA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "42,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 42,
+                "seggio_n_23": 42
+            }
+        },
+        {
+            "nome": "UNIVERSITA' POPOLARE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "5,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 5,
+                "seggio_n_23": 5
+            }
+        },
+        {
+            "nome": "KOINE'",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "8,8",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 58,
+                "seggio_n_23": 58
+            }
+        },
+        {
+            "nome": "WE LOVE UNICT",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "21,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 21,
+                "seggio_n_23": 21
+            }
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "37,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 37,
+                "seggio_n_23": 37
+            }
+        },
+        {
+            "nome": "ALLEANZA UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "35,8",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 85,
+                "seggio_n_23": 85
+            }
+        },
+        {
+            "nome": "PHARMA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "47,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 47,
+                "seggio_n_23": 47
+            }
+        },
+        {
+            "totale": 295
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "PUGLISI Prisca",
+            "lista": "MEGALIDEA",
+            "voti": {
+                "totali": 23,
+                "seggio_n_23": 23
+            }
+        },
+        {
+            "nominativo": "RUSSO Francesco",
+            "lista": "KOINE'",
+            "voti": {
+                "totali": 25,
+                "seggio_n_23": 25
+            }
+        },
+        {
+            "nominativo": "OLIVERI Sara",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 10,
+                "seggio_n_23": 10
+            }
+        },
+        {
+            "nominativo": "AGOSTA Sergio",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 23,
+                "seggio_n_23": 23
+            }
+        },
+        {
+            "nominativo": "ADDARIO Giorgia",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 22,
+                "seggio_n_23": 22
+            }
+        },
+        {
+            "nominativo": "RAMASAMY Steeven",
+            "lista": "PHARMA",
+            "voti": {
+                "totali": 23,
+                "seggio_n_23": 23
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "TRECARICHI Luca",
+            "lista": "MEGALIDEA",
+            "voti": {
+                "totali": 19,
+                "seggio_n_23": 19
+            }
+        },
+        {
+            "nominativo": "IUDICI Anna",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_23": 0
+            }
+        },
+        {
+            "nominativo": "PAPPALARDO Sara",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_23": 0
+            }
+        },
+        {
+            "nominativo": "LA ROSA Lucio",
+            "lista": "KOINE'",
+            "voti": {
+                "totali": 23,
+                "seggio_n_23": 23
+            }
+        },
+        {
+            "nominativo": "ALIA Ludovica",
+            "lista": "KOINE'",
+            "voti": {
+                "totali": 0,
+                "seggio_n_23": 0
+            }
+        },
+        {
+            "nominativo": "TINNIRELLO Gianluca Natale",
+            "lista": "KOINE'",
+            "voti": {
+                "totali": 0,
+                "seggio_n_23": 0
+            }
+        },
+        {
+            "nominativo": "INGALLINA Fulvio",
+            "lista": "KOINE'",
+            "voti": {
+                "totali": 1,
+                "seggio_n_23": 1
+            }
+        },
+        {
+            "nominativo": "BALLOTTA Maria Grazia",
+            "lista": "KOINE'",
+            "voti": {
+                "totali": 1,
+                "seggio_n_23": 1
+            }
+        },
+        {
+            "nominativo": "D'ORTO Lucia Valentina",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 20,
+                "seggio_n_23": 20
+            }
+        },
+        {
+            "nominativo": "FERLITO Marco",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 1,
+                "seggio_n_23": 1
+            }
+        },
+        {
+            "nominativo": "TOMASELLO Alfio Marco",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_23": 0
+            }
+        },
+        {
+            "nominativo": "BERTINO Flora",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 4,
+                "seggio_n_23": 4
+            }
+        },
+        {
+            "nominativo": "VECCHIO Anita",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 3,
+                "seggio_n_23": 3
+            }
+        },
+        {
+            "nominativo": "VILLARI Alessandra",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 7,
+                "seggio_n_23": 7
+            }
+        },
+        {
+            "nominativo": "VERDE Martina",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 7,
+                "seggio_n_23": 7
+            }
+        },
+        {
+            "nominativo": "RAGUSA Martina",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 15,
+                "seggio_n_23": 15
+            }
+        },
+        {
+            "nominativo": "ARANGIO Giuseppe",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 14,
+                "seggio_n_23": 14
+            }
+        },
+        {
+            "nominativo": "FLORI Francesco Gerardo",
+            "lista": "PHARMA",
+            "voti": {
+                "totali": 19,
+                "seggio_n_23": 19
+            }
+        },
+        {
+            "nominativo": "D'ARCO David",
+            "lista": "PHARMA",
+            "voti": {
+                "totali": 2,
+                "seggio_n_23": 2
+            }
+        }
+    ],
+    "quoziente": 49.1667,
+    "votanti": {
+        "totali": 316,
+        "percentuale": 45.4,
+        "seggio_n_23": 316
+    },
+    "elettori": {
+        "totali": 696,
+        "seggio_n_23": 696
+    }
+}

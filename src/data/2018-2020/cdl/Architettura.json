@@ -1,0 +1,212 @@
+{
+    "dipartimento": "ARCHITETTURA-Laurea Magistrale a ciclo unico (D.M. 270/2004)\nARCHITETTURA-Laurea Specialistica a ciclo unico (D.M. 509/99)\nRESTAURO DELL'ARCHITETTURA-Laurea Specialistica biennale (D.M. 509/99)\nSCIENZA DELL'ARCHITETTURA E DELL'INGEGNERIA EDILE-LaureaTriennale (D.M. 509/99)",
+    "seggi_da_assegnare": "9",
+    "schede": {
+        "bianche": {
+            "totali": 11,
+            "seggio_n_34": 11
+        },
+        "nulle": {
+            "totali": 14,
+            "seggio_n_34": 14
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_34": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "ARCHE'",
+            "seggi": {
+                "seggi_pieni": "7",
+                "resti": "8,9",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "7"
+            },
+            "voti": {
+                "totali": 208,
+                "seggio_n_34": 208
+            }
+        },
+        {
+            "nome": "SI! \u2010 STUDENTI INDIPENDENTI",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "11,6",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 40,
+                "seggio_n_34": 40
+            }
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "8,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 8,
+                "seggio_n_34": 8
+            }
+        },
+        {
+            "totale": 256
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "CONTRAFATTO Francesco",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 6,
+                "seggio_n_34": 6
+            }
+        },
+        {
+            "nominativo": "INCOGNITO Paola",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 13,
+                "seggio_n_34": 13
+            }
+        },
+        {
+            "nominativo": "LICCIARDELLO Cristina",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 62,
+                "seggio_n_34": 62
+            }
+        },
+        {
+            "nominativo": "MACCARRONE Salvatore",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 14,
+                "seggio_n_34": 14
+            }
+        },
+        {
+            "nominativo": "MANENTI Giuseppe",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 37,
+                "seggio_n_34": 37
+            }
+        },
+        {
+            "nominativo": "MELI Giulia",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 21,
+                "seggio_n_34": 21
+            }
+        },
+        {
+            "nominativo": "NIOSI Vincenzo",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 10,
+                "seggio_n_34": 10
+            }
+        },
+        {
+            "nominativo": "ALLEGRA Andrea",
+            "lista": "SI! \u2010 STUDENTI INDIPENDENTI",
+            "voti": {
+                "totali": 10,
+                "seggio_n_34": 10
+            }
+        },
+        {
+            "nominativo": "DI MARIA Paolo",
+            "lista": "SI! \u2010 STUDENTI INDIPENDENTI",
+            "voti": {
+                "totali": 8,
+                "seggio_n_34": 8
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "MANNINO Salvatore Thomas",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 1,
+                "seggio_n_34": 1
+            }
+        },
+        {
+            "nominativo": "STRAZZERI Eleonora",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 3,
+                "seggio_n_34": 3
+            }
+        },
+        {
+            "nominativo": "DI PERNA Giulia",
+            "lista": "SI! \u2010 STUDENTI INDIPENDENTI",
+            "voti": {
+                "totali": 5,
+                "seggio_n_34": 5
+            }
+        },
+        {
+            "nominativo": "MOTTA Giuseppe",
+            "lista": "SI! \u2010 STUDENTI INDIPENDENTI",
+            "voti": {
+                "totali": 6,
+                "seggio_n_34": 6
+            }
+        },
+        {
+            "nominativo": "PETRALIA Gianluca",
+            "lista": "SI! \u2010 STUDENTI INDIPENDENTI",
+            "voti": {
+                "totali": 3,
+                "seggio_n_34": 3
+            }
+        },
+        {
+            "nominativo": "RUSSO Gaetano",
+            "lista": "SI! \u2010 STUDENTI INDIPENDENTI",
+            "voti": {
+                "totali": 3,
+                "seggio_n_34": 3
+            }
+        },
+        {
+            "nominativo": "TENERELLI Simone",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 4,
+                "seggio_n_34": 4
+            }
+        },
+        {
+            "nominativo": "SORGI Fiorenzo",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_34": 0
+            }
+        }
+    ],
+    "quoziente": 28.4444,
+    "votanti": {
+        "totali": 281,
+        "percentuale": 40.96,
+        "seggio_n_34": 281
+    },
+    "elettori": {
+        "totali": 686,
+        "seggio_n_34": 686
+    }
+}

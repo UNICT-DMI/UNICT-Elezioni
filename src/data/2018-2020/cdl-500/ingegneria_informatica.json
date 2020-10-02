@@ -1,0 +1,28 @@
+{
+    "dipartimento": "INGEGNERIA INFORMATICA",
+    "quorum": true,
+    "seggi_da_assegnare": 3,
+    "schede": {
+        "bianche": 0,
+        "nulle": 1,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "TORNATORE Fabrizio",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "TORRISI Giuseppe",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "TROVATO Luigi",
+            "voti": 20
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 27,
+    "aventi_diritto": 119,
+    "perc_votanti": 22.69
+}

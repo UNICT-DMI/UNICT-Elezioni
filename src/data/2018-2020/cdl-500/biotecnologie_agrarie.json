@@ -1,0 +1,32 @@
+{
+    "dipartimento": "BIOTECNOLOGIE AGRARIE",
+    "quorum": true,
+    "seggi_da_assegnare": 3,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "AMICO Claudia Maria",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "FICICCHIA Corrado",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "MELLONE Gianluca",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "MODICA Francesco",
+            "voti": 5
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 12,
+    "aventi_diritto": 33,
+    "perc_votanti": 36.36
+}

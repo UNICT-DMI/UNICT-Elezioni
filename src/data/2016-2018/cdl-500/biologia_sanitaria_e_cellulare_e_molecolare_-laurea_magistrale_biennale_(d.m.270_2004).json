@@ -1,0 +1,24 @@
+{
+    "dipartimento": "BIOLOGIA SANITARIA E CELLULARE E MOLECOLARE -Laurea Magistrale biennale (D.M.270/2004)\nBIOLOGIA SANITARIA-Laurea Magistrale biennale (D.M.270/2004)\nBIOLOGIA CELLULARE E MOLECOLARE-Laurea Specialistica biennale (D.M. 509/99)\nBIOLOGIA SANITARIA-Laurea Specialistica biennale (D.M. 509/99)",
+    "quorum": true,
+    "seggi_da_assegnare": 4,
+    "schede": {
+        "bianche": 2,
+        "nulle": 1,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "BELLOMO SARA",
+            "voti": 42
+        },
+        {
+            "nome_candidato": "SANTONOCITO AGATA RITA",
+            "voti": 19
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 64,
+    "aventi_diritto": 232,
+    "perc_votanti": 27.59
+}

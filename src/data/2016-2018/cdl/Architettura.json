@@ -1,0 +1,180 @@
+{
+    "dipartimento": "ARCHITETTURA-Laurea Magistrale a ciclo unico (D.M. 270/2004)\nARCHITETTURA-Laurea Specialistica a ciclo unico (D.M. 509/99)\nRESTAURO DELL'ARCHITETTURA-Laurea Specialistica biennale (D.M. 509/99)\nSCIENZA DELL'ARCHITETTURA E DELL'INGEGNERIA EDILE-LaureaTriennale (D.M. 509/99)",
+    "seggi_da_assegnare": "9",
+    "schede": {
+        "bianche": {
+            "totali": 12,
+            "seggio_n_33": 12
+        },
+        "nulle": {
+            "totali": 8,
+            "seggio_n_33": 8
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_33": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "ARCH\u00c8",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "16,4",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "3"
+            },
+            "voti": {
+                "totali": 58,
+                "seggio_n_33": 58
+            }
+        },
+        {
+            "nome": "UNITI PER ARCHITETTURA",
+            "seggi": {
+                "seggi_pieni": "5",
+                "resti": "16,1",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "6"
+            },
+            "voti": {
+                "totali": 120,
+                "seggio_n_33": 120
+            }
+        },
+        {
+            "nome": "UNIVERSIT\u00c0 POPOLARE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "9,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 9,
+                "seggio_n_33": 9
+            }
+        },
+        {
+            "totale": 187
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "CACCAMESE DARIO",
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 42,
+                "seggio_n_33": 42
+            }
+        },
+        {
+            "nominativo": "BONACCORSO ELENA",
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 5,
+                "seggio_n_33": 5
+            }
+        },
+        {
+            "nominativo": "PACE ALESSANDRO",
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 6,
+                "seggio_n_33": 6
+            }
+        },
+        {
+            "nominativo": "LICCIARDELLO CRISTINA",
+            "lista": "UNITI PER ARCHITETTURA",
+            "voti": {
+                "totali": 32,
+                "seggio_n_33": 32
+            }
+        },
+        {
+            "nominativo": "AMATO VITO",
+            "lista": "UNITI PER ARCHITETTURA",
+            "voti": {
+                "totali": 38,
+                "seggio_n_33": 38
+            }
+        },
+        {
+            "nominativo": "FIGURA GIUSEPPE",
+            "lista": "UNITI PER ARCHITETTURA",
+            "voti": {
+                "totali": 6,
+                "seggio_n_33": 6
+            }
+        },
+        {
+            "nominativo": "CANNATA MIRKO",
+            "lista": "UNITI PER ARCHITETTURA",
+            "voti": {
+                "totali": 6,
+                "seggio_n_33": 6
+            }
+        },
+        {
+            "nominativo": "CAPONETTI GAETANO",
+            "lista": "UNITI PER ARCHITETTURA",
+            "voti": {
+                "totali": 22,
+                "seggio_n_33": 22
+            }
+        },
+        {
+            "nominativo": "GUASTELLA MARCO",
+            "lista": "UNITI PER ARCHITETTURA",
+            "voti": {
+                "totali": 3,
+                "seggio_n_33": 3
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "SORGE DAVIDE BENIAMINO",
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 0,
+                "seggio_n_33": 0
+            }
+        },
+        {
+            "nominativo": "SAPIENZA LUDOVICA",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 2,
+                "seggio_n_33": 2
+            }
+        },
+        {
+            "nominativo": "DRAGO MARTINA ALESSANDRA",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 4,
+                "seggio_n_33": 4
+            }
+        },
+        {
+            "nominativo": "PIRRONITTO ALESSANDRO",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_33": 0
+            }
+        }
+    ],
+    "quoziente": 20.7778,
+    "votanti": {
+        "totali": 207,
+        "percentuale": 23.63,
+        "seggio_n_33": 207
+    },
+    "elettori": {
+        "totali": 876,
+        "seggio_n_33": 876
+    }
+}

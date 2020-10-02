@@ -1,0 +1,24 @@
+{
+    "dipartimento": "LINGUE E CULTURE EUROPEE ED EXTRAEUROPEE",
+    "quorum": true,
+    "seggi_da_assegnare": 6,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "NICOLOSI Andrea",
+            "voti": 19
+        },
+        {
+            "nome_candidato": "SCRIBANO Ismael Giovanni",
+            "voti": 8
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 27,
+    "aventi_diritto": 144,
+    "perc_votanti": 18.75
+}

@@ -1,0 +1,28 @@
+{
+    "dipartimento": "SALVAGUARDIA DEL TERRITORIO DELL'AMBIENTE E DEL PAESAGGIO",
+    "quorum": true,
+    "seggi_da_assegnare": 3,
+    "schede": {
+        "bianche": 1,
+        "nulle": 1,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "BUSCEMI Luca",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "TODERO Alessandro Mario Felice",
+            "voti": 7
+        },
+        {
+            "nome_candidato": "ZINGALE Lidia",
+            "voti": 8
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 20,
+    "aventi_diritto": 55,
+    "perc_votanti": 36.36
+}

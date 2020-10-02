@@ -1,0 +1,65 @@
+{
+    "dipartimento": "FISIOTERAPIA",
+    "quorum": true,
+    "seggi_da_assegnare": 8,
+    "schede": {
+        "bianche": 2,
+        "nulle": 1,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "BIUSO Jody",
+            "voti": 12
+        },
+        {
+            "nome_candidato": "CALA' Edoardo",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "FISICARO Alessia",
+            "voti": 13
+        },
+        {
+            "nome_candidato": "FURNARI Stefano",
+            "voti": 12
+        },
+        {
+            "nome_candidato": "MAMMOLA Martina",
+            "voti": 7
+        },
+        {
+            "nome_candidato": "NICOTRA Simone",
+            "voti": 14
+        },
+        {
+            "nome_candidato": "PETRALIA Nicolo' - detto \"Nicola\"",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "PIGNATARO Simone",
+            "voti": 10
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "DI PAOLA Claudio Valerio",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "GERACI Francesco",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "GRECUZZO Marta",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "PLATANIA Rachele",
+            "voti": 2
+        }
+    ],
+    "totale_voti": 84,
+    "aventi_diritto": 137,
+    "perc_votanti": 61.31
+}

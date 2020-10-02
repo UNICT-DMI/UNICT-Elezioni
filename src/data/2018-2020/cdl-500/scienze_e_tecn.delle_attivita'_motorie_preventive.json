@@ -1,0 +1,28 @@
+{
+    "dipartimento": "SCIENZE E TECN.DELLE ATTIVITA' MOTORIE PREVENTIVE",
+    "quorum": false,
+    "seggi_da_assegnare": 5,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [],
+    "non_eletti": [
+        {
+            "nome_candidato": "DI GRAZIA Greta",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "PELLEGRINO Francesca Maria Rosaria",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "QUARTARARO Irene",
+            "voti": 5
+        }
+    ],
+    "totale_voti": 11,
+    "aventi_diritto": 97,
+    "perc_votanti": 11.34
+}

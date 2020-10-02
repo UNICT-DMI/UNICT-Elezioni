@@ -1,0 +1,24 @@
+{
+    "dipartimento": "SCIENZE BIOLOGICHE GEOLOGICHE E AMBIENTALI",
+    "quorum": true,
+    "seggi_da_assegnare": 2,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "CARNEMOLLA Francesco",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "PAGANO Mario",
+            "voti": 7
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 10,
+    "aventi_diritto": 19,
+    "perc_votanti": 52.63
+}

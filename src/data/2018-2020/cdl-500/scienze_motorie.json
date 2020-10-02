@@ -1,0 +1,81 @@
+{
+    "dipartimento": "SCIENZE MOTORIE",
+    "quorum": true,
+    "seggi_da_assegnare": 8,
+    "schede": {
+        "bianche": 3,
+        "nulle": 1,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "BARBAGALLO Christian",
+            "voti": 34
+        },
+        {
+            "nome_candidato": "BUSCEMI Carlo",
+            "voti": 26
+        },
+        {
+            "nome_candidato": "CASTORINA Simone",
+            "voti": 47
+        },
+        {
+            "nome_candidato": "COFFA Federica",
+            "voti": 15
+        },
+        {
+            "nome_candidato": "D'ANNA Rossana",
+            "voti": 14
+        },
+        {
+            "nome_candidato": "FAZIO Alfio Riccardo",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "MANNO Paolo",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "PARISI Vincenzo",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "SCIACCA Alfio",
+            "voti": 4
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "CANNAVO' Anna",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "CASTRO Marco",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "D'AMICO Dario",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "GAZZARA Giuseppe Salvatore",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "LISIO Marcello",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "NICOLOSI Marcello",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "SCIACCA Tommaso",
+            "voti": 0
+        }
+    ],
+    "totale_voti": 152,
+    "aventi_diritto": 354,
+    "perc_votanti": 42.94
+}

@@ -1,0 +1,238 @@
+{
+    "dipartimento": "INGEGNERIA ELETTRONICA-Laurea (D.M.270/2004)\nINGEGNERIA ELETTRONICA-Laurea Triennale (D.M. 509/99)",
+    "seggi_da_assegnare": "6",
+    "schede": {
+        "bianche": {
+            "totali": 11,
+            "seggio_n_30": 11
+        },
+        "nulle": {
+            "totali": 2,
+            "seggio_n_30": 2
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_30": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "CITING",
+            "seggi": {
+                "seggi_pieni": "3",
+                "resti": "24,7",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "4"
+            },
+            "voti": {
+                "totali": 74,
+                "seggio_n_30": 74
+            }
+        },
+        {
+            "nome": "ACTEA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "24,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 24,
+                "seggio_n_30": 24
+            }
+        },
+        {
+            "nome": "UNIVERSITA' POPOLARE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "3,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 3,
+                "seggio_n_30": 3
+            }
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "8,3",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 33,
+                "seggio_n_30": 33
+            }
+        },
+        {
+            "nome": "WE LOVE UNICT",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "14,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 14,
+                "seggio_n_30": 14
+            }
+        },
+        {
+            "totale": 148
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "NICOTRA Claudio",
+            "lista": "CITING",
+            "voti": {
+                "totali": 18,
+                "seggio_n_30": 18
+            }
+        },
+        {
+            "nominativo": "PARISI Federica",
+            "lista": "CITING",
+            "voti": {
+                "totali": 15,
+                "seggio_n_30": 15
+            }
+        },
+        {
+            "nominativo": "MIRULLA Giovanni",
+            "lista": "CITING",
+            "voti": {
+                "totali": 2,
+                "seggio_n_30": 2
+            }
+        },
+        {
+            "nominativo": "BARBERA Christian",
+            "lista": "CITING",
+            "voti": {
+                "totali": 34,
+                "seggio_n_30": 34
+            }
+        },
+        {
+            "nominativo": "SCALZO Filippo",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 14,
+                "seggio_n_30": 14
+            }
+        },
+        {
+            "nominativo": "LISTO Lorenzo",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 22,
+                "seggio_n_30": 22
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "AGOSTA Olga",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 6,
+                "seggio_n_30": 6
+            }
+        },
+        {
+            "nominativo": "GALLO Giuseppe",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 4,
+                "seggio_n_30": 4
+            }
+        },
+        {
+            "nominativo": "BRANCHINA Elena",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_30": 0
+            }
+        },
+        {
+            "nominativo": "SAMPERI Katia",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_30": 0
+            }
+        },
+        {
+            "nominativo": "VACANTE Antonino Michael",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 5,
+                "seggio_n_30": 5
+            }
+        },
+        {
+            "nominativo": "GIANNONE Carmelo",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 3,
+                "seggio_n_30": 3
+            }
+        },
+        {
+            "nominativo": "VINCIGUERRA Paolo",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 5,
+                "seggio_n_30": 5
+            }
+        },
+        {
+            "nominativo": "CHIAVETTA Davide",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 2,
+                "seggio_n_30": 2
+            }
+        },
+        {
+            "nominativo": "GIUFFRIDA Fiamma",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 2,
+                "seggio_n_30": 2
+            }
+        },
+        {
+            "nominativo": "DIELI Giulio",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 1,
+                "seggio_n_30": 1
+            }
+        },
+        {
+            "nominativo": "MALAPONTE Giulia",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_30": 0
+            }
+        }
+    ],
+    "quoziente": 24.6667,
+    "votanti": {
+        "totali": 161,
+        "percentuale": 31.38,
+        "seggio_n_30": 161
+    },
+    "elettori": {
+        "totali": 513,
+        "seggio_n_30": 513
+    }
+}

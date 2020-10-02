@@ -1,0 +1,408 @@
+{
+    "dipartimento": "CHIMICA E TECNOLOGIA FARMACEUTICHE-Laurea Magistrale a ciclo unico (D.M. 270/2004)\nCHIMICA E TECNOLOGIA FARMACEUTICHE-Laurea Specialistica a ciclo unico (D.M. 509/99)",
+    "seggi_da_assegnare": "7",
+    "schede": {
+        "bianche": {
+            "totali": 7,
+            "seggio_n_22": 7
+        },
+        "nulle": {
+            "totali": 8,
+            "seggio_n_22": 8
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_22": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "ARCH\u00c8",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "27,3",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 67,
+                "seggio_n_22": 67
+            }
+        },
+        {
+            "nome": "ACTEA",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "0,3",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 40,
+                "seggio_n_22": 40
+            }
+        },
+        {
+            "nome": "KOIN\u00c8",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "35,3",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 75,
+                "seggio_n_22": 75
+            }
+        },
+        {
+            "nome": "UNIVERSIT\u00c0 POPOLARE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "10,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 10,
+                "seggio_n_22": 10
+            }
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "26,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 26,
+                "seggio_n_22": 26
+            }
+        },
+        {
+            "nome": "PHARMA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "22,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 22,
+                "seggio_n_22": 22
+            }
+        },
+        {
+            "nome": "LIBERTAS \u2010 LIBERI E FORTI",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "38,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 38,
+                "seggio_n_22": 38
+            }
+        },
+        {
+            "totale": 278
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "ADDARIO GIORGIA",
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 17,
+                "seggio_n_22": 17
+            }
+        },
+        {
+            "nominativo": "DI GUARDIA MARCO",
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 8,
+                "seggio_n_22": 8
+            }
+        },
+        {
+            "nominativo": "PALERMO FEDERICA",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 18,
+                "seggio_n_22": 18
+            }
+        },
+        {
+            "nominativo": "FICHERA ANGELO",
+            "lista": "KOIN\u00c8",
+            "voti": {
+                "totali": 20,
+                "seggio_n_22": 20
+            }
+        },
+        {
+            "nominativo": "TROVATO CARLA",
+            "lista": "KOIN\u00c8",
+            "voti": {
+                "totali": 17,
+                "seggio_n_22": 17
+            }
+        },
+        {
+            "nominativo": "ANICITO MAURIZIO",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 8,
+                "seggio_n_22": 8
+            }
+        },
+        {
+            "nominativo": "GALVANO ANTONIO",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 11,
+                "seggio_n_22": 11
+            }
+        },
+        {
+            "nominativo": "PULVIRENTI PAOLA",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 11,
+                "seggio_n_22": 11
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "CASTRO GIORGIA",
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 3,
+                "seggio_n_22": 3
+            }
+        },
+        {
+            "nominativo": "LONZI CHIARA",
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 7,
+                "seggio_n_22": 7
+            }
+        },
+        {
+            "nominativo": "MAZZA EMMA",
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 4,
+                "seggio_n_22": 4
+            }
+        },
+        {
+            "nominativo": "PUGLISI PRISCA",
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 0,
+                "seggio_n_22": 0
+            }
+        },
+        {
+            "nominativo": "TRECARICHI LUCA",
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 0,
+                "seggio_n_22": 0
+            }
+        },
+        {
+            "nominativo": "NICOLOSI MARIACRISTINA",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 15,
+                "seggio_n_22": 15
+            }
+        },
+        {
+            "nominativo": "FERLITO MARCO",
+            "lista": "KOIN\u00c8",
+            "voti": {
+                "totali": 8,
+                "seggio_n_22": 8
+            }
+        },
+        {
+            "nominativo": "D'ASSORO MARTINA",
+            "lista": "KOIN\u00c8",
+            "voti": {
+                "totali": 10,
+                "seggio_n_22": 10
+            }
+        },
+        {
+            "nominativo": "INGALLINA FULVIO",
+            "lista": "KOIN\u00c8",
+            "voti": {
+                "totali": 15,
+                "seggio_n_22": 15
+            }
+        },
+        {
+            "nominativo": "RUSSO FRANCESCO",
+            "lista": "KOIN\u00c8",
+            "voti": {
+                "totali": 4,
+                "seggio_n_22": 4
+            }
+        },
+        {
+            "nominativo": "TERNULLO FEDERICO",
+            "lista": "KOIN\u00c8",
+            "voti": {
+                "totali": 1,
+                "seggio_n_22": 1
+            }
+        },
+        {
+            "nominativo": "LEOCATA CHIARA",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_22": 0
+            }
+        },
+        {
+            "nominativo": "GIARDINA ANTONINO",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_22": 0
+            }
+        },
+        {
+            "nominativo": "PALERMO MARIO",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 8,
+                "seggio_n_22": 8
+            }
+        },
+        {
+            "nominativo": "CONDORELLI ALESSANDRO",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_22": 0
+            }
+        },
+        {
+            "nominativo": "GIANGRASSO FEDERICA",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_22": 0
+            }
+        },
+        {
+            "nominativo": "D'ARCO DAVID",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 7,
+                "seggio_n_22": 7
+            }
+        },
+        {
+            "nominativo": "SGANDURRA FRANCESCA",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 7,
+                "seggio_n_22": 7
+            }
+        },
+        {
+            "nominativo": "RAPISARDA DANIELE",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_22": 0
+            }
+        },
+        {
+            "nominativo": "PAGANA ELEONORA",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_22": 0
+            }
+        },
+        {
+            "nominativo": "DI PASQUALE ANTONIO LORENZO",
+            "lista": "PHARMA",
+            "voti": {
+                "totali": 6,
+                "seggio_n_22": 6
+            }
+        },
+        {
+            "nominativo": "SEQUENZIA ILARIA",
+            "lista": "PHARMA",
+            "voti": {
+                "totali": 2,
+                "seggio_n_22": 2
+            }
+        },
+        {
+            "nominativo": "RAMASAMY STEEVEN",
+            "lista": "PHARMA",
+            "voti": {
+                "totali": 2,
+                "seggio_n_22": 2
+            }
+        },
+        {
+            "nominativo": "LA TORA ROBERTA",
+            "lista": "PHARMA",
+            "voti": {
+                "totali": 6,
+                "seggio_n_22": 6
+            }
+        },
+        {
+            "nominativo": "BALLIRO' FRANCESCA",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 1,
+                "seggio_n_22": 1
+            }
+        },
+        {
+            "nominativo": "SPAMPINATO MANUELE ALFIO",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 9,
+                "seggio_n_22": 9
+            }
+        },
+        {
+            "nominativo": "CAUCHI MARCO",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_22": 0
+            }
+        }
+    ],
+    "quoziente": 39.7143,
+    "votanti": {
+        "totali": 293,
+        "percentuale": 38.2,
+        "seggio_n_22": 293
+    },
+    "elettori": {
+        "totali": 767,
+        "seggio_n_22": 767
+    }
+}

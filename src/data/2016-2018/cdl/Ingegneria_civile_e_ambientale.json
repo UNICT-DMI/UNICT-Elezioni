@@ -1,0 +1,262 @@
+{
+    "dipartimento": "INGEGNERIA CIVILE E AMBIENTALE-Laurea (D.M.270/2004)\nINGEGNERIA CIVILE-Laurea Triennale (D.M. 509/99)\nINGEGNERIA PER L'AMBIENTE E IL TERRITORIO-Laurea Triennale (D.M. 509/99)",
+    "seggi_da_assegnare": "5",
+    "schede": {
+        "bianche": {
+            "totali": 27,
+            "seggio_n_26": 27
+        },
+        "nulle": {
+            "totali": 34,
+            "seggio_n_26": 34
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_26": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "SOGNO CIVILE",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "68,6",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 140,
+                "seggio_n_26": 140
+            }
+        },
+        {
+            "nome": "ACTEA",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "22,2",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 165,
+                "seggio_n_26": 165
+            }
+        },
+        {
+            "nome": "UNIVERSIT\u00c0 POPOLARE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "31,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 31,
+                "seggio_n_26": 31
+            }
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "5,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 5,
+                "seggio_n_26": 5
+            }
+        },
+        {
+            "nome": "LIBERTAS \u2010 LIBERI E FORTI",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "16,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 16,
+                "seggio_n_26": 16
+            }
+        },
+        {
+            "totale": 357
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "COSTANTINO GIANLUCA",
+            "lista": "SOGNO CIVILE",
+            "voti": {
+                "totali": 41,
+                "seggio_n_26": 41
+            }
+        },
+        {
+            "nominativo": "VITALE ALFIO",
+            "lista": "SOGNO CIVILE",
+            "voti": {
+                "totali": 37,
+                "seggio_n_26": 37
+            }
+        },
+        {
+            "nominativo": "MOSCHETTO ANTONINO ANDREA",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 72,
+                "seggio_n_26": 72
+            }
+        },
+        {
+            "nominativo": "SCAVONE GIUSEPPE",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 30,
+                "seggio_n_26": 30
+            }
+        },
+        {
+            "nominativo": "CATANIA MARA",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 19,
+                "seggio_n_26": 19
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "DI DONFRANCESCO SONIA",
+            "lista": "SOGNO CIVILE",
+            "voti": {
+                "totali": 32,
+                "seggio_n_26": 32
+            }
+        },
+        {
+            "nominativo": "SANTINI ANGELA",
+            "lista": "SOGNO CIVILE",
+            "voti": {
+                "totali": 25,
+                "seggio_n_26": 25
+            }
+        },
+        {
+            "nominativo": "ALU' PAOLO",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 26,
+                "seggio_n_26": 26
+            }
+        },
+        {
+            "nominativo": "FAZIO SIMONE",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 8,
+                "seggio_n_26": 8
+            }
+        },
+        {
+            "nominativo": "VANNELLI GIOVANNI",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "MIGLIORE GIUSEPPE",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 1,
+                "seggio_n_26": 1
+            }
+        },
+        {
+            "nominativo": "IACONO STEFANO",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "SANTINI ANDREA",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 1,
+                "seggio_n_26": 1
+            }
+        },
+        {
+            "nominativo": "LEANZA ANTONINO",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "BALSAMO SALVATORE",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_26": 1
+            }
+        },
+        {
+            "nominativo": "SALONIA LUIGI",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "NOLFO MARIA SILVIA",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "MANISCALCHI DARIO PASQUALE",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "RADICCHIO MASSIMILIANO",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 2,
+                "seggio_n_26": 2
+            }
+        },
+        {
+            "nominativo": "MELI LARA",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 11,
+                "seggio_n_26": 11
+            }
+        }
+    ],
+    "quoziente": 71.4,
+    "votanti": {
+        "totali": 418,
+        "percentuale": 54.15,
+        "seggio_n_26": 418
+    },
+    "elettori": {
+        "totali": 772,
+        "seggio_n_26": 772
+    }
+}

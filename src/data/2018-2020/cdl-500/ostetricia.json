@@ -1,0 +1,45 @@
+{
+    "dipartimento": "OSTETRICIA",
+    "quorum": true,
+    "seggi_da_assegnare": 5,
+    "schede": {
+        "bianche": 1,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "MESSINA Jessica",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "MICALI Irene",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "RAPISARDA Carmen",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "RICCERI Lorena",
+            "voti": 11
+        },
+        {
+            "nome_candidato": "ZAMMATARO Mara",
+            "voti": 6
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "D'ANGELO Maria Ausilia",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "TOSCANO Elena",
+            "voti": 1
+        }
+    ],
+    "totale_voti": 31,
+    "aventi_diritto": 47,
+    "perc_votanti": 65.96
+}

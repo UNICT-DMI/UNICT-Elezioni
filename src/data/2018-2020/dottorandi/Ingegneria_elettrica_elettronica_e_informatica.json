@@ -1,0 +1,29 @@
+{
+    "dipartimento": "INGEGNERIA ELETTRICA ELETTRONICA E INFORMATICA (DIEEI)",
+    "quorum": true,
+    "seggi_da_assegnare": 2,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "GRASSO Christian",
+            "voti": 7
+        },
+        {
+            "nome_candidato": "SUSINNI Giovanni",
+            "voti": 4
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "BALLO Andrea",
+            "voti": 1
+        }
+    ],
+    "totale_voti": 12,
+    "aventi_diritto": 30,
+    "perc_votanti": 40.0
+}

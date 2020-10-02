@@ -1,0 +1,29 @@
+{
+    "dipartimento": "CHEMICAL ENGINEERING FOR INDUSTRIAL SUSTAINABILITY DEVELOPMENT-Laurea Magistrale biennale\n(D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 2,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "RAPISARDA MARIO",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "TODARO SALVATORE detto \"Salvo\"",
+            "voti": 12
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "GRASSO ANTONIO",
+            "voti": 5
+        }
+    ],
+    "totale_voti": 23,
+    "aventi_diritto": 31,
+    "perc_votanti": 74.19
+}

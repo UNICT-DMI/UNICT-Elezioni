@@ -1,0 +1,270 @@
+{
+    "dipartimento": "BENI CULTURALI-Laurea (D.M.270/2004)\nSCIENZE DEI BENI CULTURALI-Laurea Triennale (D.M. 509/99)",
+    "seggi_da_assegnare": "6",
+    "schede": {
+        "bianche": {
+            "totali": 11,
+            "seggio_n_10": 11
+        },
+        "nulle": {
+            "totali": 11,
+            "seggio_n_10": 11
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_10": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "seggi": {
+                "seggi_pieni": "3",
+                "resti": "0,5",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "3"
+            },
+            "voti": {
+                "totali": 97,
+                "seggio_n_10": 97
+            }
+        },
+        {
+            "nome": "OLTRE",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "4,8",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 37,
+                "seggio_n_10": 37
+            }
+        },
+        {
+            "nome": "UNIVERSITA' POPOLARE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "0,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 0,
+                "seggio_n_10": 0
+            }
+        },
+        {
+            "nome": "ARCADIA \u2010 ORRIZZONTE ITALIA",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "12,8",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 45,
+                "seggio_n_10": 45
+            }
+        },
+        {
+            "nome": "INSIEME PER IL DISUM",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "14,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 14,
+                "seggio_n_10": 14
+            }
+        },
+        {
+            "totale": 193
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "CAMPAILLA Martina",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 30,
+                "seggio_n_10": 30
+            }
+        },
+        {
+            "nominativo": "MANGANARO Francesca Maria",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 11,
+                "seggio_n_10": 11
+            }
+        },
+        {
+            "nominativo": "CRISTAUDO Angela",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 22,
+                "seggio_n_10": 22
+            }
+        },
+        {
+            "nominativo": "ARIZZI Alessia",
+            "lista": "OLTRE",
+            "voti": {
+                "totali": 19,
+                "seggio_n_10": 19
+            }
+        },
+        {
+            "nominativo": "LIVOLSI Carla",
+            "lista": "ARCADIA \u2010 ORRIZZONTE ITALIA",
+            "voti": {
+                "totali": 35,
+                "seggio_n_10": 35
+            }
+        },
+        {
+            "nominativo": "GULISANO Valentina",
+            "lista": "INSIEME PER IL DISUM",
+            "voti": {
+                "totali": 7,
+                "seggio_n_10": 7
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "RUFFINO Silvia Mariantonietta",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 3,
+                "seggio_n_10": 3
+            }
+        },
+        {
+            "nominativo": "BELLANUOVA Andrea",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_10": 0
+            }
+        },
+        {
+            "nominativo": "PAPPALARDO Ariele",
+            "lista": "OLTRE",
+            "voti": {
+                "totali": 15,
+                "seggio_n_10": 15
+            }
+        },
+        {
+            "nominativo": "LAMICELA Clarissa Agata",
+            "lista": "OLTRE",
+            "voti": {
+                "totali": 1,
+                "seggio_n_10": 1
+            }
+        },
+        {
+            "nominativo": "SCHILLACI Marianna",
+            "lista": "OLTRE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_10": 0
+            }
+        },
+        {
+            "nominativo": "FLORIO Daniela",
+            "lista": "OLTRE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_10": 0
+            }
+        },
+        {
+            "nominativo": "SANGIORGIO Monica",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_10": 0
+            }
+        },
+        {
+            "nominativo": "REALE Micaela",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_10": 0
+            }
+        },
+        {
+            "nominativo": "DI MARCO Maria Teresa",
+            "lista": "ARCADIA \u2010 ORRIZZONTE ITALIA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_10": 1
+            }
+        },
+        {
+            "nominativo": "FASCETTO Giacomo Michele",
+            "lista": "ARCADIA \u2010 ORRIZZONTE ITALIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_10": 0
+            }
+        },
+        {
+            "nominativo": "GIAIMI Sebastiano",
+            "lista": "ARCADIA \u2010 ORRIZZONTE ITALIA",
+            "voti": {
+                "totali": 4,
+                "seggio_n_10": 4
+            }
+        },
+        {
+            "nominativo": "BASILE Valentina",
+            "lista": "ARCADIA \u2010 ORRIZZONTE ITALIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_10": 0
+            }
+        },
+        {
+            "nominativo": "MASCALI Emanuela",
+            "lista": "INSIEME PER IL DISUM",
+            "voti": {
+                "totali": 0,
+                "seggio_n_10": 0
+            }
+        },
+        {
+            "nominativo": "ZAGAMI Paola",
+            "lista": "INSIEME PER IL DISUM",
+            "voti": {
+                "totali": 0,
+                "seggio_n_10": 0
+            }
+        },
+        {
+            "nominativo": "CANNAVO' Giulia",
+            "lista": "INSIEME PER IL DISUM",
+            "voti": {
+                "totali": 2,
+                "seggio_n_10": 2
+            }
+        }
+    ],
+    "quoziente": 32.1667,
+    "votanti": {
+        "totali": 215,
+        "percentuale": 30.03,
+        "seggio_n_10": 215
+    },
+    "elettori": {
+        "totali": 716,
+        "seggio_n_10": 716
+    }
+}

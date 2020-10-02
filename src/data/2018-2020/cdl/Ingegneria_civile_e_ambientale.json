@@ -1,0 +1,230 @@
+{
+    "dipartimento": "INGEGNERIA CIVILE E AMBIENTALE-Laurea (D.M.270/2004)\nINGEGNERIA CIVILE-Laurea Triennale (D.M. 509/99)\nINGEGNERIA PER L'AMBIENTE E IL TERRITORIO-Laurea Triennale (D.M. 509/99)",
+    "seggi_da_assegnare": "5",
+    "schede": {
+        "bianche": {
+            "totali": 11,
+            "seggio_n_27": 11
+        },
+        "nulle": {
+            "totali": 16,
+            "seggio_n_27": 16
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_27": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "ACTEA",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "4,8",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 76,
+                "seggio_n_27": 76
+            }
+        },
+        {
+            "nome": "PROGETTIAMO CIVILE",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "23,4",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 59,
+                "seggio_n_27": 59
+            }
+        },
+        {
+            "nome": "UNIVERSITA' POPOLARE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "6,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 6,
+                "seggio_n_27": 6
+            }
+        },
+        {
+            "nome": "WE LOVE UNICT",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "25,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 25,
+                "seggio_n_27": 25
+            }
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "12,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 12,
+                "seggio_n_27": 12
+            }
+        },
+        {
+            "totale": 178
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "SCAVONE Giuseppe",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 50,
+                "seggio_n_27": 50
+            }
+        },
+        {
+            "nominativo": "ROSANO Salvatore",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 11,
+                "seggio_n_27": 11
+            }
+        },
+        {
+            "nominativo": "SCAVO Gabriele",
+            "lista": "PROGETTIAMO CIVILE",
+            "voti": {
+                "totali": 43,
+                "seggio_n_27": 43
+            }
+        },
+        {
+            "nominativo": "MARINO Salvatore",
+            "lista": "PROGETTIAMO CIVILE",
+            "voti": {
+                "totali": 10,
+                "seggio_n_27": 10
+            }
+        },
+        {
+            "nominativo": "D'AGATE Rosario \u2010 detto \"Saro\"",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 16,
+                "seggio_n_27": 16
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "DIQUATTRO Giulia",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 6,
+                "seggio_n_27": 6
+            }
+        },
+        {
+            "nominativo": "LANZA Michael",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_27": 0
+            }
+        },
+        {
+            "nominativo": "MANCUSO Alex",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_27": 1
+            }
+        },
+        {
+            "nominativo": "BOMBACI Luca",
+            "lista": "PROGETTIAMO CIVILE",
+            "voti": {
+                "totali": 2,
+                "seggio_n_27": 2
+            }
+        },
+        {
+            "nominativo": "GRIGOLI Giuseppe",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 3,
+                "seggio_n_27": 3
+            }
+        },
+        {
+            "nominativo": "LICANDRI Giorgia",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_27": 0
+            }
+        },
+        {
+            "nominativo": "ANZA' Mario Gaspare",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 2,
+                "seggio_n_27": 2
+            }
+        },
+        {
+            "nominativo": "SANTINI Andrea",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 1,
+                "seggio_n_27": 1
+            }
+        },
+        {
+            "nominativo": "PIANA Alberto Sebastiano",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_27": 0
+            }
+        },
+        {
+            "nominativo": "SETOLA Riccardo",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 6,
+                "seggio_n_27": 6
+            }
+        },
+        {
+            "nominativo": "RADICCHIO Massimiliano",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 4,
+                "seggio_n_27": 4
+            }
+        }
+    ],
+    "quoziente": 35.6,
+    "votanti": {
+        "totali": 205,
+        "percentuale": 37.07,
+        "seggio_n_27": 205
+    },
+    "elettori": {
+        "totali": 553,
+        "seggio_n_27": 553
+    }
+}

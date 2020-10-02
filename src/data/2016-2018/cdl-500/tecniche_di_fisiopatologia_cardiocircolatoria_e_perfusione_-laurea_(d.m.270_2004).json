@@ -1,0 +1,40 @@
+{
+    "dipartimento": "TECNICHE DI FISIOPATOLOGIA CARDIOCIRCOLATORIA E PERFUSIONE -Laurea (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 6,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "GIRONE ALBERTO CRISTOFORO MARIA",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "LICCIARDELLO ALESSANDRA",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "MACCA ROSSELLA",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "MANUELLO ROBERTO",
+            "voti": 7
+        },
+        {
+            "nome_candidato": "MAUGERI ILEANA",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "SAPIENZA MARIA CRISTINA",
+            "voti": 2
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 15,
+    "aventi_diritto": 28,
+    "perc_votanti": 53.57
+}

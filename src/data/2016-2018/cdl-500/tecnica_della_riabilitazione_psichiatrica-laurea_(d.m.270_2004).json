@@ -1,0 +1,36 @@
+{
+    "dipartimento": "TECNICA DELLA RIABILITAZIONE PSICHIATRICA-Laurea (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 5,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "CIPRIA ALESSANDRA MARIA MICHELA",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "D'URSO ANTONIO",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "FERLA JONATHAN",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "LI DESTRI LAURA",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "TOMASI SUSANNA LUNA",
+            "voti": 3
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 18,
+    "aventi_diritto": 39,
+    "perc_votanti": 46.15
+}

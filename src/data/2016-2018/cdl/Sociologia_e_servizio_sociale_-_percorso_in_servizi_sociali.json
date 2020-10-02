@@ -1,0 +1,320 @@
+{
+    "dipartimento": "SOCIOLOGIA E SERVIZIO SOCIALE - PERCORSO IN SERVIZI SOCIALI-Laurea (D.M.270/2004)\nSCIENZE DEL SERVIZIO SOCIALE-Laurea Triennale (D.M. 509/99)\nSCIENZE SOCIOLOGICHE-Laurea Triennale (D.M. 509/99)",
+    "seggi_da_assegnare": "6",
+    "schede": {
+        "bianche": {
+            "totali": 14,
+            "seggio_n_5": 14
+        },
+        "nulle": {
+            "totali": 13,
+            "seggio_n_5": 13
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_5": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "SOCIAL",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "13,3",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 88,
+                "seggio_n_5": 88
+            }
+        },
+        {
+            "nome": "CONTROCAMPUS",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "37,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 37,
+                "seggio_n_5": 37
+            }
+        },
+        {
+            "nome": "UDU \u2010 UNIONE DEGLI UNIVERSITARI \u2010 KOIN\u00c8",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "15,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 15,
+                "seggio_n_5": 15
+            }
+        },
+        {
+            "nome": "ARES",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "2,7",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 40,
+                "seggio_n_5": 40
+            }
+        },
+        {
+            "nome": "UNIVERSIT\u00c0 POPOLARE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "1,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 1,
+                "seggio_n_5": 1
+            }
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "20,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 20,
+                "seggio_n_5": 20
+            }
+        },
+        {
+            "nome": "REVOLUTION",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "23,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 23,
+                "seggio_n_5": 23
+            }
+        },
+        {
+            "totale": 224
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "SPAGNOLO RITA",
+            "lista": "SOCIAL",
+            "voti": {
+                "totali": 29,
+                "seggio_n_5": 29
+            }
+        },
+        {
+            "nominativo": "RAPISARDA YLENIA",
+            "lista": "SOCIAL",
+            "voti": {
+                "totali": 34,
+                "seggio_n_5": 34
+            }
+        },
+        {
+            "nominativo": "RIZZA PAOLA",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 20,
+                "seggio_n_5": 20
+            }
+        },
+        {
+            "nominativo": "IUDICA ELENA",
+            "lista": "ARES",
+            "voti": {
+                "totali": 34,
+                "seggio_n_5": 34
+            }
+        },
+        {
+            "nominativo": "REITANO FLAVIA MARIA RITA",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 11,
+                "seggio_n_5": 11
+            }
+        },
+        {
+            "nominativo": "MARRARO GIULIANA",
+            "lista": "REVOLUTION",
+            "voti": {
+                "totali": 16,
+                "seggio_n_5": 16
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "DI MARIA ALESSANDRA",
+            "lista": "SOCIAL",
+            "voti": {
+                "totali": 24,
+                "seggio_n_5": 24
+            }
+        },
+        {
+            "nominativo": "BRIGHINA MIRIANA",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "GUGLIELIMINO STEVEN",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "MERCORILLO SIMONA",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "MONTEMAGNO LIVIO MARIA",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 15,
+                "seggio_n_5": 15
+            }
+        },
+        {
+            "nominativo": "BASILE MARTA",
+            "lista": "UDU \u2010 UNIONE DEGLI UNIVERSITARI \u2010 KOIN\u00c8",
+            "voti": {
+                "totali": 14,
+                "seggio_n_5": 14
+            }
+        },
+        {
+            "nominativo": "COLINA FEDERICA MARIA",
+            "lista": "ARES",
+            "voti": {
+                "totali": 2,
+                "seggio_n_5": 2
+            }
+        },
+        {
+            "nominativo": "SIGNORELLO VANESSA",
+            "lista": "ARES",
+            "voti": {
+                "totali": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "CANTARELLA ERICA",
+            "lista": "ARES",
+            "voti": {
+                "totali": 4,
+                "seggio_n_5": 4
+            }
+        },
+        {
+            "nominativo": "MIDOLO ANNAMARIA",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "ZINGALE NOEMI MARIA",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "FERRANTE ANGELA",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "DEL POZZO LORIANA",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 3,
+                "seggio_n_5": 3
+            }
+        },
+        {
+            "nominativo": "CATANESE GRETA",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "VEERAMAH VEEREN",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 5,
+                "seggio_n_5": 5
+            }
+        },
+        {
+            "nominativo": "GIAMBELLO CHIARA",
+            "lista": "REVOLUTION",
+            "voti": {
+                "totali": 1,
+                "seggio_n_5": 1
+            }
+        },
+        {
+            "nominativo": "BONFIGLIO SAMUELE",
+            "lista": "REVOLUTION",
+            "voti": {
+                "totali": 1,
+                "seggio_n_5": 1
+            }
+        },
+        {
+            "nominativo": "ANDRONACO LUCA",
+            "lista": "REVOLUTION",
+            "voti": {
+                "totali": 2,
+                "seggio_n_5": 2
+            }
+        }
+    ],
+    "quoziente": 37.3333,
+    "votanti": {
+        "totali": 251,
+        "percentuale": 34.01,
+        "seggio_n_5": 251
+    },
+    "elettori": {
+        "totali": 738,
+        "seggio_n_5": 738
+    }
+}

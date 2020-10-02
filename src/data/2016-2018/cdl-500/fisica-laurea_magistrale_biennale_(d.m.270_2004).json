@@ -1,0 +1,36 @@
+{
+    "dipartimento": "FISICA-Laurea Magistrale biennale (D.M.270/2004)\nFISICA-Laurea Specialistica biennale (D.M. 509/99)",
+    "quorum": true,
+    "seggi_da_assegnare": 6,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "COCO ADRIANA INNOCENZA",
+            "voti": 8
+        },
+        {
+            "nome_candidato": "PACE MARTINA",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "PAGLIARO GIANLUCA",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "SICURELLA EMANUELE",
+            "voti": 9
+        },
+        {
+            "nome_candidato": "ZUMBO LUCA",
+            "voti": 4
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 27,
+    "aventi_diritto": 104,
+    "perc_votanti": 25.96
+}

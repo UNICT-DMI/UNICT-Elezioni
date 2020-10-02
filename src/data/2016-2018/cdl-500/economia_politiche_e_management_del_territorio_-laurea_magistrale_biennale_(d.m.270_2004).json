@@ -1,0 +1,45 @@
+{
+    "dipartimento": "ECONOMIA, POLITICHE E MANAGEMENT DEL TERRITORIO -Laurea Magistrale biennale (D.M.270/2004)\nECONOMIA E GESTIONE DELLE AMMINISTRAZIONI PUBBLICHE-Laurea Magistrale biennale (D.M.270/2004)\nECONOMIA E GESTIONE DELLE AMMINISTRAZIONI PUBBLICHE-Laurea Specialistica biennale (D.M. 509/99)\nECONOMIA-Laurea Specialistica biennale (D.M. 509/99)\nMANAGEMENT TURISTICO-Laurea Specialistica biennale (D.M. 509/99)",
+    "quorum": true,
+    "seggi_da_assegnare": 3,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "AGNELLO ANDREA",
+            "voti": 8
+        },
+        {
+            "nome_candidato": "DI GIACOMO VERONICA",
+            "voti": 9
+        },
+        {
+            "nome_candidato": "GIUFFRIDA ANDREA DAMIANO",
+            "voti": 22
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "CAVALLARO GIUSEPPE ANDREA",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "COURRIER ALESSANDRO",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "CURIONE CARLO",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "LICITRA IAIA",
+            "voti": 6
+        }
+    ],
+    "totale_voti": 48,
+    "aventi_diritto": 168,
+    "perc_votanti": 28.57
+}

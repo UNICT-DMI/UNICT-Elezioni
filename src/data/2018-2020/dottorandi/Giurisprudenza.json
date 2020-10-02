@@ -1,0 +1,24 @@
+{
+    "dipartimento": "GIURISPRUDENZA",
+    "quorum": true,
+    "seggi_da_assegnare": 2,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "CORSARO Giuseppe Emanuele",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "GALLUCCIO Giuseppe",
+            "voti": 3
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 9,
+    "aventi_diritto": 14,
+    "perc_votanti": 64.29
+}

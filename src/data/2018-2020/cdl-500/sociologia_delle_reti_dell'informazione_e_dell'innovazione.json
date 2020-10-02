@@ -1,0 +1,20 @@
+{
+    "dipartimento": "SOCIOLOGIA DELLE RETI, DELL'INFORMAZIONE E DELL'INNOVAZIONE",
+    "quorum": false,
+    "seggi_da_assegnare": 4,
+    "schede": {
+        "bianche": 1,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [],
+    "non_eletti": [
+        {
+            "nome_candidato": "PISCIOTTA Vincenzo",
+            "voti": 2
+        }
+    ],
+    "totale_voti": 3,
+    "aventi_diritto": 41,
+    "perc_votanti": 7.32
+}

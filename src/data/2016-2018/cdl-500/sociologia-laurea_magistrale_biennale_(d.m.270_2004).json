@@ -1,0 +1,20 @@
+{
+    "dipartimento": "SOCIOLOGIA-Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 5,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "VENEZIA ALESSANDRO",
+            "voti": 9
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 9,
+    "aventi_diritto": 52,
+    "perc_votanti": 17.31
+}

@@ -1,0 +1,345 @@
+{
+    "dipartimento": "INFERMIERISTICA-Laurea (D.M.270/2004)\nINFERMIERE-Laurea Triennale (D.M. 509/99)",
+    "seggi_da_assegnare": "13",
+    "schede": {
+        "bianche": {
+            "totali": 7,
+            "seggio_n_16": 7
+        },
+        "nulle": {
+            "totali": 13,
+            "seggio_n_16": 13
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_16": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "ARCHE'",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "3,8",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 26,
+                "seggio_n_16": 26
+            }
+        },
+        {
+            "nome": "UNIVERSITA' POPOLARE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "5,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 5,
+                "seggio_n_16": 5
+            }
+        },
+        {
+            "nome": "SANILAB",
+            "seggi": {
+                "seggi_pieni": "6",
+                "resti": "11,1",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "7"
+            },
+            "voti": {
+                "totali": 144,
+                "seggio_n_16": 144
+            }
+        },
+        {
+            "nome": "INFERMIERISTICAMENTE",
+            "seggi": {
+                "seggi_pieni": "5",
+                "resti": "2,2",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "5"
+            },
+            "voti": {
+                "totali": 113,
+                "seggio_n_16": 113
+            }
+        },
+        {
+            "totale": 288
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "VIRZI' LAVIO Luciano",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 15,
+                "seggio_n_16": 15
+            }
+        },
+        {
+            "nominativo": "RUSSO Simona Giuseppa",
+            "lista": "SANILAB",
+            "voti": {
+                "totali": 30,
+                "seggio_n_16": 30
+            }
+        },
+        {
+            "nominativo": "ANTONAZZO Roberta",
+            "lista": "SANILAB",
+            "voti": {
+                "totali": 18,
+                "seggio_n_16": 18
+            }
+        },
+        {
+            "nominativo": "SCOLLO Sarah",
+            "lista": "SANILAB",
+            "voti": {
+                "totali": 23,
+                "seggio_n_16": 23
+            }
+        },
+        {
+            "nominativo": "MANIGLIA Ivan Giuseppe",
+            "lista": "SANILAB",
+            "voti": {
+                "totali": 22,
+                "seggio_n_16": 22
+            }
+        },
+        {
+            "nominativo": "CORVAIA Davide",
+            "lista": "SANILAB",
+            "voti": {
+                "totali": 15,
+                "seggio_n_16": 15
+            }
+        },
+        {
+            "nominativo": "IACONINOTO Chiara",
+            "lista": "SANILAB",
+            "voti": {
+                "totali": 6,
+                "seggio_n_16": 6
+            }
+        },
+        {
+            "nominativo": "MARCHESE Carla",
+            "lista": "SANILAB",
+            "voti": {
+                "totali": 9,
+                "seggio_n_16": 9
+            }
+        },
+        {
+            "nominativo": "CALTABIANO Clara",
+            "lista": "SANILAB",
+            "voti": {
+                "totali": 6,
+                "seggio_n_16": 6
+            }
+        },
+        {
+            "nominativo": "TUDISCO Enrico",
+            "lista": "INFERMIERISTICAMENTE",
+            "voti": {
+                "totali": 28,
+                "seggio_n_16": 28
+            }
+        },
+        {
+            "nominativo": "BATTISTA Andrea",
+            "lista": "INFERMIERISTICAMENTE",
+            "voti": {
+                "totali": 43,
+                "seggio_n_16": 43
+            }
+        },
+        {
+            "nominativo": "COLTRARO Rosanna",
+            "lista": "INFERMIERISTICAMENTE",
+            "voti": {
+                "totali": 15,
+                "seggio_n_16": 15
+            }
+        },
+        {
+            "nominativo": "MEO Danilo",
+            "lista": "INFERMIERISTICAMENTE",
+            "voti": {
+                "totali": 6,
+                "seggio_n_16": 6
+            }
+        },
+        {
+            "nominativo": "PAPPALARDO Enrico",
+            "lista": "INFERMIERISTICAMENTE",
+            "voti": {
+                "totali": 10,
+                "seggio_n_16": 10
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "BORZI' Orazio Gaspare",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 0,
+                "seggio_n_16": 0
+            }
+        },
+        {
+            "nominativo": "CASTELLI Antonio",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 0,
+                "seggio_n_16": 0
+            }
+        },
+        {
+            "nominativo": "CIVILETTI Eleonora",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 1,
+                "seggio_n_16": 1
+            }
+        },
+        {
+            "nominativo": "FEDELE Luca",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 2,
+                "seggio_n_16": 2
+            }
+        },
+        {
+            "nominativo": "LA ROSA Agata Laura",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 0,
+                "seggio_n_16": 0
+            }
+        },
+        {
+            "nominativo": "PIGNATARO Andrea",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 0,
+                "seggio_n_16": 0
+            }
+        },
+        {
+            "nominativo": "SPINALE Alessandro",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 1,
+                "seggio_n_16": 1
+            }
+        },
+        {
+            "nominativo": "COCUZZA Cristian",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_16": 0
+            }
+        },
+        {
+            "nominativo": "NARCISO Roberta",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_16": 0
+            }
+        },
+        {
+            "nominativo": "PARRINELLO Paola",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 2,
+                "seggio_n_16": 2
+            }
+        },
+        {
+            "nominativo": "D'AMORE Graziano",
+            "lista": "SANILAB",
+            "voti": {
+                "totali": 1,
+                "seggio_n_16": 1
+            }
+        },
+        {
+            "nominativo": "GIUNTA Roberta",
+            "lista": "SANILAB",
+            "voti": {
+                "totali": 4,
+                "seggio_n_16": 4
+            }
+        },
+        {
+            "nominativo": "MUSUMECI Sebastiano",
+            "lista": "SANILAB",
+            "voti": {
+                "totali": 0,
+                "seggio_n_16": 0
+            }
+        },
+        {
+            "nominativo": "PORTALE Ornella",
+            "lista": "SANILAB",
+            "voti": {
+                "totali": 1,
+                "seggio_n_16": 1
+            }
+        },
+        {
+            "nominativo": "GRASSO Roberto",
+            "lista": "SANILAB",
+            "voti": {
+                "totali": 3,
+                "seggio_n_16": 3
+            }
+        },
+        {
+            "nominativo": "TORRISI Viviana",
+            "lista": "INFERMIERISTICAMENTE",
+            "voti": {
+                "totali": 3,
+                "seggio_n_16": 3
+            }
+        },
+        {
+            "nominativo": "TABUSO Vera",
+            "lista": "INFERMIERISTICAMENTE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_16": 0
+            }
+        },
+        {
+            "nominativo": "GUALTIERI Simone",
+            "lista": "INFERMIERISTICAMENTE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_16": 0
+            }
+        }
+    ],
+    "quoziente": 22.1538,
+    "votanti": {
+        "totali": 308,
+        "percentuale": 59,
+        "seggio_n_16": 308
+    },
+    "elettori": {
+        "totali": 522,
+        "seggio_n_16": 522
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "dipartimento": "INGEGNERIA DELL'AUTOMAZIONE E DEL CONTROLLO DEI SISTEMI COMPLESSI",
+    "quorum": true,
+    "seggi_da_assegnare": 2,
+    "schede": {
+        "bianche": 1,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "RUBERA Anna",
+            "voti": 7
+        },
+        {
+            "nome_candidato": "SUERI Pierfrancesco",
+            "voti": 9
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "LOSI Alessio",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "RUSSO Roberto",
+            "voti": 0
+        }
+    ],
+    "totale_voti": 20,
+    "aventi_diritto": 80,
+    "perc_votanti": 25.0
+}

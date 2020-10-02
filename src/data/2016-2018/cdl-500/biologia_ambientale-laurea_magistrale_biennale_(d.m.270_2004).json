@@ -1,0 +1,28 @@
+{
+    "dipartimento": "BIOLOGIA AMBIENTALE-Laurea Magistrale biennale (D.M.270/2004)\nBIODIVERSITA' E QUALITA' DELL'AMBIENTE-Laurea Magistrale biennale (D.M.270/2004)\nSCIENZE ECOLOGICHE-Laurea Specialistica biennale (D.M. 509/99)\nSCIENZE PER LA TUTELA DELL'AMBIENTE E DELLE RISORSE-Laurea Specialistica biennale (D.M. 509/99)",
+    "quorum": true,
+    "seggi_da_assegnare": 4,
+    "schede": {
+        "bianche": 0,
+        "nulle": 1,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "GIALLI CLELIA",
+            "voti": 12
+        },
+        {
+            "nome_candidato": "ROTONDI SERGIO MARIA VALERIO",
+            "voti": 11
+        },
+        {
+            "nome_candidato": "ZANGARO DAVIDE",
+            "voti": 7
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 31,
+    "aventi_diritto": 78,
+    "perc_votanti": 39.74
+}

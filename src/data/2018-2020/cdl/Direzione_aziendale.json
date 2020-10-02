@@ -1,0 +1,201 @@
+{
+    "dipartimento": "DIREZIONE AZIENDALE-Laurea Magistrale biennale (D.M.270/2004)\nDIREZIONE AZIENDALE-Laurea Specialistica biennale (D.M. 509/99)",
+    "seggi_da_assegnare": "5",
+    "schede": {
+        "bianche": {
+            "totali": 11,
+            "seggio_n_6": 11
+        },
+        "nulle": {
+            "totali": 22,
+            "seggio_n_6": 22
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_6": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "ARES",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "6,4",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 46,
+                "seggio_n_6": 46
+            }
+        },
+        {
+            "nome": "LIBERTAS",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "17,4",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 57,
+                "seggio_n_6": 57
+            }
+        },
+        {
+            "nome": "WE LOVE UNICT",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "7,4",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 47,
+                "seggio_n_6": 47
+            }
+        },
+        {
+            "nome": "ALLEANZA UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "8,4",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 48,
+                "seggio_n_6": 48
+            }
+        },
+        {
+            "totale": 198
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "COCO Gabriele",
+            "lista": "ARES",
+            "voti": {
+                "totali": 20,
+                "seggio_n_6": 20
+            }
+        },
+        {
+            "nominativo": "MAZZONE Antonio",
+            "lista": "LIBERTAS",
+            "voti": {
+                "totali": 46,
+                "seggio_n_6": 46
+            }
+        },
+        {
+            "nominativo": "MUNNIA Alessia",
+            "lista": "LIBERTAS",
+            "voti": {
+                "totali": 9,
+                "seggio_n_6": 9
+            }
+        },
+        {
+            "nominativo": "VAZZANO Tommaso Alberto",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 18,
+                "seggio_n_6": 18
+            }
+        },
+        {
+            "nominativo": "BRULLO Daniele",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 23,
+                "seggio_n_6": 23
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "RUSSOTTO Veronica",
+            "lista": "ARES",
+            "voti": {
+                "totali": 4,
+                "seggio_n_6": 4
+            }
+        },
+        {
+            "nominativo": "TOMASI Francesca",
+            "lista": "ARES",
+            "voti": {
+                "totali": 13,
+                "seggio_n_6": 13
+            }
+        },
+        {
+            "nominativo": "SIPALA Pietro",
+            "lista": "ARES",
+            "voti": {
+                "totali": 0,
+                "seggio_n_6": 0
+            }
+        },
+        {
+            "nominativo": "VIRGATA Isabella Paola",
+            "lista": "ARES",
+            "voti": {
+                "totali": 1,
+                "seggio_n_6": 1
+            }
+        },
+        {
+            "nominativo": "VIRGITTO Orazio Vincenzo Davide",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 13,
+                "seggio_n_6": 13
+            }
+        },
+        {
+            "nominativo": "RIZZO Carmelo",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_6": 0
+            }
+        },
+        {
+            "nominativo": "TUFANO Emanuele",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_6": 0
+            }
+        },
+        {
+            "nominativo": "VENTURA Salvatore",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 12,
+                "seggio_n_6": 12
+            }
+        },
+        {
+            "nominativo": "TROVATO Giuseppe",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 20,
+                "seggio_n_6": 20
+            }
+        }
+    ],
+    "quoziente": 39.6,
+    "votanti": {
+        "totali": 231,
+        "percentuale": 42.08,
+        "seggio_n_6": 231
+    },
+    "elettori": {
+        "totali": 549,
+        "seggio_n_6": 549
+    }
+}

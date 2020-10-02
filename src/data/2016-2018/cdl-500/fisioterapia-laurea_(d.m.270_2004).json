@@ -1,0 +1,53 @@
+{
+    "dipartimento": "FISIOTERAPIA-Laurea (D.M.270/2004)\nFISIOTERAPISTA-Laurea Triennale (D.M. 509/99)",
+    "quorum": true,
+    "seggi_da_assegnare": 7,
+    "schede": {
+        "bianche": 4,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "BOCCAFOSCHI ENRICO",
+            "voti": 18
+        },
+        {
+            "nome_candidato": "COSTANZO GAIA VIOLA CHIARA",
+            "voti": 9
+        },
+        {
+            "nome_candidato": "D'ARMA GAETANO ANDREA FRANCESCO",
+            "voti": 13
+        },
+        {
+            "nome_candidato": "GALATI PRICCHIA ROBERTA detto \"Galati\"",
+            "voti": 9
+        },
+        {
+            "nome_candidato": "GULISANO GIANPIERO",
+            "voti": 10
+        },
+        {
+            "nome_candidato": "PULEO DANIELE MARIA",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "SCIURELLO SALVATORE ANDREA",
+            "voti": 6
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "FAILLA ANDREA AUGUSTO",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "GRECUZZO MARTA",
+            "voti": 3
+        }
+    ],
+    "totale_voti": 78,
+    "aventi_diritto": 116,
+    "perc_votanti": 67.24
+}

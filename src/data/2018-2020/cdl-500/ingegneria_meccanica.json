@@ -1,0 +1,29 @@
+{
+    "dipartimento": "INGEGNERIA MECCANICA",
+    "quorum": true,
+    "seggi_da_assegnare": 2,
+    "schede": {
+        "bianche": 1,
+        "nulle": 1,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "RAPISARDA Simone Maria",
+            "voti": 28
+        },
+        {
+            "nome_candidato": "RICCIARDI Dario",
+            "voti": 15
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "DI GRAZIA Federico Filippo",
+            "voti": 6
+        }
+    ],
+    "totale_voti": 51,
+    "aventi_diritto": 96,
+    "perc_votanti": 53.13
+}

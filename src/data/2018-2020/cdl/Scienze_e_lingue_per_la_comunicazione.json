@@ -1,0 +1,391 @@
+{
+    "dipartimento": "SCIENZE E LINGUE PER LA COMUNICAZIONE-Laurea (D.M.270/2004)\nLINGUE PER LA COMUNICAZIONE INTERNAZIONALE-Laurea (D.M.270/2004)\nSCIENZE DELLA COMUNICAZIONE-Laurea (D.M.270/2004)\nSCIENZE DELLA COMUNICAZIONE-Laurea Triennale (D.M. 509/99)\nSCIENZE PER LA COMUNICAZIONE INTERNAZIONALE-Laurea Triennale (D.M. 509/99)",
+    "seggi_da_assegnare": "7",
+    "schede": {
+        "bianche": {
+            "totali": 32,
+            "seggio_n_12": 16,
+            "seggio_n_11": 16
+        },
+        "nulle": {
+            "totali": 12,
+            "seggio_n_12": 5,
+            "seggio_n_11": 7
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_12": 0,
+            "seggio_n_11": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "seggi": {
+                "seggi_pieni": "4",
+                "resti": "1,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "4"
+            },
+            "voti": {
+                "totali": 153,
+                "seggio_n_12": 66,
+                "seggio_n_11": 87
+            }
+        },
+        {
+            "nome": "OLTRE",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "11,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 49,
+                "seggio_n_12": 19,
+                "seggio_n_11": 30
+            }
+        },
+        {
+            "nome": "VOLJA",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "4,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 42,
+                "seggio_n_12": 21,
+                "seggio_n_11": 21
+            }
+        },
+        {
+            "nome": "UNIVERSITA' POPOLARE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "12,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 12,
+                "seggio_n_12": 7,
+                "seggio_n_11": 5
+            }
+        },
+        {
+            "nome": "ARCADIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "10,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 10,
+                "seggio_n_12": 5,
+                "seggio_n_11": 5
+            }
+        },
+        {
+            "totale": 266
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "PATTI Naiara",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 28,
+                "seggio_n_12": 11,
+                "seggio_n_11": 17
+            }
+        },
+        {
+            "nominativo": "NOCE Piero",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 28,
+                "seggio_n_12": 10,
+                "seggio_n_11": 18
+            }
+        },
+        {
+            "nominativo": "GALVAGNO Lorenzo",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 5,
+                "seggio_n_12": 2,
+                "seggio_n_11": 3
+            }
+        },
+        {
+            "nominativo": "GALATI Giorgia",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 2,
+                "seggio_n_12": 0,
+                "seggio_n_11": 2
+            }
+        },
+        {
+            "nominativo": "NAVARRIA Giorgia",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 2,
+                "seggio_n_12": 2,
+                "seggio_n_11": 0
+            }
+        },
+        {
+            "nominativo": "MANCUSO Jolanda Paola",
+            "lista": "OLTRE",
+            "voti": {
+                "totali": 22,
+                "seggio_n_12": 6,
+                "seggio_n_11": 16
+            }
+        },
+        {
+            "nominativo": "LOMBARDO Angelo \u2010 detto \"Blackmore\"",
+            "lista": "VOLJA",
+            "voti": {
+                "totali": 10,
+                "seggio_n_12": 8,
+                "seggio_n_11": 2
+            }
+        },
+        {
+            "nominativo": "ITALIA Miriam",
+            "lista": "VOLJA",
+            "voti": {
+                "totali": 10,
+                "seggio_n_12": 1,
+                "seggio_n_11": 9
+            }
+        },
+        {
+            "nominativo": "SAITTA Nicole",
+            "lista": "VOLJA",
+            "voti": {
+                "totali": 10,
+                "seggio_n_12": 6,
+                "seggio_n_11": 4
+            }
+        },
+        {
+            "nominativo": "LEANZA Antonino",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 1,
+                "seggio_n_12": 0,
+                "seggio_n_11": 1
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "COCO Pamela",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_12": 0,
+                "seggio_n_11": 0
+            }
+        },
+        {
+            "nominativo": "OGRODNICZAK Radoslaw Ryszard \u2010 detto \"Radek\"",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 1,
+                "seggio_n_12": 0,
+                "seggio_n_11": 1
+            }
+        },
+        {
+            "nominativo": "GEMMELLARO Roberto",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_12": 0,
+                "seggio_n_11": 0
+            }
+        },
+        {
+            "nominativo": "VACCARINI Monica",
+            "lista": "OLTRE",
+            "voti": {
+                "totali": 14,
+                "seggio_n_12": 6,
+                "seggio_n_11": 8
+            }
+        },
+        {
+            "nominativo": "BONACCORSO Martina",
+            "lista": "OLTRE",
+            "voti": {
+                "totali": 8,
+                "seggio_n_12": 4,
+                "seggio_n_11": 4
+            }
+        },
+        {
+            "nominativo": "GUERRA Francesco Pio",
+            "lista": "OLTRE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_12": 0,
+                "seggio_n_11": 0
+            }
+        },
+        {
+            "nominativo": "CARRASI Giorgia",
+            "lista": "OLTRE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_12": 0,
+                "seggio_n_11": 0
+            }
+        },
+        {
+            "nominativo": "RUTELLA Simona",
+            "lista": "OLTRE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_12": 0,
+                "seggio_n_11": 0
+            }
+        },
+        {
+            "nominativo": "CAVALLARO Francesca",
+            "lista": "OLTRE",
+            "voti": {
+                "totali": 1,
+                "seggio_n_12": 0,
+                "seggio_n_11": 1
+            }
+        },
+        {
+            "nominativo": "RIGGI Simone",
+            "lista": "OLTRE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_12": 0,
+                "seggio_n_11": 0
+            }
+        },
+        {
+            "nominativo": "DATCU Crina Georgia \u2010 detta \"Crina\"",
+            "lista": "VOLJA",
+            "voti": {
+                "totali": 8,
+                "seggio_n_12": 3,
+                "seggio_n_11": 5
+            }
+        },
+        {
+            "nominativo": "COCO Alessandro",
+            "lista": "VOLJA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_12": 0,
+                "seggio_n_11": 0
+            }
+        },
+        {
+            "nominativo": "LA PIANA Giorgia Natalie",
+            "lista": "VOLJA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_12": 0,
+                "seggio_n_11": 0
+            }
+        },
+        {
+            "nominativo": "MIRAGLIA Laura",
+            "lista": "VOLJA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_12": 0,
+                "seggio_n_11": 0
+            }
+        },
+        {
+            "nominativo": "COSTANZO Emanuela",
+            "lista": "VOLJA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_12": 0,
+                "seggio_n_11": 0
+            }
+        },
+        {
+            "nominativo": "PERUCH Agnese",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_12": 0,
+                "seggio_n_11": 0
+            }
+        },
+        {
+            "nominativo": "DE MARTINO Simone",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_12": 0,
+                "seggio_n_11": 0
+            }
+        },
+        {
+            "nominativo": "BONANNO Pietro Pio",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_12": 0,
+                "seggio_n_11": 0
+            }
+        },
+        {
+            "nominativo": "DIMARCO Gabriele",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 5,
+                "seggio_n_12": 2,
+                "seggio_n_11": 3
+            }
+        },
+        {
+            "nominativo": "ZANTI Endrio",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_12": 0,
+                "seggio_n_11": 1
+            }
+        },
+        {
+            "nominativo": "SCIONTI Laura",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_12": 0,
+                "seggio_n_11": 0
+            }
+        }
+    ],
+    "quoziente": 38.0,
+    "votanti": {
+        "totali": 310,
+        "percentuale": 22.56,
+        "seggio_n_12": 139,
+        "seggio_n_11": 171
+    },
+    "elettori": {
+        "totali": 1374,
+        "seggio_n_12": 672,
+        "seggio_n_11": 702
+    }
+}

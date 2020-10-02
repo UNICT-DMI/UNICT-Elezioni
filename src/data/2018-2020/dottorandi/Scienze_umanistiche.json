@@ -1,0 +1,29 @@
+{
+    "dipartimento": "SCIENZE UMANISTICHE",
+    "quorum": true,
+    "seggi_da_assegnare": 2,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "DI CARLO Nicoletta",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "PETRALIA Marco",
+            "voti": 4
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "CONDORELLI Sandra",
+            "voti": 1
+        }
+    ],
+    "totale_voti": 8,
+    "aventi_diritto": 23,
+    "perc_votanti": 34.78
+}

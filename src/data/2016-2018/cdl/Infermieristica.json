@@ -1,0 +1,318 @@
+{
+    "dipartimento": "INFERMIERISTICA-Laurea (D.M.270/2004)\nINFERMIERE-Laurea Triennale (D.M. 509/99)",
+    "seggi_da_assegnare": "10",
+    "schede": {
+        "bianche": {
+            "totali": 10,
+            "seggio_n_16": 10
+        },
+        "nulle": {
+            "totali": 31,
+            "seggio_n_16": 31
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_16": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "ARCH\u00c8",
+            "seggi": {
+                "seggi_pieni": "3",
+                "resti": "15,2",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "4"
+            },
+            "voti": {
+                "totali": 101,
+                "seggio_n_16": 101
+            }
+        },
+        {
+            "nome": "KOIN\u00c8 \u2010 ARCADIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "10,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 10,
+                "seggio_n_16": 10
+            }
+        },
+        {
+            "nome": "UNIVERSIT\u00c0 POPOLARE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "12,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 12,
+                "seggio_n_16": 12
+            }
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA \u2010 CONTROCAMPUS",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "3,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 3,
+                "seggio_n_16": 3
+            }
+        },
+        {
+            "nome": "LIBERTAS \u2010 LIBERI E FORTI",
+            "seggi": {
+                "seggi_pieni": "5",
+                "resti": "17,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "6"
+            },
+            "voti": {
+                "totali": 160,
+                "seggio_n_16": 160
+            }
+        },
+        {
+            "totale": 286
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "ANTOCI MARTA",
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 34,
+                "seggio_n_16": 34
+            }
+        },
+        {
+            "nominativo": "BONASERA FEDERICO",
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 7,
+                "seggio_n_16": 7
+            }
+        },
+        {
+            "nominativo": "CAIAZZO FEDERICO",
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 16,
+                "seggio_n_16": 16
+            }
+        },
+        {
+            "nominativo": "FEDELE LUCA",
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 7,
+                "seggio_n_16": 7
+            }
+        },
+        {
+            "nominativo": "ZAPPALA' ERIKA RITA",
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 17,
+                "seggio_n_16": 17
+            }
+        },
+        {
+            "nominativo": "TUDISCO ENRICO",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 19,
+                "seggio_n_16": 19
+            }
+        },
+        {
+            "nominativo": "RAGUSA JESSICA",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 32,
+                "seggio_n_16": 32
+            }
+        },
+        {
+            "nominativo": "DAMIGELLA ADRIANO MARIA",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 22,
+                "seggio_n_16": 22
+            }
+        },
+        {
+            "nominativo": "LA SPINA VALERIO",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 11,
+                "seggio_n_16": 11
+            }
+        },
+        {
+            "nominativo": "MUSUMECI SEBASTIANO",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 17,
+                "seggio_n_16": 17
+            }
+        },
+        {
+            "nominativo": "D'URSO LORIANA MARIA",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 29,
+                "seggio_n_16": 29
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "CHIARELLA MICHELA",
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 5,
+                "seggio_n_16": 5
+            }
+        },
+        {
+            "nominativo": "FIORITO MARIO",
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 0,
+                "seggio_n_16": 0
+            }
+        },
+        {
+            "nominativo": "PAPALE ELIA",
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 1,
+                "seggio_n_16": 1
+            }
+        },
+        {
+            "nominativo": "SANTOROCCO LORENZO",
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 0,
+                "seggio_n_16": 0
+            }
+        },
+        {
+            "nominativo": "TIDONA LUCIA",
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 6,
+                "seggio_n_16": 6
+            }
+        },
+        {
+            "nominativo": "ALTOMARE BENEDETTA",
+            "lista": "KOIN\u00c8 \u2010 ARCADIA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_16": 1
+            }
+        },
+        {
+            "nominativo": "LONGO EMANUELA",
+            "lista": "KOIN\u00c8 \u2010 ARCADIA",
+            "voti": {
+                "totali": 9,
+                "seggio_n_16": 9
+            }
+        },
+        {
+            "nominativo": "NARCISO ROBERTA",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 7,
+                "seggio_n_16": 7
+            }
+        },
+        {
+            "nominativo": "NASELLO SHARON",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_16": 0
+            }
+        },
+        {
+            "nominativo": "PATERNO' GIUSEPPE",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_16": 0
+            }
+        },
+        {
+            "nominativo": "DIOLOSA' SALVATORE",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 1,
+                "seggio_n_16": 1
+            }
+        },
+        {
+            "nominativo": "SPINA SILVIA",
+            "lista": "AZIONE UNIVERSITARIA \u2010 CONTROCAMPUS",
+            "voti": {
+                "totali": 3,
+                "seggio_n_16": 3
+            }
+        },
+        {
+            "nominativo": "ARCORIA ANTONIO",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_16": 0
+            }
+        },
+        {
+            "nominativo": "GIANNI' MANUELA",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 9,
+                "seggio_n_16": 9
+            }
+        },
+        {
+            "nominativo": "VACANTE BIAGIO ANDREA",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_16": 0
+            }
+        },
+        {
+            "nominativo": "ZURRIA DAMIANO GIUSEPPE",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 6,
+                "seggio_n_16": 6
+            }
+        }
+    ],
+    "quoziente": 28.6,
+    "votanti": {
+        "totali": 327,
+        "percentuale": 58.39,
+        "seggio_n_16": 327
+    },
+    "elettori": {
+        "totali": 560,
+        "seggio_n_16": 560
+    }
+}
