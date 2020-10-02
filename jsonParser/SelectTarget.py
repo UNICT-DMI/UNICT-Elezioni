@@ -2,6 +2,7 @@ from Target import Target
 from Dipartimento import Dipartimento
 from Organo import Organo
 from CdlInf import CdlInf
+from Medicina import Medicina
 
 class SelectTarget:
     __instance = None
@@ -22,5 +23,7 @@ class SelectTarget:
             return Dipartimento()
         elif i == "1":
             return CdlInf()
+        elif i == "2":
+            return Medicina()
         else:
             return Organo()

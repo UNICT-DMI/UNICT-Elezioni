@@ -16,13 +16,11 @@ end_parser = ["</ul>", "</ul></div></div></div>", "</span></div></div></div>", "
 
 match1 = ["CONSIGLIO", "SENATO", "NUCLEO", "COMITATO"]
 match2 = ["DOTTORANDI", "CDL_B", "INFERIORE"]
+match3 = ["COORDIMAMENTO", "COORDINAMENTO"]
 
 def is_file(filename) -> bool:
     file = filename.split(".")
     return(bool(len(file) > 1 and file[len(file)-1] == "pdf"))
-
-def is_important(filename) -> bool:
-    return(bool("COORDIMAMENTO" not in filename.upper() and "COORDINAMENTO" not in filename.upper()))
 
 def create_json(pathname, option, command) -> None:
     print("Create JSON: " + pathname)
@@ -66,17 +64,18 @@ def sub_url(url, directory, command) -> None:
         file = link.split("/")
         f = file[len(file)-1]
         if is_file(f):
-            if is_important(f):
-                f = f.replace("%20", "_")
-                f = f.replace("%2", "_")
-                open(directory + "/" + f, "wb").write(requests.get(link).content)
-                if any(s in f.upper() for s in match1):
-                    create_json(directory + "/" + f, "other", command)
-                elif any(s in f.upper() for s in match2):
-                    create_json(directory + "/" + f, "1", command)
-                else:
-                    create_json(directory + "/" + f, "0", command)
-                os.unlink(directory + "/" + f)
+            f = f.replace("%20", "_")
+            f = f.replace("%2", "_")
+            open(directory + "/" + f, "wb").write(requests.get(link).content)
+            if any(s in f.upper() for s in match1):
+                create_json(directory + "/" + f, "other", command)
+            elif any(s in f.upper() for s in match3):
+                create_json(directory + "/" + f, "2", command)
+            elif any(s in f.upper() for s in match2):
+                create_json(directory + "/" + f, "1", command)
+            else:
+                create_json(directory + "/" + f, "0", command)
+            os.unlink(directory + "/" + f)
         else:
             sub_url(link, directory + "/" + f, command)
 

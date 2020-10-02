@@ -15,6 +15,7 @@ def error_start(argc):
         print("\nYou shall choose:\n")
         print("· `0` if you want to extract departments and CdL with a number of student greater than 500.\n")
         print("· `1` if you want to extract CdL with a number of student fewer than 500.\n")
+        print("· `2` if you want to extract Medicine election.\n")
         print("· `other` if you want to extract political body.")
         sys.exit(-1)
 

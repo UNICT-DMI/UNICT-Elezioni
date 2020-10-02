@@ -73,6 +73,8 @@ If you don't want to install anything go **[here](#usage-with-docker)**.
 
   · `1` if you want to extract CdL with a number of student fewer than 500.
 
+  · `2` if you want to extract Medicine election.
+
   · `other` if you want to extract political body.
 
 
@@ -127,6 +129,8 @@ docker build --tag unict-elezioni/parser .
   · `0` if you want to extract departments and CdL with a number of student greater than 500.
 
   · `1` if you want to extract CdL with a number of student fewer than 500.
+
+  · `2` if you want to extract Medicine election.
 
   · `other` if you want to extract political body.
 
