@@ -46,7 +46,33 @@ class SearchCandidate {
     return true;
   }
 
-  search(str: string, data: any, limits: SearchLimits): CandidateInfo[] {
+  searchOther(str: string, data: any, limits: SearchLimits): CandidateInfo[] {
+    const results: CandidateInfo[] = [];
+    str = str.toUpperCase();
+    for (const year of years) {
+      for (const entity of entities) {
+        const electedList = (data[year][entity].eletti as any[]).concat(data[year][entity].non_eletti);
+        for (const candidate of electedList) {
+          if (limits.isFull()) {
+            return results;
+          }
+          if (this.isNameValid(candidate.nominativo, str)) {
+            results.push({
+              name: candidate.nominativo,
+              listName: candidate.lista,
+              year: year,
+              entity: entity,
+              path: '#/' + entity
+            });
+            limits.increaseResults();
+          }
+        }
+      }
+    }
+    return results;
+  }
+
+  searchListDep(str: string, data: any, limits: SearchLimits): CandidateInfo[] {
     const results: CandidateInfo[] = [];
     str = str.toUpperCase();
     for (const year of years) {
@@ -70,6 +96,10 @@ class SearchCandidate {
       }
     }
     return results;
+  }
+
+  search(str: string, data: any, limits: SearchLimits): CandidateInfo[] {
+    return [...this.searchListDep(str, data, limits), ...this.searchOther(str, data, limits)];
   }
 }
 
