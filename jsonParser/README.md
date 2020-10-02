@@ -65,9 +65,15 @@ If you don't want to install anything go **[here](#usage-with-docker)**.
 
   `$fileName` is the name of the file from which you want extract data. 
 
-  `[0|other]` indicates the type of data to parse.
+  `[0|1|other]` indicates the type of data to parse.
 
-  You shall choose `0` if you want extract data from departments pdf. Otherwise, `other` if you want to extract political body.
+  You shall choose:
+  
+  · `0` if you want to extract departments and CdL with a number of student greater than 500.
+
+  · `1` if you want to extract CdL with a number of student fewer than 500.
+
+  · `other` if you want to extract political body.
 
 
 
@@ -114,9 +120,15 @@ docker build --tag unict-elezioni/parser .
 
   `$fileName` is the name of the file from which you want extract data. 
 
-  `[0|other]` indicates the type of data to parse.
+  `[0|1|other]` indicates the type of data to parse.
 
-  You shall choose `0` if you want extract data from departments pdf. Otherwise, `other` if you want to extract political body.
+  You shall choose:
+
+  · `0` if you want to extract departments and CdL with a number of student greater than 500.
+
+  · `1` if you want to extract CdL with a number of student fewer than 500.
+
+  · `other` if you want to extract political body.
 
 
 
