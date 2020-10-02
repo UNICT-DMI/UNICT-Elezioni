@@ -1,6 +1,7 @@
 import departments from '../../data/departments';
 import entities, { entitiesPath } from '../../data/entities';
 import years from '../../data/years';
+import SearchLimits from './SearchLimits';
 
 export interface ListInfo {
   name: string;
@@ -26,13 +27,16 @@ interface SearchResult {
 }
 
 class SearchCandidate {
-  search(str: string, data: any): CandidateInfo[] {
+  search(str: string, data: any, limits: SearchLimits): CandidateInfo[] {
     const results: CandidateInfo[] = [];
     str = str.toUpperCase();
     for (const year of years) {
       for (const dep of departments) {
         const electedList = (data[year].departments[dep].eletti as any[]).concat(data[year].departments[dep].non_eletti);
         for (const candidate of electedList) {
+          if (limits.isFull()) {
+            return results;
+          }
           if ((candidate.nominativo as string).toUpperCase().indexOf(str) !== -1) {
             results.push({
               name: candidate.nominativo,
@@ -41,6 +45,7 @@ class SearchCandidate {
               department: dep,
               path: '#/dipartimento/' + dep
             });
+            limits.increaseResults();
           }
         }
       }
@@ -50,13 +55,16 @@ class SearchCandidate {
 }
 
 class SearchList {
-  searchListDep(str: string, data: any): ListInfo[] {
+  searchListDep(str: string, data: any, limits: SearchLimits): ListInfo[] {
     const results: ListInfo[] = [];
     str = str.toUpperCase();
     for (const year of years) {
       for (const dep of departments) {
         const depData = data[year].departments[dep].liste;
         for (const list of depData) {
+          if (limits.isFull()) {
+            return results;
+          }
           if (list.nome && (list.nome as string).toUpperCase().indexOf(str) !== -1) {
             results.push({
               name: list.nome,
@@ -64,6 +72,7 @@ class SearchList {
               department: dep,
               path: '#/dipartimento/' + dep
             });
+            limits.increaseResults();
           }
         }
       }
@@ -71,13 +80,16 @@ class SearchList {
     return results;
   }
 
-  searchOther(str: string, data: any): ListInfo[] {
+  searchOther(str: string, data: any, limits: SearchLimits): ListInfo[] {
     const results: ListInfo[] = [];
     str = str.toUpperCase();
     for (const year of years) {
       for (const entity of entities) {
         const lists = data[year][entity].liste;
         for (const list of lists) {
+          if (limits.isFull()) {
+            return results;
+          }
           if (list.nome && (list.nome as string).toUpperCase().indexOf(str) !== -1) {
             results.push({
               name: list.nome,
@@ -85,6 +97,7 @@ class SearchList {
               entity: entity,
               path: entitiesPath[entity]
             });
+            limits.increaseResults();
           }
         }
       }
@@ -92,18 +105,22 @@ class SearchList {
     return results;
   }
 
-  search(str: string, data: any): ListInfo[] {
-    return [...this.searchListDep(str, data), ...this.searchOther(str, data)];
+  search(str: string, data: any, limits: SearchLimits): ListInfo[] {
+    return [...this.searchListDep(str, data, limits), ...this.searchOther(str, data, limits)];
   }
 }
 
 class SearchDepartment {
-  search(str: string): string[] {
+  search(str: string, limits: SearchLimits): string[] {
     const results: string[] = [];
     str = str.replace(' ', '_').toUpperCase();
     for (const depart of departments) {
+      if (limits.isFull()) {
+        return results;
+      }
       if (depart.toUpperCase().indexOf(str) !== -1) {
         results.push(depart);
+        limits.increaseResults();
       }
     }
     return results;
@@ -114,9 +131,11 @@ class SearchEngine {
   private searchDep = new SearchDepartment()
   private searchList = new SearchList()
   private searchCandidate = new SearchCandidate()
-
   private data: any;
   private static instance: SearchEngine;
+
+  private maxResults = 8;
+  private limits = new SearchLimits(this.maxResults);
 
   private constructor() {
     this.data = [];
@@ -140,10 +159,11 @@ class SearchEngine {
   }
 
   search(str: string): SearchResult {
+    this.limits.reset();
     return {
-      departments: this.searchDep.search(str),
-      lists: this.searchList.search(str, this.data),
-      candidates: this.searchCandidate.search(str, this.data)
+      departments: this.searchDep.search(str, this.limits),
+      lists: this.searchList.search(str, this.data, this.limits),
+      candidates: this.searchCandidate.search(str, this.data, this.limits)
     };
   }
 }

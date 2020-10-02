@@ -48,10 +48,12 @@ export const ResultTable = (props: Props): JSX.Element => {
                     [
                       `${results[l][i].nominativo} (${getVotiSeggio(results[l][i].voti)})`,
                       results[l][i].eletto ? (<img key={`coccarda-${i}`} src="coccarda.png" alt="eletto" width="16" height="30" className="float-right" />) : ''
-                    ])
+                    ]
+                  )
                 }
               </td>
-            ))}
+            )
+          )}
         </tr>
       );
     }
@@ -63,7 +65,8 @@ export const ResultTable = (props: Props): JSX.Element => {
       <Popover id="popover"
         className={props.showDetailsList ? 'd-block' : 'd-none'}
         key={`${candidateList.nome}-popover-${props.anno}`}>
-        {props.showDetailsList &&
+        {
+          props.showDetailsList &&
           <DetailsList candidateList={candidateList} seggi={seggi} anno={props.anno} />
         }
       </Popover>
