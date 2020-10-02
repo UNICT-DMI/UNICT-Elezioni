@@ -27,6 +27,25 @@ interface SearchResult {
 }
 
 class SearchCandidate {
+  isNameValid(fullName: string, keywords: string): boolean {
+    fullName = fullName.toUpperCase();
+    keywords = keywords.toUpperCase();
+    const fullNameParts = fullName.split(' ');
+    const keywordsParts = keywords.split(' ');
+    for (const word of keywordsParts) {
+      let isPresent = false;
+      for (const namePart of fullNameParts) {
+        if (namePart.startsWith(word)) {
+          isPresent = true;
+        }
+      }
+      if (!isPresent) {
+        return false;
+      }
+    }
+    return true;
+  }
+
   search(str: string, data: any, limits: SearchLimits): CandidateInfo[] {
     const results: CandidateInfo[] = [];
     str = str.toUpperCase();
@@ -37,7 +56,7 @@ class SearchCandidate {
           if (limits.isFull()) {
             return results;
           }
-          if ((candidate.nominativo as string).toUpperCase().indexOf(str) !== -1) {
+          if (this.isNameValid(candidate.nominativo, str)) {
             results.push({
               name: candidate.nominativo,
               listName: candidate.nominativo,
