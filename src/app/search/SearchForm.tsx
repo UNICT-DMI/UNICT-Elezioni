@@ -1,5 +1,7 @@
+import { faSearch } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useState } from 'react';
-import { Form, ListGroup } from 'react-bootstrap';
+import { Button, Form, InputGroup, ListGroup } from 'react-bootstrap';
 import SearchEngine, { CandidateInfo, ListInfo } from './SearchEngine';
 import './SearchForm.scss';
 
@@ -12,7 +14,7 @@ export const SearchForm = (): JSX.Element => {
   function onInputFormChange(event: any): void {
     const value = event.target.value;
     const searchEngine = SearchEngine.getInstance();
-    const results = searchEngine.search(value);
+    const results = searchEngine.search(value, 8);
     setDepSuggests(results.departments);
     setListSuggests(results.lists);
     setCandidatesSuggests(results.candidates);
@@ -21,7 +23,7 @@ export const SearchForm = (): JSX.Element => {
 
   function generateDepSuggests(): JSX.Element[] {
     return depSuggests.map((suggestion) =>
-      <a key={`dep-${suggestion}`} href={`#/dipartimento/${suggestion}`}>
+      <a key={`dep-${suggestion}`} href={`#/dipartimento/${suggestion}`} onClick={onClickSuggest}>
         <ListGroup.Item action variant="light">
           {suggestion.replaceAll('_', ' ')}
         </ListGroup.Item>
@@ -32,7 +34,7 @@ export const SearchForm = (): JSX.Element => {
   function generateListSuggests(): JSX.Element[] {
     return listSuggests.map((suggestion) =>
       <a key={`list-${suggestion.name}${suggestion.department}${suggestion.entity}${suggestion.year}`}
-        href={suggestion.path}>
+        href={suggestion.path} onClick={onClickSuggest}>
         <ListGroup.Item action variant="light">
           {suggestion.name}
           <sub>
@@ -50,7 +52,7 @@ export const SearchForm = (): JSX.Element => {
   function generateCandidatesSuggests(): JSX.Element[] {
     return candidatesSuggests.map((suggestion) =>
       <a key={`list-${suggestion.name}${suggestion.department}${suggestion.entity}${suggestion.year}`}
-        href={suggestion.path}>
+        href={suggestion.path} onClick={onClickSuggest}>
         <ListGroup.Item action variant="light">
           {suggestion.name}
           <sub>
@@ -75,14 +77,34 @@ export const SearchForm = (): JSX.Element => {
     );
   }
 
-  return (<div className="search col-4 ml-auto">
-    <Form.Control type="text"
-      className="form-control"
-      value={formValue}
-      onChange={onInputFormChange}
-      placeholder="Cerca dipartimento, candidato, lista..." />
-    <ListGroup className={formValue.length > 0 ? 'suggestions-list' : 'd-none'}>
-      {generateSuggestions()}
-    </ListGroup>
-  </div>);
+  function onClickSuggest(event: any): void {
+    event.value = null;
+    setFormValue('');
+  }
+
+  function handleSearchSubmit(event: any): void {
+    window.location.href = '#/search/' + formValue;
+    setFormValue('');
+    event.preventDefault();
+  }
+
+  return (
+    <div className="search col-4 ml-auto">
+      <Form onSubmit={handleSearchSubmit}>
+        <InputGroup>
+          <Form.Control type="text"
+            className="form-control"
+            value={formValue}
+            onChange={onInputFormChange}
+            placeholder="Cerca dipartimento, candidato, lista..." />
+          <InputGroup.Append>
+            <Button type="submit" variant="primary"><FontAwesomeIcon icon={faSearch} /></Button>
+          </InputGroup.Append>
+        </InputGroup>
+      </Form>
+      <ListGroup className={formValue.length ? 'suggestions-list' : 'd-none'}>
+        {generateSuggestions()}
+      </ListGroup>
+    </div>
+  );
 };

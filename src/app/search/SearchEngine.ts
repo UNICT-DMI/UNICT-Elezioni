@@ -59,7 +59,7 @@ class SearchCandidate {
           if (this.isNameValid(candidate.nominativo, str)) {
             results.push({
               name: candidate.nominativo,
-              listName: candidate.nominativo,
+              listName: candidate.lista,
               year: year,
               department: dep,
               path: '#/dipartimento/' + dep
@@ -152,9 +152,7 @@ class SearchEngine {
   private searchCandidate = new SearchCandidate()
   private data: any;
   private static instance: SearchEngine;
-
-  private maxResults = 8;
-  private limits = new SearchLimits(this.maxResults);
+  private limits = new SearchLimits();
 
   private constructor() {
     this.data = [];
@@ -177,8 +175,8 @@ class SearchEngine {
     return SearchEngine.instance;
   }
 
-  search(str: string): SearchResult {
-    this.limits.reset();
+  search(str: string, limit?: number): SearchResult {
+    this.limits.setLimit(limit);
     return {
       departments: this.searchDep.search(str, this.limits),
       lists: this.searchList.search(str, this.data, this.limits),

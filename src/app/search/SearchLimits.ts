@@ -1,8 +1,8 @@
 export default class SearchLimits {
-  private _maxResults: number;
-  private currentResults: number;
+  private _maxResults: number | undefined;
+  private currentResults = 0;
 
-  constructor(maxResults: number) {
+  setLimit(maxResults: number | undefined): void {
     this._maxResults = maxResults;
     this.currentResults = 0;
   }
@@ -16,6 +16,6 @@ export default class SearchLimits {
   }
 
   isFull(): boolean {
-    return this.currentResults >= this._maxResults;
+    return this._maxResults !== undefined && this.currentResults >= this._maxResults;
   }
 }
