@@ -12,7 +12,7 @@ export const DetailsList = (props: Props): JSX.Element => {
   const seggi: Seggi = new Seggi(props.candidateList, props.seggi);
 
   function generateHead(): JSX.Element {
-    const seggiList = seggi.getSeggi();
+    const seggiList = seggi.seggiList;
     const seggiItems = [];
 
     for (const seggio of seggiList) {
@@ -31,7 +31,7 @@ export const DetailsList = (props: Props): JSX.Element => {
   }
 
   function generateVotesRow(): JSX.Element {
-    const votes = seggi.getVotes();
+    const votes = seggi.votesList;
     const voteItems = [];
 
     for (const vote of votes) {

@@ -1,4 +1,4 @@
-const entities = [
+export const entities = [
   'Senato',
   'Nucleo_di_valutazione',
   'Consiglio_di_amministrazione',
@@ -15,5 +15,3 @@ export const entitiesPath: IEntitiesPath = {
   Consiglio_di_amministrazione: '#/cda',
   Comitato_per_lo_sport_universitario: '#/csu'
 };
-
-export default entities;

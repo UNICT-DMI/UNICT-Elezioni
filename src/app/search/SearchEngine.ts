@@ -1,5 +1,5 @@
 import departments from '../../data/departments';
-import entities, { entitiesPath } from '../../data/entities';
+import { entities, entitiesPath } from '../../data/entities';
 import years from '../../data/years';
 import SearchLimits from './SearchLimits';
 
