@@ -133,3 +133,10 @@ class Target(ABC):
                     non_eletti.append(candidato)
                 self.i += 1
             j = j+1
+
+    def word_not_in_update(self, word, text) -> None:
+        while word not in text[self.i].upper():
+            self.i += 1
+    
+    def word_not_in_control(self, word, text) -> bool:
+        return(bool(word not in text[self.i].upper()))

@@ -1,6 +1,7 @@
 from Target import Target
 from Dipartimento import Dipartimento
 from Organo import Organo
+from CdlInf import CdlInf
 
 class SelectTarget:
     __instance = None
@@ -19,5 +20,7 @@ class SelectTarget:
     def get_target(self, i) -> Target:
         if i == "0":
             return Dipartimento()
+        elif i == "1":
+            return CdlInf()
         else:
             return Organo()

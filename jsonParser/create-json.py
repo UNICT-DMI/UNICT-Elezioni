@@ -14,16 +14,22 @@ start_parser = [
         ]
 end_parser = ["</ul>", "</ul></div></div></div>", "</span></div></div></div>", "</div></div></div>"]
 
+match1 = ["CONSIGLIO", "SENATO", "NUCLEO", "COMITATO"]
+match2 = ["DOTTORANDI", "CDL_B", "INFERIORE"]
+
 def is_file(filename) -> bool:
     file = filename.split(".")
     return(bool(len(file) > 1 and file[len(file)-1] == "pdf"))
 
 def is_important(filename) -> bool:
-    return(bool("CDL_B" not in filename.upper() and "INFERIORE" not in filename.upper() and "COORDIMAMENTO" not in filename.upper() and "COORDINAMENTO" not in filename.upper() and "DOTTORANDI" not in filename.upper()))
+    return(bool("COORDIMAMENTO" not in filename.upper() and "COORDINAMENTO" not in filename.upper()))
 
 def create_json(pathname, option, command) -> None:
     print("Create JSON: " + pathname)
-    os.system("python3 " + command + "parser.py " + "\"" + pathname + "\" " + option)
+    status = os.system("python3 " + command + "parser.py " + "\"" + pathname + "\" " + option)
+    if os.WEXITSTATUS(status) > 0:
+        print("I try to create the file again: " + pathname)
+        os.system("python3 " + command + "parser.py " + "\"" + pathname + "\" 0")
 
 def sub_url(url, directory, command) -> None:
     try:
@@ -58,18 +64,21 @@ def sub_url(url, directory, command) -> None:
         if link.find("https://") < 0 and link.find("http://") < 0:
             link = "https://www.unict.it" + link
         file = link.split("/")
-        if is_file(file[len(file)-1]):
-            if is_important(file[len(file)-1]):
-                file[len(file)-1] = file[len(file)-1].replace("%20", "_")
-                file[len(file)-1] = file[len(file)-1].replace("%2", "_")
-                open(directory + "/" + file[len(file)-1], "wb").write(requests.get(link).content)
-                if "CONSIGLIO" in file[len(file)-1].upper() or "SENATO" in file[len(file)-1].upper() or "NUCLEO" in file[len(file)-1].upper() or "COMITATO" in file[len(file)-1].upper():
-                    create_json(directory + "/" + file[len(file)-1], "other", command)
+        f = file[len(file)-1]
+        if is_file(f):
+            if is_important(f):
+                f = f.replace("%20", "_")
+                f = f.replace("%2", "_")
+                open(directory + "/" + f, "wb").write(requests.get(link).content)
+                if any(s in f.upper() for s in match1):
+                    create_json(directory + "/" + f, "other", command)
+                elif any(s in f.upper() for s in match2):
+                    create_json(directory + "/" + f, "1", command)
                 else:
-                    create_json(directory + "/" + file[len(file)-1], "0", command)
-                os.unlink(directory + "/" + file[len(file)-1])
+                    create_json(directory + "/" + f, "0", command)
+                os.unlink(directory + "/" + f)
         else:
-            sub_url(link, directory + "/" + file[len(file)-1], command)
+            sub_url(link, directory + "/" + f, command)
 
 def main(argv) -> None:
     if len(argv) != 3:
