@@ -1,0 +1,57 @@
+{
+    "dipartimento": "SCIENZE BIOLOGICHE GEOLOGICHE E AMBIENTALI - BIOMLG",
+    "seggi_da_assegnare": "2",
+    "schede": {
+        "bianche": {
+            "totali": 0,
+            "seggio_n_19": 0
+        },
+        "nulle": {
+            "totali": 0,
+            "seggio_n_19": 0
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_19": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "ACTEA",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "0,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 11,
+                "seggio_n_19": 11
+            }
+        },
+        {
+            "totale": 11
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "SPEDALIERI GIANCARLO",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 11,
+                "seggio_n_19": 11
+            }
+        }
+    ],
+    "non_eletti": [],
+    "quoziente": 5.5,
+    "votanti": {
+        "totali": 11,
+        "percentuale": 57.89,
+        "seggio_n_19": 11
+    },
+    "elettori": {
+        "totali": 19,
+        "seggio_n_19": 19
+    }
+}

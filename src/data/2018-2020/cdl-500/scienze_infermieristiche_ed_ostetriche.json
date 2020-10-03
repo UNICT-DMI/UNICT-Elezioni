@@ -1,0 +1,65 @@
+{
+    "dipartimento": "SCIENZE INFERMIERISTICHE ED OSTETRICHE",
+    "quorum": true,
+    "seggi_da_assegnare": 6,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "AMATO Antonio Andrea",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "D'AGATE Lucrezia",
+            "voti": 8
+        },
+        {
+            "nome_candidato": "FARINATO Federica",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "MATTONE Mario",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "PIRRECO Angelo",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "RAGUSA Jessica",
+            "voti": 4
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "ANTOCI Marta",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "CALVAGNA Corinne",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "CURATOLO Danilo Andrea",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "FICHERA Giulia",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "GAMBERA Federica",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "RAPISARDA Mariagata",
+            "voti": 0
+        }
+    ],
+    "totale_voti": 32,
+    "aventi_diritto": 106,
+    "perc_votanti": 30.19
+}

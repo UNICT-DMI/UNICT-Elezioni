@@ -1,0 +1,24 @@
+{
+    "dipartimento": "INGEGNERIA DELL'AUTOMAZIONE E DEL CONTROLLO DEI SISTEMI COMPLESSI-Laurea Magistrale biennale (D.M.270/2004)\nINGEGNERIA DELL'AUTOMAZIONE E DEL CONTROLLO DEI SISTEMI COMPLESSI-Laurea Specialistica biennale (D.M. 509/99)",
+    "quorum": true,
+    "seggi_da_assegnare": 2,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "GALVAGNA GABRIELE GASPARE",
+            "voti": 29
+        },
+        {
+            "nome_candidato": "STANCAMPIANO SALVATORE",
+            "voti": 4
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 33,
+    "aventi_diritto": 102,
+    "perc_votanti": 32.35
+}

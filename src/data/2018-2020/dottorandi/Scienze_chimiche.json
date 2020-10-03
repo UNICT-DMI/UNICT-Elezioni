@@ -1,0 +1,29 @@
+{
+    "dipartimento": "SCIENZE CHIMICHE",
+    "quorum": true,
+    "seggi_da_assegnare": 2,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "GAETA Massimiliano",
+            "voti": 7
+        },
+        {
+            "nome_candidato": "GENTILE Davide",
+            "voti": 5
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "SEGGIO Mimimorena",
+            "voti": 1
+        }
+    ],
+    "totale_voti": 13,
+    "aventi_diritto": 21,
+    "perc_votanti": 61.9
+}

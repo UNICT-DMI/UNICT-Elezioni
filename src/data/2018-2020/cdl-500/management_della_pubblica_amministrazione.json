@@ -1,0 +1,41 @@
+{
+    "dipartimento": "MANAGEMENT DELLA PUBBLICA AMMINISTRAZIONE",
+    "quorum": true,
+    "seggi_da_assegnare": 3,
+    "schede": {
+        "bianche": 3,
+        "nulle": 1,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "CASSARO Selenia",
+            "voti": 11
+        },
+        {
+            "nome_candidato": "FARACI Manfredi",
+            "voti": 15
+        },
+        {
+            "nome_candidato": "VIRGILLITO Guido",
+            "voti": 10
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "PRIVITERA Claudio Giuseppe",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "SIDOTI Giuseppe",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "TRIFILETTI Davide",
+            "voti": 3
+        }
+    ],
+    "totale_voti": 49,
+    "aventi_diritto": 249,
+    "perc_votanti": 19.68
+}

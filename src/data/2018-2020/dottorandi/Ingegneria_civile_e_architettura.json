@@ -1,0 +1,33 @@
+{
+    "dipartimento": "INGEGNERIA CIVILE E ARCHITETTURA (DICAR)",
+    "quorum": true,
+    "seggi_da_assegnare": 2,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "CASCONE Stefano",
+            "voti": 9
+        },
+        {
+            "nome_candidato": "CORSICO Sebastiano",
+            "voti": 3
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "GIUFFRIDA Giada",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "GULLOTTA Aurora",
+            "voti": 2
+        }
+    ],
+    "totale_voti": 17,
+    "aventi_diritto": 23,
+    "perc_votanti": 73.91
+}

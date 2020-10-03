@@ -1,0 +1,53 @@
+{
+    "dipartimento": "SCIENZE INFERMIERISTICHE ED OSTETRICHE-Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 6,
+    "schede": {
+        "bianche": 3,
+        "nulle": 2,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "DONZUSO MICHAELA",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "GAROFALO FILIPPO",
+            "voti": 7
+        },
+        {
+            "nome_candidato": "GENNARO ROSARIA",
+            "voti": 8
+        },
+        {
+            "nome_candidato": "GIUMMARRESI MARIANGELA",
+            "voti": 14
+        },
+        {
+            "nome_candidato": "LAUDANI MATTEO",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "SCUDERI CLAUDIO",
+            "voti": 5
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "ARCIDIACONO ALESSIA",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "GOZZA EMMANUEL SALVATORE SANTO",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "MILLAURO MARIANO",
+            "voti": 2
+        }
+    ],
+    "totale_voti": 53,
+    "aventi_diritto": 113,
+    "perc_votanti": 46.9
+}

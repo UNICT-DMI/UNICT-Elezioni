@@ -1,0 +1,45 @@
+{
+    "dipartimento": "CHIMICA INDUSTRIALE",
+    "quorum": true,
+    "seggi_da_assegnare": 4,
+    "schede": {
+        "bianche": 4,
+        "nulle": 9,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "GRANATA Sharon",
+            "voti": 27
+        },
+        {
+            "nome_candidato": "GRASSO Alessandro",
+            "voti": 20
+        },
+        {
+            "nome_candidato": "MARSIGLIONE MASSIMINO Sergio",
+            "voti": 13
+        },
+        {
+            "nome_candidato": "SPANO' Domenico Giuseppe",
+            "voti": 15
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "LA TORRE Valentina",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "PROIETTO SALANITRI Giuseppe",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "SCALIA Sebastiano",
+            "voti": 2
+        }
+    ],
+    "totale_voti": 96,
+    "aventi_diritto": 229,
+    "perc_votanti": 41.92
+}

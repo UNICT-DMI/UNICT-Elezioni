@@ -1,0 +1,36 @@
+{
+    "dipartimento": "SCIENZE E TECNOLOGIE AGRARIE-Laurea Magistrale biennale (D.M.270/2004)\nSCIENZE E TECNOLOGIE AGRARIE TROPICALI E SUBTROPICALI-Laurea Specialistica biennale (D.M. 509/99)\nSCIENZE E TECNOLOGIE AGRARIE-Laurea Specialistica biennale (D.M. 509/99)",
+    "quorum": true,
+    "seggi_da_assegnare": 5,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "BITETTI MICHELE",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "LO VECCHIO BRUNO SALVATORE",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "PRESTIGIOVANNI GABRIELE",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "PUGLISI ROBERTO GIUSEPPE",
+            "voti": 12
+        },
+        {
+            "nome_candidato": "TOSTO MIKA' EL MARIO detto \"Mika\" o \"Mika Etna\" o \"Etna\"",
+            "voti": 9
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 25,
+    "aventi_diritto": 110,
+    "perc_votanti": 22.73
+}

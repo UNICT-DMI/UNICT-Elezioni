@@ -1,0 +1,33 @@
+{
+    "dipartimento": "INGEGNERIA GESTIONALE",
+    "quorum": true,
+    "seggi_da_assegnare": 2,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "RICCERI Marianna",
+            "voti": 32
+        },
+        {
+            "nome_candidato": "SOTERA Dario Emilio",
+            "voti": 31
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "CARUSO Samuele",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "LAGANA' Andrea",
+            "voti": 6
+        }
+    ],
+    "totale_voti": 74,
+    "aventi_diritto": 150,
+    "perc_votanti": 49.33
+}

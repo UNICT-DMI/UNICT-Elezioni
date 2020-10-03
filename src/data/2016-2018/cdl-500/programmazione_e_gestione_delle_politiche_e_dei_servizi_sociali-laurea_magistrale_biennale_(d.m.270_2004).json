@@ -1,0 +1,28 @@
+{
+    "dipartimento": "PROGRAMMAZIONE E GESTIONE DELLE POLITICHE E DEI SERVIZI SOCIALI-Laurea Magistrale biennale (D.M.270/2004)\nANALISI E PROGETTAZIONE DEI PROCESSI DI SVILUPPO SOCIALE, ECONOMICO E CULTURALE-Laurea Specialistica biennale (D.M. 509/99)\nPROGRAMMAZIONE E GESTIONE DELLE POLITICHE E DEI SERVIZI SOCIALI-Laurea Specialistica biennale (D.M. 509/99)",
+    "quorum": true,
+    "seggi_da_assegnare": 3,
+    "schede": {
+        "bianche": 5,
+        "nulle": 4,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "ALTAVILLA GRAZIA MARIA",
+            "voti": 24
+        },
+        {
+            "nome_candidato": "ANASTASI SERENA SARA",
+            "voti": 16
+        },
+        {
+            "nome_candidato": "MAZZARA BOLOGNA BENEDETTA",
+            "voti": 10
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 59,
+    "aventi_diritto": 218,
+    "perc_votanti": 27.06
+}

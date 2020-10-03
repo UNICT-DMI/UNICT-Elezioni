@@ -1,6 +1,4 @@
-from sys import setdlopenflags
 import pdftotext
-import re
 
 class FormatPDF:
     

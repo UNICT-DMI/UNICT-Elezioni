@@ -1,0 +1,20 @@
+{
+    "dipartimento": "INGEGNERIA DELLE TELECOMUNICAZIONI-Laurea Magistrale biennale (D.M.270/2004)\nINGEGNERIA DELLE TELECOMUNICAZIONI-Laurea Specialistica biennale (D.M. 509/99)",
+    "quorum": true,
+    "seggi_da_assegnare": 2,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "MARGARONE EDWARD AGRIPPINO",
+            "voti": 12
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 12,
+    "aventi_diritto": 53,
+    "perc_votanti": 22.64
+}

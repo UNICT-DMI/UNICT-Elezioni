@@ -1,0 +1,334 @@
+{
+    "dipartimento": "LETTERE-Laurea (D.M.270/2004)\nLETTERE-Laurea Triennale (D.M. 509/99)",
+    "seggi_da_assegnare": "8",
+    "schede": {
+        "bianche": {
+            "totali": 20,
+            "seggio_n_10": 20
+        },
+        "nulle": {
+            "totali": 11,
+            "seggio_n_10": 11
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_10": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "29,8",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 61,
+                "seggio_n_10": 61
+            }
+        },
+        {
+            "nome": "CONTROCAMPUS",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "25,5",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "3"
+            },
+            "voti": {
+                "totali": 88,
+                "seggio_n_10": 88
+            }
+        },
+        {
+            "nome": "UNIVERSIT\u00c0 POPOLARE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "1,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 1,
+                "seggio_n_10": 1
+            }
+        },
+        {
+            "nome": "I LETTERATI DEL DISUM",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "30,8",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 62,
+                "seggio_n_10": 62
+            }
+        },
+        {
+            "nome": "LIBERTAS \u2010 LIBERI E FORTI",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "6,8",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 38,
+                "seggio_n_10": 38
+            }
+        },
+        {
+            "totale": 250
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "RIZZO SIMONE",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 31,
+                "seggio_n_10": 31
+            }
+        },
+        {
+            "nominativo": "NUCIFORA ROBERTA FINA",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 23,
+                "seggio_n_10": 23
+            }
+        },
+        {
+            "nominativo": "COSTANZO GIULIA",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 45,
+                "seggio_n_10": 45
+            }
+        },
+        {
+            "nominativo": "ZANGHI GIUSEPPE",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 31,
+                "seggio_n_10": 31
+            }
+        },
+        {
+            "nominativo": "BUFOLINO FRANCESCO",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 6,
+                "seggio_n_10": 6
+            }
+        },
+        {
+            "nominativo": "RIZZA AMALIA",
+            "lista": "I LETTERATI DEL DISUM",
+            "voti": {
+                "totali": 42,
+                "seggio_n_10": 42
+            }
+        },
+        {
+            "nominativo": "MELI SABRINA MARIARITA",
+            "lista": "I LETTERATI DEL DISUM",
+            "voti": {
+                "totali": 11,
+                "seggio_n_10": 11
+            }
+        },
+        {
+            "nominativo": "PERNI CLAUDIA",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 11,
+                "seggio_n_10": 11
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "ARENA LUCIA",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_10": 0
+            }
+        },
+        {
+            "nominativo": "MIRAGLIA GIUSEPPE",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_10": 0
+            }
+        },
+        {
+            "nominativo": "STRANO DOMENICO",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_10": 0
+            }
+        },
+        {
+            "nominativo": "CAMMARATA FEDERICA MARIA PIA",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 0,
+                "seggio_n_10": 0
+            }
+        },
+        {
+            "nominativo": "GIANNONE MARIA ALICE",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 0,
+                "seggio_n_10": 0
+            }
+        },
+        {
+            "nominativo": "SCANDURRA KAROL DYLAN",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 1,
+                "seggio_n_10": 1
+            }
+        },
+        {
+            "nominativo": "INGRAO INGRAO ANNAMARIA",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 0,
+                "seggio_n_10": 0
+            }
+        },
+        {
+            "nominativo": "SCIRE' ELENA",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 0,
+                "seggio_n_10": 0
+            }
+        },
+        {
+            "nominativo": "FURNARI FRANCESCA",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_10": 0
+            }
+        },
+        {
+            "nominativo": "CARMENI MARIA CONCETTA",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_10": 0
+            }
+        },
+        {
+            "nominativo": "DI STEFANO GIUSI",
+            "lista": "I LETTERATI DEL DISUM",
+            "voti": {
+                "totali": 0,
+                "seggio_n_10": 0
+            }
+        },
+        {
+            "nominativo": "SALINARO NOEMI",
+            "lista": "I LETTERATI DEL DISUM",
+            "voti": {
+                "totali": 0,
+                "seggio_n_10": 0
+            }
+        },
+        {
+            "nominativo": "DISTEFANO EGLE",
+            "lista": "I LETTERATI DEL DISUM",
+            "voti": {
+                "totali": 2,
+                "seggio_n_10": 2
+            }
+        },
+        {
+            "nominativo": "COCUZZA LORENZO",
+            "lista": "I LETTERATI DEL DISUM",
+            "voti": {
+                "totali": 0,
+                "seggio_n_10": 0
+            }
+        },
+        {
+            "nominativo": "SCHINOCCA MIRIAM",
+            "lista": "I LETTERATI DEL DISUM",
+            "voti": {
+                "totali": 0,
+                "seggio_n_10": 0
+            }
+        },
+        {
+            "nominativo": "MANGIO' ADELAIDE ESTER ELEONORA",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 6,
+                "seggio_n_10": 6
+            }
+        },
+        {
+            "nominativo": "MAZZONE SIMONA",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 5,
+                "seggio_n_10": 5
+            }
+        },
+        {
+            "nominativo": "ARCIDIACONO FILIPPA",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 8,
+                "seggio_n_10": 8
+            }
+        },
+        {
+            "nominativo": "ROMEO ROBERTA",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_10": 0
+            }
+        },
+        {
+            "nominativo": "PRIVITERA MARTINA",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 2,
+                "seggio_n_10": 2
+            }
+        },
+        {
+            "nominativo": "GENTILE FEDERICA",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 1,
+                "seggio_n_10": 1
+            }
+        }
+    ],
+    "quoziente": 31.25,
+    "votanti": {
+        "totali": 281,
+        "percentuale": 21.35,
+        "seggio_n_10": 281
+    },
+    "elettori": {
+        "totali": 1316,
+        "seggio_n_10": 1316
+    }
+}

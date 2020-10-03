@@ -1,0 +1,426 @@
+{
+    "dipartimento": "POLITICA E RELAZIONI INTERNAZIONALI-Laurea (D.M.270/2004)\nSTORIA E SCIENZE DELL'AMMINISTRAZIONE-Laurea (D.M.270/2004)\nSTORIA E SCIENZE POLITICHE E DELLE RELAZIONI INTERNAZIONALI-Laurea (D.M.270/2004)\nPOLITICA E RELAZIONI INTERNAZIONALI-Laurea Triennale (D.M. 509/99)\nSCIENZE STORICHE E POLITICHE-Laurea Triennale (D.M. 509/99)",
+    "seggi_da_assegnare": "5",
+    "schede": {
+        "bianche": {
+            "totali": 15,
+            "seggio_n_5": 15
+        },
+        "nulle": {
+            "totali": 10,
+            "seggio_n_5": 10
+        },
+        "contestate": {
+            "totali": 1,
+            "seggio_n_5": 1
+        }
+    },
+    "liste": [
+        {
+            "nome": "CONTROCAMPUS \u2010 POPOLO DEGLI STUDENTI",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "23,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 23,
+                "seggio_n_5": 23
+            }
+        },
+        {
+            "nome": "ACTEA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "19,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 19,
+                "seggio_n_5": 19
+            }
+        },
+        {
+            "nome": "ORIZZONTE ITALIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "16,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 16,
+                "seggio_n_5": 16
+            }
+        },
+        {
+            "nome": "NIKE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "18,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 18,
+                "seggio_n_5": 18
+            }
+        },
+        {
+            "nome": "ARCADIA",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "16,8",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 60,
+                "seggio_n_5": 60
+            }
+        },
+        {
+            "nome": "UNIVERSITA' POPOLARE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "4,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 4,
+                "seggio_n_5": 4
+            }
+        },
+        {
+            "nome": "WE LOVE UNICT",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "32,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 32,
+                "seggio_n_5": 32
+            }
+        },
+        {
+            "nome": "IRIDE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "10,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 10,
+                "seggio_n_5": 10
+            }
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "34,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 34,
+                "seggio_n_5": 34
+            }
+        },
+        {
+            "totale": 216
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "MERCORILLO Salvatore",
+            "lista": "CONTROCAMPUS \u2010 POPOLO DEGLI STUDENTI",
+            "voti": {
+                "totali": 20,
+                "seggio_n_5": 20
+            }
+        },
+        {
+            "nominativo": "IUDICELLI Enrico",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 10,
+                "seggio_n_5": 10
+            }
+        },
+        {
+            "nominativo": "COSTA Camilla",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 28,
+                "seggio_n_5": 28
+            }
+        },
+        {
+            "nominativo": "PULVIRENTI Salvatore \u2010 detto \"Toti\"",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 24,
+                "seggio_n_5": 24
+            }
+        },
+        {
+            "nominativo": "MAZZEO Pietro",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 14,
+                "seggio_n_5": 14
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "SANTORO Ines",
+            "lista": "CONTROCAMPUS \u2010 POPOLO DEGLI STUDENTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "MONACO Stefano",
+            "lista": "CONTROCAMPUS \u2010 POPOLO DEGLI STUDENTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "LIUZZO Elisa",
+            "lista": "CONTROCAMPUS \u2010 POPOLO DEGLI STUDENTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "VASTA Gianluca",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "PELLEGRINO Damiano",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "MAGRI' Antonio",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 13,
+                "seggio_n_5": 13
+            }
+        },
+        {
+            "nominativo": "MAZZA Lucia",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_5": 1
+            }
+        },
+        {
+            "nominativo": "SCUDERI Giulia",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "CASTRO Alice",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_5": 1
+            }
+        },
+        {
+            "nominativo": "PASTORE Arianna",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_5": 1
+            }
+        },
+        {
+            "nominativo": "ZAPPALA' Walter",
+            "lista": "NIKE",
+            "voti": {
+                "totali": 9,
+                "seggio_n_5": 9
+            }
+        },
+        {
+            "nominativo": "SAPUPPO Giuseppe",
+            "lista": "NIKE",
+            "voti": {
+                "totali": 6,
+                "seggio_n_5": 6
+            }
+        },
+        {
+            "nominativo": "PANDINO Ruggero",
+            "lista": "NIKE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "QASEM Omar",
+            "lista": "NIKE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "PARATORE Davide",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 25,
+                "seggio_n_5": 25
+            }
+        },
+        {
+            "nominativo": "SIGNORELLI Gaspare",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "MESSINA Gabriele",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 2,
+                "seggio_n_5": 2
+            }
+        },
+        {
+            "nominativo": "CAIRONE Fiorella",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 2,
+                "seggio_n_5": 2
+            }
+        },
+        {
+            "nominativo": "LO PRESTI Celine",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "ANZALONE Claudia",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 1,
+                "seggio_n_5": 1
+            }
+        },
+        {
+            "nominativo": "CANNAVO' Cosimo Francesco",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "VAZZANO Gabriele Gaspare",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 4,
+                "seggio_n_5": 4
+            }
+        },
+        {
+            "nominativo": "LEONARDI Carolina",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 1,
+                "seggio_n_5": 1
+            }
+        },
+        {
+            "nominativo": "FAZZI Alessia",
+            "lista": "IRIDE",
+            "voti": {
+                "totali": 7,
+                "seggio_n_5": 7
+            }
+        },
+        {
+            "nominativo": "LE MURA Ylenia Francesca",
+            "lista": "IRIDE",
+            "voti": {
+                "totali": 3,
+                "seggio_n_5": 3
+            }
+        },
+        {
+            "nominativo": "MILITANO Andrea",
+            "lista": "IRIDE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "PRINCIPATO Valeria",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "BARONE Simone",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "PLATANIA Giorgio",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 12,
+                "seggio_n_5": 12
+            }
+        }
+    ],
+    "quoziente": 43.2,
+    "votanti": {
+        "totali": 242,
+        "percentuale": 39.8,
+        "seggio_n_5": 242
+    },
+    "elettori": {
+        "totali": 608,
+        "seggio_n_5": 608
+    }
+}

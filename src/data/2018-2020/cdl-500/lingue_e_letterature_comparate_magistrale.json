@@ -1,0 +1,24 @@
+{
+    "dipartimento": "LINGUE E LETTERATURE COMPARATE magistrale",
+    "quorum": false,
+    "seggi_da_assegnare": 7,
+    "schede": {
+        "bianche": 0,
+        "nulle": 1,
+        "contestate": 0
+    },
+    "eletti": [],
+    "non_eletti": [
+        {
+            "nome_candidato": "DISTEFANO Gaia",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "RAPISARDA Marta",
+            "voti": 7
+        }
+    ],
+    "totale_voti": 13,
+    "aventi_diritto": 147,
+    "perc_votanti": 8.84
+}

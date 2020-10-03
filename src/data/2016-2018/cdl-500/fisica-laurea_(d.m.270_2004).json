@@ -1,0 +1,49 @@
+{
+    "dipartimento": "FISICA-Laurea (D.M.270/2004)\nFISICA-Laurea Triennale (D.M. 509/99)",
+    "quorum": true,
+    "seggi_da_assegnare": 6,
+    "schede": {
+        "bianche": 3,
+        "nulle": 4,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "DI BLASI VALENTINO",
+            "voti": 29
+        },
+        {
+            "nome_candidato": "FERRARA CLAUDIO",
+            "voti": 7
+        },
+        {
+            "nome_candidato": "NICOLOSI GIORGIO",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "NICOTRA ALESSANDRO",
+            "voti": 44
+        },
+        {
+            "nome_candidato": "RIZZO DANIELE",
+            "voti": 12
+        },
+        {
+            "nome_candidato": "TRIFILETTI GABRIELE",
+            "voti": 22
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "CRIMI DALILA",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "NARCISI CHIARA AGATA SAMANTHA",
+            "voti": 2
+        }
+    ],
+    "totale_voti": 129,
+    "aventi_diritto": 291,
+    "perc_votanti": 44.33
+}

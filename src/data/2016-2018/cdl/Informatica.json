@@ -1,0 +1,214 @@
+{
+    "dipartimento": "INFORMATICA-Laurea (D.M.270/2004)\nINFORMATICA APPLICATA-Laurea Triennale (D.M. 509/99)\nINFORMATICA-Laurea Triennale (D.M. 509/99)",
+    "seggi_da_assegnare": "6",
+    "schede": {
+        "bianche": {
+            "totali": 8,
+            "seggio_n_18": 8
+        },
+        "nulle": {
+            "totali": 8,
+            "seggio_n_18": 8
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_18": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "DMI INSIDER",
+            "seggi": {
+                "seggi_pieni": "3",
+                "resti": "22,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "4"
+            },
+            "voti": {
+                "totali": 101,
+                "seggio_n_18": 101
+            }
+        },
+        {
+            "nome": "ACTEA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "25,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 25,
+                "seggio_n_18": 25
+            }
+        },
+        {
+            "nome": "UNIVERSIT\u00c0 POPOLARE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "10,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 10,
+                "seggio_n_18": 10
+            }
+        },
+        {
+            "nome": "LIBERTAS \u2010 LIBERI E FORTI",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "5,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 5,
+                "seggio_n_18": 5
+            }
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "17,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 17,
+                "seggio_n_18": 17
+            }
+        },
+        {
+            "totale": 158
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "ALIPERTI VINCENZO",
+            "lista": "DMI INSIDER",
+            "voti": {
+                "totali": 17,
+                "seggio_n_18": 17
+            }
+        },
+        {
+            "nominativo": "APA MARCO",
+            "lista": "DMI INSIDER",
+            "voti": {
+                "totali": 15,
+                "seggio_n_18": 15
+            }
+        },
+        {
+            "nominativo": "BORZI' STEFANO",
+            "lista": "DMI INSIDER",
+            "voti": {
+                "totali": 46,
+                "seggio_n_18": 46
+            }
+        },
+        {
+            "nominativo": "COSTA ALBERTO",
+            "lista": "DMI INSIDER",
+            "voti": {
+                "totali": 3,
+                "seggio_n_18": 3
+            }
+        },
+        {
+            "nominativo": "MARROCCIA MARCO",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 13,
+                "seggio_n_18": 13
+            }
+        },
+        {
+            "nominativo": "GIANGRECO ANTONINO",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 15,
+                "seggio_n_18": 15
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "PRESENTE FABRIZIO",
+            "lista": "DMI INSIDER",
+            "voti": {
+                "totali": 1,
+                "seggio_n_18": 1
+            }
+        },
+        {
+            "nominativo": "RAPISARDA SIMONE",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 5,
+                "seggio_n_18": 5
+            }
+        },
+        {
+            "nominativo": "LIOTTA ALESSIO ANGELO",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 2,
+                "seggio_n_18": 2
+            }
+        },
+        {
+            "nominativo": "AMANTIA ROSARIO",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 2,
+                "seggio_n_18": 2
+            }
+        },
+        {
+            "nominativo": "PETRALIA LUCA",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_18": 0
+            }
+        },
+        {
+            "nominativo": "MATTIA ALESSANDRO FERDINANDO",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 4,
+                "seggio_n_18": 4
+            }
+        },
+        {
+            "nominativo": "LA SPINA LUIGI",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_18": 0
+            }
+        },
+        {
+            "nominativo": "SACCA' MAURA",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 2,
+                "seggio_n_18": 2
+            }
+        }
+    ],
+    "quoziente": 26.3333,
+    "votanti": {
+        "totali": 174,
+        "percentuale": 30.96,
+        "seggio_n_18": 174
+    },
+    "elettori": {
+        "totali": 562,
+        "seggio_n_18": 562
+    }
+}

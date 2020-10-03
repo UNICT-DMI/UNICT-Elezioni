@@ -1,0 +1,416 @@
+{
+    "dipartimento": "LINGUE E CULTURE EUROAMERICANE ED ORIENTALI-Laurea (D.M.270/2004)\nLINGUE E CULTURE EUROPEE EUROAMERICANE ED ORIENTALI-Laurea (D.M.270/2004)\nLINGUE E CULTURE EUROPEE-Laurea Triennale (D.M. 509/99)",
+    "seggi_da_assegnare": "8",
+    "schede": {
+        "bianche": {
+            "totali": 27,
+            "seggio_n_12": 27
+        },
+        "nulle": {
+            "totali": 11,
+            "seggio_n_12": 11
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_12": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "seggi": {
+                "seggi_pieni": "3",
+                "resti": "3,6",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "3"
+            },
+            "voti": {
+                "totali": 112,
+                "seggio_n_12": 112
+            }
+        },
+        {
+            "nome": "OLTRE",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "29,9",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 66,
+                "seggio_n_12": 66
+            }
+        },
+        {
+            "nome": "VOLJA",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "9,8",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 82,
+                "seggio_n_12": 82
+            }
+        },
+        {
+            "nome": "IN CAMPO PER IL DISUM \u2010 CONTROCAMPUS",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "2,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 2,
+                "seggio_n_12": 2
+            }
+        },
+        {
+            "nome": "UNIVERSITA' POPOLARE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "8,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 8,
+                "seggio_n_12": 8
+            }
+        },
+        {
+            "nome": "LINK\u2010STUDENTI INDIPENDENTI \u2010 LINGUE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "11,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 11,
+                "seggio_n_12": 11
+            }
+        },
+        {
+            "nome": "ARCADIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "8,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 8,
+                "seggio_n_12": 8
+            }
+        },
+        {
+            "totale": 289
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "DEL MONTE Eugenio",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 34,
+                "seggio_n_12": 34
+            }
+        },
+        {
+            "nominativo": "OCCHIPINTI Rosario",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 8,
+                "seggio_n_12": 8
+            }
+        },
+        {
+            "nominativo": "SCIFO Flavia",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 8,
+                "seggio_n_12": 8
+            }
+        },
+        {
+            "nominativo": "TERMINI Salvatore Simone",
+            "lista": "OLTRE",
+            "voti": {
+                "totali": 33,
+                "seggio_n_12": 33
+            }
+        },
+        {
+            "nominativo": "D'ORSI Grazia Maria Valentina",
+            "lista": "OLTRE",
+            "voti": {
+                "totali": 18,
+                "seggio_n_12": 18
+            }
+        },
+        {
+            "nominativo": "GRASSO Graziella",
+            "lista": "VOLJA",
+            "voti": {
+                "totali": 30,
+                "seggio_n_12": 30
+            }
+        },
+        {
+            "nominativo": "CONSOLI Ylenia",
+            "lista": "VOLJA",
+            "voti": {
+                "totali": 27,
+                "seggio_n_12": 27
+            }
+        },
+        {
+            "nominativo": "ALIZZI Giuseppe",
+            "lista": "LINK\u2010STUDENTI INDIPENDENTI \u2010 LINGUE",
+            "voti": {
+                "totali": 7,
+                "seggio_n_12": 7
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "GIARRIZZO Flavio",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_12": 0
+            }
+        },
+        {
+            "nominativo": "RANDAZZO Martina",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_12": 0
+            }
+        },
+        {
+            "nominativo": "CONTINO Alessia",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 2,
+                "seggio_n_12": 2
+            }
+        },
+        {
+            "nominativo": "LA SPINA Gloria Maria",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_12": 0
+            }
+        },
+        {
+            "nominativo": "MUSUMECI Damiano",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_12": 0
+            }
+        },
+        {
+            "nominativo": "ROME' Dimitri",
+            "lista": "OLTRE",
+            "voti": {
+                "totali": 12,
+                "seggio_n_12": 12
+            }
+        },
+        {
+            "nominativo": "NICEFORO Floriana Maria Pia",
+            "lista": "OLTRE",
+            "voti": {
+                "totali": 1,
+                "seggio_n_12": 1
+            }
+        },
+        {
+            "nominativo": "DAVOLOS Michela",
+            "lista": "OLTRE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_12": 0
+            }
+        },
+        {
+            "nominativo": "LOMBARDO Federica",
+            "lista": "OLTRE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_12": 0
+            }
+        },
+        {
+            "nominativo": "MANGANO Bruna",
+            "lista": "OLTRE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_12": 0
+            }
+        },
+        {
+            "nominativo": "HAMROUNI Sabrine",
+            "lista": "OLTRE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_12": 0
+            }
+        },
+        {
+            "nominativo": "CUTRONA Christian",
+            "lista": "VOLJA",
+            "voti": {
+                "totali": 6,
+                "seggio_n_12": 6
+            }
+        },
+        {
+            "nominativo": "CASALINO Gaia Martina",
+            "lista": "VOLJA",
+            "voti": {
+                "totali": 4,
+                "seggio_n_12": 4
+            }
+        },
+        {
+            "nominativo": "BELLAVIA Luca Maicon Vinicius",
+            "lista": "VOLJA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_12": 0
+            }
+        },
+        {
+            "nominativo": "COSENTINO Irene",
+            "lista": "VOLJA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_12": 0
+            }
+        },
+        {
+            "nominativo": "FIGURA Pietro",
+            "lista": "VOLJA",
+            "voti": {
+                "totali": 5,
+                "seggio_n_12": 5
+            }
+        },
+        {
+            "nominativo": "ROMANO Mirko",
+            "lista": "VOLJA",
+            "voti": {
+                "totali": 2,
+                "seggio_n_12": 2
+            }
+        },
+        {
+            "nominativo": "MACRI' Daniele",
+            "lista": "IN CAMPO PER IL DISUM \u2010 CONTROCAMPUS",
+            "voti": {
+                "totali": 1,
+                "seggio_n_12": 1
+            }
+        },
+        {
+            "nominativo": "SANALITRO Alessia",
+            "lista": "IN CAMPO PER IL DISUM \u2010 CONTROCAMPUS",
+            "voti": {
+                "totali": 0,
+                "seggio_n_12": 0
+            }
+        },
+        {
+            "nominativo": "SAYA Lorena",
+            "lista": "IN CAMPO PER IL DISUM \u2010 CONTROCAMPUS",
+            "voti": {
+                "totali": 0,
+                "seggio_n_12": 0
+            }
+        },
+        {
+            "nominativo": "MARULLO Nunzia",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 3,
+                "seggio_n_12": 3
+            }
+        },
+        {
+            "nominativo": "PASTANELLA Mariapia",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_12": 0
+            }
+        },
+        {
+            "nominativo": "GRASSIA Giuseppe",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_12": 0
+            }
+        },
+        {
+            "nominativo": "CONSOLINO Miriam",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_12": 0
+            }
+        },
+        {
+            "nominativo": "CRISCI Sara",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_12": 0
+            }
+        },
+        {
+            "nominativo": "SAVATTERI Jessica",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 6,
+                "seggio_n_12": 6
+            }
+        },
+        {
+            "nominativo": "D'ANGELO Antonio",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_12": 0
+            }
+        },
+        {
+            "nominativo": "NICASTRO Marta",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_12": 0
+            }
+        }
+    ],
+    "quoziente": 36.125,
+    "votanti": {
+        "totali": 327,
+        "percentuale": 26.74,
+        "seggio_n_12": 327
+    },
+    "elettori": {
+        "totali": 1223,
+        "seggio_n_12": 1223
+    }
+}

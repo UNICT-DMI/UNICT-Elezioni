@@ -1,0 +1,89 @@
+{
+    "dipartimento": "PIANIFICAZIONE E TUTELA DEL TERRITORIO E DEL PAESAGGIO",
+    "quorum": true,
+    "seggi_da_assegnare": 6,
+    "schede": {
+        "bianche": 7,
+        "nulle": 6,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "CALI' Simona",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "FICHERA Filippo",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "FURNARI Alberto",
+            "voti": 7
+        },
+        {
+            "nome_candidato": "MUCIMARRA Andrea",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "PIRRONE Andrea",
+            "voti": 8
+        },
+        {
+            "nome_candidato": "ROSA Rosario",
+            "voti": 14
+        },
+        {
+            "nome_candidato": "SIRINGO Salvatore",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "TOSCANO Gabriella Paola",
+            "voti": 13
+        },
+        {
+            "nome_candidato": "VASTA Carla",
+            "voti": 21
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "BIRRIOLO Salvatore",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "CAMPIONE Davide",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "CARUSO Giorgia",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "DI STEFANO Chantal",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "GIARRUSSO Salvatore",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "GRASSO Marco",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "SCAMPORRINO Salvatore",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "STRACQUADANIO Giulia",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "URSO Mario",
+            "voti": 0
+        }
+    ],
+    "totale_voti": 100,
+    "aventi_diritto": 221,
+    "perc_votanti": 45.25
+}

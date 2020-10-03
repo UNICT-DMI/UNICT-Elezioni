@@ -1,0 +1,45 @@
+{
+    "dipartimento": "MATEMATICA-Laurea (D.M.270/2004)\nMATEMATICA PER LE APPLICAZIONI-Laurea Triennale (D.M. 509/99)\nMATEMATICA-Laurea Triennale (D.M. 509/99)",
+    "quorum": true,
+    "seggi_da_assegnare": 4,
+    "schede": {
+        "bianche": 0,
+        "nulle": 2,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "ALESSANDRO MASSIMILIANO",
+            "voti": 21
+        },
+        {
+            "nome_candidato": "DE CRISTOFARO GAETANO",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "PRATISSOLI MIRKO",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "SCIUTO RITA",
+            "voti": 7
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "DI MARI FABRIZIO",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "MEZZATESTA MARIO ALBERTO",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "PAGANO GIUSEPPE",
+            "voti": 1
+        }
+    ],
+    "totale_voti": 36,
+    "aventi_diritto": 165,
+    "perc_votanti": 21.82
+}

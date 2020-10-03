@@ -1,0 +1,119 @@
+{
+    "dipartimento": "SCIENZE BIOLOGICHE-Laurea (D.M.270/2004)\nSCIENZE BIOLOGICHE-Laurea Triennale (D.M. 509/99)",
+    "seggi_da_assegnare": "6",
+    "schede": {
+        "bianche": {
+            "totali": 16,
+            "seggio_n_21": 16
+        },
+        "nulle": {
+            "totali": 13,
+            "seggio_n_21": 13
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_21": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "UNIVERSITA' POPOLARE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "4,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 4,
+                "seggio_n_21": 4
+            }
+        },
+        {
+            "nome": "WE LOVE UNICT",
+            "seggi": {
+                "seggi_pieni": "5",
+                "resti": "27,5",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "6"
+            },
+            "voti": {
+                "totali": 185,
+                "seggio_n_21": 185
+            }
+        },
+        {
+            "totale": 189
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "MENDOZA Ruvic Esguerra",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 88,
+                "seggio_n_21": 88
+            }
+        },
+        {
+            "nominativo": "MOTTA Gabriele Salvatore",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 30,
+                "seggio_n_21": 30
+            }
+        },
+        {
+            "nominativo": "COSTANZO Marzia",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 21,
+                "seggio_n_21": 21
+            }
+        },
+        {
+            "nominativo": "SANGIORGIO Paola",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 1,
+                "seggio_n_21": 1
+            }
+        },
+        {
+            "nominativo": "LONGHITANO Antonino",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_21": 0
+            }
+        },
+        {
+            "nominativo": "SCIOLTO Simone",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 26,
+                "seggio_n_21": 26
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "RIZZA Giulia",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_21": 0
+            }
+        }
+    ],
+    "quoziente": 31.5,
+    "votanti": {
+        "totali": 218,
+        "percentuale": 30.24,
+        "seggio_n_21": 218
+    },
+    "elettori": {
+        "totali": 721,
+        "seggio_n_21": 721
+    }
+}

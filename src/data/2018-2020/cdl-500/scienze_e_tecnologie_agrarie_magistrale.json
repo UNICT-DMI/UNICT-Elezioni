@@ -1,0 +1,45 @@
+{
+    "dipartimento": "SCIENZE E TECNOLOGIE AGRARIE magistrale",
+    "quorum": true,
+    "seggi_da_assegnare": 5,
+    "schede": {
+        "bianche": 4,
+        "nulle": 3,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "ARDU Francesca",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "ARGENTO Giordano",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "FORMENTI Claudia",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "FURNITTO Nicola",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "GENNUSO Andrea",
+            "voti": 9
+        },
+        {
+            "nome_candidato": "NASELLI Enrico",
+            "voti": 2
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "PALERMO Ismaele",
+            "voti": 1
+        }
+    ],
+    "totale_voti": 34,
+    "aventi_diritto": 148,
+    "perc_votanti": 22.97
+}

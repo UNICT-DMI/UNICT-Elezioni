@@ -1,0 +1,33 @@
+{
+    "dipartimento": "ECONOMIA, POLITICHE E MANAGEMENT DEL TERRITORIO",
+    "quorum": true,
+    "seggi_da_assegnare": 3,
+    "schede": {
+        "bianche": 1,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "AMENTA Alessandra",
+            "voti": 11
+        },
+        {
+            "nome_candidato": "FINOCCHIARO Rosario",
+            "voti": 9
+        },
+        {
+            "nome_candidato": "MAZZEO Ilenia",
+            "voti": 4
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "RAGNO Filippo Francesco",
+            "voti": 1
+        }
+    ],
+    "totale_voti": 26,
+    "aventi_diritto": 108,
+    "perc_votanti": 24.07
+}

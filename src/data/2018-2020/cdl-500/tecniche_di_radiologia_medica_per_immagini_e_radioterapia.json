@@ -1,0 +1,28 @@
+{
+    "dipartimento": "TECNICHE DI RADIOLOGIA MEDICA, PER IMMAGINI E RADIOTERAPIA",
+    "quorum": true,
+    "seggi_da_assegnare": 6,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "MOSCHETTO Erica",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "SAGLIMBENE Chiara",
+            "voti": 10
+        },
+        {
+            "nome_candidato": "SMIROLDO Leonardo",
+            "voti": 8
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 21,
+    "aventi_diritto": 46,
+    "perc_votanti": 45.65
+}

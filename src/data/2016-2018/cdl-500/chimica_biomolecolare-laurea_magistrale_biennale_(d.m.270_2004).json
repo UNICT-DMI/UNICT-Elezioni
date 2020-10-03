@@ -1,0 +1,20 @@
+{
+    "dipartimento": "CHIMICA BIOMOLECOLARE-Laurea Magistrale biennale (D.M.270/2004)\nCHIMICA BIOMOLECOLARE-Laurea Specialistica biennale (D.M. 509/99)",
+    "quorum": true,
+    "seggi_da_assegnare": 3,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "PULVIRENTI ALFIO",
+            "voti": 12
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 12,
+    "aventi_diritto": 32,
+    "perc_votanti": 37.5
+}

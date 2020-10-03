@@ -1,0 +1,24 @@
+{
+    "dipartimento": "MATEMATICA E INFORMATICA",
+    "quorum": true,
+    "seggi_da_assegnare": 2,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "CAPPELLO Giorgia Maria",
+            "voti": 7
+        },
+        {
+            "nome_candidato": "MAUGERI Nicola",
+            "voti": 6
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 13,
+    "aventi_diritto": 56,
+    "perc_votanti": 23.21
+}

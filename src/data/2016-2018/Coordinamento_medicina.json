@@ -1,0 +1,120 @@
+{
+    "dipartimento": "COORDINAMENTO DELLA SCUOLA DENOMINATA FACOLTA' DI MEDICINA",
+    "schede": {
+        "bianche": {
+            "totali": 314,
+            "seggio_n_13": 97,
+            "seggio_n_14": 114,
+            "seggio_n_15": 46,
+            "seggio_n_16": 46,
+            "seggio_n_17": 11
+        },
+        "nulle": {
+            "totali": 114,
+            "seggio_n_13": 29,
+            "seggio_n_14": 43,
+            "seggio_n_15": 13,
+            "seggio_n_16": 20,
+            "seggio_n_17": 9
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_13": 0,
+            "seggio_n_14": 0,
+            "seggio_n_15": 0,
+            "seggio_n_16": 0,
+            "seggio_n_17": 0
+        }
+    },
+    "eletti": [
+        {
+            "nominativo": "CAVALLO MATTEO",
+            "voti": {
+                "totali": 505,
+                "seggio_n_13": 243,
+                "seggio_n_14": 118,
+                "seggio_n_15": 71,
+                "seggio_n_16": 71,
+                "seggio_n_17": 2
+            }
+        },
+        {
+            "nominativo": "IUDICA ARIANNA",
+            "voti": {
+                "totali": 371,
+                "seggio_n_13": 176,
+                "seggio_n_14": 125,
+                "seggio_n_15": 20,
+                "seggio_n_16": 30,
+                "seggio_n_17": 20
+            }
+        },
+        {
+            "nominativo": "PATANE' ALBERTO",
+            "voti": {
+                "totali": 360,
+                "seggio_n_13": 135,
+                "seggio_n_14": 159,
+                "seggio_n_15": 36,
+                "seggio_n_16": 16,
+                "seggio_n_17": 14
+            }
+        },
+        {
+            "nominativo": "SAPIENZA MARCO",
+            "voti": {
+                "totali": 443,
+                "seggio_n_13": 89,
+                "seggio_n_14": 195,
+                "seggio_n_15": 14,
+                "seggio_n_16": 45,
+                "seggio_n_17": 100
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "ARCORIA ANTONIO",
+            "voti": {
+                "totali": 327,
+                "seggio_n_13": 44,
+                "seggio_n_14": 57,
+                "seggio_n_15": 43,
+                "seggio_n_16": 178,
+                "seggio_n_17": 5
+            }
+        },
+        {
+            "nominativo": "LA MORELLA MATTEO LIVIO CARLO detto \"Bizzarro\"",
+            "voti": {
+                "totali": 295,
+                "seggio_n_13": 127,
+                "seggio_n_14": 74,
+                "seggio_n_15": 42,
+                "seggio_n_16": 7,
+                "seggio_n_17": 45
+            }
+        },
+        {
+            "nominativo": "PUGLISI MARTINA",
+            "voti": {
+                "totali": 327,
+                "seggio_n_13": 67,
+                "seggio_n_14": 165,
+                "seggio_n_15": 43,
+                "seggio_n_16": 48,
+                "seggio_n_17": 4
+            }
+        }
+    ],
+    "voti": {
+        "totali": 3056,
+        "seggio_n_13": 1007,
+        "seggio_n_14": 1050,
+        "seggio_n_15": 328,
+        "seggio_n_16": 461,
+        "seggio_n_17": 210
+    },
+    "aventi_diritto": 5670,
+    "perc_votanti": 53.9
+}

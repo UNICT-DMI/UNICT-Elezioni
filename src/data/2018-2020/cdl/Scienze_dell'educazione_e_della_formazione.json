@@ -1,0 +1,225 @@
+{
+    "dipartimento": "SCIENZE DELL'EDUCAZIONE E DELLA FORMAZIONE-Laurea (D.M.270/2004)\nSCIENZE EDUCATIVE PER L'INFANZIA-Laurea (D.M.270/2004)\nEDUCATORE DELL'INFANZIA-Laurea Triennale (D.M. 509/99)\nSCIENZE DELL'EDUCAZIONE E DELLA FORMAZIONE-Laurea Triennale (D.M. 509/99)",
+    "seggi_da_assegnare": "5",
+    "schede": {
+        "bianche": {
+            "totali": 10,
+            "seggio_n_32": 10
+        },
+        "nulle": {
+            "totali": 22,
+            "seggio_n_32": 22
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_32": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "5,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 47,
+                "seggio_n_32": 47
+            }
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "0,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 42,
+                "seggio_n_32": 42
+            }
+        },
+        {
+            "nome": "SUPPORTO STUDENTI",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "5,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 89,
+                "seggio_n_32": 89
+            }
+        },
+        {
+            "nome": "M.S.U. EVOLUTION",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "32,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 32,
+                "seggio_n_32": 32
+            }
+        },
+        {
+            "totale": 210
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "SARANITI Isabella",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 31,
+                "seggio_n_32": 31
+            }
+        },
+        {
+            "nominativo": "GULLIFA Palma Emanuela",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 12,
+                "seggio_n_32": 12
+            }
+        },
+        {
+            "nominativo": "BATTAGLIA Gabriele Mauro",
+            "lista": "SUPPORTO STUDENTI",
+            "voti": {
+                "totali": 54,
+                "seggio_n_32": 54
+            }
+        },
+        {
+            "nominativo": "PARRELLA Karol",
+            "lista": "SUPPORTO STUDENTI",
+            "voti": {
+                "totali": 10,
+                "seggio_n_32": 10
+            }
+        },
+        {
+            "nominativo": "SCELLATO Silvia",
+            "lista": "M.S.U. EVOLUTION",
+            "voti": {
+                "totali": 20,
+                "seggio_n_32": 20
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "CIRAVOLO Miriam",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 1,
+                "seggio_n_32": 1
+            }
+        },
+        {
+            "nominativo": "RICCI Marika Simona Rita",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 5,
+                "seggio_n_32": 5
+            }
+        },
+        {
+            "nominativo": "ZINGALE Noemi",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 9,
+                "seggio_n_32": 9
+            }
+        },
+        {
+            "nominativo": "DI FEDE Valentina Alessia",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_32": 1
+            }
+        },
+        {
+            "nominativo": "TOSTO Donatella Francesca",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_32": 1
+            }
+        },
+        {
+            "nominativo": "PATTI Alessandra",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 2,
+                "seggio_n_32": 2
+            }
+        },
+        {
+            "nominativo": "FISICHELLA Giorgia",
+            "lista": "SUPPORTO STUDENTI",
+            "voti": {
+                "totali": 7,
+                "seggio_n_32": 7
+            }
+        },
+        {
+            "nominativo": "PATERNO' Gabriella",
+            "lista": "SUPPORTO STUDENTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_32": 0
+            }
+        },
+        {
+            "nominativo": "ROSSITTO Enza",
+            "lista": "SUPPORTO STUDENTI",
+            "voti": {
+                "totali": 9,
+                "seggio_n_32": 9
+            }
+        },
+        {
+            "nominativo": "RAPISARDA Sabrina",
+            "lista": "M.S.U. EVOLUTION",
+            "voti": {
+                "totali": 9,
+                "seggio_n_32": 9
+            }
+        },
+        {
+            "nominativo": "WAGNER Sara Federica",
+            "lista": "M.S.U. EVOLUTION",
+            "voti": {
+                "totali": 1,
+                "seggio_n_32": 1
+            }
+        },
+        {
+            "nominativo": "GANGI Rossella",
+            "lista": "M.S.U. EVOLUTION",
+            "voti": {
+                "totali": 1,
+                "seggio_n_32": 1
+            }
+        }
+    ],
+    "quoziente": 42.0,
+    "votanti": {
+        "totali": 242,
+        "percentuale": 24.27,
+        "seggio_n_32": 242
+    },
+    "elettori": {
+        "totali": 997,
+        "seggio_n_32": 997
+    }
+}

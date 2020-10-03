@@ -1,0 +1,41 @@
+{
+    "dipartimento": "SCIENZE GEOLOGICHE-Laurea Magistrale biennale (D.M.270/2004)\nSCIENZE GEOLOGICHE APPLICATE ALLA GESTIONE DEL TERRITORIO E DELLE SUE RISORSE-Laurea Specialistica biennale (D.M.\n509/99)",
+    "quorum": true,
+    "seggi_da_assegnare": 3,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "GAGLIANO MARCO",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "STROSCIO ANTONIO",
+            "voti": 7
+        },
+        {
+            "nome_candidato": "TREFFILETTI ALESSANDRO",
+            "voti": 11
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "DIANO ANGELO",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "FOTI ALESSANDRO",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "GIUFFRIDA ALESSANDRO",
+            "voti": 2
+        }
+    ],
+    "totale_voti": 27,
+    "aventi_diritto": 48,
+    "perc_votanti": 56.25
+}

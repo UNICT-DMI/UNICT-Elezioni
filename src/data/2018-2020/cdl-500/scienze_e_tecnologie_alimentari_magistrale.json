@@ -1,0 +1,24 @@
+{
+    "dipartimento": "SCIENZE E TECNOLOGIE ALIMENTARI magistrale",
+    "quorum": false,
+    "seggi_da_assegnare": 3,
+    "schede": {
+        "bianche": 2,
+        "nulle": 2,
+        "contestate": 0
+    },
+    "eletti": [],
+    "non_eletti": [
+        {
+            "nome_candidato": "FAVARA Claudia",
+            "voti": 11
+        },
+        {
+            "nome_candidato": "REALE Graziana",
+            "voti": 1
+        }
+    ],
+    "totale_voti": 16,
+    "aventi_diritto": 108,
+    "perc_votanti": 14.81
+}

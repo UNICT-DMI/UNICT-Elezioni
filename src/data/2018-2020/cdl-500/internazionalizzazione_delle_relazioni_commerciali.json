@@ -1,0 +1,20 @@
+{
+    "dipartimento": "INTERNAZIONALIZZAZIONE DELLE RELAZIONI COMMERCIALI",
+    "quorum": true,
+    "seggi_da_assegnare": 3,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "LA SPINA Cristian",
+            "voti": 11
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 11,
+    "aventi_diritto": 52,
+    "perc_votanti": 21.15
+}

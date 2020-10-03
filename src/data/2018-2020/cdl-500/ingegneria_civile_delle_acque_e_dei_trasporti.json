@@ -1,0 +1,41 @@
+{
+    "dipartimento": "INGEGNERIA CIVILE DELLE ACQUE E DEI TRASPORTI",
+    "quorum": true,
+    "seggi_da_assegnare": 3,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "ANFUSO Fabio Giovanni",
+            "voti": 22
+        },
+        {
+            "nome_candidato": "FAZIO Martina",
+            "voti": 13
+        },
+        {
+            "nome_candidato": "STANCAMPIANO Gloria",
+            "voti": 13
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "CARDILE Giuseppe",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "DELL'AIRA Francesco",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "MOSCHETTO Antonino Andrea",
+            "voti": 12
+        }
+    ],
+    "totale_voti": 66,
+    "aventi_diritto": 98,
+    "perc_votanti": 67.35
+}

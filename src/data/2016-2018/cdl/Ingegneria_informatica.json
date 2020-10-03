@@ -1,0 +1,405 @@
+{
+    "dipartimento": "INGEGNERIA INFORMATICA-Laurea (D.M.270/2004)\nINGEGNERIA DELLE TELECOMUNICAZIONI-Laurea Triennale (D.M. 509/99)\nINGEGNERIA INFORMATICA-Laurea Triennale (D.M. 509/99)\nINGEGNERIA TELEMATICA-Laurea Triennale (D.M. 509/99)",
+    "seggi_da_assegnare": "5",
+    "schede": {
+        "bianche": {
+            "totali": 24,
+            "seggio_n_29": 24
+        },
+        "nulle": {
+            "totali": 4,
+            "seggio_n_29": 4
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_29": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "CONTROCAMPUS",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "15,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 15,
+                "seggio_n_29": 15
+            }
+        },
+        {
+            "nome": "GIOVANI CIDEC",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "16,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 16,
+                "seggio_n_29": 16
+            }
+        },
+        {
+            "nome": "ARCH\u00c8",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "22,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 22,
+                "seggio_n_29": 22
+            }
+        },
+        {
+            "nome": "ACTEA",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "5,6",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 59,
+                "seggio_n_29": 59
+            }
+        },
+        {
+            "nome": "CITING",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "52,6",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 106,
+                "seggio_n_29": 106
+            }
+        },
+        {
+            "nome": "UNIVERSIT\u00c0 POPOLARE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "12,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 12,
+                "seggio_n_29": 12
+            }
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "14,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 14,
+                "seggio_n_29": 14
+            }
+        },
+        {
+            "nome": "LIBERTAS \u2010 LIBERI E FORTI",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "23,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 23,
+                "seggio_n_29": 23
+            }
+        },
+        {
+            "totale": 267
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "TAMBE' PHILIP",
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 11,
+                "seggio_n_29": 11
+            }
+        },
+        {
+            "nominativo": "FERRIGNO GAETANO",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 30,
+                "seggio_n_29": 30
+            }
+        },
+        {
+            "nominativo": "BARBAGALLO REBECCA",
+            "lista": "CITING",
+            "voti": {
+                "totali": 65,
+                "seggio_n_29": 65
+            }
+        },
+        {
+            "nominativo": "GERLONI ILARIO GABRIELE",
+            "lista": "CITING",
+            "voti": {
+                "totali": 30,
+                "seggio_n_29": 30
+            }
+        },
+        {
+            "nominativo": "SUERI PIERFRANCESCO",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 9,
+                "seggio_n_29": 9
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "STRANO NUNZIA MARTINA",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 8,
+                "seggio_n_29": 8
+            }
+        },
+        {
+            "nominativo": "CONIGLIO TONINO",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 1,
+                "seggio_n_29": 1
+            }
+        },
+        {
+            "nominativo": "PAPA MARCO",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 1,
+                "seggio_n_29": 1
+            }
+        },
+        {
+            "nominativo": "CUTRERA ALESSANDRO",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 0,
+                "seggio_n_29": 0
+            }
+        },
+        {
+            "nominativo": "GORGONE FEDERICO",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 4,
+                "seggio_n_29": 4
+            }
+        },
+        {
+            "nominativo": "TROVATO PAOLO ANTONIO",
+            "lista": "GIOVANI CIDEC",
+            "voti": {
+                "totali": 3,
+                "seggio_n_29": 3
+            }
+        },
+        {
+            "nominativo": "LUCIFORA ANTONINO",
+            "lista": "GIOVANI CIDEC",
+            "voti": {
+                "totali": 11,
+                "seggio_n_29": 11
+            }
+        },
+        {
+            "nominativo": "SAGLIMBENE ROSARIO",
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 3,
+                "seggio_n_29": 3
+            }
+        },
+        {
+            "nominativo": "SOLERTE DAMIANO",
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 2,
+                "seggio_n_29": 2
+            }
+        },
+        {
+            "nominativo": "VALENTI LUCA ROSARIO",
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 4,
+                "seggio_n_29": 4
+            }
+        },
+        {
+            "nominativo": "DI MAURO LUCA ANTONINO",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 8,
+                "seggio_n_29": 8
+            }
+        },
+        {
+            "nominativo": "MANTEGNA GIUSEPPE",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 5,
+                "seggio_n_29": 5
+            }
+        },
+        {
+            "nominativo": "SCANDURA FRANCESCO",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_29": 0
+            }
+        },
+        {
+            "nominativo": "MESSINA ANDREA",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 9,
+                "seggio_n_29": 9
+            }
+        },
+        {
+            "nominativo": "LOSI ALESSIO",
+            "lista": "CITING",
+            "voti": {
+                "totali": 4,
+                "seggio_n_29": 4
+            }
+        },
+        {
+            "nominativo": "IACHETTA FRANCESCO MARIA",
+            "lista": "CITING",
+            "voti": {
+                "totali": 0,
+                "seggio_n_29": 0
+            }
+        },
+        {
+            "nominativo": "BARBERA ADOLFO",
+            "lista": "CITING",
+            "voti": {
+                "totali": 0,
+                "seggio_n_29": 0
+            }
+        },
+        {
+            "nominativo": "CARUSO ALFIO",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 7,
+                "seggio_n_29": 7
+            }
+        },
+        {
+            "nominativo": "PRANIO GIANMARCO",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 2,
+                "seggio_n_29": 2
+            }
+        },
+        {
+            "nominativo": "SCARVAGLIERI ANTONIO",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 7,
+                "seggio_n_29": 7
+            }
+        },
+        {
+            "nominativo": "L'EPISCOPO GABRIELE",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_29": 1
+            }
+        },
+        {
+            "nominativo": "PISTRITTO FRANCESCO",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_29": 1
+            }
+        },
+        {
+            "nominativo": "ROSSITTO DAVIDE",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 2,
+                "seggio_n_29": 2
+            }
+        },
+        {
+            "nominativo": "GAVAZZI ALBERTO MICHELE",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_29": 1
+            }
+        },
+        {
+            "nominativo": "GROSSO GIOVANFRANCESCO",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_29": 0
+            }
+        },
+        {
+            "nominativo": "PARISI ANDREA",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_29": 0
+            }
+        },
+        {
+            "nominativo": "SANTANGELO GAETANO MARIA",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 5,
+                "seggio_n_29": 5
+            }
+        },
+        {
+            "nominativo": "MOLE' GIOVANNI",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 6,
+                "seggio_n_29": 6
+            }
+        }
+    ],
+    "quoziente": 53.4,
+    "votanti": {
+        "totali": 295,
+        "percentuale": 31.18,
+        "seggio_n_29": 295
+    },
+    "elettori": {
+        "totali": 946,
+        "seggio_n_29": 946
+    }
+}

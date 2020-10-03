@@ -1,0 +1,36 @@
+{
+    "dipartimento": "LINGUE E CULTURE EUROPEE ED EXTRAEUROPEE-Laurea Magistrale biennale (D.M.270/2004)\nLINGUE E CULTURE EUROPEE ED EXTRAEUROPEE-Laurea Specialistica biennale (D.M. 509/99)",
+    "quorum": false,
+    "seggi_da_assegnare": 6,
+    "schede": {
+        "bianche": 2,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [],
+    "non_eletti": [
+        {
+            "nome_candidato": "ANTOCI SOFIA",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "CARUSO VERONICA",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "DEL POPOLO MANUELA",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "GIANGRASSO MARCO",
+            "voti": 15
+        },
+        {
+            "nome_candidato": "MIGLIORE MARIACRISTINA",
+            "voti": 2
+        }
+    ],
+    "totale_voti": 29,
+    "aventi_diritto": 238,
+    "perc_votanti": 12.18
+}

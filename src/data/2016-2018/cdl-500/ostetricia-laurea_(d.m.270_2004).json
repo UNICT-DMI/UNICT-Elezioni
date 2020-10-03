@@ -1,0 +1,49 @@
+{
+    "dipartimento": "OSTETRICIA-Laurea (D.M.270/2004)\nOSTETRICA/O-Laurea Triennale (D.M. 509/99)",
+    "quorum": true,
+    "seggi_da_assegnare": 6,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "COLTRARO CHIARA",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "CUCCHIARA ERIKA",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "DI PASQUALE ALESSANDRA",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "D'URSO MICHELLE",
+            "voti": 8
+        },
+        {
+            "nome_candidato": "FALCO MARTA",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "MOBILIA ANGELA",
+            "voti": 6
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "DI GRAZIA DAMIANA",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "GUARNERA ELISA",
+            "voti": 0
+        }
+    ],
+    "totale_voti": 37,
+    "aventi_diritto": 58,
+    "perc_votanti": 63.79
+}

@@ -1,0 +1,28 @@
+{
+    "dipartimento": "SCIENZE FILOSOFICHE-Laurea Magistrale biennale (D.M.270/2004)\nSTORIA DELLA FILOSOFIA-Laurea Specialistica biennale (D.M. 509/99)",
+    "quorum": true,
+    "seggi_da_assegnare": 3,
+    "schede": {
+        "bianche": 0,
+        "nulle": 3,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "INGALLINA PIETRO",
+            "voti": 7
+        },
+        {
+            "nome_candidato": "MUSUMECI DANIELE",
+            "voti": 25
+        },
+        {
+            "nome_candidato": "SUMA SAMUELE",
+            "voti": 12
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 47,
+    "aventi_diritto": 167,
+    "perc_votanti": 28.14
+}

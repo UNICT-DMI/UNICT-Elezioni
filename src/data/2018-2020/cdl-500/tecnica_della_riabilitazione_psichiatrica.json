@@ -1,0 +1,33 @@
+{
+    "dipartimento": "TECNICA DELLA RIABILITAZIONE PSICHIATRICA",
+    "quorum": true,
+    "seggi_da_assegnare": 4,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "FARO Dalila Giovanna Agata Antonia",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "GRAMILLANO Mariapaola",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "GUERRERA Francesco",
+            "voti": 12
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "ARCIGLIONE Elena Anna Maria",
+            "voti": 0
+        }
+    ],
+    "totale_voti": 17,
+    "aventi_diritto": 36,
+    "perc_votanti": 47.22
+}

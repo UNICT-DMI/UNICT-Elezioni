@@ -1,0 +1,32 @@
+{
+    "dipartimento": "TECNICHE DI RADIOLOGIA MEDICA, PER IMMAGINI E RADIOTERAPIA-Laurea (D.M.270/2004)\nTECNICHE DI RADIOLOGIA MEDICA PER IMMAGINI E RADIOTERAPIA-Laurea Triennale (D.M. 509/99)",
+    "quorum": true,
+    "seggi_da_assegnare": 6,
+    "schede": {
+        "bianche": 1,
+        "nulle": 1,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "ALOISIO MARIA LUISA",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "DI FAZIO ORNELLA",
+            "voti": 8
+        },
+        {
+            "nome_candidato": "GIGLIUTO FLAVIA",
+            "voti": 7
+        },
+        {
+            "nome_candidato": "SPITALE STEFANIA LUCIA",
+            "voti": 5
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 25,
+    "aventi_diritto": 48,
+    "perc_votanti": 52.08
+}

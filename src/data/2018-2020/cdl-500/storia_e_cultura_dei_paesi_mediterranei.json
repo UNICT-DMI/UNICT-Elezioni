@@ -1,0 +1,20 @@
+{
+    "dipartimento": "STORIA E CULTURA DEI PAESI MEDITERRANEI",
+    "quorum": false,
+    "seggi_da_assegnare": 4,
+    "schede": {
+        "bianche": 2,
+        "nulle": 2,
+        "contestate": 0
+    },
+    "eletti": [],
+    "non_eletti": [
+        {
+            "nome_candidato": "EMMANUELE Marco Salvatore - detto \"Emanuele\" o \"Marco\"",
+            "voti": 9
+        }
+    ],
+    "totale_voti": 13,
+    "aventi_diritto": 88,
+    "perc_votanti": 14.77
+}

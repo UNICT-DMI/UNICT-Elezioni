@@ -1,0 +1,156 @@
+{
+    "dipartimento": "SCIENZE BIOLOGICHE-Laurea (D.M.270/2004)\nSCIENZE BIOLOGICHE-Laurea Triennale (D.M. 509/99)",
+    "seggi_da_assegnare": "5",
+    "schede": {
+        "bianche": {
+            "totali": 25,
+            "seggio_n_20": 25
+        },
+        "nulle": {
+            "totali": 30,
+            "seggio_n_20": 30
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_20": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "7,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 7,
+                "seggio_n_20": 7
+            }
+        },
+        {
+            "nome": "WE LOVE UNICT",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "2,2",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 53,
+                "seggio_n_20": 53
+            }
+        },
+        {
+            "nome": "UNIVERSIT\u00c0 POPOLARE",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "16,2",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "3"
+            },
+            "voti": {
+                "totali": 67,
+                "seggio_n_20": 67
+            }
+        },
+        {
+            "totale": 127
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "MENDOZA RUVIC ESGUERRA",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 22,
+                "seggio_n_20": 22
+            }
+        },
+        {
+            "nominativo": "FABBIO LUCA ROSARIO ANGELO",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 14,
+                "seggio_n_20": 14
+            }
+        },
+        {
+            "nominativo": "DI VITA MARIA GIOVANNA",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 3,
+                "seggio_n_20": 3
+            }
+        },
+        {
+            "nominativo": "RUSSO GAETANO",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 62,
+                "seggio_n_20": 62
+            }
+        },
+        {
+            "nominativo": "LICATA LUCA",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 1,
+                "seggio_n_20": 1
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "PATANE' DAVIDE",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 7,
+                "seggio_n_20": 7
+            }
+        },
+        {
+            "nominativo": "MARCHESE MARTA MARIA",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 12,
+                "seggio_n_20": 12
+            }
+        },
+        {
+            "nominativo": "DI GREGORIO MARIA OTTAVIA",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_20": 0
+            }
+        },
+        {
+            "nominativo": "LA COGNATA THELMA",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 2,
+                "seggio_n_20": 2
+            }
+        },
+        {
+            "nominativo": "ABDEL HAMED RICCARDO",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_20": 0
+            }
+        }
+    ],
+    "quoziente": 25.4,
+    "votanti": {
+        "totali": 182,
+        "percentuale": 23.24,
+        "seggio_n_20": 182
+    },
+    "elettori": {
+        "totali": 783,
+        "seggio_n_20": 783
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "dipartimento": "FISICA E ASTRONOMIA",
+    "quorum": true,
+    "seggi_da_assegnare": 2,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "CENSABELLA Maria",
+            "voti": 23
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 23,
+    "aventi_diritto": 71,
+    "perc_votanti": 32.39
+}

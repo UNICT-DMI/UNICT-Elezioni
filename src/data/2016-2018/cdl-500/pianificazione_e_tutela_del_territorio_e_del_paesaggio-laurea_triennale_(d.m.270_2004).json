@@ -1,0 +1,89 @@
+{
+    "dipartimento": "PIANIFICAZIONE E TUTELA DEL TERRITORIO E DEL PAESAGGIO-Laurea triennale (D.M.270/2004)\nPIANIFICAZIONE, PROGETTAZIONE E GESTIONE DEL TERRITORIO E DELL'AMBIENTE-Laurea (D.M.270/2004)\nPROGETTAZIONE E GESTIONE DI AREE A VERDE, PARCHI E GIARDINI-Laurea Triennale (D.M.509/99)\nTECNOLOGIE E PIANIFICAZIONE PER IL TERRITORIO E L'AMBIENTE-Laurea Triennale (D.M. 509/99)",
+    "quorum": true,
+    "seggi_da_assegnare": 6,
+    "schede": {
+        "bianche": 5,
+        "nulle": 2,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "CUTULI GIUSEPPE",
+            "voti": 29
+        },
+        {
+            "nome_candidato": "GIUFFRIDA CARMELO ANDREA",
+            "voti": 8
+        },
+        {
+            "nome_candidato": "GRECO ANTONINO",
+            "voti": 30
+        },
+        {
+            "nome_candidato": "LANDRO NORBERT",
+            "voti": 26
+        },
+        {
+            "nome_candidato": "PIRRONE ANDREA",
+            "voti": 14
+        },
+        {
+            "nome_candidato": "TODERO ALESSANDRO MARIO FELICE",
+            "voti": 6
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "BIRRIOLO SALVATORE",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "GALEA ROMANO",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "GIALLI GIORGIO",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "GRIMALDI LUCA",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "LI PUMA FULVIA MARIA VALENTINA",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "LO GIUDICE DAVIDE",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "MESSINA ROBERTO",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "RACITI NICOLA",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "SAPIENZA GAETANO TOMMASO",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "SPAMPINATO MADDALENA",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "TORRISI RUGGERO",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "TROVATO GIUSEPPE MAURIZIO",
+            "voti": 2
+        }
+    ],
+    "totale_voti": 140,
+    "aventi_diritto": 312,
+    "perc_votanti": 44.87
+}

@@ -1,0 +1,29 @@
+{
+    "dipartimento": "SCIENZE DELLO SPETTACOLO E COMUNICAZIONE MULTIMEDIALE-Laurea Magistrale biennale (D.M.270/2004)\nCOMUNICAZIONE DELLA CULTURA E DELLO SPETTACOLO-Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 3,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "IMBROGIANO AGATA",
+            "voti": 9
+        },
+        {
+            "nome_candidato": "LA PAGLIA ZAIRA",
+            "voti": 22
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "MUSUMECI ELISA",
+            "voti": 0
+        }
+    ],
+    "totale_voti": 31,
+    "aventi_diritto": 144,
+    "perc_votanti": 21.53
+}

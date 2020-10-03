@@ -1,0 +1,28 @@
+{
+    "dipartimento": "FILOLOGIA CLASSICA",
+    "quorum": true,
+    "seggi_da_assegnare": 3,
+    "schede": {
+        "bianche": 1,
+        "nulle": 2,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "INGRAO INGRAO Annamaria",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "POIDOMANI Simona",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "SICILIANO Carola",
+            "voti": 15
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 23,
+    "aventi_diritto": 88,
+    "perc_votanti": 26.14
+}

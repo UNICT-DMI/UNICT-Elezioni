@@ -1,0 +1,49 @@
+{
+    "dipartimento": "SCIENZE AMBIENTALI E NATURALI",
+    "quorum": true,
+    "seggi_da_assegnare": 6,
+    "schede": {
+        "bianche": 7,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "FUSARI Francesco",
+            "voti": 22
+        },
+        {
+            "nome_candidato": "MAGISTRO Damiana",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "PORROVECCHIO Manuela",
+            "voti": 20
+        },
+        {
+            "nome_candidato": "SICLARI Eleonora",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "SQUADRITO Alfio",
+            "voti": 7
+        },
+        {
+            "nome_candidato": "VIRZI Federica",
+            "voti": 9
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "CRIMI Federica",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "D'ALPA Francesco",
+            "voti": 2
+        }
+    ],
+    "totale_voti": 78,
+    "aventi_diritto": 247,
+    "perc_votanti": 31.58
+}

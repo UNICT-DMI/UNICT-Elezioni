@@ -1,0 +1,65 @@
+{
+    "dipartimento": "FORMAZIONE DI OPERATORI TURISTICI",
+    "quorum": true,
+    "seggi_da_assegnare": 5,
+    "schede": {
+        "bianche": 8,
+        "nulle": 16,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "BARBERA Jessica",
+            "voti": 16
+        },
+        {
+            "nome_candidato": "CANTARELLA Claudia",
+            "voti": 22
+        },
+        {
+            "nome_candidato": "PREMATURO Domiziana",
+            "voti": 25
+        },
+        {
+            "nome_candidato": "QUACECI Luca",
+            "voti": 21
+        },
+        {
+            "nome_candidato": "SANGIORGI Aurora",
+            "voti": 20
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "BERTOLO Alessia",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "CATRA Mario",
+            "voti": 12
+        },
+        {
+            "nome_candidato": "DE SANTIS Camilla",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "GIUSTOLISI Anna",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "SANFILIPPO Vanessa",
+            "voti": 8
+        },
+        {
+            "nome_candidato": "SPAMPINATO Giuseppe",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "VALASTRO Daniele",
+            "voti": 14
+        }
+    ],
+    "totale_voti": 168,
+    "aventi_diritto": 429,
+    "perc_votanti": 39.16
+}

@@ -1,0 +1,37 @@
+{
+    "dipartimento": "INGEGNERIA CIVILE STRUTTURALE E GEOTECNICA-Laurea Magistrale biennale (D.M.270/2004)\nINGEGNERIA DELLE STRUTTURE-Laurea Specialistica biennale (D.M. 509/99)\nINGEGNERIA GEOTECNICA-Laurea Specialistica biennale (D.M. 509/99)",
+    "quorum": true,
+    "seggi_da_assegnare": 3,
+    "schede": {
+        "bianche": 2,
+        "nulle": 2,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "RANDAZZO GIOVANNI",
+            "voti": 20
+        },
+        {
+            "nome_candidato": "RANNISI ORIANA",
+            "voti": 12
+        },
+        {
+            "nome_candidato": "SCALIA MARCO",
+            "voti": 17
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "FRASCHILLA VITO GIUSEPPE",
+            "voti": 8
+        },
+        {
+            "nome_candidato": "SARDO ROSSELLA",
+            "voti": 1
+        }
+    ],
+    "totale_voti": 62,
+    "aventi_diritto": 93,
+    "perc_votanti": 66.67
+}

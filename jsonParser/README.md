@@ -60,14 +60,22 @@ If you don't want to install anything go **[here](#usage-with-docker)**.
 - *parser.py*
 
   ```bash
-  python3 parser.py $fileName [0|other]
+  python3 parser.py $fileName [0|1|2|other]
   ```
 
   `$fileName` is the name of the file from which you want extract data. 
 
-  `[0|other]` indicates the type of data to parse.
+  `[0|1|2|other]` indicates the type of data to parse.
 
-  You shall choose `0` if you want extract data from departments pdf. Otherwise, `other` if you want to extract political body.
+  You shall choose:
+  
+  · `0` if you want to extract departments and CdL with a number of student greater than 500.
+
+  · `1` if you want to extract CdL with a number of student fewer than 500.
+
+  · `2` if you want to extract Medicine election.
+
+  · `other` if you want to extract political body.
 
 
 
@@ -107,16 +115,24 @@ docker build --tag unict-elezioni/parser .
 - *parser.py*
 
   ```bash
-  docker run -itv $path/:/etc/parser/disk unict-elezioni/parser ./code/parser.py ./disk/$fileName [0|other]
+  docker run -itv $path/:/etc/parser/disk unict-elezioni/parser ./code/parser.py ./disk/$fileName [0|1|2|other]
   ```
 
   `$path` is where you want to map the docker volume and where is stored the `$fileName`.
 
   `$fileName` is the name of the file from which you want extract data. 
 
-  `[0|other]` indicates the type of data to parse.
+  `[0|1|2|other]` indicates the type of data to parse.
 
-  You shall choose `0` if you want extract data from departments pdf. Otherwise, `other` if you want to extract political body.
+  You shall choose:
+
+  · `0` if you want to extract departments and CdL with a number of student greater than 500.
+
+  · `1` if you want to extract CdL with a number of student fewer than 500.
+
+  · `2` if you want to extract Medicine election.
+
+  · `other` if you want to extract political body.
 
 
 

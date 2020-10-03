@@ -1,0 +1,24 @@
+{
+    "dipartimento": "SCIENZE PEDAGOGICHE E PROGETTAZIONE EDUCATIVA",
+    "quorum": true,
+    "seggi_da_assegnare": 3,
+    "schede": {
+        "bianche": 3,
+        "nulle": 1,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "SACCUTA Luisa",
+            "voti": 28
+        },
+        {
+            "nome_candidato": "SAMBATARO Francesca",
+            "voti": 14
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 46,
+    "aventi_diritto": 248,
+    "perc_votanti": 18.55
+}

@@ -1,0 +1,69 @@
+{
+    "dipartimento": "SCIENZE GEOLOGICHE-Laurea (D.M.270/2004)\nSCIENZE GEOLOGICHE-Laurea Triennale (D.M. 509/99)",
+    "quorum": true,
+    "seggi_da_assegnare": 5,
+    "schede": {
+        "bianche": 4,
+        "nulle": 6,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "DE GIORGIO GIOVANNI",
+            "voti": 12
+        },
+        {
+            "nome_candidato": "GALATI PIZZOLANTE LUCA",
+            "voti": 15
+        },
+        {
+            "nome_candidato": "SACCO GAIA",
+            "voti": 14
+        },
+        {
+            "nome_candidato": "SANGIORGI VIVIANA RITA",
+            "voti": 37
+        },
+        {
+            "nome_candidato": "TORTORICI FRANCESCO PIO",
+            "voti": 35
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "AIELLO MARIO",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "FIGLIOLI ANNA",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "GIAMMUSSO GREGORY SALVATORE detto \"Gregory\" o \"Salvatore\"",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "MAMMOLITI EMANUELE",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "MESSINA MIRKO",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "PELLIGRA LORENZO",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "RUSSO DAMIANO",
+            "voti": 8
+        },
+        {
+            "nome_candidato": "SGARANO ANTONINO",
+            "voti": 4
+        }
+    ],
+    "totale_voti": 152,
+    "aventi_diritto": 245,
+    "perc_votanti": 62.04
+}

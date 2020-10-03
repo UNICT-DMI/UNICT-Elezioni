@@ -1,0 +1,41 @@
+{
+    "dipartimento": "INGEGNERIA CIVILE DELLE ACQUE E DEI TRASPORTI-Laurea Magistrale biennale (D.M.270/2004)\nINGEGNERIA DEI TRASPORTI-Laurea Specialistica biennale (D.M. 509/99)\nINGEGNERIA IDRAULICA-Laurea Specialistica biennale (D.M. 509/99)",
+    "quorum": true,
+    "seggi_da_assegnare": 3,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "ASERO FRANCESCA",
+            "voti": 14
+        },
+        {
+            "nome_candidato": "CADULLO GIUSEPPE",
+            "voti": 9
+        },
+        {
+            "nome_candidato": "CARLETTA CATALDO detto \"Aldo\"",
+            "voti": 11
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "DE ALESSANDRO ALESSANDRO",
+            "voti": 9
+        },
+        {
+            "nome_candidato": "DI FRANCESCO GIUSEPPE",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "MONDELLI GIANMARIA",
+            "voti": 8
+        }
+    ],
+    "totale_voti": 55,
+    "aventi_diritto": 100,
+    "perc_votanti": 55.0
+}

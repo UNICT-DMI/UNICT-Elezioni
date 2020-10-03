@@ -1,0 +1,33 @@
+{
+    "dipartimento": "ELECTRICAL ENGINEERING",
+    "quorum": true,
+    "seggi_da_assegnare": 2,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "AMATO Stefano Antonio",
+            "voti": 10
+        },
+        {
+            "nome_candidato": "CIFALINO' Giulia",
+            "voti": 19
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "LUCIFORA Alberto",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "PARLA Leandro",
+            "voti": 2
+        }
+    ],
+    "totale_voti": 37,
+    "aventi_diritto": 57,
+    "perc_votanti": 64.91
+}

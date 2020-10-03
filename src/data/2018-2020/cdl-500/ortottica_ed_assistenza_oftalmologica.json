@@ -1,0 +1,28 @@
+{
+    "dipartimento": "ORTOTTICA ED ASSISTENZA OFTALMOLOGICA",
+    "quorum": true,
+    "seggi_da_assegnare": 6,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "FALLICA Giorgio",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "FASULO Andrea",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "MODICA Simona",
+            "voti": 9
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 17,
+    "aventi_diritto": 32,
+    "perc_votanti": 53.13
+}

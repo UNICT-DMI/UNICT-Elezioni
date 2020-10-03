@@ -1,0 +1,28 @@
+{
+    "dipartimento": "MATEMATICA",
+    "quorum": true,
+    "seggi_da_assegnare": 5,
+    "schede": {
+        "bianche": 16,
+        "nulle": 2,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "CATANIA Valentina",
+            "voti": 14
+        },
+        {
+            "nome_candidato": "POLIGNANO Luisa",
+            "voti": 39
+        },
+        {
+            "nome_candidato": "SCIACCA Susanna",
+            "voti": 2
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 73,
+    "aventi_diritto": 174,
+    "perc_votanti": 41.95
+}

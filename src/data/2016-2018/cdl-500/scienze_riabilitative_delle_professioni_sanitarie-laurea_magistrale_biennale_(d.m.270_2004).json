@@ -1,0 +1,36 @@
+{
+    "dipartimento": "SCIENZE RIABILITATIVE DELLE PROFESSIONI SANITARIE-Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 5,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "GALLO GIUSEPPE ROSARIO",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "LA ROSA CLAUDIA",
+            "voti": 8
+        },
+        {
+            "nome_candidato": "MAMMANA MARIA TERESA",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "MICELI DENISE",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "TOMASELLI ALFIO ANDREA",
+            "voti": 11
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 28,
+    "aventi_diritto": 81,
+    "perc_votanti": 34.57
+}

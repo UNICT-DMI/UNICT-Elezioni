@@ -1,0 +1,20 @@
+{
+    "dipartimento": "BIOLOGIA SANITARIA E CELLULARE - MOLECOLARE",
+    "quorum": false,
+    "seggi_da_assegnare": 6,
+    "schede": {
+        "bianche": 5,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [],
+    "non_eletti": [
+        {
+            "nome_candidato": "ALECCI Antonio",
+            "voti": 2
+        }
+    ],
+    "totale_voti": 7,
+    "aventi_diritto": 176,
+    "perc_votanti": 3.98
+}

@@ -1,0 +1,28 @@
+{
+    "dipartimento": "INFORMATICA magistrale",
+    "quorum": true,
+    "seggi_da_assegnare": 5,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "BORZI' Stefano",
+            "voti": 11
+        },
+        {
+            "nome_candidato": "PIAZZA Alessio",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "STECCANELLA Luca",
+            "voti": 11
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 25,
+    "aventi_diritto": 81,
+    "perc_votanti": 30.86
+}

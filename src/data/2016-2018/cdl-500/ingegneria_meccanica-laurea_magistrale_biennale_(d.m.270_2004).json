@@ -1,0 +1,24 @@
+{
+    "dipartimento": "INGEGNERIA MECCANICA-Laurea Magistrale biennale (D.M.270/2004)\nINGEGNERIA MECCANICA-Laurea Specialistica biennale (D.M. 509/99)",
+    "quorum": true,
+    "seggi_da_assegnare": 3,
+    "schede": {
+        "bianche": 1,
+        "nulle": 1,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "GURGONE ANTONIO",
+            "voti": 26
+        },
+        {
+            "nome_candidato": "ORLANDO STEFANO",
+            "voti": 40
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 68,
+    "aventi_diritto": 135,
+    "perc_votanti": 50.37
+}

@@ -1,22 +1,19 @@
 from Target import Target
 import json
 
+@Target.register
 class Organo(Target):
-
-    def __word_not_in_update(self, word, text) -> None:
-        while word not in text[self.i].upper():
-            self.i += 1
-    
-    def __word_not_in_control(self, word, text) -> bool:
-        return(bool(word not in text[self.i].upper()))
 
     def __find_name_organo(self, text) -> str:
         nome_organo = ""
-        while self.__word_not_in_control("IN SENO", text):
-            if self.__word_not_in_control("AGGIORNAMENTO", text):
+        while self.word_not_in_control("IN SENO", text):
+            if self.word_not_in_control("AGGIORNAMENTO", text):
                 nome_organo += (text[self.i].upper() + " ")
             self.i += 1
-        nome_organo += (text[self.i].upper() + " ") 
+        nome_organo += (text[self.i].upper() + " ")
+        self.i += 1
+        if not self.word_not_in_control("ERSU", text):
+            nome_organo += (text[self.i].upper() + " ")
         return nome_organo.strip()
 
     def __automatic_control1(self, index, text) -> bool:
@@ -37,12 +34,13 @@ class Organo(Target):
         while j < len_text:
             if self.is_integer(text1[j]):
                 num += text1[j]
-                find_d = self.__automatic_control1(j, text2)
+                if not find_d:
+                    find_d = self.__automatic_control1(j, text2)
             elif num != "":
                 self.__automatic_control2(find_d, list_of_seats, list_of_not, num)
                 num = ""
                 find_d = False
-            else:
+            elif not find_d:
                 find_d = self.__automatic_control1(j, text2)
             j += 1
         if num != "":
@@ -71,7 +69,7 @@ class Organo(Target):
 
 
     def __find_list_of_seats(self, text, list_of_not) -> object:
-        self.__word_not_in_update("LISTE", text)
+        self.word_not_in_update("LISTE", text)
         sub = " "
         for s in text[self.i]:
             if self.is_integer(s):
@@ -84,17 +82,27 @@ class Organo(Target):
         else:
             return self.__find_list_of_seats_manual(text1, list_of_not)
     
+    def __get_name_list(self, text, split_text) -> str:
+        name_list = ""
+        while not self.is_integer(split_text[0][0]):
+            name_list += (split_text[0].pop(0) + " ")
+            if len(split_text[0]) <= 0:
+                self.i += 1
+                split_text[0] = text[self.i].split()
+                name_list += self.__get_name_list(text, split_text)
+                return name_list
+        return name_list
+
     def __get_info_lists(self, text) -> object:
-        self.__word_not_in_update("TOTALE", text)
+        self.word_not_in_update("TOTALE", text)
         self.i += 1
         info_list = []
-        while self.__word_not_in_control("TOTALE", text):
-            split_text = text[self.i].split()
-            name_list = ""
-            while not self.is_integer(split_text[0]):
-                name_list += (split_text.pop(0) + " ")
+        while self.word_not_in_control("TOTALE", text):
+            split_text = [1]
+            split_text[0] = text[self.i].split()
+            name_list = self.__get_name_list(text, split_text)
             self.lists.append(name_list.strip())
-            info_list.append(split_text)
+            info_list.append(split_text[0])
             self.i += 1        
         return info_list
 
@@ -105,7 +113,7 @@ class Organo(Target):
 
     def __get_type(self, text, type) -> object: 
         lista = []
-        while self.__word_not_in_control(type, text):
+        while self.word_not_in_control(type, text):
             self.i += 1
         text[self.i] = text[self.i].replace(",", ".")
         text[self.i] = text[self.i].replace("%", "")

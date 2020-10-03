@@ -1,0 +1,24 @@
+{
+    "dipartimento": "TECNICHE AUDIOPROTESICHE",
+    "quorum": true,
+    "seggi_da_assegnare": 5,
+    "schede": {
+        "bianche": 1,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "DOVICO Rosaria - detta \"Sarah\"",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "GRANCAGNOLO Vincenzo",
+            "voti": 11
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 16,
+    "aventi_diritto": 34,
+    "perc_votanti": 47.06
+}

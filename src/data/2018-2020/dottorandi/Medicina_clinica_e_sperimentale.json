@@ -1,0 +1,24 @@
+{
+    "dipartimento": "MEDICINA CLINICA E SPERIMENTALE",
+    "quorum": true,
+    "seggi_da_assegnare": 2,
+    "schede": {
+        "bianche": 0,
+        "nulle": 1,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "PUGLISI Fabrizio",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "SCICALI Roberto",
+            "voti": 2
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 4,
+    "aventi_diritto": 17,
+    "perc_votanti": 23.53
+}

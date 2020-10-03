@@ -1,0 +1,28 @@
+{
+    "dipartimento": "STORIA DELL'ARTE E BENI CULTURALI",
+    "quorum": true,
+    "seggi_da_assegnare": 3,
+    "schede": {
+        "bianche": 0,
+        "nulle": 1,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "LA ROSA Angela",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "LIOTTA Emanuele",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "NAPOLI Adriano",
+            "voti": 9
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 21,
+    "aventi_diritto": 126,
+    "perc_votanti": 16.67
+}

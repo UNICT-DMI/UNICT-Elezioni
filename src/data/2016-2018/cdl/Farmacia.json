@@ -1,0 +1,474 @@
+{
+    "dipartimento": "FARMACIA-Laurea Magistrale a ciclo unico (D.M. 270/2004)\nFARMACIA-Laurea Specialistica a ciclo unico (D.M. 509/99)",
+    "seggi_da_assegnare": "8",
+    "schede": {
+        "bianche": {
+            "totali": 18,
+            "seggio_n_23": 18
+        },
+        "nulle": {
+            "totali": 19,
+            "seggio_n_23": 19
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_23": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "18,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 18,
+                "seggio_n_23": 18
+            }
+        },
+        {
+            "nome": "ARCH\u00c8",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "41,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 41,
+                "seggio_n_23": 41
+            }
+        },
+        {
+            "nome": "ACTEA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "42,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 42,
+                "seggio_n_23": 42
+            }
+        },
+        {
+            "nome": "KOIN\u00c8",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "4,5",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 48,
+                "seggio_n_23": 48
+            }
+        },
+        {
+            "nome": "UNIVERSIT\u00c0 POPOLARE",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "16,5",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 60,
+                "seggio_n_23": 60
+            }
+        },
+        {
+            "nome": "PHARMA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "19,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 19,
+                "seggio_n_23": 19
+            }
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "32,5",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 76,
+                "seggio_n_23": 76
+            }
+        },
+        {
+            "nome": "LIBERTAS \u2010 LIBERI E FORTI",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "13,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 13,
+                "seggio_n_23": 13
+            }
+        },
+        {
+            "nome": "ARCADIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "31,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 31,
+                "seggio_n_23": 31
+            }
+        },
+        {
+            "totale": 348
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "BUCOLO GIORGIO",
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 34,
+                "seggio_n_23": 34
+            }
+        },
+        {
+            "nominativo": "PATERNO' MARIA GRAZIA",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 20,
+                "seggio_n_23": 20
+            }
+        },
+        {
+            "nominativo": "RAMPELLO CHIARA",
+            "lista": "KOIN\u00c8",
+            "voti": {
+                "totali": 34,
+                "seggio_n_23": 34
+            }
+        },
+        {
+            "nominativo": "RUSSO ADRIANA",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 24,
+                "seggio_n_23": 24
+            }
+        },
+        {
+            "nominativo": "SCORCIAPINO MELANIA",
+            "lista": "PHARMA",
+            "voti": {
+                "totali": 13,
+                "seggio_n_23": 13
+            }
+        },
+        {
+            "nominativo": "MURATORE ALBERTO",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 21,
+                "seggio_n_23": 21
+            }
+        },
+        {
+            "nominativo": "LA GENGA RICHARD",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 51,
+                "seggio_n_23": 51
+            }
+        },
+        {
+            "nominativo": "LA PORTA GIORGIO",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 13,
+                "seggio_n_23": 13
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "RIGANO FEDERICA",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 11,
+                "seggio_n_23": 11
+            }
+        },
+        {
+            "nominativo": "MACCARRONE MARIA GIULIA",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 7,
+                "seggio_n_23": 7
+            }
+        },
+        {
+            "nominativo": "MIO EMANUELA",
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 5,
+                "seggio_n_23": 5
+            }
+        },
+        {
+            "nominativo": "RUSSO GABRIELE",
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 0,
+                "seggio_n_23": 0
+            }
+        },
+        {
+            "nominativo": "VECCHIO MASSIMILIANO",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_23": 0
+            }
+        },
+        {
+            "nominativo": "CASIRARO GIORGIA",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 13,
+                "seggio_n_23": 13
+            }
+        },
+        {
+            "nominativo": "SARVA' BENEDETTA FRANCESCA",
+            "lista": "KOIN\u00c8",
+            "voti": {
+                "totali": 11,
+                "seggio_n_23": 11
+            }
+        },
+        {
+            "nominativo": "MANNANICI STEFANO",
+            "lista": "KOIN\u00c8",
+            "voti": {
+                "totali": 2,
+                "seggio_n_23": 2
+            }
+        },
+        {
+            "nominativo": "BALISTRERI GABRIELE",
+            "lista": "KOIN\u00c8",
+            "voti": {
+                "totali": 1,
+                "seggio_n_23": 1
+            }
+        },
+        {
+            "nominativo": "CANTARELLA CHIARA ANGELA",
+            "lista": "KOIN\u00c8",
+            "voti": {
+                "totali": 0,
+                "seggio_n_23": 0
+            }
+        },
+        {
+            "nominativo": "CARUSO EVA DILETTA",
+            "lista": "KOIN\u00c8",
+            "voti": {
+                "totali": 0,
+                "seggio_n_23": 0
+            }
+        },
+        {
+            "nominativo": "DI GRAZIA MARTINA",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 19,
+                "seggio_n_23": 19
+            }
+        },
+        {
+            "nominativo": "ZAFARANA MARIELENA",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 1,
+                "seggio_n_23": 1
+            }
+        },
+        {
+            "nominativo": "BASILE GIOVANNI MARIA",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_23": 0
+            }
+        },
+        {
+            "nominativo": "AMOROSO ELENA",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_23": 0
+            }
+        },
+        {
+            "nominativo": "LUPO ANTONIO",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 6,
+                "seggio_n_23": 6
+            }
+        },
+        {
+            "nominativo": "NINFA LUCIA",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_23": 0
+            }
+        },
+        {
+            "nominativo": "MINEO GABRIELE",
+            "lista": "PHARMA",
+            "voti": {
+                "totali": 2,
+                "seggio_n_23": 2
+            }
+        },
+        {
+            "nominativo": "BURRAGATO RITA",
+            "lista": "PHARMA",
+            "voti": {
+                "totali": 4,
+                "seggio_n_23": 4
+            }
+        },
+        {
+            "nominativo": "BUSACCA LORIS",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_23": 0
+            }
+        },
+        {
+            "nominativo": "LODATO MATTEO",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 1,
+                "seggio_n_23": 1
+            }
+        },
+        {
+            "nominativo": "RISTAGNO ANNA",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 3,
+                "seggio_n_23": 3
+            }
+        },
+        {
+            "nominativo": "VENEZIA GIULIA",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 4,
+                "seggio_n_23": 4
+            }
+        },
+        {
+            "nominativo": "CALCAGNO RENATA",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 2,
+                "seggio_n_23": 2
+            }
+        },
+        {
+            "nominativo": "TUDISCO SERGIO",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 1,
+                "seggio_n_23": 1
+            }
+        },
+        {
+            "nominativo": "INTILE ORNELLA",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 2,
+                "seggio_n_23": 2
+            }
+        },
+        {
+            "nominativo": "VECCHIO MARINA",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 10,
+                "seggio_n_23": 10
+            }
+        },
+        {
+            "nominativo": "SCIACCA CHIARA",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_23": 1
+            }
+        },
+        {
+            "nominativo": "REINA DAVIDE",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_23": 0
+            }
+        },
+        {
+            "nominativo": "GAMBUZZA MARIARITA",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_23": 0
+            }
+        },
+        {
+            "nominativo": "RIZZO MARCO",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 4,
+                "seggio_n_23": 4
+            }
+        },
+        {
+            "nominativo": "GIUFFRIDA SAMUELE",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_23": 1
+            }
+        }
+    ],
+    "quoziente": 43.5,
+    "votanti": {
+        "totali": 385,
+        "percentuale": 40.19,
+        "seggio_n_23": 385
+    },
+    "elettori": {
+        "totali": 958,
+        "seggio_n_23": 958
+    }
+}

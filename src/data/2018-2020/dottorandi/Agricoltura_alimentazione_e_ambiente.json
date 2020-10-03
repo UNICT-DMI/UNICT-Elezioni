@@ -1,0 +1,20 @@
+{
+    "dipartimento": "AGRICOLTURA, ALIMENTAZIONE E AMBIENTE",
+    "quorum": true,
+    "seggi_da_assegnare": 2,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "SELVAGGI Roberta",
+            "voti": 8
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 8,
+    "aventi_diritto": 27,
+    "perc_votanti": 29.63
+}

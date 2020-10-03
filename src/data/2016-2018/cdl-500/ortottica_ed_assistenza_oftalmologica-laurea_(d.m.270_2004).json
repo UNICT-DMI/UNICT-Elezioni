@@ -1,0 +1,40 @@
+{
+    "dipartimento": "ORTOTTICA ED ASSISTENZA OFTALMOLOGICA-Laurea (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 6,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "CANDIDO ELISA",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "DI RAIMONDO ERIKA",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "LOMBARDO ROBERTA FRANCESCA",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "PITTALA' SONIA",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "RISICATO ROBERTA VICKY",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "RUSSO FEDERICA",
+            "voti": 3
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 20,
+    "aventi_diritto": 28,
+    "perc_votanti": 71.43
+}

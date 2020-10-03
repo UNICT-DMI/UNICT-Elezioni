@@ -1,0 +1,28 @@
+{
+    "dipartimento": "LINGUE PER LA COOPERAZIONE INTERNAZIONALE",
+    "quorum": true,
+    "seggi_da_assegnare": 4,
+    "schede": {
+        "bianche": 1,
+        "nulle": 2,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "FERRERA Sara",
+            "voti": 16
+        },
+        {
+            "nome_candidato": "RAGONESE Rosa",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "SORTINO Giorgiamichela",
+            "voti": 17
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 40,
+    "aventi_diritto": 182,
+    "perc_votanti": 21.98
+}

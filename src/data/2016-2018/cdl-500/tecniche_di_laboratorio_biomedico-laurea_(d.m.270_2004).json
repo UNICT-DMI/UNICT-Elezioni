@@ -1,0 +1,37 @@
+{
+    "dipartimento": "TECNICHE DI LABORATORIO BIOMEDICO-Laurea (D.M.270/2004)\nTECNICHE DI LABORATORIO BIOMEDICO-Laurea Triennale (D.M. 509/99)",
+    "quorum": true,
+    "seggi_da_assegnare": 6,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "BARCHI SIMONE",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "CARCIONE GIADA",
+            "voti": 10
+        },
+        {
+            "nome_candidato": "CHISARI GIORGIA",
+            "voti": 10
+        },
+        {
+            "nome_candidato": "INGRASSIA VALENTINA, DEBORAH, LORENA",
+            "voti": 8
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "BARBAGALLO SALVATORE",
+            "voti": 0
+        }
+    ],
+    "totale_voti": 33,
+    "aventi_diritto": 46,
+    "perc_votanti": 71.74
+}

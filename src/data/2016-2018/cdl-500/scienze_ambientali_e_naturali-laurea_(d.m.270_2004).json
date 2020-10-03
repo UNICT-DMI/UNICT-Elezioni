@@ -1,0 +1,69 @@
+{
+    "dipartimento": "SCIENZE AMBIENTALI E NATURALI-Laurea (D.M.270/2004)\nSCIENZE AMBIENTALI-Laurea Triennale (D.M. 509/99)\nSCIENZE ECOLOGICHE ED EDUCAZIONE AMBIENTALE-Laurea Triennale (D.M. 509/99)",
+    "quorum": true,
+    "seggi_da_assegnare": 6,
+    "schede": {
+        "bianche": 0,
+        "nulle": 3,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "BARBAGALLO GIUSEPPE",
+            "voti": 16
+        },
+        {
+            "nome_candidato": "COSTANZO AGATA",
+            "voti": 7
+        },
+        {
+            "nome_candidato": "CULTRERA FRANCESCO",
+            "voti": 7
+        },
+        {
+            "nome_candidato": "D'AMICO DOMENICO",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "FILI' VINCENZO",
+            "voti": 12
+        },
+        {
+            "nome_candidato": "FRAGALA' MARIKA",
+            "voti": 4
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "COSTANZO GIULIA MARIA RACHELE",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "GIOVINETTO ENRICO",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "GUELI ROBERTA",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "LOMBARDO ANDREA",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "RAGUSA ALESSANDRO",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "RIPAMONTI MARCO",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "SANTAPAOLA DARIO",
+            "voti": 0
+        }
+    ],
+    "totale_voti": 63,
+    "aventi_diritto": 206,
+    "perc_votanti": 30.58
+}

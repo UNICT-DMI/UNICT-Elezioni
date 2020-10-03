@@ -1,0 +1,28 @@
+{
+    "dipartimento": "CHIMICA BIOMOLECOLARE",
+    "quorum": true,
+    "seggi_da_assegnare": 3,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "DISTEFANO Alessia",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "GIUFFRIDA Jose'",
+            "voti": 8
+        },
+        {
+            "nome_candidato": "LA PIANA Luana",
+            "voti": 3
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 14,
+    "aventi_diritto": 41,
+    "perc_votanti": 34.15
+}

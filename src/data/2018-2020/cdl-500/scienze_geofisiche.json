@@ -1,0 +1,28 @@
+{
+    "dipartimento": "SCIENZE GEOFISICHE",
+    "quorum": true,
+    "seggi_da_assegnare": 3,
+    "schede": {
+        "bianche": 1,
+        "nulle": 1,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "LODATO Claudia",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "OCCHIPINTI Martina",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "ROMEO Francesco",
+            "voti": 10
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 22,
+    "aventi_diritto": 42,
+    "perc_votanti": 52.38
+}

@@ -1,0 +1,109 @@
+{
+    "dipartimento": "COORDINAMENTO DELLA SCUOLA DENOMINATA FACOLTA' DI MEDICINA",
+    "schede": {
+        "bianche": {
+            "totali": 313,
+            "seggio_n_13": 73,
+            "seggio_n_14": 108,
+            "seggio_n_15": 69,
+            "seggio_n_16": 40,
+            "seggio_n_17": 23
+        },
+        "nulle": {
+            "totali": 70,
+            "seggio_n_13": 16,
+            "seggio_n_14": 32,
+            "seggio_n_15": 6,
+            "seggio_n_16": 5,
+            "seggio_n_17": 11
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_13": 0,
+            "seggio_n_14": 0,
+            "seggio_n_15": 0,
+            "seggio_n_16": 0,
+            "seggio_n_17": 0
+        }
+    },
+    "eletti": [
+        {
+            "nominativo": "CRISTALDI MARCO",
+            "voti": {
+                "totali": 477,
+                "seggio_n_13": 190,
+                "seggio_n_14": 148,
+                "seggio_n_15": 80,
+                "seggio_n_16": 44,
+                "seggio_n_17": 15
+            }
+        },
+        {
+            "nominativo": "FIUME CARMELO",
+            "voti": {
+                "totali": 465,
+                "seggio_n_13": 272,
+                "seggio_n_14": 154,
+                "seggio_n_15": 30,
+                "seggio_n_16": 7,
+                "seggio_n_17": 2
+            }
+        },
+        {
+            "nominativo": "LEONCINI ALESSIO",
+            "voti": {
+                "totali": 488,
+                "seggio_n_13": 253,
+                "seggio_n_14": 162,
+                "seggio_n_15": 27,
+                "seggio_n_16": 40,
+                "seggio_n_17": 6
+            }
+        },
+        {
+            "nominativo": "RUSSO SIMONA GIUSEPPA",
+            "voti": {
+                "totali": 413,
+                "seggio_n_13": 43,
+                "seggio_n_14": 93,
+                "seggio_n_15": 48,
+                "seggio_n_16": 195,
+                "seggio_n_17": 34
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "ALETTA FRANCESCO JUNIOR",
+            "voti": {
+                "totali": 308,
+                "seggio_n_13": 64,
+                "seggio_n_14": 92,
+                "seggio_n_15": 53,
+                "seggio_n_16": 56,
+                "seggio_n_17": 43
+            }
+        },
+        {
+            "nominativo": "MELITA GIUSEPPE",
+            "voti": {
+                "totali": 377,
+                "seggio_n_13": 94,
+                "seggio_n_14": 213,
+                "seggio_n_15": 63,
+                "seggio_n_16": 4,
+                "seggio_n_17": 3
+            }
+        }
+    ],
+    "voti": {
+        "totali": 2911,
+        "seggio_n_13": 1005,
+        "seggio_n_14": 1002,
+        "seggio_n_15": 376,
+        "seggio_n_16": 391,
+        "seggio_n_17": 137
+    },
+    "aventi_diritto": 4318,
+    "perc_votanti": 67.42
+}

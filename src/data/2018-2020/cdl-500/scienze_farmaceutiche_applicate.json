@@ -1,0 +1,65 @@
+{
+    "dipartimento": "SCIENZE FARMACEUTICHE APPLICATE",
+    "quorum": true,
+    "seggi_da_assegnare": 8,
+    "schede": {
+        "bianche": 2,
+        "nulle": 1,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "BALZANO Rosa Maria Grazia",
+            "voti": 13
+        },
+        {
+            "nome_candidato": "CARUSO Gianmarco",
+            "voti": 7
+        },
+        {
+            "nome_candidato": "GALATI RANDO Rosaria",
+            "voti": 19
+        },
+        {
+            "nome_candidato": "GENOVESE Roberta",
+            "voti": 13
+        },
+        {
+            "nome_candidato": "IACOBELLO Federico",
+            "voti": 13
+        },
+        {
+            "nome_candidato": "LOMBARDO Benedetta",
+            "voti": 8
+        },
+        {
+            "nome_candidato": "MARLETTA Maria Grazia Emanuela",
+            "voti": 8
+        },
+        {
+            "nome_candidato": "MONTES Hilary",
+            "voti": 42
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "DI MARCO Martina",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "GUARNERA Carmelo",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "LIGGIERI Graziella",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "MAVILLA Mirco Mattia",
+            "voti": 1
+        }
+    ],
+    "totale_voti": 136,
+    "aventi_diritto": 470,
+    "perc_votanti": 28.94
+}

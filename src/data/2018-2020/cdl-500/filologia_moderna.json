@@ -1,0 +1,36 @@
+{
+    "dipartimento": "FILOLOGIA MODERNA",
+    "quorum": true,
+    "seggi_da_assegnare": 5,
+    "schede": {
+        "bianche": 1,
+        "nulle": 3,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "BUFOLINO Francesco",
+            "voti": 16
+        },
+        {
+            "nome_candidato": "DISTEFANO Egle",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "LA SPINA Federico, Agatino",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "RIZZO Agata Agrippina",
+            "voti": 11
+        },
+        {
+            "nome_candidato": "TRINGALI Antonino",
+            "voti": 25
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 59,
+    "aventi_diritto": 282,
+    "perc_votanti": 20.92
+}

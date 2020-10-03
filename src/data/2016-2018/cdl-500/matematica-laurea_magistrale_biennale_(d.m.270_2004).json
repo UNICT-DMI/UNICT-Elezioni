@@ -1,0 +1,28 @@
+{
+    "dipartimento": "MATEMATICA-Laurea Magistrale biennale (D.M.270/2004)\nMATEMATICA-Laurea Specialistica biennale (D.M. 509/99)",
+    "quorum": true,
+    "seggi_da_assegnare": 4,
+    "schede": {
+        "bianche": 1,
+        "nulle": 1,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "NINFA MARCO",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "TRALONGO SERENA",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "ZAMPINO SALVATORE",
+            "voti": 5
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 17,
+    "aventi_diritto": 73,
+    "perc_votanti": 23.29
+}

@@ -1,0 +1,24 @@
+{
+    "dipartimento": "MATEMATICA magistrale",
+    "quorum": true,
+    "seggi_da_assegnare": 5,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "SACCONE Damiano",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "SCIUTO Rita",
+            "voti": 13
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 19,
+    "aventi_diritto": 64,
+    "perc_votanti": 29.69
+}

@@ -1,0 +1,105 @@
+{
+    "dipartimento": "SCIENZE MOTORIE-Laurea (D.M.270/2004)\nSCIENZE DELLE ATTIVITA' MOTORIE E SPORTIVE-Laurea Triennale (D.M. 509/99)",
+    "quorum": true,
+    "seggi_da_assegnare": 7,
+    "schede": {
+        "bianche": 2,
+        "nulle": 5,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "ARONA GIUSEPPE",
+            "voti": 7
+        },
+        {
+            "nome_candidato": "CANNAVO' ANNA",
+            "voti": 15
+        },
+        {
+            "nome_candidato": "GALEANO FREDRIK",
+            "voti": 17
+        },
+        {
+            "nome_candidato": "LO BIANCO STEFANO",
+            "voti": 9
+        },
+        {
+            "nome_candidato": "SCUDERI SIMONE",
+            "voti": 16
+        },
+        {
+            "nome_candidato": "TAMBONE ANGELO",
+            "voti": 7
+        },
+        {
+            "nome_candidato": "VICARIO ELIA ARCANGELO",
+            "voti": 12
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "APOLLO DARIO",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "BARBAGALLO MARCO",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "BOTTE MARIAGABRIELLA",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "BRANCHINA VINCENZO AUGUSTO",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "BUSCEMI CARLO",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "CUSTORELLA ALESSIO",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "DI SILVESTRE VINCENZO",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "LO GRANDE SALVO WILLIAMS",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "RAZZA ROSARIO ALFREDO",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "SANTANGELO ANGELO",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "SCIACCA ALFIO",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "SCIUTO GIULIA",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "SPANO' ALBERTO",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "STRANO ALFIO GABRIELE",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "TORRISI SARA",
+            "voti": 3
+        }
+    ],
+    "totale_voti": 111,
+    "aventi_diritto": 396,
+    "perc_votanti": 28.03
+}

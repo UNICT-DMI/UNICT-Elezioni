@@ -1,0 +1,29 @@
+{
+    "dipartimento": "FILOLOGIA CLASSICA-Laurea Magistrale biennale (D.M.270/2004)\nFILOLOGIA CLASSICA-Laurea Specialistica biennale (D.M. 509/99)",
+    "quorum": true,
+    "seggi_da_assegnare": 3,
+    "schede": {
+        "bianche": 1,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "ROCCASALVA PAOLA",
+            "voti": 14
+        },
+        {
+            "nome_candidato": "SAVASTA FEDERICA",
+            "voti": 5
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "SCIRTO ANTONELLA",
+            "voti": 0
+        }
+    ],
+    "totale_voti": 20,
+    "aventi_diritto": 112,
+    "perc_votanti": 17.86
+}

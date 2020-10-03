@@ -1,0 +1,278 @@
+{
+    "dipartimento": "BENI CULTURALI-Laurea (D.M.270/2004)\nSCIENZE DEI BENI CULTURALI-Laurea Triennale (D.M. 509/99)",
+    "seggi_da_assegnare": "5",
+    "schede": {
+        "bianche": {
+            "totali": 15,
+            "seggio_n_9": 15
+        },
+        "nulle": {
+            "totali": 16,
+            "seggio_n_9": 16
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_9": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "17,6",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 49,
+                "seggio_n_9": 49
+            }
+        },
+        {
+            "nome": "CONTROCAMPUS",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "8,6",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 40,
+                "seggio_n_9": 40
+            }
+        },
+        {
+            "nome": "UNIVERSIT\u00c0 POPOLARE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "1,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 1,
+                "seggio_n_9": 1
+            }
+        },
+        {
+            "nome": "LIBERTAS \u2010 LIBERI E FORTI",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "23,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 23,
+                "seggio_n_9": 23
+            }
+        },
+        {
+            "nome": "ARCADIA",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "12,6",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 44,
+                "seggio_n_9": 44
+            }
+        },
+        {
+            "totale": 157
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "PAPPALARDO ARIELE",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 8,
+                "seggio_n_9": 8
+            }
+        },
+        {
+            "nominativo": "QUARTARONE MATTIA ANTONIO",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 13,
+                "seggio_n_9": 13
+            }
+        },
+        {
+            "nominativo": "BELLANUOVA ANDREA",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 8,
+                "seggio_n_9": 8
+            }
+        },
+        {
+            "nominativo": "LA CAVA VALERIO",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 25,
+                "seggio_n_9": 25
+            }
+        },
+        {
+            "nominativo": "SAPIENZA GAETANO",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 16,
+                "seggio_n_9": 16
+            }
+        },
+        {
+            "nominativo": "CATALANO MATTIA",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 26,
+                "seggio_n_9": 26
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "MANGANARO FRANCESCA MARIA",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 5,
+                "seggio_n_9": 5
+            }
+        },
+        {
+            "nominativo": "TESTA GIULIA",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 5,
+                "seggio_n_9": 5
+            }
+        },
+        {
+            "nominativo": "GRASSO ELEONORA",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 0,
+                "seggio_n_9": 0
+            }
+        },
+        {
+            "nominativo": "LOMBARDO RITA",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 7,
+                "seggio_n_9": 7
+            }
+        },
+        {
+            "nominativo": "M'BARKI SORAYA NADIA",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 1,
+                "seggio_n_9": 1
+            }
+        },
+        {
+            "nominativo": "PANTANO MANUEL",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 1,
+                "seggio_n_9": 1
+            }
+        },
+        {
+            "nominativo": "DI GUARDO ERIKA",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_9": 0
+            }
+        },
+        {
+            "nominativo": "D'AMBROGI GIULIA",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_9": 0
+            }
+        },
+        {
+            "nominativo": "CARCO' HARLEYN",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 2,
+                "seggio_n_9": 2
+            }
+        },
+        {
+            "nominativo": "PANEBIANCO MARIELLA",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_9": 0
+            }
+        },
+        {
+            "nominativo": "GATTUSO GRETA",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_9": 0
+            }
+        },
+        {
+            "nominativo": "PISTORIO CLAUDIA",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 2,
+                "seggio_n_9": 2
+            }
+        },
+        {
+            "nominativo": "PELLEGRINO SAMUELE",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_9": 0
+            }
+        },
+        {
+            "nominativo": "FIUMARA ELISABETTA",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_9": 0
+            }
+        },
+        {
+            "nominativo": "SANGIORGIO MONICA",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_9": 0
+            }
+        },
+        {
+            "nominativo": "RUSSO ENRICO",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 14,
+                "seggio_n_9": 14
+            }
+        }
+    ],
+    "quoziente": 31.4,
+    "votanti": {
+        "totali": 188,
+        "percentuale": 27.61,
+        "seggio_n_9": 188
+    },
+    "elettori": {
+        "totali": 681,
+        "seggio_n_9": 681
+    }
+}

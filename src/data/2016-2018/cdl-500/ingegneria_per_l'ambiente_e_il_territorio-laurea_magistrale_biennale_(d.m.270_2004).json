@@ -1,0 +1,29 @@
+{
+    "dipartimento": "INGEGNERIA PER L'AMBIENTE E IL TERRITORIO-Laurea Magistrale biennale (D.M.270/2004)\nINGEGNERIA PER L'AMBIENTE E IL TERRITORIO-Laurea Specialistica biennale (D.M. 509/99)",
+    "quorum": true,
+    "seggi_da_assegnare": 2,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "NICOLOSI DARIO",
+            "voti": 15
+        },
+        {
+            "nome_candidato": "ORLANDO RICCARDO",
+            "voti": 36
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "IMPELLIZZERI VALERIO ERNESTO",
+            "voti": 5
+        }
+    ],
+    "totale_voti": 56,
+    "aventi_diritto": 94,
+    "perc_votanti": 59.57
+}

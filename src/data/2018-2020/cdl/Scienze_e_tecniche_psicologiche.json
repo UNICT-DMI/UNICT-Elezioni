@@ -1,0 +1,394 @@
+{
+    "dipartimento": "SCIENZE E TECNICHE PSICOLOGICHE-Laurea (D.M.270/2004)\nSCIENZE E TECNICHE PSICOLOGICHE-Laurea Triennale (D.M. 509/99)",
+    "seggi_da_assegnare": "4",
+    "schede": {
+        "bianche": {
+            "totali": 18,
+            "seggio_n_31": 18
+        },
+        "nulle": {
+            "totali": 27,
+            "seggio_n_31": 27
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_31": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "67,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 67,
+                "seggio_n_31": 67
+            }
+        },
+        {
+            "nome": "OLTRE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "55,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 55,
+                "seggio_n_31": 55
+            }
+        },
+        {
+            "nome": "CONTROCAMPUS",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "4,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 4,
+                "seggio_n_31": 4
+            }
+        },
+        {
+            "nome": "NIKE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "30,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 30,
+                "seggio_n_31": 30
+            }
+        },
+        {
+            "nome": "UNIVERSITA' POPOLARE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "3,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 3,
+                "seggio_n_31": 3
+            }
+        },
+        {
+            "nome": "WE LOVE UNICT",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "5,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 5,
+                "seggio_n_31": 5
+            }
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "77,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 77,
+                "seggio_n_31": 77
+            }
+        },
+        {
+            "nome": "SUPPORTO STUDENTI",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "35,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 35,
+                "seggio_n_31": 35
+            }
+        },
+        {
+            "nome": "POPOLO DEGLI STUDENTI",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "51,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 51,
+                "seggio_n_31": 51
+            }
+        },
+        {
+            "totale": 327
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "MUNAFO' Manuela",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 25,
+                "seggio_n_31": 25
+            }
+        },
+        {
+            "nominativo": "MESSINA William",
+            "lista": "OLTRE",
+            "voti": {
+                "totali": 30,
+                "seggio_n_31": 30
+            }
+        },
+        {
+            "nominativo": "GALOFARO Valeria",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 28,
+                "seggio_n_31": 28
+            }
+        },
+        {
+            "nominativo": "DRAGO Alessia Maria",
+            "lista": "POPOLO DEGLI STUDENTI",
+            "voti": {
+                "totali": 40,
+                "seggio_n_31": 40
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "MAUGERI Andrea",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 5,
+                "seggio_n_31": 5
+            }
+        },
+        {
+            "nominativo": "TEGHINI Umberto",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 7,
+                "seggio_n_31": 7
+            }
+        },
+        {
+            "nominativo": "CURTO Giuliana",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 12,
+                "seggio_n_31": 12
+            }
+        },
+        {
+            "nominativo": "MONASTRA Dario",
+            "lista": "OLTRE",
+            "voti": {
+                "totali": 16,
+                "seggio_n_31": 16
+            }
+        },
+        {
+            "nominativo": "ALESSIO Margherita",
+            "lista": "OLTRE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        },
+        {
+            "nominativo": "PRIVITERA Giulia",
+            "lista": "OLTRE",
+            "voti": {
+                "totali": 2,
+                "seggio_n_31": 2
+            }
+        },
+        {
+            "nominativo": "PEZZINO Gloria Maria Rita",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 2,
+                "seggio_n_31": 2
+            }
+        },
+        {
+            "nominativo": "PIGNATARO Francesco",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        },
+        {
+            "nominativo": "LO CICERO Simona",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        },
+        {
+            "nominativo": "BINANTI Sofia",
+            "lista": "NIKE",
+            "voti": {
+                "totali": 30,
+                "seggio_n_31": 30
+            }
+        },
+        {
+            "nominativo": "VASTA Laura Rosa",
+            "lista": "NIKE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        },
+        {
+            "nominativo": "SCANDURA Morgana \u2010 detta \"Scandurra\"",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        },
+        {
+            "nominativo": "SPAMPINATO Valentina",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        },
+        {
+            "nominativo": "GRASSO Stefano",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        },
+        {
+            "nominativo": "CAMMARATA Lorenzo",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 2,
+                "seggio_n_31": 2
+            }
+        },
+        {
+            "nominativo": "IUVARA Enrica",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        },
+        {
+            "nominativo": "DI SIMONE Valentina",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 14,
+                "seggio_n_31": 14
+            }
+        },
+        {
+            "nominativo": "GAGLIANO Giuseppe",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 8,
+                "seggio_n_31": 8
+            }
+        },
+        {
+            "nominativo": "SEMINARA Rosaria",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 3,
+                "seggio_n_31": 3
+            }
+        },
+        {
+            "nominativo": "MANGANO Giuliana",
+            "lista": "SUPPORTO STUDENTI",
+            "voti": {
+                "totali": 29,
+                "seggio_n_31": 29
+            }
+        },
+        {
+            "nominativo": "PERNICE Davide",
+            "lista": "SUPPORTO STUDENTI",
+            "voti": {
+                "totali": 2,
+                "seggio_n_31": 2
+            }
+        },
+        {
+            "nominativo": "LENZO Alessandra",
+            "lista": "SUPPORTO STUDENTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        },
+        {
+            "nominativo": "ARDITA Giulia",
+            "lista": "SUPPORTO STUDENTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        },
+        {
+            "nominativo": "DI DIO Federica",
+            "lista": "POPOLO DEGLI STUDENTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        },
+        {
+            "nominativo": "FERRARA Irene",
+            "lista": "POPOLO DEGLI STUDENTI",
+            "voti": {
+                "totali": 3,
+                "seggio_n_31": 3
+            }
+        },
+        {
+            "nominativo": "LEOTTA Rosa Gloria",
+            "lista": "POPOLO DEGLI STUDENTI",
+            "voti": {
+                "totali": 4,
+                "seggio_n_31": 4
+            }
+        }
+    ],
+    "quoziente": 81.75,
+    "votanti": {
+        "totali": 372,
+        "percentuale": 37.31,
+        "seggio_n_31": 372
+    },
+    "elettori": {
+        "totali": 997,
+        "seggio_n_31": 997
+    }
+}

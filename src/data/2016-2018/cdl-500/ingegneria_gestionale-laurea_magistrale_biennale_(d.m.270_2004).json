@@ -1,0 +1,29 @@
+{
+    "dipartimento": "INGEGNERIA GESTIONALE-Laurea Magistrale biennale (D.M.270/2004)\nINGEGNERIA GESTIONALE-Laurea Specialistica biennale (D.M. 509/99)",
+    "quorum": true,
+    "seggi_da_assegnare": 2,
+    "schede": {
+        "bianche": 3,
+        "nulle": 3,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "ARICO' SALVATORE",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "GULINO FILIPPO DANIELE",
+            "voti": 38
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "GIUFFRIDA ANTONINO",
+            "voti": 1
+        }
+    ],
+    "totale_voti": 48,
+    "aventi_diritto": 169,
+    "perc_votanti": 28.4
+}

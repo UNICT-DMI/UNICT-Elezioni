@@ -1,0 +1,445 @@
+{
+    "dipartimento": "LINGUE PER LA COMUNICAZIONE INTERNAZIONALE-Laurea (D.M.270/2004)\nSCIENZE DELLA COMUNICAZIONE-Laurea (D.M.270/2004)\nSCIENZE E LINGUE PER LA COMUNICAZIONE-Laurea (D.M.270/2004)\nSCIENZE DELLA COMUNICAZIONE-Laurea Triennale (D.M. 509/99)\nSCIENZE PER LA COMUNICAZIONE INTERNAZIONALE-Laurea Triennale (D.M. 509/99)",
+    "seggi_da_assegnare": "8",
+    "schede": {
+        "bianche": {
+            "totali": 32,
+            "seggio_n_12": 32
+        },
+        "nulle": {
+            "totali": 9,
+            "seggio_n_12": 9
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_12": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "16,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 91,
+                "seggio_n_12": 91
+            }
+        },
+        {
+            "nome": "CONTROCAMPUS",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "36,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 36,
+                "seggio_n_12": 36
+            }
+        },
+        {
+            "nome": "ARCH\u00c8",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "31,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 31,
+                "seggio_n_12": 31
+            }
+        },
+        {
+            "nome": "KOIN\u00c8",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "6,5",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 44,
+                "seggio_n_12": 44
+            }
+        },
+        {
+            "nome": "UNIVERSIT\u00c0 POPOLARE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "27,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 27,
+                "seggio_n_12": 27
+            }
+        },
+        {
+            "nome": "NUOVA GENERAZIONE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "29,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 29,
+                "seggio_n_12": 29
+            }
+        },
+        {
+            "nome": "LIBERTAS \u2010 LIBERI E FORTI",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "7,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 7,
+                "seggio_n_12": 7
+            }
+        },
+        {
+            "nome": "ARCADIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "35,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 35,
+                "seggio_n_12": 35
+            }
+        },
+        {
+            "totale": 300
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "COSTANZO CARLOTTA",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 40,
+                "seggio_n_12": 40
+            }
+        },
+        {
+            "nominativo": "MANCUSO JOLANDA PAOLA",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 23,
+                "seggio_n_12": 23
+            }
+        },
+        {
+            "nominativo": "SANGIORGI VITTORIO",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 29,
+                "seggio_n_12": 29
+            }
+        },
+        {
+            "nominativo": "RUSSO MARTINA",
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 16,
+                "seggio_n_12": 16
+            }
+        },
+        {
+            "nominativo": "CUTAIA MARZIA",
+            "lista": "KOIN\u00c8",
+            "voti": {
+                "totali": 43,
+                "seggio_n_12": 43
+            }
+        },
+        {
+            "nominativo": "BIANCA MARTINA",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 11,
+                "seggio_n_12": 11
+            }
+        },
+        {
+            "nominativo": "BARBIROTTO LUCA",
+            "lista": "NUOVA GENERAZIONE",
+            "voti": {
+                "totali": 21,
+                "seggio_n_12": 21
+            }
+        },
+        {
+            "nominativo": "SALERNO GIULIANA AGATA",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 15,
+                "seggio_n_12": 15
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "VALASTRO GIULIANA",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_12": 0
+            }
+        },
+        {
+            "nominativo": "MELI MASSIMILIANO",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_12": 0
+            }
+        },
+        {
+            "nominativo": "DI STEFANO SEBASTIANO",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_12": 0
+            }
+        },
+        {
+            "nominativo": "NAUTA FERNANDA",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_12": 0
+            }
+        },
+        {
+            "nominativo": "HAJARI RIDA",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_12": 0
+            }
+        },
+        {
+            "nominativo": "PASTANELLA FRANCESCO ALBERTO",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_12": 0
+            }
+        },
+        {
+            "nominativo": "CAVALLARO ANDREA",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 2,
+                "seggio_n_12": 2
+            }
+        },
+        {
+            "nominativo": "CUTULI NICOLETTA",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 0,
+                "seggio_n_12": 0
+            }
+        },
+        {
+            "nominativo": "LODATO FEDERICA",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 0,
+                "seggio_n_12": 0
+            }
+        },
+        {
+            "nominativo": "LO RE ERIKA",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 0,
+                "seggio_n_12": 0
+            }
+        },
+        {
+            "nominativo": "MARAN CAROLINA",
+            "lista": "CONTROCAMPUS",
+            "voti": {
+                "totali": 2,
+                "seggio_n_12": 2
+            }
+        },
+        {
+            "nominativo": "FORMISANO GAIA RITA",
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 8,
+                "seggio_n_12": 8
+            }
+        },
+        {
+            "nominativo": "RIGGI SIMONE",
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 1,
+                "seggio_n_12": 1
+            }
+        },
+        {
+            "nominativo": "PISCITELLO GIACINTO SERGIO",
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 1,
+                "seggio_n_12": 1
+            }
+        },
+        {
+            "nominativo": "OLIVA ANTONIO",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_12": 0
+            }
+        },
+        {
+            "nominativo": "PITTERA DAMIANA",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 2,
+                "seggio_n_12": 2
+            }
+        },
+        {
+            "nominativo": "SAITTA FEDERICA",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 2,
+                "seggio_n_12": 2
+            }
+        },
+        {
+            "nominativo": "ZAPPALA' ALESSANDRO",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 5,
+                "seggio_n_12": 5
+            }
+        },
+        {
+            "nominativo": "BAGLIO GABRIELE",
+            "lista": "NUOVA GENERAZIONE",
+            "voti": {
+                "totali": 3,
+                "seggio_n_12": 3
+            }
+        },
+        {
+            "nominativo": "DIANELLA MERY",
+            "lista": "NUOVA GENERAZIONE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_12": 0
+            }
+        },
+        {
+            "nominativo": "CANNAVO' LUANA",
+            "lista": "NUOVA GENERAZIONE",
+            "voti": {
+                "totali": 3,
+                "seggio_n_12": 3
+            }
+        },
+        {
+            "nominativo": "ARONICA YURI",
+            "lista": "NUOVA GENERAZIONE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_12": 0
+            }
+        },
+        {
+            "nominativo": "FRANCALANZA SABRINA",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_12": 0
+            }
+        },
+        {
+            "nominativo": "D'AMICO FEDERICA",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 2,
+                "seggio_n_12": 2
+            }
+        },
+        {
+            "nominativo": "CANDIDO ROSSELLA",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_12": 0
+            }
+        },
+        {
+            "nominativo": "FASCETTA MIRIANA",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_12": 0
+            }
+        },
+        {
+            "nominativo": "FERRARA LUISA",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_12": 0
+            }
+        },
+        {
+            "nominativo": "PATTI ALESSIO ALFIO",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_12": 0
+            }
+        },
+        {
+            "nominativo": "SANFILIPPO ANGELA ILENIA",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_12": 1
+            }
+        },
+        {
+            "nominativo": "AMBROGIO DANIELE",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 2,
+                "seggio_n_12": 2
+            }
+        }
+    ],
+    "quoziente": 37.5,
+    "votanti": {
+        "totali": 341,
+        "percentuale": 19.63,
+        "seggio_n_12": 341
+    },
+    "elettori": {
+        "totali": 1737,
+        "seggio_n_12": 1737
+    }
+}

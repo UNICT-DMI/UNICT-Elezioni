@@ -1,0 +1,65 @@
+{
+    "dipartimento": "SCIENZE CHIMICHE - DSC",
+    "seggi_da_assegnare": "2",
+    "schede": {
+        "bianche": {
+            "totali": 0,
+            "seggio_n_21": 0
+        },
+        "nulle": {
+            "totali": 1,
+            "seggio_n_21": 1
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_21": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "DOTTORANDI SCIENZE CHIMICHE",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "0,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 11,
+                "seggio_n_21": 11
+            }
+        },
+        {
+            "totale": 11
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "GRECO ENRICO",
+            "lista": "DOTTORANDI SCIENZE CHIMICHE",
+            "voti": {
+                "totali": 5,
+                "seggio_n_21": 5
+            }
+        },
+        {
+            "nominativo": "DI BARI IVANA",
+            "lista": "DOTTORANDI SCIENZE CHIMICHE",
+            "voti": {
+                "totali": 6,
+                "seggio_n_21": 6
+            }
+        }
+    ],
+    "non_eletti": [],
+    "quoziente": 5.5,
+    "votanti": {
+        "totali": 12,
+        "percentuale": 66.67,
+        "seggio_n_21": 12
+    },
+    "elettori": {
+        "totali": 18,
+        "seggio_n_21": 18
+    }
+}

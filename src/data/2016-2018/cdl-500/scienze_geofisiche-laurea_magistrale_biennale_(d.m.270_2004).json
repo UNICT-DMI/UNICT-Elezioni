@@ -1,0 +1,37 @@
+{
+    "dipartimento": "SCIENZE GEOFISICHE-Laurea Magistrale biennale (D.M.270/2004)\nSCIENZE GEOFISICHE-Laurea Specialistica biennale (D.M. 509/99)",
+    "quorum": true,
+    "seggi_da_assegnare": 3,
+    "schede": {
+        "bianche": 0,
+        "nulle": 1,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "CUIUS ARIANNA, GRETA",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "PELLE ANGELO",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "RIZZA MARTINA",
+            "voti": 6
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "EPASTO GABRIELE",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "PAGANO MATTEO",
+            "voti": 1
+        }
+    ],
+    "totale_voti": 14,
+    "aventi_diritto": 34,
+    "perc_votanti": 41.18
+}

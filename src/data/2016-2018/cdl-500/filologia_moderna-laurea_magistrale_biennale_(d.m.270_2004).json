@@ -1,0 +1,49 @@
+{
+    "dipartimento": "FILOLOGIA MODERNA-Laurea Magistrale biennale (D.M.270/2004)\nFILOLOGIA MODERNA-Laurea Specialistica biennale (D.M. 509/99)",
+    "quorum": true,
+    "seggi_da_assegnare": 6,
+    "schede": {
+        "bianche": 2,
+        "nulle": 2,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "D'AGATA CHRISTIAN",
+            "voti": 12
+        },
+        {
+            "nome_candidato": "LA SPINA FEDERICO, AGATINO",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "PUGLISI FELICE ANTONIO",
+            "voti": 9
+        },
+        {
+            "nome_candidato": "RINDONE MARIO",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "SANTORO GIACOMO",
+            "voti": 35
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "CARDACI ROBERTA MARIA",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "LA ROSA KATIA GLORIA",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "MAROTTA ANNA",
+            "voti": 0
+        }
+    ],
+    "totale_voti": 63,
+    "aventi_diritto": 290,
+    "perc_votanti": 21.72
+}

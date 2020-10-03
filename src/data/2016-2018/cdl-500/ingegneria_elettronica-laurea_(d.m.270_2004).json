@@ -1,0 +1,65 @@
+{
+    "dipartimento": "INGEGNERIA ELETTRONICA-Laurea (D.M.270/2004)\nINGEGNERIA ELETTRONICA-Laurea Triennale (D.M. 509/99)",
+    "quorum": true,
+    "seggi_da_assegnare": 5,
+    "schede": {
+        "bianche": 21,
+        "nulle": 3,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "BRANCHINA ELENA",
+            "voti": 9
+        },
+        {
+            "nome_candidato": "COTTONE MARIO",
+            "voti": 30
+        },
+        {
+            "nome_candidato": "GIUFFRIDA ROSARIO VINCENZO",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "GRASSO GIORGIO",
+            "voti": 21
+        },
+        {
+            "nome_candidato": "PORTO FABRIZIO",
+            "voti": 47
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "ARANGIO GAETANO",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "BELLUOMO RUGGERO",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "CONSOLI FABRIZIO",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "GALOFARO ANDREA",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "MANCUSO FILIBERTO",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "MILANESE GIOVANNI",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "PUGLISI SALVATORE",
+            "voti": 2
+        }
+    ],
+    "totale_voti": 148,
+    "aventi_diritto": 474,
+    "perc_votanti": 31.22
+}

@@ -1,0 +1,33 @@
+{
+    "dipartimento": "SCIENZE RIABILITATIVE DELLE PROFESSIONI SANITARIE",
+    "quorum": true,
+    "seggi_da_assegnare": 5,
+    "schede": {
+        "bianche": 1,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "CARBONARO Michael Roberto",
+            "voti": 8
+        },
+        {
+            "nome_candidato": "D'ARMA Gaetano",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "SPINELLA Deborah",
+            "voti": 8
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "MOLINO Danilo Domenico",
+            "voti": 0
+        }
+    ],
+    "totale_voti": 21,
+    "aventi_diritto": 50,
+    "perc_votanti": 42.0
+}

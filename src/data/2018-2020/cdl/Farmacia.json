@@ -1,0 +1,336 @@
+{
+    "dipartimento": "FARMACIA-Laurea Magistrale a ciclo unico (D.M. 270/2004)\nFARMACIA-Laurea Specialistica a ciclo unico (D.M. 509/99)",
+    "seggi_da_assegnare": "7",
+    "schede": {
+        "bianche": {
+            "totali": 14,
+            "seggio_n_24": 14
+        },
+        "nulle": {
+            "totali": 16,
+            "seggio_n_24": 16
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_24": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "ARCHE'",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "2,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 2,
+                "seggio_n_24": 2
+            }
+        },
+        {
+            "nome": "MEGALIDEA",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "31,6",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "3"
+            },
+            "voti": {
+                "totali": 117,
+                "seggio_n_24": 117
+            }
+        },
+        {
+            "nome": "RISE",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "12,6",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 98,
+                "seggio_n_24": 98
+            }
+        },
+        {
+            "nome": "UNIVERSITA' POPOLARE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "10,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 10,
+                "seggio_n_24": 10
+            }
+        },
+        {
+            "nome": "KOINE'",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "30,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 30,
+                "seggio_n_24": 30
+            }
+        },
+        {
+            "nome": "WE LOVE UNICT",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "13,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 13,
+                "seggio_n_24": 13
+            }
+        },
+        {
+            "nome": "ALLEANZA UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "29,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 29,
+                "seggio_n_24": 29
+            }
+        },
+        {
+            "totale": 299
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "FISICHELLA Antonio",
+            "lista": "MEGALIDEA",
+            "voti": {
+                "totali": 95,
+                "seggio_n_24": 95
+            }
+        },
+        {
+            "nominativo": "MARCHESE Sofia",
+            "lista": "MEGALIDEA",
+            "voti": {
+                "totali": 16,
+                "seggio_n_24": 16
+            }
+        },
+        {
+            "nominativo": "MONTALTO Giuseppe",
+            "lista": "RISE",
+            "voti": {
+                "totali": 52,
+                "seggio_n_24": 52
+            }
+        },
+        {
+            "nominativo": "LICCIARDELLO Damiano",
+            "lista": "RISE",
+            "voti": {
+                "totali": 23,
+                "seggio_n_24": 23
+            }
+        },
+        {
+            "nominativo": "ADESSO Andrea",
+            "lista": "KOINE'",
+            "voti": {
+                "totali": 14,
+                "seggio_n_24": 14
+            }
+        },
+        {
+            "nominativo": "BURRAGATO Rita",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 20,
+                "seggio_n_24": 20
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "DRIDI Vittoria",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 0,
+                "seggio_n_24": 0
+            }
+        },
+        {
+            "nominativo": "SCACCIANOCE Michelangelo",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 0,
+                "seggio_n_24": 0
+            }
+        },
+        {
+            "nominativo": "BONANNO Beatrice",
+            "lista": "RISE",
+            "voti": {
+                "totali": 22,
+                "seggio_n_24": 22
+            }
+        },
+        {
+            "nominativo": "AMOROSO Elena",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_24": 0
+            }
+        },
+        {
+            "nominativo": "CONDORELLI Alessandro",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_24": 0
+            }
+        },
+        {
+            "nominativo": "ZAFARANA Marielena",
+            "lista": "UNIVERSITA' POPOLARE",
+            "voti": {
+                "totali": 6,
+                "seggio_n_24": 6
+            }
+        },
+        {
+            "nominativo": "MANCUSO Veronica Maria",
+            "lista": "KOINE'",
+            "voti": {
+                "totali": 10,
+                "seggio_n_24": 10
+            }
+        },
+        {
+            "nominativo": "UCCELLATORE Francesco",
+            "lista": "KOINE'",
+            "voti": {
+                "totali": 1,
+                "seggio_n_24": 1
+            }
+        },
+        {
+            "nominativo": "REINA Davide",
+            "lista": "KOINE'",
+            "voti": {
+                "totali": 0,
+                "seggio_n_24": 0
+            }
+        },
+        {
+            "nominativo": "MODICA Attilio",
+            "lista": "KOINE'",
+            "voti": {
+                "totali": 0,
+                "seggio_n_24": 0
+            }
+        },
+        {
+            "nominativo": "PANE Giulia",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 7,
+                "seggio_n_24": 7
+            }
+        },
+        {
+            "nominativo": "MILAZZO Valerio",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_24": 0
+            }
+        },
+        {
+            "nominativo": "FAZIO Noemi",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_24": 0
+            }
+        },
+        {
+            "nominativo": "LIOTTA Liliam Maria",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_24": 0
+            }
+        },
+        {
+            "nominativo": "MINARDO Nicoletta",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_24": 0
+            }
+        },
+        {
+            "nominativo": "MERCORILLO Andrea Giusi Maria",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_24": 0
+            }
+        },
+        {
+            "nominativo": "MIO Emanuela",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 4,
+                "seggio_n_24": 4
+            }
+        },
+        {
+            "nominativo": "PISTARA' Maddalena",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 6,
+                "seggio_n_24": 6
+            }
+        },
+        {
+            "nominativo": "INFARINATO Nancy",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_24": 0
+            }
+        },
+        {
+            "nominativo": "CALCAGNO Carola",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_24": 1
+            }
+        }
+    ],
+    "quoziente": 42.7143,
+    "votanti": {
+        "totali": 329,
+        "percentuale": 42.13,
+        "seggio_n_24": 329
+    },
+    "elettori": {
+        "totali": 781,
+        "seggio_n_24": 781
+    }
+}
