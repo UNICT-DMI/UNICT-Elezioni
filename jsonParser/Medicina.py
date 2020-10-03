@@ -51,16 +51,14 @@ class Medicina(Target):
             nome_candidato = [1]
             voti = [1]
             eletto = self.__get_extract_info(text, nome_candidato, voti, list_of_seats)
+            e = {
+                "nome_candidato": nome_candidato[0],
+                "voti": voti[0]
+            };
             if eletto:
-                eletti.append({
-                    "nominativo": nome_candidato[0],
-                    "voti": voti[0]
-                })
+                eletti.append(e)
             else:
-                non_eletti.append({
-                    "nominativo": nome_candidato[0],
-                    "voti": voti[0]
-                })
+                non_eletti.append(e)
     
     def __get_type(self, word, text) -> float:
         self.word_not_in_update(word, text)
@@ -79,15 +77,15 @@ class Medicina(Target):
         list_of_seats = self.__get_seats(text)
         eletti = []
         non_eletti = []
-        self.__get_candidati(text, list_of_seats, eletti, non_eletti)
         tmp = [1]
         schede_bianche = [1]
-        self.__get_extract_info(text, tmp, schede_bianche, list_of_seats)
         schede_nulle = [1]
-        self.__get_extract_info(text, tmp, schede_nulle, list_of_seats)
         schede_contestate = [1]
-        self.__get_extract_info(text, tmp, schede_contestate, list_of_seats)
         totale_voti = [1]
+        self.__get_candidati(text, list_of_seats, eletti, non_eletti)
+        self.__get_extract_info(text, tmp, schede_bianche, list_of_seats)
+        self.__get_extract_info(text, tmp, schede_nulle, list_of_seats)
+        self.__get_extract_info(text, tmp, schede_contestate, list_of_seats)
         self.__get_extract_info(text, tmp, totale_voti, list_of_seats)
         aventi_diritto = int(self.__get_type("DIRITTO", text))
         perc_votanti = self.__get_type("VOTANTI", text)
