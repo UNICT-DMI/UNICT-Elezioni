@@ -40,9 +40,8 @@ class Organo(Target):
                 self.__automatic_control2(find_d, list_of_seats, list_of_not, num)
                 num = ""
                 find_d = False
-            else:
-                if not find_d:
-                    find_d = self.__automatic_control1(j, text2)
+            elif not find_d:
+                find_d = self.__automatic_control1(j, text2)
             j += 1
         if num != "":
             self.__automatic_control2(find_d, list_of_seats, list_of_not, num)
