@@ -8,11 +8,10 @@ class CdlInf(Target):
     def __control_quorum(self, text, quorum) -> bool:
         if not quorum:
             return False
-        result = True
         if not self.word_not_in_control("NO QUORUM", text):
-            result = False
             text[self.i] = text[self.i].replace("NO QUORUM", " ").strip()
-        return result
+            return False
+        return True
 
     def __find_name_department(self, text, quorum) -> str:
         self.word_not_in_update("ELEZIONI", text)
