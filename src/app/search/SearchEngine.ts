@@ -196,6 +196,7 @@ class SearchEngine {
         this.data[year].departments[depart] = require(`../../data/${year}/dipartimenti/${depart}.json`);
       }
     }
+    console.log(this.data);
   }
 
   static getInstance(): SearchEngine {
