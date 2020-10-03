@@ -59,16 +59,14 @@ class CdlInf(Target):
                     nome_candidato = nome_candidato.replace("NO QUORUM", " ").strip()
                 if not self.word_not_in_control("EX AEQUO", text):
                     nome_candidato = nome_candidato.replace("EX AEQUO", " ").strip()
+                e = {
+                        "nome_candidato": nome_candidato.strip(),
+                        "voti": int(voti_candidato)
+                };
                 if eletto:
-                    eletti.append({
-                        "nome_candidato": nome_candidato.strip(),
-                        "voti": int(voti_candidato)
-                    })
+                    eletti.append(e)
                 else:
-                    non_eletti.append({
-                        "nome_candidato": nome_candidato.strip(),
-                        "voti": int(voti_candidato)
-                    })
+                    non_eletti.append(e)
             self.i += 1
         return quorum
     
