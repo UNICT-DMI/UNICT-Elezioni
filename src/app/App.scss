@@ -1,3 +1,7 @@
 .App {
   text-align: center;
 }
+
+body {
+  padding-top: 70px; // fixed-navbar overlap
+}

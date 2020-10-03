@@ -1,21 +1,21 @@
 interface ISeggi {
-  getSeggi(): string[];
-  getVotes(): number[];
+  seggiList: string[];
+  votesList: number[];
 }
 
 class DepartmentSeggi implements ISeggi {
   private _candidateList: any;
 
-  constructor (candidateList: any) {
+  constructor(candidateList: any) {
     this._candidateList = candidateList;
   }
 
-  getSeggi (): string[] {
+  get seggiList(): string[] {
     return Object.keys(this._candidateList.voti).filter((v) => v.startsWith('seggio_n_'));
   }
 
-  getVotes (): number[] {
-    const seggi: string[] = this.getSeggi();
+  get votesList(): number[] {
+    const seggi: string[] = this.seggiList;
     const votes: number[] = [];
     for (const seggio of seggi) {
       votes.push(this._candidateList.voti[seggio]);
@@ -29,17 +29,17 @@ class OtherSeggi implements ISeggi {
 
   private _seggi: string[];
 
-  constructor (candidateList: any, seggi: string[]) {
+  constructor(candidateList: any, seggi: string[]) {
     this._candidateList = candidateList;
     this._seggi = seggi;
   }
 
-  getSeggi (): string[] {
+  get seggiList(): string[] {
     return this._seggi;
   }
 
-  getVotes (): number[] {
-    const seggi: string[] = this.getSeggi();
+  get votesList(): number[] {
+    const seggi: string[] = this.seggiList;
     const votes: number[] = [];
     for (const seggio of seggi) {
       votes.push(this._candidateList.voti[`seggio_n_${seggio}`]);
@@ -51,16 +51,16 @@ class OtherSeggi implements ISeggi {
 export class Seggi {
   seggiState: ISeggi;
 
-  constructor (candidateList: any, seggi: string[] | null) {
+  constructor(candidateList: any, seggi: string[] | null) {
     this.seggiState = seggi ? new OtherSeggi(candidateList, seggi) : new DepartmentSeggi(candidateList);
   }
 
-  getSeggi (): string[] {
-    return this.seggiState.getSeggi();
+  get seggiList(): string[] {
+    return this.seggiState.seggiList;
   }
 
-  getVotes (): number[] {
-    return this.seggiState.getVotes();
+  get votesList(): number[] {
+    return this.seggiState.votesList;
   }
 }
 

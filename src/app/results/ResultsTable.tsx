@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import {
-  Collapse, OverlayTrigger, Popover, Table, Tooltip
-} from 'react-bootstrap';
+import { Collapse, OverlayTrigger, Popover, Table, Tooltip } from 'react-bootstrap';
 import ListLogo from './ListLogo/ListLogo';
 import { dict } from '../department/Department';
 import DetailsList from './DetailList/DetailsList';
@@ -19,7 +17,7 @@ export const ResultTable = (props: Props): JSX.Element => {
 
   const seggi: string[] | null = props.seggio ? props.seggio[props.anno] : null;
 
-  function getVotiSeggio (votazioni: any): string[] | null {
+  function getVotiSeggio(votazioni: any): string[] | null {
     return (
       seggi
         ? seggi.reduce((acc: any, prev: any) => acc + votazioni[`seggio_n_${prev}`], 0)
@@ -27,7 +25,7 @@ export const ResultTable = (props: Props): JSX.Element => {
     );
   }
 
-  function generateTableRows (): JSX.Element[] {
+  function generateTableRows(): JSX.Element[] {
     const results: { [key: string]: any[] } = {}; // any -> eletti[]
 
     props.data.liste.forEach((l: any) => (results[l.nome] = []));
@@ -42,36 +40,40 @@ export const ResultTable = (props: Props): JSX.Element => {
     for (let i = 0; i < maxRows; i++) {
       tableRows.push(
         <tr key={`${props.anno}-${i}`}>
-          {Object.keys(results).map((l) => !!l &&
+          {Object.keys(results).map((l: string) => l !== 'undefined' &&
             (
               <td key={`${props.anno}-${l}-${i}`}>
                 {
-                  results[l] && results[l][i] ? (
+                  results[l] && results[l][i] && (
                     [
                       `${results[l][i].nominativo} (${getVotiSeggio(results[l][i].voti)})`,
                       results[l][i].eletto ? (<img key={`coccarda-${i}`} src="coccarda.png" alt="eletto" width="16" height="30" className="float-right" />) : ''
-                    ]) : ''
+                    ]
+                  )
                 }
               </td>
-            ))}
+            )
+          )}
         </tr>
       );
     }
     return tableRows;
   }
 
-  function detailsListPopover (candidateList: any): JSX.Element {
-    if (props.showDetailsList) {
-      return (
-        <Popover id="popover" key={`${candidateList.nome}-popover-${props.anno}`}>
+  function detailsListPopover(candidateList: any): JSX.Element {
+    return (
+      <Popover id="popover"
+        className={props.showDetailsList ? 'd-block' : 'd-none'}
+        key={`${candidateList.nome}-popover-${props.anno}`}>
+        {
+          props.showDetailsList &&
           <DetailsList candidateList={candidateList} seggi={seggi} anno={props.anno} />
-        </Popover>
-      );
-    }
-    return (<div />);
+        }
+      </Popover>
+    );
   }
 
-  function generateHead (): JSX.Element {
+  function generateHead(): JSX.Element {
     return (
       <thead>
         <tr>
@@ -79,14 +81,12 @@ export const ResultTable = (props: Props): JSX.Element => {
             {props.anno}
             {' '}
             {
-              seggi
-                ? (
+              seggi && (
                   `- Seggi${seggi.length === 1 ? 'o' : ''}: ${seggi.join(', ')
                   }${!!props.multiDip && props.multiDip[props.anno].length > 1
                     ? ` - ${props.multiDip[props.anno].map((d) => d.replace(/_/g, ' ')).join(', ')}`
                     : ''}`
-                )
-                : ''
+              )
             }
           </th>
         </tr>
@@ -132,7 +132,7 @@ export const ResultTable = (props: Props): JSX.Element => {
     </Tooltip>
   );
 
-  function toggleBody (e: any): void {
+  function toggleBody(e: any): void {
     e.preventDefault();
     setShow(!show);
   }

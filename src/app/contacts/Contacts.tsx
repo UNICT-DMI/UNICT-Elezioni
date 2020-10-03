@@ -42,8 +42,7 @@ const Contact = (props: ContactDetails): JSX.Element => {
   );
 };
 
-const Contacts = () => {
-
+const Contacts = (): JSX.Element => {
   return (
     <div className="Contacts">
       <div className="container-fluid">
@@ -100,6 +99,6 @@ const Contacts = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Contacts;

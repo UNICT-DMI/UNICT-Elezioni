@@ -8,18 +8,17 @@ interface Props {
   anno: string;
 }
 
-export const DetailsList = (props: Props) => {
-
-  const seggi: Seggi = new Seggi(props.candidateList, props.seggi)
+export const DetailsList = (props: Props): JSX.Element => {
+  const seggi: Seggi = new Seggi(props.candidateList, props.seggi);
 
   function generateHead(): JSX.Element {
-    const seggiList = seggi.getSeggi();
+    const seggiList = seggi.seggiList;
     const seggiItems = [];
 
     for (const seggio of seggiList) {
       seggiItems.push(
-        <th>{seggio.replace("seggio_n_", "")}</th>
-      )
+        <th key={seggio}>{seggio.replace('seggio_n_', '')}</th>
+      );
     }
     return (
       <thead>
@@ -28,26 +27,26 @@ export const DetailsList = (props: Props) => {
           {seggiItems}
         </tr>
       </thead>
-    )
+    );
   }
 
   function generateVotesRow(): JSX.Element {
-    const votes = seggi.getVotes();
+    const votes = seggi.votesList;
     const voteItems = [];
 
     for (const vote of votes) {
       voteItems.push(
-        <td>{vote}</td>
-      )
+        <td key={vote}>{vote}</td>
+      );
     }
     return (
       <tbody>
-        <tr>
+        <tr key={`${props.candidateList.nome}-voteRow-${props.anno}`}>
           <td><b>Voti</b></td>
           {voteItems}
         </tr>
       </tbody>
-    )
+    );
   }
 
   return (
@@ -62,7 +61,7 @@ export const DetailsList = (props: Props) => {
         }
       </Popover.Content>
     </div>
-  )
-}
+  );
+};
 
 export default DetailsList;
