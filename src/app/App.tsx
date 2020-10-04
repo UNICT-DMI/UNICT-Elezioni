@@ -54,8 +54,11 @@ const App: FunctionComponent = () => (
               <Results anno="2014-2016" path="Comitato_per_lo_sport_universitario" details={false} />
             </div>
           </Route>
-          <Route exact path="/contatti">
-            <Contacts/>
+          <Route exact path="/ersu">
+            <h2 className="mt-5">Consiglio di Amministrazione ERSU</h2>
+            <div className="py-4">
+              <Results anno="2019-2023" path="ERSU" details={false} />
+            </div>
           </Route>
           <Route exact path="/dipartimenti">
             <h2 className="mt-5">Dipartimenti</h2>
@@ -67,6 +70,9 @@ const App: FunctionComponent = () => (
           </Route>
           <Route exact path="/dipartimento/:dipartimento" component={Department} />
           <Route exact path="/search/:keywords" component={SearchPage} />
+          <Route exact path="/contatti">
+            <Contacts/>
+          </Route>
           <Route exact path="/not-found">
             <NotFound />
           </Route>
