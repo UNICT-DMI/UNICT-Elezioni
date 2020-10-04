@@ -14,6 +14,7 @@ import Department from './department/Department';
 import { SearchForm } from './search/SearchForm';
 import Contacts from './contacts/Contacts';
 import { SearchPage } from './search/SearchPage';
+import cdls from '../data/cdl';
 
 const App: FunctionComponent = () => (
   <div className="App">
@@ -60,6 +61,13 @@ const App: FunctionComponent = () => (
               <Results anno="2019-2023" path="ERSU" details={false} />
             </div>
           </Route>
+          <Route exact path="/facolta_medicina">
+            <h2 className="mt-5">Consiglio di Amministrazione ERSU</h2>
+            <div className="py-4">
+              <Results anno="2018-2020" path="Coordinamento_medicina" details={false} />
+              <Results anno="2016-2018" path="Coordinamento_medicina" details={false} />
+            </div>
+          </Route>
           <Route exact path="/dipartimenti">
             <h2 className="mt-5">Dipartimenti</h2>
             {departments.map((d) => [
@@ -69,6 +77,15 @@ const App: FunctionComponent = () => (
             ])}
           </Route>
           <Route exact path="/dipartimento/:dipartimento" component={Department} />
+          <Route exact path="/cdl">
+            <h2 className="mt-5">Consigli di Corso di Laurea</h2>
+            {cdls.map((c) => [
+              <hr className="my-5" key={`hr${c}`} />,
+              <h3 key={`h3${c}`}><a href={`#/dipartimento/${c}`}>{c.replace(/_/g, ' ')}</a></h3>,
+              <Results anno="2018-2020" path={`cdl/${c}`} details={false} key={`${c}2018-2020`} showDetailsList />
+            ])}
+          </Route>
+
           <Route exact path="/search/:keywords" component={SearchPage} />
           <Route exact path="/contatti">
             <Contacts/>
