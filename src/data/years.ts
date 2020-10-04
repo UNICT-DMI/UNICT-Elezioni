@@ -1,4 +1,4 @@
-export const years = [
+export const years: string[] = [
   '2018-2020',
   '2016-2018'
 ];

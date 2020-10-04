@@ -14,14 +14,13 @@ interface Props {
 
 export const ResultTable = (props: Props): JSX.Element => {
   const [show, setShow] = useState(false);
-
   const seggi: string[] | null = props.seggio ? props.seggio[props.anno] : null;
 
   function getVotiSeggio(votazioni: any): string[] | null {
     return (
       seggi
         ? seggi.reduce((acc: any, prev: any) => acc + votazioni[`seggio_n_${prev}`], 0)
-        : votazioni.totali
+        : votazioni?.totali
     );
   }
 
@@ -100,7 +99,7 @@ export const ResultTable = (props: Props): JSX.Element => {
             onClick={toggleBody}
             aria-controls="collapse-tbody"
             aria-expanded={show}>
-            {props.data.liste.map((l: any) => !l.totale &&
+            {props.data.liste.map((l: any) => (!l.totale && l.totale != 0) &&
               (
                 <th key={`${props.anno}-lista-${l.nome}`}>
                   <OverlayTrigger
