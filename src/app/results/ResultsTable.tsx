@@ -99,7 +99,7 @@ export const ResultTable = (props: Props): JSX.Element => {
             onClick={toggleBody}
             aria-controls="collapse-tbody"
             aria-expanded={show}>
-            {props.data.liste.map((l: any) => (!l.totale && l.totale != 0) &&
+            {props.data.liste.map((l: any) => (!l.totale && l.totale !== 0) &&
               (
                 <th key={`${props.anno}-lista-${l.nome}`}>
                   <OverlayTrigger
