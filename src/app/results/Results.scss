@@ -13,4 +13,12 @@
     cursor: pointer;
   }
 
+  .show-candidate, .show-candidate:hover {
+    transition: all .5s;
+  }
+
+  .show-candidate:hover {
+    background-color: #efeefe;
+  }
+
 }

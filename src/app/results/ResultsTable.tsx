@@ -14,14 +14,13 @@ interface Props {
 
 export const ResultTable = (props: Props): JSX.Element => {
   const [show, setShow] = useState(false);
-
   const seggi: string[] | null = props.seggio ? props.seggio[props.anno] : null;
 
   function getVotiSeggio(votazioni: any): string[] | null {
     return (
       seggi
         ? seggi.reduce((acc: any, prev: any) => acc + votazioni[`seggio_n_${prev}`], 0)
-        : votazioni.totali
+        : votazioni?.totali
     );
   }
 
@@ -75,33 +74,33 @@ export const ResultTable = (props: Props): JSX.Element => {
 
   function generateHead(): JSX.Element {
     return (
-      <thead>
-        <tr>
-          <th className="bg-secondary" colSpan={props.data.liste.length}>
-            {props.anno}
-            {' '}
-            {
-              seggi && (
-                  `- Seggi${seggi.length === 1 ? 'o' : ''}: ${seggi.join(', ')
-                  }${!!props.multiDip && props.multiDip[props.anno].length > 1
-                    ? ` - ${props.multiDip[props.anno].map((d) => d.replace(/_/g, ' ')).join(', ')}`
-                    : ''}`
-              )
-            }
-          </th>
-        </tr>
-        <tr
-          key={`tr-${props.anno}-row-${Math.random()}`}
-          className="head-row cursor-pointer"
-          onClick={toggleBody}
-          aria-controls="collapse-tbody"
-          aria-expanded={show}>
-          {props.data.liste.map((l: any) => !l.totale &&
-            (
-              <OverlayTrigger
-                placement="top"
-                overlay={tooltipExpandCollapse}
-                key={`${props.anno}-overlay-${l.nome}`}>
+      <OverlayTrigger
+        placement="top"
+        overlay={tooltipExpandCollapse}
+        key={`${props.anno}-overlay-list`}>
+        <thead className="show-candidate">
+          <tr>
+            <th className="bg-secondary" colSpan={props.data.liste.length}>
+              {props.anno}
+              {' '}
+              {
+                seggi && (
+                    `- Seggi${seggi.length === 1 ? 'o' : ''}: ${seggi.join(', ')
+                    }${!!props.multiDip && props.multiDip[props.anno].length > 1
+                      ? ` - ${props.multiDip[props.anno].map((d) => d.replace(/_/g, ' ')).join(', ')}`
+                      : ''}`
+                )
+              }
+            </th>
+          </tr>
+          <tr
+            key={`tr-${props.anno}-row-${Math.random()}`}
+            className="head-row cursor-pointer"
+            onClick={toggleBody}
+            aria-controls="collapse-tbody"
+            aria-expanded={show}>
+            {props.data.liste.map((l: any) => (!l.totale && l.totale !== 0) &&
+              (
                 <th key={`${props.anno}-lista-${l.nome}`}>
                   <OverlayTrigger
                     placement="bottom"
@@ -119,15 +118,15 @@ export const ResultTable = (props: Props): JSX.Element => {
                   )
                   </div>
                 </th>
-              </OverlayTrigger>
-            ))}
-        </tr>
-      </thead>
+              ))}
+          </tr>
+        </thead>
+      </OverlayTrigger>
     );
   }
 
-  const tooltipExpandCollapse = (props: any): JSX.Element => (
-    <Tooltip id="button-tooltip" {...props}>
+  const tooltipExpandCollapse = (p: any): JSX.Element => (
+    <Tooltip id="button-tooltip" {...p}>
       {show ? 'Nascondi candidati' : 'Mostra candidati'}
     </Tooltip>
   );

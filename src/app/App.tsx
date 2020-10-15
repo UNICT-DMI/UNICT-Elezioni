@@ -14,6 +14,7 @@ import Department from './department/Department';
 import { SearchForm } from './search/SearchForm';
 import Contacts from './contacts/Contacts';
 import { SearchPage } from './search/SearchPage';
+import cdls from '../data/cdl';
 
 const App: FunctionComponent = () => (
   <div className="App">
@@ -54,8 +55,18 @@ const App: FunctionComponent = () => (
               <Results anno="2014-2016" path="Comitato_per_lo_sport_universitario" details={false} />
             </div>
           </Route>
-          <Route exact path="/contatti">
-            <Contacts/>
+          <Route exact path="/ersu">
+            <h2 className="mt-5">Consiglio di Amministrazione ERSU</h2>
+            <div className="py-4">
+              <Results anno="2019-2023" path="ERSU" details={false} />
+            </div>
+          </Route>
+          <Route exact path="/facolta_medicina">
+            <h2 className="mt-5">Coordinamento Facoltà di Medicina</h2>
+            <div className="py-4">
+              <Results anno="2018-2020" path="Coordinamento_medicina" details={false} />
+              <Results anno="2016-2018" path="Coordinamento_medicina" details={false} />
+            </div>
           </Route>
           <Route exact path="/dipartimenti">
             <h2 className="mt-5">Dipartimenti</h2>
@@ -66,7 +77,19 @@ const App: FunctionComponent = () => (
             ])}
           </Route>
           <Route exact path="/dipartimento/:dipartimento" component={Department} />
+          <Route exact path="/cdl">
+            {years.map((y) => (cdls as any)[y].map((c: string) => [
+              <h2 className="mt-5">Consigli di Corso di Laurea {y}</h2>,
+              <hr className="my-5" key={`hr${c}`} />,
+              <h3 key={`h3${c}`}><a href={`#/dipartimento/${c}`}>{c.replace(/_/g, ' ')}</a></h3>,
+              <Results anno={y} path={`cdl/${c}`} details={false} key={`${c}${y}`} showDetailsList />
+            ]))}
+          </Route>
+
           <Route exact path="/search/:keywords" component={SearchPage} />
+          <Route exact path="/contatti">
+            <Contacts/>
+          </Route>
           <Route exact path="/not-found">
             <NotFound />
           </Route>
