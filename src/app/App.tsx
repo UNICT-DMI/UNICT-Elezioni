@@ -62,7 +62,7 @@ const App: FunctionComponent = () => (
             </div>
           </Route>
           <Route exact path="/facolta_medicina">
-            <h2 className="mt-5">Consiglio di Amministrazione ERSU</h2>
+            <h2 className="mt-5">Coordinamento Facoltà di Medicina</h2>
             <div className="py-4">
               <Results anno="2018-2020" path="Coordinamento_medicina" details={false} />
               <Results anno="2016-2018" path="Coordinamento_medicina" details={false} />
