@@ -65,8 +65,8 @@ const App: FunctionComponent = () => (
           <Route exact path="/facolta_medicina">
             <h2 className="mt-5">Coordinamento Facoltà di Medicina</h2>
             <div className="py-4">
-              <ResultsSingle anno="2018-2020" path="Coordinamento_medicina" details={false} />
-              <ResultsSingle anno="2016-2018" path="Coordinamento_medicina" details={false} />
+              <ResultsSingle anno="2018-2020" path="Coordinamento_medicina" />
+              <ResultsSingle anno="2016-2018" path="Coordinamento_medicina" />
             </div>
           </Route>
           <Route exact path="/dipartimenti">

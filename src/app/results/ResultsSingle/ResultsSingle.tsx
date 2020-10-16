@@ -1,13 +1,8 @@
 import React from 'react';
-import { dict } from '../../department/Department';
 
 interface Props {
   anno: string;
   path: string;
-  details: boolean;
-  seggio?: dict;
-  multiDip?: dict;
-  showDetailsList?: boolean;
 }
 
 export const ResultsSingle = (props: Props): JSX.Element => {
