@@ -7,7 +7,7 @@ import {
 } from 'react-router-dom';
 import './App.scss';
 import Menu from './navbar/Navbar';
-import Results from './results/Results';
+import Results from './results/Results/Results';
 import departments from '../data/departments';
 import { years } from '../data/years';
 import Department from './department/Department';
@@ -15,6 +15,7 @@ import { SearchForm } from './search/SearchForm';
 import Contacts from './contacts/Contacts';
 import { SearchPage } from './search/SearchPage';
 import cdls from '../data/cdl';
+import ResultsSingle from './results/ResultsSingle/ResultsSingle';
 
 const App: FunctionComponent = () => (
   <div className="App">
@@ -64,8 +65,8 @@ const App: FunctionComponent = () => (
           <Route exact path="/facolta_medicina">
             <h2 className="mt-5">Coordinamento Facoltà di Medicina</h2>
             <div className="py-4">
-              <Results anno="2018-2020" path="Coordinamento_medicina" details={false} />
-              <Results anno="2016-2018" path="Coordinamento_medicina" details={false} />
+              <ResultsSingle anno="2018-2020" path="Coordinamento_medicina" details={false} />
+              <ResultsSingle anno="2016-2018" path="Coordinamento_medicina" details={false} />
             </div>
           </Route>
           <Route exact path="/dipartimenti">

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Table } from 'react-bootstrap';
-import { dict } from '../department/Department';
+import { dict } from '../../department/Department';
 
 interface Props {
   data: any;

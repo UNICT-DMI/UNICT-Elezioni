@@ -2,7 +2,7 @@ import React from 'react';
 import './Results.scss';
 import ResultTable from './ResultsTable';
 import DetailsTable from './DetailsTable';
-import { dict } from '../department/Department';
+import { dict } from '../../department/Department';
 
 interface Props {
   anno: string;
@@ -14,7 +14,7 @@ interface Props {
 }
 
 export const Results = (props: Props): JSX.Element => {
-  const data = require(`../../data/${props.anno}/${props.path}.json`);
+  const data = require(`../../../data/${props.anno}/${props.path}.json`);
 
   return (
     <div className="Results">

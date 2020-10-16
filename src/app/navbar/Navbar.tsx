@@ -18,7 +18,7 @@ const Menu: FunctionComponent = () => (
             <NavDropdown.Item href="#/ersu">Consiglio di Amministrazione ERSU</NavDropdown.Item>
             <NavDropdown.Item href="#/ndv">Nucleo di Valutazione</NavDropdown.Item>
             <NavDropdown.Item href="#/csu">Comitato per lo sport Universitario</NavDropdown.Item>
-            <NavDropdown.Item href="#/facolta_medicina" className="disabled">Coordinamento Facoltà di Medicina</NavDropdown.Item>
+            <NavDropdown.Item href="#/facolta_medicina">Coordinamento Facoltà di Medicina</NavDropdown.Item>
           </NavDropdown>
           <NavDropdown title="Dipartimento" id="nav-dropdown">
             <NavDropdown.Item href="#/dipartimenti">Consiglio di Dipartimento</NavDropdown.Item>
