@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInfoCircle } from '@fortawesome/free-solid-svg-icons';
 import './Department.scss';
 import { years } from '../../data/years';
-import Results from '../results/Results';
+import Results from '../results/Results/Results';
 
 interface Params {
   dipartimento: string;
