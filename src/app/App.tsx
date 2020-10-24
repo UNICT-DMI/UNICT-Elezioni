@@ -113,7 +113,7 @@ const App: FunctionComponent = () => {
           <Route exact path="/dottorandi/:anno/:cdl" component={ResultsCdL500} />
           <Route exact path="/cdl">
             {years.map((y) => (cdls as any)[y].map((c: string) => [
-              <h2 className="mt-5" key={`h2${c}`}>Consigli di Corso di Laurea {y}</h2>,
+              <h2 className="mt-5" key={`h2${c}`}>Consiglio di Corso di Laurea {y}</h2>,
               <hr className="my-5" key={`hr${c}`} />,
               <h3 key={`h3${c}`}>{c.replace(/_/g, ' ')}</h3>,
               <Results anno={y} path={`cdl/${c}`} details={false} key={`${c}${y}`} showDetailsList />
