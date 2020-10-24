@@ -5,3 +5,11 @@
 body {
   padding-top: 70px; // fixed-navbar overlap
 }
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.pointer:hover {
+  cursor: pointer;
+}

@@ -10,10 +10,11 @@ interface Props {
   seggio?: dict;
   multiDip?: dict;
   showDetailsList?: boolean;
+  showList?: boolean;
 }
 
 export const ResultTable = (props: Props): JSX.Element => {
-  const [show, setShow] = useState(false);
+  const [show, setShow] = useState(props.showList);
   const seggi: string[] | null = props.seggio ? props.seggio[props.anno] : null;
 
   function getVotiSeggio(votazioni: any): string[] | null {
@@ -74,62 +75,51 @@ export const ResultTable = (props: Props): JSX.Element => {
 
   function generateHead(): JSX.Element {
     return (
-      <OverlayTrigger
-        placement="top"
-        overlay={tooltipExpandCollapse}
-        key={`${props.anno}-overlay-list`}>
-        <thead className="show-candidate">
-          <tr>
-            <th className="bg-secondary" colSpan={props.data.liste.length}>
-              {props.anno}
-              {' '}
-              {
-                seggi && (
-                    `- Seggi${seggi.length === 1 ? 'o' : ''}: ${seggi.join(', ')
-                    }${!!props.multiDip && props.multiDip[props.anno].length > 1
-                      ? ` - ${props.multiDip[props.anno].map((d) => d.replace(/_/g, ' ')).join(', ')}`
-                      : ''}`
-                )
-              }
-            </th>
-          </tr>
-          <tr
-            key={`tr-${props.anno}-row-${Math.random()}`}
-            className="head-row cursor-pointer"
-            onClick={toggleBody}
-            aria-controls="collapse-tbody"
-            aria-expanded={show}>
-            {props.data.liste.map((l: any) => (!l.totale && l.totale !== 0) &&
-              (
-                <th key={`${props.anno}-lista-${l.nome}`}>
-                  <OverlayTrigger
-                    placement="bottom"
-                    overlay={detailsListPopover(l)}
-                    key={`${props.anno}-overlay-${l.nome}`}>
-                    <div className="logo" key={`${props.anno}-logo-${l.nome}`}>
-                      <ListLogo listName={l.nome} />
-                    </div>
-                  </OverlayTrigger>
-                  <div className="sub-logo" key={`${props.anno}-name-${l.nome}`}>
-                    {l.nome}
-                    {' '}
-                  (
-                    {getVotiSeggio(l.voti)}
-                  )
+      <thead className="show-candidate">
+        <tr>
+          <th className="bg-secondary" colSpan={props.data.liste.length}>
+            {props.anno}
+            {' '}
+            {
+              seggi && (
+                  `- Seggi${seggi.length === 1 ? 'o' : ''}: ${seggi.join(', ')
+                  }${!!props.multiDip && props.multiDip[props.anno].length > 1
+                    ? ` - ${props.multiDip[props.anno].map((d) => d.replace(/_/g, ' ')).join(', ')}`
+                    : ''}`
+              )
+            }
+          </th>
+        </tr>
+        <tr
+          key={`tr-${props.anno}-row-${Math.random()}`}
+          className="head-row cursor-pointer"
+          onClick={toggleBody}
+          aria-controls="collapse-tbody"
+          aria-expanded={show}>
+          {props.data.liste.map((l: any) => (!l.totale && l.totale !== 0) &&
+            (
+              <th key={`${props.anno}-lista-${l.nome}`}>
+                <OverlayTrigger
+                  placement="bottom"
+                  overlay={detailsListPopover(l)}
+                  key={`${props.anno}-overlay-${l.nome}`}>
+                  <div className="logo" key={`${props.anno}-logo-${l.nome}`}>
+                    <ListLogo listName={l.nome} />
                   </div>
-                </th>
-              ))}
-          </tr>
-        </thead>
-      </OverlayTrigger>
+                </OverlayTrigger>
+                <div className="sub-logo" key={`${props.anno}-name-${l.nome}`}>
+                  {l.nome}
+                  {' '}
+                (
+                  {getVotiSeggio(l.voti)}
+                )
+                </div>
+              </th>
+            ))}
+        </tr>
+      </thead>
     );
   }
-
-  const tooltipExpandCollapse = (p: any): JSX.Element => (
-    <Tooltip id="button-tooltip" {...p}>
-      {show ? 'Nascondi candidati' : 'Mostra candidati'}
-    </Tooltip>
-  );
 
   function toggleBody(e: any): void {
     e.preventDefault();

@@ -3,7 +3,7 @@ import {
   Switch,
   Route,
   HashRouter,
-  Redirect
+  Redirect,
 } from 'react-router-dom';
 import './App.scss';
 import Menu from './navbar/Navbar';
@@ -15,9 +15,15 @@ import { SearchForm } from './search/SearchForm';
 import Contacts from './contacts/Contacts';
 import { SearchPage } from './search/SearchPage';
 import cdls from '../data/cdl';
-import ResultsSingle from './results/ResultsSingle/ResultsSingle';
+import cdls_500 from '../data/cdl-500';
+import ResultsMed from './results/ResultsMed/ResultsMed';
+import ResultsCdL500 from './results/ResultsCdl500/ResultsCdl500';
+import dottorandi from '../data/dottorandi';
 
-const App: FunctionComponent = () => (
+const App: FunctionComponent = () => {
+  const handleOnClick = (route: string) => { window.location.href = route; };
+
+  return (
   <div className="App">
     <HashRouter basename="/">
       <Menu />
@@ -65,8 +71,8 @@ const App: FunctionComponent = () => (
           <Route exact path="/facolta_medicina">
             <h2 className="mt-5">Coordinamento Facoltà di Medicina</h2>
             <div className="py-4">
-              <ResultsSingle anno="2018-2020" path="Coordinamento_medicina" />
-              <ResultsSingle anno="2016-2018" path="Coordinamento_medicina" />
+              <ResultsMed anno="2018-2020" path="Coordinamento_medicina" />
+              <ResultsMed anno="2016-2018" path="Coordinamento_medicina" />
             </div>
           </Route>
           <Route exact path="/dipartimenti">
@@ -78,15 +84,61 @@ const App: FunctionComponent = () => (
             ])}
           </Route>
           <Route exact path="/dipartimento/:dipartimento" component={Department} />
+          <Route exact path="/dipartimenti-dottorandi">
+            <div className="container text-left">
+              <h2 className="mt-5">Consiglio di Dipartimento (Dottorandi) 2018-2020</h2>,
+              <table className="table table-hover table-bordered mb-5">
+                <tbody>
+                  {(dottorandi as any)['2018-2020'].map((c: string) => [
+                  <tr className="pointer" onClick={() => handleOnClick(`#/single-results/dottorandi/2018-2020/${c}`)}>
+                    <td key={`h3${c}`} className="capitalize">
+                      {c.replaceAll('_', ' ')}
+                    </td>
+                  </tr>
+                  ])}
+                </tbody>
+              </table>
+
+              <h2 className="mt-5">Consiglio di Dipartimento (Dottorandi) 2016-2018</h2>
+              <hr/>
+              {(dottorandi as any)['2016-2018'].map((c: string) => [
+                <h3 key={`h3${c}`}>{c.replace(/_/g, ' ')}</h3>,
+                <div className="text-center">
+                  <Results anno="2016-2018" path={`dottorandi/${c}`} details={false} key={`${c}2016-2018`} showList={true} showDetailsList />
+                </div>
+              ])}
+              <hr className="mb-5" />
+            </div>
+          </Route>
+          <Route exact path="/dottorandi/:anno/:cdl" component={ResultsCdL500} />
           <Route exact path="/cdl">
             {years.map((y) => (cdls as any)[y].map((c: string) => [
-              <h2 className="mt-5" key={`h2${c}`}>Consigli di Corso di Laurea {y}</h2>,
+              <h2 className="mt-5" key={`h2${c}`}>Consiglio di Corso di Laurea {y}</h2>,
               <hr className="my-5" key={`hr${c}`} />,
               <h3 key={`h3${c}`}>{c.replace(/_/g, ' ')}</h3>,
               <Results anno={y} path={`cdl/${c}`} details={false} key={`${c}${y}`} showDetailsList />
             ]))}
           </Route>
-
+          <Route exact path="/cdl-500">
+            <div className="container text-left">
+              {years.map((y) => [
+                <h2 className="mt-5">Consiglio di Corso di Laurea (&lt;500) {y}</h2>,
+                
+                <table className="table table-hover table-bordered mb-5">
+                  <tbody>
+                    {(cdls_500 as any)[y].map((c: string) => [
+                    <tr className="pointer" onClick={() => handleOnClick(`#/single-results/cdl-500/${y}/${c}`)}>
+                      <td key={`h3${c}`} className="capitalize">
+                        {c.replaceAll('_', ' ')}
+                      </td>
+                    </tr>
+                    ])}
+                  </tbody>
+                </table>,
+              ])}
+            </div>
+          </Route>
+          <Route exact path="/single-results/:type/:anno/:cdl" component={ResultsCdL500} />
           <Route exact path="/search/:keywords" component={SearchPage} />
           <Route exact path="/contatti">
             <Contacts/>
@@ -98,8 +150,8 @@ const App: FunctionComponent = () => (
         </Switch>
       </div>
     </HashRouter>
-  </div>
-);
+  </div>);
+}
 
 function NotFound(): JSX.Element {
   return <h2>404 - Not Found</h2>;

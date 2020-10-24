@@ -11,6 +11,7 @@ interface Props {
   seggio?: dict;
   multiDip?: dict;
   showDetailsList?: boolean;
+  showList?: boolean;
 }
 
 export const Results = (props: Props): JSX.Element => {
@@ -21,7 +22,7 @@ export const Results = (props: Props): JSX.Element => {
       <div className="p-2">
         <div className="row">
           <div className="col-12 overflow-x-auto">
-            <ResultTable seggio={props.seggio} multiDip={props.multiDip} data={data} anno={props.anno} showDetailsList={props.showDetailsList} />
+            <ResultTable seggio={props.seggio} multiDip={props.multiDip} data={data} anno={props.anno} showDetailsList={props.showDetailsList} showList={props.showList} />
           </div>
         </div>
         {props.details &&
