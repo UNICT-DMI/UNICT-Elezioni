@@ -23,6 +23,7 @@ const Menu: FunctionComponent = () => (
             </NavDropdown>
             <NavDropdown title="Dipartimento" id="nav-dropdown">
               <NavDropdown.Item href="#/dipartimenti">Consiglio di Dipartimento</NavDropdown.Item>
+              <NavDropdown.Item href="#/dipartimenti-dottorandi">Consiglio di Dipartimento (Dottorandi)</NavDropdown.Item>
               <NavDropdown.Item href="#/cdl">Consiglio di Corso di Laurea</NavDropdown.Item>
               <NavDropdown.Item href="#/cdl-500">Consiglio di Corso di Laurea &lt;500</NavDropdown.Item>
             </NavDropdown>

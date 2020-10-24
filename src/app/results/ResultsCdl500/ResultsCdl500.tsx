@@ -4,11 +4,12 @@ import { useParams } from 'react-router-dom';
 interface Params {
   anno: string;
   cdl: string;
+  type: string;
 }
 
 export const ResultsCdL500 = (): JSX.Element => {
   const params: Params = useParams();
-  const data = require(`../../../data/${params.anno}/cdl-500/${params.cdl}.json`);
+  const data = require(`../../../data/${params.anno}/${params.type}/${params.cdl}.json`);
   const keys = Object.keys(data.schede.bianche);
   keys.shift();
 
