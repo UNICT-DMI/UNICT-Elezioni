@@ -17,6 +17,7 @@ import { SearchPage } from './search/SearchPage';
 import cdls from '../data/cdl';
 import cdls_500 from '../data/cdl-500';
 import ResultsMed from './results/ResultsMed/ResultsMed';
+import ResultsCdL500 from './results/ResultsCdl500/ResultsCdl500';
 
 const App: FunctionComponent = () => {
   const handleOnClick = (route: string) => { window.location.href = route; };
@@ -98,9 +99,9 @@ const App: FunctionComponent = () => {
                 <table className="table table-hover table-bordered mb-5">
                   <tbody>
                     {(cdls_500 as any)[y].map((c: string) => [
-                    <tr className="pointer" onClick={() => handleOnClick(`#/cdl-500/${c}`)}>
+                    <tr className="pointer" onClick={() => handleOnClick(`#/cdl-500/${y}/${c}`)}>
                       <td key={`h3${c}`} className="capitalize">
-                        <a href={`#/cdl-500/${y}/${c}`}>{c.replaceAll('_', ' ')}</a>
+                        {c.replaceAll('_', ' ')}
                       </td>
                     </tr>
                     ])}
@@ -109,7 +110,7 @@ const App: FunctionComponent = () => {
               ])}
             </div>
           </Route>
-          <Route exact path="/cdl-500/:anno/:cdl" component={ResultsMed} />
+          <Route exact path="/cdl-500/:anno/:cdl" component={ResultsCdL500} />
           <Route exact path="/search/:keywords" component={SearchPage} />
           <Route exact path="/contatti">
             <Contacts/>
