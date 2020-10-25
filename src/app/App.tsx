@@ -17,7 +17,7 @@ import { SearchPage } from './search/SearchPage';
 import cdls from '../data/cdl';
 import cdls_500 from '../data/cdl-500';
 import ResultsMed from './results/ResultsMed/ResultsMed';
-import ResultsCdL500 from './results/ResultsCdl500/ResultsCdl500';
+import ResultsSingle from './results/ResultsSingle/ResultsSingle';
 import dottorandi from '../data/dottorandi';
 
 const App: FunctionComponent = () => {
@@ -86,7 +86,7 @@ const App: FunctionComponent = () => {
           <Route exact path="/dipartimento/:dipartimento" component={Department} />
           <Route exact path="/dipartimenti-dottorandi">
             <div className="container text-left">
-              <h2 className="mt-5">Consiglio di Dipartimento (Dottorandi) 2018-2020</h2>,
+              <h2 className="mt-5">Consiglio di Dipartimento (Dottorandi) 2018-2020</h2>
               <table className="table table-hover table-bordered mb-5">
                 <tbody>
                   {(dottorandi as any)['2018-2020'].map((c: string) => [
@@ -110,7 +110,7 @@ const App: FunctionComponent = () => {
               <hr className="mb-5" />
             </div>
           </Route>
-          <Route exact path="/dottorandi/:anno/:cdl" component={ResultsCdL500} />
+          <Route exact path="/dottorandi/:anno/:cdl" component={ResultsSingle} />
           <Route exact path="/cdl">
             {years.map((y) => (cdls as any)[y].map((c: string) => [
               <h2 className="mt-5" key={`h2${c}`}>Consiglio di Corso di Laurea {y}</h2>,
@@ -134,11 +134,11 @@ const App: FunctionComponent = () => {
                     </tr>
                     ])}
                   </tbody>
-                </table>,
+                </table>
               ])}
             </div>
           </Route>
-          <Route exact path="/single-results/:type/:anno/:cdl" component={ResultsCdL500} />
+          <Route exact path="/single-results/:type/:anno/:cdl" component={ResultsSingle} />
           <Route exact path="/search/:keywords" component={SearchPage} />
           <Route exact path="/contatti">
             <Contacts/>

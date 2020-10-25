@@ -7,14 +7,14 @@ interface Params {
   type: string;
 }
 
-export const ResultsCdL500 = (): JSX.Element => {
+export const ResultsSingle = (): JSX.Element => {
   const params: Params = useParams();
   const data = require(`../../../data/${params.anno}/${params.type}/${params.cdl}.json`);
   const keys = Object.keys(data.schede.bianche);
   keys.shift();
 
   return (
-    <div className="ResultsCdL500">
+    <div className="ResultsSingle">
       <div className="p-2">
         <div className="container">
           <div className="row">
@@ -63,4 +63,4 @@ export const ResultsCdL500 = (): JSX.Element => {
   );
 };
 
-export default ResultsCdL500;
+export default ResultsSingle;
