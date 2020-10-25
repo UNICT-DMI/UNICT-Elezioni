@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Collapse, OverlayTrigger, Popover, Table, Tooltip } from 'react-bootstrap';
+import { Collapse, OverlayTrigger, Popover, Table } from 'react-bootstrap';
 import ListLogo from '../ListLogo/ListLogo';
 import { dict } from '../../department/Department';
 import DetailsList from '../DetailList/DetailsList';
