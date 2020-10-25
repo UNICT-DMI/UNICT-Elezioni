@@ -7,11 +7,14 @@ interface Props {
 
 export const ListLogo = (props: Props): JSX.Element => {
   function getListName(): string {
+    if (props.listName.indexOf('IBLA') > -1) {
+      console.warn(props.listName);
+    }
     return props.listName?.replace('# ', '')
-      .replace('#', '')
       .replace(/ /g, ' ')
       .replace(/ /g, ' ')
       .replace(props.listName, nameFixes[props.listName] ? nameFixes[props.listName] : props.listName)
+      .replace('#', '')
       .replace(new RegExp("O'", 'g'), 'Ò')
       .replace(new RegExp("E'", 'g'), 'È')
       .replace(new RegExp("A'", 'g'), 'À');
