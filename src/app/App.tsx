@@ -21,6 +21,8 @@ import ResultsSingle from './results/ResultsSingle/ResultsSingle';
 import dottorandi from '../data/dottorandi';
 import Footer from './footer/Footer';
 import { Table } from 'react-bootstrap';
+import NotFound from './not-found/NotFound';
+import HigherPolitics from './higher-politics/HigherPolitics';
 
 const App: FunctionComponent = () => {
   const handleOnClick = (route: string) => { window.location.href = route; };
@@ -32,38 +34,10 @@ const App: FunctionComponent = () => {
       <HashRouter basename="/">
         <SearchForm/>
         <Switch>
-          <Route exact path="/senato">
-            <h2 className="mt-5">Senato</h2>
-            <div className="py-4">
-              <Results anno="2018-2020" path="Senato" details={false} />
-              <Results anno="2016-2018" path="Senato" details={false} />
-              <Results anno="2014-2016" path="Senato" details={false} />
-            </div>
-          </Route>
-          <Route exact path="/cda">
-            <h2 className="mt-5">Consiglio di Amministrazione (CdA)</h2>
-            <div className="py-4">
-              <Results anno="2018-2020" path="Consiglio_di_amministrazione" details={false} />
-              <Results anno="2016-2018" path="Consiglio_di_amministrazione" details={false} />
-              <Results anno="2014-2016" path="Consiglio_di_amministrazione" details={false} />
-            </div>
-          </Route>
-          <Route exact path="/ndv">
-            <h2 className="mt-5">Nucleo di Valutazione (NdV)</h2>
-            <div className="py-4">
-              <Results anno="2018-2020" path="Nucleo_di_valutazione" details={false} />
-              <Results anno="2016-2018" path="Nucleo_di_valutazione" details={false} />
-              <Results anno="2014-2016" path="Nucleo_di_valutazione" details={false} />
-            </div>
-          </Route>
-          <Route exact path="/csu">
-            <h2 className="mt-5">Comitato per lo Sport Universitario (CSU)</h2>
-            <div className="py-4">
-              <Results anno="2018-2020" path="Comitato_per_lo_sport_universitario" details={false} />
-              <Results anno="2016-2018" path="Comitato_per_lo_sport_universitario" details={false} />
-              <Results anno="2014-2016" path="Comitato_per_lo_sport_universitario" details={false} />
-            </div>
-          </Route>
+          <Route exact path="/senato" render={() => <HigherPolitics title={'Senato'}                                    path={'Senato'} /> } />
+          <Route exact path="/cda"    render={() => <HigherPolitics title={'Consiglio di Amministrazione (CdA)'}        path={'Consiglio_di_amministrazione'} /> } />
+          <Route exact path="/ndv"    render={() => <HigherPolitics title={'Nucleo di Valutazione (NdV)'}               path={'Nucleo_di_valutazione'} /> } />
+          <Route exact path="/csu"    render={() => <HigherPolitics title={'Comitato per lo Sport Universitario (CSU)'} path={'Comitato_per_lo_sport_universitario'} /> } />
           <Route exact path="/ersu">
             <h2 className="mt-5">Consiglio di Amministrazione ERSU</h2>
             <div className="py-4">
@@ -142,22 +116,14 @@ const App: FunctionComponent = () => {
           </Route>
           <Route exact path="/single-results/:type/:anno/:cdl" component={ResultsSingle} />
           <Route exact path="/search/:keywords" component={SearchPage} />
-          <Route exact path="/contatti">
-            <Contacts/>
-          </Route>
-          <Route exact path="/not-found">
-            <NotFound />
-          </Route>
+          <Route exact path="/contatti" component={Contacts} />
+          <Route exact path="/not-found" component={NotFound} />
           <Redirect to="/senato" />
         </Switch>
       </HashRouter>
     </div>
     <Footer/>
   </div>);
-}
-
-function NotFound(): JSX.Element {
-  return <h2>404 - Not Found</h2>;
 }
 
 export default App;

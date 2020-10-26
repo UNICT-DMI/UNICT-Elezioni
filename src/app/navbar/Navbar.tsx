@@ -12,7 +12,7 @@ const Menu: FunctionComponent = () => (
       <div className="container">
         <Navbar.Brand href="#/senato">
           <a href="https://dmiinsider.github.io">
-            <img src="dmiinsider.svg" className="dmi-insider" />
+            <img src="dmiinsider.svg" className="dmi-insider" alt="DMI Insider" />
           </a>
           &nbsp; UNICT Elezioni
         </Navbar.Brand>
