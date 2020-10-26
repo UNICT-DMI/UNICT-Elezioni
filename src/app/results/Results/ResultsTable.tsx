@@ -3,6 +3,7 @@ import { Collapse, OverlayTrigger, Popover, Table } from 'react-bootstrap';
 import ListLogo from '../ListLogo/ListLogo';
 import { dict } from '../../department/Department';
 import DetailsList from '../DetailList/DetailsList';
+import Coccarda from '../../coccarda/coccarda';
 
 interface Props {
   data: any;
@@ -47,7 +48,7 @@ export const ResultTable = (props: Props): JSX.Element => {
                   results[l] && results[l][i] && (
                     [
                       `${results[l][i].nominativo} (${getVotiSeggio(results[l][i].voti)})`,
-                      results[l][i].eletto ? (<img key={`coccarda-${i}`} src="coccarda.png" alt="eletto" width="16" height="30" className="float-right" />) : ''
+                      results[l][i].eletto ? (<Coccarda key={`coccarda-${i}`} />) : ''
                     ]
                   )
                 }

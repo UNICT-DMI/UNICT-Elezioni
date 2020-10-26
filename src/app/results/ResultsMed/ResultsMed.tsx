@@ -1,4 +1,5 @@
 import React from 'react';
+import Coccarda from '../../coccarda/coccarda';
 
 interface Props {
   anno: string;
@@ -30,7 +31,7 @@ export const ResultsMed = (props: Props): JSX.Element => {
                 <tbody>
                 { data.eletti.map((e: any) =>
                   <tr key={`e-${e.nominativo}`}>
-                    <td className="text-primary">{e.nominativo} <img src="coccarda.png" width="16" height="30" className="float-right" alt="eletto"/></td>
+                    <td className="text-primary">{e.nominativo} <Coccarda key={`coccarda-${e.nominativo}`} /></td>
                     <td className="text-success">{e.voti.totali}</td>
                     {keys.map(k => <td key={`e-${e.nominativo}-${k}`}>{e.voti[k]}</td>)}
                   </tr>
