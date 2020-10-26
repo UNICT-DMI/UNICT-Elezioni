@@ -4,12 +4,18 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import './Navbar.scss';
 
 const Menu: FunctionComponent = () => (
   <div className="Menu">
     <Navbar expand="lg" className="bg-navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
       <div className="container">
-        <Navbar.Brand href="#/senato">UNICT Elezioni</Navbar.Brand>
+        <Navbar.Brand href="#/senato">
+          <a href="https://dmiinsider.github.io">
+            <img src="dmiinsider.svg" className="dmi-insider" />
+          </a>
+          &nbsp; UNICT Elezioni
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav variant="pills" activeKey="1">

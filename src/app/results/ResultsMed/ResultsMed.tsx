@@ -1,5 +1,6 @@
 import React from 'react';
-import Coccarda from '../../coccarda/coccarda';
+import { Table } from 'react-bootstrap';
+import Coccarda from '../../coccarda/Coccarda';
 
 interface Props {
   anno: string;
@@ -20,7 +21,7 @@ export const ResultsMed = (props: Props): JSX.Element => {
 
               <h2>{props.anno}</h2>
 
-              <table className="table table-striped table-bordered">
+              <Table striped bordered responsive>
                 <thead>
                   <tr>
                     <th className="bg-secondary">Candidati</th>
@@ -51,7 +52,7 @@ export const ResultsMed = (props: Props): JSX.Element => {
                     {keys.map(k => <td key={`tot-${k}`}>{data.voti[k]}</td>)}
                   </tr>
                 </tfoot>
-              </table>
+              </Table>
 
             </div>
           </div>

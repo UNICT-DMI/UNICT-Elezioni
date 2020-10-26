@@ -19,15 +19,17 @@ import cdls_500 from '../data/cdl-500';
 import ResultsMed from './results/ResultsMed/ResultsMed';
 import ResultsSingle from './results/ResultsSingle/ResultsSingle';
 import dottorandi from '../data/dottorandi';
+import Footer from './footer/Footer';
+import { Table } from 'react-bootstrap';
 
 const App: FunctionComponent = () => {
   const handleOnClick = (route: string) => { window.location.href = route; };
 
   return (
   <div className="App">
-    <HashRouter basename="/">
-      <Menu />
-      <div className="container-fluid pt-4">
+    <Menu />
+    <div className="container-fluid pt-4">
+      <HashRouter basename="/">
         <SearchForm/>
         <Switch>
           <Route exact path="/senato">
@@ -87,7 +89,7 @@ const App: FunctionComponent = () => {
           <Route exact path="/dipartimenti-dottorandi">
             <div className="container text-left">
               <h2 className="mt-5">Consiglio di Dipartimento (Dottorandi) 2018-2020</h2>
-              <table className="table table-hover table-bordered mb-5">
+              <Table hover bordered responsive className="mb-5">
                 <tbody>
                   {(dottorandi as any)['2018-2020'].map((c: string) => [
                   <tr className="pointer" onClick={() => handleOnClick(`#/single-results/dottorandi/2018-2020/${c}`)}>
@@ -97,7 +99,7 @@ const App: FunctionComponent = () => {
                   </tr>
                   ])}
                 </tbody>
-              </table>
+              </Table>
 
               <h2 className="mt-5">Consiglio di Dipartimento (Dottorandi) 2016-2018</h2>
               <hr/>
@@ -124,7 +126,7 @@ const App: FunctionComponent = () => {
               {years.map((y) => [
                 <h2 className="mt-5">Consiglio di Corso di Laurea (&lt;500) {y}</h2>,
                 
-                <table className="table table-hover table-bordered mb-5">
+                <Table hover bordered responsive className="mb-5">
                   <tbody>
                     {(cdls_500 as any)[y].map((c: string) => [
                     <tr className="pointer" onClick={() => handleOnClick(`#/single-results/cdl-500/${y}/${c}`)}>
@@ -134,7 +136,7 @@ const App: FunctionComponent = () => {
                     </tr>
                     ])}
                   </tbody>
-                </table>
+                </Table>
               ])}
             </div>
           </Route>
@@ -148,8 +150,9 @@ const App: FunctionComponent = () => {
           </Route>
           <Redirect to="/senato" />
         </Switch>
-      </div>
-    </HashRouter>
+      </HashRouter>
+    </div>
+    <Footer/>
   </div>);
 }
 

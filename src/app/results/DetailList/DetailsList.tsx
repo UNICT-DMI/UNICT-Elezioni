@@ -54,7 +54,7 @@ export const DetailsList = (props: Props): JSX.Element => {
       <Popover.Title as="h3">{props.candidateList.nome}</Popover.Title>
       <Popover.Content>
         {
-          <Table striped bordered hover>
+          <Table striped bordered responsive hover>
             {generateHead()}
             {generateVotesRow()}
           </Table>
