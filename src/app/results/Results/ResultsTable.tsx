@@ -3,7 +3,7 @@ import { Collapse, OverlayTrigger, Popover, Table } from 'react-bootstrap';
 import ListLogo from '../ListLogo/ListLogo';
 import { dict } from '../../department/Department';
 import DetailsList from '../DetailList/DetailsList';
-import Coccarda from '../../coccarda/coccarda';
+import Coccarda from '../../coccarda/Coccarda';
 
 interface Props {
   data: any;
@@ -142,7 +142,7 @@ export const ResultTable = (props: Props): JSX.Element => {
 
       <Collapse in={show}>
         <div id="collapse-tbody">
-          <Table striped bordered hover className="liste">
+          <Table striped bordered hover responsive className="liste">
             {generateHead()}
             <tbody>
               {generateTableRows()}

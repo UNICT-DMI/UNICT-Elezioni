@@ -1,6 +1,7 @@
 import React from 'react';
+import { Table } from 'react-bootstrap';
 import { useParams } from 'react-router-dom';
-import Coccarda from '../../coccarda/coccarda';
+import Coccarda from '../../coccarda/Coccarda';
 
 interface Params {
   anno: string;
@@ -23,7 +24,7 @@ export const ResultsSingle = (): JSX.Element => {
 
               <h2 className="capitalize">{params.cdl.replaceAll('_', ' ')} {params.anno}</h2>
 
-              <table className="table table-striped table-bordered">
+              <Table striped bordered responsive>
                 <thead>
                   <tr>
                     <th className="bg-secondary">Candidati</th>
@@ -54,7 +55,7 @@ export const ResultsSingle = (): JSX.Element => {
                     {keys.map(k => <td key={`tot-${k}`}>{data.voti[k]}</td>)}
                   </tr>
                 </tfoot>
-              </table>
+              </Table>
 
             </div>
           </div>

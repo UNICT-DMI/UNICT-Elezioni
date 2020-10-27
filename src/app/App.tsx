@@ -1,4 +1,4 @@
-import React, { FunctionComponent } from 'react';
+import React from 'react';
 import {
   Switch,
   Route,
@@ -19,49 +19,27 @@ import cdls_500 from '../data/cdl-500';
 import ResultsMed from './results/ResultsMed/ResultsMed';
 import ResultsSingle from './results/ResultsSingle/ResultsSingle';
 import dottorandi from '../data/dottorandi';
+import Footer from './footer/Footer';
+import { Table } from 'react-bootstrap';
+import NotFound from './not-found/NotFound';
+import HigherPolitics from './higher-politics/HigherPolitics';
+import Home from './home/Home';
 
-const App: FunctionComponent = () => {
+const App = () => {
   const handleOnClick = (route: string) => { window.location.href = route; };
 
   return (
   <div className="App">
-    <HashRouter basename="/">
-      <Menu />
-      <div className="container-fluid pt-4">
+    <Menu />
+    <div className="container-fluid pt-4">
+      <HashRouter basename="/">
         <SearchForm/>
         <Switch>
-          <Route exact path="/senato">
-            <h2 className="mt-5">Senato</h2>
-            <div className="py-4">
-              <Results anno="2018-2020" path="Senato" details={false} />
-              <Results anno="2016-2018" path="Senato" details={false} />
-              <Results anno="2014-2016" path="Senato" details={false} />
-            </div>
-          </Route>
-          <Route exact path="/cda">
-            <h2 className="mt-5">Consiglio di Amministrazione (CdA)</h2>
-            <div className="py-4">
-              <Results anno="2018-2020" path="Consiglio_di_amministrazione" details={false} />
-              <Results anno="2016-2018" path="Consiglio_di_amministrazione" details={false} />
-              <Results anno="2014-2016" path="Consiglio_di_amministrazione" details={false} />
-            </div>
-          </Route>
-          <Route exact path="/ndv">
-            <h2 className="mt-5">Nucleo di Valutazione (NdV)</h2>
-            <div className="py-4">
-              <Results anno="2018-2020" path="Nucleo_di_valutazione" details={false} />
-              <Results anno="2016-2018" path="Nucleo_di_valutazione" details={false} />
-              <Results anno="2014-2016" path="Nucleo_di_valutazione" details={false} />
-            </div>
-          </Route>
-          <Route exact path="/csu">
-            <h2 className="mt-5">Comitato per lo Sport Universitario (CSU)</h2>
-            <div className="py-4">
-              <Results anno="2018-2020" path="Comitato_per_lo_sport_universitario" details={false} />
-              <Results anno="2016-2018" path="Comitato_per_lo_sport_universitario" details={false} />
-              <Results anno="2014-2016" path="Comitato_per_lo_sport_universitario" details={false} />
-            </div>
-          </Route>
+          <Route exact path="/home" component={Home} />
+          <Route exact path="/senato" render={() => <HigherPolitics title={'Senato'}                                    path={'Senato'} /> } />
+          <Route exact path="/cda"    render={() => <HigherPolitics title={'Consiglio di Amministrazione (CdA)'}        path={'Consiglio_di_amministrazione'} /> } />
+          <Route exact path="/ndv"    render={() => <HigherPolitics title={'Nucleo di Valutazione (NdV)'}               path={'Nucleo_di_valutazione'} /> } />
+          <Route exact path="/csu"    render={() => <HigherPolitics title={'Comitato per lo Sport Universitario (CSU)'} path={'Comitato_per_lo_sport_universitario'} /> } />
           <Route exact path="/ersu">
             <h2 className="mt-5">Consiglio di Amministrazione ERSU</h2>
             <div className="py-4">
@@ -87,7 +65,7 @@ const App: FunctionComponent = () => {
           <Route exact path="/dipartimenti-dottorandi">
             <div className="container text-left">
               <h2 className="mt-5">Consiglio di Dipartimento (Dottorandi) 2018-2020</h2>
-              <table className="table table-hover table-bordered mb-5">
+              <Table hover bordered responsive className="mb-5">
                 <tbody>
                   {(dottorandi as any)['2018-2020'].map((c: string) => [
                   <tr className="pointer" onClick={() => handleOnClick(`#/single-results/dottorandi/2018-2020/${c}`)}>
@@ -97,7 +75,7 @@ const App: FunctionComponent = () => {
                   </tr>
                   ])}
                 </tbody>
-              </table>
+              </Table>
 
               <h2 className="mt-5">Consiglio di Dipartimento (Dottorandi) 2016-2018</h2>
               <hr/>
@@ -124,7 +102,7 @@ const App: FunctionComponent = () => {
               {years.map((y) => [
                 <h2 className="mt-5">Consiglio di Corso di Laurea (&lt;500) {y}</h2>,
                 
-                <table className="table table-hover table-bordered mb-5">
+                <Table hover bordered responsive className="mb-5">
                   <tbody>
                     {(cdls_500 as any)[y].map((c: string) => [
                     <tr className="pointer" onClick={() => handleOnClick(`#/single-results/cdl-500/${y}/${c}`)}>
@@ -134,27 +112,20 @@ const App: FunctionComponent = () => {
                     </tr>
                     ])}
                   </tbody>
-                </table>
+                </Table>
               ])}
             </div>
           </Route>
           <Route exact path="/single-results/:type/:anno/:cdl" component={ResultsSingle} />
           <Route exact path="/search/:keywords" component={SearchPage} />
-          <Route exact path="/contatti">
-            <Contacts/>
-          </Route>
-          <Route exact path="/not-found">
-            <NotFound />
-          </Route>
-          <Redirect to="/senato" />
+          <Route exact path="/contatti" component={Contacts} />
+          <Route exact path="/not-found" component={NotFound} />
+          <Redirect to="/home" />
         </Switch>
-      </div>
-    </HashRouter>
+      </HashRouter>
+    </div>
+    <Footer/>
   </div>);
-}
-
-function NotFound(): JSX.Element {
-  return <h2>404 - Not Found</h2>;
 }
 
 export default App;
