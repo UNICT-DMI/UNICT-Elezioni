@@ -10,7 +10,7 @@ const Menu: FunctionComponent = () => (
   <div className="Menu">
     <Navbar expand="lg" className="bg-navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
       <div className="container">
-        <Navbar.Brand href="#/senato">
+        <Navbar.Brand href="#/home">
           <a href="https://dmiinsider.github.io">
             <img src="dmiinsider.svg" className="dmi-insider" alt="DMI Insider" />
           </a>

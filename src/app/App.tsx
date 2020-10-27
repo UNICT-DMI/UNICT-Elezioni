@@ -1,4 +1,4 @@
-import React, { FunctionComponent } from 'react';
+import React from 'react';
 import {
   Switch,
   Route,
@@ -23,8 +23,9 @@ import Footer from './footer/Footer';
 import { Table } from 'react-bootstrap';
 import NotFound from './not-found/NotFound';
 import HigherPolitics from './higher-politics/HigherPolitics';
+import Home from './home/Home';
 
-const App: FunctionComponent = () => {
+const App = () => {
   const handleOnClick = (route: string) => { window.location.href = route; };
 
   return (
@@ -34,6 +35,7 @@ const App: FunctionComponent = () => {
       <HashRouter basename="/">
         <SearchForm/>
         <Switch>
+          <Route exact path="/home" component={Home} />
           <Route exact path="/senato" render={() => <HigherPolitics title={'Senato'}                                    path={'Senato'} /> } />
           <Route exact path="/cda"    render={() => <HigherPolitics title={'Consiglio di Amministrazione (CdA)'}        path={'Consiglio_di_amministrazione'} /> } />
           <Route exact path="/ndv"    render={() => <HigherPolitics title={'Nucleo di Valutazione (NdV)'}               path={'Nucleo_di_valutazione'} /> } />
@@ -118,7 +120,7 @@ const App: FunctionComponent = () => {
           <Route exact path="/search/:keywords" component={SearchPage} />
           <Route exact path="/contatti" component={Contacts} />
           <Route exact path="/not-found" component={NotFound} />
-          <Redirect to="/senato" />
+          <Redirect to="/home" />
         </Switch>
       </HashRouter>
     </div>
