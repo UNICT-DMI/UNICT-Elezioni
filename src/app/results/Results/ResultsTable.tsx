@@ -104,7 +104,7 @@ export const ResultTable = (props: Props): JSX.Element => {
                   placement="bottom"
                   overlay={detailsListPopover(l)}
                   key={`${props.anno}-overlay-${l.nome}`}>
-                  <div className="logo" key={`${props.anno}-logo-${l.nome}`}>
+                  <div key={`${props.anno}-logo-${l.nome}`}>
                     <ListLogo listName={l.nome} />
                   </div>
                 </OverlayTrigger>

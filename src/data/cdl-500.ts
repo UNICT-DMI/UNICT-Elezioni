@@ -1,4 +1,4 @@
-const cdl_500 = {
+const cdl500 = {
   '2018-2020': [
     'archeologia',
     'biologia_sanitaria_e_cellulare-molecolare',
@@ -65,7 +65,7 @@ const cdl_500 = {
     'tecniche_audioprotesiche',
     'tecniche_di_fisiopatologia_cardiocircolatoria_e_perfusione_c',
     'tecniche_di_laboratorio_biomedico',
-    'tecniche_di_radiologia_medica_per_immagini_e_radioterapia',
+    'tecniche_di_radiologia_medica_per_immagini_e_radioterapia'
   ],
   '2016-2018': [
     'archeologia-laurea_magistrale_biennale',
@@ -128,8 +128,8 @@ const cdl_500 = {
     'tecniche_audioprotesiche-laurea',
     'tecniche_di_fisiopatologia_cardiocircolatoria_e_perfusione_-laurea',
     'tecniche_di_laboratorio_biomedico-laurea',
-    'tecniche_di_radiologia_medica_per_immagini_e_radioterapia-laurea',
-  ],
+    'tecniche_di_radiologia_medica_per_immagini_e_radioterapia-laurea'
+  ]
 };
 
-export default cdl_500;
+export default cdl500;

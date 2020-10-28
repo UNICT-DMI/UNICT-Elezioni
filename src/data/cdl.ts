@@ -27,7 +27,7 @@ const cdls = {
     'Scienze_e_tecniche_psicologiche',
     'Scienze_e_tecnologie_agrarie',
     'Scienze_e_tecnologie_alimentari',
-    'Sociologia_e_servizio_sociale',
+    'Sociologia_e_servizio_sociale'
   ],
   '2016-2018': [
     'Architettura',
@@ -58,8 +58,8 @@ const cdls = {
     'Scienze_e_tecnologie_alimentari',
     'Scienze_farmaceutiche_applicate',
     'Sociologia_e_servizio_sociale_-_percorso_in_servizi_sociali',
-    'Storia_politica_e_relazioni_internazionali',
-  ],
+    'Storia_politica_e_relazioni_internazionali'
+  ]
 };
 
 export default cdls;

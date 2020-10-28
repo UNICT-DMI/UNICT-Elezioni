@@ -20,7 +20,7 @@ const Contact = (props: ContactDetails): JSX.Element => {
       <span className="badge-pill">
         <Button href={`https://t.me/${props.telegram}`} target="_blank">
           <div>
-          <FontAwesomeIcon icon={faTelegramPlane} />
+            <FontAwesomeIcon icon={faTelegramPlane} />
           </div>
         </Button>{' '}
 
@@ -50,51 +50,45 @@ const Contacts = (): JSX.Element => {
         <h2 className="mt-5">Questo progetto è stato realizzato da:</h2>
         <ListGroup className="contributors">
 
-            <Contact
-              nominativo="Stefano Borzì"
-              telegram="Helias"
-              email="stefanoborzi32@gmail.com"
-              linkedin="https://www.linkedin.com/in/stefanoborzi"
-              github="Helias"
-            ></Contact>
+          <Contact
+            nominativo="Stefano Borzì"
+            telegram="Helias"
+            email="stefanoborzi32@gmail.com"
+            linkedin="https://www.linkedin.com/in/stefanoborzi"
+            github="Helias"></Contact>
 
-            <Contact
-              nominativo="Vincenzo Filetti"
-              telegram="Veenz"
-              email="vzfiletti@gmail.com"
-              linkedin="https://www.linkedin.com/in/vincenzo-filetti-b87016103/"
-              github="Veeenz"
-            ></Contact>
+          <Contact
+            nominativo="Vincenzo Filetti"
+            telegram="Veenz"
+            email="vzfiletti@gmail.com"
+            linkedin="https://www.linkedin.com/in/vincenzo-filetti-b87016103/"
+            github="Veeenz"></Contact>
 
-            <Contact
-              nominativo="Andrea Maugeri"
-              telegram="v0lp3"
-              email="andreamaujeri@gmail.com"
-              github="v0lp3"
-            ></Contact>
+          <Contact
+            nominativo="Andrea Maugeri"
+            telegram="v0lp3"
+            email="andreamaujeri@gmail.com"
+            github="v0lp3"></Contact>
 
-            <Contact
-              nominativo="Graziano Di Grande"
-              telegram="Adrenoid"
-              email="graziano27dg@gmail.com"
-              linkedin="https://www.linkedin.com/in/graziano-di-grande-47b077193/"
-              github="drendog"
-            ></Contact>
+          <Contact
+            nominativo="Graziano Di Grande"
+            telegram="Adrenoid"
+            email="graziano27dg@gmail.com"
+            linkedin="https://www.linkedin.com/in/graziano-di-grande-47b077193/"
+            github="drendog"></Contact>
 
-            <Contact
-              nominativo="Luigi Seminara"
-              telegram="Gigii_G"
-              email="seminara.luigi@gmail.com"
-              github="Gigi-G"
-            ></Contact>
+          <Contact
+            nominativo="Luigi Seminara"
+            telegram="Gigii_G"
+            email="seminara.luigi@gmail.com"
+            github="Gigi-G"></Contact>
 
-            <Contact
-              nominativo="Davide Carnemolla"
-              telegram="herbrant"
-              email="cdavide98carnemolla@gmail.com"
-              linkedin="https://www.linkedin.com/in/davide-carnemolla"
-              github="herbrant"
-            ></Contact>
+          <Contact
+            nominativo="Davide Carnemolla"
+            telegram="herbrant"
+            email="cdavide98carnemolla@gmail.com"
+            linkedin="https://www.linkedin.com/in/davide-carnemolla"
+            github="herbrant"></Contact>
         </ListGroup>
       </div>
     </div>

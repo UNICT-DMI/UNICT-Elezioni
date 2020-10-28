@@ -21,12 +21,14 @@ export const ListLogo = (props: Props): JSX.Element => {
   }
 
   return (
-    <img key={getListName()}
-      src={`loghi/${getListName()}.jpg`}
-      className="m-auto"
-      width="80"
-      height="80"
-      alt={getListName()} />
+    <div className="logolist">
+      <img key={getListName()}
+        src={`loghi/${getListName()}.jpg`}
+        className="m-auto"
+        width="80"
+        height="80"
+        alt={getListName()} />
+    </div>
   );
 };
 
