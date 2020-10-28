@@ -9,12 +9,12 @@ const dottorandi = {
     'Medicina_clinica_e_sperimentale',
     'Scienze_biologiche_geologiche_e_ambientali',
     'Scienze_chimiche',
-    'Scienze_umanistiche',
+    'Scienze_umanistiche'
   ],
   '2016-2018': [
     'Scienze_biologiche_geologiche_e_ambientali',
-    'Scienze_chimiche',
-  ],
+    'Scienze_chimiche'
+  ]
 };
 
 export default dottorandi;
