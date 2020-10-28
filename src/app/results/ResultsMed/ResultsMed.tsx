@@ -30,20 +30,20 @@ export const ResultsMed = (props: Props): JSX.Element => {
                   </tr>
                 </thead>
                 <tbody>
-                { data.eletti.map((e: any) =>
-                  <tr key={`e-${e.nominativo}`}>
-                    <td className="text-primary">{e.nominativo} <Coccarda key={`coccarda-${e.nominativo}`} /></td>
-                    <td className="text-success">{e.voti.totali}</td>
-                    {keys.map(k => <td key={`e-${e.nominativo}-${k}`}>{e.voti[k]}</td>)}
-                  </tr>
-                )}
-                { data.non_eletti.map((e: any) =>
-                  <tr key={`non-e-${e.nominativo}`}>
-                    <td className="text-primary">{e.nominativo}</td>
-                    <td className="text-success">{e.voti.totali}</td>
-                    {keys.map(k => <td key={`non-e-${e.nominativo}-${k}`}>{e.voti[k]}</td>)}
-                  </tr>
-                )}
+                  { data.eletti.map((e: any) =>
+                    <tr key={`e-${e.nominativo}`}>
+                      <td className="text-primary">{e.nominativo} <Coccarda key={`coccarda-${e.nominativo}`} /></td>
+                      <td className="text-success">{e.voti.totali}</td>
+                      {keys.map(k => <td key={`e-${e.nominativo}-${k}`}>{e.voti[k]}</td>)}
+                    </tr>
+                  )}
+                  { data.non_eletti.map((e: any) =>
+                    <tr key={`non-e-${e.nominativo}`}>
+                      <td className="text-primary">{e.nominativo}</td>
+                      <td className="text-success">{e.voti.totali}</td>
+                      {keys.map(k => <td key={`non-e-${e.nominativo}-${k}`}>{e.voti[k]}</td>)}
+                    </tr>
+                  )}
                 </tbody>
                 <tfoot>
                   <tr className="table-primary">
