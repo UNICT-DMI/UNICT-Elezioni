@@ -96,7 +96,7 @@ export const SearchForm = (): JSX.Element => {
             className="form-control"
             value={formValue}
             onChange={onInputFormChange}
-            placeholder="Cerca dipartimento, candidato, lista..." />
+            placeholder="(BETA) Cerca dipartimento, candidato, lista..." />
           <InputGroup.Append>
             <Button type="submit" variant="primary"><FontAwesomeIcon icon={faSearch} /></Button>
           </InputGroup.Append>
