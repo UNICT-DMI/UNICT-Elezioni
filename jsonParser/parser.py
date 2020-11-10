@@ -9,9 +9,9 @@ from SelectTarget import SelectTarget
 
 def error_start(argc):
     if argc != 2:
-        print("USAGE: python3 parser.py <filename>.pdf <0|other>\n")
+        print("USAGE: python3 parser.py <filename>.pdf <0|1|2|other>\n")
         print("`$fileName` is the name of the file from which you want extract data.")
-        print("`[0|1|other]` indicates the type of data to parse.")
+        print("`[0|1|2|other]` indicates the type of data to parse.")
         print("\nYou shall choose:\n")
         print("· `0` if you want to extract departments and CdL with a number of student greater than 500.\n")
         print("· `1` if you want to extract CdL with a number of student fewer than 500.\n")
