@@ -28,7 +28,7 @@
     },
     "eletti": [
         {
-            "nome_candidato": "GIUMMARRESI Mariangela",
+            "nominativo": "GIUMMARRESI Mariangela",
             "voti": {
                 "totali": 443,
                 "seggio_n_16": 30,
@@ -39,7 +39,7 @@
             }
         },
         {
-            "nome_candidato": "LEOTTA Alberto",
+            "nominativo": "LEOTTA Alberto",
             "voti": {
                 "totali": 413,
                 "seggio_n_16": 233,
@@ -50,7 +50,7 @@
             }
         },
         {
-            "nome_candidato": "PIAZZA Vincenzo Gaetano",
+            "nominativo": "PIAZZA Vincenzo Gaetano",
             "voti": {
                 "totali": 199,
                 "seggio_n_16": 67,
@@ -61,7 +61,7 @@
             }
         },
         {
-            "nome_candidato": "PUGLISI Martina",
+            "nominativo": "PUGLISI Martina",
             "voti": {
                 "totali": 318,
                 "seggio_n_16": 72,
@@ -72,7 +72,7 @@
             }
         },
         {
-            "nome_candidato": "VITALE Ermanno",
+            "nominativo": "VITALE Ermanno",
             "voti": {
                 "totali": 413,
                 "seggio_n_16": 101,
@@ -85,7 +85,7 @@
     ],
     "non_eletti": [
         {
-            "nome_candidato": "ALIA Stefano",
+            "nominativo": "ALIA Stefano",
             "voti": {
                 "totali": 176,
                 "seggio_n_16": 123,

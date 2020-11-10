@@ -51,6 +51,7 @@ const App = (): JSX.Element => {
               <div className="py-4">
                 <ResultsMed anno="2018-2020" path="Coordinamento_medicina" />
                 <ResultsMed anno="2016-2018" path="Coordinamento_medicina" />
+                <ResultsMed anno="2014-2016" path="Coordinamento_medicina" />
               </div>
             </Route>
             <Route exact path="/dipartimenti">
