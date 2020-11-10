@@ -35,9 +35,15 @@ class Medicina(Target):
         return result
 
     def __get_extract_info(self, text, nome, voti, list_of_seats) -> bool:
-        nome[0] = text[self.i]
-        self.i += 1
-        split_text = text[self.i].split()
+        if not self.word_not_in_control("SCHEDE", text) or not self.word_not_in_control("TOTALE", text):
+            split_text = text[self.i].split()
+            nome[0] = split_text.pop(0) + " " + split_text.pop(0)
+            if len(split_text) <= 0:
+                self.i += 1
+        else:
+            nome[0] = text[self.i]
+            self.i += 1
+            split_text = text[self.i].split()
         eletto = self.__is_eletto(split_text)
         if len(list_of_seats) + 1 < len(split_text):
             split_text.pop(0)
