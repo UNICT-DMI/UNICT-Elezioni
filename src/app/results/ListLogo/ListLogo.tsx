@@ -6,7 +6,11 @@ interface Props {
 }
 
 export const ListLogo = (props: Props): JSX.Element => {
-  function getListName(): string {
+  function getListName(): string | undefined {
+    if (props.listName === undefined) {
+      return;
+    }
+
     if (props.listName.indexOf('IBLA') > -1) {
       console.warn(props.listName);
     }

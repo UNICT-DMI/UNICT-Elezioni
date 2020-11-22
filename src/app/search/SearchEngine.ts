@@ -1,5 +1,6 @@
 import departments from '../../data/departments';
 import cdls from '../../data/cdl';
+import cdl500 from '../../data/cdl-500';
 import { entities, entitiesPath } from '../../data/entities';
 import years from '../../data/years';
 import SearchLimits from './SearchLimits';
@@ -29,7 +30,7 @@ interface SearchResult {
 
 /*
   Need refactoring and doing it on backend
-  There is so much codes here...
+  There is so much code here...
 */
 class SearchCandidate {
   isNameValid(fullName: string, keywords: string): boolean {
@@ -129,11 +130,38 @@ class SearchCandidate {
     return results;
   }
 
+  searchListCdl500(str: string, data: any, limits: SearchLimits): CandidateInfo[] {
+    const results: CandidateInfo[] = [];
+    str = str.toUpperCase();
+    for (const year of years) {
+      for (const cdl of (cdl500 as any)[year]) {
+        const electedList = (data[year].cdl500[cdl].eletti as any[]).concat(data[year].cdl500[cdl].non_eletti);
+        for (const candidate of electedList) {
+          if (limits.isFull()) {
+            return results;
+          }
+          if (this.isNameValid(candidate.nome_candidato, str)) {
+            results.push({
+              name: candidate.nome_candidato,
+              listName: candidate.lista,
+              year: year,
+              department: cdl,
+              path: '#/single-results/cdl-500/' + year + '/' + cdl
+            });
+            limits.increaseResults();
+          }
+        }
+      }
+    }
+    return results;
+  }
+
   search(str: string, data: any, limits: SearchLimits): CandidateInfo[] {
     return [
       ...this.searchListDep(str, data, limits),
       ...this.searchOther(str, data, limits),
-      ...this.searchListCdl(str, data, limits)
+      ...this.searchListCdl(str, data, limits),
+      ...this.searchListCdl500(str, data, limits)
     ];
   }
 }
@@ -233,6 +261,11 @@ class SearchEngine {
       this.data[year].cdl = [];
       for (const cdl of (cdls as any)[year]) {
         this.data[year].cdl[cdl] = require(`../../data/${year}/cdl/${cdl}.json`);
+      }
+      this.data[year].cdl500 = [];
+      for (const cdl of (cdl500 as any)[year]) {
+        this.data[year].cdl500[cdl] = require(`../../data/${year}/cdl-500/${cdl}.json`);
+        console.log(this.data[year].cdl500[cdl]);
       }
     }
   }

@@ -92,13 +92,21 @@ export const SearchPage = (): JSX.Element => {
               <div className="row">
                 <div className="col my-auto">
                   <div className="float-right">
-                    <ListLogo listName={suggestion.listName} />
+                    {
+                      suggestion.listName &&
+                      <ListLogo listName={suggestion.listName} />
+                    }
                   </div>
                 </div>
                 <div className="col my-auto">
                   <div className="float-left text-left">
-                    Lista: {suggestion.listName}
-                    <br />
+                    {
+                      suggestion.listName &&
+                      <div>
+                        Lista: {suggestion.listName}
+                        <br />
+                      </div>
+                    }
                     Anno: {suggestion.year}
                     <br />
                     <FontAwesomeIcon icon={faUniversity} />&nbsp;
