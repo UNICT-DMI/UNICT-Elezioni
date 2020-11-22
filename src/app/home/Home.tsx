@@ -26,7 +26,7 @@ function Home(): JSX.Element {
                 <li>Coordinamento Facoltà di Medicina</li>
               </ul>
 
-              <p>Il progetto è <b>ancora in lavorazione,</b> inoltre, purtroppo molti dati non sono disponibili nel sito dell'Ateneo quindi attualmente mostriamo solo i dati dei seguenti bienni:</p>
+              <p>Il progetto è <b>ancora in lavorazione,</b> inoltre, purtroppo molti dati non sono disponibili nel sito dell&apos; Ateneo quindi attualmente mostriamo solo i dati dei seguenti bienni:</p>
               <ul>
                 <li>2018-2020</li>
                 <li>2016-2018</li>

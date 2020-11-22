@@ -1,4 +1,5 @@
 import departments from '../../data/departments';
+import cdls from '../../data/cdl';
 import { entities, entitiesPath } from '../../data/entities';
 import years from '../../data/years';
 import SearchLimits from './SearchLimits';
@@ -26,6 +27,10 @@ interface SearchResult {
   candidates: CandidateInfo[];
 }
 
+/*
+  Need refactoring and doing it on backend
+  There is so much codes here...
+*/
 class SearchCandidate {
   isNameValid(fullName: string, keywords: string): boolean {
     fullName = fullName.toUpperCase();
@@ -98,8 +103,38 @@ class SearchCandidate {
     return results;
   }
 
+  searchListCdl(str: string, data: any, limits: SearchLimits): CandidateInfo[] {
+    const results: CandidateInfo[] = [];
+    str = str.toUpperCase();
+    for (const year of years) {
+      for (const cdl of (cdls as any)[year]) {
+        const electedList = (data[year].cdl[cdl].eletti as any[]).concat(data[year].cdl[cdl].non_eletti);
+        for (const candidate of electedList) {
+          if (limits.isFull()) {
+            return results;
+          }
+          if (this.isNameValid(candidate.nominativo, str)) {
+            results.push({
+              name: candidate.nominativo,
+              listName: candidate.lista,
+              year: year,
+              department: cdl,
+              path: '#/cdl'
+            });
+            limits.increaseResults();
+          }
+        }
+      }
+    }
+    return results;
+  }
+
   search(str: string, data: any, limits: SearchLimits): CandidateInfo[] {
-    return [...this.searchListDep(str, data, limits), ...this.searchOther(str, data, limits)];
+    return [
+      ...this.searchListDep(str, data, limits),
+      ...this.searchOther(str, data, limits),
+      ...this.searchListCdl(str, data, limits)
+    ];
   }
 }
 
@@ -194,6 +229,10 @@ class SearchEngine {
       this.data[year].departments = [];
       for (const depart of departments) {
         this.data[year].departments[depart] = require(`../../data/${year}/dipartimenti/${depart}.json`);
+      }
+      this.data[year].cdl = [];
+      for (const cdl of (cdls as any)[year]) {
+        this.data[year].cdl[cdl] = require(`../../data/${year}/cdl/${cdl}.json`);
       }
     }
   }

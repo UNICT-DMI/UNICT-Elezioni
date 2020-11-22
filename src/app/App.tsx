@@ -92,13 +92,13 @@ const App = (): JSX.Element => {
             <Route exact path="/dottorandi/:anno/:cdl" component={ResultsSingle} />
             <Route exact path="/cdl">
               {years.map((y) => [
-                <hr/>,
+                <hr key={`hr${y}`} />,
                 <h2 className="mt-5" key={`h2${y}`}>Consiglio di Corso di Laurea {y}</h2>,
                 (cdls as any)[y].map((c: string) => [
                   <hr className="my-5" key={`hr${c}`} />,
                   <h3 key={`h3${c}`}>{c.replace(/_/g, ' ')}</h3>,
                   <Results anno={y} path={`cdl/${c}`} details={false} key={`${c}${y}`} showDetailsList />
-                ]),
+                ])
               ])}
             </Route>
             <Route exact path="/cdl-500">
