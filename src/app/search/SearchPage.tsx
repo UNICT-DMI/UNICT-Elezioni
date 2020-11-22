@@ -35,7 +35,7 @@ export const SearchPage = (): JSX.Element => {
               {suggestion.replaceAll('_', ' ')}
             </Card.Title>
             <Button href={`#/dipartimento/${suggestion}`}>
-              Vedi risultati del Dipartimento
+              Vedi risultati
             </Button>
           </Card.Body>
         </Card>
@@ -71,7 +71,7 @@ export const SearchPage = (): JSX.Element => {
               </div>
             </Card.Text>
             <Button href={suggestion.path}>
-              Vedi risultati del Dipartimento
+              Vedi risultati
             </Button>
           </Card.Body>
         </Card>
@@ -117,7 +117,7 @@ export const SearchPage = (): JSX.Element => {
               </div>
             </Card.Text>
             <Button href={suggestion.path}>
-              Vedi risultati del Dipartimento
+              Vedi risultati
             </Button>
           </Card.Body>
         </Card>

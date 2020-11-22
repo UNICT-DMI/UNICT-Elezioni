@@ -4,6 +4,7 @@ import cdl500 from '../../data/cdl-500';
 import dottorandi from '../../data/dottorandi';
 import { entities, entitiesPath } from '../../data/entities';
 import years from '../../data/years';
+import ersuYears from '../../data/ersu-years';
 import SearchLimits from './SearchLimits';
 
 export interface ListInfo {
@@ -220,6 +221,30 @@ class SearchCandidate {
     return results;
   }
 
+  searchListERSU(str: string, data: any, limits: SearchLimits): CandidateInfo[] {
+    const results: CandidateInfo[] = [];
+    str = str.toUpperCase();
+    for (const year of ersuYears) {
+      const electedList = (data[year].ersu.eletti as any[]).concat(data[year].ersu.non_eletti);
+      for (const candidate of electedList) {
+        if (limits.isFull()) {
+          return results;
+        }
+        if (this.isNameValid(candidate.nominativo, str)) {
+          results.push({
+            name: candidate.nominativo,
+            listName: candidate.lista,
+            year: year,
+            department: 'ERSU',
+            path: '#/ersu'
+          });
+          limits.increaseResults();
+        }
+      }
+    }
+    return results;
+  }
+
   search(str: string, data: any, limits: SearchLimits): CandidateInfo[] {
     return [
       ...this.searchListDep(str, data, limits),
@@ -227,7 +252,8 @@ class SearchCandidate {
       ...this.searchListCdl(str, data, limits),
       ...this.searchListCdl500(str, data, limits),
       ...this.searchListPhD(str, data, limits),
-      ...this.searchListMedicina(str, data, limits)
+      ...this.searchListMedicina(str, data, limits),
+      ...this.searchListERSU(str, data, limits)
     ];
   }
 }
@@ -338,6 +364,11 @@ class SearchEngine {
       }
       this.data[year].medicina = [];
       this.data[year].medicina = require(`../../data/${year}/Coordinamento_medicina.json`);
+    }
+    for (const year of ersuYears) {
+      this.data[year] = [];
+      this.data[year].ersu = [];
+      this.data[year].ersu = require(`../../data/${year}/ERSU.json`);
     }
   }
 
