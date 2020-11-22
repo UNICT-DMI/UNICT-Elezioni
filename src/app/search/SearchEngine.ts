@@ -69,7 +69,7 @@ class SearchCandidate {
               listName: candidate.lista,
               year: year,
               entity: entity,
-              path: '#/' + entity
+              path: entitiesPath[entity]
             });
             limits.increaseResults();
           }
@@ -196,13 +196,38 @@ class SearchCandidate {
     return results;
   }
 
+  searchListMedicina(str: string, data: any, limits: SearchLimits): CandidateInfo[] {
+    const results: CandidateInfo[] = [];
+    str = str.toUpperCase();
+    for (const year of years) {
+      const electedList = (data[year].medicina.eletti as any[]).concat(data[year].medicina.non_eletti);
+      for (const candidate of electedList) {
+        if (limits.isFull()) {
+          return results;
+        }
+        if (this.isNameValid(candidate.nominativo, str)) {
+          results.push({
+            name: candidate.nominativo,
+            listName: candidate.lista,
+            year: year,
+            department: 'Coordinamento Facoltà di Medicina',
+            path: '#/facolta_medicina'
+          });
+          limits.increaseResults();
+        }
+      }
+    }
+    return results;
+  }
+
   search(str: string, data: any, limits: SearchLimits): CandidateInfo[] {
     return [
       ...this.searchListDep(str, data, limits),
       ...this.searchOther(str, data, limits),
       ...this.searchListCdl(str, data, limits),
       ...this.searchListCdl500(str, data, limits),
-      ...this.searchListPhD(str, data, limits)
+      ...this.searchListPhD(str, data, limits),
+      ...this.searchListMedicina(str, data, limits)
     ];
   }
 }
@@ -311,6 +336,8 @@ class SearchEngine {
       for (const phdDep of (dottorandi as any)[year]) {
         this.data[year].phdDep[phdDep] = require(`../../data/${year}/dottorandi/${phdDep}.json`);
       }
+      this.data[year].medicina = [];
+      this.data[year].medicina = require(`../../data/${year}/Coordinamento_medicina.json`);
     }
   }
 
