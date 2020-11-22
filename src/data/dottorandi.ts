@@ -16,5 +16,4 @@ const dottorandi = {
     'Scienze_chimiche'
   ]
 };
-
 export default dottorandi;

@@ -1,6 +1,7 @@
 import departments from '../../data/departments';
 import cdls from '../../data/cdl';
 import cdl500 from '../../data/cdl-500';
+import dottorandi from '../../data/dottorandi';
 import { entities, entitiesPath } from '../../data/entities';
 import years from '../../data/years';
 import SearchLimits from './SearchLimits';
@@ -156,12 +157,52 @@ class SearchCandidate {
     return results;
   }
 
+  searchListPhD(str: string, data: any, limits: SearchLimits): CandidateInfo[] {
+    const results: CandidateInfo[] = [];
+    str = str.toUpperCase();
+    for (const year of years) {
+      for (const phdDep of (dottorandi as any)[year]) {
+        const electedList = (data[year].phdDep[phdDep].eletti as any[]).concat(data[year].phdDep[phdDep].non_eletti);
+        for (const candidate of electedList) {
+          if (limits.isFull()) {
+            return results;
+          }
+          if (candidate.lista) {
+            if (this.isNameValid(candidate.nominativo, str)) {
+              results.push({
+                name: candidate.nominativo,
+                listName: candidate.lista,
+                year: year,
+                department: phdDep,
+                path: '#/dipartimenti-dottorandi'
+              });
+              limits.increaseResults();
+            }
+          } else {
+            if (this.isNameValid(candidate.nome_candidato, str)) {
+              results.push({
+                name: candidate.nome_candidato,
+                listName: candidate.lista,
+                year: year,
+                department: phdDep,
+                path: '#/single-results/dottorandi/' + year + '/' + phdDep
+              });
+              limits.increaseResults();
+            }
+          }
+        }
+      }
+    }
+    return results;
+  }
+
   search(str: string, data: any, limits: SearchLimits): CandidateInfo[] {
     return [
       ...this.searchListDep(str, data, limits),
       ...this.searchOther(str, data, limits),
       ...this.searchListCdl(str, data, limits),
-      ...this.searchListCdl500(str, data, limits)
+      ...this.searchListCdl500(str, data, limits),
+      ...this.searchListPhD(str, data, limits)
     ];
   }
 }
@@ -265,7 +306,10 @@ class SearchEngine {
       this.data[year].cdl500 = [];
       for (const cdl of (cdl500 as any)[year]) {
         this.data[year].cdl500[cdl] = require(`../../data/${year}/cdl-500/${cdl}.json`);
-        console.log(this.data[year].cdl500[cdl]);
+      }
+      this.data[year].phdDep = [];
+      for (const phdDep of (dottorandi as any)[year]) {
+        this.data[year].phdDep[phdDep] = require(`../../data/${year}/dottorandi/${phdDep}.json`);
       }
     }
   }
