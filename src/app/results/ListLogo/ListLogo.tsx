@@ -11,9 +11,6 @@ export const ListLogo = (props: Props): JSX.Element => {
       return;
     }
 
-    if (props.listName.indexOf('IBLA') > -1) {
-      console.warn(props.listName);
-    }
     return props.listName?.replace('# ', '')
       .replace(/ /g, ' ')
       .replace(/ /g, ' ')
