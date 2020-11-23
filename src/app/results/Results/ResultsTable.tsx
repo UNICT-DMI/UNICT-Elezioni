@@ -47,7 +47,7 @@ export const ResultTable = (props: Props): JSX.Element => {
                 {
                   results[l] && results[l][i] && (
                     [
-                      `${results[l][i].nominativo} (${getVotiSeggio(results[l][i].voti)})`,
+                      `${results[l][i].nominativo}`, (<br key={`voti-${i}`}/>), `(${getVotiSeggio(results[l][i].voti)})`,
                       results[l][i].eletto ? (<Coccarda key={`coccarda-${i}`} />) : ''
                     ]
                   )
@@ -96,10 +96,8 @@ export const ResultTable = (props: Props): JSX.Element => {
                 </OverlayTrigger>
                 <div className="sub-logo" key={`${props.anno}-name-${l.nome}`}>
                   {l.nome}
-                  {' '}
-                (
-                  {getVotiSeggio(l.voti)}
-                )
+                  <br />
+                  ({getVotiSeggio(l.voti)})
                 </div>
               </th>
             ))}
