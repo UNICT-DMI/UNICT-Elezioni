@@ -31,7 +31,7 @@ const App = (): JSX.Element => {
   return (
     <div className="App">
       <Menu />
-      <div className="container-fluid pt-4">
+      <div className="container pt-4">
         <HashRouter basename="/">
           <SearchForm />
           <Switch>
