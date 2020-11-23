@@ -77,20 +77,6 @@ export const ResultTable = (props: Props): JSX.Element => {
   function generateHead(): JSX.Element {
     return (
       <thead className="show-candidate">
-        <tr>
-          <th className="bg-secondary" colSpan={props.data.liste.length}>
-            {props.anno}
-            {' '}
-            {
-              seggi && (
-                  `- Seggi${seggi.length === 1 ? 'o' : ''}: ${seggi.join(', ')
-                  }${!!props.multiDip && props.multiDip[props.anno].length > 1
-                    ? ` - ${props.multiDip[props.anno].map((d) => d.replace(/_/g, ' ')).join(', ')}`
-                    : ''}`
-              )
-            }
-          </th>
-        </tr>
         <tr
           key={`tr-${props.anno}-row-${Math.random()}`}
           className="head-row cursor-pointer"
@@ -122,6 +108,25 @@ export const ResultTable = (props: Props): JSX.Element => {
     );
   }
 
+  function generateTableTitle(): JSX.Element {
+    return (
+      <div className="w-100 bg-secondary p-3">
+        <b>
+          {props.anno}
+          {' '}
+          {
+            seggi && (
+              `- Seggi${seggi.length === 1 ? 'o' : ''}: ${seggi.join(', ')
+              }${!!props.multiDip && props.multiDip[props.anno].length > 1
+                ? ` - ${props.multiDip[props.anno].map((d) => d.replace(/_/g, ' ')).join(', ')}`
+                : ''}`
+            )
+          }
+        </b>
+      </div>
+    );
+  }
+
   function toggleBody(e: any): void {
     e.preventDefault();
     setShow(!show);
@@ -133,6 +138,7 @@ export const ResultTable = (props: Props): JSX.Element => {
   return (
     <div className="ResultsTable">
       <div className={show ? 'd-none' : 'd-block'}>
+        {generateTableTitle()}
         <Collapse in={!show}>
           <Table striped bordered hover responsive className="liste">
             {generateHead()}
@@ -142,6 +148,7 @@ export const ResultTable = (props: Props): JSX.Element => {
 
       <Collapse in={show}>
         <div id="collapse-tbody">
+          {generateTableTitle()}
           <Table striped bordered hover responsive className="liste">
             {generateHead()}
             <tbody>

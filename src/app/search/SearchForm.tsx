@@ -89,7 +89,7 @@ export const SearchForm = (): JSX.Element => {
   }
 
   return (
-    <div className="search col-4 ml-auto">
+    <div className="search col-6 ml-auto">
       <Form onSubmit={handleSearchSubmit}>
         <InputGroup>
           <Form.Control type="text"

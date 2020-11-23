@@ -40,7 +40,7 @@ const Menu: FunctionComponent = () => (
           <Nav className="ml-auto">
             <Nav.Link href="https://github.com/UNICT-DMI/UNICT-elezioni" target="_blank">
               <FontAwesomeIcon icon={faGithub} />
-              GitHub&nbsp;
+              &nbsp;GitHub
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
