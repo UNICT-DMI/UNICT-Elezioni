@@ -1,6 +1,10 @@
 import departments from '../../data/departments';
+import cdls from '../../data/cdl';
+import cdl500 from '../../data/cdl-500';
+import dottorandi from '../../data/dottorandi';
 import { entities, entitiesPath } from '../../data/entities';
 import years from '../../data/years';
+import ersuYears from '../../data/ersu-years';
 import SearchLimits from './SearchLimits';
 
 export interface ListInfo {
@@ -26,6 +30,10 @@ interface SearchResult {
   candidates: CandidateInfo[];
 }
 
+/*
+  Need refactoring and doing it on backend
+  There is so much code here...
+*/
 class SearchCandidate {
   isNameValid(fullName: string, keywords: string): boolean {
     fullName = fullName.toUpperCase();
@@ -62,7 +70,7 @@ class SearchCandidate {
               listName: candidate.lista,
               year: year,
               entity: entity,
-              path: '#/' + entity
+              path: entitiesPath[entity]
             });
             limits.increaseResults();
           }
@@ -98,8 +106,155 @@ class SearchCandidate {
     return results;
   }
 
+  searchListCdl(str: string, data: any, limits: SearchLimits): CandidateInfo[] {
+    const results: CandidateInfo[] = [];
+    str = str.toUpperCase();
+    for (const year of years) {
+      for (const cdl of (cdls as any)[year]) {
+        const electedList = (data[year].cdl[cdl].eletti as any[]).concat(data[year].cdl[cdl].non_eletti);
+        for (const candidate of electedList) {
+          if (limits.isFull()) {
+            return results;
+          }
+          if (this.isNameValid(candidate.nominativo, str)) {
+            results.push({
+              name: candidate.nominativo,
+              listName: candidate.lista,
+              year: year,
+              department: cdl,
+              path: '#/cdl'
+            });
+            limits.increaseResults();
+          }
+        }
+      }
+    }
+    return results;
+  }
+
+  searchListCdl500(str: string, data: any, limits: SearchLimits): CandidateInfo[] {
+    const results: CandidateInfo[] = [];
+    str = str.toUpperCase();
+    for (const year of years) {
+      for (const cdl of (cdl500 as any)[year]) {
+        const electedList = (data[year].cdl500[cdl].eletti as any[]).concat(data[year].cdl500[cdl].non_eletti);
+        for (const candidate of electedList) {
+          if (limits.isFull()) {
+            return results;
+          }
+          if (this.isNameValid(candidate.nome_candidato, str)) {
+            results.push({
+              name: candidate.nome_candidato,
+              listName: candidate.lista,
+              year: year,
+              department: cdl,
+              path: '#/single-results/cdl-500/' + year + '/' + cdl
+            });
+            limits.increaseResults();
+          }
+        }
+      }
+    }
+    return results;
+  }
+
+  searchListPhD(str: string, data: any, limits: SearchLimits): CandidateInfo[] {
+    const results: CandidateInfo[] = [];
+    str = str.toUpperCase();
+    for (const year of years) {
+      for (const phdDep of (dottorandi as any)[year]) {
+        const electedList = (data[year].phdDep[phdDep].eletti as any[]).concat(data[year].phdDep[phdDep].non_eletti);
+        for (const candidate of electedList) {
+          if (limits.isFull()) {
+            return results;
+          }
+          if (candidate.lista) {
+            if (this.isNameValid(candidate.nominativo, str)) {
+              results.push({
+                name: candidate.nominativo,
+                listName: candidate.lista,
+                year: year,
+                department: phdDep,
+                path: '#/dipartimenti-dottorandi'
+              });
+              limits.increaseResults();
+            }
+          } else {
+            if (this.isNameValid(candidate.nome_candidato, str)) {
+              results.push({
+                name: candidate.nome_candidato,
+                listName: candidate.lista,
+                year: year,
+                department: phdDep,
+                path: '#/single-results/dottorandi/' + year + '/' + phdDep
+              });
+              limits.increaseResults();
+            }
+          }
+        }
+      }
+    }
+    return results;
+  }
+
+  searchListMedicina(str: string, data: any, limits: SearchLimits): CandidateInfo[] {
+    const results: CandidateInfo[] = [];
+    str = str.toUpperCase();
+    for (const year of years) {
+      const electedList = (data[year].medicina.eletti as any[]).concat(data[year].medicina.non_eletti);
+      for (const candidate of electedList) {
+        if (limits.isFull()) {
+          return results;
+        }
+        if (this.isNameValid(candidate.nominativo, str)) {
+          results.push({
+            name: candidate.nominativo,
+            listName: candidate.lista,
+            year: year,
+            department: 'Coordinamento Facoltà di Medicina',
+            path: '#/facolta_medicina'
+          });
+          limits.increaseResults();
+        }
+      }
+    }
+    return results;
+  }
+
+  searchListERSU(str: string, data: any, limits: SearchLimits): CandidateInfo[] {
+    const results: CandidateInfo[] = [];
+    str = str.toUpperCase();
+    for (const year of ersuYears) {
+      const electedList = (data[year].ersu.eletti as any[]).concat(data[year].ersu.non_eletti);
+      for (const candidate of electedList) {
+        if (limits.isFull()) {
+          return results;
+        }
+        if (this.isNameValid(candidate.nominativo, str)) {
+          results.push({
+            name: candidate.nominativo,
+            listName: candidate.lista,
+            year: year,
+            department: 'ERSU',
+            path: '#/ersu'
+          });
+          limits.increaseResults();
+        }
+      }
+    }
+    return results;
+  }
+
   search(str: string, data: any, limits: SearchLimits): CandidateInfo[] {
-    return [...this.searchListDep(str, data, limits), ...this.searchOther(str, data, limits)];
+    return [
+      ...this.searchListDep(str, data, limits),
+      ...this.searchOther(str, data, limits),
+      ...this.searchListCdl(str, data, limits),
+      ...this.searchListCdl500(str, data, limits),
+      ...this.searchListPhD(str, data, limits),
+      ...this.searchListMedicina(str, data, limits),
+      ...this.searchListERSU(str, data, limits)
+    ];
   }
 }
 
@@ -195,6 +350,25 @@ class SearchEngine {
       for (const depart of departments) {
         this.data[year].departments[depart] = require(`../../data/${year}/dipartimenti/${depart}.json`);
       }
+      this.data[year].cdl = [];
+      for (const cdl of (cdls as any)[year]) {
+        this.data[year].cdl[cdl] = require(`../../data/${year}/cdl/${cdl}.json`);
+      }
+      this.data[year].cdl500 = [];
+      for (const cdl of (cdl500 as any)[year]) {
+        this.data[year].cdl500[cdl] = require(`../../data/${year}/cdl-500/${cdl}.json`);
+      }
+      this.data[year].phdDep = [];
+      for (const phdDep of (dottorandi as any)[year]) {
+        this.data[year].phdDep[phdDep] = require(`../../data/${year}/dottorandi/${phdDep}.json`);
+      }
+      this.data[year].medicina = [];
+      this.data[year].medicina = require(`../../data/${year}/Coordinamento_medicina.json`);
+    }
+    for (const year of ersuYears) {
+      this.data[year] = [];
+      this.data[year].ersu = [];
+      this.data[year].ersu = require(`../../data/${year}/ERSU.json`);
     }
   }
 
