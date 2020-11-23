@@ -3,10 +3,6 @@
 
   .year {
     padding: 50px 10px !important;
-  }  
-
-  .sub-logo {
-    height: 50px;
   }
 
   .cursor-pointer {
@@ -21,4 +17,7 @@
     background-color: #efeefe;
   }
 
+  .table thead th {
+    vertical-align: top;
+  }
 }
