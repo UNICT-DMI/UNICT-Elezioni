@@ -18,6 +18,10 @@
   }
 
   .table thead th {
-    vertical-align: top;
+    vertical-align: top !important;
+  }
+
+  .table {
+    margin-bottom: 0 !important;
   }
 }
