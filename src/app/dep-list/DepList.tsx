@@ -22,8 +22,13 @@ const DepList = (): JSX.Element => {
           years.map((y) => <Results anno={y} path={`dipartimenti/${d}`} details={false} key={`${d}${y}`} showDetailsList />)
         ])
       }
-      <Button onClick={handleShowMore} size="lg" block>Load more</Button>
-    </div>
+      {
+        next < departments.length &&
+        <Button onClick={handleShowMore} size="lg" block>
+          Load more
+        </Button>
+      }
+    </div >
   );
 };
 
