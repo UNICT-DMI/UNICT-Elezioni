@@ -1,5 +1,6 @@
 import React from 'react';
 import nameFixes from './nameFixes';
+import './ListLogo.scss';
 
 interface Props {
   listName: string;
@@ -25,7 +26,7 @@ export const ListLogo = (props: Props): JSX.Element => {
     <div className="logolist">
       <img key={getListName()}
         src={`loghi/${getListName()}.jpg`}
-        className="m-auto"
+        className="logolist m-auto"
         width="80"
         height="80"
         alt={getListName()} />
