@@ -86,37 +86,44 @@ const App = (): JSX.Element => {
             </Route>
             <Route exact path="/dottorandi/:anno/:cdl" component={ResultsSingle} />
             <Route exact path="/cdl">
-              <CdlList />
-            </Route>
-            <Route exact path="/cdl-500">
-              <div className="container text-left">
-                {years.map((y) => [
-                  <h2 className="mt-5" key={`h2${y}`}>Consiglio di Corso di Laurea (&lt;500) {y}</h2>,
-
-                  <Table hover bordered responsive className="mb-5" key={`table${y}`}>
-                    <tbody>
-                      {(cdls500 as any)[y].map((c: string) => [
-                        <tr className="pointer" key={`tr${y}${c}`} onClick={(): void => handleOnClick(`#/single-results/cdl-500/${y}/${c}`)}>
-                          <td key={`h3${c}`} className="capitalize">
-                            {c.replaceAll('_', ' ')}
-                          </td>
-                        </tr>
-                      ])}
-                    </tbody>
-                  </Table>
-                ])}
+              <div className="cdls">
+                {
+                  years.map((y) => [
+                    <hr key={`hr${y}`} />,
+                    <CdlList key={`cdl${y}`} year={y} />
+                  ])
+                }
               </div>
             </Route>
-            <Route exact path="/single-results/:type/:anno/:cdl" component={ResultsSingle} />
-            <Route exact path="/search/:keywords" component={SearchPage} />
-            <Route exact path="/contatti" component={Contacts} />
-            <Route exact path="/not-found" component={NotFound} />
-            <Redirect to="/home" />
+              <Route exact path="/cdl-500">
+                <div className="container text-left">
+                  {years.map((y) => [
+                    <h2 className="mt-5" key={`h2${y}`}>Consiglio di Corso di Laurea (&lt;500) {y}</h2>,
+
+                    <Table hover bordered responsive className="mb-5" key={`table${y}`}>
+                      <tbody>
+                        {(cdls500 as any)[y].map((c: string) => [
+                          <tr className="pointer" key={`tr${y}${c}`} onClick={(): void => handleOnClick(`#/single-results/cdl-500/${y}/${c}`)}>
+                            <td key={`h3${c}`} className="capitalize">
+                              {c.replaceAll('_', ' ')}
+                            </td>
+                          </tr>
+                        ])}
+                      </tbody>
+                    </Table>
+                  ])}
+                </div>
+              </Route>
+              <Route exact path="/single-results/:type/:anno/:cdl" component={ResultsSingle} />
+              <Route exact path="/search/:keywords" component={SearchPage} />
+              <Route exact path="/contatti" component={Contacts} />
+              <Route exact path="/not-found" component={NotFound} />
+              <Redirect to="/home" />
           </Switch>
         </HashRouter>
       </div>
-      <Footer />
-    </div>);
+        <Footer />
+      </div>);
 };
 
 export default App;
