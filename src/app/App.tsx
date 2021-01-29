@@ -8,13 +8,11 @@ import {
 import './App.scss';
 import Menu from './navbar/Navbar';
 import Results from './results/Results/Results';
-import departments from '../data/departments';
 import { years } from '../data/years';
 import Department from './department/Department';
 import { SearchForm } from './search/SearchForm';
 import Contacts from './contacts/Contacts';
 import { SearchPage } from './search/SearchPage';
-import cdls from '../data/cdl';
 import cdls500 from '../data/cdl-500';
 import ResultsMed from './results/ResultsMed/ResultsMed';
 import ResultsSingle from './results/ResultsSingle/ResultsSingle';
@@ -24,6 +22,8 @@ import { Table } from 'react-bootstrap';
 import NotFound from './not-found/NotFound';
 import HigherPolitics from './higher-politics/HigherPolitics';
 import Home from './home/Home';
+import DepList from './dep-list/DepList';
+import CdlList from './cdl-list/CdlList';
 
 const App = (): JSX.Element => {
   const handleOnClick = (route: string): void => { window.location.href = route; };
@@ -55,12 +55,7 @@ const App = (): JSX.Element => {
               </div>
             </Route>
             <Route exact path="/dipartimenti">
-              <h2 className="mt-5">Dipartimenti</h2>
-              {departments.map((d) => [
-                <hr className="my-5" key={`hr${d}`} />,
-                <h3 key={`h3${d}`}><a href={`#/dipartimento/${d}`}>{d.replace(/_/g, ' ')}</a></h3>,
-                years.map((y) => <Results anno={y} path={`dipartimenti/${d}`} details={false} key={`${d}${y}`} showDetailsList />)
-              ])}
+              <DepList />
             </Route>
             <Route exact path="/dipartimento/:dipartimento" component={Department} />
             <Route exact path="/dipartimenti-dottorandi">
@@ -91,15 +86,7 @@ const App = (): JSX.Element => {
             </Route>
             <Route exact path="/dottorandi/:anno/:cdl" component={ResultsSingle} />
             <Route exact path="/cdl">
-              {years.map((y) => [
-                <hr key={`hr${y}`} />,
-                <h2 className="mt-5" key={`h2${y}`}>Consiglio di Corso di Laurea {y}</h2>,
-                (cdls as any)[y].map((c: string) => [
-                  <hr className="my-5" key={`hr${c}`} />,
-                  <h3 key={`h3${c}`}>{c.replace(/_/g, ' ')}</h3>,
-                  <Results anno={y} path={`cdl/${c}`} details={false} key={`${c}${y}`} showDetailsList />
-                ])
-              ])}
+              <CdlList />
             </Route>
             <Route exact path="/cdl-500">
               <div className="container text-left">
