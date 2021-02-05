@@ -81,6 +81,7 @@ const Contacts = (): JSX.Element => {
             nominativo="Luigi Seminara"
             telegram="Gigii_G"
             email="seminara.luigi@gmail.com"
+            linkedin="https://www.linkedin.com/in/luigi-seminara-3bb2a2204/"
             github="Gigi-G"></Contact>
 
           <Contact
@@ -91,6 +92,9 @@ const Contacts = (): JSX.Element => {
             github="herbrant"></Contact>
         </ListGroup>
       </div>
+
+      <p className="mt-5">Per qualsiasi suggerimento o segnalazione contattaci su Telegram <FontAwesomeIcon icon={faTelegramPlane} /> o invia un email &nbsp;<FontAwesomeIcon icon={faEnvelope} />.</p>
+
     </div>
   );
 };

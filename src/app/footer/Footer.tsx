@@ -8,7 +8,7 @@ const Footer: FunctionComponent = () => (
     <Navbar expand="lg" className="bg-navbar navbar-expand-lg navbar-dark bg-primary fixed-bottom">
       <div className="container">
         <Navbar.Brand>
-          <FontAwesomeIcon icon={faCopyright} /> Powered by <a className="text-white" href="https://dmiinsider.github.io">DMI Insider</a>
+          <FontAwesomeIcon icon={faCopyright} /> Powered by <a className="text-white" href="https://github.com/UNICT-DMI/">UNICT-DMI</a>
         </Navbar.Brand>
       </div>
     </Navbar>
