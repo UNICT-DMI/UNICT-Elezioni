@@ -1,9 +1,10 @@
+import { faAward } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import './Coccarda.scss';
 
 function Coccarda(): JSX.Element {
   return (
-    <img src="coccarda.png" alt="eletto" className="m-2 coccarda" />
+    <FontAwesomeIcon className="mx-2" icon={faAward} color="red" size="lg" />
   );
 }
 

@@ -93,7 +93,8 @@ const Contacts = (): JSX.Element => {
         </ListGroup>
       </div>
 
-      <p className="mt-5">Per qualsiasi suggerimento o segnalazione contattaci su Telegram <FontAwesomeIcon icon={faTelegramPlane} /> o invia un email &nbsp;<FontAwesomeIcon icon={faEnvelope} />.</p>
+      <p className="mt-5">Per qualsiasi suggerimento o segnalazione contattaci su
+        &nbsp;<FontAwesomeIcon icon={faTelegramPlane} />&nbsp; Telegram o invia una &nbsp;<FontAwesomeIcon icon={faEnvelope} />&nbsp; email.</p>
 
     </div>
   );
