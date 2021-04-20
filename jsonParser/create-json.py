@@ -29,43 +29,54 @@ def create_json(pathname, option, command) -> None:
         print("I try to create the file again: " + pathname)
         os.system("python3 " + command + "parser.py " + "\"" + pathname + "\" 0")
 
-def sub_url(url, directory, command) -> None:
+def sub_url(url: str, directory: str, command: str) -> None:
     try:
         os.makedirs(directory, mode = 0o777, exist_ok = True)
     except ValueError:
         pass
+
     x = requests.get(url)
+    
     if x.status_code != 200:
         print("ERROR", x.status_code, ":", x.text)
         sys.exit(-1)
+    
     index1 = -1
     max = -1
     for el in start_parser:
         if max < x.text.find(el):
             max = x.text.find(el)
+    
     index1 = max
     if index1 < 0:
         print("ERROR in find substring 1")
         sys.exit(-1)
+    
     text = x.text[index1:]
     min = sys.maxsize
     for el in end_parser:
         if min > text.find(el) and text.find(el) > 0:
             min = text.find(el)
+
     index2 = min
     if index2 < 0:
         print("ERROR in find substring 2")
         sys.exit(-1)
+
     text = text[0:index2]
     webpage = html.fromstring(text)
+
+    # download every pdf in page
     for link in webpage.xpath('//a/@href'):
-        if link.find("https://") < 0 and link.find("http://") < 0:
+        if link.find("https://") == -1 and link.find("http://") == -1:
             link = "https://www.unict.it" + link
+
         file = link.split("/")
         f = file[len(file)-1]
         if is_file(f):
             f = f.replace("%20", "_")
             f = f.replace("%2", "_")
+            
             open(directory + "/" + f, "wb").write(requests.get(link).content)
             if any(s in f.upper() for s in match1):
                 create_json(directory + "/" + f, "other", command)
@@ -75,7 +86,7 @@ def sub_url(url, directory, command) -> None:
                 create_json(directory + "/" + f, "1", command)
             else:
                 create_json(directory + "/" + f, "0", command)
-            os.unlink(directory + "/" + f)
+            #os.unlink(directory + "/" + f)
         else:
             sub_url(link, directory + "/" + f, command)
 

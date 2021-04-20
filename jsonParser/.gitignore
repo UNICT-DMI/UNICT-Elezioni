@@ -1,4 +1,5 @@
 *.pdf
 node_modules/
 *.js
+*.json
 __pycache__/

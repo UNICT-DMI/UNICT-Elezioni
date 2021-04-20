@@ -3,7 +3,7 @@ import pdftotext
 class FormatPDF:
     
     @staticmethod
-    def format_pdf(pathname) -> None:
+    def format_pdf(pathname) -> []:
         '''
             Create a list that contains the lines of the pdf.\n
             @params:\n

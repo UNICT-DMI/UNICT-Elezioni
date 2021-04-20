@@ -26,7 +26,7 @@ class Dipartimento(Target):
         self.i += 1
         return list_of_seats
 
-    def __get_info_lists(self, text, list_of_seats, seggi_da_assegnare) -> object:
+    def __get_info_lists(self, text, list_of_seats, seggi_da_assegnare) -> [object, int]:
         info_lists = []
         while("TOTALE" not in text[self.i]):
             seats = []
@@ -69,10 +69,10 @@ class Dipartimento(Target):
             self.i += 1
         
         tmp = text[self.i].split()
-        info_lists.append({"totale": int(tmp[1])})
+        totale = int(tmp[1])
         seggi_da_assegnare[0] = tmp[len(tmp)-1]
         self.i += 1
-        return info_lists
+        return info_lists, totale
 
     def __getVotanti(self, text, list_of_seats) -> object:
         list_of_voters = []
@@ -136,7 +136,7 @@ class Dipartimento(Target):
         seggi_da_assegnare = [1]
         self.__find_info_lists(text)
         list_of_seats = self.__get_seats(text)
-        info_lists = self.__get_info_lists(text, list_of_seats, seggi_da_assegnare)
+        info_lists, totale = self.__get_info_lists(text, list_of_seats, seggi_da_assegnare)
 
         list_of_white = []
         schede_bianche = self.find_card("BIANCHE", text, list_of_seats, list_of_white)
@@ -163,6 +163,7 @@ class Dipartimento(Target):
             "seggi_da_assegnare": seggi_da_assegnare[0],
             "schede": schede,
             "liste": info_lists,
+            "totale": totale,
             "eletti": eletti,
             "non_eletti": non_eletti,
             "quoziente": quoziente,
