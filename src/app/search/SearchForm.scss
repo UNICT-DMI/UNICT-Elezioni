@@ -1,5 +1,15 @@
 .suggestions-list {
-  max-height: 8rem;
+  max-height: 70vh;
   overflow-y: auto;
   overflow-x: hidden;
+}
+
+.logo-search {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .logo-search {
+    display: table-cell;
+  }
 }

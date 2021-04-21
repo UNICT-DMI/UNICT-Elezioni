@@ -2,6 +2,7 @@ import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useState } from 'react';
 import { Button, Form, InputGroup, ListGroup } from 'react-bootstrap';
+import ListLogo from '../results/ListLogo/ListLogo';
 import SearchEngine, { CandidateInfo, ListInfo } from './SearchEngine';
 import './SearchForm.scss';
 
@@ -36,16 +37,29 @@ export const SearchForm = (): JSX.Element => {
       <a key={`list-${suggestion.name}${suggestion.department}${suggestion.entity}${suggestion.year}`}
         href={suggestion.path} onClick={onClickSuggest}>
         <ListGroup.Item action variant="light">
-          {suggestion.name}
-          <sub>
-            {suggestion.year}
-            <sub>
-              {suggestion.department?.replaceAll('_', ' ')}
-              {suggestion.entity?.replaceAll('_', ' ')}
-            </sub>
-          </sub>
+          <table className="table table-borderless">
+            <tbody>
+              <tr>
+                <td className="logo-search" rowSpan={2}>
+                  <ListLogo listName={suggestion.name} />
+                </td>
+                <td className="align-middle col" rowSpan={2}>
+                  {suggestion.name}
+                </td>
+                <td className="col">
+                  {suggestion.year}
+                </td>
+              </tr>
+              <tr>
+                <td className="col">
+                  {suggestion.department?.replaceAll('_', ' ')}
+                  {suggestion.entity?.replaceAll('_', ' ')}
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </ListGroup.Item>
-      </a>
+      </a >
     ) as any;
   }
 
@@ -54,14 +68,27 @@ export const SearchForm = (): JSX.Element => {
       <a key={`list-${suggestion.name}${suggestion.department}${suggestion.entity}${suggestion.year}`}
         href={suggestion.path} onClick={onClickSuggest}>
         <ListGroup.Item action variant="light">
-          {suggestion.name}
-          <sub>
-            {suggestion.year}
-            <sub>
-              {suggestion.department?.replaceAll('_', ' ')}
-              {suggestion.entity?.replaceAll('_', ' ')}
-            </sub>
-          </sub>
+          <table className="table table-borderless">
+            <tbody>
+              <tr>
+                <td className="logo-search" rowSpan={2}>
+                  <ListLogo listName={suggestion.listName} />
+                </td>
+                <td className="align-middle col" rowSpan={2}>
+                  {suggestion.name}
+                </td>
+                <td className="col">
+                  {suggestion.year}
+                </td>
+              </tr>
+              <tr>
+                <td className="col">
+                  {suggestion.department?.replaceAll('_', ' ')}
+                  {suggestion.entity?.replaceAll('_', ' ')}
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </ListGroup.Item>
       </a>
     ) as any;

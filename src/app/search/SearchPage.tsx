@@ -92,10 +92,7 @@ export const SearchPage = (): JSX.Element => {
               <div className="row">
                 <div className="col my-auto">
                   <div className="float-right">
-                    {
-                      suggestion.listName &&
-                      <ListLogo listName={suggestion.listName} />
-                    }
+                    <ListLogo listName={suggestion.listName} />
                   </div>
                 </div>
                 <div className="col my-auto">

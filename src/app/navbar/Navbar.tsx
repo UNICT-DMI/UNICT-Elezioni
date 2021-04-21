@@ -7,12 +7,11 @@ import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import './Navbar.scss';
 import { SearchForm } from '../search/SearchForm';
+import { Collapse } from 'react-bootstrap';
 
 const Menu: FunctionComponent = () => {
-  const [showSearch, setShowSearch] = useState(true);
-  const searchTop = {
-    top: (showSearch ? 0 : 70)
-  };
+  const [showSearch, setShowSearch] = useState(false);
+
   return (
     <div className="Menu">
       <Navbar expand="lg" className="bg-navbar navbar-expand-lg navbar-primary bg-primary fixed-top">
@@ -50,15 +49,23 @@ const Menu: FunctionComponent = () => {
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
-          <Nav.Link className="text-dark" onClick={(): void => setShowSearch(!showSearch)} href="#">
+          <Nav.Link className="text-dark"
+            onClick={(): void => setShowSearch(!showSearch)}
+            aria-controls="search-form"
+            aria-expanded={showSearch}
+            href="#">
             <FontAwesomeIcon icon={faSearch} />
           </Nav.Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
         </div>
       </Navbar>
-      <div className="container search-form" style={searchTop}>
-        <SearchForm />
-      </div>
+      <Collapse in={showSearch}>
+        <div className="container-fluid search-form">
+          <div className="container">
+            <SearchForm />
+          </div>
+        </div>
+      </Collapse>
     </div>
   );
 };
