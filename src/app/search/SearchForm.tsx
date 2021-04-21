@@ -9,6 +9,7 @@ import './SearchForm.scss';
 export const SearchForm = (): JSX.Element => {
   const [formValue, setFormValue] = useState('');
   const [depSuggests, setDepSuggests] = useState([] as string[]);
+  const [cdlSuggests, setCdlSuggests] = useState([] as string[]);
   const [listSuggests, setListSuggests] = useState([] as ListInfo[]);
   const [candidatesSuggests, setCandidatesSuggests] = useState([] as CandidateInfo[]);
 
@@ -17,6 +18,7 @@ export const SearchForm = (): JSX.Element => {
     const searchEngine = SearchEngine.getInstance();
     const results = searchEngine.search(value, 8);
     setDepSuggests(results.departments);
+    setCdlSuggests(results.cdls);
     setListSuggests(results.lists);
     setCandidatesSuggests(results.candidates);
     setFormValue(value);
@@ -25,6 +27,16 @@ export const SearchForm = (): JSX.Element => {
   function generateDepSuggests(): JSX.Element[] {
     return depSuggests.map((suggestion) =>
       <a key={`dep-${suggestion}`} href={`#/dipartimento/${suggestion}`} onClick={onClickSuggest}>
+        <ListGroup.Item action variant="light">
+          {suggestion.replaceAll('_', ' ')}
+        </ListGroup.Item>
+      </a>
+    ) as any;
+  }
+
+  function generateCdlSuggests(): JSX.Element[] {
+    return cdlSuggests.map((suggestion) =>
+      <a key={`dep-${suggestion}`} href={`#/cdl/${suggestion}`} onClick={onClickSuggest}>
         <ListGroup.Item action variant="light">
           {suggestion.replaceAll('_', ' ')}
         </ListGroup.Item>
@@ -100,6 +112,12 @@ export const SearchForm = (): JSX.Element => {
         {generateDepSuggests()}
         {generateListSuggests()}
         {generateCandidatesSuggests()}
+        {generateCdlSuggests()}
+        <a onClick={handleSearchSubmit}>
+          <ListGroup.Item action variant="light">
+            View All
+          </ListGroup.Item>
+        </a>
       </div>
     );
   }

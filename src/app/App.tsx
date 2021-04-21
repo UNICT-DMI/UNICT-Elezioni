@@ -23,6 +23,7 @@ import HigherPolitics from './higher-politics/HigherPolitics';
 import Home from './home/Home';
 import DepList from './dep-list/DepList';
 import CdlList from './cdl-list/CdlList';
+import Cdl from './cdl/Cdl';
 
 const App = (): JSX.Element => {
   const handleOnClick = (route: string): void => { window.location.href = route; };
@@ -56,6 +57,7 @@ const App = (): JSX.Element => {
               <DepList />
             </Route>
             <Route exact path="/dipartimento/:dipartimento" component={Department} />
+            <Route exact path="/cdl/:cdl" component={Cdl} />
             <Route exact path="/dipartimenti-dottorandi">
               <div className="container text-left">
                 <h2 className="mt-5">Consiglio di Dipartimento (Dottorandi) 2018-2020</h2>

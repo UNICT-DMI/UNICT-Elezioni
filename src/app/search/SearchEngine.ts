@@ -26,6 +26,7 @@ export interface CandidateInfo {
 
 interface SearchResult {
   departments: string[];
+  cdls: string[];
   lists: ListInfo[];
   candidates: CandidateInfo[];
 }
@@ -331,10 +332,30 @@ class SearchDepartment {
   }
 }
 
+class SearchCdl {
+  search(str: string, limits: SearchLimits): string[] {
+    const results: string[] = [];
+    str = str.replace(' ', '_').toUpperCase();
+    for (const year of years) {
+      for (const cdl of (cdls as any)[year]) {
+        if (limits.isFull()) {
+          return results;
+        }
+        if (cdl.toUpperCase().indexOf(str) !== -1) {
+          results.push(cdl);
+          limits.increaseResults();
+        }
+      }
+    }
+    return results;
+  }
+}
+
 class SearchEngine {
   private searchDep = new SearchDepartment()
   private searchList = new SearchList()
   private searchCandidate = new SearchCandidate()
+  private searchCdl = new SearchCdl()
   private data: any;
   private static instance: SearchEngine;
   private limits = new SearchLimits();
@@ -384,7 +405,8 @@ class SearchEngine {
     return {
       departments: this.searchDep.search(str, this.limits),
       lists: this.searchList.search(str, this.data, this.limits),
-      candidates: this.searchCandidate.search(str, this.data, this.limits)
+      candidates: this.searchCandidate.search(str, this.data, this.limits),
+      cdls: this.searchCdl.search(str, this.limits)
     };
   }
 }
