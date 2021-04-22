@@ -1,40 +1,49 @@
 import React from 'react';
 import './Home.scss';
+import VoteIcon from 'mdi-react/VoteIcon';
+import BallotOutlineIcon from 'mdi-react/BallotOutlineIcon';
+import ImageIcon from 'mdi-react/ImageIcon';
 
 function Home(): JSX.Element {
   return (
     <div className="Home">
-      <div className="container">
-        <div className="row mt-5">
-          <div className="col-6 text-right">
-            <h2 className="text-center">UNICT Elezioni</h2>
-            <img src="UNICT-Elezioni.png" className="logo" alt="UNICT Elezioni" />
+      <div className="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+        <div className="col-md-5 p-lg-5 mx-auto my-5">
+          <h1 className="display-4 font-weight-normal">
+            UNICT Elezioni
+          </h1>
+          <p className="lead font-weight-normal">
+            Progetto sviluppato per fornire una visione immediata e cronologica dei risultati delle elezioni universitarie.
+          </p>
+          <a className="btn btn-outline-primary" href="#">Coming soon</a>
+        </div>
+        <div className="ballot ballot-box text-secondary">
+          <VoteIcon size={300} />
+        </div>
+        <div className="ballot ballot-sheet text-secondary">
+          <BallotOutlineIcon size={300} />
+        </div>
+      </div>
+      <div className="container marketing">
+
+        <div className="row">
+          <div className="col-lg-4">
+            <ImageIcon size={50} />
+            <h2>Heading</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum tellus non enim ornare tempus.</p>
+            <p><a className="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
           </div>
-          <div className="col-6">
-            <div className="text-left">
-              <p>Questo progetto è stato realizzato per fornire una visualizzazione immediata ed in ordine cronologico dei risultati delle elezioni universitarie.</p>
-
-              <p>Attualmente è possibile visualizzare lo storico dei risultati delle elezioni dei seguenti organi istituzionali:</p>
-              <ul>
-                <li>Dipartimento</li>
-                <li>Corsi di Laurea</li>
-                <li>Senato</li>
-                <li>Consiglio di Amministrazione</li>
-                <li>Consiglio di Amministrazione ERSU</li>
-                <li>Nucleo di Valutazione</li>
-                <li>Comitato per lo Sport Universitario</li>
-                <li>Coordinamento Facoltà di Medicina</li>
-              </ul>
-
-              <p>Il progetto è <b>ancora in lavorazione,</b> inoltre, purtroppo molti dati non sono disponibili nel sito dell&apos; Ateneo quindi attualmente mostriamo solo i dati dei seguenti bienni:</p>
-              <ul>
-                <li>2018-2020</li>
-                <li>2016-2018</li>
-                <li>2014-2016 (solo organi superiori)</li>
-              </ul>
-
-              Per qualsiasi suggerimento o segnalazione <a href="#/contatti">contattaci!</a>
-            </div>
+          <div className="col-lg-4">
+            <ImageIcon size={50} />
+            <h2>Heading</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum tellus non enim ornare tempus.</p>
+            <p><a className="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div>
+          <div className="col-lg-4">
+            <ImageIcon size={50} />
+            <h2>Heading</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum tellus non enim ornare tempus.</p>
+            <p><a className="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
           </div>
         </div>
       </div>

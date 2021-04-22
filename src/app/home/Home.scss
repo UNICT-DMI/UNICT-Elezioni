@@ -1,8 +1,39 @@
-.logo {
-  width: 70%;
-  margin: 0;
+body {
+  padding-top: 40px !important;
+}
+
+@keyframes shake {
+  0% { transform: translate(5px, 5px) rotate(15deg)}
+  100% { transform: translate(-5px, -5px) rotate(15deg)}
+}
+
+.ballot {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  right: 10%;
+  bottom: -30%;
+  width: 300px;
+  height: 540px;
+  -webkit-transform: rotate(15deg);
+  transform: rotate(15deg);
+}
+
+.ballot-box {
+  animation: shake ease-in-out 3.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.ballot-sheet {
+  right: auto;
+  bottom: 0;
+  left: 5%;
+  animation: shake ease-in-out 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.box-item {
+  width: 80%;
+  height: 300px;
+  border-radius: 21px 21px 0 0;
 }
