@@ -14,3 +14,7 @@ body {
 .pointer:hover {
   cursor: pointer;
 }
+
+.popover {
+  max-width: fit-content !important;
+}

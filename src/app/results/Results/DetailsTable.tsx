@@ -1,6 +1,9 @@
+import { faInfo } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import { Table } from 'react-bootstrap';
+import { OverlayTrigger, Popover, Table } from 'react-bootstrap';
 import { dict } from '../../department/Department';
+import './Results.scss';
 
 interface Props {
   data: any;
@@ -19,6 +22,19 @@ export const DetailsTable = (props: Props): JSX.Element => {
     );
   }
 
+  function eligibilityQuotientPopover(): JSX.Element {
+    return (
+      <Popover id="eligibilityQuotientPopover">
+        <Popover.Title as="h3">Eleggibilità</Popover.Title>
+        <Popover.Content>
+          <div className="w-100">
+            <img src="formula.png" width="400" key="formula" alt="formula" />
+          </div>
+        </Popover.Content>
+      </Popover>
+    );
+  }
+
   return (
     <Table striped bordered hover responsive className="liste">
       <thead>
@@ -27,7 +43,12 @@ export const DetailsTable = (props: Props): JSX.Element => {
           <th>Schede Nulle</th>
           <th>Schede Contestate</th>
           <th>Votanti</th>
-          <th>Quoziente</th>
+          <th>Quoziente &nbsp;
+            <OverlayTrigger
+              overlay={eligibilityQuotientPopover()}>
+              <FontAwesomeIcon icon={faInfo}></FontAwesomeIcon>
+            </OverlayTrigger>
+          </th>
           <th>Seggi da Assegnare</th>
         </tr>
         <tr>

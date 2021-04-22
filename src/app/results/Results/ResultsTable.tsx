@@ -63,7 +63,7 @@ export const ResultTable = (props: Props): JSX.Element => {
 
   function detailsListPopover(candidateList: any): JSX.Element {
     return (
-      <Popover id="popover"
+      <Popover id="detailsListPopover"
         className={props.showDetailsList ? 'd-block' : 'd-none'}
         key={`${candidateList.nome}-popover-${props.anno}`}>
         {
