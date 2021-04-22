@@ -1,5 +1,32 @@
 .suggestions-list {
-  max-height: 8rem;
+  max-height: 70vh;
   overflow-y: auto;
   overflow-x: hidden;
+  z-index: 2;
+  position: relative;
+}
+
+.search-form {
+  z-index: 2;
+}
+
+.page-overlay {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+}
+
+.logo-search {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .logo-search {
+    display: table-cell;
+  }
 }

@@ -24,8 +24,15 @@ export interface CandidateInfo {
   path: string;
 }
 
+export interface CdlInfo {
+  name: string;
+  year: string;
+  isUnder500: boolean;
+}
+
 interface SearchResult {
   departments: string[];
+  cdls: CdlInfo[];
   lists: ListInfo[];
   candidates: CandidateInfo[];
 }
@@ -122,7 +129,7 @@ class SearchCandidate {
               listName: candidate.lista,
               year: year,
               department: cdl,
-              path: '#/cdl'
+              path: '#/cdl/' + cdl
             });
             limits.increaseResults();
           }
@@ -331,10 +338,48 @@ class SearchDepartment {
   }
 }
 
+class SearchCdl {
+  search(str: string, limits: SearchLimits): CdlInfo[] {
+    const results: CdlInfo[] = [];
+    str = str.replace(' ', '_').toUpperCase();
+    for (const year of years) {
+      for (const cdl of (cdls as any)[year]) {
+        if (limits.isFull()) {
+          return results;
+        }
+        if (cdl.toUpperCase().indexOf(str) !== -1) {
+          results.push({
+            name: cdl,
+            year: year,
+            isUnder500: false
+          });
+          limits.increaseResults();
+        }
+      }
+
+      for (const cdl of (cdl500 as any)[year]) {
+        if (limits.isFull()) {
+          return results;
+        }
+        if (cdl.toUpperCase().indexOf(str) !== -1) {
+          results.push({
+            name: cdl,
+            year: year,
+            isUnder500: true
+          });
+          limits.increaseResults();
+        }
+      }
+    }
+    return results;
+  }
+}
+
 class SearchEngine {
-  private searchDep = new SearchDepartment()
-  private searchList = new SearchList()
-  private searchCandidate = new SearchCandidate()
+  private searchDep = new SearchDepartment();
+  private searchList = new SearchList();
+  private searchCandidate = new SearchCandidate();
+  private searchCdl = new SearchCdl();
   private data: any;
   private static instance: SearchEngine;
   private limits = new SearchLimits();
@@ -384,7 +429,8 @@ class SearchEngine {
     return {
       departments: this.searchDep.search(str, this.limits),
       lists: this.searchList.search(str, this.data, this.limits),
-      candidates: this.searchCandidate.search(str, this.data, this.limits)
+      candidates: this.searchCandidate.search(str, this.data, this.limits),
+      cdls: this.searchCdl.search(str, this.limits)
     };
   }
 }

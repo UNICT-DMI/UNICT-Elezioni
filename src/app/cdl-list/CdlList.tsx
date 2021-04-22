@@ -18,12 +18,18 @@ const CdlList = (props: Props): JSX.Element => {
 
   return (
     <div>
-      <h2 className="mt-5" key={`h2${props.year}`}>Consiglio di Corso di Laurea {props.year}</h2>,
+      <h2 className="mt-5" key={`h2${props.year}`}>Consiglio di Corso di Laurea {props.year}</h2>
       {
         (cdls as any)[props.year].slice(0, next).map((c: string) => [
-          <hr className="my-5" key={`hr${props.year}`} />,
-          <h3 key={`h3${props.year}`}>{c.replace(/_/g, ' ')}</h3>,
-          <Results anno={props.year} path={`cdl/${c}`} details={false} key={`${c}${props.year}`} showDetailsList />
+          (
+            <>
+              <hr className="my-5" key={`hr${props.year}`} />
+              <a href={'#/cdl/' + c}>
+                <h3 key={`h3${props.year}`}>{c.replace(/_/g, ' ')}</h3>
+              </a>
+              <Results anno={props.year} path={`cdl/${c}`} details={false} key={`${c}${props.year}`} showDetailsList />
+            </>
+          )
         ])
       },
       {

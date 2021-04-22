@@ -1,14 +1,21 @@
 import React, { FunctionComponent } from 'react';
-import { faCopyright } from '@fortawesome/free-solid-svg-icons';
+import { faCopyright, faUsers } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Navbar from 'react-bootstrap/Navbar';
+import './Footer.scss';
 
 const Footer: FunctionComponent = () => (
   <div className="Footer mt-5">
-    <Navbar expand="lg" className="bg-navbar navbar-expand-lg navbar-dark bg-primary fixed-bottom">
+    <Navbar expand="lg" className="py-0 bg-navbar navbar-expand-lg navbar-primary bg-primary fixed-bottom">
       <div className="container">
         <Navbar.Brand>
-          <FontAwesomeIcon icon={faCopyright} /> Powered by <a className="text-white" href="https://github.com/UNICT-DMI/">UNICT-DMI</a>
+          <div className="organization-credit my-0 text-light">
+            <FontAwesomeIcon icon={faCopyright} />
+            &nbsp;Powered by &nbsp;
+            <a className="text-light" href="https://github.com/UNICT-DMI/">
+              <FontAwesomeIcon icon={faUsers} /> UNICT-DMI
+            </a>
+          </div>
         </Navbar.Brand>
       </div>
     </Navbar>

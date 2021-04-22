@@ -1,6 +1,8 @@
 import React from 'react';
 import nameFixes from './nameFixes';
 import './ListLogo.scss';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUser } from '@fortawesome/free-solid-svg-icons';
 
 interface Props {
   listName: string;
@@ -8,10 +10,6 @@ interface Props {
 
 export const ListLogo = (props: Props): JSX.Element => {
   function getListName(): string | undefined {
-    if (props.listName === undefined) {
-      return;
-    }
-
     return props.listName?.replace('# ', '')
       .replace(/ /g, ' ')
       .replace(/ /g, ' ')
@@ -24,12 +22,18 @@ export const ListLogo = (props: Props): JSX.Element => {
 
   return (
     <div className="logolist">
-      <img key={getListName()}
-        src={`loghi/${getListName()}.jpg`}
-        className="logolist m-auto"
-        width="80"
-        height="80"
-        alt={getListName()} />
+      {
+        getListName() !== undefined ? (
+          <img key={getListName()}
+            src={`loghi/${getListName()}.jpg`}
+            className="logolist m-auto"
+            width="80"
+            height="80"
+            alt={getListName()} />
+        ) : (
+          <FontAwesomeIcon icon={faUser} size="4x"></FontAwesomeIcon>
+        )
+      }
     </div>
   );
 };

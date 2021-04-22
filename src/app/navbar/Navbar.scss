@@ -1,6 +1,5 @@
-.dmi-insider {
-  width: 40px;
-  height: 40px;
-  border-radius: 4em;
-  border: 2px solid #fff;
+.search-form {
+  position: fixed;
+  z-index: 2;
+  transition: all 1s;
 }

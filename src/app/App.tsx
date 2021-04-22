@@ -10,7 +10,6 @@ import Menu from './navbar/Navbar';
 import Results from './results/Results/Results';
 import { years } from '../data/years';
 import Department from './department/Department';
-import { SearchForm } from './search/SearchForm';
 import Contacts from './contacts/Contacts';
 import { SearchPage } from './search/SearchPage';
 import cdls500 from '../data/cdl-500';
@@ -24,6 +23,7 @@ import HigherPolitics from './higher-politics/HigherPolitics';
 import Home from './home/Home';
 import DepList from './dep-list/DepList';
 import CdlList from './cdl-list/CdlList';
+import Cdl from './cdl/Cdl';
 
 const App = (): JSX.Element => {
   const handleOnClick = (route: string): void => { window.location.href = route; };
@@ -33,7 +33,6 @@ const App = (): JSX.Element => {
       <Menu />
       <div className="container-fluid pt-4">
         <HashRouter basename="/">
-          <SearchForm />
           <Switch>
             <Route exact path="/home" component={Home} />
             <Route exact path="/senato" render={(): JSX.Element => <HigherPolitics title={'Senato'} path={'Senato'} />} />
@@ -58,6 +57,7 @@ const App = (): JSX.Element => {
               <DepList />
             </Route>
             <Route exact path="/dipartimento/:dipartimento" component={Department} />
+            <Route exact path="/cdl/:cdl" component={Cdl} />
             <Route exact path="/dipartimenti-dottorandi">
               <div className="container text-left">
                 <h2 className="mt-5">Consiglio di Dipartimento (Dottorandi) 2018-2020</h2>
@@ -95,35 +95,35 @@ const App = (): JSX.Element => {
                 }
               </div>
             </Route>
-              <Route exact path="/cdl-500">
-                <div className="container text-left">
-                  {years.map((y) => [
-                    <h2 className="mt-5" key={`h2${y}`}>Consiglio di Corso di Laurea (&lt;500) {y}</h2>,
+            <Route exact path="/cdl-500">
+              <div className="container text-left">
+                {years.map((y) => [
+                  <h2 className="mt-5" key={`h2${y}`}>Consiglio di Corso di Laurea (&lt;500) {y}</h2>,
 
-                    <Table hover bordered responsive className="mb-5" key={`table${y}`}>
-                      <tbody>
-                        {(cdls500 as any)[y].map((c: string) => [
-                          <tr className="pointer" key={`tr${y}${c}`} onClick={(): void => handleOnClick(`#/single-results/cdl-500/${y}/${c}`)}>
-                            <td key={`h3${c}`} className="capitalize">
-                              {c.replaceAll('_', ' ')}
-                            </td>
-                          </tr>
-                        ])}
-                      </tbody>
-                    </Table>
-                  ])}
-                </div>
-              </Route>
-              <Route exact path="/single-results/:type/:anno/:cdl" component={ResultsSingle} />
-              <Route exact path="/search/:keywords" component={SearchPage} />
-              <Route exact path="/contatti" component={Contacts} />
-              <Route exact path="/not-found" component={NotFound} />
-              <Redirect to="/home" />
+                  <Table hover bordered responsive className="mb-5" key={`table${y}`}>
+                    <tbody>
+                      {(cdls500 as any)[y].map((c: string) => [
+                        <tr className="pointer" key={`tr${y}${c}`} onClick={(): void => handleOnClick(`#/single-results/cdl-500/${y}/${c}`)}>
+                          <td key={`h3${c}`} className="capitalize">
+                            {c.replaceAll('_', ' ')}
+                          </td>
+                        </tr>
+                      ])}
+                    </tbody>
+                  </Table>
+                ])}
+              </div>
+            </Route>
+            <Route exact path="/single-results/:type/:anno/:cdl" component={ResultsSingle} />
+            <Route exact path="/search/:keywords" component={SearchPage} />
+            <Route exact path="/contatti" component={Contacts} />
+            <Route exact path="/not-found" component={NotFound} />
+            <Redirect to="/home" />
           </Switch>
         </HashRouter>
       </div>
-        <Footer />
-      </div>);
+      <Footer />
+    </div>);
 };
 
 export default App;
