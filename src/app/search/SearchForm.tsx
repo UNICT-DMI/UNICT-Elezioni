@@ -30,7 +30,7 @@ export const SearchForm = (props: Props): JSX.Element => {
 
   function generateDepSuggests(): JSX.Element[] {
     return depSuggests.map((suggestion) =>
-      <a key={`dep-${suggestion}`} href={`#/dipartimento/${suggestion}`} onClick={onClickSuggest}>
+      <a className="text-decoration-none" key={`dep-${suggestion}`} href={`#/dipartimento/${suggestion}`} onClick={onClickSuggest}>
         <ListGroup.Item action variant="light">
           {suggestion.replaceAll('_', ' ')}
         </ListGroup.Item>
@@ -38,7 +38,7 @@ export const SearchForm = (props: Props): JSX.Element => {
     ) as any;
   }
 
-  function getCdlUrl(suggestion: CdlInfo) : string {
+  function getCdlUrl(suggestion: CdlInfo): string {
     if (suggestion.isUnder500) {
       return '#single-results/cdl-500/' + suggestion.year + '/' + suggestion.name;
     }
@@ -47,7 +47,7 @@ export const SearchForm = (props: Props): JSX.Element => {
 
   function generateCdlSuggests(): JSX.Element[] {
     return cdlSuggests.map((suggestion) =>
-      <a key={`dep-${suggestion}`} href={getCdlUrl(suggestion)} onClick={onClickSuggest}>
+      <a className="text-decoration-none" key={`dep-${suggestion}`} href={getCdlUrl(suggestion)} onClick={onClickSuggest}>
         <ListGroup.Item action variant="light">
           <table className="table table-borderless">
             <tbody>
@@ -67,7 +67,7 @@ export const SearchForm = (props: Props): JSX.Element => {
 
   function generateListSuggests(): JSX.Element[] {
     return listSuggests.map((suggestion) =>
-      <a key={`list-${suggestion.name}${suggestion.department}${suggestion.entity}${suggestion.year}`}
+      <a className="text-decoration-none" key={`list-${suggestion.name}${suggestion.department}${suggestion.entity}${suggestion.year}`}
         href={suggestion.path} onClick={onClickSuggest}>
         <ListGroup.Item action variant="light">
           <table className="table table-borderless">
@@ -98,7 +98,7 @@ export const SearchForm = (props: Props): JSX.Element => {
 
   function generateCandidatesSuggests(): JSX.Element[] {
     return candidatesSuggests.map((suggestion) =>
-      <a key={`list-${suggestion.name}${suggestion.department}${suggestion.entity}${suggestion.year}`}
+      <a className="text-decoration-none" key={`list-${suggestion.name}${suggestion.department}${suggestion.entity}${suggestion.year}`}
         href={suggestion.path} onClick={onClickSuggest}>
         <ListGroup.Item action variant="light">
           <table className="table table-borderless">
@@ -134,7 +134,7 @@ export const SearchForm = (props: Props): JSX.Element => {
         {generateListSuggests()}
         {generateCandidatesSuggests()}
         {generateCdlSuggests()}
-        <a onClick={handleSearchSubmit}>
+        <a className="text-decoration-none" onClick={handleSearchSubmit}>
           <ListGroup.Item action variant="primary">
             View All
           </ListGroup.Item>

@@ -376,10 +376,10 @@ class SearchCdl {
 }
 
 class SearchEngine {
-  private searchDep = new SearchDepartment()
-  private searchList = new SearchList()
-  private searchCandidate = new SearchCandidate()
-  private searchCdl = new SearchCdl()
+  private searchDep = new SearchDepartment();
+  private searchList = new SearchList();
+  private searchCandidate = new SearchCandidate();
+  private searchCdl = new SearchCdl();
   private data: any;
   private static instance: SearchEngine;
   private limits = new SearchLimits();

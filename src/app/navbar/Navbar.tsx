@@ -14,7 +14,7 @@ const Menu: FunctionComponent = () => {
 
   return (
     <div className="Menu">
-      <Navbar expand="lg" className="bg-navbar navbar-expand-lg navbar-primary bg-primary fixed-top">
+      <Navbar expand="lg" className="bg-navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
         <div className="container">
           <Navbar.Brand href="#/home">
             <img src="UNICT-Elezioni.png"
@@ -60,7 +60,7 @@ const Menu: FunctionComponent = () => {
         </div>
       </Navbar>
       <Collapse in={showSearch}>
-        <div className="container-fluid search-form">
+        <div className="container-fluid search-form pt-2">
           <div className="container">
             <SearchForm onClose={(): void => setShowSearch(false)}/>
           </div>
