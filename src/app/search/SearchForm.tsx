@@ -128,7 +128,7 @@ export const SearchForm = (props: Props): JSX.Element => {
         {generateCandidatesSuggests()}
         {generateCdlSuggests()}
         <a onClick={handleSearchSubmit}>
-          <ListGroup.Item action variant="light">
+          <ListGroup.Item action variant="primary">
             View All
           </ListGroup.Item>
         </a>
@@ -139,11 +139,13 @@ export const SearchForm = (props: Props): JSX.Element => {
   function onClickSuggest(event: any): void {
     event.value = null;
     setFormValue('');
+    props.onClose();
   }
 
   function handleSearchSubmit(event: any): void {
     window.location.href = '#/search/' + formValue;
     setFormValue('');
+    props.onClose();
     event.preventDefault();
   }
 

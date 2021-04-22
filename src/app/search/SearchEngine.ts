@@ -128,7 +128,7 @@ class SearchCandidate {
               listName: candidate.lista,
               year: year,
               department: cdl,
-              path: '#/cdl'
+              path: '#/cdl/' + cdl
             });
             limits.increaseResults();
           }
