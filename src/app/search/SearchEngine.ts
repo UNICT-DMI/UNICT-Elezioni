@@ -24,9 +24,14 @@ export interface CandidateInfo {
   path: string;
 }
 
+export interface CdlInfo {
+  name: string;
+  year: string;
+}
+
 interface SearchResult {
   departments: string[];
-  cdls: string[];
+  cdls: CdlInfo[];
   lists: ListInfo[];
   candidates: CandidateInfo[];
 }
@@ -333,8 +338,8 @@ class SearchDepartment {
 }
 
 class SearchCdl {
-  search(str: string, limits: SearchLimits): string[] {
-    const results: string[] = [];
+  search(str: string, limits: SearchLimits): CdlInfo[] {
+    const results: CdlInfo[] = [];
     str = str.replace(' ', '_').toUpperCase();
     for (const year of years) {
       for (const cdl of (cdls as any)[year]) {
@@ -342,7 +347,10 @@ class SearchCdl {
           return results;
         }
         if (cdl.toUpperCase().indexOf(str) !== -1) {
-          results.push(cdl);
+          results.push({
+            name: cdl,
+            year: year
+          });
           limits.increaseResults();
         }
       }

@@ -1,15 +1,15 @@
-import { faSearch } from '@fortawesome/free-solid-svg-icons';
+import { faGraduationCap, faSearch } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useState } from 'react';
 import { Button, Form, InputGroup, ListGroup } from 'react-bootstrap';
 import ListLogo from '../results/ListLogo/ListLogo';
-import SearchEngine, { CandidateInfo, ListInfo } from './SearchEngine';
+import SearchEngine, { CandidateInfo, CdlInfo, ListInfo } from './SearchEngine';
 import './SearchForm.scss';
 
 export const SearchForm = (): JSX.Element => {
   const [formValue, setFormValue] = useState('');
   const [depSuggests, setDepSuggests] = useState([] as string[]);
-  const [cdlSuggests, setCdlSuggests] = useState([] as string[]);
+  const [cdlSuggests, setCdlSuggests] = useState([] as CdlInfo[]);
   const [listSuggests, setListSuggests] = useState([] as ListInfo[]);
   const [candidatesSuggests, setCandidatesSuggests] = useState([] as CandidateInfo[]);
 
@@ -36,9 +36,19 @@ export const SearchForm = (): JSX.Element => {
 
   function generateCdlSuggests(): JSX.Element[] {
     return cdlSuggests.map((suggestion) =>
-      <a key={`dep-${suggestion}`} href={`#/cdl/${suggestion}`} onClick={onClickSuggest}>
+      <a key={`dep-${suggestion}`} href={`#/cdl/${suggestion.name}`} onClick={onClickSuggest}>
         <ListGroup.Item action variant="light">
-          {suggestion.replaceAll('_', ' ')}
+          <table className="table table-borderless">
+            <tbody>
+              <tr>
+                <td className="logo-search">
+                  <FontAwesomeIcon icon={faGraduationCap} size="4x"></FontAwesomeIcon>
+                </td>
+                <td className="col">{suggestion.name.replaceAll('_', ' ')}</td>
+                <td className="col text-nowrap">{suggestion.year}</td>
+              </tr>
+            </tbody>
+          </table>
         </ListGroup.Item>
       </a>
     ) as any;
@@ -58,7 +68,7 @@ export const SearchForm = (): JSX.Element => {
                 <td className="align-middle col" rowSpan={2}>
                   {suggestion.name}
                 </td>
-                <td className="col">
+                <td className="col text-nowrap">
                   {suggestion.year}
                 </td>
               </tr>
@@ -89,7 +99,7 @@ export const SearchForm = (): JSX.Element => {
                 <td className="align-middle col" rowSpan={2}>
                   {suggestion.name}
                 </td>
-                <td className="col">
+                <td className="col text-nowrap">
                   {suggestion.year}
                 </td>
               </tr>
