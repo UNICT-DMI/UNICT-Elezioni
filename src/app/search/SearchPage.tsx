@@ -47,7 +47,14 @@ export const SearchPage = (): JSX.Element => {
               <br />
               {suggestion.year}
             </Card.Title>
-            {showResultsButton(`#/cdl/${suggestion.name}`)}
+            {
+              suggestion.isUnder500 ? (
+                showResultsButton(`#single-results/cdl-500/${suggestion.year}/${suggestion.name}`)
+              ) : (
+                showResultsButton(`#/cdl/${suggestion.name}`)
+              )
+            }
+            { }
           </Card.Body>
         </Card>
       </div >

@@ -27,6 +27,7 @@ export interface CandidateInfo {
 export interface CdlInfo {
   name: string;
   year: string;
+  isUnder500: boolean;
 }
 
 interface SearchResult {
@@ -349,7 +350,22 @@ class SearchCdl {
         if (cdl.toUpperCase().indexOf(str) !== -1) {
           results.push({
             name: cdl,
-            year: year
+            year: year,
+            isUnder500: false
+          });
+          limits.increaseResults();
+        }
+      }
+
+      for (const cdl of (cdl500 as any)[year]) {
+        if (limits.isFull()) {
+          return results;
+        }
+        if (cdl.toUpperCase().indexOf(str) !== -1) {
+          results.push({
+            name: cdl,
+            year: year,
+            isUnder500: true
           });
           limits.increaseResults();
         }

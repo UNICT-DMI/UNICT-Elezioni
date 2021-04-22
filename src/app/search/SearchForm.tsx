@@ -38,9 +38,16 @@ export const SearchForm = (props: Props): JSX.Element => {
     ) as any;
   }
 
+  function getCdlUrl(suggestion: CdlInfo) : string {
+    if (suggestion.isUnder500) {
+      return '#single-results/cdl-500/' + suggestion.year + '/' + suggestion.name;
+    }
+    return '#/cdl/' + suggestion.name;
+  }
+
   function generateCdlSuggests(): JSX.Element[] {
     return cdlSuggests.map((suggestion) =>
-      <a key={`dep-${suggestion}`} href={`#/cdl/${suggestion.name}`} onClick={onClickSuggest}>
+      <a key={`dep-${suggestion}`} href={getCdlUrl(suggestion)} onClick={onClickSuggest}>
         <ListGroup.Item action variant="light">
           <table className="table table-borderless">
             <tbody>
