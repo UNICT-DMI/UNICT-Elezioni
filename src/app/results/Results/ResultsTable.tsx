@@ -108,7 +108,7 @@ export const ResultTable = (props: Props): JSX.Element => {
 
   function generateTableTitle(): JSX.Element {
     return (
-      <div className="w-100 bg-secondary p-3">
+      <div className="w-100 bg-light text-dark p-3">
         <b>
           {props.anno}
           {' '}
