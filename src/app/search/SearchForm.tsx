@@ -6,7 +6,11 @@ import ListLogo from '../results/ListLogo/ListLogo';
 import SearchEngine, { CandidateInfo, CdlInfo, ListInfo } from './SearchEngine';
 import './SearchForm.scss';
 
-export const SearchForm = (): JSX.Element => {
+interface Props {
+  onClose: () => void;
+}
+
+export const SearchForm = (props: Props): JSX.Element => {
   const [formValue, setFormValue] = useState('');
   const [depSuggests, setDepSuggests] = useState([] as string[]);
   const [cdlSuggests, setCdlSuggests] = useState([] as CdlInfo[]);
@@ -144,22 +148,25 @@ export const SearchForm = (): JSX.Element => {
   }
 
   return (
-    <div className="search ml-auto">
-      <Form onSubmit={handleSearchSubmit}>
-        <InputGroup>
-          <Form.Control type="text"
-            className="form-control"
-            value={formValue}
-            onChange={onInputFormChange}
-            placeholder="(BETA) Cerca dipartimento, candidato, lista..." />
-          <InputGroup.Append>
-            <Button type="submit" variant="primary"><FontAwesomeIcon icon={faSearch} /></Button>
-          </InputGroup.Append>
-        </InputGroup>
-      </Form>
-      <ListGroup className={formValue.length ? 'suggestions-list' : 'd-none'}>
-        {generateSuggestions()}
-      </ListGroup>
-    </div>
+    <>
+      <div className="search ml-auto">
+        <Form onSubmit={handleSearchSubmit}>
+          <InputGroup>
+            <Form.Control type="text"
+              className="search-form form-control"
+              value={formValue}
+              onChange={onInputFormChange}
+              placeholder="(BETA) Cerca dipartimento, candidato, lista..." />
+            <InputGroup.Append>
+              <Button type="submit" variant="primary"><FontAwesomeIcon icon={faSearch} /></Button>
+            </InputGroup.Append>
+          </InputGroup>
+        </Form>
+        <ListGroup className={formValue.length ? 'suggestions-list' : 'd-none'}>
+          {generateSuggestions()}
+        </ListGroup>
+      </div>
+      <div className="page-overlay" onClick={(): void => props.onClose()} />
+    </>
   );
 };

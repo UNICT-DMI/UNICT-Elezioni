@@ -1,6 +1,6 @@
 import React, { FunctionComponent, useState } from 'react';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faAddressCard, faGraduationCap, faSearch, faUniversity } from '@fortawesome/free-solid-svg-icons';
+import { faAddressCard, faGraduationCap, faSearch, faTimes, faUniversity } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
@@ -54,7 +54,7 @@ const Menu: FunctionComponent = () => {
             aria-controls="search-form"
             aria-expanded={showSearch}
             href="#">
-            <FontAwesomeIcon icon={faSearch} />
+            <FontAwesomeIcon icon={showSearch ? faTimes : faSearch} />
           </Nav.Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
         </div>
@@ -62,7 +62,7 @@ const Menu: FunctionComponent = () => {
       <Collapse in={showSearch}>
         <div className="container-fluid search-form">
           <div className="container">
-            <SearchForm />
+            <SearchForm onClose={(): void => setShowSearch(false)}/>
           </div>
         </div>
       </Collapse>
