@@ -25,7 +25,8 @@ export const Results = (props: Props): JSX.Element => {
             <ResultTable seggio={props.seggio} multiDip={props.multiDip} data={data} anno={props.anno} showDetailsList={props.showDetailsList} showList={props.showList} />
           </div>
         </div>
-        {props.details &&
+        {
+          props.details &&
           <DetailsTable seggio={props.seggio} data={data} anno={props.anno} />
         }
       </div>

@@ -1,49 +1,47 @@
 import React from 'react';
 import './Home.scss';
-import VoteIcon from 'mdi-react/VoteIcon';
-import BallotOutlineIcon from 'mdi-react/BallotOutlineIcon';
-import ImageIcon from 'mdi-react/ImageIcon';
+import Icon from '@mdi/react';
+import { mdiBallotOutline, mdiDatabase, mdiGestureTap, mdiGithub, mdiVote } from '@mdi/js';
 
 function Home(): JSX.Element {
   return (
-    <div className="Home">
-      <div className="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+    <div className="home">
+      <div className="home-slide-first position-relative overflow-hidden p-3 p-md-5 text-center bg-light">
         <div className="col-md-5 p-lg-5 mx-auto my-5">
-          <h1 className="display-4 font-weight-normal">
-            UNICT Elezioni
-          </h1>
+          <div className="home-title">
+            <h1 className="display-4 font-weight-normal">
+              UNICT Elezioni
+            </h1>
+            <span className="badge bg-secondary">Beta</span>
+          </div>
           <p className="lead font-weight-normal">
             Progetto sviluppato per fornire una visione immediata e cronologica dei risultati delle elezioni universitarie.
           </p>
           <a className="btn btn-outline-primary" href="#">Coming soon</a>
         </div>
         <div className="ballot ballot-box text-secondary">
-          <VoteIcon size={300} />
+          <Icon path={mdiVote} size={15}/>
         </div>
         <div className="ballot ballot-sheet text-secondary">
-          <BallotOutlineIcon size={300} />
+          <Icon path={mdiBallotOutline} size={15}/>
         </div>
       </div>
-      <div className="container marketing">
-
+      <div className="container">
         <div className="row">
           <div className="col-lg-4">
-            <ImageIcon size={50} />
-            <h2>Heading</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum tellus non enim ornare tempus.</p>
-            <p><a className="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            <Icon path={mdiDatabase} size={3}/>
+            <h2>Dati ufficiali</h2>
+            <p>Basato su dati estratti da documenti PDF pubblicati sul sito dell&apos;Università di Catania.</p>
           </div>
           <div className="col-lg-4">
-            <ImageIcon size={50} />
-            <h2>Heading</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum tellus non enim ornare tempus.</p>
-            <p><a className="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            <Icon path={mdiGithub} size={3}/>
+            <h2>Free and Open</h2>
+            <p>Progetto completamente Free and Open Source. Chiunque può contribuire per migliorare il progetto.</p>
           </div>
           <div className="col-lg-4">
-            <ImageIcon size={50} />
-            <h2>Heading</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum tellus non enim ornare tempus.</p>
-            <p><a className="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            <Icon path={mdiGestureTap} size={3}/>
+            <h2>Semplice</h2>
+            <p>Permette di fornire una visione dei risultati delle elezioni in modo semplice e veloce.</p>
           </div>
         </div>
       </div>
