@@ -17,7 +17,6 @@ function Home(): JSX.Element {
           <p className="lead font-weight-normal">
             Progetto sviluppato per fornire una visione immediata e cronologica dei risultati delle elezioni universitarie.
           </p>
-          <a className="btn btn-outline-primary" href="#">Coming soon</a>
         </div>
         <div className="ballot ballot-box text-secondary">
           <Icon path={mdiVote} size={15} />

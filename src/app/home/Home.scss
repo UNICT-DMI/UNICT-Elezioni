@@ -1,3 +1,9 @@
+@media screen and (max-width: 768px) {
+  .ballot {
+    display: none;
+  }
+}
+
 @keyframes shake {
   0% { transform: translate(5px, 5px) rotate(15deg)}
   100% { transform: translate(-5px, -5px) rotate(15deg)}
