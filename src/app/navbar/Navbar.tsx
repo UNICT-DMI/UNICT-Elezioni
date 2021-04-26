@@ -8,6 +8,8 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import './Navbar.scss';
 import { SearchForm } from '../search/SearchForm';
 import { Collapse } from 'react-bootstrap';
+import { mdiVoteOutline } from '@mdi/js';
+import Icon from '@mdi/react';
 
 const Menu: FunctionComponent = () => {
   const [showSearch, setShowSearch] = useState(false);
@@ -17,10 +19,7 @@ const Menu: FunctionComponent = () => {
       <Navbar expand="lg" className="bg-navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
         <div className="container">
           <Navbar.Brand href="#/home">
-            <img src="UNICT-Elezioni.png"
-              className="border border-dark rounded-circle"
-              height="30px"
-              alt="UNICT Elezioni" />
+            <Icon path={mdiVoteOutline} size={1.2} />
               &nbsp; UNICT Elezioni
           </Navbar.Brand>
           <Navbar.Collapse id="basic-navbar-nav">
@@ -49,20 +48,22 @@ const Menu: FunctionComponent = () => {
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
-          <Nav.Link className="text-dark"
-            onClick={(): void => setShowSearch(!showSearch)}
-            aria-controls="search-form"
-            aria-expanded={showSearch}
-            href="#">
-            <FontAwesomeIcon icon={showSearch ? faTimes : faSearch} />
-          </Nav.Link>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <div className="row">
+            <Nav.Link className="text-dark search-button"
+              onClick={(): void => setShowSearch(!showSearch)}
+              aria-controls="search-form"
+              aria-expanded={showSearch}
+              href="#">
+              <FontAwesomeIcon icon={showSearch ? faTimes : faSearch} />
+            </Nav.Link>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          </div>
         </div>
       </Navbar>
       <Collapse in={showSearch}>
         <div className="container-fluid search-form pt-2">
           <div className="container">
-            <SearchForm onClose={(): void => setShowSearch(false)}/>
+            <SearchForm onClose={(): void => setShowSearch(false)} />
           </div>
         </div>
       </Collapse>

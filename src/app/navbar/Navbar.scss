@@ -3,3 +3,10 @@
   z-index: 2;
   transition: all 1s;
 }
+
+@media screen and (max-width: 768px) {
+  .search-button {
+    padding-inline: 10px !important;
+  }
+
+}
