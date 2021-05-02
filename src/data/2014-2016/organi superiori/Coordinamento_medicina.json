@@ -1,0 +1,109 @@
+{
+    "dipartimento": "COORDINAMENTO DELLA SCUOLA DENOMINATA FACOLTA' DI MEDICINA",
+    "schede": {
+        "bianche": {
+            "totali": 349,
+            "seggio_n_16": 74,
+            "seggio_n_17": 86,
+            "seggio_n_18": 15,
+            "seggio_n_19": 37,
+            "seggio_n_20": 137
+        },
+        "nulle": {
+            "totali": 166,
+            "seggio_n_16": 27,
+            "seggio_n_17": 64,
+            "seggio_n_18": 11,
+            "seggio_n_19": 9,
+            "seggio_n_20": 55
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_16": 0,
+            "seggio_n_17": 0,
+            "seggio_n_18": 0,
+            "seggio_n_19": 0,
+            "seggio_n_20": 0
+        }
+    },
+    "eletti": [
+        {
+            "nominativo": "GIUMMARRESI Mariangela",
+            "voti": {
+                "totali": 443,
+                "seggio_n_16": 30,
+                "seggio_n_17": 43,
+                "seggio_n_18": 308,
+                "seggio_n_19": 49,
+                "seggio_n_20": 13
+            }
+        },
+        {
+            "nominativo": "LEOTTA Alberto",
+            "voti": {
+                "totali": 413,
+                "seggio_n_16": 233,
+                "seggio_n_17": 99,
+                "seggio_n_18": 36,
+                "seggio_n_19": 39,
+                "seggio_n_20": 6
+            }
+        },
+        {
+            "nominativo": "PIAZZA Vincenzo Gaetano",
+            "voti": {
+                "totali": 199,
+                "seggio_n_16": 67,
+                "seggio_n_17": 85,
+                "seggio_n_18": 13,
+                "seggio_n_19": 7,
+                "seggio_n_20": 27
+            }
+        },
+        {
+            "nominativo": "PUGLISI Martina",
+            "voti": {
+                "totali": 318,
+                "seggio_n_16": 72,
+                "seggio_n_17": 180,
+                "seggio_n_18": 5,
+                "seggio_n_19": 18,
+                "seggio_n_20": 43
+            }
+        },
+        {
+            "nominativo": "VITALE Ermanno",
+            "voti": {
+                "totali": 413,
+                "seggio_n_16": 101,
+                "seggio_n_17": 164,
+                "seggio_n_18": 13,
+                "seggio_n_19": 5,
+                "seggio_n_20": 130
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "ALIA Stefano",
+            "voti": {
+                "totali": 176,
+                "seggio_n_16": 123,
+                "seggio_n_17": 47,
+                "seggio_n_18": 1,
+                "seggio_n_19": 1,
+                "seggio_n_20": 4
+            }
+        }
+    ],
+    "voti": {
+        "totali": 2477,
+        "seggio_n_16": 727,
+        "seggio_n_17": 768,
+        "seggio_n_18": 402,
+        "seggio_n_19": 165,
+        "seggio_n_20": 415
+    },
+    "aventi_diritto": 1065,
+    "perc_votanti": 49.37
+}

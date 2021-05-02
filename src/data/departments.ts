@@ -1,4 +1,5 @@
-const departments = [
+// to be removed
+const departments: string[] = [
   'Agricoltura_alimentazione_e_ambiente',
   'Chirurgia_generale_e_specialità_medico_chirurgiche',
   'Economia_e_impresa',

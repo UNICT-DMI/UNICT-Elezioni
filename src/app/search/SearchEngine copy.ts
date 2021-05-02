@@ -6,30 +6,7 @@ import { entities, entitiesPath } from '../../data/entities';
 import years from '../../data/years';
 import ersuYears from '../../data/ersu-years';
 import SearchLimits from './SearchLimits';
-import { datareader } from '../../data/DataReader';
-
-export interface ListInfo {
-  name: string;
-  year: string;
-  department?: string;
-  entity?: string;
-  path: string;
-}
-
-export interface CandidateInfo {
-  name: string;
-  year: string;
-  listName: string;
-  department?: string;
-  entity?: string;
-  path: string;
-}
-
-export interface CdlInfo {
-  name: string;
-  year: string;
-  isUnder500: boolean;
-}
+import { CandidateInfo, CdlInfo, ListInfo } from './SearchInfo';
 
 interface SearchResult {
   departments: string[];
@@ -386,8 +363,9 @@ class SearchEngine {
   private limits = new SearchLimits();
 
   private constructor() {
-    datareader.loadData();
     this.data = [];
+
+    // Load all data
     for (const year of years) {
       this.data[year] = [];
       for (const entity of entities) {

@@ -1,3 +1,4 @@
+// to be removed
 export const entities = [
   'Senato',
   'Nucleo_di_valutazione',
