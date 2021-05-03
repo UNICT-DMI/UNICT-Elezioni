@@ -22,6 +22,8 @@ const Cdl = (): JSX.Element => {
             <Results
               key={`${y}-${params.cdl}`}
               anno={y}
+              entity="cdl"
+              subEntity={params.cdl}
               path={`cdl/${params.cdl}`}
               details
               showDetailsList />

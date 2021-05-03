@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import './Department.scss';
 import { years } from '../../data/years';
 import Results from '../results/Results/Results';
+import { datareader } from '../../data/DataReader';
 
 interface Params {
   dipartimento: string;
@@ -13,30 +14,6 @@ export type dict = { [key: string]: string[] };
 const Department = (): JSX.Element => {
   const params: Params = useParams();
 
-  // { year: seggi } -> { "2018-2020": ['1','2','3'] }
-  const seggi: dict = {};
-  const multiDipSeggio: dict = {};
-
-  years.forEach((y) => {
-    const seggioPerYear: dict = require(`../../data/${y}/seggi.json`);
-
-    seggi[y] = [];
-    multiDipSeggio[y] = [];
-
-    for (const s of Object.keys(seggioPerYear)) {
-      if (seggioPerYear[s].includes(params.dipartimento)) {
-        seggi[y].push(s);
-
-        if (seggioPerYear[s].length > 1) {
-          seggioPerYear[s].forEach((d) => multiDipSeggio[y].push(d));
-        }
-      }
-    }
-
-    // remove duplicates
-    multiDipSeggio[y] = Array.from(new Set(multiDipSeggio[y]));
-  });
-
   return (
     <div className="Department">
       <div className="container-fluid">
@@ -46,6 +23,8 @@ const Department = (): JSX.Element => {
             <Results
               key={`${y}-${params.dipartimento}`}
               anno={y}
+              entity="dipartimenti"
+              subEntity={params.dipartimento}
               path={`dipartimenti/${params.dipartimento}`}
               details
               showDetailsList />
@@ -58,9 +37,10 @@ const Department = (): JSX.Element => {
             <Results
               key={`${y}-${params.dipartimento}`}
               anno={y}
+              entity="organi superiori"
+              subEntity="Senato"
+              seggi={datareader.getSeatsId(y, params.dipartimento)}
               path="Senato"
-              seggio={seggi}
-              multiDip={multiDipSeggio}
               details
               showDetailsList />
           ))}
@@ -72,9 +52,10 @@ const Department = (): JSX.Element => {
             <Results
               key={`${y}-${params.dipartimento}`}
               anno={y}
+              entity="organi superiori"
+              subEntity="Consiglio_di_amministrazione"
+              seggi={datareader.getSeatsId(y, params.dipartimento)}
               path="Consiglio_di_amministrazione"
-              seggio={seggi}
-              multiDip={multiDipSeggio}
               details
               showDetailsList />
           ))}

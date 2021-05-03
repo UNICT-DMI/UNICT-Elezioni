@@ -42,7 +42,12 @@ const App = (): JSX.Element => {
             <Route exact path="/ersu">
               <h2 className="mt-5">Consiglio di Amministrazione ERSU</h2>
               <div className="py-4">
-                <Results anno="2019-2023" path="ERSU" details={false} />
+                <Results
+                  anno="2019-2023"
+                  entity="organi superiori"
+                  subEntity="ERSU"
+                  path="ERSU"
+                  details={false} />
               </div>
             </Route>
             <Route exact path="/facolta_medicina">
@@ -78,7 +83,15 @@ const App = (): JSX.Element => {
                 {(dottorandi as any)['2016-2018'].map((c: string) => [
                   <h3 key={`h3${c}`}>{c.replace(/_/g, ' ')}</h3>,
                   <div className="text-center" key={`dottorandi/${c}`}>
-                    <Results anno="2016-2018" path={`dottorandi/${c}`} details={false} key={`${c}2016-2018`} showList={true} showDetailsList />
+                    <Results
+                      anno="2016-2018"
+                      entity="dottorandi"
+                      subEntity={c}
+                      path={`dottorandi/${c}`}
+                      details={false}
+                      key={`${c}2016-2018`}
+                      showList={true}
+                      showDetailsList />
                   </div>
                 ])}
                 <hr className="mb-5" />

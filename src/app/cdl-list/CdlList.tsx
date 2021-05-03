@@ -27,7 +27,14 @@ const CdlList = (props: Props): JSX.Element => {
               <a href={'#/cdl/' + c}>
                 <h3 key={`h3${props.year}`}>{c.replace(/_/g, ' ')}</h3>
               </a>
-              <Results anno={props.year} path={`cdl/${c}`} details={false} key={`${c}${props.year}`} showDetailsList />
+              <Results
+                anno={props.year}
+                entity="cdl"
+                subEntity={c}
+                path={`cdl/${c}`}
+                details={false}
+                key={`${c}${props.year}`}
+                showDetailsList />
             </>
           )
         ])
