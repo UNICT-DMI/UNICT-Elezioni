@@ -24,9 +24,31 @@ import Home from './home/Home';
 import DepList from './dep-list/DepList';
 import CdlList from './cdl-list/CdlList';
 import Cdl from './cdl/Cdl';
+import { datareader } from '../data/DataReader';
+import fixName from './utils/FixName';
 
 const App = (): JSX.Element => {
   const handleOnClick = (route: string): void => { window.location.href = route; };
+
+  function higherPoliticsRoutes(): JSX.Element[] {
+    return (
+      datareader.getAllHigherPolitics().map((entity: string) => {
+        return entity.includes('medicina') ? (<Route exact path='#'></Route>) : (
+          <Route exact path={`/${entity}`} key={entity} render={(): JSX.Element => <HigherPolitics title={fixName(entity)} path={entity} />} />
+        );
+      })
+    );
+  }
+
+  function medResults(): JSX.Element[] {
+    return (
+      datareader.getYearsOfSubEntity('organi superiori', 'Coordinamento_medicina').map((year: string): JSX.Element => {
+        return (
+          <ResultsMed anno={year} key={`medRes${year}`} path="Coordinamento_medicina" />
+        );
+      })
+    );
+  }
 
   return (
     <div className="App">
@@ -35,27 +57,11 @@ const App = (): JSX.Element => {
         <HashRouter basename="/">
           <Switch>
             <Route exact path="/home" component={Home} />
-            <Route exact path="/senato" render={(): JSX.Element => <HigherPolitics title={'Senato'} path={'Senato'} />} />
-            <Route exact path="/cda" render={(): JSX.Element => <HigherPolitics title={'Consiglio di Amministrazione (CdA)'} path={'Consiglio_di_amministrazione'} />} />
-            <Route exact path="/ndv" render={(): JSX.Element => <HigherPolitics title={'Nucleo di Valutazione (NdV)'} path={'Nucleo_di_valutazione'} />} />
-            <Route exact path="/csu" render={(): JSX.Element => <HigherPolitics title={'Comitato per lo Sport Universitario (CSU)'} path={'Comitato_per_lo_sport_universitario'} />} />
-            <Route exact path="/ersu">
-              <h2 className="mt-5">Consiglio di Amministrazione ERSU</h2>
-              <div className="py-4">
-                <Results
-                  anno="2019-2023"
-                  entity="organi superiori"
-                  subEntity="ERSU"
-                  path="ERSU"
-                  details={false} />
-              </div>
-            </Route>
-            <Route exact path="/facolta_medicina">
+            {higherPoliticsRoutes()}
+            <Route exact path="/Coordinamento_medicina">
               <h2 className="mt-5">Coordinamento Facoltà di Medicina</h2>
               <div className="py-4">
-                <ResultsMed anno="2018-2020" path="Coordinamento_medicina" />
-                <ResultsMed anno="2016-2018" path="Coordinamento_medicina" />
-                <ResultsMed anno="2014-2016" path="Coordinamento_medicina" />
+                {medResults()}
               </div>
             </Route>
             <Route exact path="/dipartimenti">

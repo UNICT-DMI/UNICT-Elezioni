@@ -16,7 +16,6 @@ const DepList = (): JSX.Element => {
   return (
     <div className="Departments">
       <h2 className="mt-5">Dipartimenti</h2>
-      {console.log(datareader.getAllDepartments())}
       {
         datareader.getAllDepartments().slice(0, next).map((dep: string) => [
           <hr className="my-5" key={`hr${dep}`} />,

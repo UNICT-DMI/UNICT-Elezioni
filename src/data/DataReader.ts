@@ -47,7 +47,15 @@ class DataReader {
     return Object.keys(this.data);
   }
 
-  getEntities(years: string): string[] {
+  getEntities(years: string | null = null): string[] {
+    if (!years) {
+      let entities: string[] = [];
+      const yearsList = this.getYears();
+      for (const year of yearsList) {
+        entities = [...entities, ...Object.keys(this.data[year])];
+      }
+      return [...new Set(entities)];
+    }
     return Object.keys(this.data[years]);
   }
 
@@ -80,6 +88,15 @@ class DataReader {
     return Object.keys(this.data[years]['organi superiori']);
   }
 
+  getAllHigherPolitics(): string[] {
+    let entities: string[] = [];
+    const yearsList = this.getYears();
+    for (const year of yearsList) {
+      entities = [...entities, ...this.getHigherPolitics(year)];
+    }
+    return [...new Set(entities)];
+  }
+
   // generic method for all entities
   getEntity(years: string, entity: string): string[] | null {
     if (this.data[years][entity]) {
@@ -90,6 +107,13 @@ class DataReader {
 
   getSubEntity(years: string, entity: string, subEntity: string): any | null {
     return this.data[years][entity] ? this.data[years][entity][subEntity] : null;
+  }
+
+  getYearsOfSubEntity(entity: string, subEntity: string): string[] {
+    const years = this.getYears();
+    return years.filter((year: string): boolean => {
+      return this.data[year][entity] && this.data[year][entity][subEntity];
+    });
   }
 
   // ('2018-2020', 'dipartimenti', 'Matematica e Informatica')
