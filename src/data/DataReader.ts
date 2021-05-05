@@ -44,7 +44,7 @@ class DataReader {
   }
 
   getYears(): string[] {
-    return Object.keys(this.data);
+    return Object.keys(this.data).reverse();
   }
 
   getEntities(years: string | null = null): string[] {
