@@ -3,6 +3,7 @@ import departments from '../../data/departments';
 import Results from '../results/Results/Results';
 import { Button } from 'react-bootstrap';
 import { datareader } from '../../data/DataReader';
+import { Link } from 'react-router-dom';
 
 const DepList = (): JSX.Element => {
   const depsPerPage = 5;
@@ -19,7 +20,11 @@ const DepList = (): JSX.Element => {
       {
         datareader.getAllDepartments().slice(0, next).map((dep: string) => [
           <hr className="my-5" key={`hr${dep}`} />,
-          <h3 key={`h3${dep}`}><a href={`#/dipartimento/${dep}`}>{dep.replace(/_/g, ' ')}</a></h3>,
+          <h3 key={`h3${dep}`}>
+            <Link to={(location: any): string => `${location.pathname}/${dep}`}>
+              {dep.replace(/_/g, ' ')}
+            </Link>
+          </h3>,
           years.map((year: string): JSX.Element => {
             return (
               datareader.getSubEntity(year, 'dipartimenti', dep) &&

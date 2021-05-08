@@ -59,6 +59,10 @@ class DataReader {
     return Object.keys(this.data[years]);
   }
 
+  getSubEntities(years: string, entity: string): string[] {
+    return Object.keys(this.data[years][entity]);
+  }
+
   getDepartments(years: string): string[] {
     const departments = this.data[years].dipartimenti;
     return departments ? Object.keys(departments) : [];
@@ -121,7 +125,7 @@ class DataReader {
     if (!this.data[years][entity]) {
       return [];
     }
-    return (this.data[years][entity][subEntity].liste as []).filter((list: any): any => {
+    return this.data[years][entity][subEntity].liste && (this.data[years][entity][subEntity].liste as []).filter((list: any): any => {
       return list.nome !== undefined;
     });
   }
@@ -141,12 +145,34 @@ class DataReader {
     return [...elected, ...notElected];
   }
 
+  getCandidatesUninominal(years: string, entity: string, subEntity: string): any {
+    let elected: any[] = (this.data[years][entity][subEntity].eletti as []);
+    if (!elected) {
+      return null;
+    }
+    elected = elected.map((candidate: any): any => {
+      candidate.eletto = true;
+      return candidate;
+    });
+    let notElected: any[] = (this.data[years][entity][subEntity].non_eletti as []);
+    notElected = notElected.map((candidate: any): any => {
+      candidate.eletto = false;
+      return candidate;
+    });
+
+    return [...elected, ...notElected];
+  }
+
   getAllCandidates(years: string, entity: string, subEntity: string): any {
     const lists: any[] = this.getLists(years, entity, subEntity);
-    const allCandidates: any[] = [];
-    lists.forEach((list: any): any => {
-      allCandidates[list.nome] = this.getCandidates(years, entity, subEntity, list.nome);
-    });
+    const allCandidates: any = [];
+    if (lists) {
+      lists.forEach((list: any): any => {
+        allCandidates[list.nome] = this.getCandidates(years, entity, subEntity, list.nome);
+      });
+    } else {
+      allCandidates.UNINOMINAL = this.getCandidatesUninominal(years, entity, subEntity);
+    }
     return allCandidates;
   }
 

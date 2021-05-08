@@ -67,7 +67,7 @@ const App = (): JSX.Element => {
             <Route exact path="/dipartimenti">
               <DepList />
             </Route>
-            <Route exact path="/dipartimento/:dipartimento" component={Department} />
+            <Route exact path="/dipartimenti/:dipartimento" component={Department} />
             <Route exact path="/cdl/:cdl" component={Cdl} />
             <Route exact path="/dipartimenti-dottorandi">
               <div className="container text-left">

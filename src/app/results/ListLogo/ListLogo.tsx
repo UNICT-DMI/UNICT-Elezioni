@@ -23,7 +23,7 @@ export const ListLogo = (props: Props): JSX.Element => {
   return (
     <div className="logolist">
       {
-        getListName() !== undefined ? (
+        getListName() !== undefined && getListName() !== 'UNINOMINAL' ? (
           <img key={getListName()}
             src={`loghi/${getListName()}.jpg`}
             className="logolist m-auto"

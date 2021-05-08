@@ -1,18 +1,11 @@
-import departments from '../../data/departments';
-import cdls from '../../data/cdl';
-import cdl500 from '../../data/cdl-500';
-import dottorandi from '../../data/dottorandi';
-import { entities, entitiesPath } from '../../data/entities';
-import years from '../../data/years';
-import ersuYears from '../../data/ersu-years';
-import SearchLimits from './SearchLimits';
 import { datareader } from '../../data/DataReader';
+import fixName from '../utils/FixName';
 
 export interface ListInfo {
   name: string;
   year: string;
-  department?: string;
-  entity?: string;
+  entity: string;
+  subEntity: string;
   path: string;
 }
 
@@ -20,8 +13,7 @@ export interface CandidateInfo {
   name: string;
   year: string;
   listName: string;
-  department?: string;
-  entity?: string;
+  entity: string;
   path: string;
 }
 
@@ -31,410 +23,115 @@ export interface CdlInfo {
   isUnder500: boolean;
 }
 
-interface SearchResult {
-  departments: string[];
-  cdls: CdlInfo[];
+export interface EntityInfo {
+  name: string;
+  path: string;
+  years: string;
+}
+
+export interface SearchResult {
+  entities: EntityInfo[];
   lists: ListInfo[];
   candidates: CandidateInfo[];
 }
 
-/*
-  Need refactoring and doing it on backend
-  There is so much code here...
-*/
-class SearchCandidate {
-  isNameValid(fullName: string, keywords: string): boolean {
-    fullName = fullName.toUpperCase();
-    keywords = keywords.toUpperCase();
-    const fullNameParts = fullName.split(' ');
-    const keywordsParts = keywords.split(' ');
-    for (const word of keywordsParts) {
-      let isPresent = false;
-      for (const namePart of fullNameParts) {
-        if (namePart.startsWith(word)) {
-          isPresent = true;
-        }
-      }
-      if (!isPresent) {
-        return false;
-      }
-    }
-    return true;
-  }
-
-  searchOther(str: string, data: any, limits: SearchLimits): CandidateInfo[] {
-    const results: CandidateInfo[] = [];
-    str = str.toUpperCase();
-    for (const year of years) {
-      for (const entity of entities) {
-        const electedList = (data[year][entity].eletti as any[]).concat(data[year][entity].non_eletti);
-        for (const candidate of electedList) {
-          if (limits.isFull()) {
-            return results;
-          }
-          if (this.isNameValid(candidate.nominativo, str)) {
-            results.push({
-              name: candidate.nominativo,
-              listName: candidate.lista,
-              year: year,
-              entity: entity,
-              path: entitiesPath[entity]
-            });
-            limits.increaseResults();
-          }
-        }
-      }
-    }
-    return results;
-  }
-
-  searchListDep(str: string, data: any, limits: SearchLimits): CandidateInfo[] {
-    const results: CandidateInfo[] = [];
-    str = str.toUpperCase();
-    for (const year of years) {
-      for (const dep of departments) {
-        const electedList = (data[year].departments[dep].eletti as any[]).concat(data[year].departments[dep].non_eletti);
-        for (const candidate of electedList) {
-          if (limits.isFull()) {
-            return results;
-          }
-          if (this.isNameValid(candidate.nominativo, str)) {
-            results.push({
-              name: candidate.nominativo,
-              listName: candidate.lista,
-              year: year,
-              department: dep,
-              path: '#/dipartimento/' + dep
-            });
-            limits.increaseResults();
-          }
-        }
-      }
-    }
-    return results;
-  }
-
-  searchListCdl(str: string, data: any, limits: SearchLimits): CandidateInfo[] {
-    const results: CandidateInfo[] = [];
-    str = str.toUpperCase();
-    for (const year of years) {
-      for (const cdl of (cdls as any)[year]) {
-        const electedList = (data[year].cdl[cdl].eletti as any[]).concat(data[year].cdl[cdl].non_eletti);
-        for (const candidate of electedList) {
-          if (limits.isFull()) {
-            return results;
-          }
-          if (this.isNameValid(candidate.nominativo, str)) {
-            results.push({
-              name: candidate.nominativo,
-              listName: candidate.lista,
-              year: year,
-              department: cdl,
-              path: '#/cdl/' + cdl
-            });
-            limits.increaseResults();
-          }
-        }
-      }
-    }
-    return results;
-  }
-
-  searchListCdl500(str: string, data: any, limits: SearchLimits): CandidateInfo[] {
-    const results: CandidateInfo[] = [];
-    str = str.toUpperCase();
-    for (const year of years) {
-      for (const cdl of (cdl500 as any)[year]) {
-        const electedList = (data[year].cdl500[cdl].eletti as any[]).concat(data[year].cdl500[cdl].non_eletti);
-        for (const candidate of electedList) {
-          if (limits.isFull()) {
-            return results;
-          }
-          if (this.isNameValid(candidate.nome_candidato, str)) {
-            results.push({
-              name: candidate.nome_candidato,
-              listName: candidate.lista,
-              year: year,
-              department: cdl,
-              path: '#/single-results/cdl-500/' + year + '/' + cdl
-            });
-            limits.increaseResults();
-          }
-        }
-      }
-    }
-    return results;
-  }
-
-  searchListPhD(str: string, data: any, limits: SearchLimits): CandidateInfo[] {
-    const results: CandidateInfo[] = [];
-    str = str.toUpperCase();
-    for (const year of years) {
-      for (const phdDep of (dottorandi as any)[year]) {
-        const electedList = (data[year].phdDep[phdDep].eletti as any[]).concat(data[year].phdDep[phdDep].non_eletti);
-        for (const candidate of electedList) {
-          if (limits.isFull()) {
-            return results;
-          }
-          if (candidate.lista) {
-            if (this.isNameValid(candidate.nominativo, str)) {
-              results.push({
-                name: candidate.nominativo,
-                listName: candidate.lista,
-                year: year,
-                department: phdDep,
-                path: '#/dipartimenti-dottorandi'
-              });
-              limits.increaseResults();
-            }
-          } else {
-            if (this.isNameValid(candidate.nome_candidato, str)) {
-              results.push({
-                name: candidate.nome_candidato,
-                listName: candidate.lista,
-                year: year,
-                department: phdDep,
-                path: '#/single-results/dottorandi/' + year + '/' + phdDep
-              });
-              limits.increaseResults();
-            }
-          }
-        }
-      }
-    }
-    return results;
-  }
-
-  searchListMedicina(str: string, data: any, limits: SearchLimits): CandidateInfo[] {
-    const results: CandidateInfo[] = [];
-    str = str.toUpperCase();
-    for (const year of years) {
-      const electedList = (data[year].medicina.eletti as any[]).concat(data[year].medicina.non_eletti);
-      for (const candidate of electedList) {
-        if (limits.isFull()) {
-          return results;
-        }
-        if (this.isNameValid(candidate.nominativo, str)) {
-          results.push({
-            name: candidate.nominativo,
-            listName: candidate.lista,
-            year: year,
-            department: 'Coordinamento Facoltà di Medicina',
-            path: '#/facolta_medicina'
-          });
-          limits.increaseResults();
-        }
-      }
-    }
-    return results;
-  }
-
-  searchListERSU(str: string, data: any, limits: SearchLimits): CandidateInfo[] {
-    const results: CandidateInfo[] = [];
-    str = str.toUpperCase();
-    for (const year of ersuYears) {
-      const electedList = (data[year].ersu.eletti as any[]).concat(data[year].ersu.non_eletti);
-      for (const candidate of electedList) {
-        if (limits.isFull()) {
-          return results;
-        }
-        if (this.isNameValid(candidate.nominativo, str)) {
-          results.push({
-            name: candidate.nominativo,
-            listName: candidate.lista,
-            year: year,
-            department: 'ERSU',
-            path: '#/ersu'
-          });
-          limits.increaseResults();
-        }
-      }
-    }
-    return results;
-  }
-
-  search(str: string, data: any, limits: SearchLimits): CandidateInfo[] {
-    return [
-      ...this.searchListDep(str, data, limits),
-      ...this.searchOther(str, data, limits),
-      ...this.searchListCdl(str, data, limits),
-      ...this.searchListCdl500(str, data, limits),
-      ...this.searchListPhD(str, data, limits),
-      ...this.searchListMedicina(str, data, limits),
-      ...this.searchListERSU(str, data, limits)
-    ];
-  }
-}
-
-class SearchList {
-  searchListDep(str: string, data: any, limits: SearchLimits): ListInfo[] {
-    const results: ListInfo[] = [];
-    str = str.toUpperCase();
-    for (const year of years) {
-      for (const dep of departments) {
-        const depData = data[year].departments[dep].liste;
-        for (const list of depData) {
-          if (limits.isFull()) {
-            return results;
-          }
-          if (list.nome && (list.nome as string).toUpperCase().indexOf(str) !== -1) {
-            results.push({
-              name: list.nome,
-              year: year,
-              department: dep,
-              path: '#/dipartimento/' + dep
-            });
-            limits.increaseResults();
-          }
-        }
-      }
-    }
-    return results;
-  }
-
-  searchOther(str: string, data: any, limits: SearchLimits): ListInfo[] {
-    const results: ListInfo[] = [];
-    str = str.toUpperCase();
-    for (const year of years) {
-      for (const entity of entities) {
-        const lists = data[year][entity].liste;
-        for (const list of lists) {
-          if (limits.isFull()) {
-            return results;
-          }
-          if (list.nome && (list.nome as string).toUpperCase().indexOf(str) !== -1) {
-            results.push({
-              name: list.nome,
-              year: year,
-              entity: entity,
-              path: entitiesPath[entity]
-            });
-            limits.increaseResults();
-          }
-        }
-      }
-    }
-    return results;
-  }
-
-  search(str: string, data: any, limits: SearchLimits): ListInfo[] {
-    return [...this.searchListDep(str, data, limits), ...this.searchOther(str, data, limits)];
-  }
-}
-
-class SearchDepartment {
-  search(str: string, limits: SearchLimits): string[] {
-    const results: string[] = [];
-    str = str.replace(' ', '_').toUpperCase();
-    for (const depart of departments) {
-      if (limits.isFull()) {
-        return results;
-      }
-      if (depart.toUpperCase().indexOf(str) !== -1) {
-        results.push(depart);
-        limits.increaseResults();
-      }
-    }
-    return results;
-  }
-}
-
-class SearchCdl {
-  search(str: string, limits: SearchLimits): CdlInfo[] {
-    const results: CdlInfo[] = [];
-    str = str.replace(' ', '_').toUpperCase();
-    for (const year of years) {
-      for (const cdl of (cdls as any)[year]) {
-        if (limits.isFull()) {
-          return results;
-        }
-        if (cdl.toUpperCase().indexOf(str) !== -1) {
-          results.push({
-            name: cdl,
-            year: year,
-            isUnder500: false
-          });
-          limits.increaseResults();
-        }
-      }
-
-      for (const cdl of (cdl500 as any)[year]) {
-        if (limits.isFull()) {
-          return results;
-        }
-        if (cdl.toUpperCase().indexOf(str) !== -1) {
-          results.push({
-            name: cdl,
-            year: year,
-            isUnder500: true
-          });
-          limits.increaseResults();
-        }
-      }
-    }
-    return results;
-  }
-}
-
 class SearchEngine {
-  private searchDep = new SearchDepartment();
-  private searchList = new SearchList();
-  private searchCandidate = new SearchCandidate();
-  private searchCdl = new SearchCdl();
-  private data: any;
-  private static instance: SearchEngine;
-  private limits = new SearchLimits();
+  isValid(fullName: string, keywords: string): boolean {
+    return fixName(fullName).toUpperCase().includes(keywords.toUpperCase());
+  }
 
-  private constructor() {
-    datareader.loadData();
-    this.data = [];
+  searchEntity(str: string): EntityInfo[] {
+    let resEntities: EntityInfo[] = [];
+    const years = datareader.getYears();
     for (const year of years) {
-      this.data[year] = [];
+      const entities = datareader.getEntities(year);
       for (const entity of entities) {
-        this.data[year][entity] = require(`../../data/${year}/${entity}.json`);
+        const subEntities: EntityInfo[] = datareader.getSubEntities(year, entity)
+          .filter((subEntity: string): boolean => this.isValid(subEntity, str))
+          .map((subEntity: string): EntityInfo => {
+            return {
+              name: subEntity,
+              path: entity + '/' + subEntity,
+              years: year
+            };
+          });
+        resEntities = [...resEntities, ...subEntities];
       }
-      this.data[year].departments = [];
-      for (const depart of departments) {
-        this.data[year].departments[depart] = require(`../../data/${year}/dipartimenti/${depart}.json`);
-      }
-      this.data[year].cdl = [];
-      for (const cdl of (cdls as any)[year]) {
-        this.data[year].cdl[cdl] = require(`../../data/${year}/cdl/${cdl}.json`);
-      }
-      this.data[year].cdl500 = [];
-      for (const cdl of (cdl500 as any)[year]) {
-        this.data[year].cdl500[cdl] = require(`../../data/${year}/cdl-500/${cdl}.json`);
-      }
-      this.data[year].phdDep = [];
-      for (const phdDep of (dottorandi as any)[year]) {
-        this.data[year].phdDep[phdDep] = require(`../../data/${year}/dottorandi/${phdDep}.json`);
-      }
-      this.data[year].medicina = [];
-      this.data[year].medicina = require(`../../data/${year}/Coordinamento_medicina.json`);
     }
-    for (const year of ersuYears) {
-      this.data[year] = [];
-      this.data[year].ersu = [];
-      this.data[year].ersu = require(`../../data/${year}/ERSU.json`);
-    }
+    return resEntities;
   }
 
-  static getInstance(): SearchEngine {
-    if (!SearchEngine.instance) {
-      SearchEngine.instance = new SearchEngine();
+  searchList(str: string): ListInfo[] {
+    let resLists: ListInfo[] = [];
+    const years = datareader.getYears();
+    for (const year of years) {
+      const entities = datareader.getEntities(year);
+      for (const entity of entities) {
+        const subEntities = datareader.getSubEntities(year, entity);
+        for (const subEntity of subEntities) {
+          let lists = datareader.getLists(year, entity, subEntity);
+          if (!lists) {
+            continue;
+          }
+          lists = lists.filter((list: any): boolean => {
+            return this.isValid(list.nome, str);
+          });
+          const listsInfo: ListInfo[] = lists.map((list: any): ListInfo => {
+            return {
+              name: list.nome,
+              year: year,
+              entity: entity,
+              subEntity: subEntity,
+              path: entity + '/' + subEntity
+            };
+          });
+          resLists = [...resLists, ...listsInfo];
+        }
+      }
     }
-    return SearchEngine.instance;
+    return resLists;
   }
 
-  search(str: string, limit?: number): SearchResult {
-    this.limits.setLimit(limit);
+  searchCandidate(str: string): CandidateInfo[] {
+    let resCandidates: CandidateInfo[] = [];
+    const years = datareader.getYears();
+    for (const year of years) {
+      const entities = datareader.getEntities(year);
+      for (const entity of entities) {
+        const subEntities = datareader.getSubEntities(year, entity);
+        for (const subEntity of subEntities) {
+          const candidates: any = datareader.getAllCandidates(year, entity, subEntity);
+          const lists = Object.keys(candidates);
+          for (const list of lists) {
+            if (!candidates[list]) {
+              continue;
+            }
+            const candidatesInfo: CandidateInfo[] = candidates[list]
+              .filter((candidate: any): boolean => this.isValid(candidate.nominativo ? candidate.nominativo : candidate.nome_candidato, str))
+              .map((candidate: any): CandidateInfo => {
+                return {
+                  name: candidate.nominativo ? candidate.nominativo : candidate.nome_candidato,
+                  listName: list,
+                  year: year,
+                  path: entity + '/' + subEntity,
+                  entity: subEntity
+                };
+              });
+            resCandidates = [...resCandidates, ...candidatesInfo];
+          }
+        }
+      }
+    }
+    return resCandidates;
+  }
+
+  search(str: string): SearchResult {
     return {
-      departments: this.searchDep.search(str, this.limits),
-      lists: this.searchList.search(str, this.data, this.limits),
-      candidates: this.searchCandidate.search(str, this.data, this.limits),
-      cdls: this.searchCdl.search(str, this.limits)
+      entities: this.searchEntity(str),
+      lists: this.searchList(str),
+      candidates: this.searchCandidate(str)
     };
   }
 }
 
-export default SearchEngine;
+export const searchEngine: SearchEngine = new SearchEngine();

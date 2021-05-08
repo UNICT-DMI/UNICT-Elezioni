@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useState } from 'react';
 import { Button, Form, InputGroup, ListGroup } from 'react-bootstrap';
 import ListLogo from '../results/ListLogo/ListLogo';
-import SearchEngine, { CandidateInfo, CdlInfo, ListInfo } from './SearchEngine';
+import { CandidateInfo, EntityInfo, ListInfo, SearchResult, searchEngine } from './SearchEngine';
 import './SearchForm.scss';
 
 interface Props {
@@ -12,42 +12,26 @@ interface Props {
 
 export const SearchForm = (props: Props): JSX.Element => {
   const [formValue, setFormValue] = useState('');
-  const [depSuggests, setDepSuggests] = useState([] as string[]);
-  const [cdlSuggests, setCdlSuggests] = useState([] as CdlInfo[]);
+  const [entitiesSuggests, setEntitiesSuggests] = useState([] as EntityInfo[]);
   const [listSuggests, setListSuggests] = useState([] as ListInfo[]);
   const [candidatesSuggests, setCandidatesSuggests] = useState([] as CandidateInfo[]);
 
   function onInputFormChange(event: any): void {
     const value = event.target.value;
-    const searchEngine = SearchEngine.getInstance();
-    const results = searchEngine.search(value, 8);
-    setDepSuggests(results.departments);
-    setCdlSuggests(results.cdls);
-    setListSuggests(results.lists);
-    setCandidatesSuggests(results.candidates);
+    const results: SearchResult = searchEngine.search(value);
+    setEntitiesSuggests(results.entities.slice(0, 10));
+    setListSuggests(results.lists.slice(0, 10));
+    setCandidatesSuggests(results.candidates.slice(0, 10));
     setFormValue(value);
   }
 
-  function generateDepSuggests(): JSX.Element[] {
-    return depSuggests.map((suggestion) =>
-      <a className="text-decoration-none" key={`dep-${suggestion}`} href={`#/dipartimento/${suggestion}`} onClick={onClickSuggest}>
-        <ListGroup.Item action variant="light">
-          {suggestion.replaceAll('_', ' ')}
-        </ListGroup.Item>
-      </a>
-    ) as any;
+  function getEntityURL(suggestion: EntityInfo): string {
+    return '#/' + suggestion.path;
   }
 
-  function getCdlUrl(suggestion: CdlInfo): string {
-    if (suggestion.isUnder500) {
-      return '#single-results/cdl-500/' + suggestion.year + '/' + suggestion.name;
-    }
-    return '#/cdl/' + suggestion.name;
-  }
-
-  function generateCdlSuggests(): JSX.Element[] {
-    return cdlSuggests.map((suggestion) =>
-      <a className="text-decoration-none" key={`dep-${suggestion}`} href={getCdlUrl(suggestion)} onClick={onClickSuggest}>
+  function generateEntitiesSuggests(): JSX.Element[] {
+    return entitiesSuggests.map((suggestion) =>
+      <a className="text-decoration-none" key={`dep-${suggestion}`} href={getEntityURL(suggestion)} onClick={onClickSuggest}>
         <ListGroup.Item action variant="light">
           <table className="table table-borderless">
             <tbody>
@@ -56,7 +40,6 @@ export const SearchForm = (props: Props): JSX.Element => {
                   <FontAwesomeIcon icon={faGraduationCap} size="4x"></FontAwesomeIcon>
                 </td>
                 <td className="col">{suggestion.name.replaceAll('_', ' ')}</td>
-                <td className="col text-nowrap">{suggestion.year}</td>
               </tr>
             </tbody>
           </table>
@@ -67,30 +50,26 @@ export const SearchForm = (props: Props): JSX.Element => {
 
   function generateListSuggests(): JSX.Element[] {
     return listSuggests.map((suggestion) =>
-      <a className="text-decoration-none" key={`list-${suggestion.name}${suggestion.department}${suggestion.entity}${suggestion.year}`}
-        href={suggestion.path} onClick={onClickSuggest}>
+      <a className="text-decoration-none" key={`list-${suggestion.name}${suggestion.entity}${suggestion.subEntity}${suggestion.year}`}
+        href={`#/${suggestion.path}`} onClick={onClickSuggest}>
         <ListGroup.Item action variant="light">
-          <table className="table table-borderless">
-            <tbody>
-              <tr>
-                <td className="logo-search" rowSpan={2}>
-                  <ListLogo listName={suggestion.name} />
-                </td>
-                <td className="align-middle col" rowSpan={2}>
-                  {suggestion.name}
-                </td>
-                <td className="col text-nowrap">
+          <div className="container">
+            <div className="row">
+              <div className="col-2">
+                <ListLogo listName={suggestion.name} />
+              </div>
+              <div className="col-7 align-items-center d-flex">
+                {suggestion.name}
+              </div>
+              <div className="col-3 align-items-center d-flex">
+                <div className="ml-auto">
                   {suggestion.year}
-                </td>
-              </tr>
-              <tr>
-                <td className="col">
-                  {suggestion.department?.replaceAll('_', ' ')}
-                  {suggestion.entity?.replaceAll('_', ' ')}
-                </td>
-              </tr>
-            </tbody>
-          </table>
+                  <br />
+                  {suggestion.entity.replaceAll('_', ' ')}
+                </div>
+              </div>
+            </div>
+          </div>
         </ListGroup.Item>
       </a >
     ) as any;
@@ -98,8 +77,8 @@ export const SearchForm = (props: Props): JSX.Element => {
 
   function generateCandidatesSuggests(): JSX.Element[] {
     return candidatesSuggests.map((suggestion) =>
-      <a className="text-decoration-none" key={`list-${suggestion.name}${suggestion.department}${suggestion.entity}${suggestion.year}`}
-        href={suggestion.path} onClick={onClickSuggest}>
+      <a className="text-decoration-none" key={`list-${suggestion.name}${suggestion.entity}${suggestion.year}`}
+        href={`#/${suggestion.path}`} onClick={onClickSuggest}>
         <ListGroup.Item action variant="light">
           <table className="table table-borderless">
             <tbody>
@@ -116,7 +95,6 @@ export const SearchForm = (props: Props): JSX.Element => {
               </tr>
               <tr>
                 <td className="col">
-                  {suggestion.department?.replaceAll('_', ' ')}
                   {suggestion.entity?.replaceAll('_', ' ')}
                 </td>
               </tr>
@@ -130,10 +108,9 @@ export const SearchForm = (props: Props): JSX.Element => {
   function generateSuggestions(): JSX.Element {
     return (
       <div className="suggestions">
-        {generateDepSuggests()}
         {generateListSuggests()}
         {generateCandidatesSuggests()}
-        {generateCdlSuggests()}
+        {generateEntitiesSuggests()}
         <a className="text-decoration-none" onClick={handleSearchSubmit}>
           <ListGroup.Item action variant="primary">
             View All
