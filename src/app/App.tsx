@@ -34,7 +34,7 @@ const App = (): JSX.Element => {
     return (
       datareader.getAllHigherPolitics().map((entity: string) => {
         return entity.includes('medicina') ? (<Route exact path='#'></Route>) : (
-          <Route exact path={`/${entity}`} key={entity} render={(): JSX.Element => <HigherPolitics title={fixName(entity)} path={entity} />} />
+          <Route exact path={`/organi superiori/${entity}`} key={entity} render={(): JSX.Element => <HigherPolitics title={fixName(entity)} path={entity} />} />
         );
       })
     );
@@ -44,7 +44,7 @@ const App = (): JSX.Element => {
     return (
       datareader.getYearsOfSubEntity('organi superiori', 'Coordinamento_medicina').map((year: string): JSX.Element => {
         return (
-          <ResultsMed anno={year} key={`medRes${year}`} path="Coordinamento_medicina" />
+          <ResultsMed anno={year} key={`medRes${year}`} path="organi superiori/Coordinamento_medicina" />
         );
       })
     );
@@ -58,7 +58,7 @@ const App = (): JSX.Element => {
           <Switch>
             <Route exact path="/home" component={Home} />
             {higherPoliticsRoutes()}
-            <Route exact path="/Coordinamento_medicina">
+            <Route exact path="/organi superiori/Coordinamento_medicina">
               <h2 className="mt-5">Coordinamento Facoltà di Medicina</h2>
               <div className="py-4">
                 {medResults()}

@@ -19,9 +19,9 @@ export const SearchForm = (props: Props): JSX.Element => {
   function onInputFormChange(event: any): void {
     const value = event.target.value;
     const results: SearchResult = searchEngine.search(value);
-    setEntitiesSuggests(results.entities.slice(0, 10));
-    setListSuggests(results.lists.slice(0, 10));
-    setCandidatesSuggests(results.candidates.slice(0, 10));
+    setEntitiesSuggests(results.entities.slice(0, 3));
+    setListSuggests(results.lists.slice(0, 3));
+    setCandidatesSuggests(results.candidates.slice(0, 3));
     setFormValue(value);
   }
 
@@ -111,7 +111,7 @@ export const SearchForm = (props: Props): JSX.Element => {
         {generateListSuggests()}
         {generateCandidatesSuggests()}
         {generateEntitiesSuggests()}
-        <a className="text-decoration-none" onClick={handleSearchSubmit}>
+        <a className="view-all text-decoration-none" onClick={handleSearchSubmit}>
           <ListGroup.Item action variant="primary">
             View All
           </ListGroup.Item>

@@ -37,7 +37,22 @@ export interface SearchResult {
 
 class SearchEngine {
   isValid(fullName: string, keywords: string): boolean {
-    return fixName(fullName).toUpperCase().includes(keywords.toUpperCase());
+    fullName = fixName(fullName).toUpperCase();
+    keywords = keywords.toUpperCase();
+    const fullNameParts = fullName.split(' ');
+    const keywordsParts = keywords.split(' ');
+    for (const word of keywordsParts) {
+      let isPresent = false;
+      for (const namePart of fullNameParts) {
+        if (namePart.startsWith(word)) {
+          isPresent = true;
+        }
+      }
+      if (!isPresent) {
+        return false;
+      }
+    }
+    return true;
   }
 
   searchEntity(str: string): EntityInfo[] {

@@ -20,7 +20,7 @@ const Menu: FunctionComponent = () => {
     return (
       datareader.getAllHigherPolitics().map((entity: string) => {
         return (
-          <NavDropdown.Item href={`#/${entity}`} key={`NavItem-${entity}`}>{fixName(entity)}</NavDropdown.Item>
+          <NavDropdown.Item href={`#/organi superiori/${entity}`} key={`NavItem-${entity}`}>{fixName(entity)}</NavDropdown.Item>
         );
       })
     );
