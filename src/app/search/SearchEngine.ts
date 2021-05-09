@@ -124,11 +124,15 @@ class SearchEngine {
             const candidatesInfo: CandidateInfo[] = candidates[list]
               .filter((candidate: any): boolean => this.isValid(candidate.nominativo ? candidate.nominativo : candidate.nome_candidato, str))
               .map((candidate: any): CandidateInfo => {
+                let path: string = entity + '/' + subEntity;
+                if (list === 'UNINOMINAL' && !subEntity.includes('medicina')) {
+                  path = 'single-results/' + entity + '/' + year + '/' + subEntity;
+                }
                 return {
                   name: candidate.nominativo ? candidate.nominativo : candidate.nome_candidato,
                   listName: list,
                   year: year,
-                  path: entity + '/' + subEntity,
+                  path: path,
                   entity: subEntity
                 };
               });
