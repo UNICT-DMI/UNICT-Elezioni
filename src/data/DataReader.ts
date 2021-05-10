@@ -52,7 +52,7 @@ class DataReader {
       let entities: string[] = [];
       const yearsList = this.getYears();
       for (const year of yearsList) {
-        entities = [...entities, ...Object.keys(this.data[year])];
+        entities = [...entities, ...Object.keys(this.data[year]).filter((entity: string) => entity !== 'seggi')];
       }
       return [...new Set(entities)];
     }
@@ -60,7 +60,21 @@ class DataReader {
   }
 
   getSubEntities(years: string, entity: string): string[] {
+    if (!this.data[years][entity]) {
+      return [];
+    }
     return Object.keys(this.data[years][entity]);
+  }
+
+  getAllSubEntities(entity: string): string[] {
+    let subEntities: string[] = [];
+    const yearsList = this.getYears();
+    for (const year of yearsList) {
+      if (this.data[year][entity]) {
+        subEntities = [...subEntities, ...Object.keys(this.data[year][entity])];
+      }
+    }
+    return [...new Set(subEntities)].sort();
   }
 
   getDepartments(years: string): string[] {
@@ -120,12 +134,16 @@ class DataReader {
     });
   }
 
+  isUninominal(years: string, entity: string, subEntity: string): boolean {
+    return this.data[years][entity][subEntity].liste === undefined;
+  }
+
   // ('2018-2020', 'dipartimenti', 'Matematica e Informatica')
   getLists(years: string, entity: string, subEntity: string): any[] {
-    if (!this.data[years][entity]) {
+    if (!this.data[years][entity] || this.isUninominal(years, entity, subEntity)) {
       return [];
     }
-    return this.data[years][entity][subEntity].liste && (this.data[years][entity][subEntity].liste as []).filter((list: any): any => {
+    return (this.data[years][entity][subEntity].liste as []).filter((list: any): any => {
       return list.nome !== undefined;
     });
   }

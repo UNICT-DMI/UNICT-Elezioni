@@ -1,7 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import './Department.scss';
-import { years } from '../../data/years';
 import Results from '../results/Results/Results';
 import { datareader } from '../../data/DataReader';
 
@@ -19,7 +18,7 @@ const Department = (): JSX.Element => {
       <div className="container-fluid">
         <h2 className="mt-5">{params.dipartimento.replace(/_/g, ' ')}</h2>
         <div className="mt-5">
-          {years.map((y) => (
+          {datareader.getYears().map((y) => (
             <Results
               key={`${y}-${params.dipartimento}`}
               anno={y}
@@ -33,7 +32,7 @@ const Department = (): JSX.Element => {
 
         <div className="mt-5">
           <h2>Senato</h2>
-          {years.map((y) => (
+          {datareader.getYears().map((y) => (
             <Results
               key={`${y}-${params.dipartimento}`}
               anno={y}
@@ -48,7 +47,7 @@ const Department = (): JSX.Element => {
 
         <div className="mt-5">
           <h2>Consiglio di Amministrazione</h2>
-          {years.map((y) => (
+          {datareader.getYears().map((y) => (
             <Results
               key={`${y}-${params.dipartimento}`}
               anno={y}

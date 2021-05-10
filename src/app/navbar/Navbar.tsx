@@ -20,7 +20,17 @@ const Menu: FunctionComponent = () => {
     return (
       datareader.getAllHigherPolitics().map((entity: string) => {
         return (
-          <NavDropdown.Item href={`#/organi superiori/${entity}`} key={`NavItem-${entity}`}>{fixName(entity)}</NavDropdown.Item>
+          <NavDropdown.Item href={`#/${entity}`} key={`NavItem-${entity}`}>{fixName(entity)}</NavDropdown.Item>
+        );
+      })
+    );
+  }
+
+  function departmentItems(): JSX.Element[] {
+    return (
+      datareader.getEntities().filter((entity: string) => !entity.includes('organi superiori')).map((entity: string) => {
+        return (
+          <NavDropdown.Item href={`#/${entity}`} key={`NavItem-${entity}`}>Consiglio di {fixName(entity)}</NavDropdown.Item>
         );
       })
     );
@@ -40,10 +50,7 @@ const Menu: FunctionComponent = () => {
                 {higherPoliticsItems()}
               </NavDropdown>
               <NavDropdown title={<><FontAwesomeIcon icon={faGraduationCap} />&nbsp;Dipartimento</>} id="nav-dropdown">
-                <NavDropdown.Item href="#/dipartimenti">Consiglio di Dipartimento</NavDropdown.Item>
-                <NavDropdown.Item href="#/dipartimenti-dottorandi">Consiglio di Dipartimento (Dottorandi)</NavDropdown.Item>
-                <NavDropdown.Item href="#/cdl">Consiglio di Corso di Laurea</NavDropdown.Item>
-                <NavDropdown.Item href="#/cdl-500">Consiglio di Corso di Laurea &lt;500</NavDropdown.Item>
+                {departmentItems()}
               </NavDropdown>
               <Nav.Link href="#/contatti">
                 <FontAwesomeIcon icon={faAddressCard} />
