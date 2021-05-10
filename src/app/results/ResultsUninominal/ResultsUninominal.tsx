@@ -9,6 +9,14 @@ interface Params {
   subEntity: string;
 }
 
+function getName(candidate: any): string {
+  return candidate.nominativo ? candidate.nominativo : candidate.nome_candidato;
+}
+
+function getVotes(candidate: any): string {
+  return candidate.voti.totali ? candidate.voti.totali : candidate.voti;
+}
+
 export const ResultsUninominal = (params: Params): JSX.Element => {
   const data = datareader.getSubEntity(params.year, params.entity, params.subEntity);// require(`../../../data/${params.anno}/${params.type}/${params.cdl}.json`);
   const keys = Object.keys(data.schede.bianche);
@@ -20,11 +28,11 @@ export const ResultsUninominal = (params: Params): JSX.Element => {
         <div className="container">
           <div className="row">
             <div className="col-12 overflow-x">
+              <div className="w-100 bg-light text-dark p-3">
+                <b>{params.year}</b>
+              </div>
               <Table striped bordered responsive>
                 <thead>
-                  <tr className="bg-light">
-                    <td colSpan={2}><b>{params.year}</b></td>
-                  </tr>
                   <tr>
                     <th className="bg-secondary">Candidati</th>
                     <th className="bg-secondary">Voti totali</th>
@@ -33,29 +41,28 @@ export const ResultsUninominal = (params: Params): JSX.Element => {
                 </thead>
                 <tbody>
                   {data.eletti.map((e: any) =>
-                    <tr key={`e-${e.nome_candidato}`}>
-                      <td className="text-primary">{e.nome_candidato} <Coccarda key={`coccarda-${e.nome_candidato}`} /></td>
-                      <td className="text-success">{e.voti}</td>
-                      {keys.map(k => <td key={`e-${e.nome_candidato}-${k}`}>{e.voti[k]}</td>)}
+                    <tr key={`e-${getName(e)}`}>
+                      <td className="text-primary">{getName(e)} <Coccarda key={`coccarda-${getName(e)}`} /></td>
+                      <td className="text-success">{getVotes(e)}</td>
+                      {keys.map(k => <td key={`e-${getName(e)}-${k}`}>{e.voti[k]}</td>)}
                     </tr>
                   )}
                   {data.non_eletti.map((e: any) =>
-                    <tr key={`non-e-${e.nome_candidato}`}>
-                      <td className="text-primary">{e.nome_candidato}</td>
-                      <td className="text-success">{e.voti}</td>
-                      {keys.map(k => <td key={`non-e-${e.nome_candidato}-${k}`}>{e.voti[k]}</td>)}
+                    <tr key={`non-e-${getName(e)}`}>
+                      <td className="text-primary">{getName(e)}</td>
+                      <td className="text-success">{getVotes(e)}</td>
+                      {keys.map(k => <td key={`non-e-${getName(e)}-${k}`}>{e.voti[k]}</td>)}
                     </tr>
                   )}
                 </tbody>
                 <tfoot>
                   <tr className="table-primary">
                     <td>Totale voti</td>
-                    <td>{data.totale_voti}</td>
+                    <td>{(data.voti && data.voti.totali) ? data.voti.totali : data.totale_voti}</td>
                     {keys.map(k => <td key={`tot-${k}`}>{data.voti[k]}</td>)}
                   </tr>
                 </tfoot>
               </Table>
-
             </div>
           </div>
         </div>

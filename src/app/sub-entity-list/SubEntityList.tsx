@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Button } from 'react-bootstrap';
 import { datareader } from '../../data/DataReader';
 import SubEntity from '../sub-entity/SubEntity';
+import fixName from '../utils/FixName';
 
 interface Params {
   entity: string;
@@ -22,8 +23,17 @@ const SubEntityList = (params: Params): JSX.Element => {
       }
       return (
         <>
-          <SubEntity key={`${params.entity}${subEntity}`} entity={params.entity} subEntity={subEntity} />
-          <hr />
+          <div className="sub-entity">
+            <div className="container-fluid">
+              <h3 className="mt-5 capitalize">
+                <a href={`#/single/${params.entity}/${subEntity}`}>
+                  {fixName(subEntity)}
+                </a>
+              </h3>
+              <SubEntity key={`${params.entity}${subEntity}`} entity={params.entity} subEntity={subEntity} />
+              <hr />
+            </div>
+          </div>
         </>
       );
     });

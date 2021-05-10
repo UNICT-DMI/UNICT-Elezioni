@@ -7,24 +7,31 @@ import {
 } from 'react-router-dom';
 import './App.scss';
 import Menu from './navbar/Navbar';
-import Department from './department/Department';
 import Contacts from './contacts/Contacts';
 import { SearchPage } from './search/SearchPage';
 import ResultsMed from './results/ResultsMed/ResultsMed';
-import ResultsSingle from './results/ResultsSingle/ResultsSingle';
 import Footer from './footer/Footer';
 import NotFound from './not-found/NotFound';
 import Home from './home/Home';
 import { datareader } from '../data/DataReader';
 import SubEntityList from './sub-entity-list/SubEntityList';
 import SubEntity from './sub-entity/SubEntity';
+import SubEntitySingle from './sub-entity-single/SubEntitySingle';
+import fixName from './utils/FixName';
 
 const App = (): JSX.Element => {
   function higherPoliticsRoutes(): JSX.Element[] {
     return (
       datareader.getAllHigherPolitics().map((entity: string) => {
         return (
-          <Route exact path={`/${entity}`} key={entity} render={(): JSX.Element => <SubEntity entity={'organi superiori'} subEntity={entity} />} />
+          <Route exact path={`/${entity}`} key={entity}>
+            <div className="sub-entity">
+              <div className="container-fluid">
+                <h3 className="mt-5 capitalize">{fixName(entity)}</h3>
+                <SubEntity entity={'organi superiori'} subEntity={entity} />
+              </div>
+            </div>
+          </Route>
         );
       })
     );
@@ -52,6 +59,16 @@ const App = (): JSX.Element => {
     );
   }
 
+  function subEntitySingleRoutes(): JSX.Element[] {
+    return (
+      datareader.getEntities().map((entity: string) => {
+        return (
+          <Route key={`route-single-${entity}`} exact path={'/single/:entity/:subEntity'} component={SubEntitySingle} />
+        );
+      })
+    );
+  }
+
   return (
     <div className="App">
       <Menu />
@@ -67,9 +84,7 @@ const App = (): JSX.Element => {
               </div>
             </Route>
             {subEntityRoutes()}
-            <Route exact path="/dipartimenti/:dipartimento" component={Department} />
-            <Route exact path="/dottorandi/:anno/:cdl" component={ResultsSingle} />
-            <Route exact path="/single-results/:type/:anno/:cdl" component={ResultsSingle} />
+            {subEntitySingleRoutes()}
             <Route exact path="/search/:keywords" component={SearchPage} />
             <Route exact path="/contatti" component={Contacts} />
             <Route exact path="/not-found" component={NotFound} />

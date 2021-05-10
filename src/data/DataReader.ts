@@ -194,7 +194,7 @@ class DataReader {
     return allCandidates;
   }
 
-  getSeatsId(year: string, entity: string): any[] | null {
+  getSeatsId(year: string, entity: string): any {
     const seats: any = this.data[year].seggi;
     return seats ? Object.keys(seats).filter((seat: any): boolean => {
       return seats[seat].includes(entity);
