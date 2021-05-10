@@ -55,7 +55,6 @@ class Target(ABC):
                 "nulle": nulle,
                 "contestate": contestate
             }
-            return schede
         else:
             valide = {}
             votate = {}
@@ -69,7 +68,7 @@ class Target(ABC):
                 "valide": valide,
                 "votate": votate
             }
-            return schede
+        return schede
 
     
     def get_quotient(self, text) -> int:
