@@ -9,7 +9,6 @@ import './App.scss';
 import Menu from './navbar/Navbar';
 import Contacts from './contacts/Contacts';
 import { SearchPage } from './search/SearchPage';
-import ResultsMed from './results/ResultsMed/ResultsMed';
 import Footer from './footer/Footer';
 import NotFound from './not-found/NotFound';
 import Home from './home/Home';
@@ -32,16 +31,6 @@ const App = (): JSX.Element => {
               </div>
             </div>
           </Route>
-        );
-      })
-    );
-  }
-
-  function medResults(): JSX.Element[] {
-    return (
-      datareader.getYearsOfSubEntity('organi superiori', 'Coordinamento_medicina').map((year: string): JSX.Element => {
-        return (
-          <ResultsMed anno={year} key={`medRes${year}`} path="Coordinamento_medicina" />
         );
       })
     );
@@ -77,12 +66,6 @@ const App = (): JSX.Element => {
           <Switch>
             <Route exact path="/home" component={Home} />
             {higherPoliticsRoutes()}
-            <Route exact path="/organi superiori/Coordinamento_medicina">
-              <h2 className="mt-5">Coordinamento Facoltà di Medicina</h2>
-              <div className="py-4">
-                {medResults()}
-              </div>
-            </Route>
             {subEntityRoutes()}
             {subEntitySingleRoutes()}
             <Route exact path="/search/:keywords" component={SearchPage} />

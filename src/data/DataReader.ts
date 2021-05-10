@@ -177,14 +177,13 @@ class DataReader {
       candidate.eletto = false;
       return candidate;
     });
-
     return [...elected, ...notElected];
   }
 
   getAllCandidates(years: string, entity: string, subEntity: string): any {
     const lists: any[] = this.getLists(years, entity, subEntity);
     const allCandidates: any = [];
-    if (lists) {
+    if (lists.length > 0) {
       lists.forEach((list: any): any => {
         allCandidates[list.nome] = this.getCandidates(years, entity, subEntity, list.nome);
       });
