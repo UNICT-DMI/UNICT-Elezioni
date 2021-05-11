@@ -44,7 +44,7 @@ class DataReader {
   }
 
   getYears(): string[] {
-    return Object.keys(this.data).reverse();
+    return Object.keys(this.data).sort();
   }
 
   getEntities(years: string | null = null): string[] {
@@ -77,31 +77,6 @@ class DataReader {
     return [...new Set(subEntities)].sort();
   }
 
-  getDepartments(years: string): string[] {
-    const departments = this.data[years].dipartimenti;
-    return departments ? Object.keys(departments) : [];
-  }
-
-  getAllDepartments(): string[] {
-    let depsPerYear: string[] = [];
-    this.getYears().forEach((year: any) => {
-      depsPerYear = depsPerYear.concat(this.getDepartments(year));
-    });
-    return [...new Set(depsPerYear)];
-  }
-
-  getDegreeCourse(years: string): string[] {
-    return Object.keys(this.data[years].cdl);
-  }
-
-  getDegreeCourseUnder500(years: string): string[] {
-    return Object.keys(this.data[years].cdl);
-  }
-
-  getPhD(years: string): string[] {
-    return Object.keys(this.data[years].dottorandi);
-  }
-
   getHigherPolitics(years: string): string[] {
     return Object.keys(this.data[years]['organi superiori']);
   }
@@ -117,10 +92,7 @@ class DataReader {
 
   // generic method for all entities
   getEntity(years: string, entity: string): string[] | null {
-    if (this.data[years][entity]) {
-      return Object.keys(this.data[years][entity]);
-    }
-    return null; // not found
+    return this.data[years][entity] ? Object.keys(this.data[years][entity]) : null;
   }
 
   getSubEntity(years: string, entity: string, subEntity: string): any | null {
@@ -128,8 +100,7 @@ class DataReader {
   }
 
   getYearsOfSubEntity(entity: string, subEntity: string): string[] {
-    const years = this.getYears();
-    return years.filter((year: string): boolean => {
+    return this.getYears().filter((year: string): boolean => {
       return this.data[year][entity] && this.data[year][entity][subEntity];
     });
   }
@@ -143,41 +114,44 @@ class DataReader {
     if (!this.data[years][entity] || this.isUninominal(years, entity, subEntity)) {
       return [];
     }
-    return (this.data[years][entity][subEntity].liste as []).filter((list: any): any => {
-      return list.nome !== undefined;
-    });
+    return (this.data[years][entity][subEntity].liste as []).filter((list: any): any => list.nome !== undefined);
   }
 
   getCandidates(years: string, entity: string, subEntity: string, list: string): any[] {
-    let elected: any[] = (this.data[years][entity][subEntity].eletti as []).filter((candidate: any): boolean => { return (candidate.lista === list); });
-    elected = elected.map((candidate: any): any => {
-      candidate.eletto = true;
-      return candidate;
-    });
-    let notElected: any[] = (this.data[years][entity][subEntity].non_eletti as []).filter((candidate: any): boolean => { return (candidate.lista === list); });
-    notElected = notElected.map((candidate: any): any => {
-      candidate.eletto = false;
-      return candidate;
-    });
+    const candidatesInfo = this.data[years][entity][subEntity];
+    const elected: any[] = candidatesInfo.eletti ? (candidatesInfo.eletti as []).filter((candidate: any): boolean => candidate.lista === list) : [];
+    const notElected: any[] = candidatesInfo.non_eletti ? (candidatesInfo.non_eletti as []).filter((candidate: any): boolean => candidate.lista === list) : [];
+    const onlyCandidate: any[] = candidatesInfo.candidati ? (candidatesInfo.candidati as []).filter((candidate: any): boolean => candidate.lista === list) : [];
 
-    return [...elected, ...notElected];
+    return [
+      ...elected.map((candidate: any): any => {
+        candidate.eletto = true;
+        return candidate;
+      }),
+      ...notElected.map((candidate: any): any => {
+        candidate.eletto = false;
+        return candidate;
+      }),
+      ...onlyCandidate
+    ];
   }
 
   getCandidatesUninominal(years: string, entity: string, subEntity: string): any {
-    let elected: any[] = (this.data[years][entity][subEntity].eletti as []);
+    const elected: any[] = (this.data[years][entity][subEntity].eletti as []);
+    const notElected: any[] = (this.data[years][entity][subEntity].non_eletti as []);
     if (!elected) {
       return null;
     }
-    elected = elected.map((candidate: any): any => {
-      candidate.eletto = true;
-      return candidate;
-    });
-    let notElected: any[] = (this.data[years][entity][subEntity].non_eletti as []);
-    notElected = notElected.map((candidate: any): any => {
-      candidate.eletto = false;
-      return candidate;
-    });
-    return [...elected, ...notElected];
+    return [
+      ...elected.map((candidate: any): any => {
+        candidate.eletto = true;
+        return candidate;
+      }),
+      ...notElected.map((candidate: any): any => {
+        candidate.eletto = false;
+        return candidate;
+      })
+    ];
   }
 
   getAllCandidates(years: string, entity: string, subEntity: string): any {
@@ -187,9 +161,8 @@ class DataReader {
       lists.forEach((list: any): any => {
         allCandidates[list.nome] = this.getCandidates(years, entity, subEntity, list.nome);
       });
-    } else {
-      allCandidates.UNINOMINAL = this.getCandidatesUninominal(years, entity, subEntity);
     }
+    allCandidates.UNINOMINAL = this.getCandidatesUninominal(years, entity, subEntity);
     return allCandidates;
   }
 
