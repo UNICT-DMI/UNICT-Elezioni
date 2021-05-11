@@ -27,7 +27,7 @@ export const ResultsUninominal = (params: Params): JSX.Element => {
       <div className="p-2">
         <div className="container">
           <div className="row">
-            <div className="col-12 overflow-x">
+            <div className="w-100 overflow-x">
               <div className="w-100 bg-light text-dark p-3">
                 <b>{params.year}</b>
               </div>

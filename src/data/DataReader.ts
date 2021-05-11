@@ -161,6 +161,7 @@ class DataReader {
       lists.forEach((list: any): any => {
         allCandidates[list.nome] = this.getCandidates(years, entity, subEntity, list.nome);
       });
+      return allCandidates;
     }
     allCandidates.UNINOMINAL = this.getCandidatesUninominal(years, entity, subEntity);
     return allCandidates;
