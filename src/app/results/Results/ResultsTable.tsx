@@ -16,13 +16,13 @@ interface Props {
 
 export const ResultTable = (props: Props): JSX.Element => {
   const [show, setShow] = useState(props.showList);
-  const seggi = (props.seggi || props.entity !== 'dipartimenti') ? props.seggi : datareader.getSeatsId(props.anno, props.subEntity);
+  const seggi = props.seggi ? props.seggi : datareader.getSeatsId(props.anno, props.subEntity);
   const multiDep: string[] = datareader.getMultiDepSeats(props.anno, props.subEntity);
   const lists: any[] = datareader.getLists(props.anno, props.entity, props.subEntity);
   const candidates: any[] = datareader.getAllCandidates(props.anno, props.entity, props.subEntity);
   function getVotiSeggio(votazioni: any): string {
     const voti: number = (
-      seggi
+      seggi && seggi.length > 0
         ? seggi.reduce((acc: any, prev: any) => acc + votazioni[`seggio_n_${prev}`], 0)
         : votazioni?.totali
     );
@@ -63,16 +63,15 @@ export const ResultTable = (props: Props): JSX.Element => {
   }
 
   function detailsListPopover(candidateList: any): JSX.Element {
-    return (
-      <Popover id="detailsListPopover"
-        className={props.showDetailsList ? 'd-block' : 'd-none'}
-        key={`${candidateList.nome}-popover-${props.anno}`}>
-        {
-          props.showDetailsList && seggi &&
+    if (props.showDetailsList && seggi) {
+      return (
+        <Popover id="detailsListPopover"
+          key={`${candidateList.nome}-popover-${props.anno}`}>
           <DetailsList candidateList={candidateList} seggi={seggi} anno={props.anno} />
-        }
-      </Popover>
-    );
+        </Popover>
+      );
+    }
+    return (<Popover id="detailsListPopover" />);
   }
 
   function generateHead(): JSX.Element {
@@ -88,14 +87,18 @@ export const ResultTable = (props: Props): JSX.Element => {
             lists.map((list: any) => (!list.totale && list.totale !== 0) &&
               (
                 <th key={`${props.anno}-lista-${list.nome}`}>
-                  <OverlayTrigger
-                    placement="bottom"
-                    overlay={detailsListPopover(list)}
-                    key={`${props.anno}-overlay-${list.nome}`}>
-                    <div key={`${props.anno}-logo-${list.nome}`}>
-                      <ListLogo listName={list.nome} />
-                    </div>
-                  </OverlayTrigger>
+                  {
+                    (props.showDetailsList && seggi && seggi.length > 0) ? (
+                      <OverlayTrigger
+                        placement="bottom"
+                        overlay={detailsListPopover(list)}
+                        key={`${props.anno}-overlay-${list.nome}`}>
+                        <div key={`${props.anno}-logo-${list.nome}`}>
+                          <ListLogo listName={list.nome} />
+                        </div>
+                      </OverlayTrigger>
+                    ) : (<ListLogo listName={list.nome} />)
+                  }
                   <div className="sub-logo" key={`${props.anno}-name-${list.nome}`}>
                     {list.nome}
                     <br />

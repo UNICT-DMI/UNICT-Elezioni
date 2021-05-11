@@ -16,6 +16,7 @@ const SubEntity = (params: Params): JSX.Element => {
           if (datareader.isUninominal(year, params.entity, params.subEntity)) {
             return (
               <ResultsUninominal
+                key={`${year}-${params.subEntity}`}
                 year={year}
                 entity={params.entity}
                 subEntity={params.subEntity} />);

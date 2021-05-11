@@ -30,7 +30,7 @@ const SubEntityList = (params: Params): JSX.Element => {
                   {fixName(subEntity)}
                 </a>
               </h3>
-              <SubEntity key={`${params.entity}${subEntity}`} entity={params.entity} subEntity={subEntity} />
+              <SubEntity key={`subentity-${params.entity}${subEntity}`} entity={params.entity} subEntity={subEntity} />
               <hr />
             </div>
           </div>

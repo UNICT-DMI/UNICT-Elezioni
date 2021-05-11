@@ -31,7 +31,10 @@ export const SearchForm = (props: Props): JSX.Element => {
 
   function generateEntitiesSuggests(): JSX.Element[] {
     return entitiesSuggests.map((suggestion) =>
-      <a className="text-decoration-none" key={`dep-${suggestion}`} href={getEntityURL(suggestion)} onClick={onClickSuggest}>
+      <a className="text-decoration-none"
+        key={`entity-${suggestion.name}${suggestion.years}${suggestion.path}`}
+        href={getEntityURL(suggestion)}
+        onClick={onClickSuggest}>
         <ListGroup.Item action variant="light">
           <table className="table table-borderless">
             <tbody>
@@ -50,8 +53,10 @@ export const SearchForm = (props: Props): JSX.Element => {
 
   function generateListSuggests(): JSX.Element[] {
     return listSuggests.map((suggestion) =>
-      <a className="text-decoration-none" key={`list-${suggestion.name}${suggestion.entity}${suggestion.subEntity}${suggestion.year}`}
-        href={`#/${suggestion.path}`} onClick={onClickSuggest}>
+      <a className="text-decoration-none"
+        key={`list-${suggestion.name}${suggestion.entity}${suggestion.subEntity}${suggestion.year}`}
+        href={`#/${suggestion.path}`}
+        onClick={onClickSuggest}>
         <ListGroup.Item action variant="light">
           <div className="container">
             <div className="row">
@@ -77,8 +82,10 @@ export const SearchForm = (props: Props): JSX.Element => {
 
   function generateCandidatesSuggests(): JSX.Element[] {
     return candidatesSuggests.map((suggestion) =>
-      <a className="text-decoration-none" key={`list-${suggestion.name}${suggestion.entity}${suggestion.year}`}
-        href={`#/${suggestion.path}`} onClick={onClickSuggest}>
+      <a className="text-decoration-none"
+        key={`list-${suggestion.name}${suggestion.entity}${suggestion.year}`}
+        href={`#/${suggestion.path}`}
+        onClick={onClickSuggest}>
         <ListGroup.Item action variant="light">
           <table className="table table-borderless">
             <tbody>
