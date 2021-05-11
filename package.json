@@ -56,6 +56,7 @@
   },
   "devDependencies": {
     "@types/react": "^16.9.49",
+    "@types/webpack-env": "^1.16.0",
     "@typescript-eslint/eslint-plugin": "4.0.1",
     "@typescript-eslint/parser": "4.0.1",
     "eslint": "^7.24.0",
@@ -66,6 +67,6 @@
     "eslint-plugin-react": "^7.21.2",
     "eslint-plugin-react-hooks": "^4.0.0",
     "eslint-plugin-standard": "^4.0.1",
-    "node-sass": "^4.14.1"
+    "node-sass": "^5.0.0"
   }
 }

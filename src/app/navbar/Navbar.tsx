@@ -10,9 +10,31 @@ import { SearchForm } from '../search/SearchForm';
 import { Collapse } from 'react-bootstrap';
 import { mdiVoteOutline } from '@mdi/js';
 import Icon from '@mdi/react';
+import { datareader } from '../../data/DataReader';
+import fixName from '../utils/FixName';
 
 const Menu: FunctionComponent = () => {
   const [showSearch, setShowSearch] = useState(false);
+
+  function higherPoliticsItems(): JSX.Element[] {
+    return (
+      datareader.getAllHigherPolitics().map((entity: string) => {
+        return (
+          <NavDropdown.Item href={`#/${entity}`} key={`NavItem-${entity}`}>{fixName(entity)}</NavDropdown.Item>
+        );
+      })
+    );
+  }
+
+  function departmentItems(): JSX.Element[] {
+    return (
+      datareader.getEntities().filter((entity: string) => !entity.includes('organi superiori')).map((entity: string) => {
+        return (
+          <NavDropdown.Item href={`#/${entity}`} key={`NavItem-${entity}`}>Consiglio di {fixName(entity)}</NavDropdown.Item>
+        );
+      })
+    );
+  }
 
   return (
     <div className="Menu">
@@ -25,18 +47,10 @@ const Menu: FunctionComponent = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto" variant="pills" activeKey="1">
               <NavDropdown title={<><FontAwesomeIcon icon={faUniversity} />&nbsp;Organi Superiori</>} id="nav-dropdown">
-                <NavDropdown.Item href="#/senato">Senato</NavDropdown.Item>
-                <NavDropdown.Item href="#/cda">Consiglio di Amministrazione</NavDropdown.Item>
-                <NavDropdown.Item href="#/ersu">Consiglio di Amministrazione ERSU</NavDropdown.Item>
-                <NavDropdown.Item href="#/ndv">Nucleo di Valutazione</NavDropdown.Item>
-                <NavDropdown.Item href="#/csu">Comitato per lo sport Universitario</NavDropdown.Item>
-                <NavDropdown.Item href="#/facolta_medicina">Coordinamento Facoltà di Medicina</NavDropdown.Item>
+                {higherPoliticsItems()}
               </NavDropdown>
               <NavDropdown title={<><FontAwesomeIcon icon={faGraduationCap} />&nbsp;Dipartimento</>} id="nav-dropdown">
-                <NavDropdown.Item href="#/dipartimenti">Consiglio di Dipartimento</NavDropdown.Item>
-                <NavDropdown.Item href="#/dipartimenti-dottorandi">Consiglio di Dipartimento (Dottorandi)</NavDropdown.Item>
-                <NavDropdown.Item href="#/cdl">Consiglio di Corso di Laurea</NavDropdown.Item>
-                <NavDropdown.Item href="#/cdl-500">Consiglio di Corso di Laurea &lt;500</NavDropdown.Item>
+                {departmentItems()}
               </NavDropdown>
               <Nav.Link href="#/contatti">
                 <FontAwesomeIcon icon={faAddressCard} />
