@@ -9,13 +9,14 @@ from SelectTarget import SelectTarget
 
 def error_start(argc):
     if argc != 2:
-        print("USAGE: python3 parser.py <filename>.pdf <0|1|2|other>\n")
+        print("USAGE: python3 parser.py <filename>.pdf <0|1|2|3|other>\n")
         print("`$fileName` is the name of the file from which you want extract data.")
-        print("`[0|1|2|other]` indicates the type of data to parse.")
+        print("`[0|1|2|3|other]` indicates the type of data to parse.")
         print("\nYou shall choose:\n")
         print("· `0` if you want to extract departments and CdL with a number of student greater than 500.\n")
         print("· `1` if you want to extract CdL with a number of student fewer than 500.\n")
         print("· `2` if you want to extract Medicine election.\n")
+        print("· `3` if you want to extract CSNU.\n")
         print("· `other` if you want to extract political body.")
         sys.exit(-1)
 
@@ -50,6 +51,7 @@ def main(argv):
     #print(len(formatted_text))
     #print(argv[0])
     str_json = target.scrape_list(formatted_text)
+    #print(str_json)
     if isinstance(str_json, list):
         for s in str_json:
             if len(str_json) > 1:

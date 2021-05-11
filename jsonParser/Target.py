@@ -23,6 +23,7 @@ class Target(ABC):
         list_tmp = []
         while type not in text[self.i].upper():
             self.i += 1
+        text[self.i] = text[self.i].replace(".", '')
         split_text = text[self.i].split()
         for s in split_text:
             if self.is_integer(s):
@@ -40,21 +41,35 @@ class Target(ABC):
             type["seggio_n_" + str(list_of_seats[k])] = v
             k += 1
     
-    def format_schede(self, schede_bianche, schede_nulle, schede_contestate, list_of_white, list_of_null, list_of_contested, list_of_seats) -> object:
+    def format_schede(self, schede_bianche, schede_nulle, schede_contestate, list_of_white, list_of_null, list_of_contested, list_of_seats, schede_valide = None, list_of_valid = None, schede_votate = None, list_of_votes = None) -> object:
         bianche = {}
         nulle = {}
         contestate = {}
-
         self.__scheda(bianche, schede_bianche, list_of_white, list_of_seats)
         self.__scheda(nulle, schede_nulle, list_of_null, list_of_seats)
         self.__scheda(contestate, schede_contestate, list_of_contested, list_of_seats)
         
-        schede = {
-            "bianche": bianche,
-            "nulle": nulle,
-            "contestate": contestate
-        }
+        if schede_valide == None:
+            schede = {
+                "bianche": bianche,
+                "nulle": nulle,
+                "contestate": contestate
+            }
+        else:
+            valide = {}
+            votate = {}
+            self.__scheda(valide, schede_valide, list_of_valid, list_of_seats)
+            self.__scheda(votate, schede_votate, list_of_votes, list_of_seats)
+
+            schede = {
+                "bianche": bianche,
+                "nulle": nulle,
+                "contestate": contestate,
+                "valide": valide,
+                "votate": votate
+            }
         return schede
+
     
     def get_quotient(self, text) -> int:
         while("QUOZIENTE" not in text[self.i].upper()):

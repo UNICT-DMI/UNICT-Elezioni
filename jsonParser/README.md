@@ -60,12 +60,12 @@ If you don't want to install anything go **[here](#usage-with-docker)**.
 - *parser.py*
 
   ```bash
-  python3 parser.py $fileName [0|1|2|other]
+  python3 parser.py $fileName [0|1|2|3|other]
   ```
 
   `$fileName` is the name of the file from which you want extract data. 
 
-  `[0|1|2|other]` indicates the type of data to parse.
+  `[0|1|2|3|other]` indicates the type of data to parse.
 
   You shall choose:
   
@@ -75,6 +75,8 @@ If you don't want to install anything go **[here](#usage-with-docker)**.
 
   · `2` if you want to extract Medicine election.
 
+  · `3` if you want to extract CNSU.
+  
   · `other` if you want to extract political body.
 
 
@@ -115,14 +117,14 @@ docker build --tag unict-elezioni/parser .
 - *parser.py*
 
   ```bash
-  docker run -itv $path/:/etc/parser/disk unict-elezioni/parser ./code/parser.py ./disk/$fileName [0|1|2|other]
+  docker run -itv $path/:/etc/parser/disk unict-elezioni/parser ./code/parser.py ./disk/$fileName [0|1|2|3|other]
   ```
 
   `$path` is where you want to map the docker volume and where is stored the `$fileName`.
 
   `$fileName` is the name of the file from which you want extract data. 
 
-  `[0|1|2|other]` indicates the type of data to parse.
+  `[0|1|2|3|other]` indicates the type of data to parse.
 
   You shall choose:
 
@@ -132,6 +134,8 @@ docker build --tag unict-elezioni/parser .
 
   · `2` if you want to extract Medicine election.
 
+  · `3` if you want to extract CNSU.
+  
   · `other` if you want to extract political body.
 
 
