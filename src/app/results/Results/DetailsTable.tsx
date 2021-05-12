@@ -18,7 +18,7 @@ export const DetailsTable = (props: Props): JSX.Element => {
 
   function getVotiSeggio(votazioni: any): string[] | null {
     return (
-      seggi
+      seggi && seggi.length
         ? seggi.reduce((acc: any, prev: any) => acc + votazioni[`seggio_n_${prev}`], 0)
         : votazioni.totali
     );

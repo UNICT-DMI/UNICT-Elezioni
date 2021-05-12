@@ -118,7 +118,7 @@ export const ResultTable = (props: Props): JSX.Element => {
           <div>{props.anno}</div>
         </b>
         {
-          seggi && <br /> && (
+          seggi && seggi.length > 0 && <br /> && (
             `Seggi${seggi.length === 1 ? 'o' : ''}: ${seggi.join(', ')
             }${!!multiDep && multiDep.length > 1
               ? ` - ${multiDep.map((d) => d.replace(/_/g, ' ')).join(', ')}`
