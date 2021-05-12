@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react';
 import { Button, Card } from 'react-bootstrap';
 import { useParams } from 'react-router-dom';
 import ListLogo from '../results/ListLogo/ListLogo';
-import SearchEngine, { CandidateInfo, CdlInfo, ListInfo } from './SearchEngine';
+import { CandidateInfo, ListInfo, EntityInfo, searchEngine, SearchResult } from './SearchEngine';
 
 interface Params {
   keywords: string;
@@ -12,16 +12,13 @@ interface Params {
 
 export const SearchPage = (): JSX.Element => {
   const params: Params = useParams();
-  const [depSuggests, setDepSuggests] = useState([] as string[]);
-  const [cdlSuggests, setCdlSuggests] = useState([] as CdlInfo[]);
+  const [entitiesSuggests, setEntitiesSuggests] = useState([] as EntityInfo[]);
   const [listSuggests, setListSuggests] = useState([] as ListInfo[]);
   const [candidatesSuggests, setCandidatesSuggests] = useState([] as CandidateInfo[]);
 
   useEffect(() => {
-    const searchEngine = SearchEngine.getInstance();
-    const results = searchEngine.search(params.keywords);
-    setDepSuggests(results.departments);
-    setCdlSuggests(results.cdls);
+    const results: SearchResult = searchEngine.search(params.keywords);
+    setEntitiesSuggests(results.entities);
     setListSuggests(results.lists);
     setCandidatesSuggests(results.candidates);
   }, [params]);
@@ -35,8 +32,8 @@ export const SearchPage = (): JSX.Element => {
     );
   }
 
-  function generateCdlSuggests(): JSX.Element[] {
-    return cdlSuggests.map((suggestion) =>
+  function generateEntitySuggests(): JSX.Element[] {
+    return entitiesSuggests.map((suggestion) =>
       <div key={`dep-${suggestion}`} className="p-2">
         <Card>
           <Card.Body>
@@ -45,33 +42,7 @@ export const SearchPage = (): JSX.Element => {
               <br />
               {suggestion.name.replaceAll('_', ' ')}
               <br />
-              {suggestion.year}
             </Card.Title>
-            {
-              suggestion.isUnder500 ? (
-                showResultsButton(`#single-results/cdl-500/${suggestion.year}/${suggestion.name}`)
-              ) : (
-                showResultsButton(`#/cdl/${suggestion.name}`)
-              )
-            }
-            { }
-          </Card.Body>
-        </Card>
-      </div >
-    ) as any;
-  }
-
-  function generateDepSuggests(): JSX.Element[] {
-    return depSuggests.map((suggestion) =>
-      <div key={`dep-${suggestion}`} className="p-2">
-        <Card>
-          <Card.Body>
-            <Card.Title>
-              <FontAwesomeIcon icon={faUniversity} />
-              <br />
-              {suggestion.replaceAll('_', ' ')}
-            </Card.Title>
-            {showResultsButton(`#/dipartimento/${suggestion}`)}
           </Card.Body>
         </Card>
       </div >
@@ -80,7 +51,7 @@ export const SearchPage = (): JSX.Element => {
 
   function generateListSuggests(): JSX.Element[] {
     return listSuggests.map((suggestion) =>
-      <div key={`list-${suggestion.name}${suggestion.department}${suggestion.entity}${suggestion.year}`}
+      <div key={`list-${suggestion.name}${suggestion.entity}${suggestion.year}`}
         className="p-2">
         <Card>
           <Card.Body>
@@ -99,13 +70,12 @@ export const SearchPage = (): JSX.Element => {
                     Anno: {suggestion.year}
                     <br />
                     <FontAwesomeIcon icon={faUniversity} />&nbsp;
-                    {suggestion.department?.replaceAll('_', ' ')}
                     {suggestion.entity?.replaceAll('_', ' ')}
                   </div>
                 </div>
               </div>
             </Card.Text>
-            {showResultsButton(suggestion.path)}
+            {showResultsButton('#/' + suggestion.path)}
           </Card.Body>
         </Card>
       </div>
@@ -114,7 +84,7 @@ export const SearchPage = (): JSX.Element => {
 
   function generateCandidatesSuggests(): JSX.Element[] {
     return candidatesSuggests.map((suggestion) =>
-      <div key={`list-${suggestion.name}${suggestion.department}${suggestion.entity}${suggestion.year}`}
+      <div key={`list-${suggestion.name}${suggestion.entity}${suggestion.year}`}
         className="p-2">
         <Card>
           <Card.Body>
@@ -140,13 +110,12 @@ export const SearchPage = (): JSX.Element => {
                     Anno: {suggestion.year}
                     <br />
                     <FontAwesomeIcon icon={faUniversity} />&nbsp;
-                    {suggestion.department?.replaceAll('_', ' ')}
-                    {suggestion.entity?.replaceAll('_', ' ')}
+                    {suggestion.entity.replaceAll('_', ' ')}
                   </div>
                 </div>
               </div>
             </Card.Text>
-            {showResultsButton(suggestion.path)}
+            {showResultsButton('#/' + suggestion.path)}
           </Card.Body>
         </Card>
       </div>
@@ -157,8 +126,7 @@ export const SearchPage = (): JSX.Element => {
     <div className="search-results">
       <h2>Ricerca di <i>{params.keywords}</i>:</h2>
       <div className="suggestions">
-        {generateCdlSuggests()}
-        {generateDepSuggests()}
+        {generateEntitySuggests()}
         {generateListSuggests()}
         {generateCandidatesSuggests()}
       </div>

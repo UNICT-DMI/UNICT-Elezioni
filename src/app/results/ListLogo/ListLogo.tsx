@@ -9,7 +9,7 @@ interface Props {
 }
 
 export const ListLogo = (props: Props): JSX.Element => {
-  function getListName(): string | undefined {
+  function getListName(): string {
     return props.listName?.replace('# ', '')
       .replace(/ /g, ' ')
       .replace(/ /g, ' ')
@@ -20,13 +20,18 @@ export const ListLogo = (props: Props): JSX.Element => {
       .replace(new RegExp("A'", 'g'), 'À');
   }
 
+  function getImageUrl(): string {
+    return `loghi/${getListName()}.jpg`;
+  }
+
   return (
     <div className="logolist">
       {
-        getListName() !== undefined ? (
+        getListName() !== undefined && getListName() !== 'UNINOMINAL' ? (
           <img key={getListName()}
-            src={`loghi/${getListName()}.jpg`}
+            src={getImageUrl()}
             className="logolist m-auto"
+            onError={(e: any): void => { e.target.onerror = null; e.target.src = 'loghi/image-not-found.svg'; }}
             width="80"
             height="80"
             alt={getListName()} />

@@ -1,77 +1,77 @@
 import React, { useEffect, useState } from 'react';
 import { Collapse, OverlayTrigger, Popover, Table } from 'react-bootstrap';
 import ListLogo from '../ListLogo/ListLogo';
-import { dict } from '../../department/Department';
 import DetailsList from '../DetailList/DetailsList';
 import Coccarda from '../../coccarda/Coccarda';
+import { datareader } from '../../../data/DataReader';
 
 interface Props {
-  data: any;
   anno: string;
-  seggio?: dict;
-  multiDip?: dict;
+  seggi?: number[] | null;
   showDetailsList?: boolean;
   showList?: boolean;
+  entity: string;
+  subEntity: string;
 }
 
 export const ResultTable = (props: Props): JSX.Element => {
   const [show, setShow] = useState(props.showList);
-  const seggi: string[] | null = props.seggio ? props.seggio[props.anno] : null;
-
-  function getVotiSeggio(votazioni: any): string[] | null {
-    return (
-      seggi
+  const seggi = props.seggi ? props.seggi : datareader.getSeatsId(props.anno, props.subEntity);
+  const multiDep: string[] = datareader.getMultiDepSeats(props.anno, props.subEntity);
+  const lists: any[] = datareader.getLists(props.anno, props.entity, props.subEntity);
+  const candidates: any[] = datareader.getAllCandidates(props.anno, props.entity, props.subEntity);
+  function getVotiSeggio(votazioni: any): string {
+    const voti: number = (
+      seggi && seggi.length > 0
         ? seggi.reduce((acc: any, prev: any) => acc + votazioni[`seggio_n_${prev}`], 0)
         : votazioni?.totali
     );
+    return '(' + voti + ')';
   }
 
   function generateTableRows(): JSX.Element[] {
-    const results: { [key: string]: any[] } = {}; // any -> eletti[]
-
-    props.data.liste.forEach((l: any) => (results[l.nome] = []));
-    props.data.eletti.forEach((e: any) => results[e.lista].push(Object.assign(e, { eletto: true })));
-    props.data.non_eletti.forEach((e: any) => results[e.lista].push(Object.assign(e, { eletto: false })));
-
     // get max rows count
-    const maxRows = Object.values(results).reduce((acc, prev) => (acc < prev.length ? prev.length : acc), 0);
+    const maxRows = Object.values(candidates).reduce((acc: number, prev: any[]): number => (acc < prev.length ? prev.length : acc), 0);
 
     // generate tableRows
     const tableRows = [];
     for (let i = 0; i < maxRows; i++) {
       tableRows.push(
-        <tr key={`${props.anno}-${i}`}>
-          {Object.keys(results).map((l: string) => l !== 'undefined' &&
-            (
-              <td key={`${props.anno}-${l}-${i}`}>
-                {
-                  results[l] && results[l][i] && (
+        <tr key={`tr-${props.anno}-${i}`}>
+          {
+            lists.map((list: any): JSX.Element => {
+              return (
+                <td key={`td-${props.anno}-${i}-${list.nome}`}>
+                  {
+                    candidates[list.nome][i] &&
                     [
-                      `${results[l][i].nominativo}`, (<br key={`voti-${i}`}/>), `(${getVotiSeggio(results[l][i].voti)})`,
-                      results[l][i].eletto ? (<Coccarda key={`coccarda-${i}`} />) : ''
+                      candidates[list.nome][i].nominativo,
+                      (<br key={`${props.anno}-${i}-${list}-${candidates[list.nome][i].nominativo}`} />),
+                      getVotiSeggio(candidates[list.nome][i].voti),
+                      candidates[list.nome][i].eletto && (<Coccarda key={`Coccarda-${list.nome}-${i}`} />)
                     ]
-                  )
-                }
-              </td>
-            )
-          )}
+                  }
+                </td>
+              );
+            })
+          }
         </tr>
       );
     }
+
     return tableRows;
   }
 
   function detailsListPopover(candidateList: any): JSX.Element {
-    return (
-      <Popover id="detailsListPopover"
-        className={props.showDetailsList ? 'd-block' : 'd-none'}
-        key={`${candidateList.nome}-popover-${props.anno}`}>
-        {
-          props.showDetailsList &&
+    if (props.showDetailsList && seggi) {
+      return (
+        <Popover id="detailsListPopover"
+          key={`${candidateList.nome}-popover-${props.anno}`}>
           <DetailsList candidateList={candidateList} seggi={seggi} anno={props.anno} />
-        }
-      </Popover>
-    );
+        </Popover>
+      );
+    }
+    return (<Popover id="detailsListPopover" />);
   }
 
   function generateHead(): JSX.Element {
@@ -83,24 +83,29 @@ export const ResultTable = (props: Props): JSX.Element => {
           onClick={toggleBody}
           aria-controls="collapse-tbody"
           aria-expanded={show}>
-          {props.data.liste.map((l: any) => (!l.totale && l.totale !== 0) &&
-            (
-              <th key={`${props.anno}-lista-${l.nome}`}>
-                <OverlayTrigger
-                  placement="bottom"
-                  overlay={detailsListPopover(l)}
-                  key={`${props.anno}-overlay-${l.nome}`}>
-                  <div key={`${props.anno}-logo-${l.nome}`}>
-                    <ListLogo listName={l.nome} />
+          {
+            lists.map((list: any) => (!list.totale && list.totale !== 0) &&
+              (
+                <th key={`${props.anno}-lista-${list.nome}`}>
+                  {
+                    (props.showDetailsList && seggi && seggi.length > 0) ? (
+                      <OverlayTrigger
+                        placement="bottom"
+                        overlay={detailsListPopover(list)}
+                        key={`${props.anno}-overlay-${list.nome}`}>
+                        <div key={`${props.anno}-logo-${list.nome}`}>
+                          <ListLogo listName={list.nome} />
+                        </div>
+                      </OverlayTrigger>
+                    ) : (<ListLogo listName={list.nome} />)
+                  }
+                  <div className="sub-logo" key={`${props.anno}-name-${list.nome}`}>
+                    {list.nome}
+                    <br />
+                    {getVotiSeggio(list.voti)}
                   </div>
-                </OverlayTrigger>
-                <div className="sub-logo" key={`${props.anno}-name-${l.nome}`}>
-                  {l.nome}
-                  <br />
-                  ({getVotiSeggio(l.voti)})
-                </div>
-              </th>
-            ))}
+                </th>
+              ))}
         </tr>
       </thead>
     );
@@ -110,17 +115,17 @@ export const ResultTable = (props: Props): JSX.Element => {
     return (
       <div className="w-100 bg-light text-dark p-3">
         <b>
-          {props.anno}
-          {' '}
-          {
-            seggi && (
-              `- Seggi${seggi.length === 1 ? 'o' : ''}: ${seggi.join(', ')
-              }${!!props.multiDip && props.multiDip[props.anno].length > 1
-                ? ` - ${props.multiDip[props.anno].map((d) => d.replace(/_/g, ' ')).join(', ')}`
-                : ''}`
-            )
-          }
+          <div>{props.anno}</div>
         </b>
+        {
+          seggi && seggi.length > 0 && <br /> && (
+            `Seggi${seggi.length === 1 ? 'o' : ''}: ${seggi.join(', ')
+            }${!!multiDep && multiDep.length > 1
+              ? ` - ${multiDep.map((d) => d.replace(/_/g, ' ')).join(', ')}`
+              : ''}`
+          )
+        }
+
       </div>
     );
   }

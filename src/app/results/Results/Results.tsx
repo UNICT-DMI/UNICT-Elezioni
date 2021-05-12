@@ -2,32 +2,40 @@ import React from 'react';
 import './Results.scss';
 import ResultTable from './ResultsTable';
 import DetailsTable from './DetailsTable';
-import { dict } from '../../department/Department';
 
 interface Props {
   anno: string;
   path: string;
   details: boolean;
-  seggio?: dict;
-  multiDip?: dict;
   showDetailsList?: boolean;
   showList?: boolean;
+  entity: string;
+  subEntity: string;
+  seggi?: number[] | null;
 }
 
 export const Results = (props: Props): JSX.Element => {
-  const data = require(`../../../data/${props.anno}/${props.path}.json`);
-
   return (
     <div className="Results">
       <div className="p-2">
         <div className="row">
           <div className="col-12 overflow-x-auto">
-            <ResultTable seggio={props.seggio} multiDip={props.multiDip} data={data} anno={props.anno} showDetailsList={props.showDetailsList} showList={props.showList} />
+            <ResultTable
+              anno={props.anno}
+              entity={props.entity}
+              subEntity={props.subEntity}
+              showDetailsList={props.showDetailsList}
+              showList={props.showList}
+              seggi={props.seggi} />
           </div>
         </div>
         {
           props.details &&
-          <DetailsTable seggio={props.seggio} data={data} anno={props.anno} />
+          <DetailsTable
+            anno={props.anno}
+            entity={props.entity}
+            subEntity={props.subEntity}
+            seggi={props.seggi}/>
         }
       </div>
     </div>

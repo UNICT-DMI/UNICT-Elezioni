@@ -2,21 +2,23 @@ import { faInfo } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { OverlayTrigger, Popover, Table } from 'react-bootstrap';
-import { dict } from '../../department/Department';
+import { datareader } from '../../../data/DataReader';
 import './Results.scss';
 
 interface Props {
-  data: any;
   anno: string;
-  seggio?: dict;
+  entity: string;
+  subEntity: string;
+  seggi?: number[] | null;
 }
 
 export const DetailsTable = (props: Props): JSX.Element => {
-  const seggi: string[] | null = props.seggio ? props.seggio[props.anno] : null;
+  const seggi: number[] | null = props.seggi ? props.seggi : datareader.getSeatsId(props.anno, props.subEntity);
+  const data: any = datareader.getSubEntity(props.anno, props.entity, props.subEntity);
 
   function getVotiSeggio(votazioni: any): string[] | null {
     return (
-      seggi
+      seggi && seggi.length
         ? seggi.reduce((acc: any, prev: any) => acc + votazioni[`seggio_n_${prev}`], 0)
         : votazioni.totali
     );
@@ -52,16 +54,16 @@ export const DetailsTable = (props: Props): JSX.Element => {
           <th>Seggi da Assegnare</th>
         </tr>
         <tr>
-          <td>{getVotiSeggio(props.data.schede.bianche)}</td>
-          <td>{getVotiSeggio(props.data.schede.nulle)}</td>
-          <td>{getVotiSeggio(props.data.schede.contestate)}</td>
+          <td>{getVotiSeggio(data.schede.bianche)}</td>
+          <td>{getVotiSeggio(data.schede.nulle)}</td>
+          <td>{getVotiSeggio(data.schede.contestate)}</td>
           <td>
-            {getVotiSeggio(props.data.votanti)}
+            {getVotiSeggio(data.votanti)}
             {' '}
-            {!props.seggio ? `(${props.data.votanti.percentuale} %)` : ''}
+            {!seggi && `(${data.votanti.percentuale} %)`}
           </td>
-          <td>{props.data.quoziente}</td>
-          <td>{props.data.seggi_da_assegnare}</td>
+          <td>{data.quoziente}</td>
+          <td>{data.seggi_da_assegnare}</td>
         </tr>
       </thead>
     </Table>
