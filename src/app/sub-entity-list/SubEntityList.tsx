@@ -24,15 +24,13 @@ const SubEntityList = (params: Params): JSX.Element => {
       return (
         <>
           <div className="sub-entity">
-            <div className="container-fluid">
-              <h3 className="mt-5 capitalize">
-                <a href={`#/single/${params.entity}/${subEntity}`}>
-                  {fixName(subEntity)}
-                </a>
-              </h3>
-              <SubEntity key={`subentity-${params.entity}${subEntity}`} entity={params.entity} subEntity={subEntity} />
-              <hr />
-            </div>
+            <h3 className="mt-5 capitalize">
+              <a href={`#/single/${params.entity}/${subEntity}`}>
+                {fixName(subEntity)}
+              </a>
+            </h3>
+            <SubEntity key={`subentity-${params.entity}${subEntity}`} entity={params.entity} subEntity={subEntity} />
+            <hr />
           </div>
         </>
       );

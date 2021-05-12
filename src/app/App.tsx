@@ -25,10 +25,8 @@ const App = (): JSX.Element => {
         return (
           <Route exact path={`/${entity}`} key={entity}>
             <div className="sub-entity">
-              <div className="container-fluid">
-                <h3 className="mt-5 capitalize">{fixName(entity)}</h3>
-                <SubEntity entity={'organi superiori'} subEntity={entity} />
-              </div>
+              <h3 className="mt-5 capitalize">{fixName(entity)}</h3>
+              <SubEntity entity={'organi superiori'} subEntity={entity} />
             </div>
           </Route>
         );
@@ -76,7 +74,8 @@ const App = (): JSX.Element => {
         </HashRouter>
       </div>
       <Footer />
-    </div>);
+    </div>
+  );
 };
 
 export default App;
