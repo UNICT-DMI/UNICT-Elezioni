@@ -119,6 +119,7 @@
     },
     "votanti": {
         "totali": 846,
+        "percentuale": 19,
         "seggio_n_1": 914,
         "seggio_n_2": 767,
         "seggio_n_3": 1091,
@@ -136,30 +137,12 @@
         "seggio_n_16": 94,
         "seggio_n_17": 9
     },
-    "percentuale_votanti": {
-        "totali": 19,
-        "seggio_n_1": 21,
-        "seggio_n_2": 24,
-        "seggio_n_3": 22,
-        "seggio_n_4": 10,
-        "seggio_n_6": 31,
-        "seggio_n_7": 20,
-        "seggio_n_8": 36,
-        "seggio_n_9": 14,
-        "seggio_n_10": 12,
-        "seggio_n_11": 22,
-        "seggio_n_12": 18,
-        "seggio_n_13": 22,
-        "seggio_n_14": 15,
-        "seggio_n_15": 19,
-        "seggio_n_16": 11,
-        "seggio_n_17": 0
-    },
+    "quoziente": "23.06",
     "liste": [
         {
             "nome": "LINK - LISTE INDIPENDENTI - ONDA UNIVERSITARIA - COLLETTIVO 2K8",
             "voti": {
-                "totale": 254,
+                "totali": 254,
                 "seggio_n_1": 43,
                 "seggio_n_2": 9,
                 "seggio_n_3": 9,
@@ -181,7 +164,7 @@
         {
             "nome": "OBIETTIVO STUDENTI - ATENEO STUDENTI",
             "voti": {
-                "totale": 131,
+                "totali": 131,
                 "seggio_n_1": 6,
                 "seggio_n_2": 6,
                 "seggio_n_3": 2,
@@ -201,9 +184,9 @@
             }
         },
         {
-            "nome": "UNIVERSITA' POPOLARE",
+            "nome": "UNIVERSIT\u00c1 POPOLARE",
             "voti": {
-                "totale": 2634,
+                "totali": 2634,
                 "seggio_n_1": 436,
                 "seggio_n_2": 34,
                 "seggio_n_3": 412,
@@ -225,7 +208,7 @@
         {
             "nome": "UDU RETE UNIVERSITARIA NAZIONALE LISTE INDIPENDENTI",
             "voti": {
-                "totale": 276,
+                "totali": 276,
                 "seggio_n_1": 30,
                 "seggio_n_2": 33,
                 "seggio_n_3": 10,
@@ -247,7 +230,7 @@
         {
             "nome": "STUDENTI PER LE LIBERTA' - AZIONE UNIVERSITARIA",
             "voti": {
-                "totale": 1738,
+                "totali": 1738,
                 "seggio_n_1": 175,
                 "seggio_n_2": 230,
                 "seggio_n_3": 184,
@@ -269,7 +252,7 @@
         {
             "nome": "CONFEDERAZIONE DEGLI STUDENTI",
             "voti": {
-                "totale": 295,
+                "totali": 295,
                 "seggio_n_1": 191,
                 "seggio_n_2": 410,
                 "seggio_n_3": 433,
@@ -294,7 +277,7 @@
             "nominativo": "CAMMALLERI PASQUALE ALESSANDRO detto CAMMA",
             "lista": "LINK - LISTE INDIPENDENTI - ONDA UNIVERSITARIA - COLLETTIVO 2K8",
             "voti": {
-                "totale": 9,
+                "totali": 9,
                 "seggio_n_1": 0,
                 "seggio_n_2": 0,
                 "seggio_n_3": 1,
@@ -317,7 +300,7 @@
             "nominativo": "CURCIO FRANCESCO detto BASSO",
             "lista": "LINK - LISTE INDIPENDENTI - ONDA UNIVERSITARIA - COLLETTIVO 2K8",
             "voti": {
-                "totale": 0,
+                "totali": 0,
                 "seggio_n_1": 0,
                 "seggio_n_2": 0,
                 "seggio_n_3": 0,
@@ -340,7 +323,7 @@
             "nominativo": "GRANCAGNOLO ALESSIO GASPARE detto GRANCA",
             "lista": "LINK - LISTE INDIPENDENTI - ONDA UNIVERSITARIA - COLLETTIVO 2K8",
             "voti": {
-                "totale": 182,
+                "totali": 182,
                 "seggio_n_1": 38,
                 "seggio_n_2": 7,
                 "seggio_n_3": 6,
@@ -363,7 +346,7 @@
             "nominativo": "IANNONE ENRICO",
             "lista": "LINK - LISTE INDIPENDENTI - ONDA UNIVERSITARIA - COLLETTIVO 2K8",
             "voti": {
-                "totale": 0,
+                "totali": 0,
                 "seggio_n_1": 0,
                 "seggio_n_2": 0,
                 "seggio_n_3": 0,
@@ -386,7 +369,7 @@
             "nominativo": "INGROSSO SARA",
             "lista": "LINK - LISTE INDIPENDENTI - ONDA UNIVERSITARIA - COLLETTIVO 2K8",
             "voti": {
-                "totale": 0,
+                "totali": 0,
                 "seggio_n_1": 0,
                 "seggio_n_2": 0,
                 "seggio_n_3": 0,
@@ -409,7 +392,7 @@
             "nominativo": "INNAMORATO FRANCESCO",
             "lista": "LINK - LISTE INDIPENDENTI - ONDA UNIVERSITARIA - COLLETTIVO 2K8",
             "voti": {
-                "totale": 0,
+                "totali": 0,
                 "seggio_n_1": 0,
                 "seggio_n_2": 0,
                 "seggio_n_3": 0,
@@ -432,7 +415,7 @@
             "nominativo": "PRESUTTI FLAVIO",
             "lista": "LINK - LISTE INDIPENDENTI - ONDA UNIVERSITARIA - COLLETTIVO 2K8",
             "voti": {
-                "totale": 0,
+                "totali": 0,
                 "seggio_n_1": 0,
                 "seggio_n_2": 0,
                 "seggio_n_3": 0,
@@ -455,7 +438,7 @@
             "nominativo": "SOTGIU FRANCESCO RICCARDO",
             "lista": "LINK - LISTE INDIPENDENTI - ONDA UNIVERSITARIA - COLLETTIVO 2K8",
             "voti": {
-                "totale": 1,
+                "totali": 1,
                 "seggio_n_1": 0,
                 "seggio_n_2": 0,
                 "seggio_n_3": 0,
@@ -478,7 +461,7 @@
             "nominativo": "TORTORELLI ALESSIO detto TORTO",
             "lista": "LINK - LISTE INDIPENDENTI - ONDA UNIVERSITARIA - COLLETTIVO 2K8",
             "voti": {
-                "totale": 0,
+                "totali": 0,
                 "seggio_n_1": 0,
                 "seggio_n_2": 0,
                 "seggio_n_3": 0,
@@ -501,7 +484,7 @@
             "nominativo": "ROMOLO VINCENZO",
             "lista": "OBIETTIVO STUDENTI - ATENEO STUDENTI",
             "voti": {
-                "totale": 83,
+                "totali": 83,
                 "seggio_n_1": 3,
                 "seggio_n_2": 1,
                 "seggio_n_3": 1,
@@ -524,7 +507,7 @@
             "nominativo": "CARIA TORE",
             "lista": "OBIETTIVO STUDENTI - ATENEO STUDENTI",
             "voti": {
-                "totale": 0,
+                "totali": 0,
                 "seggio_n_1": 0,
                 "seggio_n_2": 0,
                 "seggio_n_3": 0,
@@ -547,7 +530,7 @@
             "nominativo": "LOZITO PIERVITO",
             "lista": "OBIETTIVO STUDENTI - ATENEO STUDENTI",
             "voti": {
-                "totale": 0,
+                "totali": 0,
                 "seggio_n_1": 0,
                 "seggio_n_2": 0,
                 "seggio_n_3": 0,
@@ -570,7 +553,7 @@
             "nominativo": "STEFANELLI ANTONIO",
             "lista": "OBIETTIVO STUDENTI - ATENEO STUDENTI",
             "voti": {
-                "totale": 0,
+                "totali": 0,
                 "seggio_n_1": 0,
                 "seggio_n_2": 0,
                 "seggio_n_3": 0,
@@ -593,7 +576,7 @@
             "nominativo": "MONTALBANO CLAUDIO",
             "lista": "OBIETTIVO STUDENTI - ATENEO STUDENTI",
             "voti": {
-                "totale": 6,
+                "totali": 6,
                 "seggio_n_1": 0,
                 "seggio_n_2": 0,
                 "seggio_n_3": 1,
@@ -614,9 +597,9 @@
         },
         {
             "nominativo": "ATTANASIO SIMONA",
-            "lista": "UNIVERSITA' POPOLARE",
+            "lista": "UNIVERSIT\u00c1 POPOLARE",
             "voti": {
-                "totale": 27,
+                "totali": 27,
                 "seggio_n_1": 0,
                 "seggio_n_2": 0,
                 "seggio_n_3": 0,
@@ -637,9 +620,9 @@
         },
         {
             "nominativo": "BENEDETTO GIUSEPPE FRANCESCO",
-            "lista": "UNIVERSITA' POPOLARE",
+            "lista": "UNIVERSIT\u00c1 POPOLARE",
             "voti": {
-                "totale": 0,
+                "totali": 0,
                 "seggio_n_1": 0,
                 "seggio_n_2": 0,
                 "seggio_n_3": 0,
@@ -659,10 +642,10 @@
             }
         },
         {
-            "nominativo": "CANNISTRA' ANTONIO detto MAZZITELLI",
-            "lista": "UNIVERSITA' POPOLARE",
+            "nominativo": "CANNISTR\u00c0 ANTONIO detto MAZZITELLI",
+            "lista": "UNIVERSIT\u00c1 POPOLARE",
             "voti": {
-                "totale": 0,
+                "totali": 0,
                 "seggio_n_1": 0,
                 "seggio_n_2": 0,
                 "seggio_n_3": 0,
@@ -683,9 +666,9 @@
         },
         {
             "nominativo": "CUCCHIARA ALESSANDRO",
-            "lista": "UNIVERSITA' POPOLARE",
+            "lista": "UNIVERSIT\u00c1 POPOLARE",
             "voti": {
-                "totale": 9,
+                "totali": 9,
                 "seggio_n_1": 0,
                 "seggio_n_2": 0,
                 "seggio_n_3": 0,
@@ -706,9 +689,9 @@
         },
         {
             "nominativo": "MIGNOGNA ALESSIO",
-            "lista": "UNIVERSITA' POPOLARE",
+            "lista": "UNIVERSIT\u00c1 POPOLARE",
             "voti": {
-                "totale": 2,
+                "totali": 2,
                 "seggio_n_1": 0,
                 "seggio_n_2": 0,
                 "seggio_n_3": 0,
@@ -729,9 +712,9 @@
         },
         {
             "nominativo": "VILLARDITA ANTONINO detto ANTONIO",
-            "lista": "UNIVERSITA' POPOLARE",
+            "lista": "UNIVERSIT\u00c1 POPOLARE",
             "voti": {
-                "totale": 2414,
+                "totali": 2414,
                 "seggio_n_1": 417,
                 "seggio_n_2": 30,
                 "seggio_n_3": 397,
@@ -752,9 +735,9 @@
         },
         {
             "nominativo": "VOCCIANTE LAURA",
-            "lista": "UNIVERSITA' POPOLARE",
+            "lista": "UNIVERSIT\u00c1 POPOLARE",
             "voti": {
-                "totale": 0,
+                "totali": 0,
                 "seggio_n_1": 0,
                 "seggio_n_2": 0,
                 "seggio_n_3": 0,
@@ -777,7 +760,7 @@
             "nominativo": "FIENGO LUISA",
             "lista": "UDU RETE UNIVERSITARIA NAZIONALE LISTE INDIPENDENTI",
             "voti": {
-                "totale": 3,
+                "totali": 3,
                 "seggio_n_1": 0,
                 "seggio_n_2": 0,
                 "seggio_n_3": 0,
@@ -800,7 +783,7 @@
             "nominativo": "DONNARUMMA ELIO",
             "lista": "UDU RETE UNIVERSITARIA NAZIONALE LISTE INDIPENDENTI",
             "voti": {
-                "totale": 0,
+                "totali": 0,
                 "seggio_n_1": 0,
                 "seggio_n_2": 0,
                 "seggio_n_3": 0,
@@ -823,7 +806,7 @@
             "nominativo": "LO VERSO FABRIZIO",
             "lista": "UDU RETE UNIVERSITARIA NAZIONALE LISTE INDIPENDENTI",
             "voti": {
-                "totale": 5,
+                "totali": 5,
                 "seggio_n_1": 0,
                 "seggio_n_2": 0,
                 "seggio_n_3": 0,
@@ -846,7 +829,7 @@
             "nominativo": "PITIRRA FRANCESCO detto PITTIRRA",
             "lista": "UDU RETE UNIVERSITARIA NAZIONALE LISTE INDIPENDENTI",
             "voti": {
-                "totale": 18,
+                "totali": 18,
                 "seggio_n_1": 16,
                 "seggio_n_2": 0,
                 "seggio_n_3": 0,
@@ -869,7 +852,7 @@
             "nominativo": "COSTA LUCA",
             "lista": "UDU RETE UNIVERSITARIA NAZIONALE LISTE INDIPENDENTI",
             "voti": {
-                "totale": 0,
+                "totali": 0,
                 "seggio_n_1": 0,
                 "seggio_n_2": 0,
                 "seggio_n_3": 0,
@@ -892,7 +875,7 @@
             "nominativo": "FIUMARA LUCA",
             "lista": "UDU RETE UNIVERSITARIA NAZIONALE LISTE INDIPENDENTI",
             "voti": {
-                "totale": 163,
+                "totali": 163,
                 "seggio_n_1": 9,
                 "seggio_n_2": 28,
                 "seggio_n_3": 3,
@@ -915,7 +898,7 @@
             "nominativo": "SCIMENES AURORA",
             "lista": "UDU RETE UNIVERSITARIA NAZIONALE LISTE INDIPENDENTI",
             "voti": {
-                "totale": 2,
+                "totali": 2,
                 "seggio_n_1": 0,
                 "seggio_n_2": 1,
                 "seggio_n_3": 0,
@@ -938,7 +921,7 @@
             "nominativo": "SALVE FRANCESCO",
             "lista": "STUDENTI PER LE LIBERTA' - AZIONE UNIVERSITARIA",
             "voti": {
-                "totale": 15,
+                "totali": 15,
                 "seggio_n_1": 0,
                 "seggio_n_2": 0,
                 "seggio_n_3": 11,
@@ -961,7 +944,7 @@
             "nominativo": "CIRILLO SALVATORE",
             "lista": "STUDENTI PER LE LIBERTA' - AZIONE UNIVERSITARIA",
             "voti": {
-                "totale": 29,
+                "totali": 29,
                 "seggio_n_1": 0,
                 "seggio_n_2": 3,
                 "seggio_n_3": 5,
@@ -984,7 +967,7 @@
             "nominativo": "PARLA FABRIZIO",
             "lista": "STUDENTI PER LE LIBERTA' - AZIONE UNIVERSITARIA",
             "voti": {
-                "totale": 1466,
+                "totali": 1466,
                 "seggio_n_1": 131,
                 "seggio_n_2": 213,
                 "seggio_n_3": 156,
@@ -1007,7 +990,7 @@
             "nominativo": "ARMONE FRANCESCO",
             "lista": "STUDENTI PER LE LIBERTA' - AZIONE UNIVERSITARIA",
             "voti": {
-                "totale": 94,
+                "totali": 94,
                 "seggio_n_1": 29,
                 "seggio_n_2": 5,
                 "seggio_n_3": 5,
@@ -1030,7 +1013,7 @@
             "nominativo": "CILIENTO FRANCESCO ROBERTO",
             "lista": "STUDENTI PER LE LIBERTA' - AZIONE UNIVERSITARIA",
             "voti": {
-                "totale": 0,
+                "totali": 0,
                 "seggio_n_1": 0,
                 "seggio_n_2": 0,
                 "seggio_n_3": 0,
@@ -1053,7 +1036,7 @@
             "nominativo": "MONTEMURRO PIERLUIGI",
             "lista": "STUDENTI PER LE LIBERTA' - AZIONE UNIVERSITARIA",
             "voti": {
-                "totale": 1,
+                "totali": 1,
                 "seggio_n_1": 0,
                 "seggio_n_2": 0,
                 "seggio_n_3": 0,
@@ -1076,7 +1059,7 @@
             "nominativo": "MATTANA MARCO",
             "lista": "STUDENTI PER LE LIBERTA' - AZIONE UNIVERSITARIA",
             "voti": {
-                "totale": 0,
+                "totali": 0,
                 "seggio_n_1": 0,
                 "seggio_n_2": 0,
                 "seggio_n_3": 0,
@@ -1099,7 +1082,7 @@
             "nominativo": "LARDO ALESSANDRO",
             "lista": "STUDENTI PER LE LIBERTA' - AZIONE UNIVERSITARIA",
             "voti": {
-                "totale": 1,
+                "totali": 1,
                 "seggio_n_1": 0,
                 "seggio_n_2": 0,
                 "seggio_n_3": 0,
@@ -1122,7 +1105,7 @@
             "nominativo": "CANALE PAOLA",
             "lista": "CONFEDERAZIONE DEGLI STUDENTI",
             "voti": {
-                "totale": 1,
+                "totali": 1,
                 "seggio_n_1": 0,
                 "seggio_n_2": 0,
                 "seggio_n_3": 0,
@@ -1145,7 +1128,7 @@
             "nominativo": "EL AZHAR ESSAADI MEHDI",
             "lista": "CONFEDERAZIONE DEGLI STUDENTI",
             "voti": {
-                "totale": 1,
+                "totali": 1,
                 "seggio_n_1": 0,
                 "seggio_n_2": 0,
                 "seggio_n_3": 0,
@@ -1168,7 +1151,7 @@
             "nominativo": "L'ABBATE GIUSEPPE detto PIPPO",
             "lista": "CONFEDERAZIONE DEGLI STUDENTI",
             "voti": {
-                "totale": 0,
+                "totali": 0,
                 "seggio_n_1": 0,
                 "seggio_n_2": 0,
                 "seggio_n_3": 0,
@@ -1191,7 +1174,7 @@
             "nominativo": "MONTEROSSO GABRIELE",
             "lista": "CONFEDERAZIONE DEGLI STUDENTI",
             "voti": {
-                "totale": 2611,
+                "totali": 2611,
                 "seggio_n_1": 142,
                 "seggio_n_2": 397,
                 "seggio_n_3": 386,
@@ -1214,7 +1197,7 @@
             "nominativo": "PAUDICE RAFFAELE",
             "lista": "CONFEDERAZIONE DEGLI STUDENTI",
             "voti": {
-                "totale": 0,
+                "totali": 0,
                 "seggio_n_1": 0,
                 "seggio_n_2": 0,
                 "seggio_n_3": 0,
@@ -1237,7 +1220,7 @@
             "nominativo": "QUINTINO MORENO detto MORENO",
             "lista": "CONFEDERAZIONE DEGLI STUDENTI",
             "voti": {
-                "totale": 0,
+                "totali": 0,
                 "seggio_n_1": 0,
                 "seggio_n_2": 0,
                 "seggio_n_3": 0,
@@ -1260,7 +1243,7 @@
             "nominativo": "SCOGNAMIGLIO LUCA detto SAMOA",
             "lista": "CONFEDERAZIONE DEGLI STUDENTI",
             "voti": {
-                "totale": 0,
+                "totali": 0,
                 "seggio_n_1": 0,
                 "seggio_n_2": 0,
                 "seggio_n_3": 0,
@@ -1283,7 +1266,7 @@
             "nominativo": "JERIES SHARBIL detto SHARBIL",
             "lista": "CONFEDERAZIONE DEGLI STUDENTI",
             "voti": {
-                "totale": 0,
+                "totali": 0,
                 "seggio_n_1": 0,
                 "seggio_n_2": 0,
                 "seggio_n_3": 0,
@@ -1306,7 +1289,7 @@
             "nominativo": "DELL'ARTE STEFANO",
             "lista": "CONFEDERAZIONE DEGLI STUDENTI",
             "voti": {
-                "totale": 272,
+                "totali": 272,
                 "seggio_n_1": 45,
                 "seggio_n_2": 12,
                 "seggio_n_3": 40,

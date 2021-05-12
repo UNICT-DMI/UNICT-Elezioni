@@ -44,6 +44,7 @@ class CNSU(Target):
         split_text = text[self.i].split()
         json_file = {
             "totali": int(split_text[1]),
+            "percentuale": self.__get_percentuale_votanti(text, list_of_seats)['totali']
         }
         for seat, votanti in zip(list_of_seats, split_text[2:]):
             json_file["seggio_n_" + str(seat)] = int(votanti)
@@ -90,7 +91,7 @@ class CNSU(Target):
     
     def __create_json_list(self, list_of_seats, nome_lista, list_info) -> dict:
         voti = {}
-        voti["totale"] = int(list_info.pop(0))
+        voti["totali"] = int(list_info.pop(0))
         for voto, seggio in zip(list_info, list_of_seats):
             voti["seggio_n_" + str(seggio)] = int(voto)
         return {
@@ -112,7 +113,7 @@ class CNSU(Target):
 
     def __create_json_candidato(self, list_of_seats, nome_lista, nome_candidato, candidato_info) -> dict:
         voti = {}
-        voti["totale"] = int(candidato_info.pop(0))
+        voti["totali"] = int(candidato_info.pop(0))
         for voto, seggio in zip(candidato_info, list_of_seats):
             voti["seggio_n_" + str(seggio)] = int(voto)
         return {
@@ -141,6 +142,14 @@ class CNSU(Target):
             else:
                 self.i += 1
         return json_file
+
+    def __get_quotient(self, votes, nota_votes, seats):
+        votes = int(votes['totali'])
+        whites = int(nota_votes['bianche']['totali'])
+        wrong = int(nota_votes['nulle']['totali'])
+        rejected = int(nota_votes['contestate']['totali'])
+        to_assing = seats[0]
+        return format((votes - (whites + wrong + rejected)) / to_assing, '.2f')
     
     def scrape_list(self, text) -> object:
         nome_organo = self.__find_name_organo(text)
@@ -149,7 +158,7 @@ class CNSU(Target):
         list_of_seats = self.__find_list_of_seats(text, list_of_not, seggi_da_assegnare)
         iscritti = self.__get_iscritti(text, list_of_seats)
         votanti = self.__get_votanti(text, list_of_seats)
-        percentuale_votanti = self.__get_percentuale_votanti(text, list_of_seats)
+        # percentuale_votanti = self.__get_percentuale_votanti(text, list_of_seats)
         list_of_white = []
         schede_bianche = self.find_card("BIANCHE", text, list_of_seats, list_of_white)
 
@@ -174,7 +183,8 @@ class CNSU(Target):
             "schede": schede,
             "iscritti": iscritti,
             "votanti": votanti,
-            "percentuale_votanti": percentuale_votanti,
+            "quoziente": self.__get_quotient(votanti, schede, seggi_da_assegnare),
+            # "percentuale_votanti": percentuale_votanti,
             "liste": list_info["liste"],
             "candidati": list_info["candidati"]
         }
