@@ -30,9 +30,9 @@ export const SearchForm = (props: Props): JSX.Element => {
   }
 
   function generateEntitiesSuggests(): JSX.Element[] {
-    return entitiesSuggests.map((suggestion) =>
+    return entitiesSuggests.map((suggestion, index) =>
       <a className="text-decoration-none"
-        key={`entity-${suggestion.name}${suggestion.years}${suggestion.path}`}
+        key={`entity-${suggestion.name}${suggestion.years}${suggestion.path}${index}`}
         href={getEntityURL(suggestion)}
         onClick={onClickSuggest}>
         <ListGroup.Item action variant="light">
@@ -52,9 +52,9 @@ export const SearchForm = (props: Props): JSX.Element => {
   }
 
   function generateListSuggests(): JSX.Element[] {
-    return listSuggests.map((suggestion) =>
+    return listSuggests.map((suggestion, index) =>
       <a className="text-decoration-none"
-        key={`list-${suggestion.name}${suggestion.entity}${suggestion.subEntity}${suggestion.year}`}
+        key={`list-${suggestion.name}${suggestion.entity}${suggestion.subEntity}${suggestion.year}${index}`}
         href={`#/${suggestion.path}`}
         onClick={onClickSuggest}>
         <ListGroup.Item action variant="light">
@@ -81,9 +81,9 @@ export const SearchForm = (props: Props): JSX.Element => {
   }
 
   function generateCandidatesSuggests(): JSX.Element[] {
-    return candidatesSuggests.map((suggestion) =>
+    return candidatesSuggests.map((suggestion, index) =>
       <a className="text-decoration-none"
-        key={`list-${suggestion.name}${suggestion.entity}${suggestion.year}`}
+        key={`list-${suggestion.name}${suggestion.entity}${suggestion.year}${index}`}
         href={`#/${suggestion.path}`}
         onClick={onClickSuggest}>
         <ListGroup.Item action variant="light">
