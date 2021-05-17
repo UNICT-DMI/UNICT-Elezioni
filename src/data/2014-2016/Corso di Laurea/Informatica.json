@@ -1,0 +1,111 @@
+{
+    "dipartimento": "INFORMATICA-Laurea (D.M. 270/2004)\nINFORMATICA APPLICATA-Laurea Triennale (D.M. 509/99)\nINFORMATICA-Laurea Triennale (D.M. 509/99)",
+    "seggi_da_assegnare": "0",
+    "quorum_raggiunto": false,
+    "schede": {
+        "bianche": {
+            "totali": 0,
+            "seggio_n_22": 0
+        },
+        "nulle": {
+            "totali": 0,
+            "seggio_n_22": 0
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_22": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "ORBIS \u2010 ARCH\u00c8",
+            "seggi": {
+                "seggi_pieni": "0",
+                "resti": "0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "0"
+            },
+            "voti": {
+                "totali": 0,
+                "seggio_n_22": 0
+            }
+        },
+        {
+            "nome": "UNIVERSIT\u00c0 POPOLARE",
+            "seggi": {
+                "seggi_pieni": "0",
+                "resti": "0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "0"
+            },
+            "voti": {
+                "totali": 0,
+                "seggio_n_22": 0
+            }
+        },
+        {
+            "nome": "STUDENTI POPOLARI",
+            "seggi": {
+                "seggi_pieni": "0",
+                "resti": "0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "0"
+            },
+            "voti": {
+                "totali": 0,
+                "seggio_n_22": 0
+            }
+        },
+        {
+            "totale": 0
+        }
+    ],
+    "eletti": [],
+    "non_eletti": [
+        {
+            "nominativo": "MERGIOTTI Francesco",
+            "lista": "ORBIS \u2010 ARCH\u00c8",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "PRIVITERA Danilo",
+            "lista": "ORBIS \u2010 ARCH\u00c8",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "BORDONARO Vincenzo",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "FARO Alfio Giuliano",
+            "lista": "STUDENTI POPOLARI",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "CALANNA Pierangelo",
+            "lista": "STUDENTI POPOLARI",
+            "voti": {
+                "totali": 0
+            }
+        }
+    ],
+    "quoziente": 0.0,
+    "votanti": {
+        "totali": 57,
+        "percentuale": 10.75,
+        "seggio_n_22": 57
+    },
+    "elettori": {
+        "totali": 530,
+        "seggio_n_22": 530
+    }
+}

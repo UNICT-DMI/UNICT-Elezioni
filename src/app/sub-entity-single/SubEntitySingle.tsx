@@ -16,7 +16,7 @@ function higherPolitics(): JSX.Element | JSX.Element[] {
   let hasHighPoliticsSeats = false;
 
   datareader.getYearsOfSubEntity(params.entity, params.subEntity).map((y) => {
-    if (datareader.getSeatsId(y, params.subEntity).length > 0) {
+    if (datareader.getSeatsId(y, params.subEntity) && datareader.getSeatsId(y, params.subEntity).length > 0) {
       hasHighPoliticsSeats = true;
     }
   });

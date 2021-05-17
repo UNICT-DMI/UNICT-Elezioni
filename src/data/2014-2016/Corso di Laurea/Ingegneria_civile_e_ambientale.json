@@ -1,0 +1,126 @@
+{
+    "dipartimento": "INGEGNERIA CIVILE E AMBIENTALE-Laurea (D.M. 270/2004)\nINGEGNERIA CIVILE-Laurea Triennale (D.M. 509/99)\nINGEGNERIA PER L'AMBIENTE E IL TERRITORIO-Laurea Triennale (D.M. 509/99)",
+    "seggi_da_assegnare": "5",
+    "schede": {
+        "bianche": {
+            "totali": 10,
+            "seggio_n_30": 10
+        },
+        "nulle": {
+            "totali": 14,
+            "seggio_n_30": 14
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_30": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "ARES",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "1,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 1,
+                "seggio_n_30": 1
+            }
+        },
+        {
+            "nome": "ORBIS \u2010 INGEGNERIATTIVA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "22,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 22,
+                "seggio_n_30": 22
+            }
+        },
+        {
+            "nome": "STUDENTI OGGI, INGEGNERI DOMANI",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "57,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 57,
+                "seggio_n_30": 57
+            }
+        },
+        {
+            "nome": "UNIVERSIT\u00c0 POPOLARE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "74,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 74,
+                "seggio_n_30": 74
+            }
+        },
+        {
+            "nome": "ORIZZONTE ITALIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "48,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 48,
+                "seggio_n_30": 48
+            }
+        },
+        {
+            "nome": "ACTEA",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "48,8",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 126,
+                "seggio_n_30": 126
+            }
+        },
+        {
+            "nome": "SOGNO CIVILE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "58,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 58,
+                "seggio_n_30": 58
+            }
+        },
+        {
+            "totale": 386
+        }
+    ],
+    "eletti": [],
+    "non_eletti": [],
+    "quoziente": 77.2,
+    "votanti": {
+        "totali": 410,
+        "percentuale": 52.3,
+        "seggio_n_30": 410
+    },
+    "elettori": {
+        "totali": 784,
+        "seggio_n_30": 784
+    }
+}

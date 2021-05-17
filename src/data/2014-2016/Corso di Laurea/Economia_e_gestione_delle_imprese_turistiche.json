@@ -1,0 +1,100 @@
+{
+    "dipartimento": "ECONOMIA E GESTIONE DELLE IMPRESE TURISTICHE-Laurea (D.M. 270/2004)\nECONOMIA E GESTIONE DELLE IMPRESE TURISTICHE-Laurea Triennale (D.M. 509/99)\nMANAGEMENT TURISTICO-Laurea Specialistica biennale (D.M. 509/99)",
+    "seggi_da_assegnare": "5",
+    "schede": {
+        "bianche": {
+            "totali": 2,
+            "seggio_n_10": 2
+        },
+        "nulle": {
+            "totali": 5,
+            "seggio_n_10": 5
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_10": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "WE LOVE UNICT",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "24,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 57,
+                "seggio_n_10": 57
+            }
+        },
+        {
+            "nome": "ARES",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "11,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 11,
+                "seggio_n_10": 11
+            }
+        },
+        {
+            "nome": "LIBERTAS \u2010 LIBERI E FORTI",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "9,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 9,
+                "seggio_n_10": 9
+            }
+        },
+        {
+            "nome": "ORIZZONTE ITALIA",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "5,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 71,
+                "seggio_n_10": 71
+            }
+        },
+        {
+            "nome": "ACTEA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "17,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 17,
+                "seggio_n_10": 17
+            }
+        },
+        {
+            "totale": 165
+        }
+    ],
+    "eletti": [],
+    "non_eletti": [],
+    "quoziente": 33.0,
+    "votanti": {
+        "totali": 172,
+        "percentuale": 23.21,
+        "seggio_n_10": 172
+    },
+    "elettori": {
+        "totali": 741,
+        "seggio_n_10": 741
+    }
+}

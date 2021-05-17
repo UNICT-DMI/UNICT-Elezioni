@@ -1,0 +1,148 @@
+{
+    "dipartimento": "SCIENZE E LINGUE PER LA COMUNICAZIONE-Laurea (D.M. 270/2004)\nSCIENZE DELLA COMUNICAZIONE-Laurea (D.M. 270/2004)\nSCIENZE DELLA COMUNICAZIONE-Laurea Triennale (D.M. 509/99)",
+    "seggi_da_assegnare": "0",
+    "quorum_raggiunto": false,
+    "schede": {
+        "bianche": {
+            "totali": 0,
+            "seggio_n_13": 0
+        },
+        "nulle": {
+            "totali": 0,
+            "seggio_n_13": 0
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_13": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "0",
+                "resti": "0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "0"
+            },
+            "voti": {
+                "totali": 0,
+                "seggio_n_13": 0
+            }
+        },
+        {
+            "nome": "ORIZZONTE ITALIA",
+            "seggi": {
+                "seggi_pieni": "0",
+                "resti": "0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "0"
+            },
+            "voti": {
+                "totali": 0,
+                "seggio_n_13": 0
+            }
+        },
+        {
+            "nome": "EUREKA \u2010 LIBERADEMOS \u2010 REVOLUTION \u2010 SVEGLIATI UNIVERSIT\u00c0",
+            "seggi": {
+                "seggi_pieni": "0",
+                "resti": "0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "0"
+            },
+            "voti": {
+                "totali": 0,
+                "seggio_n_13": 0
+            }
+        },
+        {
+            "nome": "ACTEA",
+            "seggi": {
+                "seggi_pieni": "0",
+                "resti": "0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "0"
+            },
+            "voti": {
+                "totali": 0,
+                "seggio_n_13": 0
+            }
+        },
+        {
+            "nome": "PD \u2010 PARTITO DEMOCRATICO",
+            "seggi": {
+                "seggi_pieni": "0",
+                "resti": "0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "0"
+            },
+            "voti": {
+                "totali": 0,
+                "seggio_n_13": 0
+            }
+        },
+        {
+            "nome": "KAMPUS",
+            "seggi": {
+                "seggi_pieni": "0",
+                "resti": "0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "0"
+            },
+            "voti": {
+                "totali": 0,
+                "seggio_n_13": 0
+            }
+        },
+        {
+            "nome": "LIBERTAS \u2010 LIBERI E FORTI",
+            "seggi": {
+                "seggi_pieni": "0",
+                "resti": "0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "0"
+            },
+            "voti": {
+                "totali": 0,
+                "seggio_n_13": 0
+            }
+        },
+        {
+            "totale": 0
+        }
+    ],
+    "eletti": [],
+    "non_eletti": [
+        {
+            "nominativo": "CUTAIA Manuel Gaetano",
+            "lista": "KAMPUS",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "STELLA Roberta",
+            "lista": "KAMPUS",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "CAPIZZI Eva",
+            "lista": "KAMPUS",
+            "voti": {
+                "totali": 0
+            }
+        }
+    ],
+    "quoziente": 0.0,
+    "votanti": {
+        "totali": 152,
+        "percentuale": 12.5,
+        "seggio_n_13": 152
+    },
+    "elettori": {
+        "totali": 1216
+    }
+}

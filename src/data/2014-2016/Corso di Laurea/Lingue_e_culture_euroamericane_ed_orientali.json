@@ -1,0 +1,146 @@
+{
+    "dipartimento": "LINGUE E CULTURE EUROPEE EUROAMERICANE ED ORIENTALI-Laurea (D.M. 270/2004)\nLINGUE E CULTURE EUROAMERICANE ED ORIENTALI-Laurea (D.M. 270/2004)\nLINGUE E CULTURE EUROPEE-Laurea Triennale (D.M. 509/99)",
+    "seggi_da_assegnare": "5",
+    "schede": {
+        "bianche": {
+            "totali": 9,
+            "seggio_n_14": 9
+        },
+        "nulle": {
+            "totali": 15,
+            "seggio_n_14": 15
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_14": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "2,2",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 46,
+                "seggio_n_14": 46
+            }
+        },
+        {
+            "nome": "ARES",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "5,2",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 49,
+                "seggio_n_14": 49
+            }
+        },
+        {
+            "nome": "UNILAB",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "28,2",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 72,
+                "seggio_n_14": 72
+            }
+        },
+        {
+            "nome": "STUDENTI UNICT",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "12,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 12,
+                "seggio_n_14": 12
+            }
+        },
+        {
+            "nome": "ARCADIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "24,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 24,
+                "seggio_n_14": 24
+            }
+        },
+        {
+            "nome": "UDU",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "16,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 16,
+                "seggio_n_14": 16
+            }
+        },
+        {
+            "totale": 219
+        }
+    ],
+    "eletti": [],
+    "non_eletti": [
+        {
+            "nominativo": "COCO Federica",
+            "lista": "UDU",
+            "voti": {
+                "totali": 3,
+                "seggio_n_14": 3
+            }
+        },
+        {
+            "nominativo": "NOCERA Federica",
+            "lista": "UDU",
+            "voti": {
+                "totali": 0,
+                "seggio_n_14": 0
+            }
+        },
+        {
+            "nominativo": "ARDILIO Giuseppe",
+            "lista": "UDU",
+            "voti": {
+                "totali": 0,
+                "seggio_n_14": 0
+            }
+        },
+        {
+            "nominativo": "GUZZETTA Rosario",
+            "lista": "UDU",
+            "voti": {
+                "totali": 4,
+                "seggio_n_14": 4
+            }
+        }
+    ],
+    "quoziente": 43.8,
+    "votanti": {
+        "totali": 243,
+        "percentuale": 20.08,
+        "seggio_n_14": 243
+    },
+    "elettori": {
+        "totali": 1210,
+        "seggio_n_14": 1210
+    }
+}

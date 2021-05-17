@@ -1,0 +1,165 @@
+{
+    "dipartimento": "ECONOMIA-Laurea (D.M. 270/2004)\nECONOMIA-Laurea Triennale (D.M. 509/99)",
+    "seggi_da_assegnare": "5",
+    "schede": {
+        "bianche": {
+            "totali": 6,
+            "seggio_n_9": 6
+        },
+        "nulle": {
+            "totali": 49,
+            "seggio_n_9": 49
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_9": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "ARES",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "1,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 1,
+                "seggio_n_9": 1
+            }
+        },
+        {
+            "nome": "LIBERTAS \u2010 LIBERI E FORTI",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "59,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 59,
+                "seggio_n_9": 59
+            }
+        },
+        {
+            "nome": "STUDENTI POPOLARI",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "25,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 25,
+                "seggio_n_9": 25
+            }
+        },
+        {
+            "nome": "ARCH\u00c8",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "68,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 68,
+                "seggio_n_9": 68
+            }
+        },
+        {
+            "nome": "UNIVERSIT\u00c0 POPOLARE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "1,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 1,
+                "seggio_n_9": 1
+            }
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "20,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 20,
+                "seggio_n_9": 20
+            }
+        },
+        {
+            "nome": "ORIZZONTE ITALIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "43,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 43,
+                "seggio_n_9": 43
+            }
+        },
+        {
+            "nome": "ACTEA",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "2,2",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 74,
+                "seggio_n_9": 74
+            }
+        },
+        {
+            "nome": "EUREKA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "16,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 16,
+                "seggio_n_9": 16
+            }
+        },
+        {
+            "nome": "ARCADIA \u2010 SVEGLIATI UNIVERSIT\u00c0",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "52,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 52,
+                "seggio_n_9": 52
+            }
+        },
+        {
+            "totale": 359
+        }
+    ],
+    "eletti": [],
+    "non_eletti": [],
+    "quoziente": 71.8,
+    "votanti": {
+        "totali": 414,
+        "percentuale": 34.76,
+        "seggio_n_9": 414
+    },
+    "elettori": {
+        "totali": 1191,
+        "seggio_n_9": 1191
+    }
+}

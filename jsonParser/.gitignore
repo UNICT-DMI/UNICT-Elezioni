@@ -2,3 +2,4 @@
 node_modules/
 *.js
 __pycache__/
+PDF
