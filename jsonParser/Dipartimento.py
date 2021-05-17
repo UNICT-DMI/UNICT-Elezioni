@@ -13,7 +13,7 @@ class Dipartimento(Target):
         return nome
         
     def __find_info_lists(self, text) -> None:
-        while "L I S T E" not in text[self.i].upper():
+        while "L I S T E" not in text[self.i].upper() and "LISTE" not in text[self.i].upper():
             self.i += 1
         self.i += 1
 
