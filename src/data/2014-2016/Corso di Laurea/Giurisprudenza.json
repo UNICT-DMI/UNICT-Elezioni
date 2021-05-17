@@ -1,0 +1,285 @@
+{
+    "dipartimento": "GIURISPRUDENZA-Laurea Magistrale a ciclo unico (D.M. 270/2004)\nGIURISPRUDENZA-Laurea Specialistica biennale (D.M. 509/99)\nOPERATORE GIUDIZIARIO-Laurea Triennale (D.M. 509/99)\nOPERATORE GIURIDICO D'IMPRESA-Laurea Triennale (D.M. 509/99)\nSCIENZE GIURIDICHE-Laurea Triennale (D.M. 509/99)",
+    "seggi_da_assegnare": "9",
+    "schede": {
+        "bianche": {
+            "totali": 48,
+            "seggio_n_1": 21,
+            "seggio_n_2": 14,
+            "seggio_n_3": 13
+        },
+        "nulle": {
+            "totali": 66,
+            "seggio_n_1": 28,
+            "seggio_n_2": 26,
+            "seggio_n_3": 12
+        },
+        "contestate": {
+            "totali": 13,
+            "seggio_n_1": 1,
+            "seggio_n_2": 12,
+            "seggio_n_3": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "70,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 70,
+                "seggio_n_1": 27,
+                "seggio_n_2": 16,
+                "seggio_n_3": 27
+            }
+        },
+        {
+            "nome": "UNITI SI VINCE",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "22,7",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 372,
+                "seggio_n_1": 128,
+                "seggio_n_2": 129,
+                "seggio_n_3": 115
+            }
+        },
+        {
+            "nome": "ARES",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "6,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 6,
+                "seggio_n_1": 0,
+                "seggio_n_2": 3,
+                "seggio_n_3": 3
+            }
+        },
+        {
+            "nome": "FRONTE UNIVERSITARIO \u2010 UNILAB",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "55,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 55,
+                "seggio_n_1": 14,
+                "seggio_n_2": 28,
+                "seggio_n_3": 13
+            }
+        },
+        {
+            "nome": "LIBERTAS \u2010 LIBERI E FORTI",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "100,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 100,
+                "seggio_n_1": 21,
+                "seggio_n_2": 39,
+                "seggio_n_3": 40
+            }
+        },
+        {
+            "nome": "ARCH\u00c8 \u2010 NIKE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "85,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 85,
+                "seggio_n_1": 37,
+                "seggio_n_2": 24,
+                "seggio_n_3": 24
+            }
+        },
+        {
+            "nome": "UNIVERSIT\u00c0 POPOLARE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "104,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 104,
+                "seggio_n_1": 53,
+                "seggio_n_2": 25,
+                "seggio_n_3": 26
+            }
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "27,3",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 202,
+                "seggio_n_1": 80,
+                "seggio_n_2": 72,
+                "seggio_n_3": 50
+            }
+        },
+        {
+            "nome": "STUDENTIUNICT \u2010 CONTROCAMPUS",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "97,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 97,
+                "seggio_n_1": 33,
+                "seggio_n_2": 39,
+                "seggio_n_3": 25
+            }
+        },
+        {
+            "nome": "DESTRA \u2010 LEX",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "107,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 107,
+                "seggio_n_1": 39,
+                "seggio_n_2": 43,
+                "seggio_n_3": 25
+            }
+        },
+        {
+            "nome": "ORIZZONTE ITALIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "72,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 72,
+                "seggio_n_1": 26,
+                "seggio_n_2": 27,
+                "seggio_n_3": 19
+            }
+        },
+        {
+            "nome": "ACTEA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "61,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 61,
+                "seggio_n_1": 28,
+                "seggio_n_2": 17,
+                "seggio_n_3": 16
+            }
+        },
+        {
+            "nome": "REVOLUTION",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "6,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 6,
+                "seggio_n_1": 5,
+                "seggio_n_2": 0,
+                "seggio_n_3": 1
+            }
+        },
+        {
+            "nome": "ARCADIA \u2010 SIRACUSA FUTURO \u2010 EUREKA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "129,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 129,
+                "seggio_n_1": 48,
+                "seggio_n_2": 45,
+                "seggio_n_3": 36
+            }
+        },
+        {
+            "nome": "PD \u2010 KAMPUS",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "102,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 102,
+                "seggio_n_1": 39,
+                "seggio_n_2": 38,
+                "seggio_n_3": 25
+            }
+        },
+        {
+            "nome": "SINISTRA UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "4,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 4,
+                "seggio_n_1": 2,
+                "seggio_n_2": 2,
+                "seggio_n_3": 0
+            }
+        },
+        {
+            "totale": 1572
+        }
+    ],
+    "eletti": [],
+    "non_eletti": [],
+    "quoziente": 174.667,
+    "votanti": {
+        "totali": 1699,
+        "percentuale": 35.02,
+        "seggio_n_1": 630,
+        "seggio_n_2": 599,
+        "seggio_n_3": 470
+    },
+    "elettori": {
+        "totali": 4851,
+        "seggio_n_1": 1602,
+        "seggio_n_2": 1685,
+        "seggio_n_3": 1564
+    }
+}

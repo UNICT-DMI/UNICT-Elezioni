@@ -1,0 +1,74 @@
+{
+    "dipartimento": "BENI CULTURALI-Laurea (D.M. 270/2004)\nSCIENZE DEI BENI CULTURALI-Laurea Triennale (D.M. 509/99)",
+    "seggi_da_assegnare": "5",
+    "schede": {
+        "bianche": {
+            "totali": 18,
+            "seggio_n_15": 18
+        },
+        "nulle": {
+            "totali": 1,
+            "seggio_n_15": 1
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_15": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "LIBERTAS \u2010 UNILAB",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "2,4",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 28,
+                "seggio_n_15": 28
+            }
+        },
+        {
+            "nome": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "2,4",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 28,
+                "seggio_n_15": 28
+            }
+        },
+        {
+            "nome": "UDU",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "8,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 8,
+                "seggio_n_15": 8
+            }
+        },
+        {
+            "totale": 64
+        }
+    ],
+    "eletti": [],
+    "non_eletti": [],
+    "quoziente": 12.8,
+    "votanti": {
+        "totali": 83,
+        "percentuale": 16.9,
+        "seggio_n_15": 83
+    },
+    "elettori": {
+        "totali": 491,
+        "seggio_n_15": 491
+    }
+}
