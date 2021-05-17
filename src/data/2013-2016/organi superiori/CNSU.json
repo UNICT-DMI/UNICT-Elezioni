@@ -1,0 +1,521 @@
+{
+    "organo": "ELEZIONI DEL CONSIGLIO NAZIONALE DEGLI STUDENTI UNIVERSITARI (C.N.S.U.)",
+    "seggi_da_assegnare": 19,
+    "schede": {
+        "bianche": {
+            "totali": 40,
+            "seggio_n_1": 2
+        },
+        "nulle": {
+            "totali": 85,
+            "seggio_n_1": 2
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_1": 0
+        },
+        "valide": {
+            "totali": 458,
+            "seggio_n_1": 156
+        },
+        "votate": {
+            "totali": 4705,
+            "seggio_n_1": 160
+        }
+    },
+    "iscritti": {
+        "totali": 50667,
+        "seggio_n_1": 3574
+    },
+    "votanti": {
+        "totali": 4705,
+        "percentuale": 9,
+        "seggio_n_1": 230
+    },
+    "quoziente": "241.05",
+    "liste": [
+        {
+            "nome": "ATENEO STUDENTI - OBIETTIVO STUDENTI",
+            "voti": {
+                "totali": 387,
+                "seggio_n_1": 8
+            }
+        },
+        {
+            "nome": "UDU - RETE UNIVERSITARIA NAZIONALE LISTE INDIPENDENTI",
+            "voti": {
+                "totali": 812,
+                "seggio_n_1": 5
+            }
+        },
+        {
+            "nome": "MONTICELLI CARLO",
+            "voti": {
+                "totali": 4,
+                "seggio_n_1": 1
+            }
+        },
+        {
+            "nome": "RUN - STUDENTI DI SINISTRA",
+            "voti": {
+                "totali": 835,
+                "seggio_n_1": 34
+            }
+        },
+        {
+            "nome": "CONFEDERAZIONE DEGLI STUDENTI",
+            "voti": {
+                "totali": 247,
+                "seggio_n_1": 4
+            }
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 191,
+                "seggio_n_1": 151
+            }
+        },
+        {
+            "nome": "STUDENTI PER LE LIBERTA'",
+            "voti": {
+                "totali": 347,
+                "seggio_n_1": 15
+            }
+        }
+    ],
+    "candidati": [
+        {
+            "nominativo": "NAPOLI SOCCORSO detto \"FORZA NAPOLI\"",
+            "lista": "ATENEO STUDENTI - OBIETTIVO STUDENTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_1": 0
+            }
+        },
+        {
+            "nominativo": "CATALFAMO SILVIA detta \"SILVIA\" o \"CATALFANO\"",
+            "lista": "ATENEO STUDENTI - OBIETTIVO STUDENTI",
+            "voti": {
+                "totali": 3,
+                "seggio_n_1": 0
+            }
+        },
+        {
+            "nominativo": "DI MONTE MARCO",
+            "lista": "ATENEO STUDENTI - OBIETTIVO STUDENTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_1": 0
+            }
+        },
+        {
+            "nominativo": "SCIALO' ANDREA",
+            "lista": "ATENEO STUDENTI - OBIETTIVO STUDENTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_1": 0
+            }
+        },
+        {
+            "nominativo": "FERRARA VALERIO EMANUELE",
+            "lista": "ATENEO STUDENTI - OBIETTIVO STUDENTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_1": 0
+            }
+        },
+        {
+            "nominativo": "RAIMONDI GABRIELE detto \"RAI\"",
+            "lista": "ATENEO STUDENTI - OBIETTIVO STUDENTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_1": 0
+            }
+        },
+        {
+            "nominativo": "DE MAURO LUCA",
+            "lista": "ATENEO STUDENTI - OBIETTIVO STUDENTI",
+            "voti": {
+                "totali": 354,
+                "seggio_n_1": 8
+            }
+        },
+        {
+            "nominativo": "MARZOCCO ALESSANDRO detto \"FREDDO\"",
+            "lista": "ATENEO STUDENTI - OBIETTIVO STUDENTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_1": 0
+            }
+        },
+        {
+            "nominativo": "DI CHIARA SALVATORE detto \"SALVO\"",
+            "lista": "UDU - RETE UNIVERSITARIA NAZIONALE LISTE INDIPENDENTI",
+            "voti": {
+                "totali": 744,
+                "seggio_n_1": 4
+            }
+        },
+        {
+            "nominativo": "MELONI MARCO",
+            "lista": "UDU - RETE UNIVERSITARIA NAZIONALE LISTE INDIPENDENTI",
+            "voti": {
+                "totali": 2,
+                "seggio_n_1": 0
+            }
+        },
+        {
+            "nominativo": "CERAVOLO ROBERTO",
+            "lista": "UDU - RETE UNIVERSITARIA NAZIONALE LISTE INDIPENDENTI",
+            "voti": {
+                "totali": 1,
+                "seggio_n_1": 0
+            }
+        },
+        {
+            "nominativo": "TRIVISONNO ANTONIO",
+            "lista": "UDU - RETE UNIVERSITARIA NAZIONALE LISTE INDIPENDENTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_1": 0
+            }
+        },
+        {
+            "nominativo": "SANTORO ANTONIO",
+            "lista": "UDU - RETE UNIVERSITARIA NAZIONALE LISTE INDIPENDENTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_1": 0
+            }
+        },
+        {
+            "nominativo": "SBRESCIA GIUSEPPE",
+            "lista": "UDU - RETE UNIVERSITARIA NAZIONALE LISTE INDIPENDENTI",
+            "voti": {
+                "totali": 1,
+                "seggio_n_1": 0
+            }
+        },
+        {
+            "nominativo": "LORUSSO FRANCESCO detto \"FRANKIE\"",
+            "lista": "MONTICELLI CARLO",
+            "voti": {
+                "totali": 1,
+                "seggio_n_1": 0
+            }
+        },
+        {
+            "nominativo": "ARISTOTILE ANGELA NICOLETTA",
+            "lista": "MONTICELLI CARLO",
+            "voti": {
+                "totali": 0,
+                "seggio_n_1": 0
+            }
+        },
+        {
+            "nominativo": "GOVERNALE ANDREA",
+            "lista": "MONTICELLI CARLO",
+            "voti": {
+                "totali": 2,
+                "seggio_n_1": 0
+            }
+        },
+        {
+            "nominativo": "IANNILLO STEFANO KENJI detto \"KENJI\"",
+            "lista": "MONTICELLI CARLO",
+            "voti": {
+                "totali": 0,
+                "seggio_n_1": 0
+            }
+        },
+        {
+            "nominativo": "MERANDO DAVIDE",
+            "lista": "MONTICELLI CARLO",
+            "voti": {
+                "totali": 0,
+                "seggio_n_1": 0
+            }
+        },
+        {
+            "nominativo": "CRISCITO GIUSEPPE detto \"PEPPE\"",
+            "lista": "MONTICELLI CARLO",
+            "voti": {
+                "totali": 1,
+                "seggio_n_1": 0
+            }
+        },
+        {
+            "nominativo": "BARILE REGINA MARIA INCORONATA",
+            "lista": "MONTICELLI CARLO",
+            "voti": {
+                "totali": 1,
+                "seggio_n_1": 0
+            }
+        },
+        {
+            "nominativo": "PAVONE MARA",
+            "lista": "MONTICELLI CARLO",
+            "voti": {
+                "totali": 0,
+                "seggio_n_1": 0
+            }
+        },
+        {
+            "nominativo": "ESPOSITO FRANCESCA",
+            "lista": "RUN - STUDENTI DI SINISTRA",
+            "voti": {
+                "totali": 5,
+                "seggio_n_1": 1
+            }
+        },
+        {
+            "nominativo": "SARDONE ANTONIA",
+            "lista": "RUN - STUDENTI DI SINISTRA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_1": 0
+            }
+        },
+        {
+            "nominativo": "IACONO SALVATORE",
+            "lista": "RUN - STUDENTI DI SINISTRA",
+            "voti": {
+                "totali": 64,
+                "seggio_n_1": 8
+            }
+        },
+        {
+            "nominativo": "SAMMARTINO EMANUEL GIOAN",
+            "lista": "RUN - STUDENTI DI SINISTRA",
+            "voti": {
+                "totali": 662,
+                "seggio_n_1": 19
+            }
+        },
+        {
+            "nominativo": "MACRI' MICHELE",
+            "lista": "RUN - STUDENTI DI SINISTRA",
+            "voti": {
+                "totali": 23,
+                "seggio_n_1": 1
+            }
+        },
+        {
+            "nominativo": "VARRICCHIO OSVALDO",
+            "lista": "RUN - STUDENTI DI SINISTRA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_1": 0
+            }
+        },
+        {
+            "nominativo": "LUIU GIOVANNI MIRKO",
+            "lista": "RUN - STUDENTI DI SINISTRA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_1": 0
+            }
+        },
+        {
+            "nominativo": "VONA ANTONIO",
+            "lista": "RUN - STUDENTI DI SINISTRA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_1": 0
+            }
+        },
+        {
+            "nominativo": "SILVAGGI RAFFAELE",
+            "lista": "RUN - STUDENTI DI SINISTRA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_1": 0
+            }
+        },
+        {
+            "nominativo": "TESTA FRANCESCO detto \"CICCIO\"",
+            "lista": "CONFEDERAZIONE DEGLI STUDENTI",
+            "voti": {
+                "totali": 1,
+                "seggio_n_1": 0
+            }
+        },
+        {
+            "nominativo": "BORRELLI FABIANA",
+            "lista": "CONFEDERAZIONE DEGLI STUDENTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_1": 0
+            }
+        },
+        {
+            "nominativo": "DE STEFANO ERNESTO",
+            "lista": "CONFEDERAZIONE DEGLI STUDENTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_1": 0
+            }
+        },
+        {
+            "nominativo": "LANGELLA LUCA",
+            "lista": "CONFEDERAZIONE DEGLI STUDENTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_1": 0
+            }
+        },
+        {
+            "nominativo": "MAFFEI CARLO",
+            "lista": "CONFEDERAZIONE DEGLI STUDENTI",
+            "voti": {
+                "totali": 226,
+                "seggio_n_1": 3
+            }
+        },
+        {
+            "nominativo": "PATANE' ALFIO MARCO",
+            "lista": "CONFEDERAZIONE DEGLI STUDENTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_1": 0
+            }
+        },
+        {
+            "nominativo": "PETRELLA LUIGI",
+            "lista": "CONFEDERAZIONE DEGLI STUDENTI",
+            "voti": {
+                "totali": 1,
+                "seggio_n_1": 0
+            }
+        },
+        {
+            "nominativo": "SCOGNAMIGLIO LUCA",
+            "lista": "CONFEDERAZIONE DEGLI STUDENTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_1": 0
+            }
+        },
+        {
+            "nominativo": "VITA ANTONIO",
+            "lista": "CONFEDERAZIONE DEGLI STUDENTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_1": 0
+            }
+        },
+        {
+            "nominativo": "KORY ANTONIO detto \"CORI\" o \"CORY\" o \"PAOLO\"",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 1766,
+                "seggio_n_1": 131
+            }
+        },
+        {
+            "nominativo": "MINERVA NICOLA",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 2,
+                "seggio_n_1": 0
+            }
+        },
+        {
+            "nominativo": "ORONZIO PASQUALE detto \"PACO\" o \"ORONZO\"",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 12,
+                "seggio_n_1": 1
+            }
+        },
+        {
+            "nominativo": "SCANO MARCO",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_1": 0
+            }
+        },
+        {
+            "nominativo": "SCIORTINO GAETANO",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 81,
+                "seggio_n_1": 18
+            }
+        },
+        {
+            "nominativo": "VINCENTI ANTONIO",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_1": 0
+            }
+        },
+        {
+            "nominativo": "BIOSA IGNAZIO",
+            "lista": "STUDENTI PER LE LIBERTA'",
+            "voti": {
+                "totali": 1,
+                "seggio_n_1": 0
+            }
+        },
+        {
+            "nominativo": "BRUZZANITI FRANCESCO",
+            "lista": "STUDENTI PER LE LIBERTA'",
+            "voti": {
+                "totali": 1,
+                "seggio_n_1": 0
+            }
+        },
+        {
+            "nominativo": "CIARDULLI ANDREA NICOLA detto \"ANDREA\"",
+            "lista": "STUDENTI PER LE LIBERTA'",
+            "voti": {
+                "totali": 316,
+                "seggio_n_1": 12
+            }
+        },
+        {
+            "nominativo": "FONTANA GIUSEPPE detto \"PEPPE\"",
+            "lista": "STUDENTI PER LE LIBERTA'",
+            "voti": {
+                "totali": 0,
+                "seggio_n_1": 0
+            }
+        },
+        {
+            "nominativo": "LOI MICHELA",
+            "lista": "STUDENTI PER LE LIBERTA'",
+            "voti": {
+                "totali": 0,
+                "seggio_n_1": 0
+            }
+        },
+        {
+            "nominativo": "MALARA FRANCESCO MARIA",
+            "lista": "STUDENTI PER LE LIBERTA'",
+            "voti": {
+                "totali": 4,
+                "seggio_n_1": 1
+            }
+        },
+        {
+            "nominativo": "TERRANOVA GIANLUCA",
+            "lista": "STUDENTI PER LE LIBERTA'",
+            "voti": {
+                "totali": 0,
+                "seggio_n_1": 0
+            }
+        },
+        {
+            "nominativo": "FASANO FEDERICA",
+            "lista": "STUDENTI PER LE LIBERTA'",
+            "voti": {
+                "totali": 0,
+                "seggio_n_1": 0
+            }
+        }
+    ]
+}
