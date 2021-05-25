@@ -59,8 +59,66 @@
             "totale": 64
         }
     ],
-    "eletti": [],
-    "non_eletti": [],
+    "eletti": [
+        {
+            "nominativo": "SAPIENZA Gaetano",
+            "lista": "LIBERTAS \u2010 UNILAB",
+            "voti": {
+                "totali": 24,
+                "seggio_n_15": 24
+            }
+        },
+        {
+            "nominativo": "AUTERI Luigi",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 10,
+                "seggio_n_15": 10
+            }
+        },
+        {
+            "nominativo": "LIOTTA Emanuele",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 15,
+                "seggio_n_15": 15
+            }
+        },
+        {
+            "nominativo": "VECCHIO Alessandro",
+            "lista": "UDU",
+            "voti": {
+                "totali": 4,
+                "seggio_n_15": 4
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "MARULLO Vanessa",
+            "lista": "UDU",
+            "voti": {
+                "totali": 1,
+                "seggio_n_15": 1
+            }
+        },
+        {
+            "nominativo": "TROPEA Marika",
+            "lista": "UDU",
+            "voti": {
+                "totali": 0,
+                "seggio_n_15": 0
+            }
+        },
+        {
+            "nominativo": "PALADINO Alfrida",
+            "lista": "UDU",
+            "voti": {
+                "totali": 0,
+                "seggio_n_15": 0
+            }
+        }
+    ],
     "quoziente": 12.8,
     "votanti": {
         "totali": 83,

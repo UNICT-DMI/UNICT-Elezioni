@@ -59,8 +59,74 @@
             "totale": 115
         }
     ],
-    "eletti": [],
-    "non_eletti": [],
+    "eletti": [
+        {
+            "nominativo": "MAUGERI Monica",
+            "lista": "IBLEAMENTE",
+            "voti": {
+                "totali": 13,
+                "seggio_n_38": 13
+            }
+        },
+        {
+            "nominativo": "ROCCA Giorgio",
+            "lista": "IBLEAMENTE",
+            "voti": {
+                "totali": 14,
+                "seggio_n_38": 14
+            }
+        },
+        {
+            "nominativo": "CHESSARI Giose",
+            "lista": "UNIBLEA",
+            "voti": {
+                "totali": 20,
+                "seggio_n_38": 20
+            }
+        },
+        {
+            "nominativo": "CENTAMORE Alessia",
+            "lista": "UNIBLEA",
+            "voti": {
+                "totali": 11,
+                "seggio_n_38": 11
+            }
+        },
+        {
+            "nominativo": "SCRIBANO Ismael Giovanni",
+            "lista": "UNIBLEA",
+            "voti": {
+                "totali": 14,
+                "seggio_n_38": 14
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "CAPONNETTO Marta Rita",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_38": 0
+            }
+        },
+        {
+            "nominativo": "LA ROCCA Federica",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_38": 0
+            }
+        },
+        {
+            "nominativo": "ANTOCI Sofia",
+            "lista": "IBLEAMENTE",
+            "voti": {
+                "totali": 5,
+                "seggio_n_38": 5
+            }
+        }
+    ],
     "quoziente": 23.0,
     "votanti": {
         "totali": 151,

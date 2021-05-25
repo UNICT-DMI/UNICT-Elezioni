@@ -72,8 +72,210 @@
             "totale": 235
         }
     ],
-    "eletti": [],
-    "non_eletti": [],
+    "eletti": [
+        {
+            "nominativo": "CALCAGNO Renata",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 8,
+                "seggio_n_26": 8
+            }
+        },
+        {
+            "nominativo": "SPAMPINATO Manuele Alfio",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 30,
+                "seggio_n_26": 30
+            }
+        },
+        {
+            "nominativo": "TROVATO Salvatore Gabriele",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 5,
+                "seggio_n_26": 5
+            }
+        },
+        {
+            "nominativo": "D'ARCO David",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 23,
+                "seggio_n_26": 23
+            }
+        },
+        {
+            "nominativo": "SGANDURRA Francesca",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 10,
+                "seggio_n_26": 10
+            }
+        },
+        {
+            "nominativo": "RAITANO Marco Loris",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 62,
+                "seggio_n_26": 62
+            }
+        },
+        {
+            "nominativo": "BASILE Valeria Maria Annunziata",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_26": 1
+            }
+        },
+        {
+            "nominativo": "SCICOLONE Katia",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 30,
+                "seggio_n_26": 30
+            }
+        },
+        {
+            "nominativo": "BOSCARINO Roberta",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 14,
+                "seggio_n_26": 14
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "CAMPISI Daniele",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "FOTI Giulio",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "MAGRI Agata Valentina",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 3,
+                "seggio_n_26": 3
+            }
+        },
+        {
+            "nominativo": "MAGR\u00cc Elena",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "MANISCALCO Ausilia Grazia",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "MAZZARA BOLOGNA Antonella",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "MELI Alessandro",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 1,
+                "seggio_n_26": 1
+            }
+        },
+        {
+            "nominativo": "SOLE Simone",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "RAMASAMY Steeven",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "DI PASQUALE Antonio Lorenzo detto \"Lori\" o \"Lory\"",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 7,
+                "seggio_n_26": 7
+            }
+        },
+        {
+            "nominativo": "AUBEELUCK Abhishek detto \"Abi\" o \"Abhi\"",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 7,
+                "seggio_n_26": 7
+            }
+        },
+        {
+            "nominativo": "GIUNTA Pietro",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 7,
+                "seggio_n_26": 7
+            }
+        },
+        {
+            "nominativo": "D'ASIO Giacomo",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 2,
+                "seggio_n_26": 2
+            }
+        },
+        {
+            "nominativo": "CORVO Simona",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "BRUNO Roberta",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_26": 0
+            }
+        },
+        {
+            "nominativo": "MAITA Veronica",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_26": 0
+            }
+        }
+    ],
     "quoziente": 26.1111,
     "votanti": {
         "totali": 244,

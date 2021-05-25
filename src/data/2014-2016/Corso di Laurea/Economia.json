@@ -150,8 +150,346 @@
             "totale": 359
         }
     ],
-    "eletti": [],
-    "non_eletti": [],
+    "eletti": [
+        {
+            "nominativo": "MAZZONE Antonio",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 37,
+                "seggio_n_9": 37
+            }
+        },
+        {
+            "nominativo": "SOLE Giuseppe Michele",
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 36,
+                "seggio_n_9": 36
+            }
+        },
+        {
+            "nominativo": "PAVONE Filippo",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 13,
+                "seggio_n_9": 13
+            }
+        },
+        {
+            "nominativo": "ZUCCARO Simone Innocenzo",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 37,
+                "seggio_n_9": 37
+            }
+        },
+        {
+            "nominativo": "CURTO Alberto Maria",
+            "lista": "ARCADIA \u2010 SVEGLIATI UNIVERSIT\u00c0",
+            "voti": {
+                "totali": 19,
+                "seggio_n_9": 19
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "MANNILE Jessica",
+            "lista": "ARES",
+            "voti": {
+                "totali": 1,
+                "seggio_n_9": 1
+            }
+        },
+        {
+            "nominativo": "GRECO Giuseppe",
+            "lista": "ARES",
+            "voti": {
+                "totali": 0,
+                "seggio_n_9": 0
+            }
+        },
+        {
+            "nominativo": "MASSIMINO Gianluca",
+            "lista": "ARES",
+            "voti": {
+                "totali": 0,
+                "seggio_n_9": 0
+            }
+        },
+        {
+            "nominativo": "XIMENES Xenia",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 4,
+                "seggio_n_9": 4
+            }
+        },
+        {
+            "nominativo": "ZUMBO Agata",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 2,
+                "seggio_n_9": 2
+            }
+        },
+        {
+            "nominativo": "CHIAVARO Marco",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 15,
+                "seggio_n_9": 15
+            }
+        },
+        {
+            "nominativo": "CANTONE Orazio",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_9": 0
+            }
+        },
+        {
+            "nominativo": "LENA Eleonora",
+            "lista": "STUDENTI POPOLARI",
+            "voti": {
+                "totali": 11,
+                "seggio_n_9": 11
+            }
+        },
+        {
+            "nominativo": "CRISTALDI Valeria",
+            "lista": "STUDENTI POPOLARI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_9": 0
+            }
+        },
+        {
+            "nominativo": "LUCILLI Simone",
+            "lista": "STUDENTI POPOLARI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_9": 0
+            }
+        },
+        {
+            "nominativo": "CULMONE Andrea",
+            "lista": "STUDENTI POPOLARI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_9": 0
+            }
+        },
+        {
+            "nominativo": "MIRAGLIA Simone",
+            "lista": "STUDENTI POPOLARI",
+            "voti": {
+                "totali": 13,
+                "seggio_n_9": 13
+            }
+        },
+        {
+            "nominativo": "PARISI Luigi Angelo",
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 29,
+                "seggio_n_9": 29
+            }
+        },
+        {
+            "nominativo": "MONTELEONE Gabriele",
+            "lista": "ARCH\u00c8",
+            "voti": {
+                "totali": 1,
+                "seggio_n_9": 1
+            }
+        },
+        {
+            "nominativo": "MAGRO Dario",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_9": 0
+            }
+        },
+        {
+            "nominativo": "PATERNO' DI RADDUSA Marcello",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_9": 0
+            }
+        },
+        {
+            "nominativo": "SCAMARDA Angelo",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_9": 0
+            }
+        },
+        {
+            "nominativo": "VASSALLO Gaetano Elia",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 14,
+                "seggio_n_9": 14
+            }
+        },
+        {
+            "nominativo": "PARISI Pierpaolo",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_9": 0
+            }
+        },
+        {
+            "nominativo": "SCUDERO Filippo",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 4,
+                "seggio_n_9": 4
+            }
+        },
+        {
+            "nominativo": "AIELLO Rosalba",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_9": 0
+            }
+        },
+        {
+            "nominativo": "CATALDO Ettore Stefano",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 10,
+                "seggio_n_9": 10
+            }
+        },
+        {
+            "nominativo": "MONDELLI Cecilia Maria",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 5,
+                "seggio_n_9": 5
+            }
+        },
+        {
+            "nominativo": "GIARRATANA Antonio",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 12,
+                "seggio_n_9": 12
+            }
+        },
+        {
+            "nominativo": "ELIA Manfredi",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_9": 1
+            }
+        },
+        {
+            "nominativo": "MONTONERI Bruno",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 12,
+                "seggio_n_9": 12
+            }
+        },
+        {
+            "nominativo": "MUSARRA Paolo",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_9": 0
+            }
+        },
+        {
+            "nominativo": "VASTA Giovanbattista",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 13,
+                "seggio_n_9": 13
+            }
+        },
+        {
+            "nominativo": "CHIARENZA Gabriella",
+            "lista": "EUREKA",
+            "voti": {
+                "totali": 10,
+                "seggio_n_9": 10
+            }
+        },
+        {
+            "nominativo": "DI PAOLA Giuseppe",
+            "lista": "EUREKA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_9": 0
+            }
+        },
+        {
+            "nominativo": "COCO Marco Carmelo",
+            "lista": "EUREKA",
+            "voti": {
+                "totali": 3,
+                "seggio_n_9": 3
+            }
+        },
+        {
+            "nominativo": "GALLO Ettore",
+            "lista": "EUREKA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_9": 0
+            }
+        },
+        {
+            "nominativo": "DI BENEDETTO Giuseppe",
+            "lista": "EUREKA",
+            "voti": {
+                "totali": 3,
+                "seggio_n_9": 3
+            }
+        },
+        {
+            "nominativo": "REGALBUTO Mirko detto \"Ferrara\"",
+            "lista": "ARCADIA \u2010 SVEGLIATI UNIVERSIT\u00c0",
+            "voti": {
+                "totali": 13,
+                "seggio_n_9": 13
+            }
+        },
+        {
+            "nominativo": "MASSIMINO Fabrizio",
+            "lista": "ARCADIA \u2010 SVEGLIATI UNIVERSIT\u00c0",
+            "voti": {
+                "totali": 10,
+                "seggio_n_9": 10
+            }
+        },
+        {
+            "nominativo": "GAGLIARDI Bruno",
+            "lista": "ARCADIA \u2010 SVEGLIATI UNIVERSIT\u00c0",
+            "voti": {
+                "totali": 2,
+                "seggio_n_9": 2
+            }
+        },
+        {
+            "nominativo": "ALIOTTA Giulia Cristina Mariachiara",
+            "lista": "ARCADIA \u2010 SVEGLIATI UNIVERSIT\u00c0",
+            "voti": {
+                "totali": 2,
+                "seggio_n_9": 2
+            }
+        }
+    ],
     "quoziente": 71.8,
     "votanti": {
         "totali": 414,

@@ -85,8 +85,138 @@
             "totale": 165
         }
     ],
-    "eletti": [],
-    "non_eletti": [],
+    "eletti": [
+        {
+            "nominativo": "FASANARO Paolo",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 42,
+                "seggio_n_10": 42
+            }
+        },
+        {
+            "nominativo": "MOSCHETTO Ettore",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 7,
+                "seggio_n_10": 7
+            }
+        },
+        {
+            "nominativo": "ARCIFA Camillo Dario detto \"Carmelo\" o \"Musumeci\"",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 22,
+                "seggio_n_10": 22
+            }
+        },
+        {
+            "nominativo": "PINTAGRO Giulia",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 22,
+                "seggio_n_10": 22
+            }
+        },
+        {
+            "nominativo": "BENTIVEGNA Giuseppina",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 9,
+                "seggio_n_10": 9
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "SPINA Rosario",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 3,
+                "seggio_n_10": 3
+            }
+        },
+        {
+            "nominativo": "RAIMONDO Oriana",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 1,
+                "seggio_n_10": 1
+            }
+        },
+        {
+            "nominativo": "ADORNI Daniela",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_n_10": 0
+            }
+        },
+        {
+            "nominativo": "STANCANELLI Eliana",
+            "lista": "ARES",
+            "voti": {
+                "totali": 6,
+                "seggio_n_10": 6
+            }
+        },
+        {
+            "nominativo": "SERAFICA Antonino",
+            "lista": "ARES",
+            "voti": {
+                "totali": 0,
+                "seggio_n_10": 0
+            }
+        },
+        {
+            "nominativo": "FAZIO Denise",
+            "lista": "LIBERTAS \u2010 LIBERI E FORTI",
+            "voti": {
+                "totali": 4,
+                "seggio_n_10": 4
+            }
+        },
+        {
+            "nominativo": "CALLERAME Elisa",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 5,
+                "seggio_n_10": 5
+            }
+        },
+        {
+            "nominativo": "RIGANO Luciano",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 19,
+                "seggio_n_10": 19
+            }
+        },
+        {
+            "nominativo": "MARRONE Graziana",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 2,
+                "seggio_n_10": 2
+            }
+        },
+        {
+            "nominativo": "ACCOLLA Giulio Barbaro Carmelo",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 3,
+                "seggio_n_10": 3
+            }
+        },
+        {
+            "nominativo": "VIZZINI Jessica",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 2,
+                "seggio_n_10": 2
+            }
+        }
+    ],
     "quoziente": 33.0,
     "votanti": {
         "totali": 172,
