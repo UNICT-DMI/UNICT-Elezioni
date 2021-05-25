@@ -1,0 +1,100 @@
+{
+    "dipartimento": "ARCHITETTURA-Laurea Magistrale a ciclo unico (D.M. 270/2004)\nARCHITETTURA-Laurea Specialistica a ciclo unico (D.M. 509/99)\nRESTAURO DELL'ARCHITETTURA-Laurea Specialistica biennale (D.M. 509/99)\nSCIENZA DELL'ARCHITETTURA E DELL'INGEGNERIA EDILE-LaureaTriennale (D.M. 509/99)",
+    "seggi_da_assegnare": "9",
+    "schede": {
+        "bianche": {
+            "totali": 17,
+            "seggio_n_39": 17
+        },
+        "nulle": {
+            "totali": 11,
+            "seggio_n_39": 11
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_39": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "ORBIS \u2010 ARCH\u00c8",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "1,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 1,
+                "seggio_n_39": 1
+            }
+        },
+        {
+            "nome": "UNIVERSIT\u00c0 POPOLARE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "2,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 2,
+                "seggio_n_39": 2
+            }
+        },
+        {
+            "nome": "NOI PER ARCHITETTURA",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "11,2",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "3"
+            },
+            "voti": {
+                "totali": 41,
+                "seggio_n_39": 41
+            }
+        },
+        {
+            "nome": "CONSTRUCTO",
+            "seggi": {
+                "seggi_pieni": "5",
+                "resti": "6,6",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "5"
+            },
+            "voti": {
+                "totali": 81,
+                "seggio_n_39": 81
+            }
+        },
+        {
+            "nome": "ORIZZONTE ITALIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "9,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 9,
+                "seggio_n_39": 9
+            }
+        },
+        {
+            "totale": 134
+        }
+    ],
+    "eletti": [],
+    "non_eletti": [],
+    "quoziente": 14.8889,
+    "votanti": {
+        "totali": 162,
+        "percentuale": 18.41,
+        "seggio_n_39": 162
+    },
+    "elettori": {
+        "totali": 880,
+        "seggio_n_39": 880
+    }
+}

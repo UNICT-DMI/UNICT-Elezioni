@@ -1,0 +1,100 @@
+{
+    "dipartimento": "DIREZIONE AZIENDALE-Laurea Magistrale biennale (D.M. 270/2004)\nDIREZIONE AZIENDALE-Laurea Specialistica biennale (D.M. 509/99)",
+    "seggi_da_assegnare": "5",
+    "schede": {
+        "bianche": {
+            "totali": 6,
+            "seggio_n_10": 6
+        },
+        "nulle": {
+            "totali": 5,
+            "seggio_n_10": 5
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_10": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "WE LOVE UNICT",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "30,6",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "3"
+            },
+            "voti": {
+                "totali": 97,
+                "seggio_n_10": 97
+            }
+        },
+        {
+            "nome": "ARES",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "29,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 29,
+                "seggio_n_10": 29
+            }
+        },
+        {
+            "nome": "UNIVERSIT\u00c0 POPOLARE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "9,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 9,
+                "seggio_n_10": 9
+            }
+        },
+        {
+            "nome": "ORIZZONTE ITALIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "13,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 13,
+                "seggio_n_10": 13
+            }
+        },
+        {
+            "nome": "ARCADIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "18,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 18,
+                "seggio_n_10": 18
+            }
+        },
+        {
+            "totale": 166
+        }
+    ],
+    "eletti": [],
+    "non_eletti": [],
+    "quoziente": 33.2,
+    "votanti": {
+        "totali": 177,
+        "percentuale": 33.78,
+        "seggio_n_10": 177
+    },
+    "elettori": {
+        "totali": 524,
+        "seggio_n_10": 524
+    }
+}

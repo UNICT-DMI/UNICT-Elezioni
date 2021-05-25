@@ -125,6 +125,11 @@ export const ResultTable = (props: Props): JSX.Element => {
               : ''}`
           )
         }
+        {
+          !datareader.hasPassedQuorum(props.anno, props.entity, props.subEntity) && (
+            <b className="text-danger">[Quorum non raggiunto]</b>
+          )
+        }
 
       </div>
     );

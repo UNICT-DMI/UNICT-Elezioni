@@ -191,6 +191,10 @@ class DataReader {
     });
     return multiDeps;
   }
+
+  hasPassedQuorum(years: string, entity: string, subEntity: string): boolean {
+    return this.data[years][entity][subEntity].quorum_raggiunto !== false;
+  }
 }
 
 export const datareader: DataReader = DataReader.getInstance();
