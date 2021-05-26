@@ -88,12 +88,13 @@ class CNSU(Target):
             if s != '':
                 list_info.append(s.strip())
         return list_info
-    
+
     def __create_json_list(self, list_of_seats, nome_lista, list_info) -> dict:
         voti = {}
         voti["totali"] = int(list_info.pop(0))
         for voto, seggio in zip(list_info, list_of_seats):
-            voti["seggio_n_" + str(seggio)] = int(voto)
+            if "seggio_n_" + str(seggio) in voti:
+                voti["seggio_n_" + str(seggio)] = int(voto)
         return {
             "nome": nome_lista,
             "voti": voti
@@ -115,7 +116,8 @@ class CNSU(Target):
         voti = {}
         voti["totali"] = int(candidato_info.pop(0))
         for voto, seggio in zip(candidato_info, list_of_seats):
-            voti["seggio_n_" + str(seggio)] = int(voto)
+            if "seggio_n_" + str(seggio) in voti:
+                voti["seggio_n_" + str(seggio)] = int(voto)
         return {
             "nominativo": nome_candidato,
             "lista": nome_lista,
@@ -150,7 +152,7 @@ class CNSU(Target):
         rejected = int(nota_votes['contestate']['totali'])
         to_assing = seats[0]
         return format((votes - (whites + wrong + rejected)) / to_assing, '.2f')
-    
+
     def scrape_list(self, text) -> object:
         nome_organo = self.__find_name_organo(text)
         list_of_not = []

@@ -53,16 +53,17 @@ class Dipartimento(Target):
             j = len(list_of_seats)-1
             k = 0
             while j>=0:
-                votes["seggio_n_" + str(list_of_seats[k])] = int(seats.pop(len(seats)-(j+1)))
+                if k in list_of_seats and "seggio_n_" + str(list_of_seats[k]) in votes:
+                    votes["seggio_n_" + str(list_of_seats[k])] = int(seats.pop(len(seats)-(j+1)))
                 k += 1
                 j = j-1
             info_lists.append({
                 "nome": name_of_list.strip(),
                 "seggi": {
-                    "seggi_pieni": seats.pop(0),
-                    "resti": seats.pop(0),
-                    "seggi_ai_resti": seats.pop(0),
-                    "seggi_totali": seats.pop(0)
+                    "seggi_pieni":    seats.pop(0) if len(seats) > 0 else seats,
+                    "resti":          seats.pop(0) if len(seats) > 0 else seats,
+                    "seggi_ai_resti": seats.pop(0) if len(seats) > 0 else seats,
+                    "seggi_totali":   seats.pop(0) if len(seats) > 0 else seats
                     },
                     "voti": votes
             })
@@ -127,7 +128,8 @@ class Dipartimento(Target):
         info_elettori["totali"] = totale_elettori
         k = 0
         for v in elettori_per_seggio:
-            info_elettori["seggio_n_" + str(list_of_seats[k])] = v
+            if k in list_of_seats and "seggio_n_" + str(list_of_seats[k]) in info_elettori:
+                info_elettori["seggio_n_" + str(list_of_seats[k])] = v
             k += 1
         return info_elettori
 

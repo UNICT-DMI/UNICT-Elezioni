@@ -33,7 +33,7 @@ class Target(ABC):
             list_of_type.append(list_tmp.pop(len(list_tmp)-(j+1)))
             j = j-1
 
-        if len(list_tmp) > 0: # fix for 2012-2014
+        if len(list_tmp) > 0:
             return list_tmp.pop(0)
 
         return list_tmp
@@ -42,7 +42,8 @@ class Target(ABC):
         type["totali"] = schede_type
         k = 0
         for v in list_of_type:
-            type["seggio_n_" + str(list_of_seats[k])] = v
+            if k in list_of_seats and "seggio_n_" + str(list_of_seats[k]) in type:
+                type["seggio_n_" + str(list_of_seats[k])] = v
             k += 1
 
     def format_schede(self, schede_bianche, schede_nulle, schede_contestate, list_of_white, list_of_null, list_of_contested, list_of_seats, schede_valide = None, list_of_valid = None, schede_votate = None, list_of_votes = None) -> object:
@@ -143,7 +144,8 @@ class Target(ABC):
                 voti["totali"] = vote_of_candidate[0]
                 k = 0
                 for v in list_of_seats_vote:
-                    voti["seggio_n_" + str(list_of_seats[k])] = v
+                    if k in list_of_seats and "seggio_n_" + str(list_of_seats[k]) in voti:
+                        voti["seggio_n_" + str(list_of_seats[k])] = v
                     k += 1
                 candidato["voti"] = voti
                 if "ELETTO" in text[self.i].upper():

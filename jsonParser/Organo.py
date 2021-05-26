@@ -81,7 +81,7 @@ class Organo(Target):
             return self.__find_list_of_seats_automatic(text1, text2, list_of_not)
         else:
             return self.__find_list_of_seats_manual(text1, list_of_not)
-    
+
     def __get_name_list(self, text, split_text) -> str:
         name_list = ""
         while not self.is_integer(split_text[0][0]):
@@ -103,7 +103,7 @@ class Organo(Target):
             name_list = self.__get_name_list(text, split_text)
             self.lists.append(name_list.strip())
             info_list.append(split_text[0])
-            self.i += 1        
+            self.i += 1
         return info_list
 
     def __get_totale_voti(self, text, voti, seggi) -> None:
@@ -111,7 +111,7 @@ class Organo(Target):
         voti[0] = int(split_text[1])
         seggi[0] = int(split_text[3])
 
-    def __get_type(self, text, type) -> object: 
+    def __get_type(self, text, type) -> object:
         lista = []
         while self.word_not_in_control(type, text):
             self.i += 1
@@ -133,14 +133,16 @@ class Organo(Target):
         list_support = []
         k = 0
         for v in main_list:
-            if len(list_of_not) > 0: 
+            if len(list_of_not) > 0:
                 if list_of_not[0]-1 != k:
-                    secondary_list["seggio_n_" + str(list_of_seats[k])] = int(v)
+                    if k in list_of_seats and "seggio_n_" + str(list_of_seats[k]) in secondary_list:
+                        secondary_list["seggio_n_" + str(list_of_seats[k])] = int(v)
                     k += 1
                 else:
                     list_support.append(list_of_not.pop(0))
             else:
-                secondary_list["seggio_n_" + str(list_of_seats[k])] = int(v)
+                if k in list_of_seats and "seggio_n_" + str(list_of_seats[k]) in secondary_list:
+                    secondary_list["seggio_n_" + str(list_of_seats[k])] = int(v)
                 k += 1
         for el in list_support:
             list_of_not.append(el)
@@ -159,7 +161,8 @@ class Organo(Target):
             k = 0
             if len(info_list[j]) == len(list_of_seats):
                 for v in info_list[j]:
-                    votes["seggio_n_" + str(list_of_seats[k])] = int(v)
+                    if k in list_of_seats and "seggio_n_" + str(list_of_seats[k]) in votes:
+                        votes["seggio_n_" + str(list_of_seats[k])] = int(v)
                     k += 1
             else:
                 self.__support_extract(info_list[j], list_of_seats, list_of_not, votes)
@@ -184,7 +187,8 @@ class Organo(Target):
         k = 0
         if len(list_of_voters) == len(list_of_seats):
             for v in list_of_voters:
-                vot["seggio_n_" + str(list_of_seats[k])] = int(v)
+                if k in list_of_seats and "seggio_n_" + str(list_of_seats[k]) in vot:
+                    vot["seggio_n_" + str(list_of_seats[k])] = int(v)
                 k += 1
         else:
             self.__support_extract(list_of_voters, list_of_seats, list_of_not, vot)
@@ -196,7 +200,8 @@ class Organo(Target):
         k = 0
         if len(list_of_elettori) == len(list_of_seats):
             for v in list_of_elettori:
-                info_elettori["seggio_n_" + str(list_of_seats[k])] = int(v)
+                if k in list_of_seats and "seggio_n_" + str(list_of_seats[k]) in info_elettori:
+                    info_elettori["seggio_n_" + str(list_of_seats[k])] = int(v)
                 k += 1
         else:
             self.__support_extract(list_of_elettori, list_of_seats, list_of_not, info_elettori)
@@ -223,7 +228,7 @@ class Organo(Target):
         schede = self.format_schede(schede_bianche, schede_nulle, schede_contestate, list_of_white, list_of_null, list_of_contested, list_of_seats)
 
         quoziente = self.get_quotient(text)
-        
+
 
         list_of_voters = self.__get_type(text, "VOTANTI")
         list_of_elettori = self.__get_type(text, "ELETTORI")
@@ -231,11 +236,11 @@ class Organo(Target):
 
         votanti = self.__create_json_votanti(list_of_voters, perc_votanti[0], list_of_seats, list_of_not)
         info_elettori = self.__create_json_elettori(list_of_elettori, list_of_seats, list_of_not)
-        
+
         eletti = []
         non_eletti = []
         self.get_candidati(text, eletti, non_eletti, list_of_seats, 2)
-        
+
 
         file_json = {
             "organo": nome_organo,

@@ -30,7 +30,8 @@ class Medicina(Target):
         result = {}
         result["totali"] = int(split_text.pop(0))
         for s in split_text:
-            result["seggio_n_" + str(list_of_seats[k])] = int(s)
+            if k in list_of_seats and "seggio_n_" + str(list_of_seats[k]) in result:
+                result["seggio_n_" + str(list_of_seats[k])] = int(s)
             k += 1
         return result
 
@@ -50,7 +51,7 @@ class Medicina(Target):
         voti[0] = self.__extract_voti(split_text, list_of_seats)
         self.i += 1
         return eletto
-    
+
     def __get_candidati(self, text, list_of_seats, eletti, non_eletti) -> None:
         self.i += 1
         while self.word_not_in_control("SCHEDE", text):
@@ -65,7 +66,7 @@ class Medicina(Target):
                 eletti.append(e)
             else:
                 non_eletti.append(e)
-    
+
     def __get_type(self, word, text) -> float:
         self.word_not_in_update(word, text)
         try:
