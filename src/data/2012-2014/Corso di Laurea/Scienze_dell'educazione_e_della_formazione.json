@@ -1,0 +1,152 @@
+{
+    "dipartimento": "SCIENZE DELL'EDUCAZIONE E DELLA FORMAZIONE-Laurea (D.M.270/2004)\nSCIENZE DELL'EDUCAZIONE E DELLA FORMAZIONE-Laurea Triennale (D.M. 509/99)",
+    "seggi_da_assegnare": "5",
+    "schede": {
+        "bianche": {
+            "totali": 25,
+            "seggio_n_34": 25
+        },
+        "nulle": {
+            "totali": 23,
+            "seggio_n_34": 23
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_34": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "ARES",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "3,6",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 41,
+                "seggio_n_34": 41
+            }
+        },
+        {
+            "nome": "PD",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "5,2",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 80,
+                "seggio_n_34": 80
+            }
+        },
+        {
+            "nome": "STUDICENTRO",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "8,6",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 46,
+                "seggio_n_34": 46
+            }
+        },
+        {
+            "nome": "LIBERI E FORTI",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "20,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 20,
+                "seggio_n_34": 20
+            }
+        },
+        {
+            "totale": 187
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "AGOZZINO Serena",
+            "lista": "ARES",
+            "voti": {
+                "totali": 37,
+                "seggio_n_34": 37
+            }
+        },
+        {
+            "nominativo": "BERTOLO Ramona Maria",
+            "lista": "PD",
+            "voti": {
+                "totali": 40,
+                "seggio_n_34": 40
+            }
+        },
+        {
+            "nominativo": "ZAPPALA' Carmelo",
+            "lista": "PD",
+            "voti": {
+                "totali": 25,
+                "seggio_n_34": 25
+            }
+        },
+        {
+            "nominativo": "AMBRUNO Deborah",
+            "lista": "STUDICENTRO",
+            "voti": {
+                "totali": 36,
+                "seggio_n_34": 36
+            }
+        },
+        {
+            "nominativo": "PULINO Damiana",
+            "lista": "LIBERI E FORTI",
+            "voti": {
+                "totali": 18,
+                "seggio_n_34": 18
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "SPITALERI Paola Domenica",
+            "lista": "PD",
+            "voti": {
+                "totali": 4,
+                "seggio_n_34": 4
+            }
+        },
+        {
+            "nominativo": "GANGI Donatella",
+            "lista": "STUDICENTRO",
+            "voti": {
+                "totali": 0,
+                "seggio_n_34": 0
+            }
+        },
+        {
+            "nominativo": "MUSCIA Sabrina",
+            "lista": "STUDICENTRO",
+            "voti": {
+                "totali": 3,
+                "seggio_n_34": 3
+            }
+        }
+    ],
+    "quoziente": 37.4,
+    "votanti": {
+        "totali": 235,
+        "percentuale": 15.33
+    },
+    "elettori": {
+        "totali": 1533,
+        "seggio_n_34": 1533
+    }
+}

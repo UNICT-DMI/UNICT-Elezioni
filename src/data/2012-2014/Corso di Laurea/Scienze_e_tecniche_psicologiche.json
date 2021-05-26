@@ -1,0 +1,245 @@
+{
+    "dipartimento": "SCIENZE E TECNICHE PSICOLOGICHE-Laurea (D.M.270/2004)\nSCIENZE E TECNICHE PSICOLOGICHE-Laurea Triennale (D.M. 509/99)",
+    "seggi_da_assegnare": "5",
+    "schede": {
+        "bianche": {
+            "totali": 9,
+            "seggio_n_35": 9
+        },
+        "nulle": {
+            "totali": 5,
+            "seggio_n_35": 5
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_35": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "UDU - UNIONE DEGLI UNIVERSITARI",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "9,8",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 45,
+                "seggio_n_35": 45
+            }
+        },
+        {
+            "nome": "PD - STUDICENTRO",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "0,6",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 71,
+                "seggio_n_35": 71
+            }
+        },
+        {
+            "nome": "IL PROGETTO DEGLI UNIVERSITARI",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "13,8",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 49,
+                "seggio_n_35": 49
+            }
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "5,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 5,
+                "seggio_n_35": 5
+            }
+        },
+        {
+            "nome": "LIBERI E FORTI",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "6,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 6,
+                "seggio_n_35": 6
+            }
+        },
+        {
+            "totale": 176
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "NARZISI Valeria",
+            "lista": "UDU - UNIONE DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 17,
+                "seggio_n_35": 17
+            }
+        },
+        {
+            "nominativo": "NICOLOSI Federica",
+            "lista": "PD - STUDICENTRO",
+            "voti": {
+                "totali": 59,
+                "seggio_n_35": 59
+            }
+        },
+        {
+            "nominativo": "CASERTA Valeria",
+            "lista": "PD - STUDICENTRO",
+            "voti": {
+                "totali": 5,
+                "seggio_n_35": 5
+            }
+        },
+        {
+            "nominativo": "GRASSO Gianluca",
+            "lista": "IL PROGETTO DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 25,
+                "seggio_n_35": 25
+            }
+        },
+        {
+            "nominativo": "GOZZO Luca",
+            "lista": "IL PROGETTO DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 16,
+                "seggio_n_35": 16
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "Grammatico Andrea Giuseppe",
+            "lista": "UDU - UNIONE DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 1,
+                "seggio_n_35": 1
+            }
+        },
+        {
+            "nominativo": "GAZIANO Cristopher Sacha Manuel",
+            "lista": "UDU - UNIONE DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 16,
+                "seggio_n_35": 16
+            }
+        },
+        {
+            "nominativo": "SOTTILE Giulia",
+            "lista": "UDU - UNIONE DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 2,
+                "seggio_n_35": 2
+            }
+        },
+        {
+            "nominativo": "VITALE Paola",
+            "lista": "UDU - UNIONE DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 4,
+                "seggio_n_35": 4
+            }
+        },
+        {
+            "nominativo": "RABBIOLO Giuliana",
+            "lista": "PD - STUDICENTRO",
+            "voti": {
+                "totali": 0,
+                "seggio_n_35": 0
+            }
+        },
+        {
+            "nominativo": "MINISSALE Chiara",
+            "lista": "PD - STUDICENTRO",
+            "voti": {
+                "totali": 0,
+                "seggio_n_35": 0
+            }
+        },
+        {
+            "nominativo": "GIARDINI Caterina",
+            "lista": "IL PROGETTO DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_35": 0
+            }
+        },
+        {
+            "nominativo": "MIRABELLA Vincenzo",
+            "lista": "IL PROGETTO DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 6,
+                "seggio_n_35": 6
+            }
+        },
+        {
+            "nominativo": "CORSO Carmelo Luca",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 2,
+                "seggio_n_35": 2
+            }
+        },
+        {
+            "nominativo": "DISTEFANO Alessia",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 2,
+                "seggio_n_35": 2
+            }
+        },
+        {
+            "nominativo": "SOLE Jasmine",
+            "lista": "LIBERI E FORTI",
+            "voti": {
+                "totali": 4,
+                "seggio_n_35": 4
+            }
+        },
+        {
+            "nominativo": "CASTORINA Giulia Chiara",
+            "lista": "LIBERI E FORTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_35": 0
+            }
+        },
+        {
+            "nominativo": "MARINO Federica",
+            "lista": "LIBERI E FORTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_35": 0
+            }
+        }
+    ],
+    "quoziente": 35.2,
+    "votanti": {
+        "totali": 190,
+        "percentuale": 27.46
+    },
+    "elettori": {
+        "totali": 692,
+        "seggio_n_35": 692
+    }
+}

@@ -1,0 +1,1214 @@
+{
+    "dipartimento": "GIURISPRUDENZA-Laurea Magistrale a ciclo unico (D.M. 270/2004)\nGIURISPRUDENZA-Laurea Specialistica biennale (D.M. 509/99)\nOPERATORE GIUDIZIARIO-Laurea Triennale (D.M. 509/99)",
+    "seggi_da_assegnare": "9",
+    "schede": {
+        "bianche": {
+            "totali": 39,
+            "seggio_n_1": 14,
+            "seggio_n_2": 10,
+            "seggio_n_3": 15
+        },
+        "nulle": {
+            "totali": 29,
+            "seggio_n_1": 7,
+            "seggio_n_2": 12,
+            "seggio_n_3": 10
+        },
+        "contestate": {
+            "totali": 1,
+            "seggio_n_1": 1,
+            "seggio_n_2": 0,
+            "seggio_n_3": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "ARCADIA - SIRACUSA FUTURO",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "22,2",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 196,
+                "seggio_n_1": 66,
+                "seggio_n_2": 67,
+                "seggio_n_3": 63
+            }
+        },
+        {
+            "nome": "FRONTE UNIVERSITARIO",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "95,2",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 269,
+                "seggio_n_1": 82,
+                "seggio_n_2": 102,
+                "seggio_n_3": 85
+            }
+        },
+        {
+            "nome": "LA CONTEA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "52,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 52,
+                "seggio_n_1": 23,
+                "seggio_n_2": 13,
+                "seggio_n_3": 16
+            }
+        },
+        {
+            "nome": "ARES",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "67,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 67,
+                "seggio_n_1": 20,
+                "seggio_n_2": 21,
+                "seggio_n_3": 26
+            }
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "167,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 167,
+                "seggio_n_1": 45,
+                "seggio_n_2": 56,
+                "seggio_n_3": 66
+            }
+        },
+        {
+            "nome": "DESTRA UNIVERSITARIA - GIOVENTU' ITALIANA - CONTROCAMPUS",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "99,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 99,
+                "seggio_n_1": 20,
+                "seggio_n_2": 43,
+                "seggio_n_3": 36
+            }
+        },
+        {
+            "nome": "LEX",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "83,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 83,
+                "seggio_n_1": 33,
+                "seggio_n_2": 26,
+                "seggio_n_3": 24
+            }
+        },
+        {
+            "nome": "PD - STUDICENTRO",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "79,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 79,
+                "seggio_n_1": 26,
+                "seggio_n_2": 34,
+                "seggio_n_3": 19
+            }
+        },
+        {
+            "nome": "NIKE",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "81,2",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 255,
+                "seggio_n_1": 94,
+                "seggio_n_2": 88,
+                "seggio_n_3": 73
+            }
+        },
+        {
+            "nome": "GIOVANI PER L'AUTONOMIA - LIBERTAS",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "132,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 132,
+                "seggio_n_1": 27,
+                "seggio_n_2": 60,
+                "seggio_n_3": 45
+            }
+        },
+        {
+            "nome": "ARCHE'",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "164,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 164,
+                "seggio_n_1": 64,
+                "seggio_n_2": 43,
+                "seggio_n_3": 57
+            }
+        },
+        {
+            "nome": "MUSA - ATENEA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "1,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 1,
+                "seggio_n_1": 0,
+                "seggio_n_2": 1,
+                "seggio_n_3": 0
+            }
+        },
+        {
+            "totale": 1564
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "CICCARELLO Alessia",
+            "lista": "ARCADIA - SIRACUSA FUTURO",
+            "voti": {
+                "totali": 77,
+                "seggio_n_1": 32,
+                "seggio_n_2": 24,
+                "seggio_n_3": 21
+            }
+        },
+        {
+            "nominativo": "AMATO Giuseppe",
+            "lista": "FRONTE UNIVERSITARIO",
+            "voti": {
+                "totali": 159,
+                "seggio_n_1": 53,
+                "seggio_n_2": 62,
+                "seggio_n_3": 44
+            }
+        },
+        {
+            "nominativo": "PATTI Leonardo",
+            "lista": "FRONTE UNIVERSITARIO",
+            "voti": {
+                "totali": 49,
+                "seggio_n_1": 14,
+                "seggio_n_2": 13,
+                "seggio_n_3": 22
+            }
+        },
+        {
+            "nominativo": "CHIMIRRI Cinzia",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 46,
+                "seggio_n_1": 16,
+                "seggio_n_2": 12,
+                "seggio_n_3": 18
+            }
+        },
+        {
+            "nominativo": "FLAMINIO Sebastiano",
+            "lista": "DESTRA UNIVERSITARIA - GIOVENTU' ITALIANA - CONTROCAMPUS",
+            "voti": {
+                "totali": 71,
+                "seggio_n_1": 13,
+                "seggio_n_2": 33,
+                "seggio_n_3": 25
+            }
+        },
+        {
+            "nominativo": "AMATO Rosaria detta \"Rosy\" o \"Rosi\"",
+            "lista": "LEX",
+            "voti": {
+                "totali": 58,
+                "seggio_n_1": 24,
+                "seggio_n_2": 19,
+                "seggio_n_3": 15
+            }
+        },
+        {
+            "nominativo": "CALANDUCCI Nicola",
+            "lista": "NIKE",
+            "voti": {
+                "totali": 153,
+                "seggio_n_1": 64,
+                "seggio_n_2": 44,
+                "seggio_n_3": 45
+            }
+        },
+        {
+            "nominativo": "GIOENI Giuseppe Giulio",
+            "lista": "GIOVANI PER L'AUTONOMIA - LIBERTAS",
+            "voti": {
+                "totali": 39,
+                "seggio_n_1": 8,
+                "seggio_n_2": 20,
+                "seggio_n_3": 11
+            }
+        },
+        {
+            "nominativo": "BIRTOLO Federica",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 62,
+                "seggio_n_1": 22,
+                "seggio_n_2": 14,
+                "seggio_n_3": 26
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "BATTAGLIA Giuliana",
+            "lista": "ARCADIA - SIRACUSA FUTURO",
+            "voti": {
+                "totali": 10,
+                "seggio_n_1": 2,
+                "seggio_n_2": 6,
+                "seggio_n_3": 2
+            }
+        },
+        {
+            "nominativo": "LA ROSA Mario",
+            "lista": "ARCADIA - SIRACUSA FUTURO",
+            "voti": {
+                "totali": 54,
+                "seggio_n_1": 24,
+                "seggio_n_2": 20,
+                "seggio_n_3": 10
+            }
+        },
+        {
+            "nominativo": "PISO Alessio",
+            "lista": "ARCADIA - SIRACUSA FUTURO",
+            "voti": {
+                "totali": 24,
+                "seggio_n_1": 2,
+                "seggio_n_2": 8,
+                "seggio_n_3": 14
+            }
+        },
+        {
+            "nominativo": "PUGLIA Sara",
+            "lista": "ARCADIA - SIRACUSA FUTURO",
+            "voti": {
+                "totali": 0,
+                "seggio_n_1": 0,
+                "seggio_n_2": 0,
+                "seggio_n_3": 0
+            }
+        },
+        {
+            "nominativo": "TORRE Roberta",
+            "lista": "ARCADIA - SIRACUSA FUTURO",
+            "voti": {
+                "totali": 2,
+                "seggio_n_1": 0,
+                "seggio_n_2": 1,
+                "seggio_n_3": 1
+            }
+        },
+        {
+            "nominativo": "TORRISI Gabael detto \"Gabel\"",
+            "lista": "ARCADIA - SIRACUSA FUTURO",
+            "voti": {
+                "totali": 20,
+                "seggio_n_1": 2,
+                "seggio_n_2": 5,
+                "seggio_n_3": 13
+            }
+        },
+        {
+            "nominativo": "VIRGATA Maria Rita",
+            "lista": "ARCADIA - SIRACUSA FUTURO",
+            "voti": {
+                "totali": 0,
+                "seggio_n_1": 0,
+                "seggio_n_2": 0,
+                "seggio_n_3": 0
+            }
+        },
+        {
+            "nominativo": "AMATO Claudio",
+            "lista": "ARCADIA - SIRACUSA FUTURO",
+            "voti": {
+                "totali": 2,
+                "seggio_n_1": 2,
+                "seggio_n_2": 0,
+                "seggio_n_3": 0
+            }
+        },
+        {
+            "nominativo": "ASMUNDO Giuseppe",
+            "lista": "FRONTE UNIVERSITARIO",
+            "voti": {
+                "totali": 10,
+                "seggio_n_1": 6,
+                "seggio_n_2": 1,
+                "seggio_n_3": 3
+            }
+        },
+        {
+            "nominativo": "BOUDOOA Askshay detto \"Ask\"",
+            "lista": "FRONTE UNIVERSITARIO",
+            "voti": {
+                "totali": 0,
+                "seggio_n_1": 0,
+                "seggio_n_2": 0,
+                "seggio_n_3": 0
+            }
+        },
+        {
+            "nominativo": "CHIARENZA Fabio",
+            "lista": "FRONTE UNIVERSITARIO",
+            "voti": {
+                "totali": 2,
+                "seggio_n_1": 1,
+                "seggio_n_2": 0,
+                "seggio_n_3": 1
+            }
+        },
+        {
+            "nominativo": "DI MARCO Giuseppe",
+            "lista": "FRONTE UNIVERSITARIO",
+            "voti": {
+                "totali": 2,
+                "seggio_n_1": 1,
+                "seggio_n_2": 0,
+                "seggio_n_3": 1
+            }
+        },
+        {
+            "nominativo": "GENTILE Martino",
+            "lista": "FRONTE UNIVERSITARIO",
+            "voti": {
+                "totali": 26,
+                "seggio_n_1": 4,
+                "seggio_n_2": 14,
+                "seggio_n_3": 8
+            }
+        },
+        {
+            "nominativo": "IRACI SARERI Marco detto \"Iraci\"",
+            "lista": "FRONTE UNIVERSITARIO",
+            "voti": {
+                "totali": 11,
+                "seggio_n_1": 2,
+                "seggio_n_2": 6,
+                "seggio_n_3": 3
+            }
+        },
+        {
+            "nominativo": "LEOCATA Daniele Santo",
+            "lista": "FRONTE UNIVERSITARIO",
+            "voti": {
+                "totali": 4,
+                "seggio_n_1": 0,
+                "seggio_n_2": 4,
+                "seggio_n_3": 0
+            }
+        },
+        {
+            "nominativo": "CERAMI Calogero Damiano Santi detto \"Damiano\"",
+            "lista": "LA CONTEA",
+            "voti": {
+                "totali": 32,
+                "seggio_n_1": 17,
+                "seggio_n_2": 6,
+                "seggio_n_3": 9
+            }
+        },
+        {
+            "nominativo": "SICILIA Antonino",
+            "lista": "LA CONTEA",
+            "voti": {
+                "totali": 5,
+                "seggio_n_1": 0,
+                "seggio_n_2": 0,
+                "seggio_n_3": 5
+            }
+        },
+        {
+            "nominativo": "BIUNDO Jennifer Gina detta \"Gina\"",
+            "lista": "LA CONTEA",
+            "voti": {
+                "totali": 7,
+                "seggio_n_1": 4,
+                "seggio_n_2": 3,
+                "seggio_n_3": 0
+            }
+        },
+        {
+            "nominativo": "MAZZAGLIA Maria",
+            "lista": "LA CONTEA",
+            "voti": {
+                "totali": 3,
+                "seggio_n_1": 0,
+                "seggio_n_2": 2,
+                "seggio_n_3": 1
+            }
+        },
+        {
+            "nominativo": "CARPANZANO Simone Michele",
+            "lista": "LA CONTEA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_1": 0,
+                "seggio_n_2": 0,
+                "seggio_n_3": 0
+            }
+        },
+        {
+            "nominativo": "ARENA Iolanda",
+            "lista": "LA CONTEA",
+            "voti": {
+                "totali": 4,
+                "seggio_n_1": 2,
+                "seggio_n_2": 2,
+                "seggio_n_3": 0
+            }
+        },
+        {
+            "nominativo": "CONIGLIONE Casimiro detto \"Miro\"",
+            "lista": "LA CONTEA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_1": 0,
+                "seggio_n_2": 0,
+                "seggio_n_3": 0
+            }
+        },
+        {
+            "nominativo": "CHIARENZA Alessia",
+            "lista": "LA CONTEA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_1": 0,
+                "seggio_n_2": 0,
+                "seggio_n_3": 1
+            }
+        },
+        {
+            "nominativo": "AROSIO Fabio",
+            "lista": "LA CONTEA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_1": 0,
+                "seggio_n_2": 0,
+                "seggio_n_3": 0
+            }
+        },
+        {
+            "nominativo": "BENFATTO Simone",
+            "lista": "ARES",
+            "voti": {
+                "totali": 24,
+                "seggio_n_1": 9,
+                "seggio_n_2": 8,
+                "seggio_n_3": 7
+            }
+        },
+        {
+            "nominativo": "TUTTOBENE Denis",
+            "lista": "ARES",
+            "voti": {
+                "totali": 2,
+                "seggio_n_1": 0,
+                "seggio_n_2": 0,
+                "seggio_n_3": 2
+            }
+        },
+        {
+            "nominativo": "PISA Luana",
+            "lista": "ARES",
+            "voti": {
+                "totali": 12,
+                "seggio_n_1": 0,
+                "seggio_n_2": 7,
+                "seggio_n_3": 5
+            }
+        },
+        {
+            "nominativo": "PAPPALARDO Maria",
+            "lista": "ARES",
+            "voti": {
+                "totali": 1,
+                "seggio_n_1": 0,
+                "seggio_n_2": 0,
+                "seggio_n_3": 1
+            }
+        },
+        {
+            "nominativo": "DI MAGGIO Fabio",
+            "lista": "ARES",
+            "voti": {
+                "totali": 0,
+                "seggio_n_1": 0,
+                "seggio_n_2": 0,
+                "seggio_n_3": 0
+            }
+        },
+        {
+            "nominativo": "ALMANZO Anna",
+            "lista": "ARES",
+            "voti": {
+                "totali": 0,
+                "seggio_n_1": 0,
+                "seggio_n_2": 0,
+                "seggio_n_3": 0
+            }
+        },
+        {
+            "nominativo": "LO CHIANO Giada",
+            "lista": "ARES",
+            "voti": {
+                "totali": 0,
+                "seggio_n_1": 0,
+                "seggio_n_2": 0,
+                "seggio_n_3": 0
+            }
+        },
+        {
+            "nominativo": "CALVO Chiara",
+            "lista": "ARES",
+            "voti": {
+                "totali": 11,
+                "seggio_n_1": 7,
+                "seggio_n_2": 1,
+                "seggio_n_3": 3
+            }
+        },
+        {
+            "nominativo": "DI MARIA Simona",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 10,
+                "seggio_n_1": 5,
+                "seggio_n_2": 3,
+                "seggio_n_3": 2
+            }
+        },
+        {
+            "nominativo": "VERGONE Salvatore",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 2,
+                "seggio_n_1": 0,
+                "seggio_n_2": 1,
+                "seggio_n_3": 1
+            }
+        },
+        {
+            "nominativo": "BUA Giuseppe",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 36,
+                "seggio_n_1": 8,
+                "seggio_n_2": 12,
+                "seggio_n_3": 16
+            }
+        },
+        {
+            "nominativo": "LICCIARDO Paolo",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 5,
+                "seggio_n_1": 2,
+                "seggio_n_2": 1,
+                "seggio_n_3": 2
+            }
+        },
+        {
+            "nominativo": "ANTONUCCI Maria Elena",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 16,
+                "seggio_n_1": 4,
+                "seggio_n_2": 9,
+                "seggio_n_3": 3
+            }
+        },
+        {
+            "nominativo": "SAVOCA Cesare Antonio",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 23,
+                "seggio_n_1": 5,
+                "seggio_n_2": 10,
+                "seggio_n_3": 8
+            }
+        },
+        {
+            "nominativo": "TRIMARCHI Giulia",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 8,
+                "seggio_n_1": 0,
+                "seggio_n_2": 0,
+                "seggio_n_3": 8
+            }
+        },
+        {
+            "nominativo": "RACITI Roberta",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_1": 0,
+                "seggio_n_2": 0,
+                "seggio_n_3": 0
+            }
+        },
+        {
+            "nominativo": "LICITRA Luca Maria",
+            "lista": "DESTRA UNIVERSITARIA - GIOVENTU' ITALIANA - CONTROCAMPUS",
+            "voti": {
+                "totali": 0,
+                "seggio_n_1": 0,
+                "seggio_n_2": 0,
+                "seggio_n_3": 0
+            }
+        },
+        {
+            "nominativo": "CANNATA Alessandro",
+            "lista": "DESTRA UNIVERSITARIA - GIOVENTU' ITALIANA - CONTROCAMPUS",
+            "voti": {
+                "totali": 16,
+                "seggio_n_1": 6,
+                "seggio_n_2": 1,
+                "seggio_n_3": 9
+            }
+        },
+        {
+            "nominativo": "SCAGLIONE Amelia",
+            "lista": "DESTRA UNIVERSITARIA - GIOVENTU' ITALIANA - CONTROCAMPUS",
+            "voti": {
+                "totali": 1,
+                "seggio_n_1": 0,
+                "seggio_n_2": 0,
+                "seggio_n_3": 1
+            }
+        },
+        {
+            "nominativo": "NINFO Gabriele",
+            "lista": "DESTRA UNIVERSITARIA - GIOVENTU' ITALIANA - CONTROCAMPUS",
+            "voti": {
+                "totali": 2,
+                "seggio_n_1": 0,
+                "seggio_n_2": 2,
+                "seggio_n_3": 0
+            }
+        },
+        {
+            "nominativo": "MUSMECI Fabio",
+            "lista": "DESTRA UNIVERSITARIA - GIOVENTU' ITALIANA - CONTROCAMPUS",
+            "voti": {
+                "totali": 1,
+                "seggio_n_1": 0,
+                "seggio_n_2": 1,
+                "seggio_n_3": 0
+            }
+        },
+        {
+            "nominativo": "LOREFICE Lara",
+            "lista": "LEX",
+            "voti": {
+                "totali": 10,
+                "seggio_n_1": 3,
+                "seggio_n_2": 3,
+                "seggio_n_3": 4
+            }
+        },
+        {
+            "nominativo": "BUSCEMI Riccardo",
+            "lista": "LEX",
+            "voti": {
+                "totali": 7,
+                "seggio_n_1": 4,
+                "seggio_n_2": 2,
+                "seggio_n_3": 1
+            }
+        },
+        {
+            "nominativo": "VIRONE Vincenzo",
+            "lista": "LEX",
+            "voti": {
+                "totali": 3,
+                "seggio_n_1": 0,
+                "seggio_n_2": 0,
+                "seggio_n_3": 3
+            }
+        },
+        {
+            "nominativo": "PUGLISI Adriano",
+            "lista": "LEX",
+            "voti": {
+                "totali": 0,
+                "seggio_n_1": 0,
+                "seggio_n_2": 0,
+                "seggio_n_3": 0
+            }
+        },
+        {
+            "nominativo": "CACCAMO Emanuele Ignazio",
+            "lista": "LEX",
+            "voti": {
+                "totali": 0,
+                "seggio_n_1": 0,
+                "seggio_n_2": 0,
+                "seggio_n_3": 0
+            }
+        },
+        {
+            "nominativo": "AQUILINO Giuseppe",
+            "lista": "LEX",
+            "voti": {
+                "totali": 0,
+                "seggio_n_1": 0,
+                "seggio_n_2": 0,
+                "seggio_n_3": 0
+            }
+        },
+        {
+            "nominativo": "DI MARIA RENDA Marta",
+            "lista": "LEX",
+            "voti": {
+                "totali": 0,
+                "seggio_n_1": 0,
+                "seggio_n_2": 0,
+                "seggio_n_3": 0
+            }
+        },
+        {
+            "nominativo": "ARCERITO Oriana",
+            "lista": "LEX",
+            "voti": {
+                "totali": 0,
+                "seggio_n_1": 0,
+                "seggio_n_2": 0,
+                "seggio_n_3": 0
+            }
+        },
+        {
+            "nominativo": "BALDACCHINO Jacopo Maria",
+            "lista": "PD - STUDICENTRO",
+            "voti": {
+                "totali": 9,
+                "seggio_n_1": 7,
+                "seggio_n_2": 1,
+                "seggio_n_3": 1
+            }
+        },
+        {
+            "nominativo": "LICATA Adriano",
+            "lista": "PD - STUDICENTRO",
+            "voti": {
+                "totali": 31,
+                "seggio_n_1": 7,
+                "seggio_n_2": 18,
+                "seggio_n_3": 6
+            }
+        },
+        {
+            "nominativo": "GIUNTA Francesco",
+            "lista": "PD - STUDICENTRO",
+            "voti": {
+                "totali": 0,
+                "seggio_n_1": 0,
+                "seggio_n_2": 0,
+                "seggio_n_3": 0
+            }
+        },
+        {
+            "nominativo": "PATELLA Irene",
+            "lista": "PD - STUDICENTRO",
+            "voti": {
+                "totali": 0,
+                "seggio_n_1": 0,
+                "seggio_n_2": 0,
+                "seggio_n_3": 0
+            }
+        },
+        {
+            "nominativo": "D'AMICO Alessia",
+            "lista": "PD - STUDICENTRO",
+            "voti": {
+                "totali": 11,
+                "seggio_n_1": 3,
+                "seggio_n_2": 7,
+                "seggio_n_3": 1
+            }
+        },
+        {
+            "nominativo": "DIMARTINO Laura",
+            "lista": "PD - STUDICENTRO",
+            "voti": {
+                "totali": 4,
+                "seggio_n_1": 3,
+                "seggio_n_2": 0,
+                "seggio_n_3": 1
+            }
+        },
+        {
+            "nominativo": "PACI Simone",
+            "lista": "PD - STUDICENTRO",
+            "voti": {
+                "totali": 0,
+                "seggio_n_1": 0,
+                "seggio_n_2": 0,
+                "seggio_n_3": 0
+            }
+        },
+        {
+            "nominativo": "TRUBIA Grazia Francesca",
+            "lista": "PD - STUDICENTRO",
+            "voti": {
+                "totali": 0,
+                "seggio_n_1": 0,
+                "seggio_n_2": 0,
+                "seggio_n_3": 0
+            }
+        },
+        {
+            "nominativo": "CURRAO Gianmarco",
+            "lista": "NIKE",
+            "voti": {
+                "totali": 64,
+                "seggio_n_1": 28,
+                "seggio_n_2": 30,
+                "seggio_n_3": 6
+            }
+        },
+        {
+            "nominativo": "SAIEVA Marco",
+            "lista": "NIKE",
+            "voti": {
+                "totali": 8,
+                "seggio_n_1": 1,
+                "seggio_n_2": 4,
+                "seggio_n_3": 3
+            }
+        },
+        {
+            "nominativo": "SCUDERI Sergio Vittorio",
+            "lista": "NIKE",
+            "voti": {
+                "totali": 7,
+                "seggio_n_1": 0,
+                "seggio_n_2": 2,
+                "seggio_n_3": 5
+            }
+        },
+        {
+            "nominativo": "SEMINARA Stefano",
+            "lista": "NIKE",
+            "voti": {
+                "totali": 7,
+                "seggio_n_1": 0,
+                "seggio_n_2": 2,
+                "seggio_n_3": 5
+            }
+        },
+        {
+            "nominativo": "LO MONACO Maria Stella detta \"Stella\"",
+            "lista": "NIKE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_1": 0,
+                "seggio_n_2": 0,
+                "seggio_n_3": 0
+            }
+        },
+        {
+            "nominativo": "SANTORO Simona",
+            "lista": "NIKE",
+            "voti": {
+                "totali": 6,
+                "seggio_n_1": 0,
+                "seggio_n_2": 2,
+                "seggio_n_3": 4
+            }
+        },
+        {
+            "nominativo": "CANNARELLA Gianluca",
+            "lista": "GIOVANI PER L'AUTONOMIA - LIBERTAS",
+            "voti": {
+                "totali": 3,
+                "seggio_n_1": 2,
+                "seggio_n_2": 0,
+                "seggio_n_3": 1
+            }
+        },
+        {
+            "nominativo": "CHIARAMONTE Giacomo detto \"Iacopo\"",
+            "lista": "GIOVANI PER L'AUTONOMIA - LIBERTAS",
+            "voti": {
+                "totali": 7,
+                "seggio_n_1": 4,
+                "seggio_n_2": 2,
+                "seggio_n_3": 1
+            }
+        },
+        {
+            "nominativo": "GULLOTTA Dorotea Maria",
+            "lista": "GIOVANI PER L'AUTONOMIA - LIBERTAS",
+            "voti": {
+                "totali": 10,
+                "seggio_n_1": 2,
+                "seggio_n_2": 4,
+                "seggio_n_3": 4
+            }
+        },
+        {
+            "nominativo": "MARLETTA Gabriele",
+            "lista": "GIOVANI PER L'AUTONOMIA - LIBERTAS",
+            "voti": {
+                "totali": 4,
+                "seggio_n_1": 0,
+                "seggio_n_2": 2,
+                "seggio_n_3": 2
+            }
+        },
+        {
+            "nominativo": "MIRISOLA Marcello Fabrizio",
+            "lista": "GIOVANI PER L'AUTONOMIA - LIBERTAS",
+            "voti": {
+                "totali": 17,
+                "seggio_n_1": 2,
+                "seggio_n_2": 8,
+                "seggio_n_3": 7
+            }
+        },
+        {
+            "nominativo": "PISI Carla",
+            "lista": "GIOVANI PER L'AUTONOMIA - LIBERTAS",
+            "voti": {
+                "totali": 35,
+                "seggio_n_1": 2,
+                "seggio_n_2": 19,
+                "seggio_n_3": 14
+            }
+        },
+        {
+            "nominativo": "PUCI Anna",
+            "lista": "GIOVANI PER L'AUTONOMIA - LIBERTAS",
+            "voti": {
+                "totali": 1,
+                "seggio_n_1": 0,
+                "seggio_n_2": 0,
+                "seggio_n_3": 1
+            }
+        },
+        {
+            "nominativo": "RIFICI Diego",
+            "lista": "GIOVANI PER L'AUTONOMIA - LIBERTAS",
+            "voti": {
+                "totali": 7,
+                "seggio_n_1": 1,
+                "seggio_n_2": 3,
+                "seggio_n_3": 3
+            }
+        },
+        {
+            "nominativo": "BATTICCIOTTO Martina Domenica",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 52,
+                "seggio_n_1": 23,
+                "seggio_n_2": 17,
+                "seggio_n_3": 12
+            }
+        },
+        {
+            "nominativo": "CONTE Bruno Claudio",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 25,
+                "seggio_n_1": 9,
+                "seggio_n_2": 4,
+                "seggio_n_3": 12
+            }
+        },
+        {
+            "nominativo": "BARBAGALLO Giacomo",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 6,
+                "seggio_n_1": 3,
+                "seggio_n_2": 1,
+                "seggio_n_3": 2
+            }
+        },
+        {
+            "nominativo": "CONTI Fabrizio Nicola",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 3,
+                "seggio_n_1": 1,
+                "seggio_n_2": 2,
+                "seggio_n_3": 0
+            }
+        },
+        {
+            "nominativo": "ZINNA Carlotta",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 2,
+                "seggio_n_1": 1,
+                "seggio_n_2": 0,
+                "seggio_n_3": 1
+            }
+        },
+        {
+            "nominativo": "LA VATTIATA Federico",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 1,
+                "seggio_n_1": 0,
+                "seggio_n_2": 1,
+                "seggio_n_3": 0
+            }
+        },
+        {
+            "nominativo": "BONACCORSI Simona",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 3,
+                "seggio_n_1": 3,
+                "seggio_n_2": 0,
+                "seggio_n_3": 0
+            }
+        },
+        {
+            "nominativo": "NAVARRIA Antonio Riccardo",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 4,
+                "seggio_n_1": 0,
+                "seggio_n_2": 2,
+                "seggio_n_3": 2
+            }
+        },
+        {
+            "nominativo": "CARUANA Giuseppe",
+            "lista": "MUSA - ATENEA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_1": 0,
+                "seggio_n_2": 0,
+                "seggio_n_3": 0
+            }
+        },
+        {
+            "nominativo": "CARPINTERI Carolina",
+            "lista": "MUSA - ATENEA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_1": 0,
+                "seggio_n_2": 0,
+                "seggio_n_3": 0
+            }
+        },
+        {
+            "nominativo": "CUCUZZA Morena",
+            "lista": "MUSA - ATENEA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_1": 0,
+                "seggio_n_2": 0,
+                "seggio_n_3": 0
+            }
+        },
+        {
+            "nominativo": "AVOLA Laura",
+            "lista": "MUSA - ATENEA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_1": 0,
+                "seggio_n_2": 0,
+                "seggio_n_3": 0
+            }
+        },
+        {
+            "nominativo": "LUNELIO Emanuele",
+            "lista": "MUSA - ATENEA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_1": 0,
+                "seggio_n_2": 0,
+                "seggio_n_3": 0
+            }
+        },
+        {
+            "nominativo": "SANGIORGIO Miriam",
+            "lista": "MUSA - ATENEA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_1": 0,
+                "seggio_n_2": 0,
+                "seggio_n_3": 0
+            }
+        },
+        {
+            "nominativo": "CANNIZZO Rossana",
+            "lista": "MUSA - ATENEA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_1": 0,
+                "seggio_n_2": 0,
+                "seggio_n_3": 0
+            }
+        }
+    ],
+    "quoziente": 173.778,
+    "votanti": {
+        "totali": 1633,
+        "percentuale": 27.24
+    },
+    "elettori": {
+        "totali": 5995,
+        "seggio_n_1": 1923,
+        "seggio_n_2": 2078,
+        "seggio_n_3": 1994
+    }
+}

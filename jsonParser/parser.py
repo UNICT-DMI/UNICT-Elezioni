@@ -23,7 +23,7 @@ def error_start(argc):
 def print_pars(text):
     for x in text:
         print(x)
-    
+
 def save_json(str_json, filename_pdf):
     filename = filename_pdf.replace("pdf", "json")
     with open(filename, "w") as f:
@@ -47,11 +47,11 @@ def main(argv):
     error_start(len(argv))
     formatted_text = FormatPDF.format_pdf(argv[0])
     target = SelectTarget.get_instance().get_target(argv[1])
-    #print_pars(formatted_text)
-    #print(len(formatted_text))
-    #print(argv[0])
+    # print_pars(formatted_text)
+    # print(len(formatted_text))
+    # print(argv[0])
     str_json = target.scrape_list(formatted_text)
-    #print(str_json)
+    # print(str_json)
     if isinstance(str_json, list):
         for s in str_json:
             if len(str_json) > 1:

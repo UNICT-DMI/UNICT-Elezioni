@@ -1,0 +1,242 @@
+{
+    "dipartimento": "SCIENZE DELL'AMMINISTRAZIONE-Laurea (D.M.270/2004)\nCOMUNICAZIONE E RELAZIONI PUBBLICHE-Laurea Triennale (D.M. 509/99)\nSCIENZE DEL GOVERNO E DELL'AMMINISTRAZIONE-Laurea Triennale (D.M. 509/99)\nSCIENZE DELL'AMMINISTRAZIONE-Laurea Triennale (D.M. 509/99)",
+    "seggi_da_assegnare": "5",
+    "schede": {
+        "bianche": {
+            "totali": 12,
+            "seggio_n_4": 12
+        },
+        "nulle": {
+            "totali": 54,
+            "seggio_n_4": 54
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_4": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "YES, WE LOVE",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "12,6",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 57,
+                "seggio_n_4": 57
+            }
+        },
+        {
+            "nome": "UDU - UNIONE DEGLI UNIVERSITARI",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "17,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 17,
+                "seggio_n_4": 17
+            }
+        },
+        {
+            "nome": "ORBIS",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "44,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 44,
+                "seggio_n_4": 44
+            }
+        },
+        {
+            "nome": "ARES",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "1,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 1,
+                "seggio_n_4": 1
+            }
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "30,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 30,
+                "seggio_n_4": 30
+            }
+        },
+        {
+            "nome": "GIOVANI PER L'AUTONOMIA LIBERTAS",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "28,6",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 73,
+                "seggio_n_4": 73
+            }
+        },
+        {
+            "totale": 222
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "ODIERNA Salvatore",
+            "lista": "YES, WE LOVE",
+            "voti": {
+                "totali": 47,
+                "seggio_n_4": 47
+            }
+        },
+        {
+            "nominativo": "CATANIA Angela",
+            "lista": "ORBIS",
+            "voti": {
+                "totali": 15,
+                "seggio_n_4": 15
+            }
+        },
+        {
+            "nominativo": "NAPOLI Marta",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 21,
+                "seggio_n_4": 21
+            }
+        },
+        {
+            "nominativo": "LONGO Giuseppe",
+            "lista": "GIOVANI PER L'AUTONOMIA LIBERTAS",
+            "voti": {
+                "totali": 42,
+                "seggio_n_4": 42
+            }
+        },
+        {
+            "nominativo": "PULVIRENTI Marta Francesca",
+            "lista": "GIOVANI PER L'AUTONOMIA LIBERTAS",
+            "voti": {
+                "totali": 28,
+                "seggio_n_4": 28
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "BOEME Graziella",
+            "lista": "YES, WE LOVE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0
+            }
+        },
+        {
+            "nominativo": "MONTEROSSO Gabriele detto \"Gabro\" o \"Gabri\" o \"Gabry\"",
+            "lista": "YES, WE LOVE",
+            "voti": {
+                "totali": 6,
+                "seggio_n_4": 6
+            }
+        },
+        {
+            "nominativo": "FISCHETTI Roberto",
+            "lista": "UDU - UNIONE DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 5,
+                "seggio_n_4": 5
+            }
+        },
+        {
+            "nominativo": "LO GIUDICE Antonino",
+            "lista": "UDU - UNIONE DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 3,
+                "seggio_n_4": 3
+            }
+        },
+        {
+            "nominativo": "CULTRARO Nunziata Melania",
+            "lista": "UDU - UNIONE DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0
+            }
+        },
+        {
+            "nominativo": "LOMBARDO Marco",
+            "lista": "UDU - UNIONE DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 6,
+                "seggio_n_4": 6
+            }
+        },
+        {
+            "nominativo": "BANNO' Tiziana",
+            "lista": "ORBIS",
+            "voti": {
+                "totali": 8,
+                "seggio_n_4": 8
+            }
+        },
+        {
+            "nominativo": "SCIVOLI Concetta",
+            "lista": "ORBIS",
+            "voti": {
+                "totali": 13,
+                "seggio_n_4": 13
+            }
+        },
+        {
+            "nominativo": "MIRMINA Fabio",
+            "lista": "ARES",
+            "voti": {
+                "totali": 0,
+                "seggio_n_4": 0
+            }
+        },
+        {
+            "nominativo": "FRIGENTI Umberto",
+            "lista": "GIOVANI PER L'AUTONOMIA LIBERTAS",
+            "voti": {
+                "totali": 1,
+                "seggio_n_4": 1
+            }
+        },
+        {
+            "nominativo": "CARUSO Andrea",
+            "lista": "GIOVANI PER L'AUTONOMIA LIBERTAS",
+            "voti": {
+                "totali": 2,
+                "seggio_n_4": 2
+            }
+        }
+    ],
+    "quoziente": 44.4,
+    "votanti": {
+        "totali": 288,
+        "percentuale": 22.14
+    },
+    "elettori": {
+        "totali": 1301,
+        "seggio_n_4": 1301
+    }
+}

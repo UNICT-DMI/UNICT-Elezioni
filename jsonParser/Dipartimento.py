@@ -11,7 +11,7 @@ class Dipartimento(Target):
             nome += "\n" + text[self.i]
             self.i += 1
         return nome
-        
+
     def __find_info_lists(self, text) -> None:
         while "L I S T E" not in text[self.i].upper() and "LISTE" not in text[self.i].upper():
             self.i += 1
@@ -47,7 +47,7 @@ class Dipartimento(Target):
                         name_of_list += (s + " ")
                 else:
                     seats.append(s)
-            
+
             votes = {}
             votes["totali"] = vote_of_list
             j = len(list_of_seats)-1
@@ -57,7 +57,7 @@ class Dipartimento(Target):
                 k += 1
                 j = j-1
             info_lists.append({
-                "nome": name_of_list.strip(), 
+                "nome": name_of_list.strip(),
                 "seggi": {
                     "seggi_pieni": seats.pop(0),
                     "resti": seats.pop(0),
@@ -67,7 +67,7 @@ class Dipartimento(Target):
                     "voti": votes
             })
             self.i += 1
-        
+
         tmp = text[self.i].split()
         info_lists.append({"totale": int(tmp[1])})
         seggi_da_assegnare[0] = tmp[len(tmp)-1]
@@ -98,24 +98,25 @@ class Dipartimento(Target):
         vot["percentuale"] = votanti_perc
         k = 0
         for v in list_of_voters:
-            vot["seggio_n_" + str(list_of_seats[k])] = v
+            if k in list_of_seats and "seggio_n_" + str(list_of_seats[k]) in vot:
+                vot["seggio_n_" + str(list_of_seats[k])] = v
             k += 1
         return vot
-    
+
     def __getInfoElettori(self, text, list_of_seats) -> object:
         while "ELETTORI" not in text[self.i].upper():
             self.i += 1
-        
+
         split_text = text[self.i].split()
         for s in split_text:
             if self.is_integer(s):
                 totale_elettori = int(s)
                 break
         self.i += 1
-        
+
         while "ELETTORI" not in text[self.i].upper():
             self.i += 1
-        
+
         elettori_per_seggio = []
         split_text = text[self.i].split()
         for s in split_text:
@@ -148,9 +149,9 @@ class Dipartimento(Target):
         schede_contestate = self.find_card("CONTESTATE", text, list_of_seats, list_of_contested)
 
         schede = self.format_schede(schede_bianche, schede_nulle, schede_contestate, list_of_white, list_of_null, list_of_contested, list_of_seats)
-        
+
         quoziente = self.get_quotient(text)
-        
+
         votanti = self.__getVotanti(text, list_of_seats)
         info_elettori = self.__getInfoElettori(text, list_of_seats)
 

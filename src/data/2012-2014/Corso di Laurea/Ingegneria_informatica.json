@@ -1,0 +1,197 @@
+{
+    "dipartimento": "INGEGNERIA INFORMATICA-Laurea (D.M.270/2004)\nINGEGNERIA DELL'AUTOMAZIONE-Laurea Triennale (D.M. 509/99)\nINGEGNERIA DELLE TELECOMUNICAZIONI-Laurea Triennale (D.M. 509/99)\nINGEGNERIA INFORMATICA-Laurea Triennale (D.M. 509/99)\nINGEGNERIA TELEMATICA-Laurea Triennale (D.M. 509/99)",
+    "seggi_da_assegnare": "5",
+    "schede": {
+        "bianche": {
+            "totali": 9,
+            "seggio_n_30": 9
+        },
+        "nulle": {
+            "totali": 11,
+            "seggio_n_30": 11
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_30": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "INGEGNERIA FUORI CAMPO",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "10,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 10,
+                "seggio_n_30": 10
+            }
+        },
+        {
+            "nome": "ORBIS",
+            "seggi": {
+                "seggi_pieni": "ERR",
+                "resti": "-",
+                "seggi_ai_resti": "11,0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 11,
+                "seggio_n_30": 11
+            }
+        },
+        {
+            "nome": "IL PROGETTO DEGLI UNIVERSITARI",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "3,4",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 27,
+                "seggio_n_30": 27
+            }
+        },
+        {
+            "nome": "ACTEA",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "16,8",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "3"
+            },
+            "voti": {
+                "totali": 64,
+                "seggio_n_30": 64
+            }
+        },
+        {
+            "nome": "ORIZZONTE ITALIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "6,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 6,
+                "seggio_n_30": 6
+            }
+        },
+        {
+            "totale": 118
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "TODERO Alessandro Mario Felice",
+            "lista": "ORBIS",
+            "voti": {
+                "totali": 11,
+                "seggio_n_30": 11
+            }
+        },
+        {
+            "nominativo": "RAVIDA' Carmelo",
+            "lista": "IL PROGETTO DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 23,
+                "seggio_n_30": 23
+            }
+        },
+        {
+            "nominativo": "BUSA Giuseppe",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 18,
+                "seggio_n_30": 18
+            }
+        },
+        {
+            "nominativo": "FLORIDIA Andrea",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 39,
+                "seggio_n_30": 39
+            }
+        },
+        {
+            "nominativo": "CONDORELLI Gianpiero",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 3,
+                "seggio_n_30": 3
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "DI STEFANO Alessandro",
+            "lista": "INGEGNERIA FUORI CAMPO",
+            "voti": {
+                "totali": 7,
+                "seggio_n_30": 7
+            }
+        },
+        {
+            "nominativo": "BENBACHIR Ismaele",
+            "lista": "INGEGNERIA FUORI CAMPO",
+            "voti": {
+                "totali": 2,
+                "seggio_n_30": 2
+            }
+        },
+        {
+            "nominativo": "REALE Andrea",
+            "lista": "ORBIS",
+            "voti": {
+                "totali": 0,
+                "seggio_n_30": 0
+            }
+        },
+        {
+            "nominativo": "PULVIRENTI Gaetano",
+            "lista": "IL PROGETTO DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 2,
+                "seggio_n_30": 2
+            }
+        },
+        {
+            "nominativo": "VALENTI Francesco",
+            "lista": "IL PROGETTO DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_30": 0
+            }
+        },
+        {
+            "nominativo": "LAROCCA Michele",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_30": 1
+            }
+        },
+        {
+            "nominativo": "VITA Francesca",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 3,
+                "seggio_n_30": 3
+            }
+        }
+    ],
+    "quoziente": 23.6,
+    "votanti": {
+        "totali": 138,
+        "percentuale": 18.55
+    },
+    "elettori": {
+        "totali": 744,
+        "seggio_n_30": 744
+    }
+}

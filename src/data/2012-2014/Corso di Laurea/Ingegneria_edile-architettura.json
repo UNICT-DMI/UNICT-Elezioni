@@ -1,0 +1,473 @@
+{
+    "dipartimento": "INGEGNERIA EDILE-ARCHITETTURA-Laurea Magistrale a ciclo unico (D.M. 270/2004)\nINGEGNERIA DEL RECUPERO EDILIZIO E AMBIENTALE-Laurea Triennale (D.M. 509/99)\nINGEGNERIA EDILE E DEL RECUPERO AMBIENTALE-Laurea Specialistica biennale (D.M. 509/99)\nINGEGNERIA EDILE-ARCHITETTURA-Laurea Specialistica a ciclo unico (D.M. 509/99)",
+    "seggi_da_assegnare": "9",
+    "schede": {
+        "bianche": {
+            "totali": 4,
+            "seggio_n_33": 4
+        },
+        "nulle": {
+            "totali": 42,
+            "seggio_n_33": 42
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_33": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "STUDICENTRO - ARCADIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "35,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 35,
+                "seggio_n_33": 35
+            }
+        },
+        {
+            "nome": "IL PROGETTO DEGLI UNIVERSITARI",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "31,8",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 79,
+                "seggio_n_33": 79
+            }
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA - CONTROCAMPUS",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "11,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 11,
+                "seggio_n_33": 11
+            }
+        },
+        {
+            "nome": "INGEGNERIATTIVA EDILE",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "41,8",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 89,
+                "seggio_n_33": 89
+            }
+        },
+        {
+            "nome": "LIBERI E FORTI",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "21,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 21,
+                "seggio_n_33": 21
+            }
+        },
+        {
+            "nome": "ACTEA",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "8,6",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 103,
+                "seggio_n_33": 103
+            }
+        },
+        {
+            "nome": "C351 - GLI ULTIMI DEL REA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "46,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 46,
+                "seggio_n_33": 46
+            }
+        },
+        {
+            "nome": "ALPHAKATANE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "37,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 37,
+                "seggio_n_33": 37
+            }
+        },
+        {
+            "nome": "ORIZZONTE ITALIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "4,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 4,
+                "seggio_n_33": 4
+            }
+        },
+        {
+            "totale": 425
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "RIGGI Vincenzo Maria",
+            "lista": "STUDICENTRO - ARCADIA",
+            "voti": {
+                "totali": 7,
+                "seggio_n_33": 7
+            }
+        },
+        {
+            "nominativo": "CASSARO Pascal Federico Detto \"Pascal\"",
+            "lista": "IL PROGETTO DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 39,
+                "seggio_n_33": 39
+            }
+        },
+        {
+            "nominativo": "LOMBARDO Luca",
+            "lista": "IL PROGETTO DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 27,
+                "seggio_n_33": 27
+            }
+        },
+        {
+            "nominativo": "PRIVITERA Elisa Detta \"Lizzy\"",
+            "lista": "INGEGNERIATTIVA EDILE",
+            "voti": {
+                "totali": 46,
+                "seggio_n_33": 46
+            }
+        },
+        {
+            "nominativo": "PACE Alessandro",
+            "lista": "INGEGNERIATTIVA EDILE",
+            "voti": {
+                "totali": 24,
+                "seggio_n_33": 24
+            }
+        },
+        {
+            "nominativo": "MAUGERI Andrea",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 15,
+                "seggio_n_33": 15
+            }
+        },
+        {
+            "nominativo": "ROMEO Santo",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 67,
+                "seggio_n_33": 67
+            }
+        },
+        {
+            "nominativo": "DI GIOVANNI Andrea",
+            "lista": "C351 - GLI ULTIMI DEL REA",
+            "voti": {
+                "totali": 25,
+                "seggio_n_33": 25
+            }
+        },
+        {
+            "nominativo": "CRISTAUDO Maria Aurora",
+            "lista": "ALPHAKATANE",
+            "voti": {
+                "totali": 23,
+                "seggio_n_33": 23
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "FERRARA Federica",
+            "lista": "STUDICENTRO - ARCADIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_33": 0
+            }
+        },
+        {
+            "nominativo": "LEONE Carolina",
+            "lista": "STUDICENTRO - ARCADIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_33": 0
+            }
+        },
+        {
+            "nominativo": "BONANNO Mariangela",
+            "lista": "STUDICENTRO - ARCADIA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_33": 1
+            }
+        },
+        {
+            "nominativo": "CAVALLARO Giuseppe",
+            "lista": "STUDICENTRO - ARCADIA",
+            "voti": {
+                "totali": 2,
+                "seggio_n_33": 2
+            }
+        },
+        {
+            "nominativo": "CICCIA Luca",
+            "lista": "IL PROGETTO DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_33": 0
+            }
+        },
+        {
+            "nominativo": "DI STEFANO Angelo",
+            "lista": "IL PROGETTO DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_33": 0
+            }
+        },
+        {
+            "nominativo": "LUPO Federica",
+            "lista": "IL PROGETTO DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 1,
+                "seggio_n_33": 1
+            }
+        },
+        {
+            "nominativo": "MUSUMECI Angelo Paolo",
+            "lista": "IL PROGETTO DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 4,
+                "seggio_n_33": 4
+            }
+        },
+        {
+            "nominativo": "RANNO Alessio",
+            "lista": "IL PROGETTO DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 3,
+                "seggio_n_33": 3
+            }
+        },
+        {
+            "nominativo": "TORRISI Rosario",
+            "lista": "IL PROGETTO DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_33": 0
+            }
+        },
+        {
+            "nominativo": "GRASSI Federico",
+            "lista": "AZIONE UNIVERSITARIA - CONTROCAMPUS",
+            "voti": {
+                "totali": 5,
+                "seggio_n_33": 5
+            }
+        },
+        {
+            "nominativo": "LEOTTA Giulia",
+            "lista": "AZIONE UNIVERSITARIA - CONTROCAMPUS",
+            "voti": {
+                "totali": 0,
+                "seggio_n_33": 0
+            }
+        },
+        {
+            "nominativo": "LO FARO Domenico",
+            "lista": "AZIONE UNIVERSITARIA - CONTROCAMPUS",
+            "voti": {
+                "totali": 1,
+                "seggio_n_33": 1
+            }
+        },
+        {
+            "nominativo": "ZITO Martina",
+            "lista": "AZIONE UNIVERSITARIA - CONTROCAMPUS",
+            "voti": {
+                "totali": 5,
+                "seggio_n_33": 5
+            }
+        },
+        {
+            "nominativo": "SAMMARTINO Salvatore",
+            "lista": "AZIONE UNIVERSITARIA - CONTROCAMPUS",
+            "voti": {
+                "totali": 0,
+                "seggio_n_33": 0
+            }
+        },
+        {
+            "nominativo": "PISANI Annamaria",
+            "lista": "AZIONE UNIVERSITARIA - CONTROCAMPUS",
+            "voti": {
+                "totali": 0,
+                "seggio_n_33": 0
+            }
+        },
+        {
+            "nominativo": "MONTALTO Rossella",
+            "lista": "INGEGNERIATTIVA EDILE",
+            "voti": {
+                "totali": 2,
+                "seggio_n_33": 2
+            }
+        },
+        {
+            "nominativo": "MUSCHELLA Enrico",
+            "lista": "INGEGNERIATTIVA EDILE",
+            "voti": {
+                "totali": 6,
+                "seggio_n_33": 6
+            }
+        },
+        {
+            "nominativo": "SAVOCA Melania",
+            "lista": "INGEGNERIATTIVA EDILE",
+            "voti": {
+                "totali": 1,
+                "seggio_n_33": 1
+            }
+        },
+        {
+            "nominativo": "MELONI Marco",
+            "lista": "INGEGNERIATTIVA EDILE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_33": 0
+            }
+        },
+        {
+            "nominativo": "RAFFAELE Giuseppe",
+            "lista": "LIBERI E FORTI",
+            "voti": {
+                "totali": 8,
+                "seggio_n_33": 8
+            }
+        },
+        {
+            "nominativo": "MANTINEO Daniela",
+            "lista": "LIBERI E FORTI",
+            "voti": {
+                "totali": 13,
+                "seggio_n_33": 13
+            }
+        },
+        {
+            "nominativo": "PENNISI Orazio Alberto",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 7,
+                "seggio_n_33": 7
+            }
+        },
+        {
+            "nominativo": "BOCCARDI Sarah",
+            "lista": "C351 - GLI ULTIMI DEL REA",
+            "voti": {
+                "totali": 2,
+                "seggio_n_33": 2
+            }
+        },
+        {
+            "nominativo": "CORSARO Sonia",
+            "lista": "C351 - GLI ULTIMI DEL REA",
+            "voti": {
+                "totali": 2,
+                "seggio_n_33": 2
+            }
+        },
+        {
+            "nominativo": "STRANO Agnese Mariasanta",
+            "lista": "C351 - GLI ULTIMI DEL REA",
+            "voti": {
+                "totali": 15,
+                "seggio_n_33": 15
+            }
+        },
+        {
+            "nominativo": "FARINATO Marco",
+            "lista": "ALPHAKATANE",
+            "voti": {
+                "totali": 13,
+                "seggio_n_33": 13
+            }
+        },
+        {
+            "nominativo": "FRATICELLI Luciano",
+            "lista": "ALPHAKATANE",
+            "voti": {
+                "totali": 0,
+                "seggio_n_33": 0
+            }
+        },
+        {
+            "nominativo": "LO FARO Giuseppe",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_33": 0
+            }
+        },
+        {
+            "nominativo": "RICHICHI Francesco",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_33": 0
+            }
+        },
+        {
+            "nominativo": "LITRICO Simone",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_33": 1
+            }
+        }
+    ],
+    "quoziente": 47.2222,
+    "votanti": {
+        "totali": 471,
+        "percentuale": 42.43
+    },
+    "elettori": {
+        "totali": 1110,
+        "seggio_n_33": 1110
+    }
+}

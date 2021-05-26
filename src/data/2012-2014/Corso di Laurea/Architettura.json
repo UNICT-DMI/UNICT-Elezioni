@@ -1,0 +1,348 @@
+{
+    "dipartimento": "ARCHITETTURA-Laurea Magistrale a ciclo unico (D.M. 270/2004)\nARCHITETTURA-Laurea Specialistica a ciclo unico (D.M. 509/99)\nRESTAURO DELL'ARCHITETTURA-Laurea Specialistica biennale (D.M. 509/99)\nSCIENZA DELL'ARCHITETTURA E DELL'INGEGNERIA EDILE-LaureaTriennale (D.M. 509/99)",
+    "seggi_da_assegnare": "9",
+    "schede": {
+        "bianche": {
+            "totali": 36,
+            "seggio_n_38": 36
+        },
+        "nulle": {
+            "totali": 25,
+            "seggio_n_38": 25
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_38": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "SIRACUSA FUTURO - ARCADIA",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "1,7",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 37,
+                "seggio_n_38": 37
+            }
+        },
+        {
+            "nome": "LA SESTA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "10,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 10,
+                "seggio_n_38": 10
+            }
+        },
+        {
+            "nome": "ARES - PDU - LA QUINTA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "11,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 11,
+                "seggio_n_38": 11
+            }
+        },
+        {
+            "nome": "ARCHITETTURA SIRACUSA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "19,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 19,
+                "seggio_n_38": 19
+            }
+        },
+        {
+            "nome": "NOI X ARCHITETTURA",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "17,7",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 53,
+                "seggio_n_38": 53
+            }
+        },
+        {
+            "nome": "AVANGUARDIA",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "9,7",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 45,
+                "seggio_n_38": 45
+            }
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "23,3",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "3"
+            },
+            "voti": {
+                "totali": 94,
+                "seggio_n_38": 94
+            }
+        },
+        {
+            "nome": "ACTEA",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "13,7",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 49,
+                "seggio_n_38": 49
+            }
+        },
+        {
+            "totale": 318
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "SCAMACCA Alberto",
+            "lista": "SIRACUSA FUTURO - ARCADIA",
+            "voti": {
+                "totali": 34,
+                "seggio_n_38": 34
+            }
+        },
+        {
+            "nominativo": "BARTOLONI Tommaso",
+            "lista": "ARCHITETTURA SIRACUSA",
+            "voti": {
+                "totali": 19,
+                "seggio_n_38": 19
+            }
+        },
+        {
+            "nominativo": "ALBERGHINA Ernesto",
+            "lista": "NOI X ARCHITETTURA",
+            "voti": {
+                "totali": 29,
+                "seggio_n_38": 29
+            }
+        },
+        {
+            "nominativo": "CHIARANDA' Daniele",
+            "lista": "NOI X ARCHITETTURA",
+            "voti": {
+                "totali": 8,
+                "seggio_n_38": 8
+            }
+        },
+        {
+            "nominativo": "TORRISI Giuliano",
+            "lista": "AVANGUARDIA",
+            "voti": {
+                "totali": 27,
+                "seggio_n_38": 27
+            }
+        },
+        {
+            "nominativo": "VALASTRO Paolo",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 42,
+                "seggio_n_38": 42
+            }
+        },
+        {
+            "nominativo": "SORBELLO Giulia",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 29,
+                "seggio_n_38": 29
+            }
+        },
+        {
+            "nominativo": "ALEO Cosimo Salvatore",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 7,
+                "seggio_n_38": 7
+            }
+        },
+        {
+            "nominativo": "PARISI Selene Rosy",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 16,
+                "seggio_n_38": 16
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "CAVALLARO Francesco",
+            "lista": "SIRACUSA FUTURO - ARCADIA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_38": 1
+            }
+        },
+        {
+            "nominativo": "MAUGERI Manfredi",
+            "lista": "LA SESTA",
+            "voti": {
+                "totali": 10,
+                "seggio_n_38": 10
+            }
+        },
+        {
+            "nominativo": "CAMINITO Lucilla",
+            "lista": "ARES - PDU - LA QUINTA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_38": 0
+            }
+        },
+        {
+            "nominativo": "CHINDEMI Elisabetta",
+            "lista": "ARES - PDU - LA QUINTA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_38": 0
+            }
+        },
+        {
+            "nominativo": "FUCILE Fabiola",
+            "lista": "ARES - PDU - LA QUINTA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_38": 0
+            }
+        },
+        {
+            "nominativo": "MERCURIO Sonia",
+            "lista": "ARES - PDU - LA QUINTA",
+            "voti": {
+                "totali": 11,
+                "seggio_n_38": 11
+            }
+        },
+        {
+            "nominativo": "TROVATO Elena Maria",
+            "lista": "NOI X ARCHITETTURA",
+            "voti": {
+                "totali": 2,
+                "seggio_n_38": 2
+            }
+        },
+        {
+            "nominativo": "TONINATO Simone",
+            "lista": "NOI X ARCHITETTURA",
+            "voti": {
+                "totali": 4,
+                "seggio_n_38": 4
+            }
+        },
+        {
+            "nominativo": "LONGHITANO Verdiana",
+            "lista": "AVANGUARDIA",
+            "voti": {
+                "totali": 7,
+                "seggio_n_38": 7
+            }
+        },
+        {
+            "nominativo": "MARTINEZ Dario",
+            "lista": "AVANGUARDIA",
+            "voti": {
+                "totali": 5,
+                "seggio_n_38": 5
+            }
+        },
+        {
+            "nominativo": "PITINO Stefano",
+            "lista": "AVANGUARDIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_38": 0
+            }
+        },
+        {
+            "nominativo": "ANTONUCCIO Carmelo",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 4,
+                "seggio_n_38": 4
+            }
+        },
+        {
+            "nominativo": "CUTERI Alberto",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_38": 0
+            }
+        },
+        {
+            "nominativo": "BONACCORSI Stefano",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_38": 0
+            }
+        },
+        {
+            "nominativo": "MONTECCHI Valerio",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 9,
+                "seggio_n_38": 9
+            }
+        },
+        {
+            "nominativo": "ROCCAFORTE Federica Luciana",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 3,
+                "seggio_n_38": 3
+            }
+        },
+        {
+            "nominativo": "LISITANO Marco",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 4,
+                "seggio_n_38": 4
+            }
+        }
+    ],
+    "quoziente": 35.3333,
+    "votanti": {
+        "totali": 379,
+        "percentuale": 39.89
+    },
+    "elettori": {
+        "totali": 950,
+        "seggio_n_38": 950
+    }
+}

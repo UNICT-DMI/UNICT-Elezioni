@@ -1,0 +1,160 @@
+{
+    "dipartimento": "POLITICA E RELAZIONI INTERNAZIONALI-Laurea (D.M.270/2004)\nPOLITICA E RELAZIONI INTERNAZIONALI-Laurea Triennale (D.M. 509/99)",
+    "seggi_da_assegnare": "5",
+    "schede": {
+        "bianche": {
+            "totali": 10,
+            "seggio_n_6": 10
+        },
+        "nulle": {
+            "totali": 16,
+            "seggio_n_6": 16
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_6": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "UDU - UNIONE DEGLI UNIVERSITARI",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "2,6",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 37,
+                "seggio_n_6": 37
+            }
+        },
+        {
+            "nome": "ORBIS",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "21,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 21,
+                "seggio_n_6": 21
+            }
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "16,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 16,
+                "seggio_n_6": 16
+            }
+        },
+        {
+            "nome": "INSIEME PER P.R.I.",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "29,2",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "3"
+            },
+            "voti": {
+                "totali": 98,
+                "seggio_n_6": 98
+            }
+        },
+        {
+            "totale": 172
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "CAVALLARO Maria Grazia",
+            "lista": "UDU - UNIONE DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 36,
+                "seggio_n_6": 36
+            }
+        },
+        {
+            "nominativo": "INSANGUINE Alessia",
+            "lista": "ORBIS",
+            "voti": {
+                "totali": 9,
+                "seggio_n_6": 9
+            }
+        },
+        {
+            "nominativo": "MUSUMECI Giuseppe Detto \"Peppe\"",
+            "lista": "INSIEME PER P.R.I.",
+            "voti": {
+                "totali": 82,
+                "seggio_n_6": 82
+            }
+        },
+        {
+            "nominativo": "AMICO Carol",
+            "lista": "INSIEME PER P.R.I.",
+            "voti": {
+                "totali": 4,
+                "seggio_n_6": 4
+            }
+        },
+        {
+            "nominativo": "LONGHITANO Chiara",
+            "lista": "INSIEME PER P.R.I.",
+            "voti": {
+                "totali": 9,
+                "seggio_n_6": 9
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "LIGRESTI Luana Concetta",
+            "lista": "ORBIS",
+            "voti": {
+                "totali": 7,
+                "seggio_n_6": 7
+            }
+        },
+        {
+            "nominativo": "MUSUMARRA Antonio",
+            "lista": "ORBIS",
+            "voti": {
+                "totali": 0,
+                "seggio_n_6": 0
+            }
+        },
+        {
+            "nominativo": "CRISTAURO Tiziano",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_6": 1
+            }
+        },
+        {
+            "nominativo": "PARLA Fabrizio",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 12,
+                "seggio_n_6": 12
+            }
+        }
+    ],
+    "quoziente": 34.4,
+    "votanti": {
+        "totali": 198,
+        "percentuale": 35.68
+    },
+    "elettori": {
+        "totali": 555,
+        "seggio_n_6": 555
+    }
+}

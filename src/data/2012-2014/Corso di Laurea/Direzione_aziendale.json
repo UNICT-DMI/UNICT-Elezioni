@@ -1,0 +1,184 @@
+{
+    "dipartimento": "DIREZIONE AZIENDALE-Laurea Magistrale biennale (D.M.270/2004)\nDIREZIONE AZIENDALE-Laurea Specialistica biennale (D.M. 509/99)",
+    "seggi_da_assegnare": "5",
+    "schede": {
+        "bianche": {
+            "totali": 2,
+            "seggio_n_10": 2
+        },
+        "nulle": {
+            "totali": 6,
+            "seggio_n_10": 6
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_10": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "STUDICENTRO - ARCADIA",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "2,4",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 48,
+                "seggio_n_10": 48
+            }
+        },
+        {
+            "nome": "ARES",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "12,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 12,
+                "seggio_n_10": 12
+            }
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA - ACTEA",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "6,2",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 29,
+                "seggio_n_10": 29
+            }
+        },
+        {
+            "nome": "ORIZZONTE ITALIA - UNICTBLOG",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "2,2",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 25,
+                "seggio_n_10": 25
+            }
+        },
+        {
+            "totale": 114
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "LEONARDI Salvatore detto \"Salvo\"",
+            "lista": "STUDICENTRO - ARCADIA",
+            "voti": {
+                "totali": 41,
+                "seggio_n_10": 41
+            }
+        },
+        {
+            "nominativo": "LI PIRA Fabio",
+            "lista": "STUDICENTRO - ARCADIA",
+            "voti": {
+                "totali": 5,
+                "seggio_n_10": 5
+            }
+        },
+        {
+            "nominativo": "COMMENDATORE Alessandro",
+            "lista": "ARES",
+            "voti": {
+                "totali": 4,
+                "seggio_n_10": 4
+            }
+        },
+        {
+            "nominativo": "NIGRO Filippo Roberto detto \"Pippo\"",
+            "lista": "AZIONE UNIVERSITARIA - ACTEA",
+            "voti": {
+                "totali": 24,
+                "seggio_n_10": 24
+            }
+        },
+        {
+            "nominativo": "MECCIA Antonino",
+            "lista": "ORIZZONTE ITALIA - UNICTBLOG",
+            "voti": {
+                "totali": 17,
+                "seggio_n_10": 17
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "MANCARELLA Sebastiano",
+            "lista": "ARES",
+            "voti": {
+                "totali": 3,
+                "seggio_n_10": 3
+            }
+        },
+        {
+            "nominativo": "ALETTA Ivan",
+            "lista": "ARES",
+            "voti": {
+                "totali": 0,
+                "seggio_n_10": 0
+            }
+        },
+        {
+            "nominativo": "IURATO Santa Emilia",
+            "lista": "ARES",
+            "voti": {
+                "totali": 0,
+                "seggio_n_10": 0
+            }
+        },
+        {
+            "nominativo": "IPPOLITO Filippo",
+            "lista": "ARES",
+            "voti": {
+                "totali": 2,
+                "seggio_n_10": 2
+            }
+        },
+        {
+            "nominativo": "LA SPINA Giuseppe",
+            "lista": "ORIZZONTE ITALIA - UNICTBLOG",
+            "voti": {
+                "totali": 0,
+                "seggio_n_10": 0
+            }
+        },
+        {
+            "nominativo": "DI DIO Sonia Antonella",
+            "lista": "ORIZZONTE ITALIA - UNICTBLOG",
+            "voti": {
+                "totali": 6,
+                "seggio_n_10": 6
+            }
+        },
+        {
+            "nominativo": "TUDISCO Miriam",
+            "lista": "ORIZZONTE ITALIA - UNICTBLOG",
+            "voti": {
+                "totali": 2,
+                "seggio_n_10": 2
+            }
+        }
+    ],
+    "quoziente": 22.8,
+    "votanti": {
+        "totali": 122,
+        "percentuale": 21.14
+    },
+    "elettori": {
+        "totali": 577,
+        "seggio_n_10": 577
+    }
+}

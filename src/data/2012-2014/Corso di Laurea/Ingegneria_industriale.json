@@ -1,0 +1,473 @@
+{
+    "dipartimento": "INGEGNERIA INDUSTRIALE-Laurea (D.M.270/2004)\nINGEGNERIA ELETTRICA-Laurea Triennale (D.M. 509/99)\nINGEGNERIA ENERGETICA-Laurea Triennale (D.M. 509/99)\nINGEGNERIA GESTIONALE-Laurea Triennale (D.M. 509/99)\nINGEGNERIA MECCANICA-Laurea Triennale (D.M. 509/99)",
+    "seggi_da_assegnare": "5",
+    "schede": {
+        "bianche": {
+            "totali": 20,
+            "seggio_n_31": 20
+        },
+        "nulle": {
+            "totali": 21,
+            "seggio_n_31": 21
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_31": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "STUDICENTRO",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "72,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 72,
+                "seggio_n_31": 72
+            }
+        },
+        {
+            "nome": "ARCADIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "27,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 27,
+                "seggio_n_31": 27
+            }
+        },
+        {
+            "nome": "ARES",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "23,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 23,
+                "seggio_n_31": 23
+            }
+        },
+        {
+            "nome": "IL PROGETTO DEGLI UNIVERSITARI",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "39,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 39,
+                "seggio_n_31": 39
+            }
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA - ALCHIMIA - CONTROCAMPUS",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "28,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 28,
+                "seggio_n_31": 28
+            }
+        },
+        {
+            "nome": "DESTRA UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "1,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 1,
+                "seggio_n_31": 1
+            }
+        },
+        {
+            "nome": "INGEGNERIATTIVA - NIKE",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "15,2",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 88,
+                "seggio_n_31": 88
+            }
+        },
+        {
+            "nome": "LIBERI E FORTI",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "51,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 51,
+                "seggio_n_31": 51
+            }
+        },
+        {
+            "nome": "ORIZZONTE ITALIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "35,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 35,
+                "seggio_n_31": 35
+            }
+        },
+        {
+            "totale": 364
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "GURGONE Antonio",
+            "lista": "STUDICENTRO",
+            "voti": {
+                "totali": 66,
+                "seggio_n_31": 66
+            }
+        },
+        {
+            "nominativo": "BRUNO Alessio",
+            "lista": "IL PROGETTO DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 18,
+                "seggio_n_31": 18
+            }
+        },
+        {
+            "nominativo": "ORLANDO Stefano",
+            "lista": "INGEGNERIATTIVA - NIKE",
+            "voti": {
+                "totali": 57,
+                "seggio_n_31": 57
+            }
+        },
+        {
+            "nominativo": "PUGLISI Agatino",
+            "lista": "LIBERI E FORTI",
+            "voti": {
+                "totali": 43,
+                "seggio_n_31": 43
+            }
+        },
+        {
+            "nominativo": "MAGLIA Fabio",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 30,
+                "seggio_n_31": 30
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "CARRUBBA Vincenzo",
+            "lista": "STUDICENTRO",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        },
+        {
+            "nominativo": "LONGO Gianluca",
+            "lista": "STUDICENTRO",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        },
+        {
+            "nominativo": "CASTANO Giorgio",
+            "lista": "STUDICENTRO",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        },
+        {
+            "nominativo": "DISTEFANO Luciano",
+            "lista": "STUDICENTRO",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        },
+        {
+            "nominativo": "SCIMO' Francesco Detto \"Ciccio\"",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 12,
+                "seggio_n_31": 12
+            }
+        },
+        {
+            "nominativo": "PENNISI Giuliana",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 10,
+                "seggio_n_31": 10
+            }
+        },
+        {
+            "nominativo": "NATALE Gianluca",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 2,
+                "seggio_n_31": 2
+            }
+        },
+        {
+            "nominativo": "SAPUPPO Salvatore",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        },
+        {
+            "nominativo": "PLATANIA Giulio",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 2,
+                "seggio_n_31": 2
+            }
+        },
+        {
+            "nominativo": "CUPPARI Carlo",
+            "lista": "ARES",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        },
+        {
+            "nominativo": "COSENZA Federica",
+            "lista": "ARES",
+            "voti": {
+                "totali": 22,
+                "seggio_n_31": 22
+            }
+        },
+        {
+            "nominativo": "FRAZZETTA Nunzio",
+            "lista": "ARES",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        },
+        {
+            "nominativo": "VELLA Giacomo",
+            "lista": "ARES",
+            "voti": {
+                "totali": 1,
+                "seggio_n_31": 1
+            }
+        },
+        {
+            "nominativo": "VITALE Mauro",
+            "lista": "ARES",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        },
+        {
+            "nominativo": "CALAFIORE Monica",
+            "lista": "IL PROGETTO DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 3,
+                "seggio_n_31": 3
+            }
+        },
+        {
+            "nominativo": "IAPICHINO Giuseppe Alex Angelo",
+            "lista": "IL PROGETTO DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 3,
+                "seggio_n_31": 3
+            }
+        },
+        {
+            "nominativo": "ANZALONE Vincenzo",
+            "lista": "AZIONE UNIVERSITARIA - ALCHIMIA - CONTROCAMPUS",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        },
+        {
+            "nominativo": "MACEDONE Giuseppe",
+            "lista": "AZIONE UNIVERSITARIA - ALCHIMIA - CONTROCAMPUS",
+            "voti": {
+                "totali": 10,
+                "seggio_n_31": 10
+            }
+        },
+        {
+            "nominativo": "CASCHETTO Davide",
+            "lista": "AZIONE UNIVERSITARIA - ALCHIMIA - CONTROCAMPUS",
+            "voti": {
+                "totali": 5,
+                "seggio_n_31": 5
+            }
+        },
+        {
+            "nominativo": "BUA Giovanni",
+            "lista": "AZIONE UNIVERSITARIA - ALCHIMIA - CONTROCAMPUS",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        },
+        {
+            "nominativo": "PRIVITERA Andrea Antonino",
+            "lista": "AZIONE UNIVERSITARIA - ALCHIMIA - CONTROCAMPUS",
+            "voti": {
+                "totali": 11,
+                "seggio_n_31": 11
+            }
+        },
+        {
+            "nominativo": "ROMANO Salvatore",
+            "lista": "DESTRA UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        },
+        {
+            "nominativo": "NATOLA Alberto Santo",
+            "lista": "DESTRA UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        },
+        {
+            "nominativo": "CIPOLLONE Gabriele",
+            "lista": "DESTRA UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        },
+        {
+            "nominativo": "LONGO Ludovica",
+            "lista": "INGEGNERIATTIVA - NIKE",
+            "voti": {
+                "totali": 7,
+                "seggio_n_31": 7
+            }
+        },
+        {
+            "nominativo": "MAGRI' Tommaso",
+            "lista": "INGEGNERIATTIVA - NIKE",
+            "voti": {
+                "totali": 3,
+                "seggio_n_31": 3
+            }
+        },
+        {
+            "nominativo": "ISAIA Carmen Martina",
+            "lista": "INGEGNERIATTIVA - NIKE",
+            "voti": {
+                "totali": 14,
+                "seggio_n_31": 14
+            }
+        },
+        {
+            "nominativo": "SORGE Marco",
+            "lista": "INGEGNERIATTIVA - NIKE",
+            "voti": {
+                "totali": 4,
+                "seggio_n_31": 4
+            }
+        },
+        {
+            "nominativo": "DI GRAZIA Emanuele Natale",
+            "lista": "LIBERI E FORTI",
+            "voti": {
+                "totali": 2,
+                "seggio_n_31": 2
+            }
+        },
+        {
+            "nominativo": "GRANATA Ranieri",
+            "lista": "LIBERI E FORTI",
+            "voti": {
+                "totali": 2,
+                "seggio_n_31": 2
+            }
+        },
+        {
+            "nominativo": "STRACUZZI Alberto",
+            "lista": "LIBERI E FORTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        },
+        {
+            "nominativo": "ZAPPALA' Gabriele",
+            "lista": "LIBERI E FORTI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        },
+        {
+            "nominativo": "ROTTA Giuseppe Andrea",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 0,
+                "seggio_n_31": 0
+            }
+        },
+        {
+            "nominativo": "RAPICAVOLI Simona",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 1,
+                "seggio_n_31": 1
+            }
+        },
+        {
+            "nominativo": "GRASSO Enrico",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 4,
+                "seggio_n_31": 4
+            }
+        }
+    ],
+    "quoziente": 72.8,
+    "votanti": {
+        "totali": 405,
+        "percentuale": 28.07
+    },
+    "elettori": {
+        "totali": 1443,
+        "seggio_n_31": 1443
+    }
+}

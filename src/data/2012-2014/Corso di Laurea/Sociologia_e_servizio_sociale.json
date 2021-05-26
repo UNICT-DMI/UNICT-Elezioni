@@ -1,0 +1,176 @@
+{
+    "dipartimento": "SOCIOLOGIA E SERVIZIO SOCIALE - PERCORSO IN SERVIZI SOCIALI-Laurea (D.M.270/2004)\nSCIENZE DEL SERVIZIO SOCIALE-Laurea Triennale (D.M. 509/99)\nSCIENZE SOCIOLOGICHE-Laurea Triennale (D.M. 509/99)",
+    "seggi_da_assegnare": "5",
+    "schede": {
+        "bianche": {
+            "totali": 4,
+            "seggio_n_5": 4
+        },
+        "nulle": {
+            "totali": 10,
+            "seggio_n_5": 10
+        },
+        "contestate": {
+            "totali": 0,
+            "seggio_n_5": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "PD - STUDICENTRO",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "12,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 12,
+                "seggio_n_5": 12
+            }
+        },
+        {
+            "nome": "ORBIS",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "13,4",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "3"
+            },
+            "voti": {
+                "totali": 79,
+                "seggio_n_5": 79
+            }
+        },
+        {
+            "nome": "YES, WE LOVE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "6,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 6,
+                "seggio_n_5": 6
+            }
+        },
+        {
+            "nome": "INSIEME PER SOCIOLOGIA E SERVIZI SOCIALI",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "1,4",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 67,
+                "seggio_n_5": 67
+            }
+        },
+        {
+            "totale": 164
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "IANNACI Maria Chiara Pia",
+            "lista": "ORBIS",
+            "voti": {
+                "totali": 28,
+                "seggio_n_5": 28
+            }
+        },
+        {
+            "nominativo": "PASSINI Antonella",
+            "lista": "ORBIS",
+            "voti": {
+                "totali": 21,
+                "seggio_n_5": 21
+            }
+        },
+        {
+            "nominativo": "TINE' Federica",
+            "lista": "ORBIS",
+            "voti": {
+                "totali": 14,
+                "seggio_n_5": 14
+            }
+        },
+        {
+            "nominativo": "SICLARI Grazia Agata",
+            "lista": "INSIEME PER SOCIOLOGIA E SERVIZI SOCIALI",
+            "voti": {
+                "totali": 39,
+                "seggio_n_5": 39
+            }
+        },
+        {
+            "nominativo": "CALANNA Concetta o \"Kelly\"",
+            "lista": "INSIEME PER SOCIOLOGIA E SERVIZI SOCIALI",
+            "voti": {
+                "totali": 25,
+                "seggio_n_5": 25
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "COZZETTO Maria Anna",
+            "lista": "PD - STUDICENTRO",
+            "voti": {
+                "totali": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "GRASSI Roberta",
+            "lista": "PD - STUDICENTRO",
+            "voti": {
+                "totali": 0,
+                "seggio_n_5": 0
+            }
+        },
+        {
+            "nominativo": "GIAGGERI Roberta",
+            "lista": "ORBIS",
+            "voti": {
+                "totali": 8,
+                "seggio_n_5": 8
+            }
+        },
+        {
+            "nominativo": "CAROBENE Sarah",
+            "lista": "YES, WE LOVE",
+            "voti": {
+                "totali": 1,
+                "seggio_n_5": 1
+            }
+        },
+        {
+            "nominativo": "CHIOFALO Fiorella",
+            "lista": "YES, WE LOVE",
+            "voti": {
+                "totali": 3,
+                "seggio_n_5": 3
+            }
+        },
+        {
+            "nominativo": "BELLO Giorgy Jessica",
+            "lista": "INSIEME PER SOCIOLOGIA E SERVIZI SOCIALI",
+            "voti": {
+                "totali": 0,
+                "seggio_n_5": 0
+            }
+        }
+    ],
+    "quoziente": 32.8,
+    "votanti": {
+        "totali": 178,
+        "percentuale": 21.65
+    },
+    "elettori": {
+        "totali": 822,
+        "seggio_n_5": 822
+    }
+}

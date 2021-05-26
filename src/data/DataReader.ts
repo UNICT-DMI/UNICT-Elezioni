@@ -78,7 +78,11 @@ class DataReader {
   }
 
   getHigherPolitics(years: string): string[] {
-    return Object.keys(this.data[years]['organi superiori']);
+    if (this.data[years]['organi superiori']) {
+      return Object.keys(this.data[years]['organi superiori']);
+    }
+
+    return [];
   }
 
   getAllHigherPolitics(): string[] {
@@ -100,9 +104,7 @@ class DataReader {
   }
 
   getYearsOfSubEntity(entity: string, subEntity: string): string[] {
-    return this.getYears().filter((year: string): boolean => {
-      return this.data[year][entity] && this.data[year][entity][subEntity];
-    });
+    return this.getYears().filter((year: string): boolean => this.data[year][entity] && this.data[year][entity][subEntity]);
   }
 
   isUninominal(years: string, entity: string, subEntity: string): boolean {
