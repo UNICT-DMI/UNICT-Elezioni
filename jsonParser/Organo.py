@@ -135,13 +135,12 @@ class Organo(Target):
         for v in main_list:
             if len(list_of_not) > 0:
                 if list_of_not[0]-1 != k:
-                    if k in list_of_seats and "seggio_n_" + str(list_of_seats[k]) in secondary_list:
-                        secondary_list["seggio_n_" + str(list_of_seats[k])] = int(v)
+                    secondary_list["seggio_n_" + str(list_of_seats[k])] = int(v)
                     k += 1
                 else:
                     list_support.append(list_of_not.pop(0))
             else:
-                if k in list_of_seats and "seggio_n_" + str(list_of_seats[k]) in secondary_list:
+                if len(list_of_seats) > 0:
                     secondary_list["seggio_n_" + str(list_of_seats[k])] = int(v)
                 k += 1
         for el in list_support:
@@ -161,8 +160,7 @@ class Organo(Target):
             k = 0
             if len(info_list[j]) == len(list_of_seats):
                 for v in info_list[j]:
-                    if k in list_of_seats and "seggio_n_" + str(list_of_seats[k]) in votes:
-                        votes["seggio_n_" + str(list_of_seats[k])] = int(v)
+                    votes["seggio_n_" + str(list_of_seats[k])] = int(v)
                     k += 1
             else:
                 self.__support_extract(info_list[j], list_of_seats, list_of_not, votes)
@@ -187,8 +185,7 @@ class Organo(Target):
         k = 0
         if len(list_of_voters) == len(list_of_seats):
             for v in list_of_voters:
-                if k in list_of_seats and "seggio_n_" + str(list_of_seats[k]) in vot:
-                    vot["seggio_n_" + str(list_of_seats[k])] = int(v)
+                vot["seggio_n_" + str(list_of_seats[k])] = int(v)
                 k += 1
         else:
             self.__support_extract(list_of_voters, list_of_seats, list_of_not, vot)
@@ -200,8 +197,7 @@ class Organo(Target):
         k = 0
         if len(list_of_elettori) == len(list_of_seats):
             for v in list_of_elettori:
-                if k in list_of_seats and "seggio_n_" + str(list_of_seats[k]) in info_elettori:
-                    info_elettori["seggio_n_" + str(list_of_seats[k])] = int(v)
+                info_elettori["seggio_n_" + str(list_of_seats[k])] = int(v)
                 k += 1
         else:
             self.__support_extract(list_of_elettori, list_of_seats, list_of_not, info_elettori)

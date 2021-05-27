@@ -30,8 +30,7 @@ class Medicina(Target):
         result = {}
         result["totali"] = int(split_text.pop(0))
         for s in split_text:
-            if k in list_of_seats and "seggio_n_" + str(list_of_seats[k]) in result:
-                result["seggio_n_" + str(list_of_seats[k])] = int(s)
+            result["seggio_n_" + str(list_of_seats[k])] = int(s)
             k += 1
         return result
 

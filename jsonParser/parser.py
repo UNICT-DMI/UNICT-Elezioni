@@ -25,7 +25,7 @@ def print_pars(text):
         print(x)
 
 def save_json(str_json, filename_pdf):
-    filename = filename_pdf.replace("pdf", "json")
+    filename = filename_pdf.replace("pdf", "json").replace("txt", "json")
     with open(filename, "w") as f:
         f.write(str_json)
         f.close()

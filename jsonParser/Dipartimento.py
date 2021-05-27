@@ -28,6 +28,8 @@ class Dipartimento(Target):
 
     def __get_info_lists(self, text, list_of_seats, seggi_da_assegnare) -> object:
         info_lists = []
+        if("SEGGI" in text[self.i].upper()):
+            self.i += 1
         while("TOTALE" not in text[self.i]):
             seats = []
             name_of_list = ""
@@ -53,19 +55,18 @@ class Dipartimento(Target):
             j = len(list_of_seats)-1
             k = 0
             while j>=0:
-                if k in list_of_seats and "seggio_n_" + str(list_of_seats[k]) in votes:
-                    votes["seggio_n_" + str(list_of_seats[k])] = int(seats.pop(len(seats)-(j+1)))
+                votes["seggio_n_" + str(list_of_seats[k])] = int(seats.pop(len(seats)-(j+1)))
                 k += 1
                 j = j-1
             info_lists.append({
                 "nome": name_of_list.strip(),
                 "seggi": {
-                    "seggi_pieni":    seats.pop(0) if len(seats) > 0 else seats,
-                    "resti":          seats.pop(0) if len(seats) > 0 else seats,
-                    "seggi_ai_resti": seats.pop(0) if len(seats) > 0 else seats,
-                    "seggi_totali":   seats.pop(0) if len(seats) > 0 else seats
-                    },
-                    "voti": votes
+                    "seggi_pieni": seats.pop(0),
+                    "resti": seats.pop(0),
+                    "seggi_ai_resti": seats.pop(0),
+                    "seggi_totali": seats.pop(0)
+               },
+                "voti": votes
             })
             self.i += 1
 
@@ -99,8 +100,7 @@ class Dipartimento(Target):
         vot["percentuale"] = votanti_perc
         k = 0
         for v in list_of_voters:
-            if k in list_of_seats and "seggio_n_" + str(list_of_seats[k]) in vot:
-                vot["seggio_n_" + str(list_of_seats[k])] = v
+            vot["seggio_n_" + str(list_of_seats[k])] = v
             k += 1
         return vot
 
@@ -115,8 +115,15 @@ class Dipartimento(Target):
                 break
         self.i += 1
 
+        j = 0
         while "ELETTORI" not in text[self.i].upper():
             self.i += 1
+            j += 1
+            if j > 4:
+                self.i -= j
+                return {
+                    "totali": totale_elettori
+                }
 
         elettori_per_seggio = []
         split_text = text[self.i].split()
@@ -128,8 +135,7 @@ class Dipartimento(Target):
         info_elettori["totali"] = totale_elettori
         k = 0
         for v in elettori_per_seggio:
-            if k in list_of_seats and "seggio_n_" + str(list_of_seats[k]) in info_elettori:
-                info_elettori["seggio_n_" + str(list_of_seats[k])] = v
+            info_elettori["seggio_n_" + str(list_of_seats[k])] = v
             k += 1
         return info_elettori
 
