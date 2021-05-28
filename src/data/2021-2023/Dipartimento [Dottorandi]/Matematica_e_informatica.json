@@ -1,0 +1,30 @@
+{
+    "dipartimento": "MATEMATICA E INFORMATICA",
+    "quorum": true,
+    "seggi_da_assegnare": 2,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "FURNARI Giuseppe",
+            "voti": 9
+        },
+        {
+            "nome_candidato": "FARGETTA Giorgia",
+            "voti": 16
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "GRISANTI Marco",
+            "voti": 1
+        }
+    ],
+    "totale_voti": 26,
+    "aventi_diritto": 38,
+    "perc_votanti": 68.42
+}
+
