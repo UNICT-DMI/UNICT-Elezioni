@@ -1,0 +1,483 @@
+{
+    "dipartimento": "DIPARTIMENTO DI MATEMATICA E INFORMATICA",
+    "seggi_da_assegnare": "12",
+    "schede": {
+        "bianche": {
+            "totali": 13,
+            "seggio_n_telematico": 13
+        },
+        "nulle": {
+            "totali": 0
+        },
+        "contestate": {
+            "totali": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "DMI\u2010INSIDER",
+            "seggi": {
+                "seggi_pieni": "4",
+                "resti": "49,3",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "5"
+            },
+            "voti": {
+                "totali": 254,
+                "seggio_telematico": 254
+            }
+        },
+        {
+            "nome": "We love UNICT",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "40,8",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 92,
+                "seggio_telematico": 92
+            }
+        },
+        {
+            "nome": "Actea",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "13,7",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 116,
+                "seggio_telematico": 116
+            }
+        },
+        {
+            "nome": "DMI.EXE",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "21,8",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 73,
+                "seggio_telematico": 73
+            }
+        },
+        {
+            "nome": "ARCHE'",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "8",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 8,
+                "seggio_telematico": 8
+            }
+        },
+        {
+            "nome": "ALLEANZA\u2010AZIONE UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "16",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 16,
+                "seggio_telematico": 16
+            }
+        },
+        {
+            "nome": "Nike",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "41",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 41,
+                "seggio_telematico": 41
+            }
+        },
+        {
+            "nome": "S\u00ecAMO FUTURO\u2010LIBERTAS",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "14",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 14,
+                "seggio_telematico": 14
+            }
+        },
+        {
+            "totale": 614
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "CAMPO Filippo",
+            "lista": "DMI\u2010INSIDER",
+            "voti": {
+                "totali": 31,
+                "seggio_telematico": 31
+            }
+        },
+        {
+            "nominativo": "TILOTTA Fabio",
+            "lista": "DMI\u2010INSIDER",
+            "voti": {
+                "totali": 34,
+                "seggio_telematico": 34
+            }
+        },
+        {
+            "nominativo": "CARNEMOLLA Davide",
+            "lista": "DMI\u2010INSIDER",
+            "voti": {
+                "totali": 81,
+                "seggio_telematico": 81
+            }
+        },
+        {
+            "nominativo": "MINISSALE Giuseppe Virgilio",
+            "lista": "DMI\u2010INSIDER",
+            "voti": {
+                "totali": 22,
+                "seggio_telematico": 22
+            }
+        },
+        {
+            "nominativo": "SEMINARA Luigi",
+            "lista": "DMI\u2010INSIDER",
+            "voti": {
+                "totali": 22,
+                "seggio_telematico": 22
+            }
+        },
+        {
+            "nominativo": "FRAGAPANE Leonardo",
+            "lista": "We love UNICT",
+            "voti": {
+                "totali": 35,
+                "seggio_telematico": 35
+            }
+        },
+        {
+            "nominativo": "COCUZZA Daniele",
+            "lista": "We love UNICT",
+            "voti": {
+                "totali": 34,
+                "seggio_telematico": 34
+            }
+        },
+        {
+            "nominativo": "PISTORIO Anna",
+            "lista": "Actea",
+            "voti": {
+                "totali": 48,
+                "seggio_telematico": 48
+            }
+        },
+        {
+            "nominativo": "GIBILTERRA Martin",
+            "lista": "Actea",
+            "voti": {
+                "totali": 38,
+                "seggio_telematico": 38
+            }
+        },
+        {
+            "nominativo": "CIGNA Gaia",
+            "lista": "DMI.EXE",
+            "voti": {
+                "totali": 48,
+                "seggio_telematico": 48
+            }
+        },
+        {
+            "nominativo": "IPPOLITO Simone",
+            "lista": "DMI.EXE",
+            "voti": {
+                "totali": 12,
+                "seggio_telematico": 12
+            }
+        },
+        {
+            "nominativo": "CASCINO Andrea",
+            "lista": "Nike",
+            "voti": {
+                "totali": 24,
+                "seggio_telematico": 24
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "CURTO Sofia",
+            "lista": "DMI\u2010INSIDER",
+            "voti": {
+                "totali": 14,
+                "seggio_telematico": 14
+            }
+        },
+        {
+            "nominativo": "CARLINO Emanuele",
+            "lista": "DMI\u2010INSIDER",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "CATANIA Valentina",
+            "lista": "DMI\u2010INSIDER",
+            "voti": {
+                "totali": 16,
+                "seggio_telematico": 16
+            }
+        },
+        {
+            "nominativo": "RUSSO Francisco Pablo",
+            "lista": "DMI\u2010INSIDER",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "PARLAVECCHIO Martina",
+            "lista": "DMI\u2010INSIDER",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "DI GRANDE Graziano",
+            "lista": "DMI\u2010INSIDER",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "ISINELLI Federica",
+            "lista": "We love UNICT",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "LO CASTRO Emanuele Filippo",
+            "lista": "We love UNICT",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "PONTORNO Orazio",
+            "lista": "We love UNICT",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "COCO Giuseppe",
+            "lista": "We love UNICT",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "MACCARRONE Alessia",
+            "lista": "We love UNICT",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "CUCCHIARA Gianfranco",
+            "lista": "We love UNICT",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nominativo": "GIOIA Alessandro",
+            "lista": "Actea",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "PATANIA Alex",
+            "lista": "Actea",
+            "voti": {
+                "totali": 13,
+                "seggio_telematico": 13
+            }
+        },
+        {
+            "nominativo": "FERRO Giuseppe Mattia",
+            "lista": "Actea",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "CORALLO Salvatore",
+            "lista": "Actea",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "BILLIANI Lucia",
+            "lista": "Actea",
+            "voti": {
+                "totali": 8,
+                "seggio_telematico": 8
+            }
+        },
+        {
+            "nominativo": "PINNALE Simone",
+            "lista": "DMI.EXE",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "LO GRECO Gabriele",
+            "lista": "DMI.EXE",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "CONTI Gaetano",
+            "lista": "DMI.EXE",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "VIRZI' Vanessa",
+            "lista": "DMI.EXE",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "GIGLIUTO Emily",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "CAMBRIA Simone",
+            "lista": "ALLEANZA\u2010AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 16,
+                "seggio_telematico": 16
+            }
+        },
+        {
+            "nominativo": "FERRO Annalisa",
+            "lista": "ALLEANZA\u2010AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "CAL\u00cd Raffaele",
+            "lista": "Nike",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "FORTE Rosario",
+            "lista": "Nike",
+            "voti": {
+                "totali": 8,
+                "seggio_telematico": 8
+            }
+        },
+        {
+            "nominativo": "BELLOMO Andrea",
+            "lista": "Nike",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "IRACI SARERI Filippa",
+            "lista": "Nike",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "DINATALE Giuseppe",
+            "lista": "Nike",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "MALERBA Chiara",
+            "lista": "S\u00ecAMO FUTURO\u2010LIBERTAS",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "CERRUTO Silvia",
+            "lista": "S\u00ecAMO FUTURO\u2010LIBERTAS",
+            "voti": {
+                "totali": 7,
+                "seggio_telematico": 7
+            }
+        }
+    ],
+    "quoziente": 51.1667,
+    "votanti": {
+        "totali": 627,
+        "percentuale": 42.57,
+        "seggio_n_telematico": 627
+    },
+    "elettori": {
+        "totali": 1473,
+        "seggio_n_telematico": 1473
+    }
+}
