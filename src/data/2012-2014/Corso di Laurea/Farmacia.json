@@ -1,0 +1,274 @@
+{
+    "dipartimento": "FARMACIA-Laurea Magistrale a ciclo unico (D.M. 270/2004)\nFARMACIA-Laurea Specialistica a ciclo unico (D.M. 509/99)",
+    "seggi_da_assegnare": "9",
+    "schede": {
+        "bianche": {
+            "totali": 8
+        },
+        "nulle": {
+            "totali": 14
+        },
+        "contestate": {
+            "totali": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "PD - STUDICENTRO - ARCADIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "11,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 11
+            }
+        },
+        {
+            "nome": "IL PROGETTO DEGLI UNIVERSITARI",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "23,4",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "3"
+            },
+            "voti": {
+                "totali": 77
+            }
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA - CONTROCAMPUS",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "11,4",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 65
+            }
+        },
+        {
+            "nome": "GIOVANI PER L'AUTONOMIA - LIBERTAS",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "19,2",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 46
+            }
+        },
+        {
+            "nome": "ACTEA",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "15,2",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 42
+            }
+        },
+        {
+            "totale": 241
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "DI GRAZIA Martina",
+            "lista": "IL PROGETTO DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 14
+            }
+        },
+        {
+            "nominativo": "GIABBARRASI Giada - IMMATR. 2009/2010",
+            "lista": "IL PROGETTO DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 3
+            }
+        },
+        {
+            "nominativo": "PAYANIANDY Logambal detta \"Selvina\"",
+            "lista": "IL PROGETTO DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 16
+            }
+        },
+        {
+            "nominativo": "LA ROSA Graziella",
+            "lista": "AZIONE UNIVERSITARIA - CONTROCAMPUS",
+            "voti": {
+                "totali": 18
+            }
+        },
+        {
+            "nominativo": "MACRI' Maria Fosca",
+            "lista": "AZIONE UNIVERSITARIA - CONTROCAMPUS",
+            "voti": {
+                "totali": 45
+            }
+        },
+        {
+            "nominativo": "GARCIA Johan David",
+            "lista": "GIOVANI PER L'AUTONOMIA - LIBERTAS",
+            "voti": {
+                "totali": 29
+            }
+        },
+        {
+            "nominativo": "MESSINA Alberto - IMMATR. 2006/2007",
+            "lista": "GIOVANI PER L'AUTONOMIA - LIBERTAS",
+            "voti": {
+                "totali": 7
+            }
+        },
+        {
+            "nominativo": "STRANO Chiara",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 15
+            }
+        },
+        {
+            "nominativo": "CHIARENZA Francesco Teodoro",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 13
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "RORO Gabriele",
+            "lista": "PD - STUDICENTRO - ARCADIA",
+            "voti": {
+                "totali": 1
+            }
+        },
+        {
+            "nominativo": "MARCECA Salvatore",
+            "lista": "PD - STUDICENTRO - ARCADIA",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "MASSIMINO Roberta",
+            "lista": "PD - STUDICENTRO - ARCADIA",
+            "voti": {
+                "totali": 1
+            }
+        },
+        {
+            "nominativo": "GUARNACCIA Filippo",
+            "lista": "PD - STUDICENTRO - ARCADIA",
+            "voti": {
+                "totali": 2
+            }
+        },
+        {
+            "nominativo": "TARANTINO Francesca",
+            "lista": "PD - STUDICENTRO - ARCADIA",
+            "voti": {
+                "totali": 2
+            }
+        },
+        {
+            "nominativo": "CARUSO Luca",
+            "lista": "PD - STUDICENTRO - ARCADIA",
+            "voti": {
+                "totali": 1
+            }
+        },
+        {
+            "nominativo": "FERRO Michela",
+            "lista": "PD - STUDICENTRO - ARCADIA",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "DISTEFANO Carmelo",
+            "lista": "IL PROGETTO DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "RIZZO Marco - IMMATRIC. 2011/2012",
+            "lista": "IL PROGETTO DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 3
+            }
+        },
+        {
+            "nominativo": "FASIOL Elena",
+            "lista": "AZIONE UNIVERSITARIA - CONTROCAMPUS",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "NICOSIA Luana",
+            "lista": "AZIONE UNIVERSITARIA - CONTROCAMPUS",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "PICCI Valentina",
+            "lista": "AZIONE UNIVERSITARIA - CONTROCAMPUS",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "CREMONE Francesco - IMMATR. 2007/2008",
+            "lista": "GIOVANI PER L'AUTONOMIA - LIBERTAS",
+            "voti": {
+                "totali": 7
+            }
+        },
+        {
+            "nominativo": "VULLO Stefania",
+            "lista": "GIOVANI PER L'AUTONOMIA - LIBERTAS",
+            "voti": {
+                "totali": 3
+            }
+        },
+        {
+            "nominativo": "CALCAGNO Beatrice",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 1
+            }
+        },
+        {
+            "nominativo": "PISTRITTO Dario Concetto",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 7
+            }
+        },
+        {
+            "nominativo": "BRUNO Maria Francesca",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 0
+            }
+        }
+    ],
+    "quoziente": 26.7778,
+    "votanti": {
+        "totali": 263,
+        "percentuale": 21.3
+    },
+    "elettori": {
+        "totali": 1235
+    }
+}

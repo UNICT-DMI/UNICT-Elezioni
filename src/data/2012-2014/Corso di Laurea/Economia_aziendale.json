@@ -1,0 +1,540 @@
+{
+    "dipartimento": "ECONOMIA AZIENDALE-Laurea (D.M.270/2004)\nAMMINISTRAZIONE E CONTROLLO-Laurea Triennale (D.M. 509/99)\nCONSULENZA DEL LAVORO-Laurea Triennale (D.M. 509/99)\nECONOMIA AZIENDALE-Laurea Triennale (D.M. 509/99)\nECONOMIA E GESTIONE DEI SISTEMI AGROALIMENTARI-Laurea Triennale (D.M. 509/99)",
+    "seggi_da_assegnare": "5",
+    "schede": {
+        "bianche": {
+            "totali": 13
+        },
+        "nulle": {
+            "totali": 40
+        },
+        "contestate": {
+            "totali": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "ARCADIA - STUDICENTRO - LIBERADEMOS - FRONTE UNIVERSITARIO",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "157,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 157
+            }
+        },
+        {
+            "nome": "ATENA - UNIVERSITA' LIBERA ED ECCELLENTE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "3,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 3
+            }
+        },
+        {
+            "nome": "ARES",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "45,4",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 221
+            }
+        },
+        {
+            "nome": "NO STRESS",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "0,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nome": "IL PROGETTO DEGLI UNIVERSITARI",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "19,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 19
+            }
+        },
+        {
+            "nome": "PALAZZO DELLE SCIENZE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "3,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 3
+            }
+        },
+        {
+            "nome": "DESTRA UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "3,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 3
+            }
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA - CONTROCAMPUS - ALCHIMIA - GIOVENTU' ITALIANA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "40,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 40
+            }
+        },
+        {
+            "nome": "GIOVANI PER L'AUTONOMIA LIBERTAS",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "98,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 98
+            }
+        },
+        {
+            "nome": "ACTEA",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "13,4",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 189
+            }
+        },
+        {
+            "nome": "PAZZI PER LE SERATE DISCO",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "1,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 1
+            }
+        },
+        {
+            "nome": "ORIZZONTE ITALIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "144,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 144
+            }
+        },
+        {
+            "totale": 878
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "FARINA Ferdinando Maria",
+            "lista": "ARCADIA - STUDICENTRO - LIBERADEMOS - FRONTE UNIVERSITARIO",
+            "voti": {
+                "totali": 56
+            }
+        },
+        {
+            "nominativo": "VERZI' Nicola",
+            "lista": "ARES",
+            "voti": {
+                "totali": 68
+            }
+        },
+        {
+            "nominativo": "BRUNO Pierangelo",
+            "lista": "GIOVANI PER L'AUTONOMIA LIBERTAS",
+            "voti": {
+                "totali": 50
+            }
+        },
+        {
+            "nominativo": "COCO Salvatore Antonio",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 77
+            }
+        },
+        {
+            "nominativo": "IRRERA Fabrizio",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 82
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "GIUDICE Giulia Adele Agata",
+            "lista": "ARCADIA - STUDICENTRO - LIBERADEMOS - FRONTE UNIVERSITARIO",
+            "voti": {
+                "totali": 29
+            }
+        },
+        {
+            "nominativo": "RICCIOLINI Giuseppe",
+            "lista": "ARCADIA - STUDICENTRO - LIBERADEMOS - FRONTE UNIVERSITARIO",
+            "voti": {
+                "totali": 2
+            }
+        },
+        {
+            "nominativo": "SPINA Riccardo",
+            "lista": "ARCADIA - STUDICENTRO - LIBERADEMOS - FRONTE UNIVERSITARIO",
+            "voti": {
+                "totali": 46
+            }
+        },
+        {
+            "nominativo": "DE CARO Tancredi",
+            "lista": "ARCADIA - STUDICENTRO - LIBERADEMOS - FRONTE UNIVERSITARIO",
+            "voti": {
+                "totali": 21
+            }
+        },
+        {
+            "nominativo": "PAPPALARDO Gianluca",
+            "lista": "ATENA - UNIVERSITA' LIBERA ED ECCELLENTE",
+            "voti": {
+                "totali": 1
+            }
+        },
+        {
+            "nominativo": "LA PORTA Salvatore",
+            "lista": "ATENA - UNIVERSITA' LIBERA ED ECCELLENTE",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "RUSSOTTO Erika Claudia",
+            "lista": "ATENA - UNIVERSITA' LIBERA ED ECCELLENTE",
+            "voti": {
+                "totali": 1
+            }
+        },
+        {
+            "nominativo": "GRASSI Attilio",
+            "lista": "ATENA - UNIVERSITA' LIBERA ED ECCELLENTE",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "ANGELICO Francesco Arturo",
+            "lista": "ATENA - UNIVERSITA' LIBERA ED ECCELLENTE",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "POLIGNANO Pierluigi",
+            "lista": "ARES",
+            "voti": {
+                "totali": 55
+            }
+        },
+        {
+            "nominativo": "LEVANTINO Fabio Alberto",
+            "lista": "ARES",
+            "voti": {
+                "totali": 20
+            }
+        },
+        {
+            "nominativo": "PICCIONE Maurizio",
+            "lista": "ARES",
+            "voti": {
+                "totali": 9
+            }
+        },
+        {
+            "nominativo": "SACCULLO Alessio",
+            "lista": "ARES",
+            "voti": {
+                "totali": 54
+            }
+        },
+        {
+            "nominativo": "LA LICATA Marco",
+            "lista": "NO STRESS",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "LO CASTRO Antonio",
+            "lista": "NO STRESS",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "MARINETTI Gianluca",
+            "lista": "NO STRESS",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "SAVASTRA Giuliana",
+            "lista": "NO STRESS",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "PORTELLA Giuseppe detto \"Peppe\"",
+            "lista": "IL PROGETTO DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 17
+            }
+        },
+        {
+            "nominativo": "TROVATO Orazio",
+            "lista": "IL PROGETTO DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "LEGNAME Ilenia",
+            "lista": "IL PROGETTO DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "LO BELLO Andrea",
+            "lista": "IL PROGETTO DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "GIRASOLE Giovanni",
+            "lista": "IL PROGETTO DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "CICCOLO Giuseppe",
+            "lista": "PALAZZO DELLE SCIENZE",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "FIORILLA Germana",
+            "lista": "PALAZZO DELLE SCIENZE",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "RANDO Mirko Francesco",
+            "lista": "PALAZZO DELLE SCIENZE",
+            "voti": {
+                "totali": 2
+            }
+        },
+        {
+            "nominativo": "BASILE Giuliana",
+            "lista": "DESTRA UNIVERSITARIA",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "BELLAMIA Dario",
+            "lista": "DESTRA UNIVERSITARIA",
+            "voti": {
+                "totali": 1
+            }
+        },
+        {
+            "nominativo": "COSTA Emanuela",
+            "lista": "DESTRA UNIVERSITARIA",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "RUSSO Daniele",
+            "lista": "DESTRA UNIVERSITARIA",
+            "voti": {
+                "totali": 1
+            }
+        },
+        {
+            "nominativo": "GRASSO Lorenza detta \"Lori\" o \"Enza\"",
+            "lista": "AZIONE UNIVERSITARIA - CONTROCAMPUS - ALCHIMIA - GIOVENTU' ITALIANA",
+            "voti": {
+                "totali": 14
+            }
+        },
+        {
+            "nominativo": "FACCIOLA' Enrico",
+            "lista": "AZIONE UNIVERSITARIA - CONTROCAMPUS - ALCHIMIA - GIOVENTU' ITALIANA",
+            "voti": {
+                "totali": 7
+            }
+        },
+        {
+            "nominativo": "MILLESOLI Giuseppe",
+            "lista": "AZIONE UNIVERSITARIA - CONTROCAMPUS - ALCHIMIA - GIOVENTU' ITALIANA",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "TRECCARICHI Salvatore",
+            "lista": "AZIONE UNIVERSITARIA - CONTROCAMPUS - ALCHIMIA - GIOVENTU' ITALIANA",
+            "voti": {
+                "totali": 15
+            }
+        },
+        {
+            "nominativo": "CAVALLARO Marco",
+            "lista": "GIOVANI PER L'AUTONOMIA LIBERTAS",
+            "voti": {
+                "totali": 12
+            }
+        },
+        {
+            "nominativo": "FORTE Arianna",
+            "lista": "GIOVANI PER L'AUTONOMIA LIBERTAS",
+            "voti": {
+                "totali": 24
+            }
+        },
+        {
+            "nominativo": "MILAZZO Giulia",
+            "lista": "GIOVANI PER L'AUTONOMIA LIBERTAS",
+            "voti": {
+                "totali": 1
+            }
+        },
+        {
+            "nominativo": "PUGLISI Martina",
+            "lista": "GIOVANI PER L'AUTONOMIA LIBERTAS",
+            "voti": {
+                "totali": 7
+            }
+        },
+        {
+            "nominativo": "FICHERA Daniele",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "GIANSIRACUSA Fulvio",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 2
+            }
+        },
+        {
+            "nominativo": "PRESENTI Giulio",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 45
+            }
+        },
+        {
+            "nominativo": "TORTORICI Yordanos detta \"Giordana\" detta \"Cinquemani\"",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 57
+            }
+        },
+        {
+            "nominativo": "KHALIL Giulio",
+            "lista": "PAZZI PER LE SERATE DISCO",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "CILETTA Martina",
+            "lista": "PAZZI PER LE SERATE DISCO",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "CUCURULLO Riccardo",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 38
+            }
+        },
+        {
+            "nominativo": "FERLITO Antonio",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 9
+            }
+        },
+        {
+            "nominativo": "JACONA Alexandro",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 7
+            }
+        },
+        {
+            "nominativo": "LIUZZO Marco",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 3
+            }
+        }
+    ],
+    "quoziente": 175.6,
+    "votanti": {
+        "totali": 931,
+        "percentuale": 29.26
+    },
+    "elettori": {
+        "totali": 3182
+    }
+}

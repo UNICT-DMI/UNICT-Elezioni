@@ -50,7 +50,7 @@ class Medicina(Target):
         voti[0] = self.__extract_voti(split_text, list_of_seats)
         self.i += 1
         return eletto
-    
+
     def __get_candidati(self, text, list_of_seats, eletti, non_eletti) -> None:
         self.i += 1
         while self.word_not_in_control("SCHEDE", text):
@@ -65,7 +65,7 @@ class Medicina(Target):
                 eletti.append(e)
             else:
                 non_eletti.append(e)
-    
+
     def __get_type(self, word, text) -> float:
         self.word_not_in_update(word, text)
         try:

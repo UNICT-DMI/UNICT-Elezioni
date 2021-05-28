@@ -28,6 +28,8 @@ class Dipartimento(Target):
 
     def __get_info_lists(self, text, list_of_seats, seggi_da_assegnare) -> object:
         info_lists = []
+        if("SEGGI" in text[self.i].upper()):
+            self.i += 1
         while("TOTALE" not in text[self.i]):
             seats = []
             name_of_list = ""
@@ -63,8 +65,8 @@ class Dipartimento(Target):
                     "resti": seats.pop(0),
                     "seggi_ai_resti": seats.pop(0),
                     "seggi_totali": seats.pop(0)
-                    },
-                    "voti": votes
+               },
+                "voti": votes
             })
             self.i += 1
 
@@ -98,8 +100,7 @@ class Dipartimento(Target):
         vot["percentuale"] = votanti_perc
         k = 0
         for v in list_of_voters:
-            if k in list_of_seats and "seggio_n_" + str(list_of_seats[k]) in vot:
-                vot["seggio_n_" + str(list_of_seats[k])] = v
+            vot["seggio_n_" + str(list_of_seats[k])] = v
             k += 1
         return vot
 
@@ -114,8 +115,15 @@ class Dipartimento(Target):
                 break
         self.i += 1
 
+        j = 0
         while "ELETTORI" not in text[self.i].upper():
             self.i += 1
+            j += 1
+            if j > 4:
+                self.i -= j
+                return {
+                    "totali": totale_elettori
+                }
 
         elettori_per_seggio = []
         split_text = text[self.i].split()

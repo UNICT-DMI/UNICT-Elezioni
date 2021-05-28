@@ -21,8 +21,13 @@ class Target(ABC):
 
     def find_card(self, type, text, list_of_seats, list_of_type) -> int:
         list_tmp = []
+        j = 0
         while type not in text[self.i].upper():
             self.i += 1
+            j += 1
+            if(j > 4):
+                self.i -= j
+                return 0
         text[self.i] = text[self.i].replace(".", '')
         split_text = text[self.i].split()
         for s in split_text:
@@ -33,7 +38,7 @@ class Target(ABC):
             list_of_type.append(list_tmp.pop(len(list_tmp)-(j+1)))
             j = j-1
 
-        if len(list_tmp) > 0: # fix for 2012-2014
+        if len(list_tmp) > 0:
             return list_tmp.pop(0)
 
         return list_tmp
@@ -125,10 +130,12 @@ class Target(ABC):
         num_lists = len(self.lists)
         j = 1
         while j <= num_lists:
+
             while ("L"+str(j)) not in text[self.i]:
                 self.i += 1
             self.i = self.i + index
-            while "SCRUTINATI" not in text[self.i]:
+
+            while "SCRUTINATI" not in text[self.i] and "SEGGIO" not in text[self.i]:
                 vote_of_candidate = [1]
                 list_of_seats_vote = []
                 split_text = text[self.i].split()
@@ -142,14 +149,26 @@ class Target(ABC):
                 voti = {}
                 voti["totali"] = vote_of_candidate[0]
                 k = 0
+                prefix = ""
+                if len(list_of_seats) == 0:
+                    list_of_seats.append("telematico")
+
+                if list_of_seats[0] == "telematico":
+                    prefix = "seggio_"
+                else:
+                    prefix = "seggio_n_"
+
                 for v in list_of_seats_vote:
-                    voti["seggio_n_" + str(list_of_seats[k])] = v
+                    voti[prefix + str(list_of_seats[k])] = v
                     k += 1
+
                 candidato["voti"] = voti
+
                 if "ELETTO" in text[self.i].upper():
                     eletti.append(candidato)
                 else:
                     non_eletti.append(candidato)
+
                 self.i += 1
             j = j+1
 

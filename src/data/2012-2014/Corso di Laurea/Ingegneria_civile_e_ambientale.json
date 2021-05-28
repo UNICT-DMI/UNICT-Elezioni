@@ -1,0 +1,378 @@
+{
+    "dipartimento": "INGEGNERIA CIVILE E AMBIENTALE-Laurea (D.M.270/2004)\nINGEGNERIA CIVILE-Laurea Triennale (D.M. 509/99)\nINGEGNERIA PER L'AMBIENTE E IL TERRITORIO-Laurea Triennale (D.M. 509/99)",
+    "seggi_da_assegnare": "5",
+    "schede": {
+        "bianche": {
+            "totali": 4
+        },
+        "nulle": {
+            "totali": 59
+        },
+        "contestate": {
+            "totali": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "STUDICENTRO",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "1,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 1
+            }
+        },
+        {
+            "nome": "ARES",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "8,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 8
+            }
+        },
+        {
+            "nome": "IL PROGETTO DEGLI UNIVERSITARI",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "23,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 23
+            }
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA - LA TRACCIA PER OBIETTIVO STUDENTI - CONTROCAMPUS",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "31,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 31
+            }
+        },
+        {
+            "nome": "INGEGNERIATTIVA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "39,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 39
+            }
+        },
+        {
+            "nome": "ACTEA",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "20,2",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 86
+            }
+        },
+        {
+            "nome": "ENJOY UNIVERSITY",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "25,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 25
+            }
+        },
+        {
+            "nome": "ORIZZONTE ITALIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "56,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 56
+            }
+        },
+        {
+            "nome": "STUDENTI OGGI INGEGNERI DOMANI",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "60,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 60
+            }
+        },
+        {
+            "totale": 329
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "FICHERA Veronica",
+            "lista": "AZIONE UNIVERSITARIA - LA TRACCIA PER OBIETTIVO STUDENTI - CONTROCAMPUS",
+            "voti": {
+                "totali": 15
+            }
+        },
+        {
+            "nominativo": "LICANDRO Grazia",
+            "lista": "INGEGNERIATTIVA",
+            "voti": {
+                "totali": 24
+            }
+        },
+        {
+            "nominativo": "DE ALESSANDRO Alessandro",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 50
+            }
+        },
+        {
+            "nominativo": "DI MAURO Luca",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 28
+            }
+        },
+        {
+            "nominativo": "RAGUSA Eliana",
+            "lista": "STUDENTI OGGI INGEGNERI DOMANI",
+            "voti": {
+                "totali": 23
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "CARBONARO Roberta Maria Diletta",
+            "lista": "STUDICENTRO",
+            "voti": {
+                "totali": 1
+            }
+        },
+        {
+            "nominativo": "SCUDERI Marco",
+            "lista": "STUDICENTRO",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "PAPOTTO Salvatore",
+            "lista": "ARES",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "DE MARTINO Andrea",
+            "lista": "ARES",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "FRAGALA' Lorenzo",
+            "lista": "ARES",
+            "voti": {
+                "totali": 8
+            }
+        },
+        {
+            "nominativo": "GALASSO Mirko",
+            "lista": "ARES",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "MOTTA Rosa",
+            "lista": "IL PROGETTO DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 5
+            }
+        },
+        {
+            "nominativo": "SCIBILIA Caterina",
+            "lista": "IL PROGETTO DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 18
+            }
+        },
+        {
+            "nominativo": "AIOLA Alessia",
+            "lista": "AZIONE UNIVERSITARIA - LA TRACCIA PER OBIETTIVO STUDENTI - CONTROCAMPUS",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "SANTORO Lidia",
+            "lista": "AZIONE UNIVERSITARIA - LA TRACCIA PER OBIETTIVO STUDENTI - CONTROCAMPUS",
+            "voti": {
+                "totali": 13
+            }
+        },
+        {
+            "nominativo": "ORLANDO Riccardo",
+            "lista": "INGEGNERIATTIVA",
+            "voti": {
+                "totali": 11
+            }
+        },
+        {
+            "nominativo": "QUADARELLA Elena",
+            "lista": "INGEGNERIATTIVA",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "ANDRONICO Emanuele",
+            "lista": "INGEGNERIATTIVA",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "GUZZONE NEGLIA Giuseppe Fabrizio Alfio",
+            "lista": "INGEGNERIATTIVA",
+            "voti": {
+                "totali": 4
+            }
+        },
+        {
+            "nominativo": "LAUDANI Salvatore",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 11
+            }
+        },
+        {
+            "nominativo": "LA FERLA Cesare",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 2
+            }
+        },
+        {
+            "nominativo": "LONGO Giuseppe",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 12
+            }
+        },
+        {
+            "nominativo": "ROMANO Mario Valentino",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 3
+            }
+        },
+        {
+            "nominativo": "SANGINISI Vincenzo",
+            "lista": "ENJOY UNIVERSITY",
+            "voti": {
+                "totali": 5
+            }
+        },
+        {
+            "nominativo": "ANGEMI Francesco",
+            "lista": "ENJOY UNIVERSITY",
+            "voti": {
+                "totali": 3
+            }
+        },
+        {
+            "nominativo": "SAGLIMBENE Alessandra",
+            "lista": "ENJOY UNIVERSITY",
+            "voti": {
+                "totali": 6
+            }
+        },
+        {
+            "nominativo": "CONDORELLI Giuseppe",
+            "lista": "ENJOY UNIVERSITY",
+            "voti": {
+                "totali": 3
+            }
+        },
+        {
+            "nominativo": "IMPELLIZZERI Valerio Ernesto",
+            "lista": "ENJOY UNIVERSITY",
+            "voti": {
+                "totali": 5
+            }
+        },
+        {
+            "nominativo": "MONDELLI Gianmaria",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 26
+            }
+        },
+        {
+            "nominativo": "CARGNEL Luigi",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "SCIUTO Damiano Stefano",
+            "lista": "STUDENTI OGGI INGEGNERI DOMANI",
+            "voti": {
+                "totali": 19
+            }
+        },
+        {
+            "nominativo": "COSENTINO Carmelo",
+            "lista": "STUDENTI OGGI INGEGNERI DOMANI",
+            "voti": {
+                "totali": 5
+            }
+        },
+        {
+            "nominativo": "CONSOLI Giuseppe",
+            "lista": "STUDENTI OGGI INGEGNERI DOMANI",
+            "voti": {
+                "totali": 4
+            }
+        },
+        {
+            "nominativo": "SCIUTO Gian Marco",
+            "lista": "STUDENTI OGGI INGEGNERI DOMANI",
+            "voti": {
+                "totali": 7
+            }
+        }
+    ],
+    "quoziente": 65.8,
+    "votanti": {
+        "totali": 392,
+        "percentuale": 49.56
+    },
+    "elettori": {
+        "totali": 791
+    }
+}

@@ -1,0 +1,567 @@
+{
+    "dipartimento": "DELL'UNIVERSITA' DEGLI STUDI DI CATANIA",
+    "seggi_da_assegnare": "6",
+    "schede": {
+        "bianche": {
+            "totali": 376
+        },
+        "nulle": {
+            "totali": 0
+        },
+        "contestate": {
+            "totali": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "WE LOVE UNICT",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "3458",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "13458"
+            },
+            "voti": {
+                "totali": 3458
+            }
+        },
+        {
+            "nome": "ACTEA - CREDIAMOCI",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "3013",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "13013"
+            },
+            "voti": {
+                "totali": 3013
+            }
+        },
+        {
+            "nome": "ARCHE'",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "1717",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1717"
+            },
+            "voti": {
+                "totali": 1717
+            }
+        },
+        {
+            "nome": "LA FINESTRA-LIBERI DI SCEGLIERE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "3383",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "13383"
+            },
+            "voti": {
+                "totali": 3383
+            }
+        },
+        {
+            "nome": "ARCADIA - NIKE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "3476",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "13476"
+            },
+            "voti": {
+                "totali": 3476
+            }
+        },
+        {
+            "nome": "ALLEANZA-AZIONE UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "2710",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "12710"
+            },
+            "voti": {
+                "totali": 2710
+            }
+        },
+        {
+            "nome": "S\u00ecAMO FUTURO-LIBERTAS-ORIZZONTE ITALIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "2196",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "12196"
+            },
+            "voti": {
+                "totali": 2196
+            }
+        },
+        {
+            "nome": "CITING",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "736",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "736"
+            },
+            "voti": {
+                "totali": 736
+            }
+        },
+        {
+            "nome": "UNIVERSITA' POPOLARE - SPL",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "1582",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1582"
+            },
+            "voti": {
+                "totali": 1582
+            }
+        },
+        {
+            "totale": 22271
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "LEONARDI Alessandra",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 1394,
+                "seggio_telematico": 1394
+            }
+        },
+        {
+            "nominativo": "ARDIZZONE Eleonora detta \"Pina\"",
+            "lista": "ACTEA - CREDIAMOCI",
+            "voti": {
+                "totali": 985,
+                "seggio_telematico": 985
+            }
+        },
+        {
+            "nominativo": "ZAPPULLA Sara",
+            "lista": "LA FINESTRA-LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 1365,
+                "seggio_telematico": 1365
+            }
+        },
+        {
+            "nominativo": "TROVATO Giuseppe",
+            "lista": "ARCADIA - NIKE",
+            "voti": {
+                "totali": 1596,
+                "seggio_telematico": 1596
+            }
+        },
+        {
+            "nominativo": "GAROFALO Gianluca",
+            "lista": "ALLEANZA-AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 706,
+                "seggio_telematico": 706
+            }
+        },
+        {
+            "nominativo": "PRIVITERA Marco Isidoro Antonio",
+            "lista": "S\u00ecAMO FUTURO-LIBERTAS-ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 989,
+                "seggio_telematico": 989
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "LAMAGNA Francesco Benedetto Giuseppe detto \"La Magna\"",
+            "lista": "LA FINESTRA-LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 740
+            }
+        },
+        {
+            "nominativo": "COMMIS Lorenzo",
+            "lista": "LA FINESTRA-LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 357
+            }
+        },
+        {
+            "nominativo": "CINNIRELLA Alessandro",
+            "lista": "LA FINESTRA-LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 336
+            }
+        },
+        {
+            "nominativo": "SPINALE Alessandro",
+            "lista": "LA FINESTRA-LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 140
+            }
+        },
+        {
+            "nominativo": "GRECO Isabella Maria",
+            "lista": "LA FINESTRA-LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 281
+            }
+        },
+        {
+            "nominativo": "LICCIARDELLO Rosario Francesco",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 957,
+                "seggio_telematico": 957
+            }
+        },
+        {
+            "nominativo": "GIANGREGORIO Gaia",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 263,
+                "seggio_telematico": 263
+            }
+        },
+        {
+            "nominativo": "SAELI Giovanni",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 278,
+                "seggio_telematico": 278
+            }
+        },
+        {
+            "nominativo": "D'AGATE Rosario",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 277,
+                "seggio_telematico": 277
+            }
+        },
+        {
+            "nominativo": "PERNACI Roberta",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 161,
+                "seggio_telematico": 161
+            }
+        },
+        {
+            "nominativo": "PROJETTO Francesco detto \"Ciccio\"",
+            "lista": "ACTEA - CREDIAMOCI",
+            "voti": {
+                "totali": 562,
+                "seggio_telematico": 562
+            }
+        },
+        {
+            "nominativo": "SFERRAZZO Antonio",
+            "lista": "ACTEA - CREDIAMOCI",
+            "voti": {
+                "totali": 460,
+                "seggio_telematico": 460
+            }
+        },
+        {
+            "nominativo": "PISTORIO Anna",
+            "lista": "ACTEA - CREDIAMOCI",
+            "voti": {
+                "totali": 229,
+                "seggio_telematico": 229
+            }
+        },
+        {
+            "nominativo": "DI MAURO Marco",
+            "lista": "ACTEA - CREDIAMOCI",
+            "voti": {
+                "totali": 535,
+                "seggio_telematico": 535
+            }
+        },
+        {
+            "nominativo": "LOMBARDO Gianmarco detto \"Jimbo\"",
+            "lista": "ACTEA - CREDIAMOCI",
+            "voti": {
+                "totali": 173,
+                "seggio_telematico": 173
+            }
+        },
+        {
+            "nominativo": "LEONCINI Alessio",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 466,
+                "seggio_telematico": 466
+            }
+        },
+        {
+            "nominativo": "DI GUARDIA Dario Giuseppe",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 385,
+                "seggio_telematico": 385
+            }
+        },
+        {
+            "nominativo": "DI PERNA Giulia",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 291,
+                "seggio_telematico": 291
+            }
+        },
+        {
+            "nominativo": "PALERMO Ilaria",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 196,
+                "seggio_telematico": 196
+            }
+        },
+        {
+            "nominativo": "URSINO Federico",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 277,
+                "seggio_telematico": 277
+            }
+        },
+        {
+            "nominativo": "GUERCIO Marco",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 58,
+                "seggio_telematico": 58
+            }
+        },
+        {
+            "nominativo": "ALESSANDRO Francesca",
+            "lista": "ARCADIA - NIKE",
+            "voti": {
+                "totali": 426,
+                "seggio_telematico": 426
+            }
+        },
+        {
+            "nominativo": "FINOCCHIARO Michelle",
+            "lista": "ARCADIA - NIKE",
+            "voti": {
+                "totali": 131,
+                "seggio_telematico": 131
+            }
+        },
+        {
+            "nominativo": "MICELI Gaia",
+            "lista": "ARCADIA - NIKE",
+            "voti": {
+                "totali": 458,
+                "seggio_telematico": 458
+            }
+        },
+        {
+            "nominativo": "DI GUARDO Massimiliano",
+            "lista": "ARCADIA - NIKE",
+            "voti": {
+                "totali": 162,
+                "seggio_telematico": 162
+            }
+        },
+        {
+            "nominativo": "FILLORAMO Marco",
+            "lista": "ARCADIA - NIKE",
+            "voti": {
+                "totali": 594,
+                "seggio_telematico": 594
+            }
+        },
+        {
+            "nominativo": "DIQUATTRO Simone",
+            "lista": "ALLEANZA-AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 366,
+                "seggio_telematico": 366
+            }
+        },
+        {
+            "nominativo": "DI STEFANO Salvatore",
+            "lista": "ALLEANZA-AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 550,
+                "seggio_telematico": 550
+            }
+        },
+        {
+            "nominativo": "PISA Giuseppe detto \"Peppe\"",
+            "lista": "ALLEANZA-AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 392,
+                "seggio_telematico": 392
+            }
+        },
+        {
+            "nominativo": "SICALI Luciano Amedeo",
+            "lista": "ALLEANZA-AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 443,
+                "seggio_telematico": 443
+            }
+        },
+        {
+            "nominativo": "VALORE Francesco",
+            "lista": "ALLEANZA-AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 174,
+                "seggio_telematico": 174
+            }
+        },
+        {
+            "nominativo": "D'EMILIO Luca",
+            "lista": "S\u00ecAMO FUTURO-LIBERTAS-ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 353,
+                "seggio_telematico": 353
+            }
+        },
+        {
+            "nominativo": "LONGO Vincenzo",
+            "lista": "S\u00ecAMO FUTURO-LIBERTAS-ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 399,
+                "seggio_telematico": 399
+            }
+        },
+        {
+            "nominativo": "GRAVINA Biagio",
+            "lista": "S\u00ecAMO FUTURO-LIBERTAS-ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 181,
+                "seggio_telematico": 181
+            }
+        },
+        {
+            "nominativo": "NOTO Alessio",
+            "lista": "S\u00ecAMO FUTURO-LIBERTAS-ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 79,
+                "seggio_telematico": 79
+            }
+        },
+        {
+            "nominativo": "VIZZINI Chiara",
+            "lista": "S\u00ecAMO FUTURO-LIBERTAS-ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 142,
+                "seggio_telematico": 142
+            }
+        },
+        {
+            "nominativo": "BARBAGALLO Rebecca",
+            "lista": "CITING",
+            "voti": {
+                "totali": 360,
+                "seggio_telematico": 360
+            }
+        },
+        {
+            "nominativo": "COMITINI Gianfranco",
+            "lista": "CITING",
+            "voti": {
+                "totali": 83,
+                "seggio_telematico": 83
+            }
+        },
+        {
+            "nominativo": "BONGIOVANNI Giusy Agata",
+            "lista": "CITING",
+            "voti": {
+                "totali": 71,
+                "seggio_telematico": 71
+            }
+        },
+        {
+            "nominativo": "BARBERA Christian",
+            "lista": "CITING",
+            "voti": {
+                "totali": 87,
+                "seggio_telematico": 87
+            }
+        },
+        {
+            "nominativo": "MIRULLA Giovanni",
+            "lista": "CITING",
+            "voti": {
+                "totali": 58,
+                "seggio_telematico": 58
+            }
+        },
+        {
+            "nominativo": "RUSSO Emanuele",
+            "lista": "CITING",
+            "voti": {
+                "totali": 26,
+                "seggio_telematico": 26
+            }
+        },
+        {
+            "nominativo": "ARCIDIACONO Carlo",
+            "lista": "UNIVERSITA' POPOLARE - SPL",
+            "voti": {
+                "totali": 378,
+                "seggio_telematico": 378
+            }
+        },
+        {
+            "nominativo": "LEONE Marco",
+            "lista": "UNIVERSITA' POPOLARE - SPL",
+            "voti": {
+                "totali": 221,
+                "seggio_telematico": 221
+            }
+        },
+        {
+            "nominativo": "CIMBALI Carlotta",
+            "lista": "UNIVERSITA' POPOLARE - SPL",
+            "voti": {
+                "totali": 140,
+                "seggio_telematico": 140
+            }
+        },
+        {
+            "nominativo": "LO BARTOLO Tatiana detta \"Sonia\"",
+            "lista": "UNIVERSITA' POPOLARE - SPL",
+            "voti": {
+                "totali": 108,
+                "seggio_telematico": 108
+            }
+        },
+        {
+            "nominativo": "GENTILE Irene",
+            "lista": "UNIVERSITA' POPOLARE - SPL",
+            "voti": {
+                "totali": 367,
+                "seggio_telematico": 367
+            }
+        },
+        {
+            "nominativo": "SCHILIRO' Giorgia",
+            "lista": "UNIVERSITA' POPOLARE - SPL",
+            "voti": {
+                "totali": 347,
+                "seggio_telematico": 347
+            }
+        }
+    ],
+    "quoziente": 3711.8333,
+    "votanti": {
+        "totali": 22647,
+        "percentuale": 22647
+    },
+    "elettori": {
+        "totali": 40709
+    }
+}
