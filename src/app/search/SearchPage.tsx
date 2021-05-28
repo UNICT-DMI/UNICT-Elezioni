@@ -69,6 +69,9 @@ export const SearchPage = (): JSX.Element => {
                   <div className="float-left text-left">
                     Anno: {suggestion.year}
                     <br />
+                    <FontAwesomeIcon icon={faGraduationCap} />&nbsp;
+                    {suggestion.subEntity?.replaceAll('_', ' ')}
+                    <br />
                     <FontAwesomeIcon icon={faUniversity} />&nbsp;
                     {suggestion.entity?.replaceAll('_', ' ')}
                   </div>
