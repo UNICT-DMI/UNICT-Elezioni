@@ -33,6 +33,9 @@ class CdlInf(Target):
         except ValueError:
             self.i += 1
             split_text = text[self.i].split()
+            while len(split_text) <= 0:
+                self.i += 1
+                split_text = text[self.i].split()
             return int(split_text[len(split_text)-1])
 
     def __get_candidati(self, text, eletti, non_eletti, current_quorum) -> bool:
@@ -41,9 +44,12 @@ class CdlInf(Target):
         quorum = current_quorum
         while self.word_not_in_control("SCHEDE", text):
             split_text = text[self.i].split()
-            if self.is_integer(split_text[0]):
-                split_text.pop(0)
             if len(split_text) > 0:
+                if self.is_integer(split_text[0]):
+                    split_text.pop(0)
+                if len(split_text) <= 0:
+                    self.i += 1
+                    continue
                 nome_candidato = ""
                 voti_candidato = 0
                 eletto = False
@@ -62,7 +68,7 @@ class CdlInf(Target):
                 e = {
                         "nome_candidato": nome_candidato.strip(),
                         "voti": int(voti_candidato)
-                };
+                }
                 if eletto:
                     eletti.append(e)
                 else:
