@@ -11,7 +11,7 @@ class Dipartimento(Target):
             nome += "\n" + text[self.i]
             self.i += 1
         return nome
-
+        
     def __find_info_lists(self, text) -> None:
         while "L I S T E" not in text[self.i].upper() and "LISTE" not in text[self.i].upper():
             self.i += 1
@@ -24,6 +24,8 @@ class Dipartimento(Target):
             if self.is_integer(s):
                 list_of_seats.append(int(s))
         self.i += 1
+        if(len(list_of_seats) == 0):
+            list_of_seats.append("telematico")
         return list_of_seats
 
     def __get_info_lists(self, text, list_of_seats, seggi_da_assegnare) -> object:
@@ -49,27 +51,32 @@ class Dipartimento(Target):
                         name_of_list += (s + " ")
                 else:
                     seats.append(s)
-
+            
             votes = {}
             votes["totali"] = vote_of_list
             j = len(list_of_seats)-1
             k = 0
             while j>=0:
-                votes["seggio_n_" + str(list_of_seats[k])] = int(seats.pop(len(seats)-(j+1)))
+                prefix = ""
+                if(list_of_seats[0] == "telematico"):
+                    prefix = "seggio_"
+                else:
+                    prefix = "seggio_n_"
+                votes[prefix + str(list_of_seats[k])] = int(seats.pop(len(seats)-(j+1)))
                 k += 1
                 j = j-1
             info_lists.append({
-                "nome": name_of_list.strip(),
+                "nome": name_of_list.strip(), 
                 "seggi": {
                     "seggi_pieni": seats.pop(0),
                     "resti": seats.pop(0),
                     "seggi_ai_resti": seats.pop(0),
                     "seggi_totali": seats.pop(0)
-               },
-                "voti": votes
+                    },
+                    "voti": votes
             })
             self.i += 1
-
+        
         tmp = text[self.i].split()
         info_lists.append({"totale": int(tmp[1])})
         seggi_da_assegnare[0] = tmp[len(tmp)-1]
@@ -103,18 +110,18 @@ class Dipartimento(Target):
             vot["seggio_n_" + str(list_of_seats[k])] = v
             k += 1
         return vot
-
+    
     def __getInfoElettori(self, text, list_of_seats) -> object:
         while "ELETTORI" not in text[self.i].upper():
             self.i += 1
-
+        
         split_text = text[self.i].split()
         for s in split_text:
             if self.is_integer(s):
                 totale_elettori = int(s)
                 break
         self.i += 1
-
+        
         j = 0
         while "ELETTORI" not in text[self.i].upper():
             self.i += 1
@@ -124,7 +131,7 @@ class Dipartimento(Target):
                 return {
                     "totali": totale_elettori
                 }
-
+        
         elettori_per_seggio = []
         split_text = text[self.i].split()
         for s in split_text:
@@ -157,9 +164,9 @@ class Dipartimento(Target):
         schede_contestate = self.find_card("CONTESTATE", text, list_of_seats, list_of_contested)
 
         schede = self.format_schede(schede_bianche, schede_nulle, schede_contestate, list_of_white, list_of_null, list_of_contested, list_of_seats)
-
+        
         quoziente = self.get_quotient(text)
-
+        
         votanti = self.__getVotanti(text, list_of_seats)
         info_elettori = self.__getInfoElettori(text, list_of_seats)
 

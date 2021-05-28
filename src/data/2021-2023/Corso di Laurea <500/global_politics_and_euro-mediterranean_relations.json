@@ -1,0 +1,37 @@
+{
+    "dipartimento": "GLOBAL POLITICS AND EURO-MEDITERRANEAN RELATIONS - LM-62 - Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 3,
+    "schede": {
+        "bianche": 2,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "BELLAVIA Luca Maicon Vinicius",
+            "voti": 7
+        },
+        {
+            "nome_candidato": "CORSO Giulia",
+            "voti": 7
+        },
+        {
+            "nome_candidato": "UBINA Anel",
+            "voti": 10
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "MANGIAMELI Antonio Ludovico",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "ZACCARO Anna",
+            "voti": 6
+        }
+    ],
+    "totale_voti": 33,
+    "aventi_diritto": 62,
+    "perc_votanti": 53.23
+}

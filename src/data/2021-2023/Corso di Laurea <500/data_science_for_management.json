@@ -1,0 +1,45 @@
+{
+    "dipartimento": "Data science for management - LM-91 - Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 5,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "BERLOTTI Mariaelena",
+            "voti": 14
+        },
+        {
+            "nome_candidato": "CASELLA Bruno",
+            "voti": 8
+        },
+        {
+            "nome_candidato": "COMPAGNINO Grazia Noemi",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "RAGAGLIA Claudio Vittorio",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "SAITTA Susanna",
+            "voti": 7
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "MAZZAGLIA Gianluigi",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "PUGLISI Federico",
+            "voti": 2
+        }
+    ],
+    "totale_voti": 40,
+    "aventi_diritto": 49,
+    "perc_votanti": 81.63
+}

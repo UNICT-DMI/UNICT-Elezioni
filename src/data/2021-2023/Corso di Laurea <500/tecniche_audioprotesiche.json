@@ -1,0 +1,20 @@
+{
+    "dipartimento": "TECNICHE AUDIOPROTESICHE - L/SNT3 - Laurea Triennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 6,
+    "schede": {
+        "bianche": 4,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "SALAMONE Giuseppe",
+            "voti": 9
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 13,
+    "aventi_diritto": 36,
+    "perc_votanti": 36.11
+}

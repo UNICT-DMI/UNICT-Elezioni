@@ -17,8 +17,8 @@ class Target(ABC):
             return fn.is_integer()
         except ValueError:
             return False
-
-
+            
+    
     def find_card(self, type, text, list_of_seats, list_of_type) -> int:
         list_tmp = []
         j = 0
@@ -49,7 +49,7 @@ class Target(ABC):
         for v in list_of_type:
             type["seggio_n_" + str(list_of_seats[k])] = v
             k += 1
-
+    
     def format_schede(self, schede_bianche, schede_nulle, schede_contestate, list_of_white, list_of_null, list_of_contested, list_of_seats, schede_valide = None, list_of_valid = None, schede_votate = None, list_of_votes = None) -> object:
         bianche = {}
         nulle = {}
@@ -57,7 +57,7 @@ class Target(ABC):
         self.__scheda(bianche, schede_bianche, list_of_white, list_of_seats)
         self.__scheda(nulle, schede_nulle, list_of_null, list_of_seats)
         self.__scheda(contestate, schede_contestate, list_of_contested, list_of_seats)
-
+        
         if schede_valide == None:
             schede = {
                 "bianche": bianche,
@@ -79,7 +79,7 @@ class Target(ABC):
             }
         return schede
 
-
+    
     def get_quotient(self, text) -> int:
         while("QUOZIENTE" not in text[self.i].upper()):
             self.i += 1
@@ -93,7 +93,7 @@ class Target(ABC):
                 break
             except ValueError:
                 continue
-
+    
         if quoziente == -1:
             for s in split_text:
                 try:
@@ -102,7 +102,7 @@ class Target(ABC):
                     break
                 except ValueError:
                     continue
-
+                    
         return quoziente
 
     def __get_info_candidato(self, split_text, list_of_seats_vote, vote_of_candidate) -> str:
@@ -120,7 +120,7 @@ class Target(ABC):
         else:
             name_of_candidate = "<fine>"
         return name_of_candidate
-
+            
 
     def get_candidati(self, text, eletti, non_eletti, list_of_seats, index) -> None:
         while "PREFERENZE" not in text[self.i].upper():
@@ -130,12 +130,12 @@ class Target(ABC):
         num_lists = len(self.lists)
         j = 1
         while j <= num_lists:
-
+            
             while ("L"+str(j)) not in text[self.i]:
                 self.i += 1
             self.i = self.i + index
 
-            while "SCRUTINATI" not in text[self.i] and "SEGGIO" not in text[self.i]:
+            while "SCRUTINATI" not in text[self.i]: #and "SEGGIO" not in text[self.i]:
                 vote_of_candidate = [1]
                 list_of_seats_vote = []
                 split_text = text[self.i].split()
@@ -145,15 +145,12 @@ class Target(ABC):
                 candidato = {}
                 candidato["nominativo"] = name_of_candidate.strip()
                 candidato["lista"] = self.lists[j-1]
-
+                
                 voti = {}
                 voti["totali"] = vote_of_candidate[0]
                 k = 0
                 prefix = ""
-                if len(list_of_seats) == 0:
-                    list_of_seats.append("telematico")
-
-                if list_of_seats[0] == "telematico":
+                if(list_of_seats[0] == "telematico"):
                     prefix = "seggio_"
                 else:
                     prefix = "seggio_n_"
@@ -175,6 +172,6 @@ class Target(ABC):
     def word_not_in_update(self, word, text) -> None:
         while word not in text[self.i].upper():
             self.i += 1
-
+    
     def word_not_in_control(self, word, text) -> bool:
         return(bool(word not in text[self.i].upper()))

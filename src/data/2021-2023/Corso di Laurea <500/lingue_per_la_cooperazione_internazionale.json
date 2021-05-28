@@ -1,0 +1,45 @@
+{
+    "dipartimento": "Lingue per la cooperazione internazionale - LM-38 - Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 4,
+    "schede": {
+        "bianche": 1,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "CASCONE Stefano",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "MANCUSO Jolanda Paola",
+            "voti": 59
+        },
+        {
+            "nome_candidato": "PLATANIA Monica Maria",
+            "voti": 7
+        },
+        {
+            "nome_candidato": "ROCCA Sonia",
+            "voti": 7
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "MUSUMECI Agata Emanuela",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "RACITI Riccardo",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "ZAMMATARO Alessia Carmen",
+            "voti": 2
+        }
+    ],
+    "totale_voti": 88,
+    "aventi_diritto": 205,
+    "perc_votanti": 42.93
+}

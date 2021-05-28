@@ -1,0 +1,45 @@
+{
+    "dipartimento": "FISIOTERAPIA - L/SNT2 - Laurea Triennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 7,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "AMATO Stefany",
+            "voti": 20
+        },
+        {
+            "nome_candidato": "COCO Benedetta Agata",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "GIUFFRIDA Gaia",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "MIRABILE Elisa Bruna",
+            "voti": 32
+        },
+        {
+            "nome_candidato": "PETRALIA Nicolo'",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "SPINALE Alessandro",
+            "voti": 30
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "LONGOBARDI Morena",
+            "voti": 0
+        }
+    ],
+    "totale_voti": 89,
+    "aventi_diritto": 130,
+    "perc_votanti": 68.46
+}

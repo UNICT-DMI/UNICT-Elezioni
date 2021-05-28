@@ -1,0 +1,44 @@
+{
+    "dipartimento": "Physics - LM-17 - Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 9,
+    "schede": {
+        "bianche": 3,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "GERMANA' Massimo",
+            "voti": 13
+        },
+        {
+            "nome_candidato": "LA MAGNA Paola",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "PERNACE Arcangelo",
+            "voti": 7
+        },
+        {
+            "nome_candidato": "PITRONACI Antonino",
+            "voti": 11
+        },
+        {
+            "nome_candidato": "SAIA Clara",
+            "voti": 12
+        },
+        {
+            "nome_candidato": "SPINA Andrea",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "URSINO Federico",
+            "voti": 7
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 60,
+    "aventi_diritto": 120,
+    "perc_votanti": 50.0
+}

@@ -1,0 +1,32 @@
+{
+    "dipartimento": "Sociologia delle reti, dell' informazione e dell' innovazione - LM-88 - Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 4,
+    "schede": {
+        "bianche": 2,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "CATANIA Stefania Maria",
+            "voti": 9
+        },
+        {
+            "nome_candidato": "CONDORELLI Viviana",
+            "voti": 12
+        },
+        {
+            "nome_candidato": "LEONARDI Alessandra",
+            "voti": 7
+        },
+        {
+            "nome_candidato": "MARRARO Giuliana",
+            "voti": 8
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 38,
+    "aventi_diritto": 62,
+    "perc_votanti": 61.29
+}

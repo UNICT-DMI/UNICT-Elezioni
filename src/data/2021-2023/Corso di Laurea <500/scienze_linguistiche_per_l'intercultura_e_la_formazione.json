@@ -1,0 +1,41 @@
+{
+    "dipartimento": "Scienze Linguistiche per l'intercultura e la formazione - LM-39 - Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 5,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "FINOCCHIARO Michelle",
+            "voti": 11
+        },
+        {
+            "nome_candidato": "GIANNONE Sara",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "GRAVINA Biagio",
+            "voti": 14
+        },
+        {
+            "nome_candidato": "ITALIA Miriam",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "SCIORTINO Simona",
+            "voti": 31
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "TURLA' Elena",
+            "voti": 0
+        }
+    ],
+    "totale_voti": 62,
+    "aventi_diritto": 121,
+    "perc_votanti": 51.24
+}

@@ -1,0 +1,81 @@
+{
+    "dipartimento": "Biotecnologie - L-2 - Laurea Triennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 11,
+    "schede": {
+        "bianche": 2,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "CHIAVOLA Damiana",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "D'ANGELO Arianna",
+            "voti": 11
+        },
+        {
+            "nome_candidato": "DI BENEDETTO Giuseppe",
+            "voti": 20
+        },
+        {
+            "nome_candidato": "GENTILE Giusy",
+            "voti": 11
+        },
+        {
+            "nome_candidato": "LAVINA Giorgia",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "MANCINO Matteo",
+            "voti": 10
+        },
+        {
+            "nome_candidato": "PANEPINTO Elisabetta",
+            "voti": 20
+        },
+        {
+            "nome_candidato": "RUSSO Giulia",
+            "voti": 29
+        },
+        {
+            "nome_candidato": "COCI Kevin",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "DI PAOLA Andrea",
+            "voti": 14
+        },
+        {
+            "nome_candidato": "LOMBARDO Benedetta",
+            "voti": 18
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "CAPONETTO Dominique",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "LO PRESTI Crystal",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "RAITI Giuliana",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "CANTARELLA Claudia",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "LEONARDI Gabriele",
+            "voti": 0
+        }
+    ],
+    "totale_voti": 147,
+    "aventi_diritto": 269,
+    "perc_votanti": 54.65
+}

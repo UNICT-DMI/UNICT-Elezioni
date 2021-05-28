@@ -1,0 +1,36 @@
+{
+    "dipartimento": "Biologia ambientale - LM-6 - Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 5,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "D'ALPA Francesco",
+            "voti": 8
+        },
+        {
+            "nome_candidato": "FABIANO Francesco",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "MUREDDU Sarah",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "SANTONOCITO Simona Agata",
+            "voti": 8
+        },
+        {
+            "nome_candidato": "VIRZ\u00cc Federica",
+            "voti": 4
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 27,
+    "aventi_diritto": 71,
+    "perc_votanti": 38.03
+}

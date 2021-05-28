@@ -1,0 +1,61 @@
+{
+    "dipartimento": "Filosofia - L-5 - Laurea Triennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 5,
+    "schede": {
+        "bianche": 1,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "BARBAGALLO Amedeo",
+            "voti": 27
+        },
+        {
+            "nome_candidato": "CALCINA Gaetano Daniele",
+            "voti": 24
+        },
+        {
+            "nome_candidato": "RUBINO Rita Elisabeth",
+            "voti": 19
+        },
+        {
+            "nome_candidato": "SAITTA Roberta Claudia",
+            "voti": 22
+        },
+        {
+            "nome_candidato": "TOBINO Federico",
+            "voti": 15
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "COSTANZO Federica Carmela",
+            "voti": 10
+        },
+        {
+            "nome_candidato": "GIGLIO Ruggero Pierpaolo",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "LAGONA Barbara Maria",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "SAN MARTINO Tea",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "ASCIA Alessia",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "LA MELA Carlotta",
+            "voti": 3
+        }
+    ],
+    "totale_voti": 136,
+    "aventi_diritto": 439,
+    "perc_votanti": 30.98
+}

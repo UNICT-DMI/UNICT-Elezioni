@@ -1,0 +1,33 @@
+{
+    "dipartimento": "INGEGNERIA MECCANICA - LM-33 - Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 3,
+    "schede": {
+        "bianche": 2,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "LEONE Marco",
+            "voti": 36
+        },
+        {
+            "nome_candidato": "MONTALTO Daniele",
+            "voti": 22
+        },
+        {
+            "nome_candidato": "TORRISI Daniele",
+            "voti": 9
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "AMOROSO Davide Maria",
+            "voti": 2
+        }
+    ],
+    "totale_voti": 71,
+    "aventi_diritto": 104,
+    "perc_votanti": 68.27
+}

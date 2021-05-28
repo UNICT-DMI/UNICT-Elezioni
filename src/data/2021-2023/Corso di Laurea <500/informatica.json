@@ -1,0 +1,20 @@
+{
+    "dipartimento": "Informatica - LM-18 - Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 5,
+    "schede": {
+        "bianche": 2,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "TRUPIA Andrea",
+            "voti": 61
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 63,
+    "aventi_diritto": 128,
+    "perc_votanti": 49.22
+}

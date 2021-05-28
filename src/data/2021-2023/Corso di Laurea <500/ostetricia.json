@@ -1,0 +1,32 @@
+{
+    "dipartimento": "OSTETRICIA - L/SNT1 - Laurea Triennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 6,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "FUSTO Jacqueline",
+            "voti": 11
+        },
+        {
+            "nome_candidato": "MERLO Valeria Gaia",
+            "voti": 11
+        },
+        {
+            "nome_candidato": "NICOLOSO Domiziana",
+            "voti": 12
+        },
+        {
+            "nome_candidato": "TOMARCHIO Erika",
+            "voti": 12
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 46,
+    "aventi_diritto": 60,
+    "perc_votanti": 76.67
+}

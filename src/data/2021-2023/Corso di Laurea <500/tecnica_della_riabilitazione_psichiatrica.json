@@ -1,0 +1,32 @@
+{
+    "dipartimento": "TECNICA DELLA RIABILITAZIONE PSICHIATRICA - L/SNT2 - Laurea Triennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 5,
+    "schede": {
+        "bianche": 1,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "D'ANTONI Elisabetta",
+            "voti": 10
+        },
+        {
+            "nome_candidato": "GRECO Martina",
+            "voti": 8
+        },
+        {
+            "nome_candidato": "LA MANNA Maria Chiara",
+            "voti": 11
+        },
+        {
+            "nome_candidato": "GRASSO Martina",
+            "voti": 7
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 37,
+    "aventi_diritto": 49,
+    "perc_votanti": 75.51
+}

@@ -1,0 +1,28 @@
+{
+    "dipartimento": "INGEGNERIA CIVILE DELLE ACQUE E DEI TRASPORTI - LM-23 - Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 4,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "NOLFO Maria Silvia",
+            "voti": 18
+        },
+        {
+            "nome_candidato": "SCAVO Gabriele",
+            "voti": 8
+        },
+        {
+            "nome_candidato": "SEMINARA Alessio Antonino",
+            "voti": 12
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 38,
+    "aventi_diritto": 57,
+    "perc_votanti": 66.67
+}

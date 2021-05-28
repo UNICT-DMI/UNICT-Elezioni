@@ -1,0 +1,28 @@
+{
+    "dipartimento": "Biotecnologie Mediche - LM-9 - Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 5,
+    "schede": {
+        "bianche": 2,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "ARCIFA Francesco Giuseppe",
+            "voti": 12
+        },
+        {
+            "nome_candidato": "GUARNERA Carmelo",
+            "voti": 15
+        },
+        {
+            "nome_candidato": "INFANTINO Iolanda Rita",
+            "voti": 10
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 39,
+    "aventi_diritto": 67,
+    "perc_votanti": 58.21
+}

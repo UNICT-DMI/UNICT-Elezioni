@@ -1,0 +1,65 @@
+{
+    "dipartimento": "Lingue e letterature comparate - LM-37 - Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 6,
+    "schede": {
+        "bianche": 3,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "CASALINO Gaia Martina",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "D'ORSI Grazia Maria Valentina",
+            "voti": 15
+        },
+        {
+            "nome_candidato": "OCCHIPINTI Francesco",
+            "voti": 17
+        },
+        {
+            "nome_candidato": "OCCHIPINTI Rosario",
+            "voti": 10
+        },
+        {
+            "nome_candidato": "SCIFO Flavia",
+            "voti": 48
+        },
+        {
+            "nome_candidato": "ZUMBO Salvatore",
+            "voti": 51
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "AVELLINO Rossella",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "FULLONE Ludovica",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "GRANATA Wendy Susan",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "LEOTTA Giovanna",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "LIPSA Mihaela",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "VENTURA Alessandra",
+            "voti": 0
+        }
+    ],
+    "totale_voti": 162,
+    "aventi_diritto": 326,
+    "perc_votanti": 49.69
+}
