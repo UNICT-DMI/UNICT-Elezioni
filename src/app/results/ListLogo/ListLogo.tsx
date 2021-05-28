@@ -17,7 +17,8 @@ export const ListLogo = (props: Props): JSX.Element => {
       .replace('#', '')
       .replace(new RegExp("O'", 'g'), 'Ò')
       .replace(new RegExp("E'", 'g'), 'È')
-      .replace(new RegExp("A'", 'g'), 'À');
+      .replace(new RegExp("A'", 'g'), 'À')
+      .toUpperCase();
   }
 
   function getImageUrl(): string {

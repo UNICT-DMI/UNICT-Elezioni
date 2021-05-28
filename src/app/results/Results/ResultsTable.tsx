@@ -130,6 +130,11 @@ export const ResultTable = (props: Props): JSX.Element => {
             <b className="text-danger">[Quorum non raggiunto]</b>
           )
         }
+        {
+          props.anno === '2021-2023' && (
+            <b className="text-warning">[Voto online causa pandemia COVID-19]</b>
+          )
+        }
 
       </div>
     );

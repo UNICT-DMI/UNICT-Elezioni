@@ -15,7 +15,7 @@
     },
     "liste": [
         {
-            "nome": "DMI\u2010INSIDER",
+            "nome": "DMI INSIDER",
             "seggi": {
                 "seggi_pieni": "4",
                 "resti": "49,3",
@@ -125,7 +125,7 @@
     "eletti": [
         {
             "nominativo": "CAMPO Filippo",
-            "lista": "DMI\u2010INSIDER",
+            "lista": "DMI INSIDER",
             "voti": {
                 "totali": 31,
                 "seggio_telematico": 31
@@ -133,7 +133,7 @@
         },
         {
             "nominativo": "TILOTTA Fabio",
-            "lista": "DMI\u2010INSIDER",
+            "lista": "DMI INSIDER",
             "voti": {
                 "totali": 34,
                 "seggio_telematico": 34
@@ -141,7 +141,7 @@
         },
         {
             "nominativo": "CARNEMOLLA Davide",
-            "lista": "DMI\u2010INSIDER",
+            "lista": "DMI INSIDER",
             "voti": {
                 "totali": 81,
                 "seggio_telematico": 81
@@ -149,7 +149,7 @@
         },
         {
             "nominativo": "MINISSALE Giuseppe Virgilio",
-            "lista": "DMI\u2010INSIDER",
+            "lista": "DMI INSIDER",
             "voti": {
                 "totali": 22,
                 "seggio_telematico": 22
@@ -157,7 +157,7 @@
         },
         {
             "nominativo": "SEMINARA Luigi",
-            "lista": "DMI\u2010INSIDER",
+            "lista": "DMI INSIDER",
             "voti": {
                 "totali": 22,
                 "seggio_telematico": 22
@@ -223,7 +223,7 @@
     "non_eletti": [
         {
             "nominativo": "CURTO Sofia",
-            "lista": "DMI\u2010INSIDER",
+            "lista": "DMI INSIDER",
             "voti": {
                 "totali": 14,
                 "seggio_telematico": 14
@@ -231,7 +231,7 @@
         },
         {
             "nominativo": "CARLINO Emanuele",
-            "lista": "DMI\u2010INSIDER",
+            "lista": "DMI INSIDER",
             "voti": {
                 "totali": 2,
                 "seggio_telematico": 2
@@ -239,7 +239,7 @@
         },
         {
             "nominativo": "CATANIA Valentina",
-            "lista": "DMI\u2010INSIDER",
+            "lista": "DMI INSIDER",
             "voti": {
                 "totali": 16,
                 "seggio_telematico": 16
@@ -247,7 +247,7 @@
         },
         {
             "nominativo": "RUSSO Francisco Pablo",
-            "lista": "DMI\u2010INSIDER",
+            "lista": "DMI INSIDER",
             "voti": {
                 "totali": 4,
                 "seggio_telematico": 4
@@ -255,7 +255,7 @@
         },
         {
             "nominativo": "PARLAVECCHIO Martina",
-            "lista": "DMI\u2010INSIDER",
+            "lista": "DMI INSIDER",
             "voti": {
                 "totali": 5,
                 "seggio_telematico": 5
@@ -263,7 +263,7 @@
         },
         {
             "nominativo": "DI GRANDE Graziano",
-            "lista": "DMI\u2010INSIDER",
+            "lista": "DMI INSIDER",
             "voti": {
                 "totali": 3,
                 "seggio_telematico": 3
