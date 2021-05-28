@@ -1,0 +1,28 @@
+{
+    "dipartimento": "Electrical Engineering (Ingegneria elettrica) - LM-28 - Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 3,
+    "schede": {
+        "bianche": 1,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "FINOCCHIARO Giovanni Maria",
+            "voti": 9
+        },
+        {
+            "nome_candidato": "SHABANIVERKI Mohsen",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "SPITALERI Maria Giorgia",
+            "voti": 24
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 38,
+    "aventi_diritto": 75,
+    "perc_votanti": 50.67
+}

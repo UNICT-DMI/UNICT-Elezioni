@@ -1,0 +1,24 @@
+{
+    "dipartimento": "Comunicazione della cultura e dello spettacolo - LM-65 - Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 3,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "CANTONE Eugenia Cristina",
+            "voti": 46
+        },
+        {
+            "nome_candidato": "SICHEL Giovanni",
+            "voti": 13
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 59,
+    "aventi_diritto": 120,
+    "perc_votanti": 49.17
+}

@@ -1,0 +1,41 @@
+{
+    "dipartimento": "Filologia moderna - LM-14 - Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 5,
+    "schede": {
+        "bianche": 6,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "CORPACE Chiara",
+            "voti": 40
+        },
+        {
+            "nome_candidato": "FARO Tommaso",
+            "voti": 24
+        },
+        {
+            "nome_candidato": "GENTILE Federica",
+            "voti": 9
+        },
+        {
+            "nome_candidato": "SPINELLO Nicola",
+            "voti": 16
+        },
+        {
+            "nome_candidato": "ZISA Giovanna",
+            "voti": 35
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "FARINATO Angela",
+            "voti": 9
+        }
+    ],
+    "totale_voti": 139,
+    "aventi_diritto": 332,
+    "perc_votanti": 41.87
+}

@@ -1,0 +1,40 @@
+{
+    "dipartimento": "Tecniche di fisiopatologia cardiocircolatoria e perfusione cardiovascolare (abilitante alla professione sanitaria di Tecnico di fisiopatologia cardiocircolatoria e\nperfusione cardiovascolare) - L/SNT3 - Laurea Triennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 6,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "AMENTA Erika",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "BUSACCA Matteo",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "LETA Monia",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "LIGA Martina",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "LONGHITANO Gaja",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "MARANO Giulia",
+            "voti": 4
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 30,
+    "aventi_diritto": 34,
+    "perc_votanti": 88.24
+}

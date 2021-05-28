@@ -1,0 +1,65 @@
+{
+    "dipartimento": "SCIENZE E TECNOLOGIE AGRARIE - LM-69 - Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 5,
+    "schede": {
+        "bianche": 2,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "CALCAGNO Federico",
+            "voti": 20
+        },
+        {
+            "nome_candidato": "CUTULI Giuseppe",
+            "voti": 27
+        },
+        {
+            "nome_candidato": "GALEA Romano",
+            "voti": 22
+        },
+        {
+            "nome_candidato": "PITRUZZELLO Maria Flavia",
+            "voti": 26
+        },
+        {
+            "nome_candidato": "VITALE Marzia",
+            "voti": 22
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "AGATINO Lidia Alessandra",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "AVITABILE Corrado",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "CATALANO Giuseppe Antonio",
+            "voti": 14
+        },
+        {
+            "nome_candidato": "MICCICHE' Pasquale",
+            "voti": 20
+        },
+        {
+            "nome_candidato": "MONTAGNO Valentina",
+            "voti": 16
+        },
+        {
+            "nome_candidato": "PROJETTO Francesco",
+            "voti": 14
+        },
+        {
+            "nome_candidato": "LEONARDI Andrea",
+            "voti": 0
+        }
+    ],
+    "totale_voti": 191,
+    "aventi_diritto": 259,
+    "perc_votanti": 73.75
+}

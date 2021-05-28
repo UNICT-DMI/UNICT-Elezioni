@@ -1,0 +1,32 @@
+{
+    "dipartimento": "Terapia occupazionale (abilitante alla professione sanitaria di Terapista occupazionale) - L/SNT2 - Laurea Triennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 5,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "CALABRESE Melissa",
+            "voti": 20
+        },
+        {
+            "nome_candidato": "DISTEFANO Francesca",
+            "voti": 39
+        },
+        {
+            "nome_candidato": "LUPICA Carmela",
+            "voti": 16
+        },
+        {
+            "nome_candidato": "NISI Marco",
+            "voti": 1
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 76,
+    "aventi_diritto": 103,
+    "perc_votanti": 73.79
+}

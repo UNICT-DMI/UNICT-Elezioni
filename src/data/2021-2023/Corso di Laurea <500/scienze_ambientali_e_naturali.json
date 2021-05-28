@@ -1,0 +1,24 @@
+{
+    "dipartimento": "Scienze Ambientali e Naturali - L-32 - Laurea Triennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 6,
+    "schede": {
+        "bianche": 9,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "LA MANNA Alessandro",
+            "voti": 21
+        },
+        {
+            "nome_candidato": "FLORIDIA Davide",
+            "voti": 10
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 40,
+    "aventi_diritto": 206,
+    "perc_votanti": 19.42
+}

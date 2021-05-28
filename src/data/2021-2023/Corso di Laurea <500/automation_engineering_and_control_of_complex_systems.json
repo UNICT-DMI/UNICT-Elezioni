@@ -1,0 +1,45 @@
+{
+    "dipartimento": "Automation Engineering and Control of Complex Systems (Ingegneria dell'automazione e del controllo dei sistemi complessi) - LM-25 - Laurea Magistrale\nbiennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 2,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "CANNAVO' Amedeo Edoardo",
+            "voti": 29
+        },
+        {
+            "nome_candidato": "CUSMANO Davide",
+            "voti": 26
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "CARIELLO Simona",
+            "voti": 14
+        },
+        {
+            "nome_candidato": "CARUSO Alfio",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "MAMMANA Carlo",
+            "voti": 13
+        },
+        {
+            "nome_candidato": "SANTORO Benedetto",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "TROVATO Giuseppe",
+            "voti": 0
+        }
+    ],
+    "totale_voti": 83,
+    "aventi_diritto": 114,
+    "perc_votanti": 72.81
+}

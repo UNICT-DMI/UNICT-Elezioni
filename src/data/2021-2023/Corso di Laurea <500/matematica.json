@@ -1,0 +1,73 @@
+{
+    "dipartimento": "Matematica - L-35 - Laurea Triennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 5,
+    "schede": {
+        "bianche": 1,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "CATANIA Valentina",
+            "voti": 7
+        },
+        {
+            "nome_candidato": "CURTO Sofia",
+            "voti": 20
+        },
+        {
+            "nome_candidato": "FRAGAPANE Leonardo",
+            "voti": 21
+        },
+        {
+            "nome_candidato": "MINISSALE Giuseppe Virgilio",
+            "voti": 8
+        },
+        {
+            "nome_candidato": "TILOTTA Fabio",
+            "voti": 37
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "BILLIANI Lucia",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "CORALLO Salvatore",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "GENNARO Nicolo'",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "GIOIA Alessandro",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "MALERBA Chiara",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "PONTORNO Orazio",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "SCANDURRA Chiara",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "VIRZI' Vanessa",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "FERRO Annalisa",
+            "voti": 1
+        }
+    ],
+    "totale_voti": 122,
+    "aventi_diritto": 247,
+    "perc_votanti": 49.39
+}

@@ -1,0 +1,28 @@
+{
+    "dipartimento": "Storia dell'arte e beni culturali - LM-89 - Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 3,
+    "schede": {
+        "bianche": 1,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "DE FRANCO Marilena",
+            "voti": 12
+        },
+        {
+            "nome_candidato": "LIVOLSI Carla",
+            "voti": 35
+        },
+        {
+            "nome_candidato": "SORBELLO Giulia",
+            "voti": 3
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 51,
+    "aventi_diritto": 172,
+    "perc_votanti": 29.65
+}

@@ -1,0 +1,36 @@
+{
+    "dipartimento": "DIETISTICA - L/SNT3 - Laurea Triennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 6,
+    "schede": {
+        "bianche": 1,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "DI STEFANO Giorgio",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "GUAGLIARDO Francesco",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "LEONARDI Alice",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "MASTRANDREA Angelo Luciano",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "MIRENDA Antonio",
+            "voti": 5
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 16,
+    "aventi_diritto": 36,
+    "perc_votanti": 44.44
+}

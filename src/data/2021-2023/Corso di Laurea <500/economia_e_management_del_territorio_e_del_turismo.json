@@ -1,0 +1,45 @@
+{
+    "dipartimento": "Economia e management del territorio e del turismo - LM-56 - Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 4,
+    "schede": {
+        "bianche": 1,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "CIAFFAGLIONE Damiano - Detto Ciaffa",
+            "voti": 17
+        },
+        {
+            "nome_candidato": "PAGANO Damiano",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "DI FINA Enza",
+            "voti": 22
+        },
+        {
+            "nome_candidato": "DI STEFANO Salvatore",
+            "voti": 10
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "GALIZIA Nicola",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "MEZZASALMA Nicolo",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "PIRO Giorgia",
+            "voti": 2
+        }
+    ],
+    "totale_voti": 60,
+    "aventi_diritto": 100,
+    "perc_votanti": 60.0
+}

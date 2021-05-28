@@ -1,0 +1,24 @@
+{
+    "dipartimento": "Archeologia - LM-2 - Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 3,
+    "schede": {
+        "bianche": 1,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "CATALANO Mattia",
+            "voti": 21
+        },
+        {
+            "nome_candidato": "TORRISI Emanuele",
+            "voti": 16
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 38,
+    "aventi_diritto": 95,
+    "perc_votanti": 40.0
+}

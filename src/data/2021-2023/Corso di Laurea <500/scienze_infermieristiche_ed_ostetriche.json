@@ -1,0 +1,40 @@
+{
+    "dipartimento": "SCIENZE INFERMIERISTICHE ED OSTETRICHE - LM/SNT1 - Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 6,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "ARCORIA Antonio",
+            "voti": 32
+        },
+        {
+            "nome_candidato": "COSTANZO Salvatore",
+            "voti": 12
+        },
+        {
+            "nome_candidato": "RUSSO Nicola",
+            "voti": 12
+        },
+        {
+            "nome_candidato": "SCOLLO Sarah",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "SPITALERI Maria Rita",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "ZAPPALA' Erika Rita",
+            "voti": 18
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 79,
+    "aventi_diritto": 121,
+    "perc_votanti": 65.29
+}

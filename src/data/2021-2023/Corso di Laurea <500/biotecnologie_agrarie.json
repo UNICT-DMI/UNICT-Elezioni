@@ -1,0 +1,49 @@
+{
+    "dipartimento": "BIOTECNOLOGIE AGRARIE - LM-7 - Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 3,
+    "schede": {
+        "bianche": 2,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "CALI' Riccardo",
+            "voti": 11
+        },
+        {
+            "nome_candidato": "MANERCHIA MASERA' Giacoma",
+            "voti": 15
+        },
+        {
+            "nome_candidato": "SPINA Nina",
+            "voti": 12
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "FORTUNA Sefora",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "FRISENNA Francesco",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "PAPPALARDO Vanessa Agata",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "ROTONDO Andrea",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "TRICOMI Alessandro Giuseppe",
+            "voti": 0
+        }
+    ],
+    "totale_voti": 51,
+    "aventi_diritto": 73,
+    "perc_votanti": 69.86
+}

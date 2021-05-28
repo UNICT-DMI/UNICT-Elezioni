@@ -1,0 +1,33 @@
+{
+    "dipartimento": "Filologia classica - LM-15 - Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 3,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "DI PIETRO Caterina Maria",
+            "voti": 13
+        },
+        {
+            "nome_candidato": "DRAIA' Antonio Maria",
+            "voti": 22
+        },
+        {
+            "nome_candidato": "MARINO Mariachiara",
+            "voti": 5
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "BIAZZO Letizia",
+            "voti": 4
+        }
+    ],
+    "totale_voti": 44,
+    "aventi_diritto": 74,
+    "perc_votanti": 59.46
+}

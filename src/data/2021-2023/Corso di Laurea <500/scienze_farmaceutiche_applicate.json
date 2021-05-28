@@ -1,0 +1,65 @@
+{
+    "dipartimento": "Scienze farmaceutiche applicate - L-29 - Laurea Triennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 8,
+    "schede": {
+        "bianche": 11,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "ARENA Sarah",
+            "voti": 16
+        },
+        {
+            "nome_candidato": "BLANCO Carmelo Giuseppe",
+            "voti": 16
+        },
+        {
+            "nome_candidato": "CARUSO Maria",
+            "voti": 12
+        },
+        {
+            "nome_candidato": "GIUNTA Vivien",
+            "voti": 13
+        },
+        {
+            "nome_candidato": "PULVIRENTI Federica",
+            "voti": 12
+        },
+        {
+            "nome_candidato": "RUSSO Giulia",
+            "voti": 43
+        },
+        {
+            "nome_candidato": "TROVATO Martina",
+            "voti": 21
+        },
+        {
+            "nome_candidato": "TUMINO Silvio",
+            "voti": 19
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "BELLIA Vincenzo",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "MAZZAGLIA Rossella Lucia",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "SALONIA Vittoria",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "TARDO Francesca Maria",
+            "voti": 3
+        }
+    ],
+    "totale_voti": 171,
+    "aventi_diritto": 332,
+    "perc_votanti": 51.51
+}

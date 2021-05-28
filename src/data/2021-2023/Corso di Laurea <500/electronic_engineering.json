@@ -1,0 +1,28 @@
+{
+    "dipartimento": "Electronic Engineering (Ingegneria elettronica) - LM-29 - Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 3,
+    "schede": {
+        "bianche": 2,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "BELLA Angelo Lucio",
+            "voti": 11
+        },
+        {
+            "nome_candidato": "NICOTRA Gianluca",
+            "voti": 8
+        },
+        {
+            "nome_candidato": "PRIVITERA Marco",
+            "voti": 21
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 42,
+    "aventi_diritto": 70,
+    "perc_votanti": 60.0
+}

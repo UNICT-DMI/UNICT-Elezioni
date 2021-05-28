@@ -1,0 +1,33 @@
+{
+    "dipartimento": "INGEGNERIA INFORMATICA - LM-32 - Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 3,
+    "schede": {
+        "bianche": 2,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "BERITELLI Ludovica",
+            "voti": 34
+        },
+        {
+            "nome_candidato": "BONGIOVANNI Giusy Agata",
+            "voti": 40
+        },
+        {
+            "nome_candidato": "COMITINI Gianfranco",
+            "voti": 20
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "FALLICA Giuseppe",
+            "voti": 5
+        }
+    ],
+    "totale_voti": 101,
+    "aventi_diritto": 175,
+    "perc_votanti": 57.71
+}

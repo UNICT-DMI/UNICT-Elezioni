@@ -1,0 +1,45 @@
+{
+    "dipartimento": "Psicologia - LM-51 - Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 4,
+    "schede": {
+        "bianche": 4,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "CASU Mirko",
+            "voti": 26
+        },
+        {
+            "nome_candidato": "CIRINO Antonio",
+            "voti": 35
+        },
+        {
+            "nome_candidato": "CREMONA Irene",
+            "voti": 21
+        },
+        {
+            "nome_candidato": "SCOLLO Antonio",
+            "voti": 24
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "FERRARA Irene",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "PIRRACCHIO Chiara",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "TEGHINI Umberto",
+            "voti": 18
+        }
+    ],
+    "totale_voti": 138,
+    "aventi_diritto": 298,
+    "perc_votanti": 46.31
+}

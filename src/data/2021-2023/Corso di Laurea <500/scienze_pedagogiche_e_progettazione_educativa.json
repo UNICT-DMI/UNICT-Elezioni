@@ -1,0 +1,37 @@
+{
+    "dipartimento": "Scienze Pedagogiche e Progettazione Educativa - LM-85 - Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 4,
+    "schede": {
+        "bianche": 10,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "DI FEDE Valentina, Alessia",
+            "voti": 26
+        },
+        {
+            "nome_candidato": "GRASSO Ylenia",
+            "voti": 8
+        },
+        {
+            "nome_candidato": "SIRACUSA Maria Rita",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "VITANZA Clelia Lucia",
+            "voti": 8
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "SANGRIGOLI Erica",
+            "voti": 3
+        }
+    ],
+    "totale_voti": 58,
+    "aventi_diritto": 319,
+    "perc_votanti": 18.18
+}
