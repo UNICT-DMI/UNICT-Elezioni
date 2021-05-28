@@ -1,0 +1,342 @@
+{
+    "dipartimento": "INFORMATICA - L-31 - Laurea Triennale (D.M.270/2004)",
+    "seggi_da_assegnare": "9",
+    "schede": {
+        "bianche": {
+            "totali": 9,
+            "seggio_n_telematico": 9
+        },
+        "nulle": {
+            "totali": 0
+        },
+        "contestate": {
+            "totali": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "DMI INSIDER",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "9,7",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 103,
+                "seggio_telematico": 103
+            }
+        },
+        {
+            "nome": "WE LOVE UNICT",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "24,3",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 71,
+                "seggio_telematico": 71
+            }
+        },
+        {
+            "nome": "ACTEA",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "31,7",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "3"
+            },
+            "voti": {
+                "totali": 125,
+                "seggio_telematico": 125
+            }
+        },
+        {
+            "nome": "DMI.EXE",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "15,3",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 62,
+                "seggio_telematico": 62
+            }
+        },
+        {
+            "nome": "ARCHE'",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "8,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 8,
+                "seggio_telematico": 8
+            }
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "19,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 19,
+                "seggio_telematico": 19
+            }
+        },
+        {
+            "nome": "NIKE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "32,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 32,
+                "seggio_telematico": 32
+            }
+        },
+        {
+            "totale": 420
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "CAMPO Filippo",
+            "lista": "DMI INSIDER",
+            "voti": {
+                "totali": 52,
+                "seggio_telematico": 52
+            }
+        },
+        {
+            "nominativo": "PARLAVECCHIO Martina",
+            "lista": "DMI INSIDER",
+            "voti": {
+                "totali": 17,
+                "seggio_telematico": 17
+            }
+        },
+        {
+            "nominativo": "COCUZZA Daniele",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 38,
+                "seggio_telematico": 38
+            }
+        },
+        {
+            "nominativo": "COCO Giuseppe",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 10,
+                "seggio_telematico": 10
+            }
+        },
+        {
+            "nominativo": "PISTORIO Anna",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 44,
+                "seggio_telematico": 44
+            }
+        },
+        {
+            "nominativo": "GIBILTERRA Martin",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 46,
+                "seggio_telematico": 46
+            }
+        },
+        {
+            "nominativo": "PATANIA Alex",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 15,
+                "seggio_telematico": 15
+            }
+        },
+        {
+            "nominativo": "CIGNA Gaia",
+            "lista": "DMI.EXE",
+            "voti": {
+                "totali": 41,
+                "seggio_telematico": 41
+            }
+        },
+        {
+            "nominativo": "CASCINO Andrea",
+            "lista": "NIKE",
+            "voti": {
+                "totali": 22,
+                "seggio_telematico": 22
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "RUSSO Francisco Pablo",
+            "lista": "DMI INSIDER",
+            "voti": {
+                "totali": 9,
+                "seggio_telematico": 9
+            }
+        },
+        {
+            "nominativo": "DI GRANDE Graziano",
+            "lista": "DMI INSIDER",
+            "voti": {
+                "totali": 9,
+                "seggio_telematico": 9
+            }
+        },
+        {
+            "nominativo": "CARLINO Emanuele",
+            "lista": "DMI INSIDER",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "ISINELLI Federica",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 9,
+                "seggio_telematico": 9
+            }
+        },
+        {
+            "nominativo": "LO CASTRO Emanuele Filippo",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "MACCARRONE Alessia",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 7,
+                "seggio_telematico": 7
+            }
+        },
+        {
+            "nominativo": "CUCCHIARA Gianfranco",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nominativo": "FERRO Giuseppe Mattia",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "SAPUTO Antonino",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 14,
+                "seggio_telematico": 14
+            }
+        },
+        {
+            "nominativo": "IPPOLITO Simone",
+            "lista": "DMI.EXE",
+            "voti": {
+                "totali": 14,
+                "seggio_telematico": 14
+            }
+        },
+        {
+            "nominativo": "LO GRECO Gabriele",
+            "lista": "DMI.EXE",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "CONTI Gaetano",
+            "lista": "DMI.EXE",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "PINNALE Simone",
+            "lista": "DMI.EXE",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "GIGLIUTO Emily",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nominativo": "CAMBRIA Simone",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 19,
+                "seggio_telematico": 19
+            }
+        },
+        {
+            "nominativo": "BELLOMO Andrea",
+            "lista": "NIKE",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "FORTE Rosario",
+            "lista": "NIKE",
+            "voti": {
+                "totali": 8,
+                "seggio_telematico": 8
+            }
+        },
+        {
+            "nominativo": "CAL\u00cd Raffaele",
+            "lista": "NIKE",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        }
+    ],
+    "quoziente": 46.6667,
+    "votanti": {
+        "totali": 429,
+        "percentuale": 41.53,
+        "seggio_n_telematico": 429
+    },
+    "elettori": {
+        "totali": 1033,
+        "seggio_n_telematico": 1033
+    }
+}
