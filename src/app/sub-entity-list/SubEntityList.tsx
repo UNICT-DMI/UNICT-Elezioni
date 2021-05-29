@@ -22,7 +22,8 @@ const SubEntityList = (params: Params): JSX.Element => {
   function subEntitiesDropdown(): JSX.Element {
     return (
       <DropdownButton
-        id="dropdown-basic-button"
+        id="dropdown-entities"
+        className="entities-rapid-access"
         title={<span><FontAwesomeIcon icon={faList} /> Accesso Rapido</span>}>
         {
           datareader.getAllSubEntities(params.entity).map((subEntity: string) => {
