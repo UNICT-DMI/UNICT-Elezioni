@@ -1,6 +1,6 @@
 import { faGraduationCap, faSearch } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Button, Form, InputGroup, ListGroup } from 'react-bootstrap';
 import ListLogo from '../results/ListLogo/ListLogo';
 import { CandidateInfo, EntityInfo, ListInfo, SearchResult, searchEngine } from './SearchEngine';
@@ -15,6 +15,11 @@ export const SearchForm = (props: Props): JSX.Element => {
   const [entitiesSuggests, setEntitiesSuggests] = useState([] as EntityInfo[]);
   const [listSuggests, setListSuggests] = useState([] as ListInfo[]);
   const [candidatesSuggests, setCandidatesSuggests] = useState([] as CandidateInfo[]);
+  let inputForm: any;
+
+  useEffect(() => {
+    inputForm.focus();
+  }, []);
 
   function onInputFormChange(event: any): void {
     const value = event.target.value;
@@ -146,6 +151,7 @@ export const SearchForm = (props: Props): JSX.Element => {
               className="search-form form-control"
               value={formValue}
               onChange={onInputFormChange}
+              ref={(input: any): void => { inputForm = input; }}
               placeholder="(BETA) Cerca dipartimento, candidato, lista..." />
             <InputGroup.Append>
               <Button type="submit" variant="primary"><FontAwesomeIcon icon={faSearch} /></Button>
