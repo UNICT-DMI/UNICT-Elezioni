@@ -141,7 +141,7 @@ class Organo(Target):
                 else:
                     list_support.append(list_of_not.pop(0))
             else:
-                if k in list_of_seats and "seggio_n_" + str(list_of_seats[k]) in secondary_list:
+                if len(list_of_seats) > 0:
                     secondary_list["seggio_n_" + str(list_of_seats[k])] = int(v)
                 k += 1
         for el in list_support:

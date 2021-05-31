@@ -1,0 +1,29 @@
+{
+    "dipartimento": "TECNICHE DI LABORATORIO BIOMEDICO - L/SNT3 - Laurea Triennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 7,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "ARDIZZONE Federica Ilaria",
+            "voti": 24
+        },
+        {
+            "nome_candidato": "GENNARO Mattia",
+            "voti": 3
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "FIORIA Marco",
+            "voti": 0
+        }
+    ],
+    "totale_voti": 27,
+    "aventi_diritto": 48,
+    "perc_votanti": 56.25
+}

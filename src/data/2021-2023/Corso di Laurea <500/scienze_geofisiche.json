@@ -1,0 +1,28 @@
+{
+    "dipartimento": "Scienze geofisiche - LM-79 - Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 3,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "BORZI' Alfio Marco",
+            "voti": 13
+        },
+        {
+            "nome_candidato": "MAGRI' Eleonora Irene",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "MIUCCIO Giulia",
+            "voti": 11
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 30,
+    "aventi_diritto": 44,
+    "perc_votanti": 68.18
+}

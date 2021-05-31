@@ -1,0 +1,73 @@
+{
+    "dipartimento": "CHIMICA INDUSTRIALE - L-27 - Laurea Triennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 5,
+    "schede": {
+        "bianche": 2,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "BONANNO Silvia",
+            "voti": 18
+        },
+        {
+            "nome_candidato": "FINOCCHIO Valeria",
+            "voti": 10
+        },
+        {
+            "nome_candidato": "LANZAFAME Mattia",
+            "voti": 16
+        },
+        {
+            "nome_candidato": "MARSIGLIONE MASSIMINO Sergio",
+            "voti": 16
+        },
+        {
+            "nome_candidato": "SPANO' Domenico Giuseppe",
+            "voti": 41
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "ALLIA Evelyn",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "CAMMALLERI Maria Catena",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "CAPEZZUTO Federico",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "CAVALLI Vanessa Antonina",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "CIANCI Valerio",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "GIARRATANA Gloria",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "LO BARTOLO Sonia",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "LO PILO PIETROPAOLO Sebastiano",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "NIGRO Lorenzo",
+            "voti": 5
+        }
+    ],
+    "totale_voti": 128,
+    "aventi_diritto": 215,
+    "perc_votanti": 59.53
+}

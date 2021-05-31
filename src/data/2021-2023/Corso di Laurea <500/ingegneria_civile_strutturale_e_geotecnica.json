@@ -1,0 +1,37 @@
+{
+    "dipartimento": "INGEGNERIA CIVILE STRUTTURALE E GEOTECNICA - LM-23 - Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 3,
+    "schede": {
+        "bianche": 3,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "BONANNO Concetto Davide",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "PAPPALARDO Alessandro",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "TOBIA Giulia",
+            "voti": 31
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "CAMPISI Simone",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "FRAGAPANE Davide",
+            "voti": 2
+        }
+    ],
+    "totale_voti": 45,
+    "aventi_diritto": 69,
+    "perc_votanti": 65.22
+}

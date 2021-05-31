@@ -1,0 +1,33 @@
+{
+    "dipartimento": "Ingegneria delle telecomunicazioni - LM-27 - Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 3,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "AZZARO Daniele",
+            "voti": 7
+        },
+        {
+            "nome_candidato": "ROSSITTO Simona",
+            "voti": 11
+        },
+        {
+            "nome_candidato": "VITAGLIANO Cosimo",
+            "voti": 10
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "LO SCALZO Filippo",
+            "voti": 3
+        }
+    ],
+    "totale_voti": 31,
+    "aventi_diritto": 35,
+    "perc_votanti": 88.57
+}

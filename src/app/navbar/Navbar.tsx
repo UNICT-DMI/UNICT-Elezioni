@@ -74,13 +74,15 @@ const Menu: FunctionComponent = () => {
           </div>
         </div>
       </Navbar>
-      <Collapse in={showSearch}>
-        <div className="container-fluid search-form pt-2">
-          <div className="container">
-            <SearchForm onClose={(): void => setShowSearch(false)} />
+      { showSearch && (
+        <Collapse in={showSearch}>
+          <div className="container-fluid search-form pt-2">
+            <div className="container">
+              <SearchForm onClose={(): void => setShowSearch(false)} />
+            </div>
           </div>
-        </div>
-      </Collapse>
+        </Collapse>
+      )}
     </div>
   );
 };

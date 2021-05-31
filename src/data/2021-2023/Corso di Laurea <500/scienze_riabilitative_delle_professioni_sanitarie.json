@@ -1,0 +1,28 @@
+{
+    "dipartimento": "SCIENZE RIABILITATIVE DELLE PROFESSIONI SANITARIE - LM/SNT2 - Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 6,
+    "schede": {
+        "bianche": 3,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "BALBA Federica",
+            "voti": 26
+        },
+        {
+            "nome_candidato": "LONGO Marina",
+            "voti": 8
+        },
+        {
+            "nome_candidato": "MOSCATO Francesco",
+            "voti": 1
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 38,
+    "aventi_diritto": 80,
+    "perc_votanti": 47.5
+}

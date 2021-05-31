@@ -1,0 +1,93 @@
+{
+    "dipartimento": "ODONTOIATRIA E PROTESI DENTARIA - LM-46 - Laurea Magistrale a ciclo unico (D.M. 270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 10,
+    "schede": {
+        "bianche": 1,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "CASTIGLIONE Francesca",
+            "voti": 10
+        },
+        {
+            "nome_candidato": "CARIOTTI Matteo",
+            "voti": 9
+        },
+        {
+            "nome_candidato": "CILIA Giuseppe",
+            "voti": 14
+        },
+        {
+            "nome_candidato": "DI MAURO Edoardo Sebastiano",
+            "voti": 8
+        },
+        {
+            "nome_candidato": "DI STEFANO Mattia",
+            "voti": 18
+        },
+        {
+            "nome_candidato": "DIDOMENICO Simone",
+            "voti": 9
+        },
+        {
+            "nome_candidato": "IACONO MANNO Elena",
+            "voti": 9
+        },
+        {
+            "nome_candidato": "MALGIOGLIO Giovanni Luca",
+            "voti": 7
+        },
+        {
+            "nome_candidato": "MONGELLI Fabio",
+            "voti": 7
+        },
+        {
+            "nome_candidato": "RUIZ Ferdinando",
+            "voti": 11
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "CALABRESE Antonino",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "CAMMARATA Umberto",
+            "voti": 7
+        },
+        {
+            "nome_candidato": "LAGANA' Ludovica",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "LONGO Sara",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "MUNZONE Morena",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "PATTI Sara",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "SCARDINA Gianfranco",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "SCIUTO Lorenzo",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "CAPUANO Rossella",
+            "voti": 3
+        }
+    ],
+    "totale_voti": 127,
+    "aventi_diritto": 138,
+    "perc_votanti": 92.03
+}

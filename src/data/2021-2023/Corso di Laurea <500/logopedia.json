@@ -1,0 +1,40 @@
+{
+    "dipartimento": "LOGOPEDIA - L/SNT2 - Laurea Triennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 6,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "AMORE Vanessa",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "LA ROCCA Carlotta Giuseppa",
+            "voti": 9
+        },
+        {
+            "nome_candidato": "MAUGERI Sara Rita",
+            "voti": 14
+        },
+        {
+            "nome_candidato": "PAPA Priscilla Pia",
+            "voti": 9
+        },
+        {
+            "nome_candidato": "RANDAZZO Concetta Irene",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "VITALE Alessia",
+            "voti": 5
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 44,
+    "aventi_diritto": 58,
+    "perc_votanti": 75.86
+}

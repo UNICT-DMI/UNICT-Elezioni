@@ -1,0 +1,65 @@
+{
+    "dipartimento": "FISICA - L-30 - Laurea Triennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 6,
+    "schede": {
+        "bianche": 7,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "CORDOVANA Salvatore Alex",
+            "voti": 23
+        },
+        {
+            "nome_candidato": "LA ROSA Martina",
+            "voti": 43
+        },
+        {
+            "nome_candidato": "MONTAGNO BOZZONE Francesco",
+            "voti": 42
+        },
+        {
+            "nome_candidato": "PACINO Gianluigi",
+            "voti": 16
+        },
+        {
+            "nome_candidato": "ROVERE Filippo",
+            "voti": 16
+        },
+        {
+            "nome_candidato": "URSINO Luca",
+            "voti": 34
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "BINANTI Mariella",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "GRASSO Roberta",
+            "voti": 8
+        },
+        {
+            "nome_candidato": "GULIZIA Carlo",
+            "voti": 14
+        },
+        {
+            "nome_candidato": "LICCIARDELLO Daniele",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "BONANNO Giovanni",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "D'URSO Erica Anna",
+            "voti": 10
+        }
+    ],
+    "totale_voti": 219,
+    "aventi_diritto": 365,
+    "perc_votanti": 60.0
+}

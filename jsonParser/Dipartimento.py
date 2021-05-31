@@ -24,10 +24,14 @@ class Dipartimento(Target):
             if self.is_integer(s):
                 list_of_seats.append(int(s))
         self.i += 1
+        if(len(list_of_seats) == 0):
+            list_of_seats.append("telematico")
         return list_of_seats
 
     def __get_info_lists(self, text, list_of_seats, seggi_da_assegnare) -> object:
         info_lists = []
+        if("SEGGI" in text[self.i].upper()):
+            self.i += 1
         while("TOTALE" not in text[self.i]):
             seats = []
             name_of_list = ""
@@ -53,8 +57,12 @@ class Dipartimento(Target):
             j = len(list_of_seats)-1
             k = 0
             while j>=0:
-                if k in list_of_seats and "seggio_n_" + str(list_of_seats[k]) in votes:
-                    votes["seggio_n_" + str(list_of_seats[k])] = int(seats.pop(len(seats)-(j+1)))
+                prefix = ""
+                if(list_of_seats[0] == "telematico"):
+                    prefix = "seggio_"
+                else:
+                    prefix = "seggio_n_"
+                votes[prefix + str(list_of_seats[k])] = int(seats.pop(len(seats)-(j+1)))
                 k += 1
                 j = j-1
             info_lists.append({
@@ -99,8 +107,7 @@ class Dipartimento(Target):
         vot["percentuale"] = votanti_perc
         k = 0
         for v in list_of_voters:
-            if k in list_of_seats and "seggio_n_" + str(list_of_seats[k]) in vot:
-                vot["seggio_n_" + str(list_of_seats[k])] = v
+            vot["seggio_n_" + str(list_of_seats[k])] = v
             k += 1
         return vot
 
@@ -115,8 +122,15 @@ class Dipartimento(Target):
                 break
         self.i += 1
 
+        j = 0
         while "ELETTORI" not in text[self.i].upper():
             self.i += 1
+            j += 1
+            if j > 4:
+                self.i -= j
+                return {
+                    "totali": totale_elettori
+                }
 
         elettori_per_seggio = []
         split_text = text[self.i].split()

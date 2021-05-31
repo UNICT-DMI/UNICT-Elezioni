@@ -1,0 +1,28 @@
+{
+    "dipartimento": "Internazionalizzazione delle relazioni commerciali - LM-52 - Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 3,
+    "schede": {
+        "bianche": 2,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "DE GENNARO Andrea",
+            "voti": 14
+        },
+        {
+            "nome_candidato": "MAZZA Lucia",
+            "voti": 12
+        },
+        {
+            "nome_candidato": "BARONE Simone",
+            "voti": 4
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 32,
+    "aventi_diritto": 79,
+    "perc_votanti": 40.51
+}

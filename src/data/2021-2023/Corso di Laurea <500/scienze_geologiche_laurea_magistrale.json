@@ -1,0 +1,28 @@
+{
+    "dipartimento": "SCIENZE GEOLOGICHE - LM-74 - Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 4,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "BERTINO Antonella",
+            "voti": 9
+        },
+        {
+            "nome_candidato": "COMMIS Lorenzo",
+            "voti": 16
+        },
+        {
+            "nome_candidato": "VILARDO Federico",
+            "voti": 10
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 35,
+    "aventi_diritto": 40,
+    "perc_votanti": 87.5
+}

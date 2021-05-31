@@ -1,0 +1,32 @@
+{
+    "dipartimento": "Management della Pubblica Amministrazione - LM-63 - Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 4,
+    "schede": {
+        "bianche": 3,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "CRUPI Kristal Martina",
+            "voti": 69
+        },
+        {
+            "nome_candidato": "FERRARA Ramona",
+            "voti": 31
+        },
+        {
+            "nome_candidato": "LOMBARDO Giorgia",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "GAROFALO Vittorio",
+            "voti": 14
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 121,
+    "aventi_diritto": 236,
+    "perc_votanti": 51.27
+}

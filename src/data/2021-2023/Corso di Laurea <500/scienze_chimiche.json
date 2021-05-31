@@ -1,0 +1,65 @@
+{
+    "dipartimento": "Scienze chimiche - LM-54 - Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 7,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "BUTERA Ester",
+            "voti": 16
+        },
+        {
+            "nome_candidato": "CARBONARO Antonino Biagio",
+            "voti": 10
+        },
+        {
+            "nome_candidato": "CATANZARO Lucrezia",
+            "voti": 11
+        },
+        {
+            "nome_candidato": "DI MARCO Martina",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "REDIGOLO Luigi",
+            "voti": 10
+        },
+        {
+            "nome_candidato": "RIZZO Gaetano",
+            "voti": 8
+        },
+        {
+            "nome_candidato": "SPITERI Fabio",
+            "voti": 8
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "ROSALIA Giuseppe Antonio",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "CORSARO Paolo",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "ISIDORO Federica",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "PERINA Maria Luisa",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "TOMASELLA Pascal",
+            "voti": 6
+        }
+    ],
+    "totale_voti": 29,
+    "aventi_diritto": 49,
+    "perc_votanti": 59.18
+}

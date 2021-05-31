@@ -58,10 +58,7 @@ export const DetailsTable = (props: Props): JSX.Element => {
           <td>{getVotiSeggio(data.schede.nulle)}</td>
           <td>{getVotiSeggio(data.schede.contestate)}</td>
           <td>
-            {getVotiSeggio(data.votanti)}
-            {' '}
-            {!seggi}
-            {`(${data.votanti.percentuale} %)`}
+            {`${getVotiSeggio(data.votanti)} (${data.votanti.percentuale} %)`}
           </td>
           <td>{data.quoziente}</td>
           <td>{data.seggi_da_assegnare}</td>

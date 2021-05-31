@@ -1,0 +1,133 @@
+{
+    "dipartimento": "CHIMICA - L-27 - Laurea Triennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 7,
+    "schede": {
+        "bianche": 18,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "BORRELLI Roberta",
+            "voti": 12
+        },
+        {
+            "nome_candidato": "DI BIAGIO Cristina",
+            "voti": 22
+        },
+        {
+            "nome_candidato": "LO FARO Gianluca",
+            "voti": 17
+        },
+        {
+            "nome_candidato": "MAUCERI Riccardo",
+            "voti": 24
+        },
+        {
+            "nome_candidato": "SALVICCIO Federica Rita",
+            "voti": 19
+        },
+        {
+            "nome_candidato": "SCAVUZZO Antonio",
+            "voti": 16
+        },
+        {
+            "nome_candidato": "SERRAVALLE Sofia",
+            "voti": 22
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "ATTINASI Giuseppe",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "BARCHI Lorenzo",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "BASILOTTA Gregorio",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "CARUSO Lorenzo",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "CORSARO Eleonora",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "CUSCUSA Eleonora",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "FAZIO Giuseppe",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "FUCCIO Daria",
+            "voti": 12
+        },
+        {
+            "nome_candidato": "FURNARI Gaia",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "GENTILE Giuseppe",
+            "voti": 9
+        },
+        {
+            "nome_candidato": "LA ROSA Flavio",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "LIPARI Karen",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "LOPIS Marlene",
+            "voti": 8
+        },
+        {
+            "nome_candidato": "MANCUSO Laura Maria",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "NICOLOSI Mario",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "RANDAZZO Angelo",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "ROMANO Mario",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "SANFILIPPO Simone",
+            "voti": 9
+        },
+        {
+            "nome_candidato": "SOTTOSANTI Pietro",
+            "voti": 12
+        },
+        {
+            "nome_candidato": "TILARO Martina",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "TORNELLO Giacomo",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "TORNELLO Marco",
+            "voti": 0
+        }
+    ],
+    "totale_voti": 246,
+    "aventi_diritto": 515,
+    "perc_votanti": 47.77
+}

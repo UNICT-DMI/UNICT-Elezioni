@@ -1,0 +1,20 @@
+{
+    "dipartimento": "Storia e cultura dei paesi mediterranei - LM-84 - Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 4,
+    "schede": {
+        "bianche": 6,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "LE MURA Ylenia Francesca",
+            "voti": 27
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 33,
+    "aventi_diritto": 84,
+    "perc_votanti": 39.29
+}

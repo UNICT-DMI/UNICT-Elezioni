@@ -1,0 +1,49 @@
+{
+    "dipartimento": "Pianificazione e sostenibilit\u00e0 ambientale del territorio e del paesaggio - L-21 - Laurea Triennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 6,
+    "schede": {
+        "bianche": 1,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "ALLEGRA Giovanni Gabriele",
+            "voti": 9
+        },
+        {
+            "nome_candidato": "GALATI Danila",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "RANDAZZO Mattia",
+            "voti": 12
+        },
+        {
+            "nome_candidato": "SOTTOSANTI Giuseppe",
+            "voti": 23
+        },
+        {
+            "nome_candidato": "TOMASELLO Giuseppe",
+            "voti": 18
+        },
+        {
+            "nome_candidato": "GIARRUSSO Salvatore",
+            "voti": 3
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "POLIZZI Giovanni",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "MIRABELLA Dario",
+            "voti": 1
+        }
+    ],
+    "totale_voti": 70,
+    "aventi_diritto": 115,
+    "perc_votanti": 60.87
+}

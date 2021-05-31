@@ -1,0 +1,29 @@
+{
+    "dipartimento": "Chemical engineering for industrial sustainability (Ingegneria chimica per la sostenibilita' industriale) - LM-22 - Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 2,
+    "schede": {
+        "bianche": 1,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "LA DELFA Erica",
+            "voti": 8
+        },
+        {
+            "nome_candidato": "LEANZA Martina",
+            "voti": 9
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "MAGRI' Emiliano Luca",
+            "voti": 2
+        }
+    ],
+    "totale_voti": 20,
+    "aventi_diritto": 39,
+    "perc_votanti": 51.28
+}

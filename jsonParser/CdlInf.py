@@ -8,11 +8,9 @@ class CdlInf(Target):
     def __control_quorum(self, text, quorum) -> bool:
         if not quorum:
             return False
-
         if not self.word_not_in_control("NO QUORUM", text):
             text[self.i] = text[self.i].replace("NO QUORUM", " ").strip()
             return False
-
         return True
 
     def __find_name_department(self, text, quorum) -> str:
@@ -21,15 +19,13 @@ class CdlInf(Target):
         quorum[0] = self.__control_quorum(text, quorum[0])
         nome = text[self.i]
         self.i += 1
-
         while self.word_not_in_control("BIENNIO", text):
             if len(text[self.i]) > 5:
                 quorum[0] = self.__control_quorum(text, quorum[0])
                 nome += "\n" + text[self.i]
             self.i += 1
-
         return nome.strip()
-
+    
     def __seggi_da_assegnare(self, text) -> int:
         split_text = text[self.i].split()
         try:
@@ -37,6 +33,9 @@ class CdlInf(Target):
         except ValueError:
             self.i += 1
             split_text = text[self.i].split()
+            while len(split_text) <= 0:
+                self.i += 1
+                split_text = text[self.i].split()
             return int(split_text[len(split_text)-1])
 
     def __get_candidati(self, text, eletti, non_eletti, current_quorum) -> bool:
@@ -45,9 +44,12 @@ class CdlInf(Target):
         quorum = current_quorum
         while self.word_not_in_control("SCHEDE", text):
             split_text = text[self.i].split()
-            if self.is_integer(split_text[0]):
-                split_text.pop(0)
             if len(split_text) > 0:
+                if self.is_integer(split_text[0]):
+                    split_text.pop(0)
+                if len(split_text) <= 0:
+                    self.i += 1
+                    continue
                 nome_candidato = ""
                 voti_candidato = 0
                 eletto = False
@@ -66,14 +68,14 @@ class CdlInf(Target):
                 e = {
                         "nome_candidato": nome_candidato.strip(),
                         "voti": int(voti_candidato)
-                };
+                }
                 if eletto:
                     eletti.append(e)
                 else:
                     non_eletti.append(e)
             self.i += 1
         return quorum
-
+    
     def __get_type(self, word, text) -> float:
         self.word_not_in_update(word, text)
         try:

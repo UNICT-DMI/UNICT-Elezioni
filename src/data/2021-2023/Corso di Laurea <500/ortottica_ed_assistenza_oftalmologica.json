@@ -1,0 +1,45 @@
+{
+    "dipartimento": "ORTOTTICA ED ASSISTENZA OFTALMOLOGICA - L/SNT2 - Laurea Triennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 6,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "MARCHESE Giuliana",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "MIRABELLA Nicoletta",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "MULONE Chiara",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "SANTORO Alberto",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "STECCANELLA Valeria",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "URSINO Tatiana",
+            "voti": 6
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "VALENTI Noemi",
+            "voti": 0
+        }
+    ],
+    "totale_voti": 24,
+    "aventi_diritto": 31,
+    "perc_votanti": 77.42
+}

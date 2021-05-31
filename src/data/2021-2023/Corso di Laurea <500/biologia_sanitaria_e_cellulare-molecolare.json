@@ -1,0 +1,24 @@
+{
+    "dipartimento": "Biologia Sanitaria e Cellulare-Molecolare - LM-6 - Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 6,
+    "schede": {
+        "bianche": 5,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "BRUNO Anastasia",
+            "voti": 24
+        },
+        {
+            "nome_candidato": "TANCREDI Federica Andrea",
+            "voti": 9
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 38,
+    "aventi_diritto": 186,
+    "perc_votanti": 20.43
+}

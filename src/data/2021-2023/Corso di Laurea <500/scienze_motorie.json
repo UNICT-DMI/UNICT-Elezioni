@@ -1,0 +1,125 @@
+{
+    "dipartimento": "SCIENZE MOTORIE - L-22 - Laurea Triennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 8,
+    "schede": {
+        "bianche": 10,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "CACCIOLA Claudio - detto \"Squatty\" o \"Squattete\"",
+            "voti": 23
+        },
+        {
+            "nome_candidato": "D'AMICO Claudio",
+            "voti": 42
+        },
+        {
+            "nome_candidato": "FIRRARELLO Nicol\u00f2 - detto \"Cocina Francesco\"",
+            "voti": 32
+        },
+        {
+            "nome_candidato": "GIACALONE Sabrina",
+            "voti": 37
+        },
+        {
+            "nome_candidato": "LORENZANO Erica",
+            "voti": 23
+        },
+        {
+            "nome_candidato": "PATAN\u00c8 Marinancy",
+            "voti": 11
+        },
+        {
+            "nome_candidato": "SCUDERI Gabriele",
+            "voti": 9
+        },
+        {
+            "nome_candidato": "TREPPICCIONE Viviana",
+            "voti": 34
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "AUGUGLIARO Andrea",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "CELI Federico",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "COCO Sergio",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "FERRARELLO Giulia Maria Rosa",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "GALATI Dario",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "GIARRIZZO Letizia",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "GRECO Francesco",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "GUASTELLA Oscar",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "NAPOLI Salvatore",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "RACITI Giuseppe",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "RAPICAVOLI Michele",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "REINA Luca - detto \"Stagnino\"",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "ROCCUZZO Valeria",
+            "voti": 7
+        },
+        {
+            "nome_candidato": "RUSSO Alberto",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "SPAMPINATO Giuseppe",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "TOGNETTI Giustina",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "PELLEGRINO Azzurra",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "SANGIORGIO Paolo",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "SCIACCA Claudio",
+            "voti": 2
+        }
+    ],
+    "totale_voti": 259,
+    "aventi_diritto": 513,
+    "perc_votanti": 50.49
+}

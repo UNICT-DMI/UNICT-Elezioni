@@ -1,0 +1,36 @@
+{
+    "dipartimento": "Politiche e Servizi Sociali - LM-87 - Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 5,
+    "schede": {
+        "bianche": 3,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "TAIBI Tiziana Maria Pia",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "LANZAFAME Marika",
+            "voti": 12
+        },
+        {
+            "nome_candidato": "MINUTOLA Elena",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "PERNICONE Nicoleta Andreea",
+            "voti": 8
+        },
+        {
+            "nome_candidato": "TRIPOLONE Maria Giulia",
+            "voti": 30
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 57,
+    "aventi_diritto": 205,
+    "perc_votanti": 27.8
+}

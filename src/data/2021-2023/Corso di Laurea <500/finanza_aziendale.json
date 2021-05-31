@@ -1,0 +1,65 @@
+{
+    "dipartimento": "FINANZA AZIENDALE - LM-77 - Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 3,
+    "schede": {
+        "bianche": 2,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "MUSMECI Luca",
+            "voti": 19
+        },
+        {
+            "nome_candidato": "ROCCA Desire'",
+            "voti": 15
+        },
+        {
+            "nome_candidato": "TESTA Antonino",
+            "voti": 16
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "ADAMO Salvatore",
+            "voti": 7
+        },
+        {
+            "nome_candidato": "ALOI Ismaele",
+            "voti": 8
+        },
+        {
+            "nome_candidato": "CARDEA Maria Stella",
+            "voti": 7
+        },
+        {
+            "nome_candidato": "INGALLINERA Andrea",
+            "voti": 13
+        },
+        {
+            "nome_candidato": "INTERLANDI Giuliano",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "LA GIUSA Andrea",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "PERNACI Roberta",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "RUGGERI Rosario",
+            "voti": 9
+        },
+        {
+            "nome_candidato": "SERGI Antonio",
+            "voti": 1
+        }
+    ],
+    "totale_voti": 103,
+    "aventi_diritto": 146,
+    "perc_votanti": 70.55
+}

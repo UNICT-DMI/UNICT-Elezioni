@@ -1,0 +1,141 @@
+{
+    "dipartimento": "Scienze del turismo - L-15 - Laurea Triennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 5,
+    "schede": {
+        "bianche": 6,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "GAROFALO Gianluca",
+            "voti": 38
+        },
+        {
+            "nome_candidato": "MICELI Rita Anna Maria",
+            "voti": 43
+        },
+        {
+            "nome_candidato": "PANARELLO Gabriele",
+            "voti": 23
+        },
+        {
+            "nome_candidato": "SALERNO Martina",
+            "voti": 37
+        },
+        {
+            "nome_candidato": "ZUMBO Martina Egidia",
+            "voti": 27
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "ABANDA Amira",
+            "voti": 21
+        },
+        {
+            "nome_candidato": "ALBERTI Agata",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "BARBAGALLO Gabriele",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "BATTAGLIA Daniela",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "BIUSO Anna Concetta",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "DIGIACOMO Federica",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "LAISA Clara",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "LICCIARDELLO Federica",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "MIGNEMI Alessia",
+            "voti": 13
+        },
+        {
+            "nome_candidato": "MILAZZO Annalisa",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "MONACO Marianna",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "MONACO Roberta Maria",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "MOSCHITTA Marica",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "PARISI Adriana",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "PERSICO Martina",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "PIZZUTO Davide",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "POIDOMANI Rita",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "SAMPERI Roberta",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "SANGIORGI Aurora",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "SANTALUCIA Sandra",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "SCAVO Francesco",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "SCHIAVO Andrea",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "SCIUTO Martina Maria",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "SORRENTINO Martina Antonia",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "VALORE Francesco",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "VICARI Morena Annarita",
+            "voti": 4
+        }
+    ],
+    "totale_voti": 220,
+    "aventi_diritto": 335,
+    "perc_votanti": 65.67
+}

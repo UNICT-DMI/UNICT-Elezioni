@@ -1,0 +1,73 @@
+{
+    "dipartimento": "Scienze Geologiche - L-34 - Laurea Triennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 5,
+    "schede": {
+        "bianche": 1,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "CAPPELLO Rosario",
+            "voti": 21
+        },
+        {
+            "nome_candidato": "STISSI Giuseppina",
+            "voti": 16
+        },
+        {
+            "nome_candidato": "MARCHETTA Arianna",
+            "voti": 16
+        },
+        {
+            "nome_candidato": "SCIACCA Fabrizio",
+            "voti": 11
+        },
+        {
+            "nome_candidato": "GRILLO Christian",
+            "voti": 15
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "SECONDO Gabriele",
+            "voti": 9
+        },
+        {
+            "nome_candidato": "PRISCO Marco",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "GIAMMUSSO Martin",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "INSINNA Samuele",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "QUATTROCCHI Gabriele Alberto",
+            "voti": 9
+        },
+        {
+            "nome_candidato": "IMPELLIZZERI Mariarita",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "MONTEROSSO Giorgia",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "ZINGALES Salvatore Riccardo Augusto",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "CASTIGLIA Luca - detto \"San\"",
+            "voti": 8
+        }
+    ],
+    "totale_voti": 113,
+    "aventi_diritto": 192,
+    "perc_votanti": 58.85
+}

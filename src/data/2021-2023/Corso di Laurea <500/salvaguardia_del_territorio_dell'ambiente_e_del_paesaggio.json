@@ -1,0 +1,28 @@
+{
+    "dipartimento": "SALVAGUARDIA DEL TERRITORIO DELL'AMBIENTE E DEL PAESAGGIO - LM-75 - Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 3,
+    "schede": {
+        "bianche": 2,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "BORGNI Fiamma",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "MALTESE Giuseppe Maria Andrea",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "TOSCANO Gabriella Paola",
+            "voti": 19
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 28,
+    "aventi_diritto": 45,
+    "perc_votanti": 62.22
+}

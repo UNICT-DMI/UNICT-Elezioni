@@ -10,7 +10,7 @@ interface Params {
 
 const SubEntity = (params: Params): JSX.Element => {
   return (
-    <div className="mt-5">
+    <div className="mt-4">
       {
         datareader.getYearsOfSubEntity(params.entity, params.subEntity).map((year) => {
           if (datareader.isUninominal(year, params.entity, params.subEntity)) {
