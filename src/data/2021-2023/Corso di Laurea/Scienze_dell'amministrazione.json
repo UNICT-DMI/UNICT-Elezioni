@@ -1,0 +1,305 @@
+{
+    "dipartimento": "SCIENZE DELL'AMMINISTRAZIONE E DELL'ORGANIZZAZIONE - L-16 - Laurea Triennale (D.M.270/2004)",
+    "seggi_da_assegnare": "5",
+    "schede": {
+        "bianche": {
+            "totali": 14,
+            "seggio_n_telematico": 14
+        },
+        "nulle": {
+            "totali": 0
+        },
+        "contestate": {
+            "totali": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "SVOLTA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "20,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 20,
+                "seggio_telematico": 20
+            }
+        },
+        {
+            "nome": "WE LOVE UNICT",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "19,2",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 162,
+                "seggio_telematico": 162
+            }
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "28,6",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 100,
+                "seggio_telematico": 100
+            }
+        },
+        {
+            "nome": "NIKE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "33,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 33,
+                "seggio_telematico": 33
+            }
+        },
+        {
+            "nome": "S\u00ecAMO FUTURO",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "22,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 22,
+                "seggio_telematico": 22
+            }
+        },
+        {
+            "nome": "ALLEANZA UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "20,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 20,
+                "seggio_telematico": 20
+            }
+        },
+        {
+            "totale": 357
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "MAZZARINO Chiara",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 93,
+                "seggio_telematico": 93
+            }
+        },
+        {
+            "nominativo": "BARCA Aurora",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 35,
+                "seggio_telematico": 35
+            }
+        },
+        {
+            "nominativo": "CAPUTO Clarissa",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 23,
+                "seggio_telematico": 23
+            }
+        },
+        {
+            "nominativo": "ROMANO Rosaria",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 47,
+                "seggio_telematico": 47
+            }
+        },
+        {
+            "nominativo": "BONFANTE Fabio",
+            "lista": "NIKE",
+            "voti": {
+                "totali": 15,
+                "seggio_telematico": 15
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "CALCAGNO Martina",
+            "lista": "SVOLTA",
+            "voti": {
+                "totali": 13,
+                "seggio_telematico": 13
+            }
+        },
+        {
+            "nominativo": "SOTERA Luigi",
+            "lista": "SVOLTA",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nominativo": "MARCO Anna",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 23,
+                "seggio_telematico": 23
+            }
+        },
+        {
+            "nominativo": "PISTORIO Dario",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 7,
+                "seggio_telematico": 7
+            }
+        },
+        {
+            "nominativo": "MIDOLO Antonino",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 22,
+                "seggio_telematico": 22
+            }
+        },
+        {
+            "nominativo": "ARRIGO Gianluca Gabor",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "CARRUBBA Daiana",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "NICOTRA Daniele",
+            "lista": "NIKE",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "LA CORTE Chiara",
+            "lista": "NIKE",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "LENA Francesco Eugenio",
+            "lista": "NIKE",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "VACCARO Laura",
+            "lista": "NIKE",
+            "voti": {
+                "totali": 9,
+                "seggio_telematico": 9
+            }
+        },
+        {
+            "nominativo": "ASSENZA Samuele",
+            "lista": "S\u00ecAMO FUTURO",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "PIDATELLA Felice",
+            "lista": "S\u00ecAMO FUTURO",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "RAGUSA Samuele",
+            "lista": "S\u00ecAMO FUTURO",
+            "voti": {
+                "totali": 8,
+                "seggio_telematico": 8
+            }
+        },
+        {
+            "nominativo": "RIZZA Elena",
+            "lista": "S\u00ecAMO FUTURO",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "VASTA Ivan",
+            "lista": "S\u00ecAMO FUTURO",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "BENFATTO Davide",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "GIARDINA Federico",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "MORABITO Daniele",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 13,
+                "seggio_telematico": 13
+            }
+        }
+    ],
+    "quoziente": 71.4,
+    "votanti": {
+        "totali": 371,
+        "percentuale": 47.81,
+        "seggio_n_telematico": 371
+    },
+    "elettori": {
+        "totali": 776,
+        "seggio_n_telematico": 776
+    }
+}

@@ -1,0 +1,157 @@
+{
+    "dipartimento": "ARCHITETTURA - LM-4 c.u. - Laurea Magistrale a ciclo unico (D.M. 270/2004)",
+    "seggi_da_assegnare": "6",
+    "schede": {
+        "bianche": {
+            "totali": 6,
+            "seggio_n_telematico": 6
+        },
+        "nulle": {
+            "totali": 0
+        },
+        "contestate": {
+            "totali": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "ARCHE'",
+            "seggi": {
+                "seggi_pieni": "3",
+                "resti": "3,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "3"
+            },
+            "voti": {
+                "totali": 122,
+                "seggio_telematico": 122
+            }
+        },
+        {
+            "nome": "SOS UNICT",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "36,7",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "3"
+            },
+            "voti": {
+                "totali": 116,
+                "seggio_telematico": 116
+            }
+        },
+        {
+            "totale": 238
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "BARONE Alessandra Deodata",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 24,
+                "seggio_telematico": 24
+            }
+        },
+        {
+            "nominativo": "MOTTA Giuseppe",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 20,
+                "seggio_telematico": 20
+            }
+        },
+        {
+            "nominativo": "SCOLLO Salvatore",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 41,
+                "seggio_telematico": 41
+            }
+        },
+        {
+            "nominativo": "AMAS Gabriele",
+            "lista": "SOS UNICT",
+            "voti": {
+                "totali": 12,
+                "seggio_telematico": 12
+            }
+        },
+        {
+            "nominativo": "CIRINCIONE Alessia",
+            "lista": "SOS UNICT",
+            "voti": {
+                "totali": 31,
+                "seggio_telematico": 31
+            }
+        },
+        {
+            "nominativo": "MELI Giulia",
+            "lista": "SOS UNICT",
+            "voti": {
+                "totali": 54,
+                "seggio_telematico": 54
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "BARBAGALLO Tatiana",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 15,
+                "seggio_telematico": 15
+            }
+        },
+        {
+            "nominativo": "CONSOLI Giovanni",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 8,
+                "seggio_telematico": 8
+            }
+        },
+        {
+            "nominativo": "CREMENTI Giada",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 9,
+                "seggio_telematico": 9
+            }
+        },
+        {
+            "nominativo": "ARCORIA Gabriele",
+            "lista": "SOS UNICT",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "DISTEFANO Gaetano",
+            "lista": "SOS UNICT",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nominativo": "LEONE Giuseppe",
+            "lista": "SOS UNICT",
+            "voti": {
+                "totali": 8,
+                "seggio_telematico": 8
+            }
+        }
+    ],
+    "quoziente": 39.6667,
+    "votanti": {
+        "totali": 244,
+        "percentuale": 48.61,
+        "seggio_n_telematico": 244
+    },
+    "elettori": {
+        "totali": 502,
+        "seggio_n_telematico": 502
+    }
+}

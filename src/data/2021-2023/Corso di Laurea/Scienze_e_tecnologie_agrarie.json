@@ -1,0 +1,404 @@
+{
+    "dipartimento": "SCIENZE E TECNOLOGIE AGRARIE - L-25 - Laurea Triennale (D.M.270/2004)",
+    "seggi_da_assegnare": "7",
+    "schede": {
+        "bianche": {
+            "totali": 14,
+            "seggio_n_telematico": 14
+        },
+        "nulle": {
+            "totali": 0
+        },
+        "contestate": {
+            "totali": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "ACTEA",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "17,1",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 69,
+                "seggio_telematico": 69
+            }
+        },
+        {
+            "nome": "DI3ACT",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "42,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 42,
+                "seggio_telematico": 42
+            }
+        },
+        {
+            "nome": "WE LOVE UNICT",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "20,3",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 124,
+                "seggio_telematico": 124
+            }
+        },
+        {
+            "nome": "ARCADIA",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "31,1",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 83,
+                "seggio_telematico": 83
+            }
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "38,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 38,
+                "seggio_telematico": 38
+            }
+        },
+        {
+            "nome": "S\u00ecAMO FUTURO",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "7,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 7,
+                "seggio_telematico": 7
+            }
+        },
+        {
+            "totale": 363
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "PORRELLO Desiree",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 39,
+                "seggio_telematico": 39
+            }
+        },
+        {
+            "nominativo": "FORMICA Valentina",
+            "lista": "DI3ACT",
+            "voti": {
+                "totali": 22,
+                "seggio_telematico": 22
+            }
+        },
+        {
+            "nominativo": "LOMBARDO Stefania",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 105,
+                "seggio_telematico": 105
+            }
+        },
+        {
+            "nominativo": "GIANNINO Giuseppe",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 18,
+                "seggio_telematico": 18
+            }
+        },
+        {
+            "nominativo": "MANIACI Federica",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 35,
+                "seggio_telematico": 35
+            }
+        },
+        {
+            "nominativo": "RIZZO Gaia",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 29,
+                "seggio_telematico": 29
+            }
+        },
+        {
+            "nominativo": "VITALE Alessio",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 37,
+                "seggio_telematico": 37
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "COCUZZA Francesco Domenico",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 13,
+                "seggio_telematico": 13
+            }
+        },
+        {
+            "nominativo": "DI PIETRO Michele",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nominativo": "FISICARO Orazio Riccardo",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "RIZZO Salvatore",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 7,
+                "seggio_telematico": 7
+            }
+        },
+        {
+            "nominativo": "DI3ACT",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 1
+            }
+        },
+        {
+            "nominativo": "BENINTENDE Luca",
+            "lista": "DI3ACT",
+            "voti": {
+                "totali": 8,
+                "seggio_telematico": 8
+            }
+        },
+        {
+            "nominativo": "CANNONE Luca",
+            "lista": "DI3ACT",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "DI MARCO Francesco",
+            "lista": "DI3ACT",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "GURRISI Simona",
+            "lista": "DI3ACT",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "IUDICELLI Salvatore",
+            "lista": "DI3ACT",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "WE LOVE UNICT",
+            "lista": "DI3ACT",
+            "voti": {
+                "totali": 2
+            }
+        },
+        {
+            "nominativo": "GIARDINA Vincenzo",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "GRIF\u00d3 Ilaria Maria",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "SCIBETTA Vincenzo",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "CAVALLO Marta",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "TORO Salvatore",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "ARCADIA",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 2
+            }
+        },
+        {
+            "nominativo": "CARDELLO Giorgia",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 13,
+                "seggio_telematico": 13
+            }
+        },
+        {
+            "nominativo": "NISI Giulio Michele",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "GRASSO Dario",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "CARCAGNOLO Antonio",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "SAITTA Samuele",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "AZIONE UNIVERSITARIA",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 1
+            }
+        },
+        {
+            "nominativo": "DIPASQUALE Giuseppe",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "S\u00ecAMO FUTURO",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "BARONE Eugenio",
+            "lista": "S\u00ecAMO FUTURO",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "GROSSO Giovanfrancesco",
+            "lista": "S\u00ecAMO FUTURO",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "MONTEMAGNO Emanuele",
+            "lista": "S\u00ecAMO FUTURO",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "SCHILIRO' Danilo",
+            "lista": "S\u00ecAMO FUTURO",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "TALLARITA Syria",
+            "lista": "S\u00ecAMO FUTURO",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        }
+    ],
+    "quoziente": 51.8571,
+    "votanti": {
+        "totali": 377,
+        "percentuale": 58,
+        "seggio_n_telematico": 377
+    },
+    "elettori": {
+        "totali": 650,
+        "seggio_n_telematico": 650
+    }
+}

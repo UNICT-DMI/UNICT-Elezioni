@@ -1,0 +1,233 @@
+{
+    "dipartimento": "INGEGNERIA ELETTRONICA - L-8 - Laurea Triennale (D.M.270/2004)",
+    "seggi_da_assegnare": "7",
+    "schede": {
+        "bianche": {
+            "totali": 8,
+            "seggio_n_telematico": 8
+        },
+        "nulle": {
+            "totali": 0
+        },
+        "contestate": {
+            "totali": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "WE LOVE UNICT",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "15,3",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 50,
+                "seggio_telematico": 50
+            }
+        },
+        {
+            "nome": "CITING",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "29,6",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "3"
+            },
+            "voti": {
+                "totali": 99,
+                "seggio_telematico": 99
+            }
+        },
+        {
+            "nome": "CREDIAMOCI",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "17,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 17,
+                "seggio_telematico": 17
+            }
+        },
+        {
+            "nome": "ARCHE'",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "5,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nome": "LA FINESTRA\u2010ACTEA",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "31,3",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 66,
+                "seggio_telematico": 66
+            }
+        },
+        {
+            "nome": "S\u00ecAMO FUTURO",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "6,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "totale": 243
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "GORGONE Nunzio",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 31,
+                "seggio_telematico": 31
+            }
+        },
+        {
+            "nominativo": "CARUSO Carla",
+            "lista": "CITING",
+            "voti": {
+                "totali": 39,
+                "seggio_telematico": 39
+            }
+        },
+        {
+            "nominativo": "BARBERA Christian",
+            "lista": "CITING",
+            "voti": {
+                "totali": 56,
+                "seggio_telematico": 56
+            }
+        },
+        {
+            "nominativo": "PRUITI Danilo Giuseppe",
+            "lista": "CITING",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "CAVALLARO Mario",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 8,
+                "seggio_telematico": 8
+            }
+        },
+        {
+            "nominativo": "GRASSO Roberta",
+            "lista": "LA FINESTRA\u2010ACTEA",
+            "voti": {
+                "totali": 60,
+                "seggio_telematico": 60
+            }
+        },
+        {
+            "nominativo": "AMARA Ignazio Omar",
+            "lista": "LA FINESTRA\u2010ACTEA",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "INGALLINA Damiano",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 10,
+                "seggio_telematico": 10
+            }
+        },
+        {
+            "nominativo": "BULLA Daniele",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nominativo": "CHIAVETTA Davide",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nominativo": "VERZ\u00cc Alex",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "PALERMO Vittorio",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "SCALIA Patrick Salvatore",
+            "lista": "LA FINESTRA\u2010ACTEA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "MANISCO Giorgio",
+            "lista": "S\u00ecAMO FUTURO",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "OFFERTA Italo Maria",
+            "lista": "S\u00ecAMO FUTURO",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        }
+    ],
+    "quoziente": 34.7143,
+    "votanti": {
+        "totali": 251,
+        "percentuale": 47.9,
+        "seggio_n_telematico": 251
+    },
+    "elettori": {
+        "totali": 524,
+        "seggio_n_telematico": 524
+    }
+}

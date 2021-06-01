@@ -1,0 +1,141 @@
+{
+    "dipartimento": "SCIENZE BIOLOGICHE - L-13 - Laurea Triennale (D.M.270/2004)",
+    "seggi_da_assegnare": "7",
+    "schede": {
+        "bianche": {
+            "totali": 24,
+            "seggio_n_telematico": 24
+        },
+        "nulle": {
+            "totali": 0
+        },
+        "contestate": {
+            "totali": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "ARCHE'",
+            "seggi": {
+                "seggi_pieni": "6",
+                "resti": "33,3",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "7"
+            },
+            "voti": {
+                "totali": 395,
+                "seggio_telematico": 395
+            }
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "27,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 27,
+                "seggio_telematico": 27
+            }
+        },
+        {
+            "totale": 422
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "GAGLIANO Marco",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 137,
+                "seggio_telematico": 137
+            }
+        },
+        {
+            "nominativo": "GARRANO Ruben",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 67,
+                "seggio_telematico": 67
+            }
+        },
+        {
+            "nominativo": "LEANZA Alessandra Antonella",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 73,
+                "seggio_telematico": 73
+            }
+        },
+        {
+            "nominativo": "MACCORA Alessandro Vito",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 11,
+                "seggio_telematico": 11
+            }
+        },
+        {
+            "nominativo": "RISUGLIA Monica",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nominativo": "VENTICINQUE Rosario Iehoschua",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 30,
+                "seggio_telematico": 30
+            }
+        },
+        {
+            "nominativo": "VINCIGUERRA Giuseppe Antonino",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 70,
+                "seggio_telematico": 70
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "ANASTASI Alessandra",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nominativo": "ANFUSO Andrea",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "RUSSO Diego",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 15,
+                "seggio_telematico": 15
+            }
+        }
+    ],
+    "quoziente": 60.2857,
+    "votanti": {
+        "totali": 446,
+        "percentuale": 57.77,
+        "seggio_n_telematico": 446
+    },
+    "elettori": {
+        "totali": 772,
+        "seggio_n_telematico": 772
+    }
+}

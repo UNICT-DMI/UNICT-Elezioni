@@ -1,0 +1,326 @@
+{
+    "dipartimento": "BENI CULTURALI - L-1 - Laurea Triennale (D.M.270/2004)",
+    "seggi_da_assegnare": "8",
+    "schede": {
+        "bianche": {
+            "totali": 13,
+            "seggio_n_telematico": 13
+        },
+        "nulle": {
+            "totali": [],
+            "seggio_n_telematico": 0
+        },
+        "contestate": {
+            "totali": [],
+            "seggio_n_telematico": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "WE LOVE UNICT",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "21,6",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 51,
+                "seggio_telematico": 51
+            }
+        },
+        {
+            "nome": "#INFODISUM",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "6,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nome": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "29,3",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "3"
+            },
+            "voti": {
+                "totali": 88,
+                "seggio_telematico": 88
+            }
+        },
+        {
+            "nome": "DISUM NIKE",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "8,6",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 38,
+                "seggio_telematico": 38
+            }
+        },
+        {
+            "nome": "S\u00ecAMO FUTURO",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "25,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 25,
+                "seggio_telematico": 25
+            }
+        },
+        {
+            "nome": "AGORA'",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "27,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 27,
+                "seggio_telematico": 27
+            }
+        },
+        {
+            "totale": 235
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "GRAVINO Gabriele",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 49,
+                "seggio_telematico": 49
+            }
+        },
+        {
+            "nominativo": "SCALIA Giuseppe",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "FINOCCHIARO Enrico",
+            "lista": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 25,
+                "seggio_telematico": 25
+            }
+        },
+        {
+            "nominativo": "BULLA Rita",
+            "lista": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 26,
+                "seggio_telematico": 26
+            }
+        },
+        {
+            "nominativo": "CAMPAILLA Martina",
+            "lista": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 20,
+                "seggio_telematico": 20
+            }
+        },
+        {
+            "nominativo": "FAMILARI Ginevra",
+            "lista": "DISUM NIKE",
+            "voti": {
+                "totali": 18,
+                "seggio_telematico": 18
+            }
+        },
+        {
+            "nominativo": "LO MAGNO Stefano",
+            "lista": "S\u00ecAMO FUTURO",
+            "voti": {
+                "totali": 11,
+                "seggio_telematico": 11
+            }
+        },
+        {
+            "nominativo": "LO BARTOLO Tatiana",
+            "lista": "AGORA'",
+            "voti": {
+                "totali": 26,
+                "seggio_telematico": 26
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "#INFODISUM",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "VALERIO Alberto",
+            "lista": "#INFODISUM",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "GAROZZO Francesco",
+            "lista": "#INFODISUM",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "lista": "#INFODISUM",
+            "voti": {
+                "totali": 3
+            }
+        },
+        {
+            "nominativo": "SGROI Giuliano",
+            "lista": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "LANZA Marco",
+            "lista": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "LA ROSA Arianna",
+            "lista": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 7,
+                "seggio_telematico": 7
+            }
+        },
+        {
+            "nominativo": "SPINA Giorgia Mariachiara",
+            "lista": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "ANSINI Chiara",
+            "lista": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "DISUM NIKE",
+            "lista": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 1
+            }
+        },
+        {
+            "nominativo": "BORGESI Aurora",
+            "lista": "DISUM NIKE",
+            "voti": {
+                "totali": 15,
+                "seggio_telematico": 15
+            }
+        },
+        {
+            "nominativo": "AZZARO Vittorio Maria",
+            "lista": "DISUM NIKE",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "S\u00ecAMO FUTURO",
+            "lista": "DISUM NIKE",
+            "voti": {
+                "totali": 1
+            }
+        },
+        {
+            "nominativo": "CARNAZZA Alessia",
+            "lista": "S\u00ecAMO FUTURO",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "FARO Salvatore",
+            "lista": "S\u00ecAMO FUTURO",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "IGNACCOLO Claudia",
+            "lista": "S\u00ecAMO FUTURO",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nominativo": "PRIVITERA Monica",
+            "lista": "S\u00ecAMO FUTURO",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "AGORA'",
+            "lista": "S\u00ecAMO FUTURO",
+            "voti": {
+                "totali": 1
+            }
+        },
+        {
+            "nominativo": "RAPISARDA Giorgia",
+            "lista": "AGORA'",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        }
+    ],
+    "quoziente": 29.375,
+    "votanti": {
+        "totali": 248,
+        "percentuale": 31.31,
+        "seggio_n_telematico": 248
+    },
+    "elettori": {
+        "totali": 792,
+        "seggio_n_telematico": 792
+    }
+}

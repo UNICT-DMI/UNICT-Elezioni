@@ -1,0 +1,228 @@
+{
+    "dipartimento": "INGEGNERIA CIVILE, AMBIENTALE E GESTIONALE - L-7 - Laurea Triennale (D.M.270/2004)",
+    "seggi_da_assegnare": "4",
+    "schede": {
+        "bianche": {
+            "totali": 12,
+            "seggio_n_telematico": 12
+        },
+        "nulle": {
+            "totali": 0
+        },
+        "contestate": {
+            "totali": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "WE LOVE UNICT",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "2,3",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 65,
+                "seggio_telematico": 65
+            }
+        },
+        {
+            "nome": "ACTEA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "41,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 41,
+                "seggio_telematico": 41
+            }
+        },
+        {
+            "nome": "INGEGNERIATTIVA",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "17,3",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 80,
+                "seggio_telematico": 80
+            }
+        },
+        {
+            "nome": "UNIONE PER IL DICAR",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "2,3",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 65,
+                "seggio_telematico": 65
+            }
+        },
+        {
+            "totale": 251
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "PANTANO Ylenia",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 40,
+                "seggio_telematico": 40
+            }
+        },
+        {
+            "nominativo": "BASILE Giuseppe Lorenzo",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 24,
+                "seggio_telematico": 24
+            }
+        },
+        {
+            "nominativo": "TILARO Luigi Orazio",
+            "lista": "INGEGNERIATTIVA",
+            "voti": {
+                "totali": 43,
+                "seggio_telematico": 43
+            }
+        },
+        {
+            "nominativo": "MARINO Salvatore",
+            "lista": "UNIONE PER IL DICAR",
+            "voti": {
+                "totali": 59,
+                "seggio_telematico": 59
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "CALABRETTA Matteo",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 10,
+                "seggio_telematico": 10
+            }
+        },
+        {
+            "nominativo": "ALBERIO Marco",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "FUMOSO Francesco",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nominativo": "ACTEA",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 1
+            }
+        },
+        {
+            "nominativo": "BRUNO Elia",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "SPAMPINATO Giulia",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 8,
+                "seggio_telematico": 8
+            }
+        },
+        {
+            "nominativo": "LA ROSA Francesco",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "INGEGNERIATTIVA",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 1
+            }
+        },
+        {
+            "nominativo": "DEL MONTE Matteo",
+            "lista": "INGEGNERIATTIVA",
+            "voti": {
+                "totali": 18,
+                "seggio_telematico": 18
+            }
+        },
+        {
+            "nominativo": "SIRAGUSA Vincenzo",
+            "lista": "INGEGNERIATTIVA",
+            "voti": {
+                "totali": 8,
+                "seggio_telematico": 8
+            }
+        },
+        {
+            "nominativo": "ZOFEI Robert Daniel",
+            "lista": "INGEGNERIATTIVA",
+            "voti": {
+                "totali": 11,
+                "seggio_telematico": 11
+            }
+        },
+        {
+            "nominativo": "UNIONE PER IL DICAR",
+            "lista": "INGEGNERIATTIVA",
+            "voti": {
+                "totali": 1
+            }
+        },
+        {
+            "nominativo": "INDACO Filippo",
+            "lista": "UNIONE PER IL DICAR",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "LEONARDI Giulia",
+            "lista": "UNIONE PER IL DICAR",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        }
+    ],
+    "quoziente": 62.75,
+    "votanti": {
+        "totali": 263,
+        "percentuale": 51.37,
+        "seggio_n_telematico": 263
+    },
+    "elettori": {
+        "totali": 512,
+        "seggio_n_telematico": 512
+    }
+}

@@ -1,0 +1,343 @@
+{
+    "dipartimento": "MEDIAZIONE LINGUISTICA E INTERCULTURALE - L-12 - Laurea Triennale (D.M.270/2004)",
+    "seggi_da_assegnare": "6",
+    "schede": {
+        "bianche": {
+            "totali": 9,
+            "seggio_n_telematico": 9
+        },
+        "nulle": {
+            "totali": 0
+        },
+        "contestate": {
+            "totali": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "ACTEA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "3,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nome": "WE LOVE\u2010AZIONE UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "26,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 26,
+                "seggio_telematico": 26
+            }
+        },
+        {
+            "nome": "YOUSU",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "40,7",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "3"
+            },
+            "voti": {
+                "totali": 140,
+                "seggio_telematico": 140
+            }
+        },
+        {
+            "nome": "UNITI PER I FUORI SEDE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "32,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 32,
+                "seggio_telematico": 32
+            }
+        },
+        {
+            "nome": "S\u00ecAMO IBLA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "30,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 30,
+                "seggio_telematico": 30
+            }
+        },
+        {
+            "nome": "ARCADIA REVOLUTION",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "17,3",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 67,
+                "seggio_telematico": 67
+            }
+        },
+        {
+            "totale": 298
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "NIGRO Giovanni",
+            "lista": "YOUSU",
+            "voti": {
+                "totali": 53,
+                "seggio_telematico": 53
+            }
+        },
+        {
+            "nominativo": "PARISI Martina",
+            "lista": "YOUSU",
+            "voti": {
+                "totali": 17,
+                "seggio_telematico": 17
+            }
+        },
+        {
+            "nominativo": "PARELLO Alberto",
+            "lista": "YOUSU",
+            "voti": {
+                "totali": 35,
+                "seggio_telematico": 35
+            }
+        },
+        {
+            "nominativo": "TORRISI Francesca",
+            "lista": "UNITI PER I FUORI SEDE",
+            "voti": {
+                "totali": 11,
+                "seggio_telematico": 11
+            }
+        },
+        {
+            "nominativo": "CINARDO Adriana",
+            "lista": "S\u00ecAMO IBLA",
+            "voti": {
+                "totali": 17,
+                "seggio_telematico": 17
+            }
+        },
+        {
+            "nominativo": "AZZARELLI Nicole",
+            "lista": "ARCADIA REVOLUTION",
+            "voti": {
+                "totali": 46,
+                "seggio_telematico": 46
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "BLANCO Martina",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "MOSCHETTI Matteo Maria",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "STRACUZZI Alessia",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "VAIANELLA Giorgia",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "PERCIATO Matteo",
+            "lista": "WE LOVE\u2010AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 21,
+                "seggio_telematico": 21
+            }
+        },
+        {
+            "nominativo": "CALANNA Domenico Francesco",
+            "lista": "WE LOVE\u2010AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "PERCOLLA Emira",
+            "lista": "YOUSU",
+            "voti": {
+                "totali": 7,
+                "seggio_telematico": 7
+            }
+        },
+        {
+            "nominativo": "LOMBARDO Roberta",
+            "lista": "YOUSU",
+            "voti": {
+                "totali": 7,
+                "seggio_telematico": 7
+            }
+        },
+        {
+            "nominativo": "CORONA Stefano",
+            "lista": "YOUSU",
+            "voti": {
+                "totali": 16,
+                "seggio_telematico": 16
+            }
+        },
+        {
+            "nominativo": "BATTIATO Sarah",
+            "lista": "UNITI PER I FUORI SEDE",
+            "voti": {
+                "totali": 10,
+                "seggio_telematico": 10
+            }
+        },
+        {
+            "nominativo": "LO VECCHIO Asia",
+            "lista": "UNITI PER I FUORI SEDE",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "CAPIZZI Maria Cristina",
+            "lista": "UNITI PER I FUORI SEDE",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "SERRA Irene Pia",
+            "lista": "UNITI PER I FUORI SEDE",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "FORNARO Roberta",
+            "lista": "UNITI PER I FUORI SEDE",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "S\u00ecAMO IBLA",
+            "lista": "UNITI PER I FUORI SEDE",
+            "voti": {
+                "totali": 1
+            }
+        },
+        {
+            "nominativo": "RUVIO Nichol",
+            "lista": "S\u00ecAMO IBLA",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "FAMAO Viviana",
+            "lista": "S\u00ecAMO IBLA",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "BELLUARDO Giulia",
+            "lista": "S\u00ecAMO IBLA",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "BAELI Francesco",
+            "lista": "S\u00ecAMO IBLA",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "MAIRA Alessia",
+            "lista": "S\u00ecAMO IBLA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "ARCADIA REVOLUTION",
+            "lista": "S\u00ecAMO IBLA",
+            "voti": {
+                "totali": 1
+            }
+        },
+        {
+            "nominativo": "GALLO Rachele Matilde",
+            "lista": "ARCADIA REVOLUTION",
+            "voti": {
+                "totali": 10,
+                "seggio_telematico": 10
+            }
+        },
+        {
+            "nominativo": "RUBERTO Concetta",
+            "lista": "ARCADIA REVOLUTION",
+            "voti": {
+                "totali": 8,
+                "seggio_telematico": 8
+            }
+        }
+    ],
+    "quoziente": 49.6667,
+    "votanti": {
+        "totali": 307,
+        "percentuale": 33.77,
+        "seggio_n_telematico": 307
+    },
+    "elettori": {
+        "totali": 909,
+        "seggio_n_telematico": 909
+    }
+}

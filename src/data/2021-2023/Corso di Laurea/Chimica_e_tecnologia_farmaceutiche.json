@@ -1,0 +1,364 @@
+{
+    "dipartimento": "CHIMICA E TECNOLOGIA FARMACEUTICHE - LM-13 - Laurea Magistrale a ciclo unico (D.M. 270/2004)",
+    "seggi_da_assegnare": "7",
+    "schede": {
+        "bianche": {
+            "totali": 8,
+            "seggio_n_telematico": 8
+        },
+        "nulle": {
+            "totali": 0
+        },
+        "contestate": {
+            "totali": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "WE LOVE UNICT",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "53,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 53,
+                "seggio_telematico": 53
+            }
+        },
+        {
+            "nome": "FARMAMENTIS",
+            "seggi": {
+                "seggi_pieni": "3",
+                "resti": "21,7",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "3"
+            },
+            "voti": {
+                "totali": 191,
+                "seggio_telematico": 191
+            }
+        },
+        {
+            "nome": "S\u00ecAMO FUTURO",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "27,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 27,
+                "seggio_telematico": 27
+            }
+        },
+        {
+            "nome": "GENERAZIONE ATTIVA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "21,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 21,
+                "seggio_telematico": 21
+            }
+        },
+        {
+            "nome": "PHARMA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "25,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 25,
+                "seggio_telematico": 25
+            }
+        },
+        {
+            "nome": "ALLEANZA UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "21,6",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 78,
+                "seggio_telematico": 78
+            }
+        },
+        {
+            "totale": 395
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "D'ORTO Lucia Valentina",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 30,
+                "seggio_telematico": 30
+            }
+        },
+        {
+            "nominativo": "ALESSANDRO Francesca",
+            "lista": "FARMAMENTIS",
+            "voti": {
+                "totali": 101,
+                "seggio_telematico": 101
+            }
+        },
+        {
+            "nominativo": "LA ROSA Marco",
+            "lista": "FARMAMENTIS",
+            "voti": {
+                "totali": 35,
+                "seggio_telematico": 35
+            }
+        },
+        {
+            "nominativo": "MANGIAVILLANO Denise",
+            "lista": "FARMAMENTIS",
+            "voti": {
+                "totali": 27,
+                "seggio_telematico": 27
+            }
+        },
+        {
+            "nominativo": "PIGNATO Cataldo",
+            "lista": "S\u00ecAMO FUTURO",
+            "voti": {
+                "totali": 22,
+                "seggio_telematico": 22
+            }
+        },
+        {
+            "nominativo": "POMETTI Laura",
+            "lista": "PHARMA",
+            "voti": {
+                "totali": 13,
+                "seggio_telematico": 13
+            }
+        },
+        {
+            "nominativo": "RAGUSA Martina",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 46,
+                "seggio_telematico": 46
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "D'AVOLA Cecilia",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 15,
+                "seggio_telematico": 15
+            }
+        },
+        {
+            "nominativo": "MOTTA Carmen",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "FERLITO Marco",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "BAIUNCO Giulia",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "SANTAGATI Silvia",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "FARMAMENTIS",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 3
+            }
+        },
+        {
+            "nominativo": "LEANZA Martina Harley",
+            "lista": "FARMAMENTIS",
+            "voti": {
+                "totali": 14,
+                "seggio_telematico": 14
+            }
+        },
+        {
+            "nominativo": "PATERN\u00d2 CASTELLO DI CARCACI Domenico Salvatore",
+            "lista": "FARMAMENTIS",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "AGLIATA Giulia",
+            "lista": "FARMAMENTIS",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "GISSARA Francesco",
+            "lista": "FARMAMENTIS",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "S\u00ecAMO FUTURO",
+            "lista": "FARMAMENTIS",
+            "voti": {
+                "totali": 1
+            }
+        },
+        {
+            "nominativo": "MAZZA Michela Maria",
+            "lista": "S\u00ecAMO FUTURO",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "MOTTA Melissa",
+            "lista": "S\u00ecAMO FUTURO",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "GENERAZIONE ATTIVA",
+            "lista": "S\u00ecAMO FUTURO",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "ALI' Eleonora",
+            "lista": "GENERAZIONE ATTIVA",
+            "voti": {
+                "totali": 21,
+                "seggio_telematico": 21
+            }
+        },
+        {
+            "nominativo": "MASSIMINO Mattia",
+            "lista": "GENERAZIONE ATTIVA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "MURABITO Giuseppe",
+            "lista": "GENERAZIONE ATTIVA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "RUNZA Gabriele",
+            "lista": "GENERAZIONE ATTIVA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "TOMASELLO Daniele",
+            "lista": "GENERAZIONE ATTIVA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "PHARMA",
+            "lista": "GENERAZIONE ATTIVA",
+            "voti": {
+                "totali": 1
+            }
+        },
+        {
+            "nominativo": "FLORI Francesco Gerardo",
+            "lista": "PHARMA",
+            "voti": {
+                "totali": 9,
+                "seggio_telematico": 9
+            }
+        },
+        {
+            "nominativo": "GULIZIA Giusy Simona",
+            "lista": "PHARMA",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "ALLEANZA UNIVERSITARIA",
+            "lista": "PHARMA",
+            "voti": {
+                "totali": 1
+            }
+        },
+        {
+            "nominativo": "MANFREDI Giuseppe",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 30,
+                "seggio_telematico": 30
+            }
+        },
+        {
+            "nominativo": "PALUMBO Margherita",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        }
+    ],
+    "quoziente": 56.429,
+    "votanti": {
+        "totali": 403,
+        "percentuale": 62,
+        "seggio_n_telematico": 403
+    },
+    "elettori": {
+        "totali": 650,
+        "seggio_n_telematico": 650
+    }
+}
