@@ -1,0 +1,225 @@
+{
+    "dipartimento": "DIPARTIMENTO DI MEDICINA CLINICA E SPERIMENTALE",
+    "seggi_da_assegnare": "10",
+    "schede": {
+        "bianche": {
+            "totali": 7,
+            "seggio_n_telematico": 7
+        },
+        "nulle": {
+            "totali": 0
+        },
+        "contestate": {
+            "totali": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "ARCHE'",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "8,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 23,
+                "seggio_telematico": 23
+            }
+        },
+        {
+            "nome": "ARCADIA SANILAB",
+            "seggi": {
+                "seggi_pieni": "5",
+                "resti": "12,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "6"
+            },
+            "voti": {
+                "totali": 87,
+                "seggio_telematico": 87
+            }
+        },
+        {
+            "nome": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "1,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 16,
+                "seggio_telematico": 16
+            }
+        },
+        {
+            "nome": "ACTEA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "13,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 13,
+                "seggio_telematico": 13
+            }
+        },
+        {
+            "nome": "WE LOVE UNICT",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "5,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nome": "ALLEANZA UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "6,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "totale": 150
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "D'ANTONI Elisabetta",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 11,
+                "seggio_telematico": 11
+            }
+        },
+        {
+            "nominativo": "GRECO Martina",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 12,
+                "seggio_telematico": 12
+            }
+        },
+        {
+            "nominativo": "ARCORIA Antonio",
+            "lista": "ARCADIA SANILAB",
+            "voti": {
+                "totali": 35,
+                "seggio_telematico": 35
+            }
+        },
+        {
+            "nominativo": "RUSSO Nicola",
+            "lista": "ARCADIA SANILAB",
+            "voti": {
+                "totali": 11,
+                "seggio_telematico": 11
+            }
+        },
+        {
+            "nominativo": "COSTANZO Salvatore",
+            "lista": "ARCADIA SANILAB",
+            "voti": {
+                "totali": 11,
+                "seggio_telematico": 11
+            }
+        },
+        {
+            "nominativo": "CICCIA Eva",
+            "lista": "ARCADIA SANILAB",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "SCOLLO Sarah",
+            "lista": "ARCADIA SANILAB",
+            "voti": {
+                "totali": 8,
+                "seggio_telematico": 8
+            }
+        },
+        {
+            "nominativo": "ZAPPALA' Erika Rita",
+            "lista": "ARCADIA SANILAB",
+            "voti": {
+                "totali": 12,
+                "seggio_telematico": 12
+            }
+        },
+        {
+            "nominativo": "GUAGLIARDO Francesco Maria",
+            "lista": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 16,
+                "seggio_telematico": 16
+            }
+        },
+        {
+            "nominativo": "D'AMICO Marco",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 12,
+                "seggio_telematico": 12
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "SPITALERI Maria Rita",
+            "lista": "ARCADIA SANILAB",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "MASTRANDREA Angelo Luciano",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "DI STEFANO Giorgio",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "GRASSO Martina",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        }
+    ],
+    "quoziente": 15.0,
+    "votanti": {
+        "totali": 157,
+        "percentuale": 63.31,
+        "seggio_n_telematico": 157
+    },
+    "elettori": {
+        "totali": 248,
+        "seggio_n_telematico": 248
+    }
+}

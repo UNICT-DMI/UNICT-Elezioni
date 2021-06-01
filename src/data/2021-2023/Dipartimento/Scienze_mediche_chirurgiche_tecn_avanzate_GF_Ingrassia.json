@@ -1,0 +1,416 @@
+{
+    "dipartimento": "DIPARTIMENTO DI SCIENZE MEDICHE, CHIRURGICHE E TECNOLOGIE AVANZATE G.F. INGRASSIA",
+    "seggi_da_assegnare": "11",
+    "schede": {
+        "bianche": {
+            "totali": 17,
+            "seggio_n_telematico": 17
+        },
+        "nulle": {
+            "totali": 0
+        },
+        "contestate": {
+            "totali": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "LIBERTAS\u2010INMED",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "22,4",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "3"
+            },
+            "voti": {
+                "totali": 122,
+                "seggio_telematico": 122
+            }
+        },
+        {
+            "nome": "ACTEA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "10,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 10,
+                "seggio_telematico": 10
+            }
+        },
+        {
+            "nome": "WE LOVE UNICT",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "16,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 16,
+                "seggio_telematico": 16
+            }
+        },
+        {
+            "nome": "ARCADIA\u2010SANILAB",
+            "seggi": {
+                "seggi_pieni": "7",
+                "resti": "35,3",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "8"
+            },
+            "voti": {
+                "totali": 384,
+                "seggio_telematico": 384
+            }
+        },
+        {
+            "nome": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "16,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 16,
+                "seggio_telematico": 16
+            }
+        },
+        {
+            "totale": 548
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "CARUSO Monia",
+            "lista": "LIBERTAS\u2010INMED",
+            "voti": {
+                "totali": 51,
+                "seggio_telematico": 51
+            }
+        },
+        {
+            "nominativo": "ARDIZZONE Federica Ilaria",
+            "lista": "LIBERTAS\u2010INMED",
+            "voti": {
+                "totali": 21,
+                "seggio_telematico": 21
+            }
+        },
+        {
+            "nominativo": "RANIOLO Raissa",
+            "lista": "LIBERTAS\u2010INMED",
+            "voti": {
+                "totali": 12,
+                "seggio_telematico": 12
+            }
+        },
+        {
+            "nominativo": "FILLORAMO Marco",
+            "lista": "ARCADIA\u2010SANILAB",
+            "voti": {
+                "totali": 26,
+                "seggio_telematico": 26
+            }
+        },
+        {
+            "nominativo": "ARONA Giuseppe",
+            "lista": "ARCADIA\u2010SANILAB",
+            "voti": {
+                "totali": 61,
+                "seggio_telematico": 61
+            }
+        },
+        {
+            "nominativo": "SCARPATO Marisa",
+            "lista": "ARCADIA\u2010SANILAB",
+            "voti": {
+                "totali": 57,
+                "seggio_telematico": 57
+            }
+        },
+        {
+            "nominativo": "PEDALINO Barbara",
+            "lista": "ARCADIA\u2010SANILAB",
+            "voti": {
+                "totali": 40,
+                "seggio_telematico": 40
+            }
+        },
+        {
+            "nominativo": "MAIORE Bruna",
+            "lista": "ARCADIA\u2010SANILAB",
+            "voti": {
+                "totali": 61,
+                "seggio_telematico": 61
+            }
+        },
+        {
+            "nominativo": "CONIGLIO Ambra",
+            "lista": "ARCADIA\u2010SANILAB",
+            "voti": {
+                "totali": 33,
+                "seggio_telematico": 33
+            }
+        },
+        {
+            "nominativo": "BALBA Federica",
+            "lista": "ARCADIA\u2010SANILAB",
+            "voti": {
+                "totali": 28,
+                "seggio_telematico": 28
+            }
+        },
+        {
+            "nominativo": "CAPIZZI Valeria Giusi Silvana",
+            "lista": "ARCADIA\u2010SANILAB",
+            "voti": {
+                "totali": 33,
+                "seggio_telematico": 33
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "CASSIA Alessandra",
+            "lista": "LIBERTAS\u2010INMED",
+            "voti": {
+                "totali": 9,
+                "seggio_telematico": 9
+            }
+        },
+        {
+            "nominativo": "PIAZZA Roberta",
+            "lista": "LIBERTAS\u2010INMED",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "CONTICELLO Andrea",
+            "lista": "LIBERTAS\u2010INMED",
+            "voti": {
+                "totali": 7,
+                "seggio_telematico": 7
+            }
+        },
+        {
+            "nominativo": "VIZZINI Giuseppe",
+            "lista": "LIBERTAS\u2010INMED",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nominativo": "VERCOCO Christiangiorgio",
+            "lista": "LIBERTAS\u2010INMED",
+            "voti": {
+                "totali": 11,
+                "seggio_telematico": 11
+            }
+        },
+        {
+            "nominativo": "GARETTI Luigi Paolo",
+            "lista": "LIBERTAS\u2010INMED",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "OLIVERI Giulia Sofia",
+            "lista": "LIBERTAS\u2010INMED",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "BORZI' Davide",
+            "lista": "LIBERTAS\u2010INMED",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "ACTEA",
+            "lista": "LIBERTAS\u2010INMED",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "AMORE Vanessa",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "AMORUSO Michele",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "DI GREGORIO Demetrio Daniel",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "PRIVITERA Gianluca",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "RUSSO Sebastian Andrea",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "TURIANO Salvatore",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "FIORIA Marco",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "WE LOVE UNICT",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "BARCELLA Antonio",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 8,
+                "seggio_telematico": 8
+            }
+        },
+        {
+            "nominativo": "CARASTRO Enrico",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "INSANGUINE Damiano",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "IERNA Sophia",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "SCIACCA Giulia",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "CARUSO Grazia Desiree",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "ARCADIA\u2010SANILAB",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 8
+            }
+        },
+        {
+            "nominativo": "CAFARO Giuliana",
+            "lista": "ARCADIA\u2010SANILAB",
+            "voti": {
+                "totali": 12,
+                "seggio_telematico": 12
+            }
+        },
+        {
+            "nominativo": "D'ANNA Alessia",
+            "lista": "ARCADIA\u2010SANILAB",
+            "voti": {
+                "totali": 19,
+                "seggio_telematico": 19
+            }
+        },
+        {
+            "nominativo": "NAPOLI Agata Rebecca",
+            "lista": "ARCADIA\u2010SANILAB",
+            "voti": {
+                "totali": 13,
+                "seggio_telematico": 13
+            }
+        },
+        {
+            "nominativo": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "lista": "ARCADIA\u2010SANILAB",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "LEANZA Pierluigi",
+            "lista": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 16,
+                "seggio_telematico": 16
+            }
+        }
+    ],
+    "quoziente": 49.8182,
+    "votanti": {
+        "totali": 565,
+        "percentuale": 72.9,
+        "seggio_n_telematico": 565
+    },
+    "elettori": {
+        "totali": 775,
+        "seggio_n_telematico": 775
+    }
+}

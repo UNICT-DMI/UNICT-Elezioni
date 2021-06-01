@@ -1,0 +1,776 @@
+{
+    "dipartimento": "DIPARTIMENTO DI SCIENZE BIOMEDICHE E BIOTECNOLOGICHE",
+    "seggi_da_assegnare": "15",
+    "schede": {
+        "bianche": {
+            "totali": 28,
+            "seggio_n_telematico": 28
+        },
+        "nulle": {
+            "totali": 0
+        },
+        "contestate": {
+            "totali": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "SVOLTA",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "0,1",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 44,
+                "seggio_telematico": 44
+            }
+        },
+        {
+            "nome": "WE LOVE UNICT",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "35,1",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "3"
+            },
+            "voti": {
+                "totali": 123,
+                "seggio_telematico": 123
+            }
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "25,1",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 69,
+                "seggio_telematico": 69
+            }
+        },
+        {
+            "nome": "ACTEA",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "2,1",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 90,
+                "seggio_telematico": 90
+            }
+        },
+        {
+            "nome": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "23,1",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 111,
+                "seggio_telematico": 111
+            }
+        },
+        {
+            "nome": "ARCHE'",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "28,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 28,
+                "seggio_telematico": 28
+            }
+        },
+        {
+            "nome": "ORIZZONTE SANITA'",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "16,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 16,
+                "seggio_telematico": 16
+            }
+        },
+        {
+            "nome": "INMED",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "20,1",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 108,
+                "seggio_telematico": 108
+            }
+        },
+        {
+            "nome": "GENERAZIONE ATTIVA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "37,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 37,
+                "seggio_telematico": 37
+            }
+        },
+        {
+            "nome": "UNIVERSITA' POPOLARE GENERAZIONE ATTIVA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "4,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nome": "ALLEANZA UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "29,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 29,
+                "seggio_telematico": 29
+            }
+        },
+        {
+            "totale": 659
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "CALABRESE Melissa",
+            "lista": "SVOLTA",
+            "voti": {
+                "totali": 36,
+                "seggio_telematico": 36
+            }
+        },
+        {
+            "nominativo": "GIACALONE Sabrina",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 27,
+                "seggio_telematico": 27
+            }
+        },
+        {
+            "nominativo": "DISTEFANO Francesca",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 32,
+                "seggio_telematico": 32
+            }
+        },
+        {
+            "nominativo": "SCALIA Vincenzo",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 34,
+                "seggio_telematico": 34
+            }
+        },
+        {
+            "nominativo": "LORENZANO Erica",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 33,
+                "seggio_telematico": 33
+            }
+        },
+        {
+            "nominativo": "D'AMICO Claudio",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 25,
+                "seggio_telematico": 25
+            }
+        },
+        {
+            "nominativo": "CACCIOLA Claudio detto \"Squatty\" o \"Squattete\"",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 19,
+                "seggio_telematico": 19
+            }
+        },
+        {
+            "nominativo": "SORTINO Martina",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 34,
+                "seggio_telematico": 34
+            }
+        },
+        {
+            "nominativo": "SPINALE Alessandro",
+            "lista": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 28,
+                "seggio_telematico": 28
+            }
+        },
+        {
+            "nominativo": "STIMOLI Giovanni Emanuele",
+            "lista": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 33,
+                "seggio_telematico": 33
+            }
+        },
+        {
+            "nominativo": "D'ANGELO Arianna",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 14,
+                "seggio_telematico": 14
+            }
+        },
+        {
+            "nominativo": "RUSSO Giulia",
+            "lista": "INMED",
+            "voti": {
+                "totali": 29,
+                "seggio_telematico": 29
+            }
+        },
+        {
+            "nominativo": "GUARNERA Carmelo",
+            "lista": "INMED",
+            "voti": {
+                "totali": 33,
+                "seggio_telematico": 33
+            }
+        },
+        {
+            "nominativo": "CALABRESE Fabiola",
+            "lista": "GENERAZIONE ATTIVA",
+            "voti": {
+                "totali": 29,
+                "seggio_telematico": 29
+            }
+        },
+        {
+            "nominativo": "LOMBARDO Benedetta",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 17,
+                "seggio_telematico": 17
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "LUPICA Carmela",
+            "lista": "SVOLTA",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nominativo": "WE LOVE UNICT",
+            "lista": "SVOLTA",
+            "voti": {
+                "totali": 3
+            }
+        },
+        {
+            "nominativo": "PETRALIA Nicolo'",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "RUSSO Alberto",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "FERRARELLO Giulia Maria Rosa",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nominativo": "GRECO Francesco",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "DI BENEDETTO Giuseppe",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 15,
+                "seggio_telematico": 15
+            }
+        },
+        {
+            "nominativo": "AZIONE UNIVERSITARIA",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 2
+            }
+        },
+        {
+            "nominativo": "FEDERICI Simone",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "PAPA Antonio Riccardo",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 10,
+                "seggio_telematico": 10
+            }
+        },
+        {
+            "nominativo": "ANDRONICO Davide",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "ACTEA",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 2
+            }
+        },
+        {
+            "nominativo": "PATAN\u00c8 Marinancy",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 8,
+                "seggio_telematico": 8
+            }
+        },
+        {
+            "nominativo": "ROCCUZZO Valeria",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "CELI Federico",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "RAITI Giuliana",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "MANCINO Matteo",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "NISI Marco",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "GENTILE Giusy",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 8,
+                "seggio_telematico": 8
+            }
+        },
+        {
+            "nominativo": "MARCHESE Giuliana",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 9,
+                "seggio_telematico": 9
+            }
+        },
+        {
+            "nominativo": "MIRABELLA Nicoletta",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 2
+            }
+        },
+        {
+            "nominativo": "AMATO Stefany",
+            "lista": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 23,
+                "seggio_telematico": 23
+            }
+        },
+        {
+            "nominativo": "PANEPINTO Elisabetta",
+            "lista": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 26,
+                "seggio_telematico": 26
+            }
+        },
+        {
+            "nominativo": "ARCHE'",
+            "lista": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 1
+            }
+        },
+        {
+            "nominativo": "AUGUGLIARO Andrea",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "FIRRARELLO Nicol\u00f2",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 8,
+                "seggio_telematico": 8
+            }
+        },
+        {
+            "nominativo": "GALATI Dario",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "NAPOLI Salvatore",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "RACITI Giuseppe",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "SPAMPINATO Giuseppe",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "CHIAVOLA Damiana",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "ORIZZONTE SANITA'",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "SANTORO Alberto",
+            "lista": "ORIZZONTE SANITA'",
+            "voti": {
+                "totali": 15,
+                "seggio_telematico": 15
+            }
+        },
+        {
+            "nominativo": "MARLETTA Giuseppe",
+            "lista": "ORIZZONTE SANITA'",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "INMED",
+            "lista": "ORIZZONTE SANITA'",
+            "voti": {
+                "totali": 2
+            }
+        },
+        {
+            "nominativo": "SCUDERI Gabriele",
+            "lista": "INMED",
+            "voti": {
+                "totali": 11,
+                "seggio_telematico": 11
+            }
+        },
+        {
+            "nominativo": "TREPPICCIONE Viviana",
+            "lista": "INMED",
+            "voti": {
+                "totali": 21,
+                "seggio_telematico": 21
+            }
+        },
+        {
+            "nominativo": "STANCANELLI Irene",
+            "lista": "INMED",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "COCO Sergio",
+            "lista": "INMED",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "PANDINO Elena",
+            "lista": "INMED",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "CAMPISI Christian",
+            "lista": "INMED",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "AMORE Daniele",
+            "lista": "INMED",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "NOCERA Davide",
+            "lista": "INMED",
+            "voti": {
+                "totali": 10,
+                "seggio_telematico": 10
+            }
+        },
+        {
+            "nominativo": "GENERAZIONE ATTIVA",
+            "lista": "INMED",
+            "voti": {
+                "totali": 1
+            }
+        },
+        {
+            "nominativo": "CANNAVO' Anna",
+            "lista": "GENERAZIONE ATTIVA",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "STAGNINO Francesco",
+            "lista": "GENERAZIONE ATTIVA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "CAVALLARO Giuseppe",
+            "lista": "GENERAZIONE ATTIVA",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "UNIVERSITA' POPOLARE GENERAZIONE ATTIVA",
+            "lista": "GENERAZIONE ATTIVA",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "LO PRESTI Crystal",
+            "lista": "UNIVERSITA' POPOLARE GENERAZIONE ATTIVA",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "LONGOBARDI Morena",
+            "lista": "UNIVERSITA' POPOLARE GENERAZIONE ATTIVA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "ALAGONA Luana",
+            "lista": "UNIVERSITA' POPOLARE GENERAZIONE ATTIVA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "CAPONETTO Dominique",
+            "lista": "UNIVERSITA' POPOLARE GENERAZIONE ATTIVA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "ALLEANZA UNIVERSITARIA",
+            "lista": "UNIVERSITA' POPOLARE GENERAZIONE ATTIVA",
+            "voti": {
+                "totali": 1
+            }
+        },
+        {
+            "nominativo": "LEONARDI Gabriele",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "COCI Kevin",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "DI PAOLA Andrea",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 7,
+                "seggio_telematico": 7
+            }
+        },
+        {
+            "nominativo": "CANTARELLA Claudia",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "SANGIORGIO Paolo",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "PELLEGRINO Azzurra",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "SCIACCA Claudio",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        }
+    ],
+    "quoziente": 43.9333,
+    "votanti": {
+        "totali": 687,
+        "percentuale": 55.67,
+        "seggio_n_telematico": 687
+    },
+    "elettori": {
+        "totali": 1234,
+        "seggio_n_telematico": 1234
+    }
+}

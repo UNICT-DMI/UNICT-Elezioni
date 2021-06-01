@@ -1,0 +1,393 @@
+{
+    "dipartimento": "DIPARTIMENTO DI SCIENZE BIOLOGICHE, GEOLOGICHE E AMBIENTALI",
+    "seggi_da_assegnare": "9",
+    "schede": {
+        "bianche": {
+            "totali": 17,
+            "seggio_n_telematico": 17
+        },
+        "nulle": {
+            "totali": 0
+        },
+        "contestate": {
+            "totali": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "CREDIAMOCI",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "3,8",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 81,
+                "seggio_telematico": 81
+            }
+        },
+        {
+            "nome": "ARCHE'",
+            "seggi": {
+                "seggi_pieni": "4",
+                "resti": "18,1",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "4"
+            },
+            "voti": {
+                "totali": 327,
+                "seggio_telematico": 327
+            }
+        },
+        {
+            "nome": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "34,6",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "3"
+            },
+            "voti": {
+                "totali": 189,
+                "seggio_telematico": 189
+            }
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "46,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 46,
+                "seggio_telematico": 46
+            }
+        },
+        {
+            "nome": "RIPARTIAMO UNICT",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "22,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 22,
+                "seggio_telematico": 22
+            }
+        },
+        {
+            "nome": "ALLEANZA UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "30,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 30,
+                "seggio_telematico": 30
+            }
+        },
+        {
+            "totale": 695
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "STIVALA Andrea",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 47,
+                "seggio_telematico": 47
+            }
+        },
+        {
+            "nominativo": "GAGLIANO Marco",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 123,
+                "seggio_telematico": 123
+            }
+        },
+        {
+            "nominativo": "GARRANO Ruben",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 44,
+                "seggio_telematico": 44
+            }
+        },
+        {
+            "nominativo": "LEANZA Alessandra Antonella",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 65,
+                "seggio_telematico": 65
+            }
+        },
+        {
+            "nominativo": "VINCIGUERRA Giuseppe Antonino",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 53,
+                "seggio_telematico": 53
+            }
+        },
+        {
+            "nominativo": "COMMIS Lorenzo",
+            "lista": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 63,
+                "seggio_telematico": 63
+            }
+        },
+        {
+            "nominativo": "BERTINO Antonella",
+            "lista": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 56,
+                "seggio_telematico": 56
+            }
+        },
+        {
+            "nominativo": "SCIACCA Fabrizio",
+            "lista": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 19,
+                "seggio_telematico": 19
+            }
+        },
+        {
+            "nominativo": "GRILLO Christian",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 37,
+                "seggio_telematico": 37
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "PARRINELLO Roberta",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "FALLICO Andrea",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 10,
+                "seggio_telematico": 10
+            }
+        },
+        {
+            "nominativo": "MONACO Umberto",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "PARLASCINO Salvatore",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 15,
+                "seggio_telematico": 15
+            }
+        },
+        {
+            "nominativo": "SIMOLA Gabriele",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "SCINO Federico",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "MACCORA Alessandro Vito",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 11,
+                "seggio_telematico": 11
+            }
+        },
+        {
+            "nominativo": "RISUGLIA Monica",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "VENTICINQUE Rosario Iehoschua",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 25,
+                "seggio_telematico": 25
+            }
+        },
+        {
+            "nominativo": "BORZI' Alfio Marco",
+            "lista": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 7,
+                "seggio_telematico": 7
+            }
+        },
+        {
+            "nominativo": "STISSI Giuseppina",
+            "lista": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 12,
+                "seggio_telematico": 12
+            }
+        },
+        {
+            "nominativo": "QUATTROCCHI Gabriele Alberto",
+            "lista": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 12,
+                "seggio_telematico": 12
+            }
+        },
+        {
+            "nominativo": "SECONDO Gabriele",
+            "lista": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 7,
+                "seggio_telematico": 7
+            }
+        },
+        {
+            "nominativo": "D'AGATE Luca",
+            "lista": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "D'ALPA Francesco",
+            "lista": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 11,
+                "seggio_telematico": 11
+            }
+        },
+        {
+            "nominativo": "ANASTASI Alessandra",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "ANFUSO Andrea",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "MONTEROSSO Giorgia",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "GIAMMUSSO Martin",
+            "lista": "RIPARTIAMO UNICT",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "INSINNA Samuele",
+            "lista": "RIPARTIAMO UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "LA MANNA Alessandro",
+            "lista": "RIPARTIAMO UNICT",
+            "voti": {
+                "totali": 11,
+                "seggio_telematico": 11
+            }
+        },
+        {
+            "nominativo": "GORGAB Chahda",
+            "lista": "RIPARTIAMO UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "PRISCO Marco",
+            "lista": "RIPARTIAMO UNICT",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "FLORIDIA Davide",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "TANCREDI Federica Andrea",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 12,
+                "seggio_telematico": 12
+            }
+        },
+        {
+            "nominativo": "BRUNO Anastasia",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 16,
+                "seggio_telematico": 16
+            }
+        }
+    ],
+    "quoziente": 77.2222,
+    "votanti": {
+        "totali": 712,
+        "percentuale": 47.12,
+        "seggio_n_telematico": 712
+    },
+    "elettori": {
+        "totali": 1511,
+        "seggio_n_telematico": 1511
+    }
+}

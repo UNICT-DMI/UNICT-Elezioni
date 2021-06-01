@@ -1,0 +1,933 @@
+{
+    "dipartimento": "DIPARTIMENTO DI GIURISPRUDENZA",
+    "seggi_da_assegnare": "13",
+    "schede": {
+        "bianche": {
+            "totali": 36,
+            "seggio_n_telematico": 36
+        },
+        "nulle": {
+            "totali": 0
+        },
+        "contestate": {
+            "totali": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "SVOLTA",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "104,9",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 238,
+                "seggio_telematico": 238
+            }
+        },
+        {
+            "nome": "Crediamoci",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "119,9",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 253,
+                "seggio_telematico": 253
+            }
+        },
+        {
+            "nome": "ANTIGONE \u2010 WE LOVE UNICT",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "53,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 53,
+                "seggio_telematico": 53
+            }
+        },
+        {
+            "nome": "Azione Universitaria",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "117,9",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 251,
+                "seggio_telematico": 251
+            }
+        },
+        {
+            "nome": "ARCHE'",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "11,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 11,
+                "seggio_telematico": 11
+            }
+        },
+        {
+            "nome": "GIURISPRUDENZATTIVA",
+            "seggi": {
+                "seggi_pieni": "3",
+                "resti": "129,8",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "4"
+            },
+            "voti": {
+                "totali": 529,
+                "seggio_telematico": 529
+            }
+        },
+        {
+            "nome": "ARCADIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "7,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 7,
+                "seggio_telematico": 7
+            }
+        },
+        {
+            "nome": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "124,9",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 258,
+                "seggio_telematico": 258
+            }
+        },
+        {
+            "nome": "S\u00ecAMO FUTURO",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "110,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 110,
+                "seggio_telematico": 110
+            }
+        },
+        {
+            "nome": "GENERAZIONE ATTIVA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "20,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 20,
+                "seggio_telematico": 20
+            }
+        },
+        {
+            "totale": 1730
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "CALI' Luca",
+            "lista": "SVOLTA",
+            "voti": {
+                "totali": 191,
+                "seggio_telematico": 191
+            }
+        },
+        {
+            "nominativo": "BIAZZO Giulia",
+            "lista": "SVOLTA",
+            "voti": {
+                "totali": 36,
+                "seggio_telematico": 36
+            }
+        },
+        {
+            "nominativo": "MAZZARA BOLOGNA Sebastiano Domenico",
+            "lista": "Crediamoci",
+            "voti": {
+                "totali": 45,
+                "seggio_telematico": 45
+            }
+        },
+        {
+            "nominativo": "VENTURA Claudio",
+            "lista": "Crediamoci",
+            "voti": {
+                "totali": 87,
+                "seggio_telematico": 87
+            }
+        },
+        {
+            "nominativo": "GIRLANDO Andrea Giacomo Maria",
+            "lista": "Azione Universitaria",
+            "voti": {
+                "totali": 63,
+                "seggio_telematico": 63
+            }
+        },
+        {
+            "nominativo": "CURRO' Alessia",
+            "lista": "Azione Universitaria",
+            "voti": {
+                "totali": 29,
+                "seggio_telematico": 29
+            }
+        },
+        {
+            "nominativo": "PRINCIPATO Marta",
+            "lista": "GIURISPRUDENZATTIVA",
+            "voti": {
+                "totali": 192,
+                "seggio_telematico": 192
+            }
+        },
+        {
+            "nominativo": "TROVATO Giuseppe",
+            "lista": "GIURISPRUDENZATTIVA",
+            "voti": {
+                "totali": 120,
+                "seggio_telematico": 120
+            }
+        },
+        {
+            "nominativo": "FALZONE Rosario Maria",
+            "lista": "GIURISPRUDENZATTIVA",
+            "voti": {
+                "totali": 38,
+                "seggio_telematico": 38
+            }
+        },
+        {
+            "nominativo": "FIDOTTA Alessia",
+            "lista": "GIURISPRUDENZATTIVA",
+            "voti": {
+                "totali": 80,
+                "seggio_telematico": 80
+            }
+        },
+        {
+            "nominativo": "TESTA Luca",
+            "lista": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 46,
+                "seggio_telematico": 46
+            }
+        },
+        {
+            "nominativo": "ZAPPALA' Luca",
+            "lista": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 53,
+                "seggio_telematico": 53
+            }
+        },
+        {
+            "nominativo": "VIZZINI Chiara",
+            "lista": "S\u00ecAMO FUTURO",
+            "voti": {
+                "totali": 35,
+                "seggio_telematico": 35
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "CAPUTO Stefano",
+            "lista": "SVOLTA",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "LANUZZA Francesco",
+            "lista": "SVOLTA",
+            "voti": {
+                "totali": 8,
+                "seggio_telematico": 8
+            }
+        },
+        {
+            "nominativo": "CHIARA Gabriele",
+            "lista": "Crediamoci",
+            "voti": {
+                "totali": 42,
+                "seggio_telematico": 42
+            }
+        },
+        {
+            "nominativo": "ADONIA Emanuele Concetto",
+            "lista": "Crediamoci",
+            "voti": {
+                "totali": 8,
+                "seggio_telematico": 8
+            }
+        },
+        {
+            "nominativo": "TOMASELLO Ludovica",
+            "lista": "Crediamoci",
+            "voti": {
+                "totali": 25,
+                "seggio_telematico": 25
+            }
+        },
+        {
+            "nominativo": "MARGHERITI Asia",
+            "lista": "Crediamoci",
+            "voti": {
+                "totali": 8,
+                "seggio_telematico": 8
+            }
+        },
+        {
+            "nominativo": "CACOPARDO Antonio",
+            "lista": "Crediamoci",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "BOSCO Gaetano",
+            "lista": "Crediamoci",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "TACCETTA Chiara",
+            "lista": "Crediamoci",
+            "voti": {
+                "totali": 8,
+                "seggio_telematico": 8
+            }
+        },
+        {
+            "nominativo": "RANDAZZO Doriana",
+            "lista": "Crediamoci",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "BASSO Fabiana",
+            "lista": "Crediamoci",
+            "voti": {
+                "totali": 7,
+                "seggio_telematico": 7
+            }
+        },
+        {
+            "nominativo": "AMORUSO Marilyn",
+            "lista": "Crediamoci",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "MILAZZO Edoardo",
+            "lista": "Crediamoci",
+            "voti": {
+                "totali": 10,
+                "seggio_telematico": 10
+            }
+        },
+        {
+            "nominativo": "RAITI Rosi Pia",
+            "lista": "ANTIGONE \u2010 WE LOVE UNICT",
+            "voti": {
+                "totali": 27,
+                "seggio_telematico": 27
+            }
+        },
+        {
+            "nominativo": "MOTTA Piero",
+            "lista": "ANTIGONE \u2010 WE LOVE UNICT",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nominativo": "ROSSITTO Corrado detto \"Simone\"",
+            "lista": "ANTIGONE \u2010 WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "MORABITO Marco Nunzio",
+            "lista": "ANTIGONE \u2010 WE LOVE UNICT",
+            "voti": {
+                "totali": 16,
+                "seggio_telematico": 16
+            }
+        },
+        {
+            "nominativo": "SPAMPINATO Alessandra",
+            "lista": "ANTIGONE \u2010 WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "GALASSO Antonio",
+            "lista": "ANTIGONE \u2010 WE LOVE UNICT",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "STELLA Nicole Sefora",
+            "lista": "ANTIGONE \u2010 WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "LAZZARA Salvatore",
+            "lista": "ANTIGONE \u2010 WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "PIAZZA Davide",
+            "lista": "Azione Universitaria",
+            "voti": {
+                "totali": 28,
+                "seggio_telematico": 28
+            }
+        },
+        {
+            "nominativo": "GRUTTADAURIA Andrea",
+            "lista": "Azione Universitaria",
+            "voti": {
+                "totali": 27,
+                "seggio_telematico": 27
+            }
+        },
+        {
+            "nominativo": "VACCARO Vincenzo",
+            "lista": "Azione Universitaria",
+            "voti": {
+                "totali": 24,
+                "seggio_telematico": 24
+            }
+        },
+        {
+            "nominativo": "CUTUGNO Andrea",
+            "lista": "Azione Universitaria",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "D'ANNA Egle",
+            "lista": "Azione Universitaria",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "ROTONDO Roberto",
+            "lista": "Azione Universitaria",
+            "voti": {
+                "totali": 14,
+                "seggio_telematico": 14
+            }
+        },
+        {
+            "nominativo": "PINNISI Martina",
+            "lista": "Azione Universitaria",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "PISA Gianfrancesco Giuseppe Mario",
+            "lista": "Azione Universitaria",
+            "voti": {
+                "totali": 18,
+                "seggio_telematico": 18
+            }
+        },
+        {
+            "nominativo": "CADENTE Giulia",
+            "lista": "Azione Universitaria",
+            "voti": {
+                "totali": 21,
+                "seggio_telematico": 21
+            }
+        },
+        {
+            "nominativo": "BONU Valentino",
+            "lista": "Azione Universitaria",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "MESSINA Gaetano",
+            "lista": "Azione Universitaria",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "COMPAGNONE Antonella",
+            "lista": "Azione Universitaria",
+            "voti": {
+                "totali": 12,
+                "seggio_telematico": 12
+            }
+        },
+        {
+            "nominativo": "SPITALERI Christian Salvatore",
+            "lista": "Azione Universitaria",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "AIELLO Ludovica",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "BIZZINI Elena",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "LA ROSA Virginia",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "PAPPALARDO Maria",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "TROVATO Emanuele",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "VINCI Selena Tindara",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "CHIESA Andrea",
+            "lista": "GIURISPRUDENZATTIVA",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "INDIOGINE Matilde Maria Giuseppina",
+            "lista": "GIURISPRUDENZATTIVA",
+            "voti": {
+                "totali": 7,
+                "seggio_telematico": 7
+            }
+        },
+        {
+            "nominativo": "MAGGIO Giovanni",
+            "lista": "GIURISPRUDENZATTIVA",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "MARLETTA Massimiliano",
+            "lista": "GIURISPRUDENZATTIVA",
+            "voti": {
+                "totali": 26,
+                "seggio_telematico": 26
+            }
+        },
+        {
+            "nominativo": "NUZZACI Benedetta",
+            "lista": "GIURISPRUDENZATTIVA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "RAITI Angelo",
+            "lista": "GIURISPRUDENZATTIVA",
+            "voti": {
+                "totali": 9,
+                "seggio_telematico": 9
+            }
+        },
+        {
+            "nominativo": "PASSALACQUA Monica",
+            "lista": "GIURISPRUDENZATTIVA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "RUSSO Mariangela",
+            "lista": "GIURISPRUDENZATTIVA",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nominativo": "STELLA Carlo",
+            "lista": "GIURISPRUDENZATTIVA",
+            "voti": {
+                "totali": 14,
+                "seggio_telematico": 14
+            }
+        },
+        {
+            "nominativo": "VALENZA Arianna",
+            "lista": "GIURISPRUDENZATTIVA",
+            "voti": {
+                "totali": 13,
+                "seggio_telematico": 13
+            }
+        },
+        {
+            "nominativo": "DI MAURO Placido Agatino",
+            "lista": "GIURISPRUDENZATTIVA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "PAGANO SCORCIO Matteo",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "GUZZARDI Tecla Concetta Barbara",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "LUPO Valentina",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "ARCIDIACONO Giorgia",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "STAGNO Damian",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "GANGI Gianluca",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "LANERI Francesco Antonino",
+            "lista": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 45,
+                "seggio_telematico": 45
+            }
+        },
+        {
+            "nominativo": "FARGETTA Concetta",
+            "lista": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 10,
+                "seggio_telematico": 10
+            }
+        },
+        {
+            "nominativo": "D'AQUINO Domenico",
+            "lista": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nominativo": "CHISARI Erika",
+            "lista": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 30,
+                "seggio_telematico": 30
+            }
+        },
+        {
+            "nominativo": "GIUM\u00c0 Andrea",
+            "lista": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "SANFILIPPO Fulvio Marcello",
+            "lista": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 17,
+                "seggio_telematico": 17
+            }
+        },
+        {
+            "nominativo": "CENTAMORE Naomi",
+            "lista": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 21,
+                "seggio_telematico": 21
+            }
+        },
+        {
+            "nominativo": "PARASILITI Tommaso",
+            "lista": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 24,
+                "seggio_telematico": 24
+            }
+        },
+        {
+            "nominativo": "DI FINI Greta",
+            "lista": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "ASTUTI Miryam Grazia Pia",
+            "lista": "S\u00ecAMO FUTURO",
+            "voti": {
+                "totali": 7,
+                "seggio_telematico": 7
+            }
+        },
+        {
+            "nominativo": "CAL\u00cc Simona Anna",
+            "lista": "S\u00ecAMO FUTURO",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "FAILLA Daniele",
+            "lista": "S\u00ecAMO FUTURO",
+            "voti": {
+                "totali": 12,
+                "seggio_telematico": 12
+            }
+        },
+        {
+            "nominativo": "FARACI Andrea",
+            "lista": "S\u00ecAMO FUTURO",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "GATTO Chiara",
+            "lista": "S\u00ecAMO FUTURO",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "INDORATO Ilde Sofia",
+            "lista": "S\u00ecAMO FUTURO",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "LIBERTI Alessio",
+            "lista": "S\u00ecAMO FUTURO",
+            "voti": {
+                "totali": 33,
+                "seggio_telematico": 33
+            }
+        },
+        {
+            "nominativo": "LONGO Veronica",
+            "lista": "S\u00ecAMO FUTURO",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "RAPPINO Federica",
+            "lista": "S\u00ecAMO FUTURO",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "RUBERA Claudia",
+            "lista": "S\u00ecAMO FUTURO",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "SPAMPINATO Agnese Rosita",
+            "lista": "S\u00ecAMO FUTURO",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "TUMINAS Lukas",
+            "lista": "S\u00ecAMO FUTURO",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "PAPPALARDO Manfredi Ignazio",
+            "lista": "GENERAZIONE ATTIVA",
+            "voti": {
+                "totali": 7,
+                "seggio_telematico": 7
+            }
+        },
+        {
+            "nominativo": "LAMPURI Salvatore",
+            "lista": "GENERAZIONE ATTIVA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "PUGLISI Andrea",
+            "lista": "GENERAZIONE ATTIVA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "TROMBETTA Paola Maria Enrica",
+            "lista": "GENERAZIONE ATTIVA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "GUGLIELMINO Giorgia Lucia",
+            "lista": "GENERAZIONE ATTIVA",
+            "voti": {
+                "totali": 11,
+                "seggio_telematico": 11
+            }
+        }
+    ],
+    "quoziente": 133.077,
+    "votanti": {
+        "totali": 1766,
+        "percentuale": 62.69,
+        "seggio_n_telematico": 1766
+    },
+    "elettori": {
+        "totali": 2817,
+        "seggio_n_telematico": 2817
+    }
+}

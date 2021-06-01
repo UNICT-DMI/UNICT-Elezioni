@@ -1,0 +1,138 @@
+{
+    "dipartimento": "STRUTTURA DIDATTICA SPECIALE DI LINGUE E LETTERATURE STRANIERE, SEDE DECENTRATA DI RAGUSA",
+    "seggi_da_assegnare": "4",
+    "schede": {
+        "bianche": {
+            "totali": 17,
+            "seggio_n_telematico": 17
+        },
+        "nulle": {
+            "totali": 0
+        },
+        "contestate": {
+            "totali": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "WE LOVE\u2010AZIONE UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "46,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 46,
+                "seggio_telematico": 46
+            }
+        },
+        {
+            "nome": "YOUSU",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "72,5",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "3"
+            },
+            "voti": {
+                "totali": 241,
+                "seggio_telematico": 241
+            }
+        },
+        {
+            "nome": "ARCADIA REVOLUTION",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "50,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 50,
+                "seggio_telematico": 50
+            }
+        },
+        {
+            "totale": 337
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "GRAVINA Biagio",
+            "lista": "YOUSU",
+            "voti": {
+                "totali": 127,
+                "seggio_telematico": 127
+            }
+        },
+        {
+            "nominativo": "SCIORTINO Simona",
+            "lista": "YOUSU",
+            "voti": {
+                "totali": 42,
+                "seggio_telematico": 42
+            }
+        },
+        {
+            "nominativo": "PAPINI Arianna",
+            "lista": "YOUSU",
+            "voti": {
+                "totali": 43,
+                "seggio_telematico": 43
+            }
+        },
+        {
+            "nominativo": "RUBERTO Concetta",
+            "lista": "ARCADIA REVOLUTION",
+            "voti": {
+                "totali": 25,
+                "seggio_telematico": 25
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "PERCIATO Matteo",
+            "lista": "WE LOVE\u2010AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 35,
+                "seggio_telematico": 35
+            }
+        },
+        {
+            "nominativo": "CALANNA Domenico Francesco",
+            "lista": "WE LOVE\u2010AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 10,
+                "seggio_telematico": 10
+            }
+        },
+        {
+            "nominativo": "CORONA Stefano",
+            "lista": "YOUSU",
+            "voti": {
+                "totali": 25,
+                "seggio_telematico": 25
+            }
+        },
+        {
+            "nominativo": "GALLO Rachele Matilde",
+            "lista": "ARCADIA REVOLUTION",
+            "voti": {
+                "totali": 20,
+                "seggio_telematico": 20
+            }
+        }
+    ],
+    "quoziente": 84.25,
+    "votanti": {
+        "totali": 354,
+        "percentuale": 34.37,
+        "seggio_n_telematico": 354
+    },
+    "elettori": {
+        "totali": 1030,
+        "seggio_n_telematico": 1030
+    }
+}

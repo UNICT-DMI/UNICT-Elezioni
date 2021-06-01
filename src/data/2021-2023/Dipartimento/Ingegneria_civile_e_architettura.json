@@ -1,0 +1,736 @@
+{
+    "dipartimento": "DIPARTIMENTO DI INGEGNERIA CIVILE E ARCHITETTURA (DICAR)",
+    "seggi_da_assegnare": "18",
+    "schede": {
+        "bianche": {
+            "totali": 27,
+            "seggio_n_telematico": 27
+        },
+        "nulle": {
+            "totali": 0
+        },
+        "contestate": {
+            "totali": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "WE LOVE UNICT",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "28,9",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "3"
+            },
+            "voti": {
+                "totali": 121,
+                "seggio_telematico": 121
+            }
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "39,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 39,
+                "seggio_telematico": 39
+            }
+        },
+        {
+            "nome": "CREDIAMOCI",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "14,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 14,
+                "seggio_telematico": 14
+            }
+        },
+        {
+            "nome": "ACTEA",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "32,9",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "3"
+            },
+            "voti": {
+                "totali": 125,
+                "seggio_telematico": 125
+            }
+        },
+        {
+            "nome": "LAYOUT",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "18,9",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "3"
+            },
+            "voti": {
+                "totali": 111,
+                "seggio_telematico": 111
+            }
+        },
+        {
+            "nome": "INGEGNERIATTIVA",
+            "seggi": {
+                "seggi_pieni": "4",
+                "resti": "6,8",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "4"
+            },
+            "voti": {
+                "totali": 191,
+                "seggio_telematico": 191
+            }
+        },
+        {
+            "nome": "UNIONE PER IL DICAR",
+            "seggi": {
+                "seggi_pieni": "4",
+                "resti": "12,8",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "4"
+            },
+            "voti": {
+                "totali": 197,
+                "seggio_telematico": 197
+            }
+        },
+        {
+            "nome": "S\u00ecAMO FUTURO",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "18,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 18,
+                "seggio_telematico": 18
+            }
+        },
+        {
+            "nome": "GENERAZIONE ATTIVA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "13,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 13,
+                "seggio_telematico": 13
+            }
+        },
+        {
+            "totale": 829
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "APA Simone",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 57,
+                "seggio_telematico": 57
+            }
+        },
+        {
+            "nominativo": "FERRO Noemi",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 22,
+                "seggio_telematico": 22
+            }
+        },
+        {
+            "nominativo": "DENINA Andrea",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 12,
+                "seggio_telematico": 12
+            }
+        },
+        {
+            "nominativo": "CUCUZZA Dario",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 24,
+                "seggio_telematico": 24
+            }
+        },
+        {
+            "nominativo": "SFERRAZZO Antonio",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 38,
+                "seggio_telematico": 38
+            }
+        },
+        {
+            "nominativo": "SCUDERI Luca",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 17,
+                "seggio_telematico": 17
+            }
+        },
+        {
+            "nominativo": "MASSIMINO Grazia",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 18,
+                "seggio_telematico": 18
+            }
+        },
+        {
+            "nominativo": "SCAVO Gabriele",
+            "lista": "LAYOUT",
+            "voti": {
+                "totali": 51,
+                "seggio_telematico": 51
+            }
+        },
+        {
+            "nominativo": "STRAZZULLA Claudia",
+            "lista": "LAYOUT",
+            "voti": {
+                "totali": 16,
+                "seggio_telematico": 16
+            }
+        },
+        {
+            "nominativo": "TOBIA Giulia",
+            "lista": "LAYOUT",
+            "voti": {
+                "totali": 12,
+                "seggio_telematico": 12
+            }
+        },
+        {
+            "nominativo": "BAGLIO Brigitta",
+            "lista": "INGEGNERIATTIVA",
+            "voti": {
+                "totali": 28,
+                "seggio_telematico": 28
+            }
+        },
+        {
+            "nominativo": "TILARO Luigi Orazio",
+            "lista": "INGEGNERIATTIVA",
+            "voti": {
+                "totali": 49,
+                "seggio_telematico": 49
+            }
+        },
+        {
+            "nominativo": "LONGHITANO Andrea",
+            "lista": "INGEGNERIATTIVA",
+            "voti": {
+                "totali": 32,
+                "seggio_telematico": 32
+            }
+        },
+        {
+            "nominativo": "LOMEO Francesco",
+            "lista": "INGEGNERIATTIVA",
+            "voti": {
+                "totali": 23,
+                "seggio_telematico": 23
+            }
+        },
+        {
+            "nominativo": "MARINO Salvatore",
+            "lista": "UNIONE PER IL DICAR",
+            "voti": {
+                "totali": 67,
+                "seggio_telematico": 67
+            }
+        },
+        {
+            "nominativo": "INDACO Filippo",
+            "lista": "UNIONE PER IL DICAR",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "LEONE Marco",
+            "lista": "UNIONE PER IL DICAR",
+            "voti": {
+                "totali": 73,
+                "seggio_telematico": 73
+            }
+        },
+        {
+            "nominativo": "LA MALFA Giuseppe",
+            "lista": "UNIONE PER IL DICAR",
+            "voti": {
+                "totali": 49,
+                "seggio_telematico": 49
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "D'AGATE Rosario",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nominativo": "PALAZZO Mattia",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 7,
+                "seggio_telematico": 7
+            }
+        },
+        {
+            "nominativo": "PANTANO Ylenia",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "CALABRETTA Matteo",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 7,
+                "seggio_telematico": 7
+            }
+        },
+        {
+            "nominativo": "CARLINO Roberta",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "ALBERIO Marco",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "DI BARTOLO Giuseppe Valerio Maria",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "FUMOSO Francesco",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "VITALE Sebastiano",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "BISIGNANI Chiara Maria",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "SANTANGELO Marika Carolina",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "AZIONE UNIVERSITARIA",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 1
+            }
+        },
+        {
+            "nominativo": "BALBA Andrea",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nominativo": "AMAS Martina",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 9,
+                "seggio_telematico": 9
+            }
+        },
+        {
+            "nominativo": "REITANO Leo",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "CREDIAMOCI",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "SANGIORGI Anna Giulia Cosete",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "DI GAETANO Federico",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "RAO Carolina Maria",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "ALECCI Simone",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 10,
+                "seggio_telematico": 10
+            }
+        },
+        {
+            "nominativo": "PIRRELLO Giovanni",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "PUGLISI Tanya Valeria",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "ACTEA",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 3
+            }
+        },
+        {
+            "nominativo": "JAADAR Anas",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 15,
+                "seggio_telematico": 15
+            }
+        },
+        {
+            "nominativo": "RAMASAMY Marvin",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nominativo": "SEMINARA Alessio Antonino",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 9,
+                "seggio_telematico": 9
+            }
+        },
+        {
+            "nominativo": "MESSINA Antonino Emanuele",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 7,
+                "seggio_telematico": 7
+            }
+        },
+        {
+            "nominativo": "LA ROSA Francesco",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "BASILE Giuseppe",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 12,
+                "seggio_telematico": 12
+            }
+        },
+        {
+            "nominativo": "GELARDI Samuele Riccardo",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "LAYOUT",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 3
+            }
+        },
+        {
+            "nominativo": "NOLFO Maria Silvia",
+            "lista": "LAYOUT",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "BELLANTONI Luigi",
+            "lista": "LAYOUT",
+            "voti": {
+                "totali": 7,
+                "seggio_telematico": 7
+            }
+        },
+        {
+            "nominativo": "BRUNO Elia",
+            "lista": "LAYOUT",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "SOTTOSANTI Gianmarco",
+            "lista": "LAYOUT",
+            "voti": {
+                "totali": 7,
+                "seggio_telematico": 7
+            }
+        },
+        {
+            "nominativo": "BOSCARINO Martina",
+            "lista": "LAYOUT",
+            "voti": {
+                "totali": 9,
+                "seggio_telematico": 9
+            }
+        },
+        {
+            "nominativo": "PAPPALARDO Alessandro",
+            "lista": "LAYOUT",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "INGEGNERIATTIVA",
+            "lista": "LAYOUT",
+            "voti": {
+                "totali": 4
+            }
+        },
+        {
+            "nominativo": "PURPORA Alessandra",
+            "lista": "INGEGNERIATTIVA",
+            "voti": {
+                "totali": 8,
+                "seggio_telematico": 8
+            }
+        },
+        {
+            "nominativo": "PUGLISI Angela Sara",
+            "lista": "INGEGNERIATTIVA",
+            "voti": {
+                "totali": 15,
+                "seggio_telematico": 15
+            }
+        },
+        {
+            "nominativo": "SIRAGUSA Vincenzo",
+            "lista": "INGEGNERIATTIVA",
+            "voti": {
+                "totali": 7,
+                "seggio_telematico": 7
+            }
+        },
+        {
+            "nominativo": "MENDOLA Noemi",
+            "lista": "INGEGNERIATTIVA",
+            "voti": {
+                "totali": 11,
+                "seggio_telematico": 11
+            }
+        },
+        {
+            "nominativo": "DEL MONTE Matteo",
+            "lista": "INGEGNERIATTIVA",
+            "voti": {
+                "totali": 13,
+                "seggio_telematico": 13
+            }
+        },
+        {
+            "nominativo": "UNIONE PER IL DICAR",
+            "lista": "INGEGNERIATTIVA",
+            "voti": {
+                "totali": 4
+            }
+        },
+        {
+            "nominativo": "LEONARDI Giulia",
+            "lista": "UNIONE PER IL DICAR",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "VIAGGIO Carmelo",
+            "lista": "UNIONE PER IL DICAR",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "S\u00ecAMO FUTURO",
+            "lista": "UNIONE PER IL DICAR",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "CICCAZZO Lorenzo Giorgio",
+            "lista": "S\u00ecAMO FUTURO",
+            "voti": {
+                "totali": 12,
+                "seggio_telematico": 12
+            }
+        },
+        {
+            "nominativo": "GALIA Elena",
+            "lista": "S\u00ecAMO FUTURO",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "MANGIONE Francesco",
+            "lista": "S\u00ecAMO FUTURO",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "SCUDERI Roberto",
+            "lista": "S\u00ecAMO FUTURO",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "SPADARO Fulvio",
+            "lista": "S\u00ecAMO FUTURO",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "GENERAZIONE ATTIVA",
+            "lista": "S\u00ecAMO FUTURO",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "RIGOLI Ivano",
+            "lista": "GENERAZIONE ATTIVA",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "SAPIENZA Matteo",
+            "lista": "GENERAZIONE ATTIVA",
+            "voti": {
+                "totali": 8,
+                "seggio_telematico": 8
+            }
+        },
+        {
+            "nominativo": "MUSMARRA Salvatore Damiano",
+            "lista": "GENERAZIONE ATTIVA",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        }
+    ],
+    "quoziente": 46.0556,
+    "votanti": {
+        "totali": 856,
+        "percentuale": 60.88,
+        "seggio_n_telematico": 856
+    },
+    "elettori": {
+        "totali": 1406,
+        "seggio_n_telematico": 1406
+    }
+}

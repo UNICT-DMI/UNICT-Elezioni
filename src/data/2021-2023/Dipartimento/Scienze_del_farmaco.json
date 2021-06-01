@@ -1,0 +1,592 @@
+{
+    "dipartimento": "DIPARTIMENTO DI SCIENZE DEL FARMACO E DELLA SALUTE",
+    "seggi_da_assegnare": "10",
+    "schede": {
+        "bianche": {
+            "totali": 32,
+            "seggio_n_telematico": 32
+        },
+        "nulle": {
+            "totali": 0
+        },
+        "contestate": {
+            "totali": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "We love\u2010Crediamoci",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "9,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 171,
+                "seggio_telematico": 171
+            }
+        },
+        {
+            "nome": "Azione Universitaria",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "16,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 16,
+                "seggio_telematico": 16
+            }
+        },
+        {
+            "nome": "Farmamentis",
+            "seggi": {
+                "seggi_pieni": "3",
+                "resti": "26,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "3"
+            },
+            "voti": {
+                "totali": 269,
+                "seggio_telematico": 269
+            }
+        },
+        {
+            "nome": "ARCHE'",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "10,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 10,
+                "seggio_telematico": 10
+            }
+        },
+        {
+            "nome": "La Fenice",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "46,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 46,
+                "seggio_telematico": 46
+            }
+        },
+        {
+            "nome": "S\u00ecAMO FUTURO",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "65,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 65,
+                "seggio_telematico": 65
+            }
+        },
+        {
+            "nome": "Generazione attiva",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "12,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 12,
+                "seggio_telematico": 12
+            }
+        },
+        {
+            "nome": "PHARMA",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "8,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 89,
+                "seggio_telematico": 89
+            }
+        },
+        {
+            "nome": "ALLEANZA UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "51,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 132,
+                "seggio_telematico": 132
+            }
+        },
+        {
+            "totale": 810
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "D'ORTO Lucia Valentina",
+            "lista": "We love\u2010Crediamoci",
+            "voti": {
+                "totali": 83,
+                "seggio_telematico": 83
+            }
+        },
+        {
+            "nominativo": "CAUDULLO Dario",
+            "lista": "We love\u2010Crediamoci",
+            "voti": {
+                "totali": 48,
+                "seggio_telematico": 48
+            }
+        },
+        {
+            "nominativo": "ALESSANDRO Francesca",
+            "lista": "Farmamentis",
+            "voti": {
+                "totali": 181,
+                "seggio_telematico": 181
+            }
+        },
+        {
+            "nominativo": "CRISPINO Claudia",
+            "lista": "Farmamentis",
+            "voti": {
+                "totali": 37,
+                "seggio_telematico": 37
+            }
+        },
+        {
+            "nominativo": "CARUSO Gianmarco",
+            "lista": "Farmamentis",
+            "voti": {
+                "totali": 22,
+                "seggio_telematico": 22
+            }
+        },
+        {
+            "nominativo": "LICCIARDELLO Damiano",
+            "lista": "La Fenice",
+            "voti": {
+                "totali": 28,
+                "seggio_telematico": 28
+            }
+        },
+        {
+            "nominativo": "MACCARRONE Roberto",
+            "lista": "S\u00ecAMO FUTURO",
+            "voti": {
+                "totali": 27,
+                "seggio_telematico": 27
+            }
+        },
+        {
+            "nominativo": "RUSSO Giulia",
+            "lista": "PHARMA",
+            "voti": {
+                "totali": 52,
+                "seggio_telematico": 52
+            }
+        },
+        {
+            "nominativo": "ARENA Sarah",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 18,
+                "seggio_telematico": 18
+            }
+        },
+        {
+            "nominativo": "RAGUSA Martina",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 75,
+                "seggio_telematico": 75
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "D'AVOLA Cecilia",
+            "lista": "We love\u2010Crediamoci",
+            "voti": {
+                "totali": 16,
+                "seggio_telematico": 16
+            }
+        },
+        {
+            "nominativo": "BELLIA Vincenzo",
+            "lista": "We love\u2010Crediamoci",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "FERLITO Marco",
+            "lista": "We love\u2010Crediamoci",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "CHISARI Giovanni Marco Maria",
+            "lista": "We love\u2010Crediamoci",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "PARLATO Marco",
+            "lista": "We love\u2010Crediamoci",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "CATANIA Alessia Enza",
+            "lista": "We love\u2010Crediamoci",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "MOTTA Carmen",
+            "lista": "We love\u2010Crediamoci",
+            "voti": {
+                "totali": 11,
+                "seggio_telematico": 11
+            }
+        },
+        {
+            "nominativo": "PRESTIPINO Laura Anna",
+            "lista": "Azione Universitaria",
+            "voti": {
+                "totali": 7,
+                "seggio_telematico": 7
+            }
+        },
+        {
+            "nominativo": "PRESTIPINO Flavia Rosa",
+            "lista": "Azione Universitaria",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "CATANZARO Andrea",
+            "lista": "Azione Universitaria",
+            "voti": {
+                "totali": 8,
+                "seggio_telematico": 8
+            }
+        },
+        {
+            "nominativo": "LEANZA Martina Harley",
+            "lista": "Farmamentis",
+            "voti": {
+                "totali": 10,
+                "seggio_telematico": 10
+            }
+        },
+        {
+            "nominativo": "COSTANZO Daniele",
+            "lista": "Farmamentis",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "UCCELLATORE Francesco",
+            "lista": "Farmamentis",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "ARANGIO Sara Maria",
+            "lista": "Farmamentis",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "BALLOTTA Maria Grazia",
+            "lista": "Farmamentis",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "SISCARO Gaetano",
+            "lista": "Farmamentis",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "MANGANO Silvia",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "NUCIFORA Davide",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "PAPPALARDO Matteo",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 9,
+                "seggio_telematico": 9
+            }
+        },
+        {
+            "nominativo": "TORRISI Martina",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "SEGGIO Gilberto",
+            "lista": "La Fenice",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "AVARINO Michele Massimo",
+            "lista": "La Fenice",
+            "voti": {
+                "totali": 8,
+                "seggio_telematico": 8
+            }
+        },
+        {
+            "nominativo": "DIELI Raffaella Maria",
+            "lista": "La Fenice",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "MERENDINO Denise",
+            "lista": "S\u00ecAMO FUTURO",
+            "voti": {
+                "totali": 13,
+                "seggio_telematico": 13
+            }
+        },
+        {
+            "nominativo": "ORTO Serena Caterina",
+            "lista": "S\u00ecAMO FUTURO",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "LODATO Gioacchino Bruno Maria",
+            "lista": "S\u00ecAMO FUTURO",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "MUSUMECI Oriana",
+            "lista": "S\u00ecAMO FUTURO",
+            "voti": {
+                "totali": 12,
+                "seggio_telematico": 12
+            }
+        },
+        {
+            "nominativo": "TARDO Francesca Maria",
+            "lista": "S\u00ecAMO FUTURO",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "SCALIA Marco",
+            "lista": "S\u00ecAMO FUTURO",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "MOTTA Melissa",
+            "lista": "S\u00ecAMO FUTURO",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "MAZZA Michela Maria",
+            "lista": "S\u00ecAMO FUTURO",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "PIEDIGACE Umberto",
+            "lista": "Generazione attiva",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "PIEDIGACE Giuseppe",
+            "lista": "Generazione attiva",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "AMOROSO Elena",
+            "lista": "Generazione attiva",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "CONDORELLI Alessandro",
+            "lista": "Generazione attiva",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "ALI' Eleonora",
+            "lista": "Generazione attiva",
+            "voti": {
+                "totali": 7,
+                "seggio_telematico": 7
+            }
+        },
+        {
+            "nominativo": "SANTANGELO Federica",
+            "lista": "PHARMA",
+            "voti": {
+                "totali": 19,
+                "seggio_telematico": 19
+            }
+        },
+        {
+            "nominativo": "SALONIA Vittoria",
+            "lista": "PHARMA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "PISTARA' Maddalena",
+            "lista": "PHARMA",
+            "voti": {
+                "totali": 10,
+                "seggio_telematico": 10
+            }
+        },
+        {
+            "nominativo": "ROMANO Chiara Maria Rita",
+            "lista": "PHARMA",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "PUGLIESE Violetta",
+            "lista": "PHARMA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "CARUSO Maria",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 10,
+                "seggio_telematico": 10
+            }
+        },
+        {
+            "nominativo": "FLORI Francesco Gerardo",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 7,
+                "seggio_telematico": 7
+            }
+        },
+        {
+            "nominativo": "GIUNTA Vivien",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 13,
+                "seggio_telematico": 13
+            }
+        },
+        {
+            "nominativo": "GULIZIA Giusy Simona",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        }
+    ],
+    "quoziente": 81.0,
+    "votanti": {
+        "totali": 842,
+        "percentuale": 50.45,
+        "seggio_n_telematico": 842
+    },
+    "elettori": {
+        "totali": 1669,
+        "seggio_n_telematico": 1669
+    }
+}
