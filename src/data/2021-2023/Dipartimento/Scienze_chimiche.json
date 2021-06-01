@@ -1,0 +1,434 @@
+{
+    "dipartimento": "DIPARTIMENTO DI SCIENZE CHIMICHE",
+    "seggi_da_assegnare": "7",
+    "schede": {
+        "bianche": {
+            "totali": 13,
+            "seggio_n_telematico": 13
+        },
+        "nulle": {
+            "totali": 0
+        },
+        "contestate": {
+            "totali": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "Actea",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "30,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 30,
+                "seggio_telematico": 30
+            }
+        },
+        {
+            "nome": "We love UNICT",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "28,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 28,
+                "seggio_telematico": 28
+            }
+        },
+        {
+            "nome": "Azione Universitaria",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "20,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 20,
+                "seggio_telematico": 20
+            }
+        },
+        {
+            "nome": "ARCHE'",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "12,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 12,
+                "seggio_telematico": 12
+            }
+        },
+        {
+            "nome": "Ripartiamo Unict",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "30,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 30,
+                "seggio_telematico": 30
+            }
+        },
+        {
+            "nome": "RAPPRESENTANTI DSC",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "8,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 73,
+                "seggio_telematico": 73
+            }
+        },
+        {
+            "nome": "MSU",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "17,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 17,
+                "seggio_telematico": 17
+            }
+        },
+        {
+            "nome": "KEMIST",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "24,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 24,
+                "seggio_telematico": 24
+            }
+        },
+        {
+            "nome": "NUCLEO ATTIVO",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "18,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 83,
+                "seggio_telematico": 83
+            }
+        },
+        {
+            "nome": "CHIMICI TATTICI NUCLEARI",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "58,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 58,
+                "seggio_telematico": 58
+            }
+        },
+        {
+            "nome": "ALLEANZA UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "15,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 80,
+                "seggio_telematico": 80
+            }
+        },
+        {
+            "totale": 455
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "LO FARO Gianluca Maria",
+            "lista": "Actea",
+            "voti": {
+                "totali": 17,
+                "seggio_telematico": 17
+            }
+        },
+        {
+            "nominativo": "CUSCUSA Eleonora",
+            "lista": "We love UNICT",
+            "voti": {
+                "totali": 17,
+                "seggio_telematico": 17
+            }
+        },
+        {
+            "nominativo": "MAUCERI Riccardo",
+            "lista": "Ripartiamo Unict",
+            "voti": {
+                "totali": 20,
+                "seggio_telematico": 20
+            }
+        },
+        {
+            "nominativo": "SPANO' Domenico Giuseppe",
+            "lista": "RAPPRESENTANTI DSC",
+            "voti": {
+                "totali": 62,
+                "seggio_telematico": 62
+            }
+        },
+        {
+            "nominativo": "CARBONARO Antonino Biagio",
+            "lista": "NUCLEO ATTIVO",
+            "voti": {
+                "totali": 47,
+                "seggio_telematico": 47
+            }
+        },
+        {
+            "nominativo": "TOMASELLA Pascal",
+            "lista": "CHIMICI TATTICI NUCLEARI",
+            "voti": {
+                "totali": 42,
+                "seggio_telematico": 42
+            }
+        },
+        {
+            "nominativo": "SICALI Luciano Amedeo",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 53,
+                "seggio_telematico": 53
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "BARCHI Lorenzo",
+            "lista": "Actea",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "CARUSO Lorenzo",
+            "lista": "Actea",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "LIPARI Karen",
+            "lista": "Actea",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "ROSALIA Giuseppe Antonio",
+            "lista": "Actea",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "DI BIAGIO Cristina",
+            "lista": "We love UNICT",
+            "voti": {
+                "totali": 10,
+                "seggio_telematico": 10
+            }
+        },
+        {
+            "nominativo": "LA ROSA Flavio",
+            "lista": "We love UNICT",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "LANZAFAME Mattia",
+            "lista": "Azione Universitaria",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nominativo": "CIANCI Valerio",
+            "lista": "Azione Universitaria",
+            "voti": {
+                "totali": 13,
+                "seggio_telematico": 13
+            }
+        },
+        {
+            "nominativo": "CORSARO Eleonora",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "SOTTOSANTI Pietro",
+            "lista": "ARCHE'",
+            "voti": {
+                "totali": 9,
+                "seggio_telematico": 9
+            }
+        },
+        {
+            "nominativo": "CAPEZZUTO Federico",
+            "lista": "Ripartiamo Unict",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "RANDAZZO Angelo",
+            "lista": "Ripartiamo Unict",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "DINICOLA Elisea",
+            "lista": "Ripartiamo Unict",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "SALVICCIO Federica Rita",
+            "lista": "RAPPRESENTANTI DSC",
+            "voti": {
+                "totali": 10,
+                "seggio_telematico": 10
+            }
+        },
+        {
+            "nominativo": "GIARRATANA Gloria",
+            "lista": "MSU",
+            "voti": {
+                "totali": 15,
+                "seggio_telematico": 15
+            }
+        },
+        {
+            "nominativo": "BASILOTTA Gregorio",
+            "lista": "MSU",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "ISIDORO Federica",
+            "lista": "KEMIST",
+            "voti": {
+                "totali": 12,
+                "seggio_telematico": 12
+            }
+        },
+        {
+            "nominativo": "BORRELLI Roberta",
+            "lista": "KEMIST",
+            "voti": {
+                "totali": 12,
+                "seggio_telematico": 12
+            }
+        },
+        {
+            "nominativo": "FUCCIO Daria",
+            "lista": "NUCLEO ATTIVO",
+            "voti": {
+                "totali": 8,
+                "seggio_telematico": 8
+            }
+        },
+        {
+            "nominativo": "SERRAVALLE Sofia",
+            "lista": "NUCLEO ATTIVO",
+            "voti": {
+                "totali": 28,
+                "seggio_telematico": 28
+            }
+        },
+        {
+            "nominativo": "MARSIGLIONE MASSIMINO Sergio",
+            "lista": "CHIMICI TATTICI NUCLEARI",
+            "voti": {
+                "totali": 15,
+                "seggio_telematico": 15
+            }
+        },
+        {
+            "nominativo": "LO PILO PIETROPAOLO Sebastiano",
+            "lista": "CHIMICI TATTICI NUCLEARI",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "NIGRO Lorenzo",
+            "lista": "CHIMICI TATTICI NUCLEARI",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "NICOLOSI Mario",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "BONANNO Silvia",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 22,
+                "seggio_telematico": 22
+            }
+        }
+    ],
+    "quoziente": 65.0,
+    "votanti": {
+        "totali": 468,
+        "percentuale": 52.88,
+        "seggio_n_telematico": 468
+    },
+    "elettori": {
+        "totali": 885,
+        "seggio_n_telematico": 885
+    }
+}
