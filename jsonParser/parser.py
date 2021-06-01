@@ -7,7 +7,7 @@ from FormatPDF import FormatPDF
 from Target import Target
 from SelectTarget import SelectTarget
 
-def error_start(argc):
+def error_start(argc) -> None:
     if argc != 2:
         print("USAGE: python3 parser.py <filename>.pdf <0|1|2|3|other>\n")
         print("`$fileName` is the name of the file from which you want extract data.")
@@ -20,11 +20,26 @@ def error_start(argc):
         print("· `other` if you want to extract political body.")
         sys.exit(-1)
 
-def print_pars(text):
+def print_pars(text) -> None:
     for x in text:
         print(x)
 
-def save_json(str_json, filename_pdf):
+def add_scrutinati(text) -> list:
+    new_text = text
+    new_text.insert(len(new_text)-1, 'SCRUTINATI')
+
+    idx = 0
+    while idx < len(new_text):
+
+        if 'TOTALE  L' in new_text[idx] and 'TOTALE  L1' not in new_text[idx]:
+            new_text.insert(idx-1, 'SCRUTINATI')
+            idx += 1
+
+        idx += 1
+
+    return new_text
+
+def save_json(str_json, filename_pdf) -> None:
     filename = filename_pdf.replace("pdf", "json").replace("txt", "json")
     with open(filename, "w") as f:
         f.write(str_json)
@@ -43,8 +58,14 @@ def create_file_name(s, path) -> str:
             input_path = tmp
     return input_path + file_name
 
-def main(argv):
+def main(argv) -> None:
     error_start(len(argv))
+
+    """ ONLY for add SCRUTINATI """
+    # formatted_text = FormatPDF.format_pdf(argv[0], True)
+    # print_pars(add_scrutinati(formatted_text))
+    # exit(0)
+
     formatted_text = FormatPDF.format_pdf(argv[0])
     target = SelectTarget.get_instance().get_target(argv[1])
     # print_pars(formatted_text)

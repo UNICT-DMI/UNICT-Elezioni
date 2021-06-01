@@ -1,0 +1,332 @@
+{
+    "dipartimento": "SOCIOLOGIA E SERVIZIO SOCIALE - L-40 - Laurea Triennale (D.M.270/2004)",
+    "seggi_da_assegnare": "9",
+    "schede": {
+        "bianche": {
+            "totali": 5,
+            "seggio_n_telematico": 5
+        },
+        "nulle": {
+            "totali": 0
+        },
+        "contestate": {
+            "totali": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "WE LOVE UNICT",
+            "seggi": {
+                "seggi_pieni": "6",
+                "resti": "25,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "7"
+            },
+            "voti": {
+                "totali": 245,
+                "seggio_telematico": 245
+            }
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "10,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 10,
+                "seggio_telematico": 10
+            }
+        },
+        {
+            "nome": "NIKE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "2,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nome": "ARCADIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "16,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 16,
+                "seggio_telematico": 16
+            }
+        },
+        {
+            "nome": "AGORA' \u2010 GENERAZIONE ATTIVA",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "0,3",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 37,
+                "seggio_telematico": 37
+            }
+        },
+        {
+            "nome": "ALLEANZA UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "20,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 20,
+                "seggio_telematico": 20
+            }
+        },
+        {
+            "totale": 330
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "TRINGALE Sharon",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 116,
+                "seggio_telematico": 116
+            }
+        },
+        {
+            "nominativo": "GIUFFRIDA Nicolo'",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 54,
+                "seggio_telematico": 54
+            }
+        },
+        {
+            "nominativo": "CARUSO Gabriele",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 24,
+                "seggio_telematico": 24
+            }
+        },
+        {
+            "nominativo": "PENNISI Carmen",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 31,
+                "seggio_telematico": 31
+            }
+        },
+        {
+            "nominativo": "ROSELLI Alexia",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 16,
+                "seggio_telematico": 16
+            }
+        },
+        {
+            "nominativo": "PISTORIO Giuseppe Michael",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "ROMEO Martina Provvidenza",
+            "lista": "AGORA' \u2010 GENERAZIONE ATTIVA",
+            "voti": {
+                "totali": 19,
+                "seggio_telematico": 19
+            }
+        },
+        {
+            "nominativo": "PATANE' Gaia",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 8,
+                "seggio_telematico": 8
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "AZIONE UNIVERSITARIA",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "VITALE Nicholle Martina",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 7,
+                "seggio_telematico": 7
+            }
+        },
+        {
+            "nominativo": "FINOCCHIARO Elisa",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "CATANZARO Grazia",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "NIKE",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "MARCHESE Marilu'",
+            "lista": "NIKE",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "PARISI Erika",
+            "lista": "NIKE",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "ARCADIA",
+            "lista": "NIKE",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "PAPPALARDO Carla",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 13,
+                "seggio_telematico": 13
+            }
+        },
+        {
+            "nominativo": "CHIAVETTA Roberta",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "AGORA' \u2010 GENERAZIONE ATTIVA",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 1
+            }
+        },
+        {
+            "nominativo": "RUSSO Elisabetta",
+            "lista": "AGORA' \u2010 GENERAZIONE ATTIVA",
+            "voti": {
+                "totali": 7,
+                "seggio_telematico": 7
+            }
+        },
+        {
+            "nominativo": "CIRANNI Dalia",
+            "lista": "AGORA' \u2010 GENERAZIONE ATTIVA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "GUTTADAURO Stefania",
+            "lista": "AGORA' \u2010 GENERAZIONE ATTIVA",
+            "voti": {
+                "totali": 8,
+                "seggio_telematico": 8
+            }
+        },
+        {
+            "nominativo": "SARDO Alisea",
+            "lista": "AGORA' \u2010 GENERAZIONE ATTIVA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "SAPIENZA Miriam",
+            "lista": "AGORA' \u2010 GENERAZIONE ATTIVA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "ALLEANZA UNIVERSITARIA",
+            "lista": "AGORA' \u2010 GENERAZIONE ATTIVA",
+            "voti": {
+                "totali": 1
+            }
+        },
+        {
+            "nominativo": "PANEBIANCO Selenia Maria Flavia",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 8,
+                "seggio_telematico": 8
+            }
+        },
+        {
+            "nominativo": "SCUTO Maria Pia Angela",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "CRUPI Maria Sole",
+            "lista": "ALLEANZA UNIVERSITARIA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        }
+    ],
+    "quoziente": 36.667,
+    "votanti": {
+        "totali": 335,
+        "percentuale": 52.26,
+        "seggio_n_telematico": 335
+    },
+    "elettori": {
+        "totali": 641,
+        "seggio_n_telematico": 641
+    }
+}

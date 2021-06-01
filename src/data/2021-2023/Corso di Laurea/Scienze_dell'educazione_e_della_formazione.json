@@ -1,0 +1,371 @@
+{
+    "dipartimento": "SCIENZE DELL'EDUCAZIONE E DELLA FORMAZIONE - L-19 - Laurea Triennale (D.M.270/2004)",
+    "seggi_da_assegnare": "5",
+    "schede": {
+        "bianche": {
+            "totali": 13,
+            "seggio_n_telematico": 13
+        },
+        "nulle": {
+            "totali": 0
+        },
+        "contestate": {
+            "totali": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "ACTEA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "5,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nome": "M.S.U.",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "48,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 48,
+                "seggio_telematico": 48
+            }
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "48,8",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": 140,
+                "seggio_telematico": 140
+            }
+        },
+        {
+            "nome": "SUPPORTO STUDENTI",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "39,8",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 131,
+                "seggio_telematico": 131
+            }
+        },
+        {
+            "nome": "CREDIAMOCI",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "24,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 24,
+                "seggio_telematico": 24
+            }
+        },
+        {
+            "nome": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "9,8",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 101,
+                "seggio_telematico": 101
+            }
+        },
+        {
+            "nome": "S\u00ecAMO FUTURO",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "7,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 7,
+                "seggio_telematico": 7
+            }
+        },
+        {
+            "totale": 456
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "BORDONARO Myriam",
+            "lista": "M.S.U.",
+            "voti": {
+                "totali": 15,
+                "seggio_telematico": 15
+            }
+        },
+        {
+            "nominativo": "RAO Grazia detta \"Gracy\"",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 83,
+                "seggio_telematico": 83
+            }
+        },
+        {
+            "nominativo": "RUGGIERI Clorinda",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 37,
+                "seggio_telematico": 37
+            }
+        },
+        {
+            "nominativo": "MILLAURO Carlotta detta \"Carl\"",
+            "lista": "SUPPORTO STUDENTI",
+            "voti": {
+                "totali": 78,
+                "seggio_telematico": 78
+            }
+        },
+        {
+            "nominativo": "GRECO Isabella Maria",
+            "lista": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 85,
+                "seggio_telematico": 85
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "CONSOLI Alfio",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "GUARDO Serena",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "AIELLO Giulia",
+            "lista": "M.S.U.",
+            "voti": {
+                "totali": 14,
+                "seggio_telematico": 14
+            }
+        },
+        {
+            "nominativo": "BRECI Chiara",
+            "lista": "M.S.U.",
+            "voti": {
+                "totali": 9,
+                "seggio_telematico": 9
+            }
+        },
+        {
+            "nominativo": "GRADINARIU Marius Gabriel",
+            "lista": "M.S.U.",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nominativo": "PEDALINO Ester",
+            "lista": "M.S.U.",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "TIMPANARO Paola",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 17,
+                "seggio_telematico": 17
+            }
+        },
+        {
+            "nominativo": "CARUSO Alessia Rita",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "VINCI Simona",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "LO IACONO Alice",
+            "lista": "SUPPORTO STUDENTI",
+            "voti": {
+                "totali": 53,
+                "seggio_telematico": 53
+            }
+        },
+        {
+            "nominativo": "GUARINO Alessandra",
+            "lista": "SUPPORTO STUDENTI",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "CALVAGNA Federica",
+            "lista": "SUPPORTO STUDENTI",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "PIRRELLO Martina",
+            "lista": "SUPPORTO STUDENTI",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "CREDIAMOCI",
+            "lista": "SUPPORTO STUDENTI",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "AMORUSO Roberta",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 15,
+                "seggio_telematico": 15
+            }
+        },
+        {
+            "nominativo": "FATHALLAH Riheb",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 7,
+                "seggio_telematico": 7
+            }
+        },
+        {
+            "nominativo": "GUARRELLA Gloria",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 1
+            }
+        },
+        {
+            "nominativo": "RIZZO Francesco",
+            "lista": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nominativo": "BARBAGALLO Angela Agata",
+            "lista": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "RANNO Nancy Maria Carmela",
+            "lista": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "SAPIENZA Daria",
+            "lista": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "S\u00ecAMO FUTURO",
+            "lista": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "COSTANZO Simona",
+            "lista": "S\u00ecAMO FUTURO",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "DISTEFANO Daniela",
+            "lista": "S\u00ecAMO FUTURO",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "MARCHESE Giulia",
+            "lista": "S\u00ecAMO FUTURO",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        }
+    ],
+    "quoziente": 91.2,
+    "votanti": {
+        "totali": 469,
+        "percentuale": 48.35,
+        "seggio_n_telematico": 469
+    },
+    "elettori": {
+        "totali": 970,
+        "seggio_n_telematico": 970
+    }
+}
