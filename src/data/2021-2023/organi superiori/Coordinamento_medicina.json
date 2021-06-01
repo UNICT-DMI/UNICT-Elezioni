@@ -1,0 +1,53 @@
+{
+    "dipartimento": "COORDINAMENTO DELLA SCUOLA DENOMINATA FACOLTA' DI MEDICINA",
+    "schede": {
+        "bianche": {
+            "totali": 332
+        },
+        "nulle": {
+            "totali": 0
+        },
+        "contestate": {
+            "totali": 0
+        }
+    },
+    "eletti": [
+        {
+            "nominativo": "BULGARI Andrea Marco",
+            "voti": {
+                "totali": 749
+            }
+        },
+        {
+            "nominativo": "CALA' LESINA Basilio Davide",
+            "voti": {
+                "totali": 647
+            }
+        },
+        {
+            "nominativo": "D'ARMA Gaetano",
+            "voti": {
+                "totali": 875
+            }
+        },
+        {
+            "nominativo": "TRICOMI Leonardo Leandro",
+            "voti": {
+                "totali": 854
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "REINA Andrea",
+            "voti": {
+                "totali": 405
+            }
+        }
+    ],
+    "voti": {
+        "totali": 3862
+    },
+    "aventi_diritto": 5958,
+    "perc_votanti": 64.82
+}
