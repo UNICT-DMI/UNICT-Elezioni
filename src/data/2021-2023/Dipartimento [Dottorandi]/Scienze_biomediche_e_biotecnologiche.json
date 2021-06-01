@@ -1,0 +1,29 @@
+{
+    "dipartimento": "SCIENZE BIOMEDICHE E BIOTECNOLOGICHE",
+    "quorum": true,
+    "seggi_da_assegnare": 2,
+    "schede": {
+        "bianche": 3,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "DI BELLA Maria Concetta detta \"Maric\u00f2\"",
+            "voti": 11
+        },
+        {
+            "nome_candidato": "MANIACI Antonino",
+            "voti": 12
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "TRECCARICHI Simone",
+            "voti": 8
+        }
+    ],
+    "totale_voti": 34,
+    "aventi_diritto": 76,
+    "perc_votanti": 44.74
+}

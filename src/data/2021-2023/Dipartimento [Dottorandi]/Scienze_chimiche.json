@@ -1,0 +1,33 @@
+{
+    "dipartimento": "SCIENZE CHIMICHE",
+    "quorum": true,
+    "seggi_da_assegnare": 2,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "ZAMMATARO Agatino",
+            "voti": 12
+        },
+        {
+            "nome_candidato": "VENTO Fabiana",
+            "voti": 9
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "TRAVAGLIANTE Gabriele",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "BARCELLONA Matteo",
+            "voti": 3
+        }
+    ],
+    "totale_voti": 25,
+    "aventi_diritto": 42,
+    "perc_votanti": 59.52
+}

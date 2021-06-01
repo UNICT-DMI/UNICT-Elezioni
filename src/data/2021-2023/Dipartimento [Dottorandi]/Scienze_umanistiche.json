@@ -1,0 +1,37 @@
+{
+    "dipartimento": "SCIENZE UMANISTICHE",
+    "quorum": true,
+    "seggi_da_assegnare": 2,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "SANFRATELLO Giuseppe",
+            "voti": 15
+        },
+        {
+            "nome_candidato": "INTELISANO Anael Filippa",
+            "voti": 19
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "RAIMONDI Giulia",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "PRADO Francesca",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "SANTAERA Giovanna",
+            "voti": 6
+        }
+    ],
+    "totale_voti": 48,
+    "aventi_diritto": 66,
+    "perc_votanti": 72.73
+}

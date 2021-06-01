@@ -1,0 +1,20 @@
+{
+    "dipartimento": "AGRICOLTURA, ALIMENTAZIONE E AMBIENTE",
+    "quorum": true,
+    "seggi_da_assegnare": 2,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "SCIUTO Liviana",
+            "voti": 17
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 17,
+    "aventi_diritto": 31,
+    "perc_votanti": 54.84
+}

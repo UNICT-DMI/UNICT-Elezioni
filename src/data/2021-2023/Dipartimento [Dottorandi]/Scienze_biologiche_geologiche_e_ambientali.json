@@ -1,0 +1,24 @@
+{
+    "dipartimento": "SCIENZE BIOLOGICHE, GEOLOGICHE E AMBIENTALI",
+    "quorum": true,
+    "seggi_da_assegnare": 2,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "FORZESE Martina",
+            "voti": 15
+        },
+        {
+            "nome_candidato": "IGNOTO Sara",
+            "voti": 5
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 20,
+    "aventi_diritto": 28,
+    "perc_votanti": 71.43
+}
