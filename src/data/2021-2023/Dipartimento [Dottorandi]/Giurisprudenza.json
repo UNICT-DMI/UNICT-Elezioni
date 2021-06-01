@@ -1,0 +1,24 @@
+{
+    "dipartimento": "GIURISPRUDENZA",
+    "quorum": true,
+    "seggi_da_assegnare": 2,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "MICCICHE' Andrea",
+            "voti": 10
+        },
+        {
+            "nome_candidato": "PICICUTO Sandra Maria Benedetta",
+            "voti": 9
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 19,
+    "aventi_diritto": 23,
+    "perc_votanti": 82.61
+}

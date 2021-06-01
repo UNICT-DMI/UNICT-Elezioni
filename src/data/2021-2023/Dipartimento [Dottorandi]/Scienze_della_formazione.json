@@ -1,0 +1,29 @@
+{
+    "dipartimento": "SCIENZE DELLA FORMAZIONE",
+    "quorum": true,
+    "seggi_da_assegnare": 2,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "LA ROSA Valentina Lucia",
+            "voti": 7
+        },
+        {
+            "nome_candidato": "BAELI Valentina",
+            "voti": 3
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "SANFILIPPO Nunziatina",
+            "voti": 2
+        }
+    ],
+    "totale_voti": 12,
+    "aventi_diritto": 13,
+    "perc_votanti": 92.31
+}

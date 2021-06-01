@@ -1,0 +1,24 @@
+{
+    "dipartimento": "SCIENZE POLITICHE E SOCIALI",
+    "quorum": true,
+    "seggi_da_assegnare": 2,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "DI CATALDO Luigi",
+            "voti": 10
+        },
+        {
+            "nome_candidato": "DE LARA VAZQUEZ Juan Manuel",
+            "voti": 7
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 17,
+    "aventi_diritto": 23,
+    "perc_votanti": 73.91
+}

@@ -1,0 +1,29 @@
+{
+    "dipartimento": "DI: FISICA E ASTRONOMIA \"Ettore Majorana\"",
+    "quorum": true,
+    "seggi_da_assegnare": 2,
+    "schede": {
+        "bianche": 3,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "OLIVA Alessandro Alberto",
+            "voti": 13
+        },
+        {
+            "nome_candidato": "MALIZIA Federico Cosimo",
+            "voti": 7
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "RUMORE Bianca",
+            "voti": 6
+        }
+    ],
+    "totale_voti": 29,
+    "aventi_diritto": 59,
+    "perc_votanti": 49.15
+}

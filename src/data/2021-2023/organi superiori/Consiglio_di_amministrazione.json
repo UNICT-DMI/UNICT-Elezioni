@@ -1,0 +1,110 @@
+{
+    "organo": "ELEZIONI RAPPRESENTANTI STUDENTI IN SENO AL CONSIGLIO DI AMMINISTRAZIONE",
+    "seggi_da_assegnare": 2,
+    "schede": {
+        "bianche": {
+            "totali": 2302
+        },
+        "nulle": {
+            "totali": 0
+        },
+        "contestate": {
+            "totali": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "SOS UNICT",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "5254,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "0"
+            },
+            "voti": {
+                "totali": 5254
+            }
+        },
+        {
+            "nome": "CAMBIAMO UNICT",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "6963,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 6963
+            }
+        },
+        {
+            "nome": "RIPARTIAMO UNICT",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "6410,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 6410
+            }
+        },
+        {
+            "totale": 18627
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "GIRLANDO Andrea Giacomo Maria",
+            "lista": "CAMBIAMO UNICT",
+            "voti": {
+                "totali": 5411
+            }
+        },
+        {
+            "nominativo": "RAPISARDA Enrico Simone",
+            "lista": "RIPARTIAMO UNICT",
+            "voti": {
+                "totali": 4925
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "BRUCATO Simone",
+            "lista": "CAMBIAMO UNICT",
+            "voti": {
+                "totali": 1410
+            }
+        },
+        {
+            "nominativo": "LIBERTI Alessio",
+            "lista": "RIPARTIAMO UNICT",
+            "voti": {
+                "totali": 1326
+            }
+        },
+        {
+            "nominativo": "CUTRONA Christian",
+            "lista": "SOS UNICT",
+            "voti": {
+                "totali": 3618
+            }
+        },
+        {
+            "nominativo": "FUSCO Francesco Alberto",
+            "lista": "SOS UNICT",
+            "voti": {
+                "totali": 1471
+            }
+        }
+    ],
+    "quoziente": 9313.5,
+    "votanti": {
+        "totali": 20929,
+        "percentuale": 51.41
+    },
+    "elettori": {
+        "totali": 40709
+    }
+}

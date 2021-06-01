@@ -1,0 +1,29 @@
+{
+    "dipartimento": "INGEGNERIA CIVILE E ARCHITETTURA",
+    "quorum": true,
+    "seggi_da_assegnare": 2,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "LA RUSSA Federico Mario",
+            "voti": 12
+        },
+        {
+            "nome_candidato": "CUSMANO Valeria",
+            "voti": 11
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "FIAMINGO Angela",
+            "voti": 3
+        }
+    ],
+    "totale_voti": 26,
+    "aventi_diritto": 33,
+    "perc_votanti": 78.79
+}

@@ -1,0 +1,110 @@
+{
+    "organo": "ELEZIONI RAPPRESENTANTI STUDENTI IN SENO AL NUCLEO DI VALUTAZIONE",
+    "seggi_da_assegnare": 2,
+    "schede": {
+        "bianche": {
+            "totali": 2398
+        },
+        "nulle": {
+            "totali": 0
+        },
+        "contestate": {
+            "totali": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "SOS UNICT",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "4644,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "0"
+            },
+            "voti": {
+                "totali": 4644
+            }
+        },
+        {
+            "nome": "CAMBIAMO UNICT",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "7813,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 7813
+            }
+        },
+        {
+            "nome": "RIPARTIAMO UNICT",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "5785,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 5785
+            }
+        },
+        {
+            "totale": 18627
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "NICOTRA Roberta",
+            "lista": "CAMBIAMO UNICT",
+            "voti": {
+                "totali": 6651
+            }
+        },
+        {
+            "nominativo": "DIMARTINO Giuseppe",
+            "lista": "RIPARTIAMO UNICT",
+            "voti": {
+                "totali": 3163
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "PIRO Marco Salvatore",
+            "lista": "CAMBIAMO UNICT",
+            "voti": {
+                "totali": 989
+            }
+        },
+        {
+            "nominativo": "CATALANO Giuseppe Antonio",
+            "lista": "RIPARTIAMO UNICT",
+            "voti": {
+                "totali": 2459
+            }
+        },
+        {
+            "nominativo": "DI MAURO Sergio",
+            "lista": "SOS UNICT",
+            "voti": {
+                "totali": 3545
+            }
+        },
+        {
+            "nominativo": "TORRISI Daniele",
+            "lista": "SOS UNICT",
+            "voti": {
+                "totali": 924
+            }
+        }
+    ],
+    "quoziente": 9121,
+    "votanti": {
+        "totali": 18242,
+        "percentuale": 50.70
+    },
+    "elettori": {
+        "totali": 40709
+    }
+}
