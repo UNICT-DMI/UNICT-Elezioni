@@ -19,6 +19,7 @@ export const Results = (props: Props): JSX.Element => {
   if (!datareader.getYearsOfSubEntity(props.entity, props.subEntity).includes(props.anno)) {
     return (<></>);
   }
+
   return (
     <div className="Results">
       <div className="p-2">

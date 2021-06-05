@@ -16,10 +16,12 @@ interface Props {
 
 export const ResultTable = (props: Props): JSX.Element => {
   const [show, setShow] = useState(props.showList);
+
   const seggi = props.seggi ? props.seggi : datareader.getSeatsId(props.anno, props.subEntity);
   const multiDep: string[] = datareader.getMultiDepSeats(props.anno, props.subEntity);
   const lists: any[] = datareader.getLists(props.anno, props.entity, props.subEntity);
   const candidates: any[] = datareader.getAllCandidates(props.anno, props.entity, props.subEntity);
+
   function getVotiSeggio(votazioni: any): string {
     const voti: number = (
       seggi && seggi.length > 0
@@ -35,25 +37,24 @@ export const ResultTable = (props: Props): JSX.Element => {
 
     // generate tableRows
     const tableRows = [];
+
     for (let i = 0; i < maxRows; i++) {
       tableRows.push(
         <tr key={`tr-${props.anno}-${i}`}>
           {
-            lists.map((list: any): JSX.Element => {
-              return (
-                <td key={`td-${props.anno}-${i}-${list.nome}`}>
-                  {
-                    candidates[list.nome][i] &&
-                    [
-                      candidates[list.nome][i].nominativo,
-                      (<br key={`${props.anno}-${i}-${list}-${candidates[list.nome][i].nominativo}`} />),
-                      getVotiSeggio(candidates[list.nome][i].voti),
-                      candidates[list.nome][i].eletto && (<Coccarda key={`Coccarda-${list.nome}-${i}`} />)
-                    ]
-                  }
-                </td>
-              );
-            })
+            lists.map((list: any): JSX.Element =>
+              <td key={`td-${props.anno}-${i}-${list.nome}`}>
+                {
+                  candidates[list.nome][i] &&
+                  [
+                    candidates[list.nome][i].nominativo,
+                    (<br key={`${props.anno}-${i}-${list}-${candidates[list.nome][i].nominativo}`} />),
+                    getVotiSeggio(candidates[list.nome][i].voti),
+                    candidates[list.nome][i].eletto && (<Coccarda key={`Coccarda-${list.nome}-${i}`} />)
+                  ]
+                }
+              </td>
+            )
           }
         </tr>
       );
@@ -71,6 +72,7 @@ export const ResultTable = (props: Props): JSX.Element => {
         </Popover>
       );
     }
+
     return (<Popover id="detailsListPopover" />);
   }
 
@@ -114,14 +116,12 @@ export const ResultTable = (props: Props): JSX.Element => {
   function generateTableTitle(): JSX.Element {
     return (
       <div className="w-100 bg-light text-dark p-3">
-        <b>
-          <div>{props.anno}</div>
-        </b>
+        <h4 className="text-primary">{props.anno}</h4>
         {
           seggi && seggi.length > 0 && <br /> && (
             `Seggi${seggi.length === 1 ? 'o' : ''}: ${seggi.join(', ')
             }${!!multiDep && multiDep.length > 1
-              ? ` - ${multiDep.map((d) => d.replace(/_/g, ' ')).join(', ')}`
+              ? ` - ${multiDep.map((d) => d.replaceAll('_', ' ')).join(', ')}`
               : ''}`
           )
         }
