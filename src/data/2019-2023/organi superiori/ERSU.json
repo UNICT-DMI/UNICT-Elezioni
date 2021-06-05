@@ -92,7 +92,7 @@
     },
     "liste": [
         {
-            "nome": "UNITI PER I FUORI SEDE PER LE CASE DELLO STUDENTE-LISTA DIRITTO ALLO STUDIO",
+            "nome": "UNITI PER I FUORI SEDE",
             "seggi": {
                 "seggi_pieni": "-",
                 "resti": "1856,0",
@@ -389,7 +389,7 @@
     "non_eletti": [
         {
             "nominativo": "PIAZZA Vincenzo Gaetano",
-            "lista": "UNITI PER I FUORI SEDE PER LE CASE DELLO STUDENTE-LISTA DIRITTO ALLO STUDIO",
+            "lista": "UNITI PER I FUORI SEDE",
             "voti": {
                 "totali": 1013,
                 "seggio_n_1": 20,
@@ -422,7 +422,7 @@
         },
         {
             "nominativo": "SCALIA Davide",
-            "lista": "UNITI PER I FUORI SEDE PER LE CASE DELLO STUDENTE-LISTA DIRITTO ALLO STUDIO",
+            "lista": "UNITI PER I FUORI SEDE",
             "voti": {
                 "totali": 38,
                 "seggio_n_1": 0,
@@ -455,7 +455,7 @@
         },
         {
             "nominativo": "TIZZA Angela",
-            "lista": "UNITI PER I FUORI SEDE PER LE CASE DELLO STUDENTE-LISTA DIRITTO ALLO STUDIO",
+            "lista": "UNITI PER I FUORI SEDE",
             "voti": {
                 "totali": 702,
                 "seggio_n_1": 48,
