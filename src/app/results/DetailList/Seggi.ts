@@ -15,12 +15,7 @@ class DepartmentSeggi implements ISeggi {
   }
 
   get votesList(): number[] {
-    const seggi: string[] = this.seggiList;
-    const votes: number[] = [];
-    for (const seggio of seggi) {
-      votes.push(this._candidateList.voti[seggio]);
-    }
-    return votes;
+    return this.seggiList.map(seggio => this._candidateList.voti[seggio]);
   }
 }
 
@@ -39,12 +34,7 @@ class OtherSeggi implements ISeggi {
   }
 
   get votesList(): number[] {
-    const seggi: string[] = this.seggiList;
-    const votes: number[] = [];
-    for (const seggio of seggi) {
-      votes.push(this._candidateList.voti[`seggio_n_${seggio}`]);
-    }
-    return votes;
+    return this.seggiList.map(seggio => this._candidateList.voti[`seggio_n_${seggio}`]);
   }
 }
 
@@ -52,7 +42,9 @@ export class Seggi {
   seggiState: ISeggi;
 
   constructor(candidateList: any, seggi: string[] | null) {
-    this.seggiState = seggi ? new OtherSeggi(candidateList, seggi) : new DepartmentSeggi(candidateList);
+    this.seggiState = seggi
+      ? new OtherSeggi(candidateList, seggi)
+      : new DepartmentSeggi(candidateList);
   }
 
   get seggiList(): string[] {

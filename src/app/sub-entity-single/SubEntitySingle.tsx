@@ -10,7 +10,7 @@ interface Params {
   subEntity: string;
 }
 
-function higherPolitics(): JSX.Element | JSX.Element[] {
+export function higherPolitics(): JSX.Element | JSX.Element[] {
   const params: Params = useParams();
 
   let hasHighPoliticsSeats = false;
@@ -70,7 +70,7 @@ const SubEntitySingle = (): JSX.Element => {
         <div className="container-fluid">
           <h3 className="mt-5 capitalize">{fixName(params.subEntity)}</h3>
           <SubEntity key={`${params.entity}${params.subEntity}`} entity={params.entity} subEntity={params.subEntity} />
-          {higherPolitics()}
+          {/* {higherPolitics()} */}
         </div>
       </div>
     </>
