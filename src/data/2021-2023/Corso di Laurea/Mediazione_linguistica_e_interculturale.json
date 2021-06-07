@@ -260,13 +260,6 @@
             }
         },
         {
-            "nominativo": "S\u00ecAMO IBLA",
-            "lista": "UNITI PER I FUORI SEDE",
-            "voti": {
-                "totali": 1
-            }
-        },
-        {
             "nominativo": "RUVIO Nichol",
             "lista": "S\u00ecAMO IBLA",
             "voti": {
@@ -304,13 +297,6 @@
             "voti": {
                 "totali": 0,
                 "seggio_telematico": 0
-            }
-        },
-        {
-            "nominativo": "ARCADIA REVOLUTION",
-            "lista": "S\u00ecAMO IBLA",
-            "voti": {
-                "totali": 1
             }
         },
         {

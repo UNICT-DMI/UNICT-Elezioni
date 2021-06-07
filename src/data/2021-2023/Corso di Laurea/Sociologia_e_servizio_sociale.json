@@ -164,13 +164,6 @@
     ],
     "non_eletti": [
         {
-            "nominativo": "AZIONE UNIVERSITARIA",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 0
-            }
-        },
-        {
             "nominativo": "VITALE Nicholle Martina",
             "lista": "AZIONE UNIVERSITARIA",
             "voti": {
@@ -195,13 +188,6 @@
             }
         },
         {
-            "nominativo": "NIKE",
-            "lista": "AZIONE UNIVERSITARIA",
-            "voti": {
-                "totali": 0
-            }
-        },
-        {
             "nominativo": "MARCHESE Marilu'",
             "lista": "NIKE",
             "voti": {
@@ -217,13 +203,7 @@
                 "seggio_telematico": 0
             }
         },
-        {
-            "nominativo": "ARCADIA",
-            "lista": "NIKE",
-            "voti": {
-                "totali": 0
-            }
-        },
+
         {
             "nominativo": "PAPPALARDO Carla",
             "lista": "ARCADIA",
@@ -238,13 +218,6 @@
             "voti": {
                 "totali": 3,
                 "seggio_telematico": 3
-            }
-        },
-        {
-            "nominativo": "AGORA' \u2010 GENERAZIONE ATTIVA",
-            "lista": "ARCADIA",
-            "voti": {
-                "totali": 1
             }
         },
         {
@@ -285,13 +258,6 @@
             "voti": {
                 "totali": 1,
                 "seggio_telematico": 1
-            }
-        },
-        {
-            "nominativo": "ALLEANZA UNIVERSITARIA",
-            "lista": "AGORA' \u2010 GENERAZIONE ATTIVA",
-            "voti": {
-                "totali": 1
             }
         },
         {

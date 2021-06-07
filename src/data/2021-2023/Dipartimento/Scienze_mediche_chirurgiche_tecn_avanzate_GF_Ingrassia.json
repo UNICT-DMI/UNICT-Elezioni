@@ -239,13 +239,6 @@
             }
         },
         {
-            "nominativo": "ACTEA",
-            "lista": "LIBERTAS\u2010INMED",
-            "voti": {
-                "totali": 0
-            }
-        },
-        {
             "nominativo": "AMORE Vanessa",
             "lista": "ACTEA",
             "voti": {
@@ -302,13 +295,6 @@
             }
         },
         {
-            "nominativo": "WE LOVE UNICT",
-            "lista": "ACTEA",
-            "voti": {
-                "totali": 0
-            }
-        },
-        {
             "nominativo": "BARCELLA Antonio",
             "lista": "WE LOVE UNICT",
             "voti": {
@@ -354,13 +340,6 @@
             "voti": {
                 "totali": 2,
                 "seggio_telematico": 2
-            }
-        },
-        {
-            "nominativo": "ARCADIA\u2010SANILAB",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 8
             }
         },
         {

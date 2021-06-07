@@ -258,13 +258,6 @@
             }
         },
         {
-            "nominativo": "GENERAZIONE ATTIVA",
-            "lista": "S\u00ecAMO FUTURO",
-            "voti": {
-                "totali": 0
-            }
-        },
-        {
             "nominativo": "ALI' Eleonora",
             "lista": "GENERAZIONE ATTIVA",
             "voti": {
@@ -305,13 +298,6 @@
             }
         },
         {
-            "nominativo": "PHARMA",
-            "lista": "GENERAZIONE ATTIVA",
-            "voti": {
-                "totali": 1
-            }
-        },
-        {
             "nominativo": "FLORI Francesco Gerardo",
             "lista": "PHARMA",
             "voti": {
@@ -325,13 +311,6 @@
             "voti": {
                 "totali": 3,
                 "seggio_telematico": 3
-            }
-        },
-        {
-            "nominativo": "ALLEANZA UNIVERSITARIA",
-            "lista": "PHARMA",
-            "voti": {
-                "totali": 1
             }
         },
         {
