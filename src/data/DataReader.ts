@@ -57,11 +57,7 @@ class DataReader {
         for (const list of lists) {
           const candidates = this.getCandidates(year, entity, subEntity, list.nome);
           for (const candidate of candidates) {
-            let isBadCandidate = false;
-            for (const list of lists) {
-              isBadCandidate = isBadCandidate || (list.nome as string).includes(candidate.nominativo);
-            }
-            if (isBadCandidate) {
+            if (lists.findIndex((list: any) => list.nome === candidate.nominativo) !== -1) {
               console.log(`FIXED ${entity}-${subEntity}-${list.nome} candidato:${candidate.nominativo}`);
               this.removeCandidate(year, entity, subEntity, candidate.nominativo);
             }
