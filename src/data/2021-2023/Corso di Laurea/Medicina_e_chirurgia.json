@@ -684,13 +684,6 @@
             }
         },
         {
-            "nominativo": "ACTEA",
-            "lista": "CREDIAMOCI",
-            "voti": {
-                "totali": 0
-            }
-        },
-        {
             "nominativo": "SFERRAZZO Giuseppe",
             "lista": "ACTEA",
             "voti": {
@@ -736,13 +729,6 @@
             "voti": {
                 "totali": 1,
                 "seggio_telematico": 1
-            }
-        },
-        {
-            "nominativo": "LIBERTAS\u2010INMED",
-            "lista": "ACTEA",
-            "voti": {
-                "totali": 5
             }
         },
         {
@@ -834,13 +820,6 @@
             }
         },
         {
-            "nominativo": "WE LOVE UNICT",
-            "lista": "LIBERTAS\u2010INMED",
-            "voti": {
-                "totali": 1
-            }
-        },
-        {
             "nominativo": "PULVIRENTI Nicola",
             "lista": "WE LOVE UNICT",
             "voti": {
@@ -926,13 +905,6 @@
             "voti": {
                 "totali": 1,
                 "seggio_telematico": 1
-            }
-        },
-        {
-            "nominativo": "ORIZZONTE SANITA'",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 3
             }
         },
         {
@@ -1288,13 +1260,6 @@
             }
         },
         {
-            "nominativo": "SVEGLIATI UNICT",
-            "lista": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
-            "voti": {
-                "totali": 0
-            }
-        },
-        {
             "nominativo": "GUERCIO Marco",
             "lista": "SVEGLIATI UNICT",
             "voti": {
@@ -1316,13 +1281,6 @@
             "voti": {
                 "totali": 2,
                 "seggio_telematico": 2
-            }
-        },
-        {
-            "nominativo": "AZIONE UNIVERSITARIA",
-            "lista": "SVEGLIATI UNICT",
-            "voti": {
-                "totali": 0
             }
         },
         {
@@ -1363,13 +1321,6 @@
             "voti": {
                 "totali": 0,
                 "seggio_telematico": 0
-            }
-        },
-        {
-            "nominativo": "ARCHE'",
-            "lista": "AZIONE UNIVERSITARIA",
-            "voti": {
-                "totali": 6
             }
         },
         {
@@ -1533,13 +1484,6 @@
             }
         },
         {
-            "nominativo": "S\u00ecAMO FUTURO",
-            "lista": "ARCHE'",
-            "voti": {
-                "totali": 0
-            }
-        },
-        {
             "nominativo": "TINNIRELLO Gianluca Natale",
             "lista": "S\u00ecAMO FUTURO",
             "voti": {
@@ -1588,13 +1532,6 @@
             }
         },
         {
-            "nominativo": "GENERAZIONE ATTIVA",
-            "lista": "S\u00ecAMO FUTURO",
-            "voti": {
-                "totali": 1
-            }
-        },
-        {
             "nominativo": "CURCIO Giuseppe",
             "lista": "GENERAZIONE ATTIVA",
             "voti": {
@@ -1608,13 +1545,6 @@
             "voti": {
                 "totali": 0,
                 "seggio_telematico": 0
-            }
-        },
-        {
-            "nominativo": "ALLEANZA UNIVERSITARIA",
-            "lista": "GENERAZIONE ATTIVA",
-            "voti": {
-                "totali": 1
             }
         },
         {

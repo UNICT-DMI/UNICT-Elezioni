@@ -256,13 +256,6 @@
             }
         },
         {
-            "nominativo": "WE LOVE UNICT",
-            "lista": "ACTEA",
-            "voti": {
-                "totali": 2
-            }
-        },
-        {
             "nominativo": "DI CARO Enrico",
             "lista": "WE LOVE UNICT",
             "voti": {
@@ -300,13 +293,6 @@
             "voti": {
                 "totali": 16,
                 "seggio_telematico": 16
-            }
-        },
-        {
-            "nominativo": "CREDIAMOCI",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 1
             }
         },
         {
@@ -358,13 +344,6 @@
             }
         },
         {
-            "nominativo": "AZIONE UNIVERSITARIA",
-            "lista": "CREDIAMOCI",
-            "voti": {
-                "totali": 0
-            }
-        },
-        {
             "nominativo": "ALI' Asja",
             "lista": "AZIONE UNIVERSITARIA",
             "voti": {
@@ -394,13 +373,6 @@
             "voti": {
                 "totali": 2,
                 "seggio_telematico": 2
-            }
-        },
-        {
-            "nominativo": "ARCHE'",
-            "lista": "AZIONE UNIVERSITARIA",
-            "voti": {
-                "totali": 1
             }
         },
         {
@@ -452,13 +424,6 @@
             }
         },
         {
-            "nominativo": "NIKE",
-            "lista": "ARCHE'",
-            "voti": {
-                "totali": 1
-            }
-        },
-        {
             "nominativo": "FAILLA Antonio",
             "lista": "NIKE",
             "voti": {
@@ -496,13 +461,6 @@
             "voti": {
                 "totali": 21,
                 "seggio_telematico": 21
-            }
-        },
-        {
-            "nominativo": "ARCADIA \u2010 ORIZZONTE",
-            "lista": "NIKE",
-            "voti": {
-                "totali": 0
             }
         },
         {
@@ -662,13 +620,6 @@
             "voti": {
                 "totali": 4,
                 "seggio_telematico": 4
-            }
-        },
-        {
-            "nominativo": "ALLEANZA UNIVERSITARIA",
-            "lista": "GENERAZIONE ATTIVA",
-            "voti": {
-                "totali": 0
             }
         },
         {

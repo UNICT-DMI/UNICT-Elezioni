@@ -260,13 +260,6 @@
             }
         },
         {
-            "nominativo": "ACTEA",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 0
-            }
-        },
-        {
             "nominativo": "SCIFO Giuliana",
             "lista": "ACTEA",
             "voti": {
@@ -299,13 +292,6 @@
             }
         },
         {
-            "nominativo": "AZIONE UNIVERSITARIA",
-            "lista": "ACTEA",
-            "voti": {
-                "totali": 1
-            }
-        },
-        {
             "nominativo": "DI GAUDIO Irene Alessandra",
             "lista": "AZIONE UNIVERSITARIA",
             "voti": {
@@ -327,13 +313,6 @@
             "voti": {
                 "totali": 11,
                 "seggio_telematico": 11
-            }
-        },
-        {
-            "nominativo": "CREDIAMOCI",
-            "lista": "AZIONE UNIVERSITARIA",
-            "voti": {
-                "totali": 0
             }
         },
         {
@@ -369,13 +348,6 @@
             }
         },
         {
-            "nominativo": "M.S.U.",
-            "lista": "CREDIAMOCI",
-            "voti": {
-                "totali": 1
-            }
-        },
-        {
             "nominativo": "SCHILIRO' Giulia",
             "lista": "M.S.U.",
             "voti": {
@@ -397,13 +369,6 @@
             "voti": {
                 "totali": 5,
                 "seggio_telematico": 5
-            }
-        },
-        {
-            "nominativo": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
-            "lista": "M.S.U.",
-            "voti": {
-                "totali": 0
             }
         },
         {
@@ -439,13 +404,6 @@
             }
         },
         {
-            "nominativo": "OLTRE",
-            "lista": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
-            "voti": {
-                "totali": 1
-            }
-        },
-        {
             "nominativo": "NOBILE Gabriele",
             "lista": "OLTRE",
             "voti": {
@@ -467,13 +425,6 @@
             "voti": {
                 "totali": 2,
                 "seggio_telematico": 2
-            }
-        },
-        {
-            "nominativo": "ARCHE'",
-            "lista": "OLTRE",
-            "voti": {
-                "totali": 0
             }
         },
         {
@@ -501,13 +452,6 @@
             }
         },
         {
-            "nominativo": "STUDENTI UNITI",
-            "lista": "ARCHE'",
-            "voti": {
-                "totali": 0
-            }
-        },
-        {
             "nominativo": "SINATRA Giuseppe Vito",
             "lista": "STUDENTI UNITI",
             "voti": {
@@ -529,13 +473,6 @@
             "voti": {
                 "totali": 0,
                 "seggio_telematico": 0
-            }
-        },
-        {
-            "nominativo": "UNITI PER GLI STUDENTI",
-            "lista": "STUDENTI UNITI",
-            "voti": {
-                "totali": 0
             }
         },
         {
@@ -571,13 +508,6 @@
             }
         },
         {
-            "nominativo": "STUDENTI PER GLI STUDENTI",
-            "lista": "UNITI PER GLI STUDENTI",
-            "voti": {
-                "totali": 0
-            }
-        },
-        {
             "nominativo": "PORTO Emanuela",
             "lista": "STUDENTI PER GLI STUDENTI",
             "voti": {
@@ -610,13 +540,6 @@
             }
         },
         {
-            "nominativo": "FORMAMENTIS",
-            "lista": "STUDENTI PER GLI STUDENTI",
-            "voti": {
-                "totali": 0
-            }
-        },
-        {
             "nominativo": "INTELISANO Martina",
             "lista": "FORMAMENTIS",
             "voti": {
@@ -638,13 +561,6 @@
             "voti": {
                 "totali": 0,
                 "seggio_telematico": 0
-            }
-        },
-        {
-            "nominativo": "S\u00ecAMO FUTURO",
-            "lista": "FORMAMENTIS",
-            "voti": {
-                "totali": 0
             }
         },
         {
@@ -677,13 +593,6 @@
             "voti": {
                 "totali": 2,
                 "seggio_telematico": 2
-            }
-        },
-        {
-            "nominativo": "UNITI PER I FUORI SEDE",
-            "lista": "S\u00ecAMO FUTURO",
-            "voti": {
-                "totali": 0
             }
         },
         {
