@@ -6,12 +6,14 @@ import SubEntity from '../sub-entity/SubEntity';
 import fixName from '../utils/FixName';
 import './SubEntityList.scss';
 import { faList } from '@fortawesome/free-solid-svg-icons';
+import ReactGA from 'react-ga';
 
 interface Params {
   entity: string;
 }
 
 const SubEntityList = (params: Params): JSX.Element => {
+  ReactGA.pageview(window.location.hash);
   const entitiesPerPage = 5;
   const [next, setNext] = useState(entitiesPerPage);
 

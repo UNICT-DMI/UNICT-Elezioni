@@ -4,6 +4,7 @@ import { datareader } from '../../data/DataReader';
 import Results from '../results/Results/Results';
 import SubEntity from '../sub-entity/SubEntity';
 import fixName from '../utils/FixName';
+import ReactGA from 'react-ga';
 
 interface Params {
   entity: string;
@@ -62,6 +63,7 @@ export function higherPolitics(): JSX.Element | JSX.Element[] {
 }
 
 const SubEntitySingle = (): JSX.Element => {
+  ReactGA.pageview(window.location.hash);
   const params: Params = useParams();
 
   return (
