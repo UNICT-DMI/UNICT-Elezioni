@@ -293,13 +293,6 @@
             }
         },
         {
-            "nominativo": "WE LOVE UNICT",
-            "lista": "SVOLTA",
-            "voti": {
-                "totali": 3
-            }
-        },
-        {
             "nominativo": "PETRALIA Nicolo'",
             "lista": "WE LOVE UNICT",
             "voti": {
@@ -340,13 +333,6 @@
             }
         },
         {
-            "nominativo": "AZIONE UNIVERSITARIA",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 2
-            }
-        },
-        {
             "nominativo": "FEDERICI Simone",
             "lista": "AZIONE UNIVERSITARIA",
             "voti": {
@@ -368,13 +354,6 @@
             "voti": {
                 "totali": 0,
                 "seggio_telematico": 0
-            }
-        },
-        {
-            "nominativo": "ACTEA",
-            "lista": "AZIONE UNIVERSITARIA",
-            "voti": {
-                "totali": 2
             }
         },
         {
@@ -450,13 +429,6 @@
             }
         },
         {
-            "nominativo": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
-            "lista": "ACTEA",
-            "voti": {
-                "totali": 2
-            }
-        },
-        {
             "nominativo": "AMATO Stefany",
             "lista": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
             "voti": {
@@ -470,13 +442,6 @@
             "voti": {
                 "totali": 26,
                 "seggio_telematico": 26
-            }
-        },
-        {
-            "nominativo": "ARCHE'",
-            "lista": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
-            "voti": {
-                "totali": 1
             }
         },
         {
@@ -536,13 +501,6 @@
             }
         },
         {
-            "nominativo": "ORIZZONTE SANITA'",
-            "lista": "ARCHE'",
-            "voti": {
-                "totali": 0
-            }
-        },
-        {
             "nominativo": "SANTORO Alberto",
             "lista": "ORIZZONTE SANITA'",
             "voti": {
@@ -556,13 +514,6 @@
             "voti": {
                 "totali": 1,
                 "seggio_telematico": 1
-            }
-        },
-        {
-            "nominativo": "INMED",
-            "lista": "ORIZZONTE SANITA'",
-            "voti": {
-                "totali": 2
             }
         },
         {
@@ -630,13 +581,6 @@
             }
         },
         {
-            "nominativo": "GENERAZIONE ATTIVA",
-            "lista": "INMED",
-            "voti": {
-                "totali": 1
-            }
-        },
-        {
             "nominativo": "CANNAVO' Anna",
             "lista": "GENERAZIONE ATTIVA",
             "voti": {
@@ -658,13 +602,6 @@
             "voti": {
                 "totali": 2,
                 "seggio_telematico": 2
-            }
-        },
-        {
-            "nominativo": "UNIVERSITA' POPOLARE GENERAZIONE ATTIVA",
-            "lista": "GENERAZIONE ATTIVA",
-            "voti": {
-                "totali": 0
             }
         },
         {
@@ -697,13 +634,6 @@
             "voti": {
                 "totali": 0,
                 "seggio_telematico": 0
-            }
-        },
-        {
-            "nominativo": "ALLEANZA UNIVERSITARIA",
-            "lista": "UNIVERSITA' POPOLARE GENERAZIONE ATTIVA",
-            "voti": {
-                "totali": 1
             }
         },
         {

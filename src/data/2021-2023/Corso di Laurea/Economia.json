@@ -219,13 +219,6 @@
             }
         },
         {
-            "nominativo": "ACTEA",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 2
-            }
-        },
-        {
             "nominativo": "STRANO Mario",
             "lista": "ACTEA",
             "voti": {
@@ -247,13 +240,6 @@
             "voti": {
                 "totali": 6,
                 "seggio_telematico": 6
-            }
-        },
-        {
-            "nominativo": "ETERNA",
-            "lista": "ACTEA",
-            "voti": {
-                "totali": 1
             }
         },
         {
@@ -289,13 +275,6 @@
             }
         },
         {
-            "nominativo": "CREDIAMOCI",
-            "lista": "ETERNA",
-            "voti": {
-                "totali": 1
-            }
-        },
-        {
             "nominativo": "RUSSO Francesco Sebastiano Detto \"Ciro\"",
             "lista": "CREDIAMOCI",
             "voti": {
@@ -325,13 +304,6 @@
             "voti": {
                 "totali": 2,
                 "seggio_telematico": 2
-            }
-        },
-        {
-            "nominativo": "ARCHE'",
-            "lista": "CREDIAMOCI",
-            "voti": {
-                "totali": 0
             }
         },
         {
@@ -372,13 +344,6 @@
             "voti": {
                 "totali": 12,
                 "seggio_telematico": 12
-            }
-        },
-        {
-            "nominativo": "NIKE",
-            "lista": "ARCHE'",
-            "voti": {
-                "totali": 1
             }
         },
         {
@@ -461,13 +426,6 @@
             }
         },
         {
-            "nominativo": "GENERAZIONE ATTIVA",
-            "lista": "S\u00ecAMO FUTURO",
-            "voti": {
-                "totali": 0
-            }
-        },
-        {
             "nominativo": "BIANCA Roberto",
             "lista": "GENERAZIONE ATTIVA",
             "voti": {
@@ -497,13 +455,6 @@
             "voti": {
                 "totali": 4,
                 "seggio_telematico": 4
-            }
-        },
-        {
-            "nominativo": "ALLEANZA UNIVERSITARIA",
-            "lista": "GENERAZIONE ATTIVA",
-            "voti": {
-                "totali": 0
             }
         },
         {

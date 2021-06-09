@@ -513,13 +513,6 @@
             }
         },
         {
-            "nominativo": "DISUM NIKE",
-            "lista": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
-            "voti": {
-                "totali": 2
-            }
-        },
-        {
             "nominativo": "ROMANO Giada",
             "lista": "DISUM NIKE",
             "voti": {
@@ -717,13 +710,6 @@
             }
         },
         {
-            "nominativo": "GENERAZIONE ATTIVA",
-            "lista": "UNITI PER I FUORISEDE",
-            "voti": {
-                "totali": 0
-            }
-        },
-        {
             "nominativo": "INTELISANO Giuseppe",
             "lista": "GENERAZIONE ATTIVA",
             "voti": {
@@ -761,13 +747,6 @@
             "voti": {
                 "totali": 0,
                 "seggio_telematico": 0
-            }
-        },
-        {
-            "nominativo": "ALLEANZA UNIVERSITARIA",
-            "lista": "GENERAZIONE ATTIVA",
-            "voti": {
-                "totali": 0
             }
         },
         {
