@@ -17,6 +17,9 @@ import SubEntityList from './sub-entity-list/SubEntityList';
 import SubEntity from './sub-entity/SubEntity';
 import SubEntitySingle from './sub-entity-single/SubEntitySingle';
 import fixName from './utils/FixName';
+import ReactGA from 'react-ga';
+
+ReactGA.initialize('UA-199154600-1');
 
 const App = (): JSX.Element => {
   function higherPoliticsRoutes(): JSX.Element[] {

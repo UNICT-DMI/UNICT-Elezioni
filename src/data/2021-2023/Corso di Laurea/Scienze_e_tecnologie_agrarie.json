@@ -188,13 +188,6 @@
             }
         },
         {
-            "nominativo": "DI3ACT",
-            "lista": "ACTEA",
-            "voti": {
-                "totali": 1
-            }
-        },
-        {
             "nominativo": "BENINTENDE Luca",
             "lista": "DI3ACT",
             "voti": {
@@ -232,13 +225,6 @@
             "voti": {
                 "totali": 5,
                 "seggio_telematico": 5
-            }
-        },
-        {
-            "nominativo": "WE LOVE UNICT",
-            "lista": "DI3ACT",
-            "voti": {
-                "totali": 2
             }
         },
         {
@@ -281,13 +267,7 @@
                 "seggio_telematico": 0
             }
         },
-        {
-            "nominativo": "ARCADIA",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 2
-            }
-        },
+
         {
             "nominativo": "CARDELLO Giorgia",
             "lista": "ARCADIA",
@@ -326,13 +306,6 @@
             "voti": {
                 "totali": 1,
                 "seggio_telematico": 1
-            }
-        },
-        {
-            "nominativo": "AZIONE UNIVERSITARIA",
-            "lista": "ARCADIA",
-            "voti": {
-                "totali": 1
             }
         },
         {

@@ -365,13 +365,6 @@
             }
         },
         {
-            "nominativo": "DI3ACT",
-            "lista": "ACTEA",
-            "voti": {
-                "totali": 3
-            }
-        },
-        {
             "nominativo": "CHILLEMI Dalila",
             "lista": "DI3ACT",
             "voti": {
@@ -460,13 +453,6 @@
             }
         },
         {
-            "nominativo": "M3A",
-            "lista": "DI3ACT",
-            "voti": {
-                "totali": 2
-            }
-        },
-        {
             "nominativo": "SOTTOSANTI Giuseppe",
             "lista": "M3A",
             "voti": {
@@ -507,13 +493,6 @@
             }
         },
         {
-            "nominativo": "WE LOVE UNICT",
-            "lista": "M3A",
-            "voti": {
-                "totali": 2
-            }
-        },
-        {
             "nominativo": "FICHERA Filippo",
             "lista": "WE LOVE UNICT",
             "voti": {
@@ -543,13 +522,6 @@
             "voti": {
                 "totali": 2,
                 "seggio_telematico": 2
-            }
-        },
-        {
-            "nominativo": "CREDIAMOCI",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 0
             }
         },
         {
@@ -616,13 +588,7 @@
                 "seggio_telematico": 6
             }
         },
-        {
-            "nominativo": "ARCADIA",
-            "lista": "CREDIAMOCI",
-            "voti": {
-                "totali": 5
-            }
-        },
+
         {
             "nominativo": "CATALANO Giuseppe Antonio",
             "lista": "ARCADIA",
@@ -733,13 +699,6 @@
             "voti": {
                 "totali": 1,
                 "seggio_telematico": 1
-            }
-        },
-        {
-            "nominativo": "FOOD REVOLUTION",
-            "lista": "ARCADIA",
-            "voti": {
-                "totali": 1
             }
         },
         {
@@ -887,13 +846,6 @@
             }
         },
         {
-            "nominativo": "AZIONE UNIVERSITARIA",
-            "lista": "FOOD REVOLUTION",
-            "voti": {
-                "totali": 1
-            }
-        },
-        {
             "nominativo": "VITALE Alessio",
             "lista": "AZIONE UNIVERSITARIA",
             "voti": {
@@ -970,13 +922,6 @@
             "voti": {
                 "totali": 2,
                 "seggio_telematico": 2
-            }
-        },
-        {
-            "nominativo": "GENERAZIONE ATTIVA",
-            "lista": "S\u00ecAMO FUTURO",
-            "voti": {
-                "totali": 0
             }
         },
         {
@@ -1057,13 +1002,6 @@
             "voti": {
                 "totali": 0,
                 "seggio_telematico": 0
-            }
-        },
-        {
-            "nominativo": "ALLEANZA UNIVERSITARIA",
-            "lista": "GENERAZIONE ATTIVA",
-            "voti": {
-                "totali": 0
             }
         },
         {

@@ -40,9 +40,12 @@ export const SearchPage = (): JSX.Element => {
             <Card.Title>
               <FontAwesomeIcon icon={faGraduationCap} />
               <br />
-              {suggestion.name.replaceAll('_', ' ')}
+              <div className="capitalize">
+                {suggestion.name.replaceAll('_', ' ')}
+              </div>
               <br />
             </Card.Title>
+            {showResultsButton('#/' + suggestion.path)}
           </Card.Body>
         </Card>
       </div >

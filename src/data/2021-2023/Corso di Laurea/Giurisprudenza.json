@@ -333,13 +333,6 @@
             }
         },
         {
-            "nominativo": "ANTIGONE \u2010 WE LOVE UNICT",
-            "lista": "CREDIAMOCI",
-            "voti": {
-                "totali": 0
-            }
-        },
-        {
             "nominativo": "SGROI Giuseppe",
             "lista": "ANTIGONE \u2010 WE LOVE UNICT",
             "voti": {
@@ -401,13 +394,6 @@
             "voti": {
                 "totali": 1,
                 "seggio_telematico": 1
-            }
-        },
-        {
-            "nominativo": "Azione universitaria",
-            "lista": "ANTIGONE \u2010 WE LOVE UNICT",
-            "voti": {
-                "totali": 2
             }
         },
         {
@@ -491,13 +477,6 @@
             }
         },
         {
-            "nominativo": "ARCHE'",
-            "lista": "Azione universitaria",
-            "voti": {
-                "totali": 0
-            }
-        },
-        {
             "nominativo": "AIELLO Ludovica",
             "lista": "ARCHE'",
             "voti": {
@@ -543,13 +522,6 @@
             "voti": {
                 "totali": 0,
                 "seggio_telematico": 0
-            }
-        },
-        {
-            "nominativo": "GIURISPRUDENZATTIVA",
-            "lista": "ARCHE'",
-            "voti": {
-                "totali": 4
             }
         },
         {
@@ -614,13 +586,6 @@
             "voti": {
                 "totali": 12,
                 "seggio_telematico": 12
-            }
-        },
-        {
-            "nominativo": "S\u00ecAMO FUTURO",
-            "lista": "GIURISPRUDENZATTIVA",
-            "voti": {
-                "totali": 1
             }
         },
         {
@@ -712,13 +677,6 @@
             }
         },
         {
-            "nominativo": "ARCADIA",
-            "lista": "S\u00ecAMO FUTURO",
-            "voti": {
-                "totali": 0
-            }
-        },
-        {
             "nominativo": "PAGANO SCORCIO Matteo",
             "lista": "ARCADIA",
             "voti": {
@@ -764,13 +722,6 @@
             "voti": {
                 "totali": 2,
                 "seggio_telematico": 2
-            }
-        },
-        {
-            "nominativo": "ALLEANZA UNIVERSITARIA\u2010INFOLEX",
-            "lista": "ARCADIA",
-            "voti": {
-                "totali": 1
             }
         },
         {
@@ -955,13 +906,6 @@
             "voti": {
                 "totali": 0,
                 "seggio_telematico": 0
-            }
-        },
-        {
-            "nominativo": "Generazione Attiva",
-            "lista": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
-            "voti": {
-                "totali": 0
             }
         },
         {

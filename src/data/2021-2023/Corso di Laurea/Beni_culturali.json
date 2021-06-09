@@ -166,13 +166,6 @@
     ],
     "non_eletti": [
         {
-            "nominativo": "#INFODISUM",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 0
-            }
-        },
-        {
             "nominativo": "VALERIO Alberto",
             "lista": "#INFODISUM",
             "voti": {
@@ -186,13 +179,6 @@
             "voti": {
                 "totali": 2,
                 "seggio_telematico": 2
-            }
-        },
-        {
-            "nominativo": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
-            "lista": "#INFODISUM",
-            "voti": {
-                "totali": 3
             }
         },
         {
@@ -236,13 +222,6 @@
             }
         },
         {
-            "nominativo": "DISUM NIKE",
-            "lista": "LA FINESTRA\u2010LIBERI DI SCEGLIERE",
-            "voti": {
-                "totali": 1
-            }
-        },
-        {
             "nominativo": "BORGESI Aurora",
             "lista": "DISUM NIKE",
             "voti": {
@@ -256,13 +235,6 @@
             "voti": {
                 "totali": 0,
                 "seggio_telematico": 0
-            }
-        },
-        {
-            "nominativo": "S\u00ecAMO FUTURO",
-            "lista": "DISUM NIKE",
-            "voti": {
-                "totali": 1
             }
         },
         {
@@ -295,13 +267,6 @@
             "voti": {
                 "totali": 0,
                 "seggio_telematico": 0
-            }
-        },
-        {
-            "nominativo": "AGORA'",
-            "lista": "S\u00ecAMO FUTURO",
-            "voti": {
-                "totali": 1
             }
         },
         {

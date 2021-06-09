@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { datareader } from '../../data/DataReader';
 import Results from '../results/Results/Results';
 import ResultsUninominal from '../results/ResultsUninominal/ResultsUninominal';
+import ReactGA from 'react-ga';
 
 interface Params {
   entity: string;
@@ -9,6 +10,12 @@ interface Params {
 }
 
 const SubEntity = (params: Params): JSX.Element => {
+  useEffect(() => {
+    if (params.entity === 'organi superiori') {
+      ReactGA.pageview(params.subEntity);
+    }
+  });
+
   return (
     <div className="mt-4">
       {

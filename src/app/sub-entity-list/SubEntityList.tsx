@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Button, Dropdown, DropdownButton } from 'react-bootstrap';
 import { datareader } from '../../data/DataReader';
@@ -6,12 +6,16 @@ import SubEntity from '../sub-entity/SubEntity';
 import fixName from '../utils/FixName';
 import './SubEntityList.scss';
 import { faList } from '@fortawesome/free-solid-svg-icons';
+import ReactGA from 'react-ga';
 
 interface Params {
   entity: string;
 }
 
 const SubEntityList = (params: Params): JSX.Element => {
+  useEffect(() => {
+    ReactGA.pageview(window.location.hash);
+  });
   const entitiesPerPage = 5;
   const [next, setNext] = useState(entitiesPerPage);
 

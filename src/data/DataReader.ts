@@ -40,7 +40,36 @@ class DataReader {
       const namespace = fileName.replace('.json', '');
       this.insert(namespace, JSON.parse(JSON.stringify(resource)));
     });
-    // console.log(this.getAllCandidates('2018-2020', 'dipartimenti', 'Matematica_e_informatica'));
+    this.fix20212023();
+    // console.log(this.getCandidates('2018-2020', 'Dipartimento', 'Matematica_e_informatica', 'DMI INSIDER'));
+  }
+
+  fix20212023(): void {
+    const year = '2021-2023';
+    const entities = this.getEntities(year);
+    for (const entity of entities) {
+      const subEntities = this.getSubEntities(year, entity);
+      for (const subEntity of subEntities) {
+        if (this.isUninominal(year, entity, subEntity)) {
+          continue;
+        }
+        const lists = this.getLists(year, entity, subEntity);
+        for (const list of lists) {
+          const candidates = this.getCandidates(year, entity, subEntity, list.nome);
+          for (const candidate of candidates) {
+            if (lists.findIndex((list: any) => list.nome === candidate.nominativo) !== -1) {
+              console.log(`FIXED ${entity}-${subEntity}-${list.nome} candidato:${candidate.nominativo}`);
+              this.removeCandidate(year, entity, subEntity, candidate.nominativo);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  removeCandidate(years: string, entity: string, subEntity: string, candidateName: string): void {
+    this.data[years][entity][subEntity].eletti = (this.data[years][entity][subEntity].eletti as any[]).filter((candidate: any) => !((candidate.nominativo as string).includes(candidateName)));
+    this.data[years][entity][subEntity].non_eletti = (this.data[years][entity][subEntity].non_eletti as any[]).filter((candidate: any) => !((candidate.nominativo as string).includes(candidateName)));
   }
 
   getYears(): string[] {

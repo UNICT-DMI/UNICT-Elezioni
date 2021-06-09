@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Home.scss';
 import Icon from '@mdi/react';
 import { mdiBallotOutline, mdiDatabase, mdiGestureTap, mdiGithub, mdiProgressWrench, mdiVote } from '@mdi/js';
+import ReactGA from 'react-ga';
 
 function Home(): JSX.Element {
+  useEffect(() => {
+    ReactGA.pageview(window.location.hash);
+  });
   return (
     <div className="home">
       <div className="home-slide-first position-relative overflow-hidden p-3 p-md-5 text-center bg-light">

@@ -296,13 +296,6 @@
             }
         },
         {
-            "nominativo": "WE LOVE UNICT",
-            "lista": "ACTEA",
-            "voti": {
-                "totali": 4
-            }
-        },
-        {
             "nominativo": "OLIVERI Francesco",
             "lista": "WE LOVE UNICT",
             "voti": {
@@ -364,13 +357,6 @@
             "voti": {
                 "totali": 25,
                 "seggio_telematico": 25
-            }
-        },
-        {
-            "nominativo": "ETERNA",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 1
             }
         },
         {
@@ -443,13 +429,6 @@
             "voti": {
                 "totali": 6,
                 "seggio_telematico": 6
-            }
-        },
-        {
-            "nominativo": "CREDIAMOCI",
-            "lista": "ETERNA",
-            "voti": {
-                "totali": 1
             }
         },
         {
@@ -541,13 +520,6 @@
             }
         },
         {
-            "nominativo": "AZIONE UNIVERSITARIA",
-            "lista": "CREDIAMOCI",
-            "voti": {
-                "totali": 0
-            }
-        },
-        {
             "nominativo": "COSENTINO Corrado",
             "lista": "AZIONE UNIVERSITARIA",
             "voti": {
@@ -601,13 +573,6 @@
             "voti": {
                 "totali": 9,
                 "seggio_telematico": 9
-            }
-        },
-        {
-            "nominativo": "NIKE",
-            "lista": "AZIONE UNIVERSITARIA",
-            "voti": {
-                "totali": 2
             }
         },
         {
@@ -688,13 +653,6 @@
             "voti": {
                 "totali": 3,
                 "seggio_telematico": 3
-            }
-        },
-        {
-            "nominativo": "S\u00ecAMO FUTURO\u2010LIBERTAS",
-            "lista": "NIKE",
-            "voti": {
-                "totali": 0
             }
         },
         {
@@ -794,13 +752,6 @@
             }
         },
         {
-            "nominativo": "GENERAZIONE ATTIVA",
-            "lista": "S\u00ecAMO FUTURO\u2010LIBERTAS",
-            "voti": {
-                "totali": 0
-            }
-        },
-        {
             "nominativo": "RIELA Davide",
             "lista": "GENERAZIONE ATTIVA",
             "voti": {
@@ -889,13 +840,6 @@
             }
         },
         {
-            "nominativo": "ARCHE'",
-            "lista": "GENERAZIONE ATTIVA",
-            "voti": {
-                "totali": 1
-            }
-        },
-        {
             "nominativo": "ALESSANDRO Salvatore Junior",
             "lista": "ARCHE'",
             "voti": {
@@ -981,13 +925,6 @@
             "voti": {
                 "totali": 9,
                 "seggio_telematico": 9
-            }
-        },
-        {
-            "nominativo": "ALLEANZA UNIVERSITARIA",
-            "lista": "ARCHE'",
-            "voti": {
-                "totali": 1
             }
         },
         {
