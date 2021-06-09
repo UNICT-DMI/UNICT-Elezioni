@@ -3,9 +3,6 @@ import ReactDOM from 'react-dom';
 import './index.scss';
 import App from './app/App';
 import * as serviceWorker from './serviceWorker';
-import ReactGA from 'react-ga';
-
-ReactGA.initialize('G-YXFKEG24H3');
 
 ReactDOM.render(
   <App />,

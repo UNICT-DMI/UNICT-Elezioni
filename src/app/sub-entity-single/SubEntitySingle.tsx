@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { datareader } from '../../data/DataReader';
 import Results from '../results/Results/Results';
@@ -63,7 +63,9 @@ export function higherPolitics(): JSX.Element | JSX.Element[] {
 }
 
 const SubEntitySingle = (): JSX.Element => {
-  ReactGA.pageview(window.location.hash);
+  useEffect(() => {
+    ReactGA.pageview(window.location.hash);
+  });
   const params: Params = useParams();
 
   return (
