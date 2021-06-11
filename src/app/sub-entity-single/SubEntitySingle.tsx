@@ -5,6 +5,8 @@ import Results from '../results/Results/Results';
 import SubEntity from '../sub-entity/SubEntity';
 import fixName from '../utils/FixName';
 import ReactGA from 'react-ga';
+import { Breadcrumb } from 'react-bootstrap';
+import './SubEntitySingle.scss';
 
 interface Params {
   entity: string;
@@ -72,7 +74,14 @@ const SubEntitySingle = (): JSX.Element => {
     <>
       <div className="sub-entity">
         <div className="container-fluid">
-          <h3 className="mt-5 capitalize">{fixName(params.subEntity)}</h3>
+          <Breadcrumb className="container">
+            <Breadcrumb.Item href="#/home">Home</Breadcrumb.Item>
+            <Breadcrumb.Item href={`#/${params.entity}`}>
+              {fixName(params.entity)}
+            </Breadcrumb.Item>
+            <Breadcrumb.Item active>{fixName(params.subEntity)}</Breadcrumb.Item>
+          </Breadcrumb>
+          <h3 className="mt-4 capitalize">{fixName(params.subEntity)}</h3>
           <SubEntity key={`${params.entity}${params.subEntity}`} entity={params.entity} subEntity={params.subEntity} />
           {/* {higherPolitics()} */}
         </div>

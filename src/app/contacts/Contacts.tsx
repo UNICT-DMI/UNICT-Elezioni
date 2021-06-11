@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { ListGroup, Button } from 'react-bootstrap';
 import { faGithub, faLinkedin, faTelegramPlane } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './Contacts.scss';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import ReactGA from 'react-ga';
 
 interface ContactDetails {
   nominativo: string;
@@ -14,6 +15,9 @@ interface ContactDetails {
 }
 
 const Contact = (props: ContactDetails): JSX.Element => {
+  useEffect(() => {
+    ReactGA.pageview(window.location.hash);
+  });
   return (
     <ListGroup.Item className="d-flex justify-content-between align-items-center">
       {props.nominativo}
