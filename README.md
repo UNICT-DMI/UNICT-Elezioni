@@ -1,4 +1,5 @@
 # UNICT-Elezioni
+[![CodeFactor](https://www.codefactor.io/repository/github/unict-dmi/unict-elezioni/badge)](https://www.codefactor.io/repository/github/unict-dmi/unict-elezioni)
 
 ## Live demo
 
