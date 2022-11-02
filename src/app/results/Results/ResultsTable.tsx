@@ -50,9 +50,11 @@ export const ResultTable = (props: Props): JSX.Element => {
                     candidates[list.nome][i].nominativo,
                     (<br key={`${props.anno}-${i}-${list}-${candidates[list.nome][i].nominativo}`} />),
                     getVotiSeggio(candidates[list.nome][i].voti),
-                    candidates[list.nome][i].eletto
-                    ? (<Coccarda key={`Coccarda-${list.nome}-${i}`} />) : null
-                  ] : null
+                    candidates[list.nome][i].eletto ?
+                    (<Coccarda key={`Coccarda-${list.nome}-${i}`} />) :
+                    null
+                  ] :
+                  null
                 }
               </td>
             )
@@ -91,8 +93,8 @@ export const ResultTable = (props: Props): JSX.Element => {
               (
                 <th key={`${props.anno}-lista-${list.nome}`}>
                   {
-                    (props.showDetailsList && seggi && seggi.length)
-                    ? (
+                    (props.showDetailsList && seggi && seggi.length) ?
+                    (
                       <OverlayTrigger
                         placement="bottom"
                         overlay={detailsListPopover(list)}
@@ -120,24 +122,28 @@ export const ResultTable = (props: Props): JSX.Element => {
       <div className="w-100 bg-light text-dark p-3">
         <h4 className="text-primary">{props.anno}</h4>
         {
-          seggi && seggi.length ? (<br /> && (
+          seggi && seggi.length ?
+          (<br /> && (
             `Seggi${seggi.length === 1 ? 'o' : ''}: ${seggi.join(', ')
             }${!!multiDep && multiDep.length > 1
               ? ` - ${multiDep.map((d) => d.replaceAll('_', ' ')).join(', ')}`
               : ''}`
-          )) : null
+          )) :
+          null
         }
         {
-          !datareader.hasPassedQuorum(props.anno, props.entity, props.subEntity)
-          ? (
+          !datareader.hasPassedQuorum(props.anno, props.entity, props.subEntity) ?
+          (
             <b className="text-danger">[Quorum non raggiunto]</b>
-          ) : null
+          ) :
+          null
         }
         {
-          props.anno === '2021-2023'
-          ? (
+          props.anno === '2021-2023' ?
+          (
             <b className="text-warning">[Voto online causa pandemia COVID-19]</b>
-          ) : null
+          ) :
+          null
         }
 
       </div>

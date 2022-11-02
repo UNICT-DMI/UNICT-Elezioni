@@ -32,9 +32,11 @@ const Contact = (props: ContactDetails): JSX.Element => {
           <FontAwesomeIcon icon={faEnvelope} />
         </Button>{' '}
 
-        {props?.linkedin ? (<Button href={props.linkedin} target="_blank">
+        {props?.linkedin ?
+        (<Button href={props.linkedin} target="_blank">
           <FontAwesomeIcon icon={faLinkedin} />
-        </Button>) : null}
+        </Button>) :
+        null}
         {props?.linkedin ? ' ' : null}
 
         <Button href={`https://github.com/${props.github}`} target="_blank">
