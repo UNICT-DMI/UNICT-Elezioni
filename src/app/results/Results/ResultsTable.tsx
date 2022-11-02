@@ -50,7 +50,8 @@ export const ResultTable = (props: Props): JSX.Element => {
                     candidates[list.nome][i].nominativo,
                     (<br key={`${props.anno}-${i}-${list}-${candidates[list.nome][i].nominativo}`} />),
                     getVotiSeggio(candidates[list.nome][i].voti),
-                    candidates[list.nome][i].eletto ? (<Coccarda key={`Coccarda-${list.nome}-${i}`} />) : null
+                    candidates[list.nome][i].eletto
+                    ? (<Coccarda key={`Coccarda-${list.nome}-${i}`} />) : null
                   ] : null
                 }
               </td>
@@ -90,7 +91,8 @@ export const ResultTable = (props: Props): JSX.Element => {
               (
                 <th key={`${props.anno}-lista-${list.nome}`}>
                   {
-                    (props.showDetailsList && seggi && seggi.length) ? (
+                    (props.showDetailsList && seggi && seggi.length)
+                    ? (
                       <OverlayTrigger
                         placement="bottom"
                         overlay={detailsListPopover(list)}
@@ -126,12 +128,14 @@ export const ResultTable = (props: Props): JSX.Element => {
           )) : null
         }
         {
-          !datareader.hasPassedQuorum(props.anno, props.entity, props.subEntity) ? (
+          !datareader.hasPassedQuorum(props.anno, props.entity, props.subEntity)
+          ? (
             <b className="text-danger">[Quorum non raggiunto]</b>
           ) : null
         }
         {
-          props.anno === '2021-2023' ? (
+          props.anno === '2021-2023'
+          ? (
             <b className="text-warning">[Voto online causa pandemia COVID-19]</b>
           ) : null
         }
