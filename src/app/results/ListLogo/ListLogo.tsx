@@ -37,8 +37,8 @@ export const ListLogo = (props: Props): JSX.Element => {
             width="80"
             height="80"
             alt={getListName()} />
-        ) :
-        ( <FontAwesomeIcon icon={faUser} size="4x"></FontAwesomeIcon> )
+        )
+        : ( <FontAwesomeIcon icon={faUser} size="4x"></FontAwesomeIcon> )
       }
     </div>
   );

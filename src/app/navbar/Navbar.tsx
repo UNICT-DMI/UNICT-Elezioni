@@ -83,8 +83,8 @@ const Menu: FunctionComponent = () => {
             </div>
           </div>
         </Collapse>
-      ) :
-      null }
+      )
+      : null }
     </div>
   );
 };
