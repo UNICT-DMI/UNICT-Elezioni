@@ -188,7 +188,7 @@ class DataReader {
   getAllCandidates(years: string, entity: string, subEntity: string): any {
     const lists: any[] = this.getLists(years, entity, subEntity);
     const allCandidates: any = [];
-    if (lists.length > 0) {
+    if (lists.length) {
       lists.forEach((list: any): any => {
         allCandidates[list.nome] = this.getCandidates(years, entity, subEntity, list.nome);
       });

@@ -74,7 +74,7 @@ const Menu: FunctionComponent = () => {
           </div>
         </div>
       </Navbar>
-      { showSearch && (
+      { showSearch ? (
         <Collapse in={showSearch}>
           <div className="container-fluid search-form pt-2">
             <div className="container">
@@ -82,7 +82,7 @@ const Menu: FunctionComponent = () => {
             </div>
           </div>
         </Collapse>
-      )}
+      ) : null }
     </div>
   );
 };
