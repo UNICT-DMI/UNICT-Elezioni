@@ -28,7 +28,8 @@ export const ListLogo = (props: Props): JSX.Element => {
   return (
     <div className="logolist">
       {
-        getListName() !== undefined && getListName() !== 'UNINOMINAL' ? (
+        getListName() !== undefined && getListName() !== 'UNINOMINAL'
+        ? (
           <img key={getListName()}
             src={getImageUrl()}
             className="logolist m-auto"
@@ -36,9 +37,8 @@ export const ListLogo = (props: Props): JSX.Element => {
             width="80"
             height="80"
             alt={getListName()} />
-        ) : (
-          <FontAwesomeIcon icon={faUser} size="4x"></FontAwesomeIcon>
         )
+        : (<FontAwesomeIcon icon={faUser} size="4x"></FontAwesomeIcon>)
       }
     </div>
   );
