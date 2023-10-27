@@ -1,0 +1,71 @@
+{
+  "dipartimento": "COORDINAMENTO DELLA SCUOLA DENOMINATA FACOLTA' DI MEDICINA",
+  "schede": {
+    "bianche": {
+      "totali": 0
+    },
+    "nulle": {
+      "totali": 0
+    },
+    "contestate": {
+      "totali": 0
+    }
+  },
+  "eletti": [
+    {
+      "nominativo": "FAMA' LUCREZIA",
+      "voti": {
+        "totali": 552
+      }
+    },
+    {
+      "nominativo": "BAUDO GAETANO",
+      "voti": {
+        "totali": 663
+      }
+    },
+    {
+      "nominativo": "GENTILE ELVIO",
+      "voti": {
+        "totali": 432
+      }
+    },
+    {
+      "nominativo": "RAMPULLA MICHELE",
+      "voti": {
+        "totali": 433
+      }
+    }
+  ],
+  "non_eletti": [
+    {
+      "nominativo": "DI CARO LORENZO",
+      "voti": {
+        "totali": 203
+      }
+    },
+    {
+      "nominativo": "MELI FRANCESCO",
+      "voti": {
+        "totali": 183
+      }
+    },
+    {
+      "nominativo": "SCARPATO MARISA",
+      "voti": {
+        "totali": 275
+      }
+    },
+    {
+      "nominativo": "CIAFFAGLIONE AGATINO SIMONE",
+      "voti": {
+        "totali": 9
+      }
+    }
+  ],
+  "voti": {
+    "totali": 2750
+  },
+  "aventi_diritto": 7047,
+  "perc_votanti": 39.02
+}
