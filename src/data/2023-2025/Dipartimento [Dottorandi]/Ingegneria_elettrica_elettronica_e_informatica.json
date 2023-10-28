@@ -1,0 +1,33 @@
+{
+  "dipartimento": "DIPARTIMENTO DI INGEGNERIA ELETTRICA ELETTRONICA E INFORMATICA",
+  "quorum": true,
+  "seggi_da_assegnare": 2,
+  "schede": {
+    "bianche": 1,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "SPITALERI MARIA GIORGIA",
+      "voti": 12
+    },
+    {
+      "nome_candidato": "BERLOTTI MARIAELENA",
+      "voti": 7
+    }
+  ],
+  "non_eletti": [
+    {
+      "nome_candidato": "DI MARTINO GIANFRANCO",
+      "voti": 5
+    },
+    {
+      "nome_candidato": "BAIAMONTE GIULIANA",
+      "voti": 5
+    }
+  ],
+  "totale_voti": 29,
+  "aventi_diritto": 88,
+  "perc_votanti": 32.95
+}

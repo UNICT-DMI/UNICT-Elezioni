@@ -1,0 +1,29 @@
+{
+  "dipartimento": "DIPARTIMENTO DI SCIENZE BIOMEDICHE E BIOTECNOLOGICHE",
+  "quorum": true,
+  "seggi_da_assegnare": 2,
+  "schede": {
+    "bianche": 2,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "SANGIORGIO GIUSEPPE",
+      "voti": 8
+    },
+    {
+      "nome_candidato": "SORTINO MARTINA",
+      "voti": 9
+    }
+  ],
+  "non_eletti": [
+    {
+      "nome_candidato": "BONACCI PAOLO GIUSEPPE",
+      "voti": 3
+    }
+  ],
+  "totale_voti": 22,
+  "aventi_diritto": 104,
+  "perc_votanti": 21.15
+}

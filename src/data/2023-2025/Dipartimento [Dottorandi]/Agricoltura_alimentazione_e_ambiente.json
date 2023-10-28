@@ -1,0 +1,24 @@
+{
+    "dipartimento": "DIPARTIMENTO DI AGRICOLTURA, ALIMENTAZIONE E AMBIENTE",
+    "quorum": true,
+    "seggi_da_assegnare": 2,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "FURNITTO NICOLA",
+            "voti": 23
+        },
+        {
+            "nome_candidato": "FORMICA VALENTINA",
+            "voti": 17
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 40,
+    "aventi_diritto": 61,
+    "perc_votanti": 65.57
+}

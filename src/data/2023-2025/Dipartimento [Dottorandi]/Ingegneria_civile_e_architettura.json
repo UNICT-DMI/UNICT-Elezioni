@@ -1,0 +1,29 @@
+{
+    "dipartimento": "DIPARTIMENTO DI INGEGNERIA CIVILE E ARCHITETTURA",
+    "quorum": true,
+    "seggi_da_assegnare": 2,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "RUSSO GLORIA",
+            "voti": 27
+        },
+        {
+            "nome_candidato": "MASSIMINO GRAZIA",
+            "voti": 13
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "LONGHITANO ANDREA",
+            "voti": 4
+        }
+    ],
+    "totale_voti": 44,
+    "aventi_diritto": 75,
+    "perc_votanti": 58.67
+}

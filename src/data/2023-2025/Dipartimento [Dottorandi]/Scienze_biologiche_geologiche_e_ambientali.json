@@ -1,0 +1,24 @@
+{
+    "dipartimento": "DIPARTIMENTO DI SCIENZE BIOLOGICHE, GEOLOGICHE E AMBIENTALI",
+    "quorum": true,
+    "seggi_da_assegnare": 2,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "COMMIS LORENZO",
+            "voti": 21
+        },
+        {
+            "nome_candidato": "BACILLIERE GIULIA",
+            "voti": 5
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 26,
+    "aventi_diritto": 51,
+    "perc_votanti": 50.98
+}

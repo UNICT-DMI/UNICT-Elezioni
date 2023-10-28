@@ -1,0 +1,37 @@
+{
+  "dipartimento": "DIPARTIMENTO DI ECONOMIA E IMPRESA",
+  "quorum": true,
+  "seggi_da_assegnare": 2,
+  "schede": {
+    "bianche": 1,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "DE CRISTOFARO ALESSANDRO",
+      "voti": 5
+    },
+    {
+      "nome_candidato": "RUSSO FRANCESCO",
+      "voti": 10
+    }
+  ],
+  "non_eletti": [
+    {
+      "nome_candidato": "SERRANO CARLA",
+      "voti": 2
+    },
+    {
+      "nome_candidato": "MERTOLI FEDERICO",
+      "voti": 0
+    },
+    {
+      "nome_candidato": "ARFO' SERGIO",
+      "voti": 0
+    }
+  ],
+  "totale_voti": 17,
+  "aventi_diritto": 21,
+  "perc_votanti": 80.95
+}

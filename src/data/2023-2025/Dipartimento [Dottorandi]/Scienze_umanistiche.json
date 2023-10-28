@@ -1,0 +1,24 @@
+{
+  "dipartimento": "DIPARTIMENTO DI SCIENZE UMANISTICHE",
+  "quorum": true,
+  "seggi_da_assegnare": 2,
+  "schede": {
+    "bianche": 0,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "DI COSTA ALESSANDRO",
+      "voti": 25
+    },
+    {
+      "nome_candidato": "ZISA GIOVANNA",
+      "voti": 16
+    }
+  ],
+  "non_eletti": [],
+  "totale_voti": 41,
+  "aventi_diritto": 90,
+  "perc_votanti": 45.56
+}
