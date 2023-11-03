@@ -49,7 +49,8 @@ def check_file_exists(file_path:str) -> None:
     if not os.path.isfile(file_path):
         raise FileNotFoundError(f"File '{file_path}' not found")
 
-def create_list(csv_reader:list) -> list:
+def create_list(csv_reader:List[str]) -> List[str]:
+
     """Create a list of rows from the CSV file
 
     Args:
