@@ -1,0 +1,731 @@
+{
+    "schede": {
+        "bianche": {
+            "totali": 5,
+            "seggio_n_telematico": 5
+        },
+        "nulle": {
+            "totali": 0
+        },
+        "contestate": {
+            "totali": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "114",
+                "resti": "4",
+                "seggi_ai_resti": "8,9",
+                "seggi_totali": "0"
+            },
+            "voti": {
+                "totali": "4",
+                "seggio_telematico": "114"
+            }
+        },
+        {
+            "nome": "WE LOVE UNICT",
+            "seggi": {
+                "seggi_pieni": "70",
+                "resti": "2",
+                "seggi_ai_resti": "17,4",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": "3",
+                "seggio_telematico": "70"
+            }
+        },
+        {
+            "nome": "Primavera degli Studenti",
+            "seggi": {
+                "seggi_pieni": "7",
+                "resti": "-",
+                "seggi_ai_resti": "7",
+                "seggi_totali": "0"
+            },
+            "voti": {
+                "totali": "-",
+                "seggio_telematico": "7"
+            }
+        },
+        {
+            "nome": "Koinè",
+            "seggi": {
+                "seggi_pieni": "105",
+                "resti": "3",
+                "seggi_ai_resti": "26,2",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": "4",
+                "seggio_telematico": "105"
+            }
+        },
+        {
+            "nome": "ACTEA",
+            "seggi": {
+                "seggi_pieni": "90",
+                "resti": "3",
+                "seggi_ai_resti": "11,2",
+                "seggi_totali": "0"
+            },
+            "voti": {
+                "totali": "3",
+                "seggio_telematico": "90"
+            }
+        },
+        {
+            "nome": "ARCADIA DI3A",
+            "seggi": {
+                "seggi_pieni": "27",
+                "resti": "1",
+                "seggi_ai_resti": "0,7",
+                "seggi_totali": "0"
+            },
+            "voti": {
+                "totali": "1",
+                "seggio_telematico": "27"
+            }
+        },
+        {
+            "nome": "Alleanza Universitaria",
+            "seggi": {
+                "seggi_pieni": "15",
+                "resti": "-",
+                "seggi_ai_resti": "15",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": "1",
+                "seggio_telematico": "15"
+            }
+        },
+        {
+            "nome": "Cambiamento DI3A",
+            "seggi": {
+                "seggi_pieni": "45",
+                "resti": "1",
+                "seggi_ai_resti": "18,7",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": "2",
+                "seggio_telematico": "45"
+            }
+        },
+        {
+            "totale": 473
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "VITALE Alessio Detto Presidente",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 62,
+                "seggio_telematico": 62
+            }
+        },
+        {
+            "nominativo": "IMPELLIZZERI Salvatore Detto Pandolfo",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 10,
+                "seggio_telematico": 10
+            }
+        },
+        {
+            "nominativo": "MACARIO Francesco",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 9,
+                "seggio_telematico": 9
+            }
+        },
+        {
+            "nominativo": "FRANZONE Alex",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 15,
+                "seggio_telematico": 15
+            }
+        },
+        {
+            "nominativo": "TRUBIA Rosario",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 20,
+                "seggio_telematico": 20
+            }
+        },
+        {
+            "nominativo": "SENIA Stefano",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 19,
+                "seggio_telematico": 19
+            }
+        },
+        {
+            "nominativo": "PROTO Luca",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 20,
+                "seggio_telematico": 20
+            }
+        },
+        {
+            "nominativo": "RIZZO Gaia",
+            "lista": "Koinè",
+            "voti": {
+                "totali": 36,
+                "seggio_telematico": 36
+            }
+        },
+        {
+            "nominativo": "GILIBERTO Martina Agata",
+            "lista": "Koinè",
+            "voti": {
+                "totali": 34,
+                "seggio_telematico": 34
+            }
+        },
+        {
+            "nominativo": "MOSCHETTO Martina",
+            "lista": "Koinè",
+            "voti": {
+                "totali": 8,
+                "seggio_telematico": 8
+            }
+        },
+        {
+            "nominativo": "GRASSO Melania",
+            "lista": "Koinè",
+            "voti": {
+                "totali": 20,
+                "seggio_telematico": 20
+            }
+        },
+        {
+            "nominativo": "GAMBINO Tania",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 28,
+                "seggio_telematico": 28
+            }
+        },
+        {
+            "nominativo": "TIRENDI Graziella",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 10,
+                "seggio_telematico": 10
+            }
+        },
+        {
+            "nominativo": "COCUZZA Francesco Domenico",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 12,
+                "seggio_telematico": 12
+            }
+        },
+        {
+            "nominativo": "PULEO Cataldo Detto Aldo",
+            "lista": "ARCADIA DI3A",
+            "voti": {
+                "totali": 14,
+                "seggio_telematico": 14
+            }
+        },
+        {
+            "nominativo": "PRUITI Emanuel",
+            "lista": "Alleanza Universitaria",
+            "voti": {
+                "totali": 10,
+                "seggio_telematico": 10
+            }
+        },
+        {
+            "nominativo": "LABISI Mario",
+            "lista": "Cambiamento DI3A",
+            "voti": {
+                "totali": 21,
+                "seggio_telematico": 21
+            }
+        },
+        {
+            "nominativo": "VINCI Mathias",
+            "lista": "Cambiamento DI3A",
+            "voti": {
+                "totali": 15,
+                "seggio_telematico": 15
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "BARDARÉ Eleonora Maria Vittoria",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "SERRA Giada",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "SARDO Sebiana",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "VITALE Milena Maria",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 8,
+                "seggio_telematico": 8
+            }
+        },
+        {
+            "nominativo": "SCALONE Chiaretta",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "TRAVAGLIANTI Giada",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "COPANI Federica",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "PRINCIPATO TROSSO Domenico Luigi",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "UCCELLATORE Nicolò",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "ARANZULLA Alessio",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "GUELI Orazio",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "GENTILE Giuseppe Pio",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "GRASSO Dario",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "DI COSTA Martina",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "STRANO Salvatore",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "VELLA Tommaso",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "ALARIO Simone Nunzio",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "OCCHIPINTI Andrea Umberto",
+            "lista": "Primavera degli Studenti",
+            "voti": {
+                "totali": 7,
+                "seggio_telematico": 7
+            }
+        },
+        {
+            "nominativo": "IANNELLO Luca Pio",
+            "lista": "Koinè",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "D'ALESSANDRO Dalila",
+            "lista": "Koinè",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nominativo": "PUGLISI ALLEGRA Simone",
+            "lista": "Koinè",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "CANTARO Rocco",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nominativo": "BORDONARO Brian",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 7,
+                "seggio_telematico": 7
+            }
+        },
+        {
+            "nominativo": "GIANNETTO Pierluigi",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "SBERNA Gianluca",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "LEONARDI Morena Mariastella",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "ALLEGRA Giovanni Gabriele",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "MARCHÍ Maura",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "MELI Gabriele",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "BORRATA Gabriele",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "LISI Alfio Nicolas",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "ANELLO Luigi Gaetano",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 8,
+                "seggio_telematico": 8
+            }
+        },
+        {
+            "nominativo": "CANNONE Luca",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "D'AGATI Salvatore",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "CAMINITO Agnese",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "MICELI Gaia",
+            "lista": "ARCADIA DI3A",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "LANTIERI PICCIONE Naomi",
+            "lista": "ARCADIA DI3A",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "CICITTA Katrin",
+            "lista": "ARCADIA DI3A",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "SAVOCA Mattia",
+            "lista": "ARCADIA DI3A",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "GRASSO Alice Maria",
+            "lista": "ARCADIA DI3A",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "VECA Irene",
+            "lista": "ARCADIA DI3A",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "MORREALE Calogero",
+            "lista": "ARCADIA DI3A",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "DI MARIO Giuseppe",
+            "lista": "ARCADIA DI3A",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "AVELLINO Vincenzo",
+            "lista": "ARCADIA DI3A",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "MONTALTO Grazia Rita",
+            "lista": "ARCADIA DI3A",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "COCO Anna Maria",
+            "lista": "ARCADIA DI3A",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "TOSCANO Marco",
+            "lista": "ARCADIA DI3A",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "COSTANTINO Glenda",
+            "lista": "ARCADIA DI3A",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "SCHILIRÒ Antonio",
+            "lista": "ARCADIA DI3A",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "CALI' Simona",
+            "lista": "Alleanza Universitaria",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "GRASSI BERTAZZI Enrico",
+            "lista": "Alleanza Universitaria",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "PRIVITERA Chiara Rosa Maria",
+            "lista": "Cambiamento DI3A",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "SANGRIGOLI Flavio",
+            "lista": "Cambiamento DI3A",
+            "voti": {
+                "totali": 9,
+                "seggio_telematico": 9
+            }
+        },
+        {
+            "nominativo": "TUSA Salvatore Lucio",
+            "lista": "Cambiamento DI3A",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "BENINTENDE Luca",
+            "lista": "Cambiamento DI3A",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "RAU Simone",
+            "lista": "Cambiamento DI3A",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        }
+    ],
+    "dipartimento": "DIPARTIMENTO DI AGRICOLTURA, ALIMENTAZIONE E AMBIENTE",
+    "seggi_da_assegnare": "18",
+    "quoziente": 26.2778,
+    "votanti": {
+        "totali": 478,
+        "percentuale": 29.84,
+        "seggio_n_telematico": 478
+    },
+    "elettori": {
+        "totali": 1602,
+        "seggio_n_telematico": 1602
+    }
+}
