@@ -83,7 +83,8 @@ def get_name_and_seats(rows_list:list, data:dict) -> list:
     rows_list = rows_list[4:]
     return rows_list
     
-def get_list_information(rows_list:list, data:dict) -> list:
+def get_list_information(rows_list: list, data: dict) -> list:
+
     """Get lists information
 
     Args:
