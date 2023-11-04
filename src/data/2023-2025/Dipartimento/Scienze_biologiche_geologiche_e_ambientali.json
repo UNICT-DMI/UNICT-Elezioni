@@ -1,0 +1,364 @@
+{
+    "schede": {
+        "bianche": {
+            "totali": 8,
+            "seggio_n_telematico": 8
+        },
+        "nulle": {
+            "totali": 0
+        },
+        "contestate": {
+            "totali": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "65",
+                "resti": "1",
+                "seggi_ai_resti": "22,8",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": "2",
+                "seggio_telematico": "65"
+            }
+        },
+        {
+            "nome": "La Finestra ‐ Liberi di Scegliere",
+            "seggi": {
+                "seggi_pieni": "79",
+                "resti": "1",
+                "seggi_ai_resti": "36,8",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": "2",
+                "seggio_telematico": "79"
+            }
+        },
+        {
+            "nome": "Primavera degli Studenti",
+            "seggi": {
+                "seggi_pieni": "149",
+                "resti": "3",
+                "seggi_ai_resti": "22,3",
+                "seggi_totali": "0"
+            },
+            "voti": {
+                "totali": "3",
+                "seggio_telematico": "149"
+            }
+        },
+        {
+            "nome": "SOS UNICT",
+            "seggi": {
+                "seggi_pieni": "27",
+                "resti": "-",
+                "seggi_ai_resti": "27",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": "1",
+                "seggio_telematico": "27"
+            }
+        },
+        {
+            "nome": "Arcadia",
+            "seggi": {
+                "seggi_pieni": "60",
+                "resti": "1",
+                "seggi_ai_resti": "17,8",
+                "seggi_totali": "0"
+            },
+            "voti": {
+                "totali": "1",
+                "seggio_telematico": "60"
+            }
+        },
+        {
+            "totale": 380
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "GRILLO Christian",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 35,
+                "seggio_telematico": 35
+            }
+        },
+        {
+            "nominativo": "MANZELLA Noemi",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 8,
+                "seggio_telematico": 8
+            }
+        },
+        {
+            "nominativo": "QUATTROCCHI Gabriele Alberto",
+            "lista": "La Finestra ‐ Liberi di Scegliere",
+            "voti": {
+                "totali": 24,
+                "seggio_telematico": 24
+            }
+        },
+        {
+            "nominativo": "CALANNA Giovanni",
+            "lista": "La Finestra ‐ Liberi di Scegliere",
+            "voti": {
+                "totali": 20,
+                "seggio_telematico": 20
+            }
+        },
+        {
+            "nominativo": "STIMOLI Antonio Agatino",
+            "lista": "Primavera degli Studenti",
+            "voti": {
+                "totali": 36,
+                "seggio_telematico": 36
+            }
+        },
+        {
+            "nominativo": "NARO Giulia",
+            "lista": "Primavera degli Studenti",
+            "voti": {
+                "totali": 44,
+                "seggio_telematico": 44
+            }
+        },
+        {
+            "nominativo": "LA BIUNDA Andrea",
+            "lista": "Primavera degli Studenti",
+            "voti": {
+                "totali": 18,
+                "seggio_telematico": 18
+            }
+        },
+        {
+            "nominativo": "FIORENTINO Luigi",
+            "lista": "SOS UNICT",
+            "voti": {
+                "totali": 23,
+                "seggio_telematico": 23
+            }
+        },
+        {
+            "nominativo": "TOMAINO Elisea",
+            "lista": "Arcadia",
+            "voti": {
+                "totali": 44,
+                "seggio_telematico": 44
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "TRIOLO Michela",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "MIGLIACCIO Emanuele",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 7,
+                "seggio_telematico": 7
+            }
+        },
+        {
+            "nominativo": "CAMÈRA Beatrice",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "PENNISI Giacomo",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "RUSSO Diego",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "DAMINO Giulia",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "FAZZINA Francesca",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "MESSINA Agnese",
+            "lista": "La Finestra ‐ Liberi di Scegliere",
+            "voti": {
+                "totali": 8,
+                "seggio_telematico": 8
+            }
+        },
+        {
+            "nominativo": "CONIGLIELLO Ezio Matteo",
+            "lista": "La Finestra ‐ Liberi di Scegliere",
+            "voti": {
+                "totali": 13,
+                "seggio_telematico": 13
+            }
+        },
+        {
+            "nominativo": "PAPPALARDO Gaia",
+            "lista": "La Finestra ‐ Liberi di Scegliere",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "REUKA Yaroslav",
+            "lista": "La Finestra ‐ Liberi di Scegliere",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nominativo": "DI BLASI Giorgio",
+            "lista": "La Finestra ‐ Liberi di Scegliere",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "SANGIORGI Viviana Rita",
+            "lista": "La Finestra ‐ Liberi di Scegliere",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "GARRANO Ruben",
+            "lista": "Primavera degli Studenti",
+            "voti": {
+                "totali": 17,
+                "seggio_telematico": 17
+            }
+        },
+        {
+            "nominativo": "LA CAUSA Salvatore Corrado",
+            "lista": "Primavera degli Studenti",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nominativo": "TROVATO Alessandra",
+            "lista": "Primavera degli Studenti",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "SARDO Samuele Pio",
+            "lista": "Primavera degli Studenti",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "TRICOMI Ilenia",
+            "lista": "Primavera degli Studenti",
+            "voti": {
+                "totali": 15,
+                "seggio_telematico": 15
+            }
+        },
+        {
+            "nominativo": "LATIF Anass",
+            "lista": "Primavera degli Studenti",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "SCUDERI Roberta",
+            "lista": "SOS UNICT",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "BARATTA Giovanni",
+            "lista": "SOS UNICT",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "PAPPALARDO Giuseppe",
+            "lista": "SOS UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "GAGLIANO Marco",
+            "lista": "Arcadia",
+            "voti": {
+                "totali": 15,
+                "seggio_telematico": 15
+            }
+        },
+        {
+            "nominativo": "SAPIENZA Michelangelo",
+            "lista": "Arcadia",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        }
+    ],
+    "dipartimento": "DIPARTIMENTO DI SCIENZE BIOLOGICHE, GEOLOGICHE E AMBIENTALI",
+    "seggi_da_assegnare": "9",
+    "quoziente": 42.2222,
+    "votanti": {
+        "totali": 388,
+        "percentuale": 28.42,
+        "seggio_n_telematico": 388
+    },
+    "elettori": {
+        "totali": 1365,
+        "seggio_n_telematico": 1365
+    }
+}

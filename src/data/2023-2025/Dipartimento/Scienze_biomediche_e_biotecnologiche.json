@@ -1,0 +1,537 @@
+{
+    "schede": {
+        "bianche": {
+            "totali": 27,
+            "seggio_n_telematico": 27
+        },
+        "nulle": {
+            "totali": 0
+        },
+        "contestate": {
+            "totali": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "ACTEA",
+            "seggi": {
+                "seggi_pieni": "56",
+                "resti": "2",
+                "seggi_ai_resti": "8,7",
+                "seggi_totali": "0"
+            },
+            "voti": {
+                "totali": "2",
+                "seggio_telematico": "56"
+            }
+        },
+        {
+            "nome": "PRIMAVERA DEGLI STUDENTI",
+            "seggi": {
+                "seggi_pieni": "24",
+                "resti": "1",
+                "seggi_ai_resti": "0,3",
+                "seggi_totali": "0"
+            },
+            "voti": {
+                "totali": "1",
+                "seggio_telematico": "24"
+            }
+        },
+        {
+            "nome": "WE LOVE UNICT",
+            "seggi": {
+                "seggi_pieni": "204",
+                "resti": "8",
+                "seggi_ai_resti": "14,7",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": "9",
+                "seggio_telematico": "204"
+            }
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "21",
+                "resti": "-",
+                "seggi_ai_resti": "21",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": "1",
+                "seggio_telematico": "21"
+            }
+        },
+        {
+            "nome": "Alleanza Universitaria",
+            "seggi": {
+                "seggi_pieni": "23",
+                "resti": "-",
+                "seggi_ai_resti": "23",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": "1",
+                "seggio_telematico": "23"
+            }
+        },
+        {
+            "nome": "ARCADIA   GENERAZIONE ATTIVA",
+            "seggi": {
+                "seggi_pieni": "27",
+                "resti": "1",
+                "seggi_ai_resti": "3,3",
+                "seggi_totali": "0"
+            },
+            "voti": {
+                "totali": "1",
+                "seggio_telematico": "27"
+            }
+        },
+        {
+            "totale": 355
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "MARINO Teodora Ioana Detto Teodorella",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 15,
+                "seggio_telematico": 15
+            }
+        },
+        {
+            "nominativo": "LISFERA Andrea",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 22,
+                "seggio_telematico": 22
+            }
+        },
+        {
+            "nominativo": "STIMOLI Giovanni Emanuele",
+            "lista": "PRIMAVERA DEGLI STUDENTI",
+            "voti": {
+                "totali": 15,
+                "seggio_telematico": 15
+            }
+        },
+        {
+            "nominativo": "BONFIGLIO Vincenzo Emanuele",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 28,
+                "seggio_telematico": 28
+            }
+        },
+        {
+            "nominativo": "CUTRUFELLO Ornella",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 19,
+                "seggio_telematico": 19
+            }
+        },
+        {
+            "nominativo": "CANNAVÒ Bianca Rita",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 21,
+                "seggio_telematico": 21
+            }
+        },
+        {
+            "nominativo": "CRAPULA Marco Francesco",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 7,
+                "seggio_telematico": 7
+            }
+        },
+        {
+            "nominativo": "FURNARI Fabrizio",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 34,
+                "seggio_telematico": 34
+            }
+        },
+        {
+            "nominativo": "MAZZAGLIA Salvatore Roberto",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nominativo": "TRICARICO Valentina Maria",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 9,
+                "seggio_telematico": 9
+            }
+        },
+        {
+            "nominativo": "RAPICAVOLI Antonio",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 52,
+                "seggio_telematico": 52
+            }
+        },
+        {
+            "nominativo": "SANTANGELO Gabriele",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 12,
+                "seggio_telematico": 12
+            }
+        },
+        {
+            "nominativo": "FAMA' Iacopo",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 10,
+                "seggio_telematico": 10
+            }
+        },
+        {
+            "nominativo": "DI PAOLA Andrea Detto Andre",
+            "lista": "Alleanza Universitaria",
+            "voti": {
+                "totali": 13,
+                "seggio_telematico": 13
+            }
+        },
+        {
+            "nominativo": "GENTILE Walter",
+            "lista": "ARCADIA   GENERAZIONE ATTIVA",
+            "voti": {
+                "totali": 9,
+                "seggio_telematico": 9
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "CATANIA Giuseppe",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nominativo": "MILAZZO Vincenzo",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nominativo": "TODARO Costanza",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "FICHERA Andrea Gianluca",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "FINOCCHIARO Andrea",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "FUSCHI Nalin",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "PAPIA Annamaria",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "LA MARCA Alessio",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "TREPPICCIONE Viviana",
+            "lista": "PRIMAVERA DEGLI STUDENTI",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "D'ANGELO Arianna",
+            "lista": "PRIMAVERA DEGLI STUDENTI",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "XHETANI Endi",
+            "lista": "PRIMAVERA DEGLI STUDENTI",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "CAPONETTO Dominique",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "DISTEFANO Francesca",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "LIUZZA Flavia",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "SANTANGELO Antonio",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "AUGUGLIARO Andrea",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "COCO Chiara Maria",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "RAFFAGNINO Salvatore",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "TOMARCHIO Luca",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "LA ROSA Giuliano",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "FIRRARELLO Nicolò",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "CANNAVÒ Melania Giovanna",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "LICITRA Arianna",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "PUGLISI Martina",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "CATALANO Aurora",
+            "lista": "Alleanza Universitaria",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "ANFUSO Giuseppe",
+            "lista": "Alleanza Universitaria",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "CANNAVO' Davide",
+            "lista": "Alleanza Universitaria",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "SCIACCA Claudio",
+            "lista": "Alleanza Universitaria",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "MAUGERI Lucrezia",
+            "lista": "ARCADIA   GENERAZIONE ATTIVA",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nominativo": "BELLOMO Antonio",
+            "lista": "ARCADIA   GENERAZIONE ATTIVA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "DI PAOLA Gabriele",
+            "lista": "ARCADIA   GENERAZIONE ATTIVA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "GRASSO Riccardo",
+            "lista": "ARCADIA   GENERAZIONE ATTIVA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "GRILLO Alberto",
+            "lista": "ARCADIA   GENERAZIONE ATTIVA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "FALLICA Basilio",
+            "lista": "ARCADIA   GENERAZIONE ATTIVA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "PENNISI Giuseppe Giovanni",
+            "lista": "ARCADIA   GENERAZIONE ATTIVA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "BELTEMPO Ramona Lucia",
+            "lista": "ARCADIA   GENERAZIONE ATTIVA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "LOMBARDO Simone Filippo",
+            "lista": "ARCADIA   GENERAZIONE ATTIVA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "SARDO Gabriele",
+            "lista": "ARCADIA   GENERAZIONE ATTIVA",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        }
+    ],
+    "dipartimento": "DIPARTIMENTO DI SCIENZE BIOMEDICHE E BIOTECNOLOGICHE",
+    "seggi_da_assegnare": "15",
+    "quoziente": 23.6667,
+    "votanti": {
+        "totali": 382,
+        "percentuale": 25.92,
+        "seggio_n_telematico": 382
+    },
+    "elettori": {
+        "totali": 1474,
+        "seggio_n_telematico": 1474
+    }
+}
