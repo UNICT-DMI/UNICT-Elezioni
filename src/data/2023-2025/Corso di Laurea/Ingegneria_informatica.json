@@ -1,0 +1,371 @@
+{
+    "schede": {
+        "bianche": {
+            "totali": 11,
+            "seggio_n_telematico": 11
+        },
+        "nulle": {
+            "totali": 0
+        },
+        "contestate": {
+            "totali": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "Fronte della Gioventù Comunista",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "4,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": "4",
+                "seggio_telematico": "4"
+            }
+        },
+        {
+            "nome": "WE LOVE UNICT",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "29,1",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "3"
+            },
+            "voti": {
+                "totali": "108",
+                "seggio_telematico": "108"
+            }
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "10,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": "10",
+                "seggio_telematico": "10"
+            }
+        },
+        {
+            "nome": "UNITAS DIEEI",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "3,6",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": "43",
+                "seggio_telematico": "43"
+            }
+        },
+        {
+            "nome": "CREDIAMOCI",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "27,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": "27",
+                "seggio_telematico": "27"
+            }
+        },
+        {
+            "nome": "Alleanza Universitaria",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "17,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": "17",
+                "seggio_telematico": "17"
+            }
+        },
+        {
+            "nome": "Actea",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "26,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": "26",
+                "seggio_telematico": "26"
+            }
+        },
+        {
+            "nome": "IngegneriAttiva",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "1,6",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": "41",
+                "seggio_telematico": "41"
+            }
+        },
+        {
+            "totale": 276
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "ANDRONICO Paolo",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 49,
+                "seggio_telematico": 49
+            }
+        },
+        {
+            "nominativo": "BRISCHETTI Fabrizio",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 13,
+                "seggio_telematico": 13
+            }
+        },
+        {
+            "nominativo": "PELLEGRINO Pierpaolo",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 15,
+                "seggio_telematico": 15
+            }
+        },
+        {
+            "nominativo": "MARTINES Federica",
+            "lista": "UNITAS DIEEI",
+            "voti": {
+                "totali": 30,
+                "seggio_telematico": 30
+            }
+        },
+        {
+            "nominativo": "SCANDURA Vincenzo Giuseppe Pio",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 22,
+                "seggio_telematico": 22
+            }
+        },
+        {
+            "nominativo": "INZIRILLO Francesco",
+            "lista": "Actea",
+            "voti": {
+                "totali": 20,
+                "seggio_telematico": 20
+            }
+        },
+        {
+            "nominativo": "SANTANOCITO Matteo",
+            "lista": "IngegneriAttiva",
+            "voti": {
+                "totali": 21,
+                "seggio_telematico": 21
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "TREGUA Carlo Alberto",
+            "lista": "Fronte della Gioventù Comunista",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "ALIBERTI Roberto",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 11,
+                "seggio_telematico": 11
+            }
+        },
+        {
+            "nominativo": "OCCHIPINTI Stefano",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "FICHERA Alessia",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 7,
+                "seggio_telematico": 7
+            }
+        },
+        {
+            "nominativo": "SPADARO Alberto",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 11,
+                "seggio_telematico": 11
+            }
+        },
+        {
+            "nominativo": "GUTTADAURO Gloria Maria",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "MANGIONE Cristina",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "PINTALDI Giulio",
+            "lista": "UNITAS DIEEI",
+            "voti": {
+                "totali": 9,
+                "seggio_telematico": 9
+            }
+        },
+        {
+            "nominativo": "PAGANO Alex",
+            "lista": "UNITAS DIEEI",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "SALSETTA Giovanni",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "MORALES BASILE Carlos Eduardo",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "CROCETTA Federica",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "SALAMANCA Anastasia Alida",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "SANTOVITO Giulio Nicola",
+            "lista": "Alleanza Universitaria",
+            "voti": {
+                "totali": 7,
+                "seggio_telematico": 7
+            }
+        },
+        {
+            "nominativo": "CUTULI Matteo",
+            "lista": "Alleanza Universitaria",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "CARPINATO Simone",
+            "lista": "Alleanza Universitaria",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "CARMENI Aurelio Francesco",
+            "lista": "Alleanza Universitaria",
+            "voti": {
+                "totali": 8,
+                "seggio_telematico": 8
+            }
+        },
+        {
+            "nominativo": "IALAZZO Antonio",
+            "lista": "Alleanza Universitaria",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "CAVALLARO Flavio",
+            "lista": "Alleanza Universitaria",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "ANDRONICO Alessandro",
+            "lista": "Actea",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nominativo": "REITANO Marica",
+            "lista": "IngegneriAttiva",
+            "voti": {
+                "totali": 12,
+                "seggio_telematico": 12
+            }
+        },
+        {
+            "nominativo": "MHEDHBI Ahmed",
+            "lista": "IngegneriAttiva",
+            "voti": {
+                "totali": 7,
+                "seggio_telematico": 7
+            }
+        }
+    ],
+    "dipartimento": "INGEGNERIA INFORMATICA-L-8-Laurea Triennale (D.M.270/2004)",
+    "seggi_da_assegnare": "7",
+    "quoziente": 39.429,
+    "votanti": {
+        "totali": 287,
+        "percentuale": 27.08,
+        "seggio_n_telematico": 287
+    },
+    "elettori": {
+        "totali": 1060,
+        "seggio_n_telematico": 1060
+    }
+}

@@ -1,0 +1,1592 @@
+{
+    "schede": {
+        "bianche": {
+            "totali": 28,
+            "seggio_n_telematico": 28
+        },
+        "nulle": {
+            "totali": 0
+        },
+        "contestate": {
+            "totali": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "IPPOCRATE ‐ NIKEMED",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "36,5",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "3"
+            },
+            "voti": {
+                "totali": "127",
+                "seggio_telematico": "127"
+            }
+        },
+        {
+            "nome": "La Finestra‐Liberi di Scegliere",
+            "seggi": {
+                "seggi_pieni": "7",
+                "resti": "33,2",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "8"
+            },
+            "voti": {
+                "totali": "350",
+                "seggio_telematico": "350"
+            }
+        },
+        {
+            "nome": "Arcadia",
+            "seggi": {
+                "seggi_pieni": "5",
+                "resti": "27,7",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "6"
+            },
+            "voti": {
+                "totali": "254",
+                "seggio_telematico": "254"
+            }
+        },
+        {
+            "nome": "SOS UNICT",
+            "seggi": {
+                "seggi_pieni": "10",
+                "resti": "3,4",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "10"
+            },
+            "voti": {
+                "totali": "456",
+                "seggio_telematico": "456"
+            }
+        },
+        {
+            "nome": "CREDIAMOCI",
+            "seggi": {
+                "seggi_pieni": "4",
+                "resti": "27,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "5"
+            },
+            "voti": {
+                "totali": "208",
+                "seggio_telematico": "208"
+            }
+        },
+        {
+            "nome": "Orizzonte Sanità",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "25,7",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": "71",
+                "seggio_telematico": "71"
+            }
+        },
+        {
+            "nome": "Alleanza Universitaria",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "4,7",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": "50",
+                "seggio_telematico": "50"
+            }
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "24,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": "24",
+                "seggio_telematico": "24"
+            }
+        },
+        {
+            "nome": "LIBERTAS",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "44,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": "44",
+                "seggio_telematico": "44"
+            }
+        },
+        {
+            "totale": 1584
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "SCALIA Simone",
+            "lista": "IPPOCRATE ‐ NIKEMED",
+            "voti": {
+                "totali": 28,
+                "seggio_telematico": 28
+            }
+        },
+        {
+            "nominativo": "STANCANELLI Fabiana",
+            "lista": "IPPOCRATE ‐ NIKEMED",
+            "voti": {
+                "totali": 19,
+                "seggio_telematico": 19
+            }
+        },
+        {
+            "nominativo": "FIRETTO CARLINO Gabriele",
+            "lista": "IPPOCRATE ‐ NIKEMED",
+            "voti": {
+                "totali": 13,
+                "seggio_telematico": 13
+            }
+        },
+        {
+            "nominativo": "BORZÌ Barbara Rita",
+            "lista": "La Finestra‐Liberi di Scegliere",
+            "voti": {
+                "totali": 16,
+                "seggio_telematico": 16
+            }
+        },
+        {
+            "nominativo": "CALA' LESINA Basilio Davide",
+            "lista": "La Finestra‐Liberi di Scegliere",
+            "voti": {
+                "totali": 37,
+                "seggio_telematico": 37
+            }
+        },
+        {
+            "nominativo": "FAMA' Lucrezia",
+            "lista": "La Finestra‐Liberi di Scegliere",
+            "voti": {
+                "totali": 44,
+                "seggio_telematico": 44
+            }
+        },
+        {
+            "nominativo": "FLORIDIA Emilio",
+            "lista": "La Finestra‐Liberi di Scegliere",
+            "voti": {
+                "totali": 24,
+                "seggio_telematico": 24
+            }
+        },
+        {
+            "nominativo": "MARSALA Roberta",
+            "lista": "La Finestra‐Liberi di Scegliere",
+            "voti": {
+                "totali": 23,
+                "seggio_telematico": 23
+            }
+        },
+        {
+            "nominativo": "MENDICINO Giulia",
+            "lista": "La Finestra‐Liberi di Scegliere",
+            "voti": {
+                "totali": 37,
+                "seggio_telematico": 37
+            }
+        },
+        {
+            "nominativo": "PAPPALARDO Anna Rita",
+            "lista": "La Finestra‐Liberi di Scegliere",
+            "voti": {
+                "totali": 53,
+                "seggio_telematico": 53
+            }
+        },
+        {
+            "nominativo": "STAMPA Luigi",
+            "lista": "La Finestra‐Liberi di Scegliere",
+            "voti": {
+                "totali": 18,
+                "seggio_telematico": 18
+            }
+        },
+        {
+            "nominativo": "AGOSTA Marcello",
+            "lista": "Arcadia",
+            "voti": {
+                "totali": 30,
+                "seggio_telematico": 30
+            }
+        },
+        {
+            "nominativo": "BARCELLONA Carla",
+            "lista": "Arcadia",
+            "voti": {
+                "totali": 26,
+                "seggio_telematico": 26
+            }
+        },
+        {
+            "nominativo": "D'ARRIGO Francesco",
+            "lista": "Arcadia",
+            "voti": {
+                "totali": 20,
+                "seggio_telematico": 20
+            }
+        },
+        {
+            "nominativo": "BONGIORNO Mariarita",
+            "lista": "Arcadia",
+            "voti": {
+                "totali": 21,
+                "seggio_telematico": 21
+            }
+        },
+        {
+            "nominativo": "BORZÌ Paola Maria",
+            "lista": "Arcadia",
+            "voti": {
+                "totali": 27,
+                "seggio_telematico": 27
+            }
+        },
+        {
+            "nominativo": "GUTTÀ Federico",
+            "lista": "Arcadia",
+            "voti": {
+                "totali": 26,
+                "seggio_telematico": 26
+            }
+        },
+        {
+            "nominativo": "BAUDO Gaetano",
+            "lista": "SOS UNICT",
+            "voti": {
+                "totali": 16,
+                "seggio_telematico": 16
+            }
+        },
+        {
+            "nominativo": "MILIOTO Flavia",
+            "lista": "SOS UNICT",
+            "voti": {
+                "totali": 36,
+                "seggio_telematico": 36
+            }
+        },
+        {
+            "nominativo": "SICLARI Grazia",
+            "lista": "SOS UNICT",
+            "voti": {
+                "totali": 39,
+                "seggio_telematico": 39
+            }
+        },
+        {
+            "nominativo": "DI GUARDIA Dario Giuseppe",
+            "lista": "SOS UNICT",
+            "voti": {
+                "totali": 59,
+                "seggio_telematico": 59
+            }
+        },
+        {
+            "nominativo": "TERRANOVA Giovanni",
+            "lista": "SOS UNICT",
+            "voti": {
+                "totali": 19,
+                "seggio_telematico": 19
+            }
+        },
+        {
+            "nominativo": "COMISI Andrea Maria",
+            "lista": "SOS UNICT",
+            "voti": {
+                "totali": 48,
+                "seggio_telematico": 48
+            }
+        },
+        {
+            "nominativo": "MASTROIANNI Gabriel",
+            "lista": "SOS UNICT",
+            "voti": {
+                "totali": 24,
+                "seggio_telematico": 24
+            }
+        },
+        {
+            "nominativo": "SCIACCA Paolo",
+            "lista": "SOS UNICT",
+            "voti": {
+                "totali": 50,
+                "seggio_telematico": 50
+            }
+        },
+        {
+            "nominativo": "ZUMMO Salvatore",
+            "lista": "SOS UNICT",
+            "voti": {
+                "totali": 19,
+                "seggio_telematico": 19
+            }
+        },
+        {
+            "nominativo": "TOSCANO Elena",
+            "lista": "SOS UNICT",
+            "voti": {
+                "totali": 31,
+                "seggio_telematico": 31
+            }
+        },
+        {
+            "nominativo": "GRASSI BERTAZZI Lidia",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 17,
+                "seggio_telematico": 17
+            }
+        },
+        {
+            "nominativo": "PACE Simone",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 39,
+                "seggio_telematico": 39
+            }
+        },
+        {
+            "nominativo": "CASTELLI Nicolò",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 17,
+                "seggio_telematico": 17
+            }
+        },
+        {
+            "nominativo": "GRILLO Paolo",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 20,
+                "seggio_telematico": 20
+            }
+        },
+        {
+            "nominativo": "ZAGNI Giuseppe",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 14,
+                "seggio_telematico": 14
+            }
+        },
+        {
+            "nominativo": "CALVO Antonio",
+            "lista": "Orizzonte Sanità",
+            "voti": {
+                "totali": 21,
+                "seggio_telematico": 21
+            }
+        },
+        {
+            "nominativo": "BORZÌ Rosario",
+            "lista": "Alleanza Universitaria",
+            "voti": {
+                "totali": 28,
+                "seggio_telematico": 28
+            }
+        },
+        {
+            "nominativo": "PULVIRENTI Riccardo",
+            "lista": "LIBERTAS",
+            "voti": {
+                "totali": 10,
+                "seggio_telematico": 10
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "CASTRO Kristian",
+            "lista": "IPPOCRATE ‐ NIKEMED",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nominativo": "CELANO Giorgia Agata",
+            "lista": "IPPOCRATE ‐ NIKEMED",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "GUARNERA Marco Carmelo",
+            "lista": "IPPOCRATE ‐ NIKEMED",
+            "voti": {
+                "totali": 13,
+                "seggio_telematico": 13
+            }
+        },
+        {
+            "nominativo": "DI NISI Riccardo Amedeo",
+            "lista": "IPPOCRATE ‐ NIKEMED",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "ARCIERI Lorenzo",
+            "lista": "IPPOCRATE ‐ NIKEMED",
+            "voti": {
+                "totali": 11,
+                "seggio_telematico": 11
+            }
+        },
+        {
+            "nominativo": "RUSSO Viviana Marinella Nicoletta",
+            "lista": "IPPOCRATE ‐ NIKEMED",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "VASILE Martina",
+            "lista": "IPPOCRATE ‐ NIKEMED",
+            "voti": {
+                "totali": 11,
+                "seggio_telematico": 11
+            }
+        },
+        {
+            "nominativo": "GUIDOTTI Marco",
+            "lista": "IPPOCRATE ‐ NIKEMED",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nominativo": "BUSÀ Antonio",
+            "lista": "IPPOCRATE ‐ NIKEMED",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "FAZIO Orazio",
+            "lista": "IPPOCRATE ‐ NIKEMED",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "ZAPPALÀ Carlo",
+            "lista": "IPPOCRATE ‐ NIKEMED",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "GUZZONE Stefano",
+            "lista": "IPPOCRATE ‐ NIKEMED",
+            "voti": {
+                "totali": 7,
+                "seggio_telematico": 7
+            }
+        },
+        {
+            "nominativo": "ALFONSO Agnese Maria",
+            "lista": "IPPOCRATE ‐ NIKEMED",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "STRANO Eugenia Carlotta",
+            "lista": "IPPOCRATE ‐ NIKEMED",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "SCUPOLITO Gabriel",
+            "lista": "IPPOCRATE ‐ NIKEMED",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "FUSILLO Ginevra",
+            "lista": "IPPOCRATE ‐ NIKEMED",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "GARRO Sebastiano Francesco",
+            "lista": "IPPOCRATE ‐ NIKEMED",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "TIDONA Rosario",
+            "lista": "IPPOCRATE ‐ NIKEMED",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "CORSINI Alessandro Detto Lele",
+            "lista": "La Finestra‐Liberi di Scegliere",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nominativo": "CULMONE Elena Costantina",
+            "lista": "La Finestra‐Liberi di Scegliere",
+            "voti": {
+                "totali": 12,
+                "seggio_telematico": 12
+            }
+        },
+        {
+            "nominativo": "MUSARRA Giulia Rita Maria",
+            "lista": "La Finestra‐Liberi di Scegliere",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "OLIVERI Federica",
+            "lista": "La Finestra‐Liberi di Scegliere",
+            "voti": {
+                "totali": 7,
+                "seggio_telematico": 7
+            }
+        },
+        {
+            "nominativo": "PAPPALARDO Salvatore",
+            "lista": "La Finestra‐Liberi di Scegliere",
+            "voti": {
+                "totali": 13,
+                "seggio_telematico": 13
+            }
+        },
+        {
+            "nominativo": "PISTRITTO Tancredi",
+            "lista": "La Finestra‐Liberi di Scegliere",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "SALTALAMACCHIA Augusto",
+            "lista": "La Finestra‐Liberi di Scegliere",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "SERGI Rosy",
+            "lista": "La Finestra‐Liberi di Scegliere",
+            "voti": {
+                "totali": 9,
+                "seggio_telematico": 9
+            }
+        },
+        {
+            "nominativo": "TARANTO Eliana Virginia",
+            "lista": "La Finestra‐Liberi di Scegliere",
+            "voti": {
+                "totali": 10,
+                "seggio_telematico": 10
+            }
+        },
+        {
+            "nominativo": "VINCI Francesco Detto Ciccio",
+            "lista": "La Finestra‐Liberi di Scegliere",
+            "voti": {
+                "totali": 11,
+                "seggio_telematico": 11
+            }
+        },
+        {
+            "nominativo": "ARDU Agnese",
+            "lista": "La Finestra‐Liberi di Scegliere",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "MILLESOLI Mario Federico Pio",
+            "lista": "La Finestra‐Liberi di Scegliere",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "PENNISI Livia",
+            "lista": "La Finestra‐Liberi di Scegliere",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "TRIPOLI Alessandra",
+            "lista": "La Finestra‐Liberi di Scegliere",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "DISTEFANO Maria Giulia",
+            "lista": "La Finestra‐Liberi di Scegliere",
+            "voti": {
+                "totali": 9,
+                "seggio_telematico": 9
+            }
+        },
+        {
+            "nominativo": "SCIACCA Vittorio",
+            "lista": "La Finestra‐Liberi di Scegliere",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "LA MANNA Federica",
+            "lista": "La Finestra‐Liberi di Scegliere",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "MARINO Igor",
+            "lista": "La Finestra‐Liberi di Scegliere",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "DI STEFANO Chiara Lorenza",
+            "lista": "Arcadia",
+            "voti": {
+                "totali": 13,
+                "seggio_telematico": 13
+            }
+        },
+        {
+            "nominativo": "GAGLIANO Giuseppe",
+            "lista": "Arcadia",
+            "voti": {
+                "totali": 13,
+                "seggio_telematico": 13
+            }
+        },
+        {
+            "nominativo": "DI PAOLA Edoardo Salvatore Maria",
+            "lista": "Arcadia",
+            "voti": {
+                "totali": 7,
+                "seggio_telematico": 7
+            }
+        },
+        {
+            "nominativo": "RASPAGLIESI Gabriella",
+            "lista": "Arcadia",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nominativo": "BRONZO Giovanni",
+            "lista": "Arcadia",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "D'ARMA Gaetano",
+            "lista": "Arcadia",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "GRASSO Alessia",
+            "lista": "Arcadia",
+            "voti": {
+                "totali": 16,
+                "seggio_telematico": 16
+            }
+        },
+        {
+            "nominativo": "DI SALVO Marilù",
+            "lista": "Arcadia",
+            "voti": {
+                "totali": 10,
+                "seggio_telematico": 10
+            }
+        },
+        {
+            "nominativo": "SCUDERI Riccardo Angelo",
+            "lista": "Arcadia",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "ROSSITTO Cristiana",
+            "lista": "Arcadia",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "CARRUBBA Calogero Valerio",
+            "lista": "Arcadia",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "CARTA Rossella Pia",
+            "lista": "Arcadia",
+            "voti": {
+                "totali": 8,
+                "seggio_telematico": 8
+            }
+        },
+        {
+            "nominativo": "SCUDERI Salvatore",
+            "lista": "Arcadia",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "ZINGARINO Erika",
+            "lista": "Arcadia",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "GENTILE Elvio",
+            "lista": "Arcadia",
+            "voti": {
+                "totali": 8,
+                "seggio_telematico": 8
+            }
+        },
+        {
+            "nominativo": "FERRO Francesco Alberto",
+            "lista": "Arcadia",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "GURRIERI Paride",
+            "lista": "Arcadia",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "RIVOLO Giuseppe",
+            "lista": "Arcadia",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "RIZZO Andrea",
+            "lista": "Arcadia",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "ESPOSTO Calogero",
+            "lista": "Arcadia",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "OLIVIERI Mariagrazia",
+            "lista": "Arcadia",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "ROSSITTO Federica",
+            "lista": "Arcadia",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "ROMANO Dario",
+            "lista": "Arcadia",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "SARRA Giulia",
+            "lista": "Arcadia",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "CAGNES Roberta Immacolata",
+            "lista": "Arcadia",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "GHEZZI Carlotta",
+            "lista": "Arcadia",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "SAMMARTINO Danilo",
+            "lista": "Arcadia",
+            "voti": {
+                "totali": 14,
+                "seggio_telematico": 14
+            }
+        },
+        {
+            "nominativo": "BUGGEA Martina",
+            "lista": "Arcadia",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "FAZIO Ginevra",
+            "lista": "Arcadia",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "CAPPELLO Marco",
+            "lista": "SOS UNICT",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "CIMINO Giordana",
+            "lista": "SOS UNICT",
+            "voti": {
+                "totali": 8,
+                "seggio_telematico": 8
+            }
+        },
+        {
+            "nominativo": "BRUNO Andrea Vittorio",
+            "lista": "SOS UNICT",
+            "voti": {
+                "totali": 9,
+                "seggio_telematico": 9
+            }
+        },
+        {
+            "nominativo": "GIUDICE Marco",
+            "lista": "SOS UNICT",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nominativo": "CANIGLIA Antonino",
+            "lista": "SOS UNICT",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "GULINO Paolo",
+            "lista": "SOS UNICT",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nominativo": "SCALIA Vincenzo",
+            "lista": "SOS UNICT",
+            "voti": {
+                "totali": 16,
+                "seggio_telematico": 16
+            }
+        },
+        {
+            "nominativo": "FALSONE Carmelo Antonino",
+            "lista": "SOS UNICT",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "SPAMPINATO Gioacchino",
+            "lista": "SOS UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "GRASSO Brenda Benedetta",
+            "lista": "SOS UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "REINA Andrea",
+            "lista": "SOS UNICT",
+            "voti": {
+                "totali": 7,
+                "seggio_telematico": 7
+            }
+        },
+        {
+            "nominativo": "FINOCCHIARO Emanuele Salvatore",
+            "lista": "SOS UNICT",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "SANTORO Emanuele",
+            "lista": "SOS UNICT",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "BONAVENTURA Emiliano",
+            "lista": "SOS UNICT",
+            "voti": {
+                "totali": 15,
+                "seggio_telematico": 15
+            }
+        },
+        {
+            "nominativo": "DI MATTEA Alessandro",
+            "lista": "SOS UNICT",
+            "voti": {
+                "totali": 16,
+                "seggio_telematico": 16
+            }
+        },
+        {
+            "nominativo": "LEANZA Ludovica",
+            "lista": "SOS UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "LEANZA Valeria",
+            "lista": "SOS UNICT",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "SPINELLA Paola Concetta",
+            "lista": "SOS UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "CATANIA Claudio",
+            "lista": "SOS UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "AMATO Sara",
+            "lista": "SOS UNICT",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "BIONDI Christian",
+            "lista": "SOS UNICT",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "GRASSO Luca Pietro Maria",
+            "lista": "SOS UNICT",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "VENTURA Simona",
+            "lista": "SOS UNICT",
+            "voti": {
+                "totali": 12,
+                "seggio_telematico": 12
+            }
+        },
+        {
+            "nominativo": "SARNATARO Marzia",
+            "lista": "SOS UNICT",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "SCUDERI Emanuele Orazio",
+            "lista": "SOS UNICT",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "CUSMANO Carmelo",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "GRASSO Esmeralda",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 12,
+                "seggio_telematico": 12
+            }
+        },
+        {
+            "nominativo": "CASABIANCA Martina",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "D'ANGELO Giovanni Marco Pio Detto Gianmarco",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "BUCOLO Francesco Maria",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 10,
+                "seggio_telematico": 10
+            }
+        },
+        {
+            "nominativo": "CAPPELLO Gabriele",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 7,
+                "seggio_telematico": 7
+            }
+        },
+        {
+            "nominativo": "RAPISARDA Valeria Agata",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nominativo": "FINOCCHIARO Morena",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "GRASSO Arrigo",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "LICANDRO Gabriele Massimiliano",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "TUTINO Alessandro Maria",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 11,
+                "seggio_telematico": 11
+            }
+        },
+        {
+            "nominativo": "GUARDO Damiano Emanuele",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 9,
+                "seggio_telematico": 9
+            }
+        },
+        {
+            "nominativo": "ADINOLFI Davide Fedele",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "CRISTAUDO Andrea Giovanni",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "MIGNEMI Andrea",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "PULVIRENTI Alberto",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "CANTARELLA Chiara",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "PRICOCO Gabriele",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 13,
+                "seggio_telematico": 13
+            }
+        },
+        {
+            "nominativo": "VARSALONA Luca",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 9,
+                "seggio_telematico": 9
+            }
+        },
+        {
+            "nominativo": "BRUNO Silvia Agata",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "TERMINELLA Giorgio Maria",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "PATANÈ Maria Chiara",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "LOMBARDO Rosario",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "LONDRIGO Davide",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nominativo": "ROMANO Martina Michela",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "CULTRARO Marco",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "CARUSO Dario",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "MATTIA Lorenzo",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "D'AVOLA Myriam Gioacchina",
+            "lista": "Orizzonte Sanità",
+            "voti": {
+                "totali": 12,
+                "seggio_telematico": 12
+            }
+        },
+        {
+            "nominativo": "ANICITO Antonio",
+            "lista": "Orizzonte Sanità",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "AIDALA Matteo",
+            "lista": "Orizzonte Sanità",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nominativo": "MOSCHETTO Giorgio",
+            "lista": "Orizzonte Sanità",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "DI CARO Lorenzo",
+            "lista": "Orizzonte Sanità",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "TINNIRELLO Gianluca Natale",
+            "lista": "Orizzonte Sanità",
+            "voti": {
+                "totali": 12,
+                "seggio_telematico": 12
+            }
+        },
+        {
+            "nominativo": "RAPISARDA Gianvito",
+            "lista": "Orizzonte Sanità",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "CALACIURA Gianluca",
+            "lista": "Orizzonte Sanità",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "SCAMPORRINO Salvatore",
+            "lista": "Orizzonte Sanità",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "AVERSA Gianmarco",
+            "lista": "Orizzonte Sanità",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "SAPIENZA Marta",
+            "lista": "Orizzonte Sanità",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "CORVAIA Davide",
+            "lista": "Alleanza Universitaria",
+            "voti": {
+                "totali": 10,
+                "seggio_telematico": 10
+            }
+        },
+        {
+            "nominativo": "SCAVO Giuseppe",
+            "lista": "Alleanza Universitaria",
+            "voti": {
+                "totali": 11,
+                "seggio_telematico": 11
+            }
+        },
+        {
+            "nominativo": "CANNILLA Martina",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 14,
+                "seggio_telematico": 14
+            }
+        },
+        {
+            "nominativo": "ANTONAZZO Roberta",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "STANGANELLI Walter Rosario",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "DI MANNO Federica",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "LO MONACO Gabriele Francesco",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "LAINO Giuliana",
+            "lista": "LIBERTAS",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nominativo": "LA MANNA Alessandro",
+            "lista": "LIBERTAS",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "MELI Francesco",
+            "lista": "LIBERTAS",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "VITANZA Alessio Mario Alfio",
+            "lista": "LIBERTAS",
+            "voti": {
+                "totali": 8,
+                "seggio_telematico": 8
+            }
+        },
+        {
+            "nominativo": "BRANCIFORTI Paolo",
+            "lista": "LIBERTAS",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "GANDOLFO Maria Carola",
+            "lista": "LIBERTAS",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "AMARÙ Davide Salvatore",
+            "lista": "LIBERTAS",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "MANNINO Nancy",
+            "lista": "LIBERTAS",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "BALDO Andrea",
+            "lista": "LIBERTAS",
+            "voti": {
+                "totali": 9,
+                "seggio_telematico": 8
+            }
+        }
+    ],
+    "dipartimento": "MEDICINA E CHIRURGIA-LM-41-Laurea Magistrale a ciclo unico (D.M. 270/2004)",
+    "seggi_da_assegnare": "35",
+    "quoziente": 45.2571,
+    "votanti": {
+        "totali": 1612,
+        "percentuale": 64.61,
+        "seggio_n_telematico": 1612
+    },
+    "elettori": {
+        "totali": 2495,
+        "seggio_n_telematico": 2495
+    }
+}
