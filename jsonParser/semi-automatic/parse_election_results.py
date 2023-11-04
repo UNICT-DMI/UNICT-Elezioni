@@ -2,6 +2,7 @@ import csv
 import json
 import click
 import os
+from typing import List
 
 @click.command()
 @click.option('--input', '-i', help='Input CSV file', required=True)
@@ -103,13 +104,13 @@ def get_list_information(rows_list: list, data: dict) -> list:
         lista = {
             "nome": str(row[0].strip()),
             "seggi": {
-                "seggi_pieni": str(row[1].strip()),
-                "resti": str(row[2].strip()),
-                "seggi_ai_resti": str(row[3].strip()),
-                "seggi_totali": str(row[4].strip())
+                "seggi_pieni": str(row[2].strip()),
+                "resti": str(row[3].strip()),
+                "seggi_ai_resti": str(row[4].strip()),
+                "seggi_totali": str(row[5].strip())
             },
             "voti": {
-                "totali": str(row[5].strip()),
+                "totali": str(row[1].strip()),
                 "seggio_telematico": str(row[-1].strip())
             }
         }
