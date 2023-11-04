@@ -15,13 +15,13 @@
         {
             "nome": "Studenti DFA",
             "seggi": {
-                "seggi_pieni": "130",
-                "resti": "13",
+                "seggi_pieni": "13",
+                "resti": "0",
                 "seggi_ai_resti": "0",
-                "seggi_totali": "0"
+                "seggi_totali": "13"
             },
             "voti": {
-                "totali": "13",
+                "totali": "130",
                 "seggio_telematico": "130"
             }
         },

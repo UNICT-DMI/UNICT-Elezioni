@@ -15,104 +15,104 @@
         {
             "nome": "AZIONE UNIVERSITARIA",
             "seggi": {
-                "seggi_pieni": "114",
-                "resti": "4",
-                "seggi_ai_resti": "8,9",
-                "seggi_totali": "0"
+                "seggi_pieni": "4",
+                "resti": "8,9",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "4"
             },
             "voti": {
-                "totali": "4",
+                "totali": "114",
                 "seggio_telematico": "114"
             }
         },
         {
             "nome": "WE LOVE UNICT",
             "seggi": {
-                "seggi_pieni": "70",
-                "resti": "2",
-                "seggi_ai_resti": "17,4",
-                "seggi_totali": "1"
+                "seggi_pieni": "2",
+                "resti": "17,4",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "3"
             },
             "voti": {
-                "totali": "3",
+                "totali": "70",
                 "seggio_telematico": "70"
             }
         },
         {
             "nome": "Primavera degli Studenti",
             "seggi": {
-                "seggi_pieni": "7",
-                "resti": "-",
-                "seggi_ai_resti": "7",
-                "seggi_totali": "0"
+                "seggi_pieni": "-",
+                "resti": "7",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
             },
             "voti": {
-                "totali": "-",
+                "totali": "7",
                 "seggio_telematico": "7"
             }
         },
         {
             "nome": "Koinè",
             "seggi": {
-                "seggi_pieni": "105",
-                "resti": "3",
-                "seggi_ai_resti": "26,2",
-                "seggi_totali": "1"
+                "seggi_pieni": "3",
+                "resti": "26,2",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "4"
             },
             "voti": {
-                "totali": "4",
+                "totali": "105",
                 "seggio_telematico": "105"
             }
         },
         {
             "nome": "ACTEA",
             "seggi": {
-                "seggi_pieni": "90",
-                "resti": "3",
-                "seggi_ai_resti": "11,2",
-                "seggi_totali": "0"
+                "seggi_pieni": "3",
+                "resti": "11,2",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "3"
             },
             "voti": {
-                "totali": "3",
+                "totali": "90",
                 "seggio_telematico": "90"
             }
         },
         {
             "nome": "ARCADIA DI3A",
             "seggi": {
-                "seggi_pieni": "27",
-                "resti": "1",
-                "seggi_ai_resti": "0,7",
-                "seggi_totali": "0"
+                "seggi_pieni": "1",
+                "resti": "0,7",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
             },
             "voti": {
-                "totali": "1",
+                "totali": "27",
                 "seggio_telematico": "27"
             }
         },
         {
             "nome": "Alleanza Universitaria",
             "seggi": {
-                "seggi_pieni": "15",
-                "resti": "-",
-                "seggi_ai_resti": "15",
+                "seggi_pieni": "-",
+                "resti": "15",
+                "seggi_ai_resti": "1",
                 "seggi_totali": "1"
             },
             "voti": {
-                "totali": "1",
+                "totali": "15",
                 "seggio_telematico": "15"
             }
         },
         {
             "nome": "Cambiamento DI3A",
             "seggi": {
-                "seggi_pieni": "45",
-                "resti": "1",
-                "seggi_ai_resti": "18,7",
-                "seggi_totali": "1"
+                "seggi_pieni": "1",
+                "resti": "18,7",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
             },
             "voti": {
-                "totali": "2",
+                "totali": "45",
                 "seggio_telematico": "45"
             }
         },

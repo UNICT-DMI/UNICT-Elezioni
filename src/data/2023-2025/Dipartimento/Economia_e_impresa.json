@@ -15,130 +15,130 @@
         {
             "nome": "AZIONE UNIVERSITARIA",
             "seggi": {
-                "seggi_pieni": "116",
-                "resti": "-",
-                "seggi_ai_resti": "116",
+                "seggi_pieni": "-",
+                "resti": "116",
+                "seggi_ai_resti": "1",
                 "seggi_totali": "1"
             },
             "voti": {
-                "totali": "1",
+                "totali": "116",
                 "seggio_telematico": "116"
             }
         },
         {
             "nome": "Nike Economia",
             "seggi": {
-                "seggi_pieni": "431",
-                "resti": "3",
-                "seggi_ai_resti": "51",
-                "seggi_totali": "0"
+                "seggi_pieni": "3",
+                "resti": "51",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "3"
             },
             "voti": {
-                "totali": "3",
+                "totali": "431",
                 "seggio_telematico": "431"
             }
         },
         {
             "nome": "WE LOVE UNICT",
             "seggi": {
-                "seggi_pieni": "268",
-                "resti": "2",
-                "seggi_ai_resti": "14,7",
-                "seggi_totali": "0"
+                "seggi_pieni": "2",
+                "resti": "14,7",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "2"
             },
             "voti": {
-                "totali": "2",
+                "totali": "268",
                 "seggio_telematico": "268"
             }
         },
         {
             "nome": "CREDIAMOCI",
             "seggi": {
-                "seggi_pieni": "130",
-                "resti": "1",
-                "seggi_ai_resti": "3,3",
-                "seggi_totali": "0"
+                "seggi_pieni": "1",
+                "resti": "3,3",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
             },
             "voti": {
-                "totali": "1",
+                "totali": "130",
                 "seggio_telematico": "130"
             }
         },
         {
             "nome": "ACTEA",
             "seggi": {
-                "seggi_pieni": "183",
-                "resti": "1",
-                "seggi_ai_resti": "56,3",
-                "seggi_totali": "1"
+                "seggi_pieni": "1",
+                "resti": "56,3",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
             },
             "voti": {
-                "totali": "2",
+                "totali": "183",
                 "seggio_telematico": "183"
             }
         },
         {
             "nome": "ETERNA",
             "seggi": {
-                "seggi_pieni": "161",
-                "resti": "1",
-                "seggi_ai_resti": "34,3",
-                "seggi_totali": "0"
+                "seggi_pieni": "1",
+                "resti": "34,3",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
             },
             "voti": {
-                "totali": "1",
+                "totali": "161",
                 "seggio_telematico": "161"
             }
         },
         {
             "nome": "Arcadia ‐ Generazione Attiva",
             "seggi": {
-                "seggi_pieni": "49",
-                "resti": "-",
-                "seggi_ai_resti": "49",
-                "seggi_totali": "0"
+                "seggi_pieni": "-",
+                "resti": "49",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
             },
             "voti": {
-                "totali": "-",
+                "totali": "49",
                 "seggio_telematico": "49"
             }
         },
         {
             "nome": "Unione Ragusa",
             "seggi": {
-                "seggi_pieni": "60",
-                "resti": "-",
-                "seggi_ai_resti": "60",
+                "seggi_pieni": "-",
+                "resti": "60",
+                "seggi_ai_resti": "1",
                 "seggi_totali": "1"
             },
             "voti": {
-                "totali": "1",
+                "totali": "60",
                 "seggio_telematico": "60"
             }
         },
         {
             "nome": "ALPHAKATANE DEI",
             "seggi": {
-                "seggi_pieni": "52",
-                "resti": "-",
-                "seggi_ai_resti": "52",
-                "seggi_totali": "0"
+                "seggi_pieni": "-",
+                "resti": "52",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
             },
             "voti": {
-                "totali": "-",
+                "totali": "52",
                 "seggio_telematico": "52"
             }
         },
         {
             "nome": "Cambiamento DEI",
             "seggi": {
-                "seggi_pieni": "70",
-                "resti": "-",
-                "seggi_ai_resti": "70",
+                "seggi_pieni": "-",
+                "resti": "70",
+                "seggi_ai_resti": "1",
                 "seggi_totali": "1"
             },
             "voti": {
-                "totali": "1",
+                "totali": "70",
                 "seggio_telematico": "70"
             }
         },

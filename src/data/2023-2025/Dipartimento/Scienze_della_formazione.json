@@ -15,78 +15,78 @@
         {
             "nome": "AZIONE UNIVERSITARIA",
             "seggi": {
-                "seggi_pieni": "225",
-                "resti": "2",
-                "seggi_ai_resti": "36,7",
-                "seggi_totali": "0"
+                "seggi_pieni": "2",
+                "resti": "36,7",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "2"
             },
             "voti": {
-                "totali": "2",
+                "totali": "225",
                 "seggio_telematico": "225"
             }
         },
         {
             "nome": "Fronte della Gioventù Comunista",
             "seggi": {
-                "seggi_pieni": "4",
-                "resti": "-",
-                "seggi_ai_resti": "4",
-                "seggi_totali": "0"
+                "seggi_pieni": "-",
+                "resti": "4",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
             },
             "voti": {
-                "totali": "-",
+                "totali": "4",
                 "seggio_telematico": "4"
             }
         },
         {
             "nome": "SUPPORTO STUDENTI",
             "seggi": {
-                "seggi_pieni": "247",
-                "resti": "2",
-                "seggi_ai_resti": "58,7",
-                "seggi_totali": "1"
+                "seggi_pieni": "2",
+                "resti": "58,7",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "3"
             },
             "voti": {
-                "totali": "3",
+                "totali": "247",
                 "seggio_telematico": "247"
             }
         },
         {
             "nome": "Primavera degli Studenti",
             "seggi": {
-                "seggi_pieni": "91",
-                "resti": "-",
-                "seggi_ai_resti": "91",
+                "seggi_pieni": "-",
+                "resti": "91",
+                "seggi_ai_resti": "1",
                 "seggi_totali": "1"
             },
             "voti": {
-                "totali": "1",
+                "totali": "91",
                 "seggio_telematico": "91"
             }
         },
         {
             "nome": "WE LOVE UNICT",
             "seggi": {
-                "seggi_pieni": "70",
-                "resti": "-",
-                "seggi_ai_resti": "70",
+                "seggi_pieni": "-",
+                "resti": "70",
+                "seggi_ai_resti": "1",
                 "seggi_totali": "1"
             },
             "voti": {
-                "totali": "1",
+                "totali": "70",
                 "seggio_telematico": "70"
             }
         },
         {
             "nome": "Cambiamento disfor",
             "seggi": {
-                "seggi_pieni": "22",
-                "resti": "-",
-                "seggi_ai_resti": "22",
-                "seggi_totali": "0"
+                "seggi_pieni": "-",
+                "resti": "22",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
             },
             "voti": {
-                "totali": "-",
+                "totali": "22",
                 "seggio_telematico": "22"
             }
         },

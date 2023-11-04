@@ -15,78 +15,78 @@
         {
             "nome": "IURIS",
             "seggi": {
-                "seggi_pieni": "200",
-                "resti": "2",
-                "seggi_ai_resti": "46",
-                "seggi_totali": "1"
+                "seggi_pieni": "2",
+                "resti": "46",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "3"
             },
             "voti": {
-                "totali": "3",
+                "totali": "200",
                 "seggio_telematico": "200"
             }
         },
         {
             "nome": "La Finestra ‐ Liberi di scegliere",
             "seggi": {
-                "seggi_pieni": "138",
-                "resti": "1",
-                "seggi_ai_resti": "61",
-                "seggi_totali": "1"
+                "seggi_pieni": "1",
+                "resti": "61",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
             },
             "voti": {
-                "totali": "2",
+                "totali": "138",
                 "seggio_telematico": "138"
             }
         },
         {
             "nome": "GiurisprudenzAttiva",
             "seggi": {
-                "seggi_pieni": "380",
-                "resti": "4",
-                "seggi_ai_resti": "72",
-                "seggi_totali": "1"
+                "seggi_pieni": "4",
+                "resti": "72",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "5"
             },
             "voti": {
-                "totali": "5",
+                "totali": "380",
                 "seggio_telematico": "380"
             }
         },
         {
             "nome": "AZIONE UNIVERSITARIA",
             "seggi": {
-                "seggi_pieni": "32",
-                "resti": "-",
-                "seggi_ai_resti": "32",
-                "seggi_totali": "0"
+                "seggi_pieni": "-",
+                "resti": "32",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
             },
             "voti": {
-                "totali": "-",
+                "totali": "32",
                 "seggio_telematico": "32"
             }
         },
         {
             "nome": "CREDIAMOCI",
             "seggi": {
-                "seggi_pieni": "174",
-                "resti": "2",
-                "seggi_ai_resti": "20",
-                "seggi_totali": "0"
+                "seggi_pieni": "2",
+                "resti": "20",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "2"
             },
             "voti": {
-                "totali": "2",
+                "totali": "174",
                 "seggio_telematico": "174"
             }
         },
         {
             "nome": "Alleanza Universitaria Ius Vivens",
             "seggi": {
-                "seggi_pieni": "77",
-                "resti": "1",
+                "seggi_pieni": "1",
+                "resti": "0",
                 "seggi_ai_resti": "0",
-                "seggi_totali": "0"
+                "seggi_totali": "1"
             },
             "voti": {
-                "totali": "1",
+                "totali": "77",
                 "seggio_telematico": "77"
             }
         },
