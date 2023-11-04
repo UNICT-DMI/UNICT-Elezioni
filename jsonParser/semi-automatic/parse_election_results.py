@@ -1,17 +1,39 @@
-import csv
 import json
 import click
 import os
+import csv
+from typing import List
+from glob import glob
 
 @click.command()
-@click.option('--input', '-i', help='Input CSV file', required=True)
-@click.option('--output', '-o', help='Output JSON file', required=True)
+@click.option('--input', '-i', help='Input CSV file or path with CSV files', required=True)
+@click.option('--output', '-o', help='Output JSON file or folder', required=True)
 def main(input:str, output:str):
     check_file_exists(input)
     
+    input_files = []
+    output_files = []
+    if os.path.isdir(input):
+        input_files = glob(input + "/*.csv")
+        if len(input_files) == 0:
+            input_files = glob(input + "/*/*.csv")
+            if len(input_files) == 0:
+                raise FileNotFoundError(f"No CSV files found in '{input}'")
+        for file in input_files:
+            output_files.append(os.path.join(output, file.split("/")[-1].replace(".csv", ".json")))
+    else:
+        input_files.append(input)
+        output_files.append(output)
+        
+    for input, output in zip(input_files, output_files):
+        print(f"Creating JSON file '{output}' from CSV file '{input}'...")
+        create_json_file(input, output)
+        print("#"*50)
+
+def create_json_file(input:str, output:str) -> None:
     # Read the CSV file
     with open(input, 'r', encoding='utf-8-sig') as csv_file:
-        csv_reader = csv.reader(csv_file, delimiter=';')
+        csv_reader = csv.reader(csv_file, delimiter=',')
         rows_list = create_list(csv_reader)
     
     # Create the dictionary that will contain the data
@@ -44,13 +66,12 @@ def main(input:str, output:str):
     # Save the JSON data to a file
     with open(output, 'w', encoding='utf-8') as json_file:
         json_file.write(json_output)
-        
+
 def check_file_exists(file_path:str) -> None:
-    if not os.path.isfile(file_path):
+    if not os.path.isfile(file_path) and not os.path.isdir(file_path):
         raise FileNotFoundError(f"File '{file_path}' not found")
 
 def create_list(csv_reader:List[str]) -> List[str]:
-
     """Create a list of rows from the CSV file
 
     Args:
@@ -60,10 +81,24 @@ def create_list(csv_reader:List[str]) -> List[str]:
         list: The list of rows of the CSV file
     """
     rows_list = []
-    for row in csv_reader:
-        # Replace \xa0 with a space in the entire row
-        row = [cell.replace('\xa0', ' ') for cell in row]
-        rows_list.append(row)
+    for line in csv_reader:
+        for i in range(len(line)):
+            line[i] = line[i].replace("\"", "").replace("\n", "").replace("\xa0", " ").replace("Evaluation Only. Created with Aspose.PDF. Copyright 2002-2023 Aspose Pty Ltd.", "")
+        if len(line) == 1 and (line[0] == "" or line[0] == "VOTI DI LISTA" or line[0] == "BIENNIO 2023/2025" or "ELEZIONI RAPPRESENTANTI" in line[0]):
+            continue
+        if line[0] == "VOTI DI LISTA" or line[0] == "BIENNIO 2023/2025" or "ELEZIONI RAPPRESENTANTI" in line[0]:
+            continue
+        line = [x.strip() for x in line if x.strip() != "" and "aequo" not in x.strip()]
+        if len(line) == 0:
+            continue
+        if "DIPARTIMENTO" in line[0]:
+            l = " ".join(line)
+            line = [l.split("-")[0].strip()]
+        if len(line) > 1:
+            if line[1] in line[0]:
+                line[0] = line[0].replace(line[1], "")
+                line.append(line[1])
+        rows_list.append(line)
     return rows_list
 
 def get_name_and_seats(rows_list:list, data:dict) -> list:
@@ -77,8 +112,10 @@ def get_name_and_seats(rows_list:list, data:dict) -> list:
         list: The list of rows of the CSV file
     """
     row = rows_list[0]
+    print(row)
     data["dipartimento"] = str(row[0])
     row = rows_list[1]
+    print(row)
     data["seggi_da_assegnare"] = row[1]
     rows_list = rows_list[4:]
     return rows_list
@@ -100,6 +137,7 @@ def get_list_information(rows_list: list, data: dict) -> list:
         if row[0].strip() == "TOTALE":
             data["liste"].append({"totale": int(row[1].strip())})
             break
+        print(row)
         lista = {
             "nome": str(row[0].strip()),
             "seggi": {
@@ -142,7 +180,7 @@ def get_votation_information(rows_list:list, data:dict) -> list:
         elif row[0].strip() == "VOTANTI":
             data["votanti"] = {
                 "totali": int(row[1].strip()),
-                "percentuale": float(row[4].strip().replace(",", ".")),
+                "percentuale": float(row[3].strip().replace(",", ".")),
                 "seggio_n_telematico": int(row[-1].strip())
             }
         elif row[0].strip() == "TOTALE ELETTORI AVENTI DIRITTO":
@@ -176,10 +214,10 @@ def get_candidates_information(rows_list:list, data:dict) -> None:
                 "lista": list_name,
                 "voti": {
                     "totali": int(row[1].strip()),
-                    "seggio_telematico": int(row[-4].strip())
+                    "seggio_telematico": int(row[-1].strip())
                 }
             }
-            if "ELETTO" in row[3].strip():
+            if "ELETTO" in row:
                 data["eletti"].append(candidate)
             else:
                 data["non_eletti"].append(candidate)
