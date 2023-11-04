@@ -15,117 +15,117 @@
         {
             "nome": "La Finestra ‐ Liberi di Scegliere",
             "seggi": {
-                "seggi_pieni": "810",
-                "resti": "13",
-                "seggi_ai_resti": "7,8",
-                "seggi_totali": "0"
+                "seggi_pieni": "13",
+                "resti": "7,8",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "13"
             },
             "voti": {
-                "totali": "13",
+                "totali": "810",
                 "seggio_telematico": "810"
             }
         },
         {
             "nome": "WE LOVE UNICT",
             "seggi": {
-                "seggi_pieni": "277",
-                "resti": "4",
-                "seggi_ai_resti": "30,2",
-                "seggi_totali": "1"
+                "seggi_pieni": "4",
+                "resti": "30,2",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "5"
             },
             "voti": {
-                "totali": "5",
+                "totali": "277",
                 "seggio_telematico": "277"
             }
         },
         {
             "nome": "KOINÈ",
             "seggi": {
-                "seggi_pieni": "72",
-                "resti": "1",
-                "seggi_ai_resti": "10,3",
-                "seggi_totali": "0"
+                "seggi_pieni": "1",
+                "resti": "10,3",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
             },
             "voti": {
-                "totali": "1",
+                "totali": "72",
                 "seggio_telematico": "72"
             }
         },
         {
             "nome": "INFO DISUM",
             "seggi": {
-                "seggi_pieni": "74",
-                "resti": "1",
-                "seggi_ai_resti": "12,3",
-                "seggi_totali": "0"
+                "seggi_pieni": "1",
+                "resti": "12,3",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
             },
             "voti": {
-                "totali": "1",
+                "totali": "74",
                 "seggio_telematico": "74"
             }
         },
         {
             "nome": "CREDIAMOCI",
             "seggi": {
-                "seggi_pieni": "28",
-                "resti": "-",
-                "seggi_ai_resti": "28",
-                "seggi_totali": "0"
+                "seggi_pieni": "-",
+                "resti": "28",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
             },
             "voti": {
-                "totali": "-",
+                "totali": "28",
                 "seggio_telematico": "28"
             }
         },
         {
             "nome": "ACTEA",
             "seggi": {
-                "seggi_pieni": "63",
-                "resti": "1",
-                "seggi_ai_resti": "1,3",
-                "seggi_totali": "0"
+                "seggi_pieni": "1",
+                "resti": "1,3",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
             },
             "voti": {
-                "totali": "1",
+                "totali": "63",
                 "seggio_telematico": "63"
             }
         },
         {
             "nome": "Yousu",
             "seggi": {
-                "seggi_pieni": "39",
-                "resti": "-",
-                "seggi_ai_resti": "39",
+                "seggi_pieni": "-",
+                "resti": "39",
+                "seggi_ai_resti": "1",
                 "seggi_totali": "1"
             },
             "voti": {
-                "totali": "1",
+                "totali": "39",
                 "seggio_telematico": "39"
             }
         },
         {
             "nome": "Alleanza Universitaria",
             "seggi": {
-                "seggi_pieni": "6-6,0 0",
+                "seggi_pieni": "",
                 "resti": "",
                 "seggi_ai_resti": "",
-                "seggi_totali": ""
+                "seggi_totali": "-"
             },
             "voti": {
-                "totali": "-",
+                "totali": "6-6,0 0",
                 "seggio_telematico": "6"
             }
         },
         {
             "nome": "DISUM Nike",
             "seggi": {
-                "seggi_pieni": "112",
-                "resti": "1",
-                "seggi_ai_resti": "50,3",
-                "seggi_totali": "1"
+                "seggi_pieni": "1",
+                "resti": "50,3",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
             },
             "voti": {
-                "totali": "2",
+                "totali": "112",
                 "seggio_telematico": "112"
             }
         },

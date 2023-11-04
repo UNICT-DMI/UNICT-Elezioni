@@ -15,78 +15,78 @@
         {
             "nome": "ACTEA",
             "seggi": {
-                "seggi_pieni": "56",
-                "resti": "2",
-                "seggi_ai_resti": "8,7",
-                "seggi_totali": "0"
+                "seggi_pieni": "2",
+                "resti": "8,7",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "2"
             },
             "voti": {
-                "totali": "2",
+                "totali": "56",
                 "seggio_telematico": "56"
             }
         },
         {
             "nome": "PRIMAVERA DEGLI STUDENTI",
             "seggi": {
-                "seggi_pieni": "24",
-                "resti": "1",
-                "seggi_ai_resti": "0,3",
-                "seggi_totali": "0"
+                "seggi_pieni": "1",
+                "resti": "0,3",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
             },
             "voti": {
-                "totali": "1",
+                "totali": "24",
                 "seggio_telematico": "24"
             }
         },
         {
             "nome": "WE LOVE UNICT",
             "seggi": {
-                "seggi_pieni": "204",
-                "resti": "8",
-                "seggi_ai_resti": "14,7",
-                "seggi_totali": "1"
+                "seggi_pieni": "8",
+                "resti": "14,7",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "9"
             },
             "voti": {
-                "totali": "9",
+                "totali": "204",
                 "seggio_telematico": "204"
             }
         },
         {
             "nome": "AZIONE UNIVERSITARIA",
             "seggi": {
-                "seggi_pieni": "21",
-                "resti": "-",
-                "seggi_ai_resti": "21",
+                "seggi_pieni": "-",
+                "resti": "21",
+                "seggi_ai_resti": "1",
                 "seggi_totali": "1"
             },
             "voti": {
-                "totali": "1",
+                "totali": "21",
                 "seggio_telematico": "21"
             }
         },
         {
             "nome": "Alleanza Universitaria",
             "seggi": {
-                "seggi_pieni": "23",
-                "resti": "-",
-                "seggi_ai_resti": "23",
+                "seggi_pieni": "-",
+                "resti": "23",
+                "seggi_ai_resti": "1",
                 "seggi_totali": "1"
             },
             "voti": {
-                "totali": "1",
+                "totali": "23",
                 "seggio_telematico": "23"
             }
         },
         {
             "nome": "ARCADIA   GENERAZIONE ATTIVA",
             "seggi": {
-                "seggi_pieni": "27",
-                "resti": "1",
-                "seggi_ai_resti": "3,3",
-                "seggi_totali": "0"
+                "seggi_pieni": "1",
+                "resti": "3,3",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
             },
             "voti": {
-                "totali": "1",
+                "totali": "27",
                 "seggio_telematico": "27"
             }
         },

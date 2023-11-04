@@ -15,104 +15,104 @@
         {
             "nome": "IPPOCRATE - NIKEMED",
             "seggi": {
-                "seggi_pieni": "224",
-                "resti": "1",
-                "seggi_ai_resti": "83,2",
-                "seggi_totali": "1"
+                "seggi_pieni": "1",
+                "resti": "83,2",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
             },
             "voti": {
-                "totali": "2",
+                "totali": "224",
                 "seggio_telematico": "224"
             }
         },
         {
             "nome": "La Finestra-Liberi di Scegliere",
             "seggi": {
-                "seggi_pieni": "389",
-                "resti": "2",
-                "seggi_ai_resti": "107,3",
-                "seggi_totali": "1"
+                "seggi_pieni": "2",
+                "resti": "107,3",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "3"
             },
             "voti": {
-                "totali": "3",
+                "totali": "389",
                 "seggio_telematico": "389"
             }
         },
         {
             "nome": "SOS UNICT",
             "seggi": {
-                "seggi_pieni": "388",
-                "resti": "2",
-                "seggi_ai_resti": "106,3",
-                "seggi_totali": "1"
+                "seggi_pieni": "2",
+                "resti": "106,3",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "3"
             },
             "voti": {
-                "totali": "3",
+                "totali": "388",
                 "seggio_telematico": "388"
             }
         },
         {
             "nome": "Arcadia",
             "seggi": {
-                "seggi_pieni": "263",
-                "resti": "1",
-                "seggi_ai_resti": "122,2",
-                "seggi_totali": "1"
+                "seggi_pieni": "1",
+                "resti": "122,2",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
             },
             "voti": {
-                "totali": "2",
+                "totali": "263",
                 "seggio_telematico": "263"
             }
         },
         {
             "nome": "CREDIAMOCI",
             "seggi": {
-                "seggi_pieni": "220",
-                "resti": "1",
-                "seggi_ai_resti": "79,2",
-                "seggi_totali": "0"
+                "seggi_pieni": "1",
+                "resti": "79,2",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
             },
             "voti": {
-                "totali": "1",
+                "totali": "220",
                 "seggio_telematico": "220"
             }
         },
         {
             "nome": "Orizzonte Sanità",
             "seggi": {
-                "seggi_pieni": "137",
-                "resti": "-",
-                "seggi_ai_resti": "137",
+                "seggi_pieni": "-",
+                "resti": "137",
+                "seggi_ai_resti": "1",
                 "seggi_totali": "1"
             },
             "voti": {
-                "totali": "1",
+                "totali": "137",
                 "seggio_telematico": "137"
             }
         },
         {
             "nome": "AZIONE UNIVERSITARIA",
             "seggi": {
-                "seggi_pieni": "34",
-                "resti": "-",
-                "seggi_ai_resti": "34",
-                "seggi_totali": "0"
+                "seggi_pieni": "-",
+                "resti": "34",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
             },
             "voti": {
-                "totali": "-",
+                "totali": "34",
                 "seggio_telematico": "34"
             }
         },
         {
             "nome": "LIBERTAS",
             "seggi": {
-                "seggi_pieni": "35",
-                "resti": "-",
-                "seggi_ai_resti": "35",
-                "seggi_totali": "0"
+                "seggi_pieni": "-",
+                "resti": "35",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
             },
             "voti": {
-                "totali": "-",
+                "totali": "35",
                 "seggio_telematico": "35"
             }
         },
