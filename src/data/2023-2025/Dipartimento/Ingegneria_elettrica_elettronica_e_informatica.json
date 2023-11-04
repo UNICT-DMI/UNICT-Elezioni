@@ -15,130 +15,130 @@
         {
             "nome": "Fronte della Gioventù Comunista",
             "seggi": {
-                "seggi_pieni": "6",
-                "resti": "-",
-                "seggi_ai_resti": "6",
-                "seggi_totali": "0"
+                "seggi_pieni": "-",
+                "resti": "6",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
             },
             "voti": {
-                "totali": "-",
+                "totali": "6",
                 "seggio_telematico": "6"
             }
         },
         {
             "nome": "WE LOVE UNICT",
             "seggi": {
-                "seggi_pieni": "189",
-                "resti": "3",
-                "seggi_ai_resti": "20,6",
-                "seggi_totali": "0"
+                "seggi_pieni": "3",
+                "resti": "20,6",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "3"
             },
             "voti": {
-                "totali": "3",
+                "totali": "189",
                 "seggio_telematico": "189"
             }
         },
         {
             "nome": "AZIONE UNIVERSITARIA",
             "seggi": {
-                "seggi_pieni": "63",
-                "resti": "1",
-                "seggi_ai_resti": "6,9",
-                "seggi_totali": "0"
+                "seggi_pieni": "1",
+                "resti": "6,9",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
             },
             "voti": {
-                "totali": "1",
+                "totali": "63",
                 "seggio_telematico": "63"
             }
         },
         {
             "nome": "DIEEI Today",
             "seggi": {
-                "seggi_pieni": "188",
-                "resti": "3",
-                "seggi_ai_resti": "19,6",
-                "seggi_totali": "0"
+                "seggi_pieni": "3",
+                "resti": "19,6",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "3"
             },
             "voti": {
-                "totali": "3",
+                "totali": "188",
                 "seggio_telematico": "188"
             }
         },
         {
             "nome": "UNITAS DIEEI",
             "seggi": {
-                "seggi_pieni": "66",
-                "resti": "1",
-                "seggi_ai_resti": "9,9",
-                "seggi_totali": "0"
+                "seggi_pieni": "1",
+                "resti": "9,9",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
             },
             "voti": {
-                "totali": "1",
+                "totali": "66",
                 "seggio_telematico": "66"
             }
         },
         {
             "nome": "La Finestra ‐ Liberi di Scegliere",
             "seggi": {
-                "seggi_pieni": "37",
-                "resti": "-",
-                "seggi_ai_resti": "37",
+                "seggi_pieni": "-",
+                "resti": "37",
+                "seggi_ai_resti": "1",
                 "seggi_totali": "1"
             },
             "voti": {
-                "totali": "1",
+                "totali": "37",
                 "seggio_telematico": "37"
             }
         },
         {
             "nome": "Actea",
             "seggi": {
-                "seggi_pieni": "58",
-                "resti": "1",
-                "seggi_ai_resti": "1,9",
-                "seggi_totali": "0"
+                "seggi_pieni": "1",
+                "resti": "1,9",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
             },
             "voti": {
-                "totali": "1",
+                "totali": "58",
                 "seggio_telematico": "58"
             }
         },
         {
             "nome": "CREDIAMOCI",
             "seggi": {
-                "seggi_pieni": "37",
-                "resti": "-",
-                "seggi_ai_resti": "37",
+                "seggi_pieni": "-",
+                "resti": "37",
+                "seggi_ai_resti": "1",
                 "seggi_totali": "1"
             },
             "voti": {
-                "totali": "1",
+                "totali": "37",
                 "seggio_telematico": "37"
             }
         },
         {
             "nome": "Alleanza Universitaria",
             "seggi": {
-                "seggi_pieni": "30",
-                "resti": "-",
-                "seggi_ai_resti": "30",
+                "seggi_pieni": "-",
+                "resti": "30",
+                "seggi_ai_resti": "1",
                 "seggi_totali": "1"
             },
             "voti": {
-                "totali": "1",
+                "totali": "30",
                 "seggio_telematico": "30"
             }
         },
         {
             "nome": "IngegneriAttiva",
             "seggi": {
-                "seggi_pieni": "168",
-                "resti": "2",
-                "seggi_ai_resti": "55,7",
-                "seggi_totali": "1"
+                "seggi_pieni": "2",
+                "resti": "55,7",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "3"
             },
             "voti": {
-                "totali": "3",
+                "totali": "168",
                 "seggio_telematico": "168"
             }
         },
