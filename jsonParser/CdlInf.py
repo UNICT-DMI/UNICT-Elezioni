@@ -1,4 +1,3 @@
-from sys import flags
 from typing import List
 from Target import Target
 import json
@@ -6,29 +5,31 @@ import json
 @Target.register
 class CdlInf(Target): # or PhD
 
-    def __control_quorum(self, text, quorum) -> bool:
-        if not quorum:
-            return False
+    # def __control_quorum(self, text, quorum) -> bool:
+    #     if not quorum:
+    #         return False
 
-        if not self.word_not_in_control("NO QUORUM", text):
-            text[self.i] = text[self.i].replace("NO QUORUM", " ").strip()
-            return False
+    #     if not self.word_not_in_control("NO QUORUM", text):
+    #         text[self.i] = text[self.i].replace("NO QUORUM", " ").strip()
+    #         return False
 
-        return True
+    #     return True
 
-    def __find_name_department(self, text, quorum) -> str:
+    def __find_name_department(self, text: List[str], quorum: List[bool]) -> str:
+        print(self.i)
         self.word_not_in_update("ELEZIONI", text)
+
         self.i += 1
 
-        quorum[0] = self.__control_quorum(text, quorum[0])
+        # quorum[0] = self.__control_quorum(text, quorum[0])
         nome = text[self.i]
 
-        self.i += 1
-        while self.word_not_in_control("BIENNIO", text):
-            if len(text[self.i]) > 5:
-                quorum[0] = self.__control_quorum(text, quorum[0])
-                nome += "\n" + text[self.i]
-            self.i += 1
+        # self.i += 1
+        # while self.word_not_in_control("BIENNIO", text):
+        #     if len(text[self.i]) > 5:
+        #         quorum[0] = self.__control_quorum(text, quorum[0])
+        #         nome += "\n" + text[self.i]
+        #     self.i += 1
 
         return nome.strip()
     
@@ -44,13 +45,21 @@ class CdlInf(Target): # or PhD
         except ValueError:
             self.i += 1
             split_text = text[self.i].split()
+
             while len(split_text) <= 0:
                 self.i += 1
                 split_text = text[self.i].split()
+                if len(split_text) > 0 and split_text[0].find("B0") != -1:
+                    split_text = ""
+
             return int(split_text[len(split_text)-1])
 
     def __get_year(self, text: List[str]) -> str:
-        biennio = text[2].replace("BIENNIO ", "")
+        for t in text:
+            if t.find("BIENNIO") != -1:
+                biennio = t.replace("BIENNIO ", "")
+                break
+
         year = biennio[:biennio.find("/")]
         return year
     
@@ -69,9 +78,7 @@ class CdlInf(Target): # or PhD
         self.i += 1
         quorum = current_quorum
 
-        if "DOTTORANDI" in text[0] and year == "2023":
-            # TODO: if quorum or not
-
+        if int(year) >= 2023: # and "DOTTORANDI" in text[0]
             voti_idx = text.index("VOTI") + 1
             schede_idx = text.index("SCHEDE BIANCHE")
 
@@ -160,7 +167,7 @@ class CdlInf(Target): # or PhD
         quorum = [True]
         nome_dipartimento = self.__find_name_department(text, quorum)
         
-        if year == "2023":
+        if int(year) >= 2023:
             seggi = self.__seggi_da_assegnare_v2(text)
         else:
             seggi = self.__seggi_da_assegnare(text)
@@ -169,20 +176,31 @@ class CdlInf(Target): # or PhD
         non_eletti = []
         quorum[0] = self.__get_candidati(text, eletti, non_eletti, quorum[0])
 
-        schede_bianche = int(self.__get_type("BIANCHE", text)) # TODO use v2 for 2023
 
-        if year != "2023":
-            schede_nulle = int(self.__get_type("NULLE", text))
-            schede_contestate = int(self.__get_type("CONTESTATE", text))
-        else:
+        if int(year) >= 2023:
+            perc_votanti = float(self.__get_type_v2("% VOTANTI", text))
+
             schede_nulle = 0
             schede_contestate = 0
 
-        if year == "2023":
-            totale_voti = int(self.__get_type_v2("TOTALE VOTI", text))
+            if perc_votanti < 15:
+                quorum[0] = False
+                schede_bianche = 0
+                totale_voti = 0
+
+                for non_eletto in non_eletti:
+                    non_eletto["voti"] = 0
+            else:
+                schede_bianche = int(self.__get_type_v2("SCHEDE BIANCHE", text))
+                totale_voti = int(self.__get_type_v2("TOTALE VOTI", text))
+
             aventi_diritto = int(self.__get_type_v2("AVENTI DIRITTO", text))
-            perc_votanti = float(self.__get_type_v2("% VOTANTI", text))
+
         else:
+            schede_bianche = int(self.__get_type("BIANCHE", text))
+            schede_nulle = int(self.__get_type("NULLE", text))
+            schede_contestate = int(self.__get_type("CONTESTATE", text))
+
             totale_voti = int(self.__get_type("VOTI", text))
             aventi_diritto = int(self.__get_type("DIRITTO", text))
             perc_votanti = self.__get_type("VOTANTI", text)
@@ -207,8 +225,10 @@ class CdlInf(Target): # or PhD
         file = json.dumps(file_json)
         parsed = json.loads(file)
 
-        if year != "2018":
-            self.i = len(text)-1
+        if int(year) >= 2023:
+            while self.i in text and text[self.i].find("ELEZIONI") == -1:
+                self.i += 1
+            self.i -= 1
 
         return json.dumps(parsed, indent=4, sort_keys=False)
 

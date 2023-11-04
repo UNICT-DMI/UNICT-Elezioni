@@ -1,11 +1,9 @@
 #! /usr/bin/python3
 
-from re import split
 import sys
 import json
 from typing import List
 from FormatPDF import FormatPDF
-from Target import Target
 from SelectTarget import SelectTarget
 
 def error_start(argc) -> None:
