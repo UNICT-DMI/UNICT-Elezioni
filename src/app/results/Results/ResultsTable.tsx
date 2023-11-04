@@ -46,15 +46,15 @@ export const ResultTable = (props: Props): JSX.Element => {
               <td key={`td-${props.anno}-${i}-${list.nome}`}>
                 {
                   candidates[list.nome][i]
-                  ? [
-                    candidates[list.nome][i].nominativo,
-                    (<br key={`${props.anno}-${i}-${list}-${candidates[list.nome][i].nominativo}`} />),
-                    getVotiSeggio(candidates[list.nome][i].voti),
-                    candidates[list.nome][i].eletto
-                    ? (<Coccarda key={`Coccarda-${list.nome}-${i}`} />)
+                    ? [
+                      candidates[list.nome][i].nominativo,
+                      (<br key={`${props.anno}-${i}-${list}-${candidates[list.nome][i].nominativo}`} />),
+                      getVotiSeggio(candidates[list.nome][i].voti),
+                      candidates[list.nome][i].eletto
+                        ? (<Coccarda key={`Coccarda-${list.nome}-${i}`} />)
+                        : null
+                    ]
                     : null
-                  ]
-                  : null
                 }
               </td>
             )
@@ -94,17 +94,17 @@ export const ResultTable = (props: Props): JSX.Element => {
                 <th key={`${props.anno}-lista-${list.nome}`}>
                   {
                     (props.showDetailsList && seggi && seggi.length)
-                    ? (
-                      <OverlayTrigger
-                        placement="bottom"
-                        overlay={detailsListPopover(list)}
-                        key={`${props.anno}-overlay-${list.nome}`}>
-                        <div key={`${props.anno}-logo-${list.nome}`}>
-                          <ListLogo listName={list.nome} />
-                        </div>
-                      </OverlayTrigger>
-                    )
-                    : (<ListLogo listName={list.nome} />)
+                      ? (
+                        <OverlayTrigger
+                          placement="bottom"
+                          overlay={detailsListPopover(list)}
+                          key={`${props.anno}-overlay-${list.nome}`}>
+                          <div key={`${props.anno}-logo-${list.nome}`}>
+                            <ListLogo listName={list.nome} />
+                          </div>
+                        </OverlayTrigger>
+                      )
+                      : (<ListLogo listName={list.nome} />)
                   }
                   <div className="sub-logo" key={`${props.anno}-name-${list.nome}`}>
                     {list.nome}
@@ -124,27 +124,27 @@ export const ResultTable = (props: Props): JSX.Element => {
         <h4 className="text-primary">{props.anno}</h4>
         {
           seggi && seggi.length
-          ? (<br /> && (
+            ? (<br /> && (
             `Seggi${seggi.length === 1 ? 'o' : ''}: ${seggi.join(', ')
             }${!!multiDep && multiDep.length > 1
               ? ` - ${multiDep.map((d) => d.replaceAll('_', ' ')).join(', ')}`
               : ''}`
-          ))
-          : null
+            ))
+            : null
         }
         {
           !datareader.hasPassedQuorum(props.anno, props.entity, props.subEntity)
-          ? (
-            <b className="text-danger">[Quorum non raggiunto]</b>
-          )
-          : null
+            ? (
+              <b className="text-danger">[Quorum non raggiunto]</b>
+            )
+            : null
         }
         {
           props.anno === '2021-2023'
-          ? (
-            <b className="text-warning">[Voto online causa pandemia COVID-19]</b>
-          )
-          : null
+            ? (
+              <b className="text-warning">[Voto online causa pandemia COVID-19]</b>
+            )
+            : null
         }
 
       </div>

@@ -1,0 +1,33 @@
+{
+    "dipartimento": "DIPARTIMENTO DI SCIENZE DELLA FORMAZIONE",
+    "quorum": true,
+    "seggi_da_assegnare": 2,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "VARRASI SIMONE",
+            "voti": 15
+        },
+        {
+            "nome_candidato": "ZOCCO VINCENZO",
+            "voti": 15
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "COCO SIMONA RITA",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "TRINGALI FEDERICO",
+            "voti": 0
+        }
+    ],
+    "totale_voti": 30,
+    "aventi_diritto": 41,
+    "perc_votanti": 73.17
+}

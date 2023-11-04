@@ -1,0 +1,33 @@
+{
+  "dipartimento": "DIPARTIMENTO DI FISICA E ASTRONOMIA \"ETTORE MAJORANA\"",
+  "quorum": true,
+  "seggi_da_assegnare": 2,
+  "schede": {
+    "bianche": 2,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "LONGO ELISA",
+      "voti": 25
+    },
+    {
+      "nome_candidato": "NICOTRA ROBERTA",
+      "voti": 22
+    }
+  ],
+  "non_eletti": [
+    {
+      "nome_candidato": "DI FRANCO ELISABETTA",
+      "voti": 0
+    },
+    {
+      "nome_candidato": "LOCICERO GIORGIO",
+      "voti": 2
+    }
+  ],
+  "totale_voti": 49,
+  "aventi_diritto": 77,
+  "perc_votanti": 63.64
+}

@@ -29,16 +29,16 @@ export const ListLogo = (props: Props): JSX.Element => {
     <div className="logolist">
       {
         getListName() !== undefined && getListName() !== 'UNINOMINAL'
-        ? (
-          <img key={getListName()}
-            src={getImageUrl()}
-            className="logolist m-auto"
-            onError={(e: any): void => { e.target.onerror = null; e.target.src = 'loghi/image-not-found.svg'; }}
-            width="80"
-            height="80"
-            alt={getListName()} />
-        )
-        : (<FontAwesomeIcon icon={faUser} size="4x"></FontAwesomeIcon>)
+          ? (
+            <img key={getListName()}
+              src={getImageUrl()}
+              className="logolist m-auto"
+              onError={(e: any): void => { e.target.onerror = null; e.target.src = 'loghi/image-not-found.svg'; }}
+              width="80"
+              height="80"
+              alt={getListName()} />
+          )
+          : (<FontAwesomeIcon icon={faUser} size="4x"></FontAwesomeIcon>)
       }
     </div>
   );

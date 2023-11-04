@@ -74,17 +74,14 @@ const Menu: FunctionComponent = () => {
           </div>
         </div>
       </Navbar>
-      { showSearch
-      ? (
-        <Collapse in={showSearch}>
-          <div className="container-fluid search-form pt-2">
-            <div className="container">
-              <SearchForm onClose={(): void => setShowSearch(false)} />
-            </div>
+      { showSearch ? (<Collapse in={showSearch}>
+        <div className="container-fluid search-form pt-2">
+          <div className="container">
+            <SearchForm onClose={(): void => setShowSearch(false)} />
           </div>
-        </Collapse>
-      )
-      : null }
+        </div>
+      </Collapse>
+      ) : null }
     </div>
   );
 };

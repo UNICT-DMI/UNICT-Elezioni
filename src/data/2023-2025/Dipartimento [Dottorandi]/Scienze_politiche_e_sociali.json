@@ -1,0 +1,29 @@
+{
+    "dipartimento": "DIPARTIMENTO DI SCIENZE POLITICHE E SOCIALI",
+    "quorum": true,
+    "seggi_da_assegnare": 2,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "CARUSO GIULIA",
+            "voti": 7
+        },
+        {
+            "nome_candidato": "MAZZA LUCIA",
+            "voti": 11
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "RINALDI SIMONE",
+            "voti": 2
+        }
+    ],
+    "totale_voti": 20,
+    "aventi_diritto": 37,
+    "perc_votanti": 54.05
+}

@@ -61,13 +61,17 @@ class SearchEngine {
     for (const year of years) {
       const entities = datareader.getEntities(year);
       for (const entity of entities) {
-        const subEntities: EntityInfo[] = datareader.getSubEntities(year, entity)
+        const subEntities: EntityInfo[] = datareader
+          .getSubEntities(year, entity)
           .filter((subEntity: string): boolean => this.isValid(subEntity, str))
           .map((subEntity: string): EntityInfo => {
             return {
               name: subEntity,
-              path: (entity === 'organi superiori') ? subEntity : 'single/' + entity + '/' + subEntity,
-              years: year
+              path:
+                entity === 'organi superiori'
+                  ? subEntity
+                  : 'single/' + entity + '/' + subEntity,
+              years: year,
             };
           });
         resEntities = [...resEntities, ...subEntities];
@@ -97,7 +101,10 @@ class SearchEngine {
               year: year,
               entity: entity,
               subEntity: subEntity,
-              path: (entity === 'organi superiori') ? subEntity : 'single/' + entity + '/' + subEntity
+              path:
+                entity === 'organi superiori'
+                  ? subEntity
+                  : 'single/' + entity + '/' + subEntity,
             };
           });
           resLists = [...resLists, ...listsInfo];
@@ -115,21 +122,37 @@ class SearchEngine {
       for (const entity of entities) {
         const subEntities = datareader.getSubEntities(year, entity);
         for (const subEntity of subEntities) {
-          const candidates: any = datareader.getAllCandidates(year, entity, subEntity);
+          const candidates: any = datareader.getAllCandidates(
+            year,
+            entity,
+            subEntity,
+          );
           const lists = Object.keys(candidates);
           for (const list of lists) {
             if (!candidates[list]) {
               continue;
             }
             const candidatesInfo: CandidateInfo[] = candidates[list]
-              .filter((candidate: any): boolean => this.isValid(candidate.nominativo ? candidate.nominativo : candidate.nome_candidato, str))
+              .filter((candidate: any): boolean =>
+                this.isValid(
+                  candidate.nominativo
+                    ? candidate.nominativo
+                    : candidate.nome_candidato,
+                  str,
+                ),
+              )
               .map((candidate: any): CandidateInfo => {
                 return {
-                  name: candidate.nominativo ? candidate.nominativo : candidate.nome_candidato,
+                  name: candidate.nominativo
+                    ? candidate.nominativo
+                    : candidate.nome_candidato,
                   listName: list,
                   year: year,
-                  path: (entity === 'organi superiori') ? subEntity : 'single/' + entity + '/' + subEntity,
-                  entity: subEntity
+                  path:
+                    entity === 'organi superiori'
+                      ? subEntity
+                      : 'single/' + entity + '/' + subEntity,
+                  entity: subEntity,
                 };
               });
             resCandidates = [...resCandidates, ...candidatesInfo];
@@ -144,7 +167,7 @@ class SearchEngine {
     return {
       entities: this.searchEntity(str),
       lists: this.searchList(str),
-      candidates: this.searchCandidate(str)
+      candidates: this.searchCandidate(str),
     };
   }
 }

@@ -1,0 +1,29 @@
+{
+  "dipartimento": "DIPARTIMENTO DI MATEMATICA E INFORMATICA",
+  "quorum": true,
+  "seggi_da_assegnare": 2,
+  "schede": {
+    "bianche": 0,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "CATANIA LORENZO",
+      "voti": 13
+    },
+    {
+      "nome_candidato": "ZITO FRANCESCO",
+      "voti": 3
+    }
+  ],
+  "non_eletti": [
+    {
+      "nome_candidato": "RAGAGLIA CLAUDIO VITTORIO",
+      "voti": 3
+    }
+  ],
+  "totale_voti": 19,
+  "aventi_diritto": 47,
+  "perc_votanti": 40.43
+}

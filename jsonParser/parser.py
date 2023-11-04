@@ -3,6 +3,7 @@
 from re import split
 import sys
 import json
+from typing import List
 from FormatPDF import FormatPDF
 from Target import Target
 from SelectTarget import SelectTarget
@@ -58,7 +59,7 @@ def create_file_name(s, path) -> str:
             input_path = tmp
     return input_path + file_name
 
-def main(argv) -> None:
+def main(argv: List[str]) -> None:
     error_start(len(argv))
 
     """ ONLY for add SCRUTINATI """
@@ -71,8 +72,10 @@ def main(argv) -> None:
     # print_pars(formatted_text)
     # print(len(formatted_text))
     # print(argv[0])
+
     str_json = target.scrape_list(formatted_text)
     # print(str_json)
+
     if isinstance(str_json, list):
         for s in str_json:
             if len(str_json) > 1:

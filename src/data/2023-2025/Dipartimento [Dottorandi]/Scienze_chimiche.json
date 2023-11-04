@@ -1,0 +1,33 @@
+{
+  "dipartimento": "DIPARTIMENTO DI SCIENZE CHIMICHE",
+  "quorum": true,
+  "seggi_da_assegnare": 2,
+  "schede": {
+    "bianche": 2,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "FLORIO FEDERICA",
+      "voti": 9
+    },
+    {
+      "nome_candidato": "TOMASELLA PASCAL",
+      "voti": 14
+    }
+  ],
+  "non_eletti": [
+    {
+      "nome_candidato": "FABIANO LUIGI",
+      "voti": 8
+    },
+    {
+      "nome_candidato": "CORSARO PAOLO",
+      "voti": 6
+    }
+  ],
+  "totale_voti": 37,
+  "aventi_diritto": 72,
+  "perc_votanti": 51.39
+}

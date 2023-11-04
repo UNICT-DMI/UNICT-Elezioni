@@ -1,0 +1,24 @@
+{
+    "dipartimento": "DIPARTIMENTO DI GIURISPRUDENZA",
+    "quorum": true,
+    "seggi_da_assegnare": 2,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "FERNICOLA AGOSTINO",
+            "voti": 15
+        },
+        {
+            "nome_candidato": "BARONE PAOLO",
+            "voti": 10
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 25,
+    "aventi_diritto": 37,
+    "perc_votanti": 67.57
+}

@@ -35,7 +35,10 @@
         "named": "never",
         "asyncArrow": "always"
       }
-    ]
+    ],
+    "multiline-ternary": "off",
+    "comma-dangle": "off",
+    "indent": "off"
   },
   "settings": {
     "react": {
