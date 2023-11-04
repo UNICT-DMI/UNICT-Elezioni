@@ -1,0 +1,191 @@
+{
+    "schede": {
+        "bianche": {
+            "totali": 6,
+            "seggio_n_telematico": 6
+        },
+        "nulle": {
+            "totali": 0
+        },
+        "contestate": {
+            "totali": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "26,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": "26",
+                "seggio_telematico": "26"
+            }
+        },
+        {
+            "nome": "Primavera degli Studenti",
+            "seggi": {
+                "seggi_pieni": "4",
+                "resti": "13,1",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "5"
+            },
+            "voti": {
+                "totali": "120",
+                "seggio_telematico": "120"
+            }
+        },
+        {
+            "nome": "SOS UNICT",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "7,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": "7",
+                "seggio_telematico": "7"
+            }
+        },
+        {
+            "nome": "arcadia",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "7,3",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": "34",
+                "seggio_telematico": "34"
+            }
+        },
+        {
+            "totale": 187
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "MANZELLA Noemi",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 15,
+                "seggio_telematico": 15
+            }
+        },
+        {
+            "nominativo": "GARRANO Ruben",
+            "lista": "Primavera degli Studenti",
+            "voti": {
+                "totali": 22,
+                "seggio_telematico": 22
+            }
+        },
+        {
+            "nominativo": "STIMOLI Antonio Agatino",
+            "lista": "Primavera degli Studenti",
+            "voti": {
+                "totali": 18,
+                "seggio_telematico": 18
+            }
+        },
+        {
+            "nominativo": "NARO Giulia",
+            "lista": "Primavera degli Studenti",
+            "voti": {
+                "totali": 42,
+                "seggio_telematico": 42
+            }
+        },
+        {
+            "nominativo": "ROMANO Francesca",
+            "lista": "Primavera degli Studenti",
+            "voti": {
+                "totali": 15,
+                "seggio_telematico": 15
+            }
+        },
+        {
+            "nominativo": "CALABRESE Benedetta",
+            "lista": "Primavera degli Studenti",
+            "voti": {
+                "totali": 16,
+                "seggio_telematico": 16
+            }
+        },
+        {
+            "nominativo": "GAGLIANO Marco",
+            "lista": "arcadia",
+            "voti": {
+                "totali": 33,
+                "seggio_telematico": 33
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "CAMÈRA Beatrice",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 8,
+                "seggio_telematico": 8
+            }
+        },
+        {
+            "nominativo": "RUSSO Diego",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "TROVATO Alessandra",
+            "lista": "Primavera degli Studenti",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "SARDO Samuele Pio",
+            "lista": "Primavera degli Studenti",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "SCUDERI Roberta",
+            "lista": "SOS UNICT",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nominativo": "PAPPALARDO Giuseppe",
+            "lista": "SOS UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        }
+    ],
+    "dipartimento": "SCIENZE BIOLOGICHE-L-13-Laurea Triennale (D.M.270/2004)",
+    "seggi_da_assegnare": "7",
+    "quoziente": 26.714,
+    "votanti": {
+        "totali": 193,
+        "percentuale": 27.97,
+        "seggio_n_telematico": 193
+    },
+    "elettori": {
+        "totali": 690,
+        "seggio_n_telematico": 690
+    }
+}

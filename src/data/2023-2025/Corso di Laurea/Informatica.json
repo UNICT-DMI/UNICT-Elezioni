@@ -15,78 +15,78 @@
         {
             "nome": "ACTEA",
             "seggi": {
-                "seggi_pieni": "146",
-                "resti": "5",
-                "seggi_ai_resti": "6",
-                "seggi_totali": "0"
+                "seggi_pieni": "5",
+                "resti": "6,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "5"
             },
             "voti": {
-                "totali": "5",
+                "totali": "146",
                 "seggio_telematico": "146"
             }
         },
         {
             "nome": "WE LOVE UNICT",
             "seggi": {
-                "seggi_pieni": "13",
-                "resti": "-",
-                "seggi_ai_resti": "13",
-                "seggi_totali": "0"
+                "seggi_pieni": "-",
+                "resti": "13,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
             },
             "voti": {
-                "totali": "-",
+                "totali": "13",
                 "seggio_telematico": "13"
             }
         },
         {
             "nome": "AZIONE UNIVERSITARIA",
             "seggi": {
-                "seggi_pieni": "14",
-                "resti": "-",
-                "seggi_ai_resti": "14",
+                "seggi_pieni": "-",
+                "resti": "14,0",
+                "seggi_ai_resti": "1",
                 "seggi_totali": "1"
             },
             "voti": {
-                "totali": "1",
+                "totali": "14",
                 "seggio_telematico": "14"
             }
         },
         {
             "nome": "Benessere Studentesco",
             "seggi": {
-                "seggi_pieni": "15",
-                "resti": "-",
-                "seggi_ai_resti": "15",
+                "seggi_pieni": "-",
+                "resti": "15,0",
+                "seggi_ai_resti": "1",
                 "seggi_totali": "1"
             },
             "voti": {
-                "totali": "1",
+                "totali": "15",
                 "seggio_telematico": "15"
             }
         },
         {
             "nome": "Alleanza Universitaria",
             "seggi": {
-                "seggi_pieni": "14",
-                "resti": "-",
-                "seggi_ai_resti": "14",
+                "seggi_pieni": "-",
+                "resti": "14,0",
+                "seggi_ai_resti": "1",
                 "seggi_totali": "1"
             },
             "voti": {
-                "totali": "1",
+                "totali": "14",
                 "seggio_telematico": "14"
             }
         },
         {
             "nome": "DMI Insider",
             "seggi": {
-                "seggi_pieni": "50",
-                "resti": "1",
-                "seggi_ai_resti": "22",
-                "seggi_totali": "1"
+                "seggi_pieni": "1",
+                "resti": "22,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
             },
             "voti": {
-                "totali": "2",
+                "totali": "50",
                 "seggio_telematico": "50"
             }
         },
@@ -282,7 +282,7 @@
             }
         }
     ],
-    "dipartimento": "INFORMATICA - L-31 - Laurea Triennale (D.M.270/2004)",
+    "dipartimento": "INFORMATICA-L-31-Laurea Triennale (D.M.270/2004)",
     "seggi_da_assegnare": "9",
     "quoziente": 28.0,
     "votanti": {

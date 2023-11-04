@@ -1,0 +1,486 @@
+{
+    "schede": {
+        "bianche": {
+            "totali": 12,
+            "seggio_n_telematico": 12
+        },
+        "nulle": {
+            "totali": 0
+        },
+        "contestate": {
+            "totali": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "La Finestra - Liberi di Scegliere",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "20,5",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "3"
+            },
+            "voti": {
+                "totali": "97",
+                "seggio_telematico": "97"
+            }
+        },
+        {
+            "nome": "Primavera degli Studenti",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "34,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": "34",
+                "seggio_telematico": "34"
+            }
+        },
+        {
+            "nome": "Oltre",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "16,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": "16",
+                "seggio_telematico": "16"
+            }
+        },
+        {
+            "nome": "WE LOVE UNICT - GENERAZIONE DISUM",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "29,5",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "3"
+            },
+            "voti": {
+                "totali": "106",
+                "seggio_telematico": "106"
+            }
+        },
+        {
+            "nome": "KOINÈ",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "22,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": "22",
+                "seggio_telematico": "22"
+            }
+        },
+        {
+            "nome": "Obiettivo Democratico Studenti",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "18,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": "18",
+                "seggio_telematico": "18"
+            }
+        },
+        {
+            "nome": "Disum Nike",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "13,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": "13",
+                "seggio_telematico": "13"
+            }
+        },
+        {
+            "totale": 306
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "CICITTA Daniela",
+            "lista": "La Finestra - Liberi di Scegliere",
+            "voti": {
+                "totali": 36,
+                "seggio_telematico": 36
+            }
+        },
+        {
+            "nominativo": "SCARVAGLIERI Alberto Maria",
+            "lista": "La Finestra - Liberi di Scegliere",
+            "voti": {
+                "totali": 13,
+                "seggio_telematico": 13
+            }
+        },
+        {
+            "nominativo": "CARUSO Chiara",
+            "lista": "La Finestra - Liberi di Scegliere",
+            "voti": {
+                "totali": 39,
+                "seggio_telematico": 39
+            }
+        },
+        {
+            "nominativo": "VITTORIO Grazia Agata",
+            "lista": "Primavera degli Studenti",
+            "voti": {
+                "totali": 23,
+                "seggio_telematico": 23
+            }
+        },
+        {
+            "nominativo": "PARISI Alessandra",
+            "lista": "WE LOVE UNICT - GENERAZIONE DISUM",
+            "voti": {
+                "totali": 27,
+                "seggio_telematico": 27
+            }
+        },
+        {
+            "nominativo": "BARBAGALLO Mattia",
+            "lista": "WE LOVE UNICT - GENERAZIONE DISUM",
+            "voti": {
+                "totali": 48,
+                "seggio_telematico": 48
+            }
+        },
+        {
+            "nominativo": "SCUDERI Gioconda",
+            "lista": "WE LOVE UNICT - GENERAZIONE DISUM",
+            "voti": {
+                "totali": 10,
+                "seggio_telematico": 10
+            }
+        },
+        {
+            "nominativo": "PISA Martina",
+            "lista": "KOINÈ",
+            "voti": {
+                "totali": 12,
+                "seggio_telematico": 12
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "STAMILLA Simona Maria",
+            "lista": "La Finestra - Liberi di Scegliere",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "GIUDICE Emiliano",
+            "lista": "La Finestra - Liberi di Scegliere",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "BARRESI Gaia",
+            "lista": "La Finestra - Liberi di Scegliere",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "ANZALDO Natalie",
+            "lista": "La Finestra - Liberi di Scegliere",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "GALIANO Adriana Gabriella",
+            "lista": "La Finestra - Liberi di Scegliere",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "PERILLO Sabrina Domenica",
+            "lista": "Primavera degli Studenti",
+            "voti": {
+                "totali": 8,
+                "seggio_telematico": 8
+            }
+        },
+        {
+            "nominativo": "POLIZZI Chiara Agata Giuseppa",
+            "lista": "Primavera degli Studenti",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "FARRUGGIA Martina",
+            "lista": "Primavera degli Studenti",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "BARLETTA Elisa",
+            "lista": "Primavera degli Studenti",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "FALSONE Carmen",
+            "lista": "Primavera degli Studenti",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "TROINA Eliana Sofia",
+            "lista": "Primavera degli Studenti",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "MONTESILVANO Giordana",
+            "lista": "Primavera degli Studenti",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "CRIFÓ CESARE Gianmatteo",
+            "lista": "Oltre",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "MILAZZOTTO Martina",
+            "lista": "Oltre",
+            "voti": {
+                "totali": 8,
+                "seggio_telematico": 8
+            }
+        },
+        {
+            "nominativo": "VITANZA Veronica Giusi Maria",
+            "lista": "Oltre",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "BELLO Roberta",
+            "lista": "Oltre",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "ANFUSA Emanuele",
+            "lista": "Oltre",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "FATATI Marika",
+            "lista": "Oltre",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "ZISA Guglielmo Giuseppe Luciano",
+            "lista": "Oltre",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "GIANNETTO Stefania Pia",
+            "lista": "WE LOVE UNICT - GENERAZIONE DISUM",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nominativo": "BRUNO Maria Annunziata",
+            "lista": "WE LOVE UNICT - GENERAZIONE DISUM",
+            "voti": {
+                "totali": 10,
+                "seggio_telematico": 10
+            }
+        },
+        {
+            "nominativo": "PANASSIDI Annapia",
+            "lista": "WE LOVE UNICT - GENERAZIONE DISUM",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "MILAZZO Sofia Carmela",
+            "lista": "WE LOVE UNICT - GENERAZIONE DISUM",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "TALLUTO Nicole",
+            "lista": "WE LOVE UNICT - GENERAZIONE DISUM",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "BASSO Mattia",
+            "lista": "KOINÈ",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nominativo": "LA PORTA Alessia",
+            "lista": "KOINÈ",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "ZAPPALÀ Aurora Grazia Detto Aurora",
+            "lista": "Obiettivo Democratico Studenti",
+            "voti": {
+                "totali": 9,
+                "seggio_telematico": 9
+            }
+        },
+        {
+            "nominativo": "LONGO Giacomo",
+            "lista": "Obiettivo Democratico Studenti",
+            "voti": {
+                "totali": 7,
+                "seggio_telematico": 7
+            }
+        },
+        {
+            "nominativo": "GUELI Giulia Pia",
+            "lista": "Obiettivo Democratico Studenti",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "MUSUMECI Sebastiano",
+            "lista": "Obiettivo Democratico Studenti",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "CANNAVO' Nicholas",
+            "lista": "Obiettivo Democratico Studenti",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "LEONARDI Sofia Maria",
+            "lista": "Obiettivo Democratico Studenti",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "BARONE Flavio Antonio",
+            "lista": "Obiettivo Democratico Studenti",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "SPAMPINATO Dalila",
+            "lista": "Obiettivo Democratico Studenti",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "PANEBIANCO Marta Guglielma Ma",
+            "lista": "Disum Nike",
+            "voti": {
+                "totali": 10,
+                "seggio_telematico": 10
+            }
+        },
+        {
+            "nominativo": "GEREMIA Desiree",
+            "lista": "Disum Nike",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "DIPASQUALE Lorenzo",
+            "lista": "Disum Nike",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        }
+    ],
+    "dipartimento": "LETTERE-L-10-Laurea Triennale (D.M.270/2004)",
+    "seggi_da_assegnare": "8",
+    "quoziente": 38.25,
+    "votanti": {
+        "totali": 318,
+        "percentuale": 28.55,
+        "seggio_n_telematico": 318
+    },
+    "elettori": {
+        "totali": 1114,
+        "seggio_n_telematico": 1114
+    }
+}

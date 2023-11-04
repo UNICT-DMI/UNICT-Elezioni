@@ -1,0 +1,571 @@
+{
+    "schede": {
+        "bianche": {
+            "totali": 9,
+            "seggio_n_telematico": 9
+        },
+        "nulle": {
+            "totali": 0
+        },
+        "contestate": {
+            "totali": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "La Finestra - Liberi di Scegliere",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "21,7",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "3"
+            },
+            "voti": {
+                "totali": "81",
+                "seggio_telematico": "81"
+            }
+        },
+        {
+            "nome": "Primavera degli Studenti",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "14,3",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": "44",
+                "seggio_telematico": "44"
+            }
+        },
+        {
+            "nome": "Oltre",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "29,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": "29",
+                "seggio_telematico": "29"
+            }
+        },
+        {
+            "nome": "ComUNIcare",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "7,3",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": "37",
+                "seggio_telematico": "37"
+            }
+        },
+        {
+            "nome": "INFO DISUM",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "4,3",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": "34",
+                "seggio_telematico": "34"
+            }
+        },
+        {
+            "nome": "WE LOVE UNICT",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "4,3",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": "34",
+                "seggio_telematico": "34"
+            }
+        },
+        {
+            "nome": "ACTEA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "6,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": "6",
+                "seggio_telematico": "6"
+            }
+        },
+        {
+            "nome": "DISUM Nike",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "2,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": "2",
+                "seggio_telematico": "2"
+            }
+        },
+        {
+            "totale": 267
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "OCCHIUTO Martina",
+            "lista": "La Finestra - Liberi di Scegliere",
+            "voti": {
+                "totali": 18,
+                "seggio_telematico": 18
+            }
+        },
+        {
+            "nominativo": "CAMPANELLA Costanza",
+            "lista": "La Finestra - Liberi di Scegliere",
+            "voti": {
+                "totali": 20,
+                "seggio_telematico": 20
+            }
+        },
+        {
+            "nominativo": "ORESTANO Angela Maria",
+            "lista": "La Finestra - Liberi di Scegliere",
+            "voti": {
+                "totali": 9,
+                "seggio_telematico": 9
+            }
+        },
+        {
+            "nominativo": "BLANGIFORTI Ludovica",
+            "lista": "Primavera degli Studenti",
+            "voti": {
+                "totali": 27,
+                "seggio_telematico": 27
+            }
+        },
+        {
+            "nominativo": "BERTINO Agnese Maria",
+            "lista": "Primavera degli Studenti",
+            "voti": {
+                "totali": 11,
+                "seggio_telematico": 11
+            }
+        },
+        {
+            "nominativo": "LEVATINO Sabrina",
+            "lista": "Oltre",
+            "voti": {
+                "totali": 20,
+                "seggio_telematico": 20
+            }
+        },
+        {
+            "nominativo": "BARRESI Salvatore Detto Barrosh",
+            "lista": "ComUNIcare",
+            "voti": {
+                "totali": 20,
+                "seggio_telematico": 20
+            }
+        },
+        {
+            "nominativo": "RUFFINO Nadia",
+            "lista": "INFO DISUM",
+            "voti": {
+                "totali": 28,
+                "seggio_telematico": 28
+            }
+        },
+        {
+            "nominativo": "RANDAZZO Nancy",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 12,
+                "seggio_telematico": 12
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "VITALE Flavio",
+            "lista": "La Finestra - Liberi di Scegliere",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "PARAVIZZINI Miriam",
+            "lista": "La Finestra - Liberi di Scegliere",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "MARINO Giada",
+            "lista": "La Finestra - Liberi di Scegliere",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "SEMINARA Chiara Agata",
+            "lista": "La Finestra - Liberi di Scegliere",
+            "voti": {
+                "totali": 9,
+                "seggio_telematico": 9
+            }
+        },
+        {
+            "nominativo": "MODICA Francesca",
+            "lista": "La Finestra - Liberi di Scegliere",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "GURGONE Ludovica",
+            "lista": "La Finestra - Liberi di Scegliere",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "BLANGIFORTI Walter",
+            "lista": "Primavera degli Studenti",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "LO PRESTI Luca",
+            "lista": "Primavera degli Studenti",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "BARBERA Leandra",
+            "lista": "Primavera degli Studenti",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "PINIZZOTTO Eleonora Caterina",
+            "lista": "Primavera degli Studenti",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "CRIMI Daniela",
+            "lista": "Primavera degli Studenti",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "TUMINO Federica",
+            "lista": "Primavera degli Studenti",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "FOTI Francesco",
+            "lista": "Primavera degli Studenti",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "VILLANOVA Sara",
+            "lista": "Oltre",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "OCCHIPINTI Arianna",
+            "lista": "Oltre",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "BUSCEMA Caterina",
+            "lista": "Oltre",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "GANGEMI Laura",
+            "lista": "Oltre",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nominativo": "SCORDIA Simone Maria",
+            "lista": "Oltre",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "PALADINO Alessia",
+            "lista": "Oltre",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "LAMENDOLA Claudia Dominique",
+            "lista": "Oltre",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "CANDIANO Francesca",
+            "lista": "Oltre",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "COLAIEMMA Francesco Emanuele Detto Cola",
+            "lista": "ComUNIcare",
+            "voti": {
+                "totali": 10,
+                "seggio_telematico": 10
+            }
+        },
+        {
+            "nominativo": "CORBO Alessandro Salvatore",
+            "lista": "ComUNIcare",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "CATENA Matteo",
+            "lista": "ComUNIcare",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "VENTURA Helen",
+            "lista": "ComUNIcare",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "FRENI Alessandro Detto Sasha",
+            "lista": "ComUNIcare",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "RAUNICH Serena",
+            "lista": "ComUNIcare",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "DI MARE Simone Pio",
+            "lista": "ComUNIcare",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "BATTIATO Noemi Benedetta Pia",
+            "lista": "ComUNIcare",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "LA TERRA Carlotta",
+            "lista": "INFO DISUM",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "PIAMONTE Maria",
+            "lista": "INFO DISUM",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "TROVATO Antonio",
+            "lista": "INFO DISUM",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "SPALLETTA Isabella",
+            "lista": "INFO DISUM",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "SACCUZZO Benedetta Maria",
+            "lista": "INFO DISUM",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "RAPISARDA Federica",
+            "lista": "INFO DISUM",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "SAELI Giovanni",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "APA Chiara",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "SGROI Flavia",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 9,
+                "seggio_telematico": 9
+            }
+        },
+        {
+            "nominativo": "CAPRARO Maria Jose'",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "PAPPALARDO Silvia",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "COSTANZO FAVUZZA Morena",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "LICATA CARUSO Oriana Pia",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "BARRECA Ilenia",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "MESSINA Francesco Maria",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "ALGIATI Paola",
+            "lista": "DISUM Nike",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        }
+    ],
+    "dipartimento": "SCIENZE E LINGUE PER LA COMUNICAZIONE-L-20-Laurea Triennale (D.M.270/2004)",
+    "seggi_da_assegnare": "9",
+    "quoziente": 29.667,
+    "votanti": {
+        "totali": 276,
+        "percentuale": 21.68,
+        "seggio_n_telematico": 276
+    },
+    "elettori": {
+        "totali": 1273,
+        "seggio_n_telematico": 1273
+    }
+}
