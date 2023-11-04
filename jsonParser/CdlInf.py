@@ -70,8 +70,6 @@ class CdlInf(Target): # or PhD
         quorum = current_quorum
 
         if "DOTTORANDI" in text[0] and year == "2023":
-            # TODO: if quorum or not
-
             voti_idx = text.index("VOTI") + 1
             schede_idx = text.index("SCHEDE BIANCHE")
 
