@@ -1,0 +1,190 @@
+{
+    "dipartimento": "SOCIOLOGIA E SERVIZIO SOCIALE - PERCORSO IN SERVIZI SOCIALI-Laurea (D.M. 270/2004)\nSCIENZE DEL SERVIZIO SOCIALE-Laurea Triennale (D.M. 509/99)\nSCIENZE SOCIOLOGICHE-Laurea Triennale (D.M. 509/99)",
+    "seggi_da_assegnare": "5",
+    "schede": {
+        "bianche": {
+            "totali": 6
+        },
+        "nulle": {
+            "totali": 15
+        },
+        "contestate": {
+            "totali": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "ORBIS",
+            "seggi": {
+                "seggi_pieni": "3",
+                "resti": "47,6",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "4"
+            },
+            "voti": {
+                "totali": 224
+            }
+        },
+        {
+            "nome": "UNIVERSIT\u00c0 POPOLARE",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "0,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "48,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": 48
+            }
+        },
+        {
+            "nome": "REVOLUTION",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "13,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 13
+            }
+        },
+        {
+            "nome": "UDU",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "9,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": 9
+            }
+        },
+        {
+            "totale": 3
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "IANNACI Maria Chiara Pia",
+            "lista": "ORBIS",
+            "voti": {
+                "totali": 29
+            }
+        },
+        {
+            "nominativo": "MARANO Carmelo detto \"Elo\"",
+            "lista": "ORBIS",
+            "voti": {
+                "totali": 50
+            }
+        },
+        {
+            "nominativo": "SPAGNOLO Rita",
+            "lista": "ORBIS",
+            "voti": {
+                "totali": 31
+            }
+        },
+        {
+            "nominativo": "VECCHIARELLI Martina",
+            "lista": "ORBIS",
+            "voti": {
+                "totali": 83
+            }
+        },
+        {
+            "nominativo": "SPADA Lorena",
+            "lista": "UDU",
+            "voti": {
+                "totali": 30
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "TOTALE L1 E L E T T I SEGGIO N\u00b0",
+            "lista": "ORBIS",
+            "voti": {
+                "totali": 6
+            }
+        },
+        {
+            "nominativo": "SELVARAJAH Sinduja detta \"Sindu\"",
+            "lista": "ORBIS",
+            "voti": {
+                "totali": 28
+            }
+        },
+        {
+            "nominativo": "TOTALE L2 E L E T T I SEGGIO N\u00b0",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 6
+            }
+        },
+        {
+            "nominativo": "VECA Noemi",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "TOTALE L3 E L E T T I SEGGIO N\u00b0",
+            "lista": "UDU",
+            "voti": {
+                "totali": 6
+            }
+        },
+        {
+            "nominativo": "BONELLI Harley",
+            "lista": "UDU",
+            "voti": {
+                "totali": 1
+            }
+        },
+        {
+            "nominativo": "FAZIO Rosaria Carmen",
+            "lista": "UDU",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "ANASTASI Serena Sara",
+            "lista": "UDU",
+            "voti": {
+                "totali": 14
+            }
+        },
+        {
+            "nominativo": "VEERAMAH Veeren",
+            "lista": "UDU",
+            "voti": {
+                "totali": 2
+            }
+        }
+    ],
+    "quoziente": 58.8,
+    "votanti": {
+        "totali": 315,
+        "percentuale": 41.28
+    },
+    "elettori": {
+        "totali": 763
+    }
+}

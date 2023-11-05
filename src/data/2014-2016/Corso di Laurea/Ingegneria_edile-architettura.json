@@ -3,16 +3,13 @@
     "seggi_da_assegnare": "9",
     "schede": {
         "bianche": {
-            "totali": 15,
-            "seggio_n_31": 15
+            "totali": 15
         },
         "nulle": {
-            "totali": 5,
-            "seggio_n_31": 5
+            "totali": 5
         },
         "contestate": {
-            "totali": 0,
-            "seggio_n_31": 0
+            "totali": 0
         }
     },
     "liste": [
@@ -25,8 +22,7 @@
                 "seggi_totali": "-"
             },
             "voti": {
-                "totali": 0,
-                "seggio_n_31": 0
+                "totali": 0
             }
         },
         {
@@ -38,8 +34,7 @@
                 "seggi_totali": "2"
             },
             "voti": {
-                "totali": 84,
-                "seggio_n_31": 84
+                "totali": 84
             }
         },
         {
@@ -51,8 +46,7 @@
                 "seggi_totali": "1"
             },
             "voti": {
-                "totali": 32,
-                "seggio_n_31": 32
+                "totali": 32
             }
         },
         {
@@ -64,8 +58,7 @@
                 "seggi_totali": "2"
             },
             "voti": {
-                "totali": 124,
-                "seggio_n_31": 124
+                "totali": 124
             }
         },
         {
@@ -77,8 +70,7 @@
                 "seggi_totali": "-"
             },
             "voti": {
-                "totali": 9,
-                "seggio_n_31": 9
+                "totali": 9
             }
         },
         {
@@ -90,8 +82,7 @@
                 "seggi_totali": "2"
             },
             "voti": {
-                "totali": 122,
-                "seggio_n_31": 122
+                "totali": 122
             }
         },
         {
@@ -103,24 +94,191 @@
                 "seggi_totali": "2"
             },
             "voti": {
-                "totali": 89,
-                "seggio_n_31": 89
+                "totali": 89
             }
         },
         {
-            "totale": 460
+            "totale": 6
         }
     ],
-    "eletti": [],
-    "non_eletti": [],
+    "eletti": [
+        {
+            "nominativo": "CASSARO Pascal Federico detto \"Pascal\"",
+            "lista": "PROGETTO DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 23
+            }
+        },
+        {
+            "nominativo": "SCALISI Luca",
+            "lista": "PROGETTO DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 15
+            }
+        },
+        {
+            "nominativo": "GIULIANO Jennifer",
+            "lista": "ORIZZONTE ITALIA \u2010 STUDENTI POPOLARI",
+            "voti": {
+                "totali": 18
+            }
+        },
+        {
+            "nominativo": "PRIVITERA Elisa detta \"Lizzy\" o \"Lizzie\" o \"Lizzi\"",
+            "lista": "C351",
+            "voti": {
+                "totali": 87
+            }
+        },
+        {
+            "nominativo": "CAMPOLO Pietro",
+            "lista": "C351",
+            "voti": {
+                "totali": 21
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "TOTALE L1 E L E T T I SEGGIO N\u00b0",
+            "lista": "ARES",
+            "voti": {
+                "totali": 31
+            }
+        },
+        {
+            "nominativo": "PIGNATARO Piergiorgio",
+            "lista": "ARES",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "PALMA Michele Alberto",
+            "lista": "ARES",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "TOTALE L2 E L E T T I SEGGIO N\u00b0",
+            "lista": "PROGETTO DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 31
+            }
+        },
+        {
+            "nominativo": "FARINATO Marco",
+            "lista": "PROGETTO DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 13
+            }
+        },
+        {
+            "nominativo": "RANDAZZO Massimiliano",
+            "lista": "PROGETTO DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 2
+            }
+        },
+        {
+            "nominativo": "REALE Vincenzo",
+            "lista": "PROGETTO DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 5
+            }
+        },
+        {
+            "nominativo": "RESTIVO Alida",
+            "lista": "PROGETTO DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "RUSSO Antonino",
+            "lista": "PROGETTO DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 10
+            }
+        },
+        {
+            "nominativo": "SPAMPINATO Giulia",
+            "lista": "PROGETTO DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 6
+            }
+        },
+        {
+            "nominativo": "TOTALE L3 E L E T T I SEGGIO N\u00b0",
+            "lista": "ORIZZONTE ITALIA \u2010 STUDENTI POPOLARI",
+            "voti": {
+                "totali": 31
+            }
+        },
+        {
+            "nominativo": "LEOTTA Giulia",
+            "lista": "ORIZZONTE ITALIA \u2010 STUDENTI POPOLARI",
+            "voti": {
+                "totali": 1
+            }
+        },
+        {
+            "nominativo": "LOMBARDO Luca",
+            "lista": "ORIZZONTE ITALIA \u2010 STUDENTI POPOLARI",
+            "voti": {
+                "totali": 3
+            }
+        },
+        {
+            "nominativo": "MANGANI Martina",
+            "lista": "ORIZZONTE ITALIA \u2010 STUDENTI POPOLARI",
+            "voti": {
+                "totali": 6
+            }
+        },
+        {
+            "nominativo": "TOTALE L4 E L E T T I SEGGIO N\u00b0",
+            "lista": "C351",
+            "voti": {
+                "totali": 31
+            }
+        },
+        {
+            "nominativo": "CONIGLIONE Francesco Giuseppe Maria",
+            "lista": "C351",
+            "voti": {
+                "totali": 9
+            }
+        },
+        {
+            "nominativo": "MONTALTO Rossella",
+            "lista": "C351",
+            "voti": {
+                "totali": 4
+            }
+        },
+        {
+            "nominativo": "SORBELLO Antonio",
+            "lista": "C351",
+            "voti": {
+                "totali": 2
+            }
+        },
+        {
+            "nominativo": "STRANO Pier Valerio",
+            "lista": "C351",
+            "voti": {
+                "totali": 0
+            }
+        }
+    ],
     "quoziente": 51.1111,
     "votanti": {
         "totali": 480,
-        "percentuale": 49.38,
-        "seggio_n_31": 480
+        "percentuale": 49.38
     },
     "elettori": {
-        "totali": 972,
-        "seggio_n_31": 972
+        "totali": 972
     }
 }
