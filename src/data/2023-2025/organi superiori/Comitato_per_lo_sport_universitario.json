@@ -1,0 +1,108 @@
+{
+  "organo": "ELEZIONI RAPPRESENTANTI STUDENTI IN SENO AL COMITATO PER LO SPORT UNIVERSITARIO",
+  "seggi_da_assegnare": 2,
+  "schede": {
+    "bianche": {
+      "totali": 2007
+    },
+    "nulle": {
+      "totali": 0
+    },
+    "contestate": {
+      "totali": 0
+    }
+  },
+  "liste": [
+    {
+      "nome": "Fronte della Gioventù Comunista",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "494.0",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "0"
+      },
+      "voti": {
+        "totali": 494
+      }
+    },
+    {
+      "nome": "Studenti",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "4897.0",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": 4897
+      }
+    },
+    {
+      "nome": "Gioventù Universitaria",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "4783.0",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": 4783
+      }
+    },
+    {
+      "totale": 10174
+    }
+  ],
+  "eletti": [
+    {
+      "nominativo": "BARBAGALLO Ezio",
+      "lista": "Studenti",
+      "voti": {
+        "totali": 3531,
+        "seggio_telematico": 3531
+      }
+    },
+    {
+      "nominativo": "ZUFALO Alberto",
+      "lista": "Gioventù Universitaria",
+      "voti": {
+        "totali": 3294,
+        "seggio_telematico": 3294
+      }
+    }
+  ],
+  "non_eletti": [
+    {
+      "nominativo": "TREGUA Carlo Alberto",
+      "lista": "Fronte della Gioventù Comunista",
+      "voti": {
+        "totali": 424,
+        "seggio_telematico": 424
+      }
+    },
+    {
+      "nominativo": "VITTORIO Grazia Agata",
+      "lista": "Studenti",
+      "voti": {
+        "totali": 1201,
+        "seggio_telematico": 1201
+      }
+    },
+    {
+      "nominativo": "TOSCANO Elena",
+      "lista": "FILLORAMO Marco",
+      "voti": {
+        "totali": 1316,
+        "seggio_telematico": 1316
+      }
+    }
+  ],
+  "quoziente": 5087,
+  "votanti": {
+    "totali": 12181,
+    "percentuale": 32.18
+  },
+  "elettori": {
+    "totali": 37854
+  }
+}

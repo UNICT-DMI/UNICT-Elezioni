@@ -1,0 +1,109 @@
+{
+  "organo": "ELEZIONI RAPPRESENTANTI STUDENTI IN SENO AL NUCLEO DI VALUTAZIONE",
+  "seggi_da_assegnare": 2,
+  "schede": {
+    "bianche": {
+      "totali": 2021
+    },
+    "nulle": {
+      "totali": 0
+    },
+    "contestate": {
+      "totali": 0
+    }
+  },
+  "liste": [
+    {
+      "nome": "Fronte della Gioventù Comunista",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "574.0",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "0"
+      },
+      "voti": {
+        "totali": 574
+      }
+    },
+    {
+      "nome": "Studenti",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "4542.0",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": 4542
+      }
+    },
+    {
+      "nome": "Gioventù Universitaria",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "5091.0",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": 5091
+      }
+    },
+
+    {
+      "totale": 10207
+    }
+  ],
+  "eletti": [
+    {
+      "nominativo": "PULEO Cataldo Detto Aldo",
+      "lista": "Studenti",
+      "voti": {
+        "totali": 3553,
+        "seggio_telematico": 3553
+      }
+    },
+    {
+      "nominativo": "ARGENTI Roberto",
+      "lista": "Gioventù Universitaria",
+      "voti": {
+        "totali": 2626,
+        "seggio_telematico": 2626
+      }
+    }
+  ],
+  "non_eletti": [
+    {
+      "nominativo": "GRASSO Francesca",
+      "lista": "Fronte della Gioventù Comunista",
+      "voti": {
+        "totali": 499,
+        "seggio_telematico": 499
+      }
+    },
+    {
+      "nominativo": "PIGNATO Cataldo Detto Cat",
+      "lista": "Studenti",
+      "voti": {
+        "totali": 819,
+        "seggio_telematico": 819
+      }
+    },
+    {
+      "nominativo": "TOSCANO Elena",
+      "lista": "Gioventù Universitaria",
+      "voti": {
+        "totali": 2287,
+        "seggio_telematico": 2287
+      }
+    }
+  ],
+  "quoziente": 5103.5,
+  "votanti": {
+    "totali": 12228,
+    "percentuale": 32.3
+  },
+  "elettori": {
+    "totali": 37854
+  }
+}

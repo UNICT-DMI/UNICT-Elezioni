@@ -1,0 +1,456 @@
+{
+  "organo": "ELEZIONI RAPPRESENTANTI STUDENTI IN SENO AL SENATO ACCADEMICO",
+  "seggi_da_assegnare": 6,
+  "schede": {
+    "bianche": {
+      "totali": 374
+    },
+    "nulle": {
+      "totali": 0
+    },
+    "contestate": {
+      "totali": 0
+    }
+  },
+  "liste": [
+    {
+      "nome": "La Finestra - Liberi di Scegliere",
+      "seggi": {
+        "seggi_pieni": "1",
+        "resti": "468,8",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": 2492
+      }
+    },
+    {
+      "nome": "WE LOVE UNICT",
+      "seggi": {
+        "seggi_pieni": "1",
+        "resti": "400,8",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": 2424
+      }
+    },
+    {
+      "nome": "AZIONE UNIVERSITARIA",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "1515,0",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": 1515
+      }
+    },
+    {
+      "nome": "Fronte della Gioventù Comunista",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "124,0",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "0"
+      },
+      "voti": {
+        "totali": 124
+      }
+    },
+    {
+      "nome": "Unict è Futuro",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "1417,0",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": 1417
+      }
+    },
+    {
+      "nome": "ACTEA - CREDIAMOCI",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "1831,0",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": 1831
+      }
+    },
+    {
+      "nome": "NIKE - STUDENTI LIBERI E DEMOCRATICI",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "1959,0",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": 1959
+      }
+    },
+    {
+      "nome": "Studenti Per Le Libertà - Cambiamento UNICT",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "377,0",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "0"
+      },
+      "voti": {
+        "totali": 377
+      }
+    },
+
+    {
+      "totale": 12139
+    }
+  ],
+  "eletti": [
+    {
+      "nominativo": "COSENTINO Federica",
+      "lista": "La Finestra - Liberi di Scegliere",
+      "voti": {
+        "totali": 983,
+        "seggio_telematico": 983
+      }
+    },
+    {
+      "nominativo": "PANDOLFO Marta",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 835,
+        "seggio_telematico": 835
+      }
+    },
+    {
+      "nominativo": "DI GAUDIO Irene Alessandra",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 432,
+        "seggio_telematico": 432
+      }
+    },
+    {
+      "nominativo": "RIZZO Giorgia",
+      "lista": "Unict è Futuro",
+      "voti": {
+        "totali": 521,
+        "seggio_telematico": 521
+      }
+    },
+    {
+      "nominativo": "AMATO Giovanni Valerio Detto Gianvalerio",
+      "lista": "ACTEA - CREDIAMOCI",
+      "voti": {
+        "totali": 644,
+        "seggio_telematico": 644
+      }
+    },
+    {
+      "nominativo": "FERLAUTO Alice",
+      "lista": "NIKE - STUDENTI LIBERI E DEMOCRATICI",
+      "voti": {
+        "totali": 538,
+        "seggio_telematico": 538
+      }
+    }
+  ],
+  "non_eletti": [
+    {
+      "nominativo": "MENDICINO Giulia",
+      "lista": "La Finestra - Liberi di Scegliere",
+      "voti": {
+        "totali": 470,
+        "seggio_telematico": 470
+      }
+    },
+    {
+      "nominativo": "MUSUMECI Giorgio",
+      "lista": "La Finestra - Liberi di Scegliere",
+      "voti": {
+        "totali": 363,
+        "seggio_telematico": 363
+      }
+    },
+    {
+      "nominativo": "QUATTROCCHI Gabriele Alberto",
+      "lista": "La Finestra - Liberi di Scegliere",
+      "voti": {
+        "totali": 199,
+        "seggio_telematico": 199
+      }
+    },
+    {
+      "nominativo": "CORDOVANA Salvatore Alex",
+      "lista": "La Finestra - Liberi di Scegliere",
+      "voti": {
+        "totali": 168,
+        "seggio_telematico": 168
+      }
+    },
+    {
+      "nominativo": "PATANÈ Salvatore",
+      "lista": "La Finestra - Liberi di Scegliere",
+      "voti": {
+        "totali": 169,
+        "seggio_telematico": 169
+      }
+    },
+
+    {
+      "nominativo": "ALI' Vittorio",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 478,
+        "seggio_telematico": 478
+      }
+    },
+    {
+      "nominativo": "BRUNO Maria Annunziata",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 151,
+        "seggio_telematico": 151
+      }
+    },
+    {
+      "nominativo": "DI GUARDIA Dario Giuseppe",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 538,
+        "seggio_telematico": 538
+      }
+    },
+    {
+      "nominativo": "SPINELLA Paola Concetta",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 103,
+        "seggio_telematico": 103
+      }
+    },
+    {
+      "nominativo": "TRUBIA Rosario",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 139,
+        "seggio_telematico": 139
+      }
+    },
+
+    {
+      "nominativo": "PLATANIA Giorgio",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 307,
+        "seggio_telematico": 307
+      }
+    },
+    {
+      "nominativo": "IMPELLIZZERI Salvatore Detto Pandolfo",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 246,
+        "seggio_telematico": 246
+      }
+    },
+    {
+      "nominativo": "MONSONE Dario",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 154,
+        "seggio_telematico": 154
+      }
+    },
+    {
+      "nominativo": "BONANNO Silvia",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 113,
+        "seggio_telematico": 113
+      }
+    },
+    {
+      "nominativo": "GRILLO Christian",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 180,
+        "seggio_telematico": 180
+      }
+    },
+
+    {
+      "nominativo": "RUSSO Fabrizio Detto Brizio",
+      "lista": "Fronte della Gioventù Comunista",
+      "voti": {
+        "totali": 108,
+        "seggio_telematico": 108
+      }
+    },
+
+    {
+      "nominativo": "TESTA Giuseppe",
+      "lista": "Unict è Futuro",
+      "voti": {
+        "totali": 183,
+        "seggio_telematico": 183
+      }
+    },
+    {
+      "nominativo": "CAVALLARO Salvatore Emanuele",
+      "lista": "Unict è Futuro",
+      "voti": {
+        "totali": 165,
+        "seggio_telematico": 165
+      }
+    },
+    {
+      "nominativo": "ANTOCI Saverio",
+      "lista": "Unict è Futuro",
+      "voti": {
+        "totali": 39,
+        "seggio_telematico": 39
+      }
+    },
+    {
+      "nominativo": "CONTARINO Federico Pio",
+      "lista": "Unict è Futuro",
+      "voti": {
+        "totali": 374,
+        "seggio_telematico": 374
+      }
+    },
+    {
+      "nominativo": "BONFANTE Fabio",
+      "lista": "Unict è Futuro",
+      "voti": {
+        "totali": 80,
+        "seggio_telematico": 80
+      }
+    },
+
+    {
+      "nominativo": "TABITA Chiara",
+      "lista": "ACTEA - CREDIAMOCI",
+      "voti": {
+        "totali": 454,
+        "seggio_telematico": 454
+      }
+    },
+    {
+      "nominativo": "LIOTTA Gaetano Pio Detto Tano",
+      "lista": "ACTEA - CREDIAMOCI",
+      "voti": {
+        "totali": 243,
+        "seggio_telematico": 243
+      }
+    },
+    {
+      "nominativo": "GAMBINO Tania",
+      "lista": "ACTEA - CREDIAMOCI",
+      "voti": {
+        "totali": 167,
+        "seggio_telematico": 167
+      }
+    },
+    {
+      "nominativo": "LONGO Elisa",
+      "lista": "ACTEA - CREDIAMOCI",
+      "voti": {
+        "totali": 102,
+        "seggio_telematico": 102
+      }
+    },
+    {
+      "nominativo": "MARINO Teodora Ioana Detto Teodorella",
+      "lista": "ACTEA - CREDIAMOCI",
+      "voti": {
+        "totali": 122,
+        "seggio_telematico": 122
+      }
+    },
+
+    {
+      "nominativo": "BAGLIO Brigitta",
+      "lista": "NIKE - STUDENTI LIBERI E DEMOCRATICI",
+      "voti": {
+        "totali": 298,
+        "seggio_telematico": 298
+      }
+    },
+    {
+      "nominativo": "CUTAIA Ludovico Antonio",
+      "lista": "NIKE - STUDENTI LIBERI E DEMOCRATICI",
+      "voti": {
+        "totali": 245,
+        "seggio_telematico": 245
+      }
+    },
+    {
+      "nominativo": "RIZZO Gaia",
+      "lista": "NIKE - STUDENTI LIBERI E DEMOCRATICI",
+      "voti": {
+        "totali": 330,
+        "seggio_telematico": 330
+      }
+    },
+    {
+      "nominativo": "CURTO Sofia",
+      "lista": "NIKE - STUDENTI LIBERI E DEMOCRATICI",
+      "voti": {
+        "totali": 147,
+        "seggio_telematico": 147
+      }
+    },
+    {
+      "nominativo": "CASTRO Kristian",
+      "lista": "NIKE - STUDENTI LIBERI E DEMOCRATICI",
+      "voti": {
+        "totali": 288,
+        "seggio_telematico": 288
+      }
+    },
+
+    {
+      "nominativo": "CAVALLARO Gabriele Salvatore",
+      "lista": "Studenti Per Le Libertà - Cambiamento UNICT",
+      "voti": {
+        "totali": 145,
+        "seggio_telematico": 145
+      }
+    },
+    {
+      "nominativo": "GENNARO Lorenzo",
+      "lista": "Studenti Per Le Libertà - Cambiamento UNICT",
+      "voti": {
+        "totali": 191,
+        "seggio_telematico": 191
+      }
+    },
+    {
+      "nominativo": "SANTANGELO Federica",
+      "lista": "Studenti Per Le Libertà - Cambiamento UNICT",
+      "voti": {
+        "totali": 20,
+        "seggio_telematico": 20
+      }
+    }
+  ],
+  "quoziente": 2023.1667,
+  "votanti": {
+    "totali": 12513,
+    "percentuale": 33.06
+  },
+  "elettori": {
+    "totali": 37854
+  }
+}
