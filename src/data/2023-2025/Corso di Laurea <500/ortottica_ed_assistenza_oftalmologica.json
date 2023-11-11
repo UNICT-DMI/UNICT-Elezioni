@@ -1,0 +1,29 @@
+{
+  "dipartimento": "ORTOTTICA ED ASSISTENZA OFTALMOLOGICA-L/SNT2-Laurea Triennale (D.M.270/2004)",
+  "quorum": true,
+  "seggi_da_assegnare": 6,
+  "schede": {
+    "bianche": 1,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "MANNARA' ANTONINO",
+      "voti": 10
+    }
+  ],
+  "non_eletti": [
+    {
+      "nome_candidato": "SCIRÈ SCAPPUZZO DANILO",
+      "voti": 0
+    },
+    {
+      "nome_candidato": "MANNINO LORENZO",
+      "voti": 0
+    }
+  ],
+  "totale_voti": 11,
+  "aventi_diritto": 43,
+  "perc_votanti": 25.58
+}

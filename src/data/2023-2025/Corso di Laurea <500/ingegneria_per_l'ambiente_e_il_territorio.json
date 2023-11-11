@@ -1,0 +1,20 @@
+{
+    "dipartimento": "INGEGNERIA PER L'AMBIENTE E IL TERRITORIO-LM-35-Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": false,
+    "seggi_da_assegnare": 3,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "GAMIDDO GIORGIA",
+            "voti": 1
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 0,
+    "aventi_diritto": 40,
+    "perc_votanti": 10.0
+}

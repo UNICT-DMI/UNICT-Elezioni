@@ -1,0 +1,29 @@
+{
+    "dipartimento": "INGEGNERIA INFORMATICA-LM-32-Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 1,
+    "schede": {
+        "bianche": 1,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "GRAVAGNO ALESSANDRO GIUSEPPE",
+            "voti": 21
+        },
+        {
+            "nome_candidato": "CAMPIONE SALVATORE",
+            "voti": 5
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "TRUPIA WALTER",
+            "voti": 0
+        }
+    ],
+    "totale_voti": 27,
+    "aventi_diritto": 157,
+    "perc_votanti": 17.2
+}

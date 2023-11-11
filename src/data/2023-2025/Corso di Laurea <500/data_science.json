@@ -1,0 +1,28 @@
+{
+    "dipartimento": "DATA SCIENCE-LM-DATA-Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 2,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [],
+    "non_eletti": [
+        {
+            "nome_candidato": "LONGO GIUSEPPE LUIGI AYRTON",
+            "voti": 14
+        },
+        {
+            "nome_candidato": "PISHVAI DARIO SAMUELE",
+            "voti": 9
+        },
+        {
+            "nome_candidato": "BISHT ASHISH SINGH",
+            "voti": 13
+        }
+    ],
+    "totale_voti": 36,
+    "aventi_diritto": 74,
+    "perc_votanti": 48.65
+}

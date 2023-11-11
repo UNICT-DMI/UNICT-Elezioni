@@ -1,0 +1,49 @@
+{
+    "dipartimento": "FILOLOGIA MODERNA-LM-14-Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 1,
+    "schede": {
+        "bianche": 4,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "PULVIRENTI GIULIA",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "RUGGERI MIRIAM",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "CAVALLARO MARCO",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "SCUDERI SILVIA",
+            "voti": 26
+        },
+        {
+            "nome_candidato": "SPINELLO NICOLA",
+            "voti": 12
+        },
+        {
+            "nome_candidato": "TILARO BEATRICE",
+            "voti": 4
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "RIZZO DEBORAH",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "DI PIETRO ALESSANDRO",
+            "voti": 2
+        }
+    ],
+    "totale_voti": 59,
+    "aventi_diritto": 313,
+    "perc_votanti": 18.85
+}

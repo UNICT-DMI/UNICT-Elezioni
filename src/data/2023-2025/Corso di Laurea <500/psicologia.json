@@ -1,0 +1,45 @@
+{
+    "dipartimento": "PSICOLOGIA-LM-51-Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 5,
+    "schede": {
+        "bianche": 2,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "TRISCARI SERGIO",
+            "voti": 13
+        },
+        {
+            "nome_candidato": "SCHILIRO' GIULIA",
+            "voti": 11
+        },
+        {
+            "nome_candidato": "DI SIMONE VALENTINA",
+            "voti": 21
+        },
+        {
+            "nome_candidato": "DE BERNARDI MARYVIOL",
+            "voti": 9
+        },
+        {
+            "nome_candidato": "ACCARDI TAYLOR",
+            "voti": 5
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "ANGELINI GAETANO",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "POLIDORI LUCREZIA",
+            "voti": 4
+        }
+    ],
+    "totale_voti": 67,
+    "aventi_diritto": 300,
+    "perc_votanti": 22.33
+}

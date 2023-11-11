@@ -1,0 +1,28 @@
+{
+    "dipartimento": "BIOLOGIA SPERIMENTALE E APPLICATA-LM-6-Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 8,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "FAZZINA FRANCESCA",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "FIORENTINO LUIGI",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "TOMAINO ELISEA",
+            "voti": 39
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 45,
+    "aventi_diritto": 188,
+    "perc_votanti": 23.94
+}

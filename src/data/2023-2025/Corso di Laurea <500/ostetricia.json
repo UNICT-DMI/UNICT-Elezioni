@@ -1,0 +1,20 @@
+{
+    "dipartimento": "OSTETRICIA-L/SNT1-Laurea Triennale (D.M.270/2004)",
+    "quorum": false,
+    "seggi_da_assegnare": 7,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "FAZIO ALICE",
+            "voti": 1
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 0,
+    "aventi_diritto": 83,
+    "perc_votanti": 8.43
+}

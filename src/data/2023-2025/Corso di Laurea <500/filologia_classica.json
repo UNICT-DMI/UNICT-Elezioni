@@ -1,0 +1,33 @@
+{
+    "dipartimento": "FILOLOGIA CLASSICA-LM-15-Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 1,
+    "schede": {
+        "bianche": 1,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "TRUMMINO CARMELO",
+            "voti": 14
+        },
+        {
+            "nome_candidato": "MARINO MARIACHIARA",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "RICCIOLI ANDREA",
+            "voti": 3
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "CASTELLANO MIRIANA",
+            "voti": 0
+        }
+    ],
+    "totale_voti": 21,
+    "aventi_diritto": 73,
+    "perc_votanti": 28.77
+}

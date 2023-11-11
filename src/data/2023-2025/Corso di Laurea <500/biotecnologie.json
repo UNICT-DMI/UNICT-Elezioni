@@ -1,0 +1,60 @@
+{
+    "dipartimento": "BIOTECNOLOGIE-L-2-Laurea Triennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 12,
+    "schede": {
+        "bianche": 7,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "D'AMORE ALESSIA",
+            "voti": 10
+        },
+        {
+            "nome_candidato": "GERBINO MATILDE MARIA",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "RAPICAVOLI ANTONIO",
+            "voti": 51
+        },
+        {
+            "nome_candidato": "CRAPULA MARCO FRANCESCO",
+            "voti": 25
+        },
+        {
+            "nome_candidato": "CANNAV\u00d2 BIANCA RITA",
+            "voti": 9
+        },
+        {
+            "nome_candidato": "BONFIGLIO VINCENZO EMANUELE",
+            "voti": 10
+        },
+        {
+            "nome_candidato": "ARGENTO SARA",
+            "voti": 7
+        },
+        {
+            "nome_candidato": "D'ANGELO ARIANNA",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "DI PAOLA ANDREA",
+            "voti": 7
+        },
+        {
+            "nome_candidato": "CATALANO AURORA",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "CUTRUFELLO ORNELLA",
+            "voti": 5
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 140,
+    "aventi_diritto": 349,
+    "perc_votanti": 40.11
+}

@@ -1,0 +1,37 @@
+{
+    "dipartimento": "INGEGNERIA CIVILE DELLE ACQUE E DEI TRASPORTI-LM-23-Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 4,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "SANTORO VALERIO",
+            "voti": 7
+        },
+        {
+            "nome_candidato": "ZOFEI ROBERT DANIEL",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "SEMINARA ALESSIO ANTONINO",
+            "voti": 6
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "STELLA SALVATORE",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "PEPE GABRIELE",
+            "voti": 2
+        }
+    ],
+    "totale_voti": 18,
+    "aventi_diritto": 47,
+    "perc_votanti": 38.3
+}

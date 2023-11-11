@@ -1,0 +1,24 @@
+{
+    "dipartimento": "INGEGNERIA GESTIONALE-LM-31-Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 1,
+    "schede": {
+        "bianche": 1,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "TRIBULATO MARCO",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "ANDRONACO FRANCESCA",
+            "voti": 32
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 34,
+    "aventi_diritto": 136,
+    "perc_votanti": 25.0
+}

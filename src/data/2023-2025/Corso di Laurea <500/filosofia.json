@@ -1,0 +1,49 @@
+{
+    "dipartimento": "FILOSOFIA-L-5-Laurea Triennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 5,
+    "schede": {
+        "bianche": 3,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "COSTANZO NICOLETTA",
+            "voti": 16
+        },
+        {
+            "nome_candidato": "FINOCCHIARO ROSETTA",
+            "voti": 10
+        },
+        {
+            "nome_candidato": "ANTONUCCIO NAIKE",
+            "voti": 19
+        },
+        {
+            "nome_candidato": "TRAINA GIULIO SEBASTIANO",
+            "voti": 21
+        },
+        {
+            "nome_candidato": "LA PORTA MARIA",
+            "voti": 7
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "COLOSI CLARA MARIA GRAZIA",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "SANTORO ERIKA",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "CAMPAGNA IULIO NUNZIO MAXIMUS",
+            "voti": 0
+        }
+    ],
+    "totale_voti": 82,
+    "aventi_diritto": 372,
+    "perc_votanti": 22.04
+}

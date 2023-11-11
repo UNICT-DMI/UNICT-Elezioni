@@ -1,0 +1,28 @@
+{
+    "dipartimento": "AUTOMATION ENGINEERING AND CONTROL OF COMPLEX SYSTEMS (INGEGNERIA DELL'AUTOMAZIONE E DEL CONTROLLO DEI",
+    "quorum": true,
+    "seggi_da_assegnare": 3,
+    "schede": {
+        "bianche": 1,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "MIGLIORE JOSEPHINE",
+            "voti": 24
+        },
+        {
+            "nome_candidato": "BORZI MIRKO",
+            "voti": 11
+        },
+        {
+            "nome_candidato": "CARNAZZA LAMBERTO",
+            "voti": 13
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 49,
+    "aventi_diritto": 99,
+    "perc_votanti": 49.49
+}

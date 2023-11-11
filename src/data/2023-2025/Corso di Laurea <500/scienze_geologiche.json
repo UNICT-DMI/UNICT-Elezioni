@@ -1,0 +1,49 @@
+{
+    "dipartimento": "SCIENZE GEOLOGICHE-L-34-Laurea Triennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 6,
+    "schede": {
+        "bianche": 1,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "CONIGLIELLO EZIO MATTEO",
+            "voti": 13
+        },
+        {
+            "nome_candidato": "PAPPALARDO GAIA",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "MIGLIACCIO EMANUELE",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "REUKA YAROSLAV",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "CALANNA GIOVANNI",
+            "voti": 23
+        },
+        {
+            "nome_candidato": "DI BLASI GIORGIO",
+            "voti": 1
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "VIGLIANISI ELVIS",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "SAPIENZA MICHELANGELO",
+            "voti": 0
+        }
+    ],
+    "totale_voti": 57,
+    "aventi_diritto": 120,
+    "perc_votanti": 47.5
+}

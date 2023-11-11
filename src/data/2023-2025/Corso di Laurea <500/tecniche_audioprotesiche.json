@@ -1,0 +1,20 @@
+{
+  "dipartimento": "TECNICHE AUDIOPROTESICHE-L/SNT3-Laurea Triennale (D.M.270/2004)",
+  "quorum": true,
+  "seggi_da_assegnare": 1,
+  "schede": {
+    "bianche": 2,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "SALEMI GIADA",
+      "voti": 7
+    }
+  ],
+  "non_eletti": [],
+  "totale_voti": 9,
+  "aventi_diritto": 38,
+  "perc_votanti": 23.68
+}

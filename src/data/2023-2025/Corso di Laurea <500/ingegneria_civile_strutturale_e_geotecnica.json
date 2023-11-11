@@ -1,0 +1,33 @@
+{
+    "dipartimento": "INGEGNERIA CIVILE STRUTTURALE E GEOTECNICA-LM-23-Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 3,
+    "schede": {
+        "bianche": 1,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "MINISSALE VITO",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "TRIPOLI VINCENZO",
+            "voti": 10
+        },
+        {
+            "nome_candidato": "AVVEDUTO ANTONIO",
+            "voti": 2
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "ABED ALRAHMAN MARCELLO",
+            "voti": 1
+        }
+    ],
+    "totale_voti": 16,
+    "aventi_diritto": 55,
+    "perc_votanti": 29.09
+}

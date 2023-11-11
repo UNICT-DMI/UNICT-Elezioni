@@ -1,0 +1,36 @@
+{
+  "dipartimento": "PIANIFICAZIONE E SOSTENIBILIT\u00c0 AMBIENTALE DEL TERRITORIO E DEL PAESAGGIO-L-21-Laurea Triennale (D.M.270/2004)",
+  "quorum": true,
+  "seggi_da_assegnare": 1,
+  "schede": {
+    "bianche": 0,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "ALLEGRA GIOVANNI GABRIELE",
+      "voti": 4
+    },
+    {
+      "nome_candidato": "MELI GABRIELE",
+      "voti": 1
+    },
+    {
+      "nome_candidato": "OCCHIPINTI ANDREA UMBERTO",
+      "voti": 2
+    },
+    {
+      "nome_candidato": "TRIPI ALESSANDRO",
+      "voti": 6
+    },
+    {
+      "nome_candidato": "REITANO CLAUDIO",
+      "voti": 7
+    }
+  ],
+  "non_eletti": [],
+  "totale_voti": 20,
+  "aventi_diritto": 85,
+  "perc_votanti": 23.53
+}

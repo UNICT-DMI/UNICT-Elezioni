@@ -1,0 +1,28 @@
+{
+    "dipartimento": "ECONOMIA E MANAGEMENT DEL TERRITORIO E DEL TURISMO-LM-56-Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 4,
+    "schede": {
+        "bianche": 1,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "GAROFALO GIANLUCA",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "MICELI RITA ANNA MARIA",
+            "voti": 10
+        },
+        {
+            "nome_candidato": "LA VERDE SOFIA",
+            "voti": 6
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 19,
+    "aventi_diritto": 80,
+    "perc_votanti": 23.75
+}

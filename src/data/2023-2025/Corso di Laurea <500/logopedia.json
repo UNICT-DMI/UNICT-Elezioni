@@ -1,0 +1,49 @@
+{
+    "dipartimento": "LOGOPEDIA-L/SNT2-Laurea Triennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 1,
+    "schede": {
+        "bianche": 2,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "GIAMPICCOLO CARLOTTA",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "NICOLOSO AGATA",
+            "voti": 14
+        },
+        {
+            "nome_candidato": "TIRRI ROBERTA",
+            "voti": 7
+        },
+        {
+            "nome_candidato": "PALAZZO MARCO ALDO",
+            "voti": 9
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "MORGANTE PAOLA",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "MOSCHITTO CARLA",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "SENTINO BEATRICE",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "PISTORIO PLACIDO",
+            "voti": 0
+        }
+    ],
+    "totale_voti": 41,
+    "aventi_diritto": 72,
+    "perc_votanti": 56.94
+}

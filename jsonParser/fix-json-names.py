@@ -1,6 +1,9 @@
-import json
+import os
 
-def create_file_name(s, path) -> str:
+# usage: put this script inside the json directory and run it
+# change the param cdl_less_500 based on what you are doing
+
+def create_file_name(s, path, cdl_less_500: bool = False) -> str:
     input_path = ""
 
     file_name = ''
@@ -16,9 +19,14 @@ def create_file_name(s, path) -> str:
     file_path = input_path + file_name
     file_path = file_path.replace("dipartimento_di_", "")
     file_path = file_path[2].upper() + file_path[3:]
+
+    if cdl_less_500:
+        names = file_path.split('-')
+        file_path = names[0] + '.json'
+        return file_path.lower()
+
     return file_path
 
-import os
 files = [f for f in os.listdir('.') if os.path.isfile(f)]
 for f in files:
     if ".json" in f:

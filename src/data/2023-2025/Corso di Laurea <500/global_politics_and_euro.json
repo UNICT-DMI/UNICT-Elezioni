@@ -1,0 +1,24 @@
+{
+    "dipartimento": "GLOBAL POLITICS AND EURO-MEDITERRANEAN RELATIONS-LM-62-Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 4,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "PULVIRENTI LEANDRA",
+            "voti": 7
+        },
+        {
+            "nome_candidato": "MOHAJERANI DANIAL",
+            "voti": 3
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 10,
+    "aventi_diritto": 43,
+    "perc_votanti": 23.26
+}

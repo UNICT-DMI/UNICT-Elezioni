@@ -1,0 +1,36 @@
+{
+    "dipartimento": "MANAGEMENT DELLE IMPRESE PER L\u2019ECONOMIA SOSTENIBILE-L-18-Laurea Triennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 2,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [],
+    "non_eletti": [
+        {
+            "nome_candidato": "LO CASTRO GABRIELE GIUSEPPE VINCENZO",
+            "voti": 8
+        },
+        {
+            "nome_candidato": "RANTUCCIO ROSSANA",
+            "voti": 13
+        },
+        {
+            "nome_candidato": "DEGNO DAVIDE",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "BLANCATO LUCA",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "MELI CAROLA MARIA",
+            "voti": 8
+        }
+    ],
+    "totale_voti": 35,
+    "aventi_diritto": 97,
+    "perc_votanti": 36.08
+}

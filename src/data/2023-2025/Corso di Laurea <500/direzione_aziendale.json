@@ -1,0 +1,41 @@
+{
+    "dipartimento": "DIREZIONE AZIENDALE-LM-77-Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 5,
+    "schede": {
+        "bianche": 2,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "LICCIARDELLO ROSARIO FRANCESCO",
+            "voti": 73
+        },
+        {
+            "nome_candidato": "CARDEA MARIA STELLA",
+            "voti": 19
+        },
+        {
+            "nome_candidato": "TABITA CHIARA",
+            "voti": 40
+        },
+        {
+            "nome_candidato": "DONZI' MARIA HELENA",
+            "voti": 16
+        },
+        {
+            "nome_candidato": "CAMINITO GIORGIO",
+            "voti": 17
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "ANTONINO MATTEO",
+            "voti": 15
+        }
+    ],
+    "totale_voti": 182,
+    "aventi_diritto": 438,
+    "perc_votanti": 41.55
+}

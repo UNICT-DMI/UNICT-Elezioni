@@ -1,0 +1,41 @@
+{
+    "dipartimento": "CHIMICA INDUSTRIALE-L-27-Laurea Triennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 5,
+    "schede": {
+        "bianche": 7,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "BUGLIO ERIKA",
+            "voti": 9
+        },
+        {
+            "nome_candidato": "VELLA GABRIELE",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "MENDOLIA CALELLA CHIARA MARIAPIA",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "ANZALONE ALICE",
+            "voti": 5
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "CONSIGLIO ALEX",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "TRISCHITTA FRANCESCO",
+            "voti": 2
+        }
+    ],
+    "totale_voti": 35,
+    "aventi_diritto": 158,
+    "perc_votanti": 22.15
+}

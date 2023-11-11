@@ -1,0 +1,40 @@
+{
+    "dipartimento": "SCIENZE FARMACEUTICHE APPLICATE-L-29-Laurea Triennale (D.M.270/2004)",
+    "quorum": false,
+    "seggi_da_assegnare": 9,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [],
+    "non_eletti": [
+        {
+            "nome_candidato": "GAGLIANO MARIA SERENA",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "VENEZIA CHIARA",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "BONFATTO ERICA",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "SARDO SERENA",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "PLUCHINO ALESSIA",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "BLANCO CARMELO GIUSEPPE",
+            "voti": 0
+        }
+    ],
+    "totale_voti": 0,
+    "aventi_diritto": 223,
+    "perc_votanti": 12.56
+}

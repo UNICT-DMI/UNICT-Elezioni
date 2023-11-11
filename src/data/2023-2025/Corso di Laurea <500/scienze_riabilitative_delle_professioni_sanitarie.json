@@ -1,0 +1,20 @@
+{
+    "dipartimento": "SCIENZE RIABILITATIVE DELLE PROFESSIONI SANITARIE-LM/SNT2-Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": false,
+    "seggi_da_assegnare": 6,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "RIZZO MARCO",
+            "voti": 1
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 0,
+    "aventi_diritto": 91,
+    "perc_votanti": 3.3
+}

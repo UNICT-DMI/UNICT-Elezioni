@@ -1,0 +1,53 @@
+{
+    "dipartimento": "CHIMICA-L-27-Laurea Triennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 1,
+    "schede": {
+        "bianche": 3,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "SCAGLIONE ERNESTO",
+            "voti": 9
+        },
+        {
+            "nome_candidato": "LO FARO GIANLUCA",
+            "voti": 25
+        },
+        {
+            "nome_candidato": "MESSINA FRANCESCO",
+            "voti": 9
+        },
+        {
+            "nome_candidato": "CRISTALDI EMANUELA VENERA",
+            "voti": 17
+        },
+        {
+            "nome_candidato": "ANNARO MARIA",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "MULA SALVATORE",
+            "voti": 5
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "LONGO ORAZIO",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "CUSCUSA ELEONORA",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "MACCARRONE SALVATORE",
+            "voti": 0
+        }
+    ],
+    "totale_voti": 74,
+    "aventi_diritto": 330,
+    "perc_votanti": 22.42
+}
