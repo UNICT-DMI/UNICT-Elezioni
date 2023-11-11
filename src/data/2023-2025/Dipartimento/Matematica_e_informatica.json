@@ -1,0 +1,409 @@
+{
+    "schede": {
+        "bianche": {
+            "totali": 5,
+            "seggio_n_telematico": 5
+        },
+        "nulle": {
+            "totali": 0
+        },
+        "contestate": {
+            "totali": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "ACTEA",
+            "seggi": {
+                "seggi_pieni": "5",
+                "resti": "23,8",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "6"
+            },
+            "voti": {
+                "totali": "183",
+                "seggio_telematico": "183"
+            }
+        },
+        {
+            "nome": "WE LOVE UNICT",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "29",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": "29",
+                "seggio_telematico": "29"
+            }
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "16",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": "16",
+                "seggio_telematico": "16"
+            }
+        },
+        {
+            "nome": "Benessere Studentesco",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "15",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": "15",
+                "seggio_telematico": "15"
+            }
+        },
+        {
+            "nome": "Alleanza Universitaria",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "11",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": "11",
+                "seggio_telematico": "11"
+            }
+        },
+        {
+            "nome": "DMI Insider",
+            "seggi": {
+                "seggi_pieni": "4",
+                "resti": "0,7",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "4"
+            },
+            "voti": {
+                "totali": "128",
+                "seggio_telematico": "128"
+            }
+        },
+        {
+            "totale": 382
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "CIGNA Gaia",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 41,
+                "seggio_telematico": 41
+            }
+        },
+        {
+            "nominativo": "TRAGNA Agnese",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 20,
+                "seggio_telematico": 20
+            }
+        },
+        {
+            "nominativo": "RUSSO Mirko",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 16,
+                "seggio_telematico": 16
+            }
+        },
+        {
+            "nominativo": "D'ANNA Kamil",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 16,
+                "seggio_telematico": 16
+            }
+        },
+        {
+            "nominativo": "SORBELLO Angelica",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 19,
+                "seggio_telematico": 19
+            }
+        },
+        {
+            "nominativo": "RUSSO Miriana",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 16,
+                "seggio_telematico": 16
+            }
+        },
+        {
+            "nominativo": "FRAGAPANE Leonardo",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 11,
+                "seggio_telematico": 11
+            }
+        },
+        {
+            "nominativo": "LA ROCCA Lorenzo",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "CURTO Sofia",
+            "lista": "DMI Insider",
+            "voti": {
+                "totali": 28,
+                "seggio_telematico": 28
+            }
+        },
+        {
+            "nominativo": "FRASCA Valentina",
+            "lista": "DMI Insider",
+            "voti": {
+                "totali": 20,
+                "seggio_telematico": 20
+            }
+        },
+        {
+            "nominativo": "MINISSALE Giuseppe Virgilio",
+            "lista": "DMI Insider",
+            "voti": {
+                "totali": 25,
+                "seggio_telematico": 25
+            }
+        },
+        {
+            "nominativo": "SPINA Simone",
+            "lista": "DMI Insider",
+            "voti": {
+                "totali": 21,
+                "seggio_telematico": 21
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "VACCARO Giuseppe Detto Baffo",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 9,
+                "seggio_telematico": 9
+            }
+        },
+        {
+            "nominativo": "CIPRIA Fabrizio",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 10,
+                "seggio_telematico": 10
+            }
+        },
+        {
+            "nominativo": "LEANZA Michele",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 9,
+                "seggio_telematico": 9
+            }
+        },
+        {
+            "nominativo": "NOVARA Federica Maria",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "MESSINA Damiano",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 12,
+                "seggio_telematico": 12
+            }
+        },
+        {
+            "nominativo": "SAPUTO Antonino",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 8,
+                "seggio_telematico": 8
+            }
+        },
+        {
+            "nominativo": "PITARI Mario",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 10,
+                "seggio_telematico": 10
+            }
+        },
+        {
+            "nominativo": "SCIACCA Luca",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 7,
+                "seggio_telematico": 7
+            }
+        },
+        {
+            "nominativo": "MUSUMECI William",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "SPAMPINATO Mirko",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "GRECO Salvatore",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "PATERNICOLA Giuseppe",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "SCUTO Giovanni",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "LICITRA Alessandro",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "FIORENZA Elena",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "LO CASTRO Giuseppe",
+            "lista": "Benessere Studentesco",
+            "voti": {
+                "totali": 8,
+                "seggio_telematico": 8
+            }
+        },
+        {
+            "nominativo": "SENA Susanna",
+            "lista": "Benessere Studentesco",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "SALEMI Andrea Filippo",
+            "lista": "Benessere Studentesco",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "CAMBRIA Nicolo'",
+            "lista": "Alleanza Universitaria",
+            "voti": {
+                "totali": 11,
+                "seggio_telematico": 11
+            }
+        },
+        {
+            "nominativo": "MIRABELLA Leonardo",
+            "lista": "DMI Insider",
+            "voti": {
+                "totali": 8,
+                "seggio_telematico": 8
+            }
+        },
+        {
+            "nominativo": "PUGLISI Francesco",
+            "lista": "DMI Insider",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "GARSIA Federico Augusto Maria",
+            "lista": "DMI Insider",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "CANDIANO Francesco",
+            "lista": "DMI Insider",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "LUGLIO Gaia",
+            "lista": "DMI Insider",
+            "voti": {
+                "totali": 7,
+                "seggio_telematico": 7
+            }
+        },
+        {
+            "nominativo": "LANDOLINA Giulio",
+            "lista": "DMI Insider",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        }
+    ],
+    "dipartimento": "ELEZIONI RAPPRESENTANTI  IN SENO AL CONSIGLIO DEL DIPARTIMENTO DI MATEMATICA E INFORMATICA - STUDENTI BIENNIO 2023/2025",
+    "seggi_da_assegnare": "12",
+    "quoziente": 31.8333,
+    "votanti": {
+        "totali": 387,
+        "percentuale": 25.61,
+        "seggio_n_telematico": 387
+    },
+    "elettori": {
+        "totali": 1511,
+        "seggio_n_telematico": 1511
+    }
+}

@@ -158,7 +158,9 @@ export const SearchForm = (props: Props): JSX.Element => {
             </InputGroup.Append>
           </InputGroup>
         </Form>
-        <ListGroup className={formValue.length ? 'suggestions-list' : 'd-none'}>
+        <ListGroup className={formValue.length
+          ? 'suggestions-list'
+          : 'd-none'}>
           {generateSuggestions()}
         </ListGroup>
       </div>

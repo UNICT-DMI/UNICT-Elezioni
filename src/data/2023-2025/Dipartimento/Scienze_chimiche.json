@@ -1,0 +1,175 @@
+{
+    "schede": {
+        "bianche": {
+            "totali": 5,
+            "seggio_n_telematico": 5
+        },
+        "nulle": {
+            "totali": 0
+        },
+        "contestate": {
+            "totali": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "Fronte Gioventù Comunista",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "7",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": "7",
+                "seggio_telematico": "7"
+            }
+        },
+        {
+            "nome": "UNILAB",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "12,8",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "3"
+            },
+            "voti": {
+                "totali": "43",
+                "seggio_telematico": "43"
+            }
+        },
+        {
+            "nome": "NUCLEO ATTIVO",
+            "seggi": {
+                "seggi_pieni": "3",
+                "resti": "14,7",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "4"
+            },
+            "voti": {
+                "totali": "60",
+                "seggio_telematico": "60"
+            }
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "10,9",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": "26",
+                "seggio_telematico": "26"
+            }
+        },
+        {
+            "totale": 136
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "BONANNO Silvia",
+            "lista": "UNILAB",
+            "voti": {
+                "totali": 28,
+                "seggio_telematico": 28
+            }
+        },
+        {
+            "nominativo": "MESSINA Francesco",
+            "lista": "UNILAB",
+            "voti": {
+                "totali": 12,
+                "seggio_telematico": 12
+            }
+        },
+        {
+            "nominativo": "ANZALONE Alice",
+            "lista": "UNILAB",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "LO FARO Gianluca",
+            "lista": "NUCLEO ATTIVO",
+            "voti": {
+                "totali": 23,
+                "seggio_telematico": 23
+            }
+        },
+        {
+            "nominativo": "FINOCCHIO Valeria",
+            "lista": "NUCLEO ATTIVO",
+            "voti": {
+                "totali": 17,
+                "seggio_telematico": 17
+            }
+        },
+        {
+            "nominativo": "ANNARO Maria",
+            "lista": "NUCLEO ATTIVO",
+            "voti": {
+                "totali": 20,
+                "seggio_telematico": 20
+            }
+        },
+        {
+            "nominativo": "BARBAGALLO Chiara",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nominativo": "FAZIO Rebecca",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 14,
+                "seggio_telematico": 14
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "SCAGLIONE Ernesto",
+            "lista": "Fronte Gioventù Comunista",
+            "voti": {
+                "totali": 7,
+                "seggio_telematico": 7
+            }
+        },
+        {
+            "nominativo": "MULA Salvatore",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "LANZAFAME Mattia",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        }
+    ],
+    "dipartimento": "DIPARTIMENTO DI SCIENZE CHIMICHE",
+    "seggi_da_assegnare": "9",
+    "quoziente": 15.1111,
+    "votanti": {
+        "totali": 141,
+        "percentuale": 22.35,
+        "seggio_n_telematico": 141
+    },
+    "elettori": {
+        "totali": 631,
+        "seggio_n_telematico": 631
+    }
+}

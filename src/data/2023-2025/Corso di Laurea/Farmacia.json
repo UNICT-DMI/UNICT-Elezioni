@@ -1,0 +1,305 @@
+{
+    "schede": {
+        "bianche": {
+            "totali": 6,
+            "seggio_n_telematico": 6
+        },
+        "nulle": {
+            "totali": 0
+        },
+        "contestate": {
+            "totali": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "WE LOVE UNICT",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "21,3",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "3"
+            },
+            "voti": {
+                "totali": "77",
+                "seggio_telematico": "77"
+            }
+        },
+        {
+            "nome": "Nike Farmacia",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "18,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": "18",
+                "seggio_telematico": "18"
+            }
+        },
+        {
+            "nome": "CREDIAMOCI",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "24,1",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": "52",
+                "seggio_telematico": "52"
+            }
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "9,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": "9",
+                "seggio_telematico": "9"
+            }
+        },
+        {
+            "nome": "INPHARMA",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "7,1",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": "35",
+                "seggio_telematico": "35"
+            }
+        },
+        {
+            "nome": "Alleanza Universitaria",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "4,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": "4",
+                "seggio_telematico": "4"
+            }
+        },
+        {
+            "totale": 195
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "COTTONE Giuseppa Rosa",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 35,
+                "seggio_telematico": 35
+            }
+        },
+        {
+            "nominativo": "PALACINO Tommaso",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 18,
+                "seggio_telematico": 18
+            }
+        },
+        {
+            "nominativo": "CRISALLI Marika",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 13,
+                "seggio_telematico": 13
+            }
+        },
+        {
+            "nominativo": "NICASTRO Sofia",
+            "lista": "Nike Farmacia",
+            "voti": {
+                "totali": 13,
+                "seggio_telematico": 13
+            }
+        },
+        {
+            "nominativo": "GUARNACCIA Sossio",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 37,
+                "seggio_telematico": 37
+            }
+        },
+        {
+            "nominativo": "PERRICONE Annamaria",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 13,
+                "seggio_telematico": 13
+            }
+        },
+        {
+            "nominativo": "DI MARIA Stefano",
+            "lista": "INPHARMA",
+            "voti": {
+                "totali": 14,
+                "seggio_telematico": 14
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "COSTA Antonino Francesco",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 8,
+                "seggio_telematico": 8
+            }
+        },
+        {
+            "nominativo": "PAPPALARDO Emanuela Grazia",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "PARLATO Marco",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "VIRGILLITO Dario",
+            "lista": "Nike Farmacia",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "SILLITTI Carla",
+            "lista": "Nike Farmacia",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "MAZZONE Damiano",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "OLIVERI Giuseppe Maria",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "CAUDULLO Dario",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "OLIVO Arijana",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 9,
+                "seggio_telematico": 9
+            }
+        },
+        {
+            "nominativo": "SPATARO Vanessa",
+            "lista": "INPHARMA",
+            "voti": {
+                "totali": 14,
+                "seggio_telematico": 14
+            }
+        },
+        {
+            "nominativo": "VERNUCCI Alessia",
+            "lista": "INPHARMA",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "NICOLOSI Giorgio",
+            "lista": "INPHARMA",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "CARNAZZA Matilde",
+            "lista": "INPHARMA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "SANTANGELO Federica",
+            "lista": "Alleanza Universitaria",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "MERENDINO Denise",
+            "lista": "Alleanza Universitaria",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "PENNISI Chiara",
+            "lista": "Alleanza Universitaria",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "RIZZO Annamaria",
+            "lista": "Alleanza Universitaria",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        }
+    ],
+    "dipartimento": "FARMACIA-LM-13-Laurea Magistrale a ciclo unico (D.M. 270/2004)",
+    "seggi_da_assegnare": "7",
+    "quoziente": 27.857,
+    "votanti": {
+        "totali": 201,
+        "percentuale": 30.92,
+        "seggio_n_telematico": 201
+    },
+    "elettori": {
+        "totali": 650,
+        "seggio_n_telematico": 650
+    }
+}

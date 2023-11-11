@@ -1,0 +1,689 @@
+{
+    "schede": {
+        "bianche": {
+            "totali": 2,
+            "seggio_n_telematico": 2
+        },
+        "nulle": {
+            "totali": 0
+        },
+        "contestate": {
+            "totali": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "SOS UNICT",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "8,8",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": "30",
+                "seggio_telematico": "30"
+            }
+        },
+        {
+            "nome": "CREDIAMOCI",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "17,8",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": "39",
+                "seggio_telematico": "39"
+            }
+        },
+        {
+            "nome": "Hygea",
+            "seggi": {
+                "seggi_pieni": "9",
+                "resti": "11,6",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "10"
+            },
+            "voti": {
+                "totali": "202",
+                "seggio_telematico": "202"
+            }
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "1,8",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": "23",
+                "seggio_telematico": "23"
+            }
+        },
+        {
+            "nome": "SANILAB",
+            "seggi": {
+                "seggi_pieni": "4",
+                "resti": "16,4",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "5"
+            },
+            "voti": {
+                "totali": "101",
+                "seggio_telematico": "101"
+            }
+        },
+        {
+            "nome": "LIBERTAS",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "7,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": "7",
+                "seggio_telematico": "7"
+            }
+        },
+        {
+            "totale": 402
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "BONASERA Francesco",
+            "lista": "SOS UNICT",
+            "voti": {
+                "totali": 14,
+                "seggio_telematico": 14
+            }
+        },
+        {
+            "nominativo": "SEMINARA Elisa Detto Elis",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 24,
+                "seggio_telematico": 24
+            }
+        },
+        {
+            "nominativo": "VERMO Leonardo",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 10,
+                "seggio_telematico": 10
+            }
+        },
+        {
+            "nominativo": "BRIGANTI Carlotta",
+            "lista": "Hygea",
+            "voti": {
+                "totali": 21,
+                "seggio_telematico": 21
+            }
+        },
+        {
+            "nominativo": "CAVALLARO Salvatore Emanuele",
+            "lista": "Hygea",
+            "voti": {
+                "totali": 28,
+                "seggio_telematico": 28
+            }
+        },
+        {
+            "nominativo": "DISTEFANO Vanessa",
+            "lista": "Hygea",
+            "voti": {
+                "totali": 12,
+                "seggio_telematico": 12
+            }
+        },
+        {
+            "nominativo": "LEONARDI Francesca",
+            "lista": "Hygea",
+            "voti": {
+                "totali": 10,
+                "seggio_telematico": 10
+            }
+        },
+        {
+            "nominativo": "SARDA Fiorella",
+            "lista": "Hygea",
+            "voti": {
+                "totali": 7,
+                "seggio_telematico": 7
+            }
+        },
+        {
+            "nominativo": "SARTA Erika",
+            "lista": "Hygea",
+            "voti": {
+                "totali": 43,
+                "seggio_telematico": 43
+            }
+        },
+        {
+            "nominativo": "SCARPATO Marisa",
+            "lista": "Hygea",
+            "voti": {
+                "totali": 23,
+                "seggio_telematico": 23
+            }
+        },
+        {
+            "nominativo": "MUSUMECI Mattia",
+            "lista": "Hygea",
+            "voti": {
+                "totali": 11,
+                "seggio_telematico": 11
+            }
+        },
+        {
+            "nominativo": "BONAFIGLIA Katrin",
+            "lista": "Hygea",
+            "voti": {
+                "totali": 10,
+                "seggio_telematico": 10
+            }
+        },
+        {
+            "nominativo": "PETRELLA Agatino",
+            "lista": "Hygea",
+            "voti": {
+                "totali": 15,
+                "seggio_telematico": 15
+            }
+        },
+        {
+            "nominativo": "LEONARDI Daria",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 15,
+                "seggio_telematico": 15
+            }
+        },
+        {
+            "nominativo": "CRISCONIO Ludovica",
+            "lista": "SANILAB",
+            "voti": {
+                "totali": 22,
+                "seggio_telematico": 22
+            }
+        },
+        {
+            "nominativo": "NICASTRO Giulia Maria",
+            "lista": "SANILAB",
+            "voti": {
+                "totali": 22,
+                "seggio_telematico": 22
+            }
+        },
+        {
+            "nominativo": "LA DELFA Vincenzo",
+            "lista": "SANILAB",
+            "voti": {
+                "totali": 8,
+                "seggio_telematico": 8
+            }
+        },
+        {
+            "nominativo": "KALANTARI Soheila",
+            "lista": "SANILAB",
+            "voti": {
+                "totali": 14,
+                "seggio_telematico": 14
+            }
+        },
+        {
+            "nominativo": "DELL'UTRI Kimberly Maria",
+            "lista": "SANILAB",
+            "voti": {
+                "totali": 13,
+                "seggio_telematico": 13
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "RANDAZZO Letizia Provvidenza",
+            "lista": "SOS UNICT",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "BELLIA Andrea",
+            "lista": "SOS UNICT",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "COSTA Damiano",
+            "lista": "SOS UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "ANZALONE Nicolò",
+            "lista": "SOS UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "COLUCCIO Agata",
+            "lista": "SOS UNICT",
+            "voti": {
+                "totali": 9,
+                "seggio_telematico": 9
+            }
+        },
+        {
+            "nominativo": "BORGH Bruno",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "ASTORINA Erika",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "DELL' ARTE Thomas",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "ZAPPARRATO Matilde Maria Concetta",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "TARDA Rita",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "NASELLO Riccardo",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "SAITTA Samuele",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "STORNIOLO Isa",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "LONGO Samuele",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "MAMMINO Matteo",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "VALENTI Sara",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "CALTABIANO Martina",
+            "lista": "Hygea",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "FICHERA Luca",
+            "lista": "Hygea",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "OLIVERI Giulia Sofia",
+            "lista": "Hygea",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "SPALLETTA Naomi",
+            "lista": "Hygea",
+            "voti": {
+                "totali": 7,
+                "seggio_telematico": 7
+            }
+        },
+        {
+            "nominativo": "SPARTINI Elèna",
+            "lista": "Hygea",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "STIRO Alberto",
+            "lista": "Hygea",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "CICCIARELLA Giovanni",
+            "lista": "Hygea",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "MARCHESE Stefania",
+            "lista": "Hygea",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "CALCAGNO Dario",
+            "lista": "Hygea",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "CARUSO Giulia",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "DI BARTOLO Matilde",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "CIAFFAGLIONE Agatino Simone",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "OLIVERI Angelo Federico Pio",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "GIUNTA Flavia",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "PETISI Marina",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nominativo": "RUSCICA Gabriele",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "CATANIA Giulia",
+            "lista": "SANILAB",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "TORRE Dalia Agata",
+            "lista": "SANILAB",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "FRISINA Elisabetta",
+            "lista": "SANILAB",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "STEFAN Denisa Florina",
+            "lista": "SANILAB",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "GLORIA Gabriele",
+            "lista": "SANILAB",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "ROSIGLIONE Federica",
+            "lista": "SANILAB",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "TUCCIO Jason Danilo",
+            "lista": "SANILAB",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "RUSSO Agata Annarita",
+            "lista": "SANILAB",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "BARBARINO Giuseppe",
+            "lista": "SANILAB",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "GIUDICE Arianna",
+            "lista": "SANILAB",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "LE MURA Nicola",
+            "lista": "SANILAB",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "COSTA Luana",
+            "lista": "SANILAB",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "MINEO Anna",
+            "lista": "SANILAB",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "PARLASCINO Francesca",
+            "lista": "SANILAB",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "CASTIGLIONE Davide",
+            "lista": "LIBERTAS",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "ADAMO Michele",
+            "lista": "LIBERTAS",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "NICOTRA Giordana",
+            "lista": "LIBERTAS",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "BINANTI Anastasia",
+            "lista": "LIBERTAS",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "BISACCIA Fabio",
+            "lista": "LIBERTAS",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "BELLITTO Marta",
+            "lista": "LIBERTAS",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "CARNAZZA Martina",
+            "lista": "LIBERTAS",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        }
+    ],
+    "dipartimento": "INFERMIERISTICA-L/SNT1-Laurea Triennale (D.M.270/2004)",
+    "seggi_da_assegnare": "19",
+    "quoziente": 21.158,
+    "votanti": {
+        "totali": 404,
+        "percentuale": 47.64,
+        "seggio_n_telematico": 404
+    },
+    "elettori": {
+        "totali": 848,
+        "seggio_n_telematico": 848
+    }
+}

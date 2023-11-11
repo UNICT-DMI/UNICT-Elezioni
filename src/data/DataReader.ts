@@ -13,7 +13,11 @@ class DataReader {
     return DataReader.instance;
   }
 
-  private _insert(currentPath: string[], currentNode: any, dataNode: any): void {
+  private _insert(
+    currentPath: string[],
+    currentNode: any,
+    dataNode: any,
+  ): void {
     const path = currentPath[0];
     if (path === undefined) {
       return;
@@ -24,7 +28,11 @@ class DataReader {
     if (currentPath.length === 1) {
       currentNode[path] = dataNode;
     }
-    this._insert(currentPath.slice(1, currentPath.length), currentNode[path], dataNode);
+    this._insert(
+      currentPath.slice(1, currentPath.length),
+      currentNode[path],
+      dataNode,
+    );
   }
 
   insert(pathStr: string, dataNode: any): void {
@@ -55,11 +63,27 @@ class DataReader {
         }
         const lists = this.getLists(year, entity, subEntity);
         for (const list of lists) {
-          const candidates = this.getCandidates(year, entity, subEntity, list.nome);
+          const candidates = this.getCandidates(
+            year,
+            entity,
+            subEntity,
+            list.nome,
+          );
           for (const candidate of candidates) {
-            if (lists.findIndex((list: any) => list.nome === candidate.nominativo) !== -1) {
-              console.log(`FIXED ${entity}-${subEntity}-${list.nome} candidato:${candidate.nominativo}`);
-              this.removeCandidate(year, entity, subEntity, candidate.nominativo);
+            if (
+              lists.findIndex(
+                (list: any) => list.nome === candidate.nominativo,
+              ) !== -1
+            ) {
+              console.log(
+                `FIXED ${entity}-${subEntity}-${list.nome} candidato:${candidate.nominativo}`,
+              );
+              this.removeCandidate(
+                year,
+                entity,
+                subEntity,
+                candidate.nominativo,
+              );
             }
           }
         }
@@ -67,9 +91,24 @@ class DataReader {
     }
   }
 
-  removeCandidate(years: string, entity: string, subEntity: string, candidateName: string): void {
-    this.data[years][entity][subEntity].eletti = (this.data[years][entity][subEntity].eletti as any[]).filter((candidate: any) => !((candidate.nominativo as string).includes(candidateName)));
-    this.data[years][entity][subEntity].non_eletti = (this.data[years][entity][subEntity].non_eletti as any[]).filter((candidate: any) => !((candidate.nominativo as string).includes(candidateName)));
+  removeCandidate(
+    years: string,
+    entity: string,
+    subEntity: string,
+    candidateName: string,
+  ): void {
+    this.data[years][entity][subEntity].eletti = (
+      this.data[years][entity][subEntity].eletti as any[]
+    ).filter(
+      (candidate: any) =>
+        !(candidate.nominativo as string).includes(candidateName),
+    );
+    this.data[years][entity][subEntity].non_eletti = (
+      this.data[years][entity][subEntity].non_eletti as any[]
+    ).filter(
+      (candidate: any) =>
+        !(candidate.nominativo as string).includes(candidateName),
+    );
   }
 
   getYears(): string[] {
@@ -81,7 +120,12 @@ class DataReader {
       let entities: string[] = [];
       const yearsList = this.getYears();
       for (const year of yearsList) {
-        entities = [...entities, ...Object.keys(this.data[year]).filter((entity: string) => entity !== 'seggi')];
+        entities = [
+          ...entities,
+          ...Object.keys(this.data[year]).filter(
+            (entity: string) => entity !== 'seggi',
+          ),
+        ];
       }
       return [...new Set(entities)];
     }
@@ -125,15 +169,22 @@ class DataReader {
 
   // generic method for all entities
   getEntity(years: string, entity: string): string[] | null {
-    return this.data[years][entity] ? Object.keys(this.data[years][entity]) : null;
+    return this.data[years][entity]
+      ? Object.keys(this.data[years][entity])
+      : null;
   }
 
   getSubEntity(years: string, entity: string, subEntity: string): any | null {
-    return this.data[years][entity] ? this.data[years][entity][subEntity] : null;
+    return this.data[years][entity]
+      ? this.data[years][entity][subEntity]
+      : null;
   }
 
   getYearsOfSubEntity(entity: string, subEntity: string): string[] {
-    return this.getYears().filter((year: string): boolean => this.data[year][entity] && this.data[year][entity][subEntity]);
+    return this.getYears().filter(
+      (year: string): boolean =>
+        this.data[year][entity] && this.data[year][entity][subEntity],
+    );
   }
 
   isUninominal(years: string, entity: string, subEntity: string): boolean {
@@ -142,17 +193,39 @@ class DataReader {
 
   // ('2018-2020', 'dipartimenti', 'Matematica e Informatica')
   getLists(years: string, entity: string, subEntity: string): any[] {
-    if (!this.data[years][entity] || this.isUninominal(years, entity, subEntity)) {
+    if (
+      !this.data[years][entity] ||
+      this.isUninominal(years, entity, subEntity)
+    ) {
       return [];
     }
-    return (this.data[years][entity][subEntity].liste as []).filter((list: any): any => list.nome !== undefined);
+    return (this.data[years][entity][subEntity].liste as []).filter(
+      (list: any): any => list.nome !== undefined,
+    );
   }
 
-  getCandidates(years: string, entity: string, subEntity: string, list: string): any[] {
+  getCandidates(
+    years: string,
+    entity: string,
+    subEntity: string,
+    list: string,
+  ): any[] {
     const candidatesInfo = this.data[years][entity][subEntity];
-    const elected: any[] = candidatesInfo.eletti ? (candidatesInfo.eletti as []).filter((candidate: any): boolean => candidate.lista === list) : [];
-    const notElected: any[] = candidatesInfo.non_eletti ? (candidatesInfo.non_eletti as []).filter((candidate: any): boolean => candidate.lista === list) : [];
-    const onlyCandidate: any[] = candidatesInfo.candidati ? (candidatesInfo.candidati as []).filter((candidate: any): boolean => candidate.lista === list) : [];
+    const elected: any[] = candidatesInfo.eletti
+      ? (candidatesInfo.eletti as []).filter(
+          (candidate: any): boolean => candidate.lista === list,
+        )
+      : [];
+    const notElected: any[] = candidatesInfo.non_eletti
+      ? (candidatesInfo.non_eletti as []).filter(
+          (candidate: any): boolean => candidate.lista === list,
+        )
+      : [];
+    const onlyCandidate: any[] = candidatesInfo.candidati
+      ? (candidatesInfo.candidati as []).filter(
+          (candidate: any): boolean => candidate.lista === list,
+        )
+      : [];
 
     return [
       ...elected.map((candidate: any): any => {
@@ -163,13 +236,18 @@ class DataReader {
         candidate.eletto = false;
         return candidate;
       }),
-      ...onlyCandidate
+      ...onlyCandidate,
     ];
   }
 
-  getCandidatesUninominal(years: string, entity: string, subEntity: string): any {
-    const elected: any[] = (this.data[years][entity][subEntity].eletti as []);
-    const notElected: any[] = (this.data[years][entity][subEntity].non_eletti as []);
+  getCandidatesUninominal(
+    years: string,
+    entity: string,
+    subEntity: string,
+  ): any {
+    const elected: any[] = this.data[years][entity][subEntity].eletti as [];
+    const notElected: any[] = this.data[years][entity][subEntity]
+      .non_eletti as [];
     if (!elected) {
       return null;
     }
@@ -181,7 +259,7 @@ class DataReader {
       ...notElected.map((candidate: any): any => {
         candidate.eletto = false;
         return candidate;
-      })
+      }),
     ];
   }
 
@@ -190,19 +268,30 @@ class DataReader {
     const allCandidates: any = [];
     if (lists.length) {
       lists.forEach((list: any): any => {
-        allCandidates[list.nome] = this.getCandidates(years, entity, subEntity, list.nome);
+        allCandidates[list.nome] = this.getCandidates(
+          years,
+          entity,
+          subEntity,
+          list.nome,
+        );
       });
       return allCandidates;
     }
-    allCandidates.UNINOMINAL = this.getCandidatesUninominal(years, entity, subEntity);
+    allCandidates.UNINOMINAL = this.getCandidatesUninominal(
+      years,
+      entity,
+      subEntity,
+    );
     return allCandidates;
   }
 
   getSeatsId(year: string, entity: string): any {
     const seats: any = this.data[year].seggi;
-    return seats ? Object.keys(seats).filter((seat: any): boolean => {
-      return seats[seat].includes(entity);
-    }) : null;
+    return seats
+      ? Object.keys(seats).filter((seat: any): boolean => {
+          return seats[seat].includes(entity);
+        })
+      : null;
   }
 
   // return departement that share same seat
