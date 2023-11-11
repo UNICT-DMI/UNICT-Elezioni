@@ -1,0 +1,32 @@
+{
+    "dipartimento": "MATEMATICA-LM-40-Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 6,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "FRAGAPANE LEONARDO",
+            "voti": 7
+        },
+        {
+            "nome_candidato": "FRASCA VALENTINA",
+            "voti": 10
+        },
+        {
+            "nome_candidato": "CURTO SOFIA",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "MINISSALE GIUSEPPE VIRGILIO",
+            "voti": 5
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 24,
+    "aventi_diritto": 63,
+    "perc_votanti": 38.1
+}
