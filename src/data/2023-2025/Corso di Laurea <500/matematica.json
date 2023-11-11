@@ -15,28 +15,28 @@
         {
             "nome_candidato": "CANDIANO FRANCESCO",
             "voti": 8
-        }
-    ],
-    "non_eletti": [
+        },
         {
             "nome_candidato": "TRAGNA AGNESE",
             "voti": 15
         },
         {
-            "nome_candidato": "SORBELLO ANGELICA",
-            "voti": 1
+            "nome_candidato": "PITARI MARIO",
+            "voti": 11
         },
         {
             "nome_candidato": "DI BLASI MARCO",
             "voti": 13
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "SORBELLO ANGELICA",
+            "voti": 1
         },
         {
             "nome_candidato": "LEANZA MICHELE",
             "voti": 2
-        },
-        {
-            "nome_candidato": "PITARI MARIO",
-            "voti": 11
         },
         {
             "nome_candidato": "SCIR\u00c8 GIOACCHINO TOMMASO SEBASTIANO",
