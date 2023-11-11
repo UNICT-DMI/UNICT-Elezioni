@@ -1,3 +1,4 @@
+import os
 import sys
 from typing import List
 from Target import Target
@@ -17,7 +18,8 @@ class Cdl:
 
     def __find_name_department(self, text: List[str]) -> str:
         for i in range(len(text)):
-            if text[i].find("ELEZIONI") != -1:
+            # if text[i].find("ELEZIONI") != -1:
+            if text[i].find("RAPPRESENTANTI") != -1:
                 nome = text[i+1]
                 return nome.strip()
         
@@ -39,7 +41,6 @@ class Cdl:
         return value.replace(" ", "").replace("%", "").replace(",", ".")
 
     def __get_type_v2(self, type: str, text: List[str]) -> str:
-        print(text)
         type_idx = text.index(type)
         value = self.__remove_perc_or_comma(text[type_idx+2])
         return value
@@ -51,6 +52,7 @@ class Cdl:
 
         if int(year) >= 2023: # and "DOTTORANDI" in text[0]
             voti_idx = text.index("VOTI") + 1
+            print(text)
             schede_idx = text.index("SCHEDE BIANCHE")
 
             candidates = [el for el in text[voti_idx:schede_idx] if el != "" ]
@@ -60,10 +62,17 @@ class Cdl:
                 nome_candidato = candidates[idx]
                 voti_candidato = candidates[idx+1]
 
-                e = {
-                        "nome_candidato": nome_candidato.strip(),
-                        "voti": int(voti_candidato)
-                }
+                try:
+                    e = {
+                            "nome_candidato": nome_candidato.strip(),
+                            "voti": int(voti_candidato)
+                    }
+                except:
+                    print("### ERROR with nome_candidato/voti")
+                    e = {
+                            "nome_candidato": nome_candidato.strip(),
+                            "voti": 3000  # need to fix manually
+                    }
 
                 if len(candidates) > idx+2 and candidates[idx+2].upper() == "ELETTO":
                     idx += 1
@@ -72,47 +81,48 @@ class Cdl:
                     non_eletti.append(e)
 
                 idx += 2
-            
-            # self.i += len(text[voti_idx:schede_idx])
 
         return quorum
 
 
     def operation(self, text) -> object:
-        year = self.__get_year(text)
-
         quorum = [True]
         nome_dipartimento = self.__find_name_department(text)
         
-        if int(year) >= 2023:
-            seggi = self.__seggi_da_assegnare_v2(text)
-        else:
-            seggi = self.__seggi_da_assegnare(text)
+        seggi = self.__seggi_da_assegnare_v2(text)
 
         eletti = []
         non_eletti = []
         quorum[0] = self.__get_candidati(text, eletti, non_eletti, quorum[0])
 
 
-        if int(year) >= 2023:
-            perc_votanti = float(self.__get_type_v2("% VOTANTI", text))
+        perc_votanti = float(self.__get_type_v2("% VOTANTI", text))
 
-            schede_nulle = 0
-            schede_contestate = 0
+        schede_nulle = 0
+        schede_contestate = 0
 
-            if perc_votanti < 15:
-                quorum[0] = False
-                schede_bianche = 0
-                totale_voti = 0
+        if perc_votanti < 15:
+            quorum[0] = False
+            schede_bianche = 0
+            totale_voti = 0
 
-                for non_eletto in non_eletti:
-                    non_eletto["voti"] = 0
+            for non_eletto in non_eletti:
+                non_eletto["voti"] = 0
 
-            else:
+        else:
+            try:
                 schede_bianche = int(self.__get_type_v2("SCHEDE BIANCHE", text))
-                totale_voti = int(self.__get_type_v2("TOTALE VOTI", text))
+            except:
+                print("### issue with SCHEDE BIANCHE")
+                schede_bianche = 1000 # need to fix manually
 
-            aventi_diritto = int(self.__get_type_v2("AVENTI DIRITTO", text))
+            try:
+                print("### issue with TOTALE VOTI")
+                totale_voti = int(self.__get_type_v2("TOTALE VOTI", text))
+            except:
+                totale_voti = 2000 # need to fix manually
+
+        aventi_diritto = int(self.__get_type_v2("AVENTI DIRITTO", text))
 
         file_json = {
             "dipartimento": nome_dipartimento,
@@ -130,38 +140,10 @@ class Cdl:
             "perc_votanti": perc_votanti
         }
 
-        # self.i += 1
         file = json.dumps(file_json)
         parsed = json.loads(file)
 
         return json.dumps(parsed, indent=4, sort_keys=False)
-
-
-    # def scrape_list(self, text) -> object:
-    #     result_json = []
-    #     while self.i < len(text)-1:
-    #         result_json.append(self.__operation(text))
-    #     return result_json
-
-
-# def main(argv: List[str]) -> None:
-#     error_start(len(argv))
-
-#     formatted_text = FormatPDF.format_pdf(argv[0])
-#     target = SelectTarget.get_instance().get_target(argv[1])
-
-#     str_json = target.scrape_list(formatted_text)
-#     # print(str_json)
-
-#     if isinstance(str_json, list):
-#         for s in str_json:
-#             if len(str_json) > 1:
-#                 input_path = create_file_name(s, argv[0])
-#                 save_json(s, input_path)
-#             else:
-#                 save_json(s, argv[0])
-#     else:
-#         save_json(str_json, argv[0])
 
 def main() -> None:
     with open("CDL_B.txt", "r") as f:
@@ -169,17 +151,19 @@ def main() -> None:
 
     target = Cdl()
 
-    multi_text = file_content.split("")
+    multi_text = file_content.split("ELEZIONI")
+
+    output_dir_path = "output-cdl-less-500"
+    is_exist = os.path.exists(output_dir_path)
+    if not is_exist:
+        os.makedirs(output_dir_path)
 
     for i in range(len(multi_text)):
         text = multi_text[i]
         text = text.split("\n")
-        print("\n".join(text))
-        print(target.operation(text))
-
-        if i == 2:
-            break
+        json_content = target.operation(text)
+        file_name = create_file_name(json_content, output_dir_path)
+        save_json(json_content, f"{output_dir_path}/{file_name}")
 
 if __name__ == "__main__":
-    # main(sys.argv[1:])
     main()

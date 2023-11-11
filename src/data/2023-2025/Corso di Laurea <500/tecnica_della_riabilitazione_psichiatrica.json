@@ -1,0 +1,20 @@
+{
+  "dipartimento": "TECNICA DELLA RIABILITAZIONE PSICHIATRICA-L/SNT2-Laurea Triennale (D.M.270/2004)",
+  "quorum": true,
+  "seggi_da_assegnare": 1,
+  "schede": {
+    "bianche": 0,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "DAMICO SERENA",
+      "voti": 9
+    }
+  ],
+  "non_eletti": [],
+  "totale_voti": 9,
+  "aventi_diritto": 43,
+  "perc_votanti": 20.93
+}

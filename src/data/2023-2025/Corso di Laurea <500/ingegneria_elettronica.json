@@ -1,0 +1,45 @@
+{
+    "dipartimento": "INGEGNERIA ELETTRONICA-L-8-Laurea Triennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 4,
+    "schede": {
+        "bianche": 5,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "BONINA EMANUELE",
+            "voti": 28
+        },
+        {
+            "nome_candidato": "GRASSO VALERIA",
+            "voti": 30
+        },
+        {
+            "nome_candidato": "GRIPPALDI DANIELE FRANCESCO",
+            "voti": 28
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "GRASSO VINCENZO",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "GUTTADAURO ANTONINO",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "NICOTRA DARIO",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "TRIFONI EMANUELE",
+            "voti": 4
+        }
+    ],
+    "totale_voti": 104,
+    "aventi_diritto": 384,
+    "perc_votanti": 27.08
+}

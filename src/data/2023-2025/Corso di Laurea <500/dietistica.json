@@ -1,0 +1,28 @@
+{
+    "dipartimento": "DIETISTICA-L/SNT3-Laurea Triennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 1,
+    "schede": {
+        "bianche": 3,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "GAROFALO AURORA",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "MONTAGNO CASTAGNOLO SANDRO",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "BIONDI SILVIA",
+            "voti": 1
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 13,
+    "aventi_diritto": 56,
+    "perc_votanti": 23.21
+}

@@ -1,0 +1,49 @@
+{
+    "dipartimento": "LINGUE E LETTERATURE COMPARATE-LM-37-Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": false,
+    "seggi_da_assegnare": 6,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "TOMASELLO FEDERICA",
+            "voti": 1
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "CASALINO GAIA MARTINA",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "03",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "05",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "MUSUMECI DAMIANO",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "DI BUONO AGATA",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "PRESTIGIACOMO MARTA",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "SCHILIRO' EMANUELE GAETANO",
+            "voti": 0
+        }
+    ],
+    "totale_voti": 0,
+    "aventi_diritto": 291,
+    "perc_votanti": 11.34
+}

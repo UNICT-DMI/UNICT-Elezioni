@@ -1,0 +1,73 @@
+{
+    "dipartimento": "ODONTOIATRIA E PROTESI DENTARIA-LM-46-Laurea Magistrale a ciclo unico (D.M. 270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 1,
+    "schede": {
+        "bianche": 1,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "PANTALENA MARIA GIOVANNA",
+            "voti": 14
+        },
+        {
+            "nome_candidato": "SCIUTO LORENZO",
+            "voti": 8
+        },
+        {
+            "nome_candidato": "PIERRO GABRIELE",
+            "voti": 13
+        },
+        {
+            "nome_candidato": "IACONO MANNO ELENA",
+            "voti": 8
+        },
+        {
+            "nome_candidato": "RABITO LORENZO",
+            "voti": 9
+        },
+        {
+            "nome_candidato": "COCIMANO CARMINE",
+            "voti": 7
+        },
+        {
+            "nome_candidato": "SPAMPINATO DELIA MARIA RITA",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "FELIS VITTORIA",
+            "voti": 6
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "PAPPALARDO ALFIO",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "CALABRESE ANTONINO",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "GIARDINA FABRIZIO GIUSEPPE",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "PANEBIANCO MATTIA GABRIELE AGATINO",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "MONGELLI FABIO",
+            "voti": 7
+        },
+        {
+            "nome_candidato": "CAMMARATA UMBERTO",
+            "voti": 4
+        }
+    ],
+    "totale_voti": 83,
+    "aventi_diritto": 138,
+    "perc_votanti": 60.14
+}

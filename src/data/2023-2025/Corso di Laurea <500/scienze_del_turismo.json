@@ -1,0 +1,45 @@
+{
+    "dipartimento": "SCIENZE DEL TURISMO-L-15-Laurea Triennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 5,
+    "schede": {
+        "bianche": 1,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "VERGA MARIA LAURA",
+            "voti": 44
+        },
+        {
+            "nome_candidato": "GENOVESE CHIARA",
+            "voti": 22
+        },
+        {
+            "nome_candidato": "GRANZA AURORA",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "MAZZEO EMANUELA NOEMI",
+            "voti": 10
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "DI BENEDETTO LUCA",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "PANARELLO GABRIELE",
+            "voti": 17
+        },
+        {
+            "nome_candidato": "ALAMPI CLARA PIA",
+            "voti": 1
+        }
+    ],
+    "totale_voti": 103,
+    "aventi_diritto": 315,
+    "perc_votanti": 32.7
+}

@@ -1,0 +1,20 @@
+{
+  "dipartimento": "BIOLOGIA AMBIENTALE-LM-6-Laurea Magistrale biennale (D.M.270/2004)",
+  "quorum": true,
+  "seggi_da_assegnare": 5,
+  "schede": {
+    "bianche": 0,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "GRILLO CHRISTIAN",
+      "voti": 10
+    }
+  ],
+  "non_eletti": [],
+  "totale_voti": 10,
+  "aventi_diritto": 45,
+  "perc_votanti": 22.22
+}

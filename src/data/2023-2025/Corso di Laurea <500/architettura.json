@@ -1,0 +1,65 @@
+{
+    "dipartimento": "ARCHITETTURA-LM-4 C.U.-Laurea Magistrale a ciclo unico (D.M. 270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 1,
+    "schede": {
+        "bianche": 6,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "INGEGNERI SOFIA",
+            "voti": 14
+        },
+        {
+            "nome_candidato": "LEONE GIUSEPPE",
+            "voti": 15
+        },
+        {
+            "nome_candidato": "PAGANO VANESSA",
+            "voti": 13
+        },
+        {
+            "nome_candidato": "LIGGIERI JESSICA",
+            "voti": 12
+        },
+        {
+            "nome_candidato": "GALVAGNO GIULIANA",
+            "voti": 19
+        },
+        {
+            "nome_candidato": "FIAMINGO GIORGIA",
+            "voti": 18
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "BASILE GIULIANA",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "DISTEFANO GAETANO",
+            "voti": 10
+        },
+        {
+            "nome_candidato": "IABICHELLA PAOLA",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "BARBAGALLO TATIANA",
+            "voti": 10
+        },
+        {
+            "nome_candidato": "SPADARO LORENZO",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "DISTEFANO ANNA MARIA",
+            "voti": 14
+        }
+    ],
+    "totale_voti": 144,
+    "aventi_diritto": 451,
+    "perc_votanti": 31.93
+}

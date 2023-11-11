@@ -1,0 +1,20 @@
+{
+    "dipartimento": "SCIENZE E TECNICHE DELLE ATTIVITÀ MOTORIE PREVENTIVE E ADATTATE-LM-67-Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": false,
+    "seggi_da_assegnare": 4,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "DI PAOLA GABRIELE",
+            "voti": 1
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 0,
+    "aventi_diritto": 96,
+    "perc_votanti": 4.17
+}

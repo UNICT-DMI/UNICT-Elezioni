@@ -1,0 +1,41 @@
+{
+    "dipartimento": "SCIENZE E TECNOLOGIE AGRARIE-LM-69-Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 5,
+    "schede": {
+        "bianche": 3,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "GIUFFRIDA GLORIA",
+            "voti": 9
+        },
+        {
+            "nome_candidato": "VITALE ALESSIO",
+            "voti": 20
+        },
+        {
+            "nome_candidato": "PROTO LUCA",
+            "voti": 20
+        },
+        {
+            "nome_candidato": "MESSINA CARMELO",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "CANNONE LUCA",
+            "voti": 3
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "D'AGATI SALVATORE",
+            "voti": 2
+        }
+    ],
+    "totale_voti": 63,
+    "aventi_diritto": 227,
+    "perc_votanti": 27.75
+}

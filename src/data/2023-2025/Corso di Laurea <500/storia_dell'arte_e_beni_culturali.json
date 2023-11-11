@@ -1,0 +1,24 @@
+{
+    "dipartimento": "STORIA DELL'ARTE E BENI CULTURALI-LM-89-Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": false,
+    "seggi_da_assegnare": 1,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "CILIA SONIA",
+            "voti": 12
+        },
+        {
+            "nome_candidato": "SCUTO FRANCESCO",
+            "voti": 8
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 0,
+    "aventi_diritto": 200,
+    "perc_votanti": 10.5
+}

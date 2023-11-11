@@ -1,0 +1,37 @@
+{
+    "dipartimento": "SCIENZE DEL TESTO PER LE PROFESSIONI DIGITALI -LM-43-Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 4,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "MARANO VITTORIA",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "MIGNACCA ROSSELLA",
+            "voti": 7
+        },
+        {
+            "nome_candidato": "BEVILACQUA MATILDE",
+            "voti": 7
+        },
+        {
+            "nome_candidato": "CAPONNETTO GIOVANNI",
+            "voti": 6
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "GALVAGNO LORENZO",
+            "voti": 0
+        }
+    ],
+    "totale_voti": 24,
+    "aventi_diritto": 45,
+    "perc_votanti": 53.33
+}

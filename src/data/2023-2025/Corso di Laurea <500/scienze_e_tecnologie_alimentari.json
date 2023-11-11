@@ -1,0 +1,93 @@
+{
+  "dipartimento": "SCIENZE E TECNOLOGIE ALIMENTARI-L-26-Laurea Triennale (D.M.270/2004)",
+  "quorum": true,
+  "seggi_da_assegnare": 6,
+  "schede": {
+    "bianche": 5,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "FRANZONE ALEX",
+      "voti": 38
+    },
+    {
+      "nome_candidato": "GRASSO MELANIA",
+      "voti": 15
+    },
+    {
+      "nome_candidato": "TIRENDI GRAZIELLA",
+      "voti": 24
+    },
+    {
+      "nome_candidato": "BUTANO MATTHIAS",
+      "voti": 11
+    },
+    {
+      "nome_candidato": "CUTOLO ENRICA",
+      "voti": 9
+    },
+    {
+      "nome_candidato": "ARANZULLA ALESSIO",
+      "voti": 7
+    }
+  ],
+  "non_eletti": [
+    {
+      "nome_candidato": "MARCHÍ MAURA",
+      "voti": 4
+    },
+    {
+      "nome_candidato": "CANTARO ROCCO",
+      "voti": 7
+    },
+    {
+      "nome_candidato": "D'ALESSANDRO DALILA",
+      "voti": 4
+    },
+    {
+      "nome_candidato": "LANTIERI PICCIONE NAOMI",
+      "voti": 0
+    },
+    {
+      "nome_candidato": "MACARIO FRANCESCO",
+      "voti": 3
+    },
+    {
+      "nome_candidato": "VECA IRENE",
+      "voti": 0
+    },
+    {
+      "nome_candidato": "PRUITI EMANUEL",
+      "voti": 3
+    },
+    {
+      "nome_candidato": "MICELI GAIA",
+      "voti": 3
+    },
+    {
+      "nome_candidato": "MORREALE CALOGERO",
+      "voti": 1
+    },
+    {
+      "nome_candidato": "TRAVAGLIANTI GIADA",
+      "voti": 3
+    },
+    {
+      "nome_candidato": "MONTALTO GRAZIA RITA",
+      "voti": 1
+    },
+    {
+      "nome_candidato": "SERRA GIADA",
+      "voti": 0
+    },
+    {
+      "nome_candidato": "COSTANTINO GLENDA",
+      "voti": 0
+    }
+  ],
+  "totale_voti": 138,
+  "aventi_diritto": 460,
+  "perc_votanti": 30.0
+}

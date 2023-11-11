@@ -1,0 +1,49 @@
+{
+    "dipartimento": "FISIOTERAPIA-L/SNT2-Laurea Triennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 7,
+    "schede": {
+        "bianche": 3,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "GENTILE WALTER",
+            "voti": 9
+        },
+        {
+            "nome_candidato": "MAUGERI LUCREZIA",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "XHETANI ENDI",
+            "voti": 20
+        },
+        {
+            "nome_candidato": "VELLA SIMONE",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "IACONA MICHELE",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "FALLICA BASILIO",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "CALVAGNA SALVATORE",
+            "voti": 1
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "BELTEMPO RAMONA LUCIA",
+            "voti": 1
+        }
+    ],
+    "totale_voti": 50,
+    "aventi_diritto": 129,
+    "perc_votanti": 38.76
+}

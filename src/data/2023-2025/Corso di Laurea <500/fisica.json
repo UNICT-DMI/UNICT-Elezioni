@@ -1,0 +1,49 @@
+{
+    "dipartimento": "FISICA-L-30-Laurea Triennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 1,
+    "schede": {
+        "bianche": 10,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "TARZIA DOMENICO",
+            "voti": 21
+        },
+        {
+            "nome_candidato": "AMORE SEBASTIANO",
+            "voti": 12
+        },
+        {
+            "nome_candidato": "MARCHETTA VIRGINIA",
+            "voti": 20
+        },
+        {
+            "nome_candidato": "CAMONITA CLAUDIA",
+            "voti": 27
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "BOREALE FRANCESCA",
+            "voti": 6
+        },
+        {
+            "nome_candidato": "INGRASSIA FEDERICA MARIA",
+            "voti": 8
+        },
+        {
+            "nome_candidato": "RAPISARDA CARMELO",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "LA GRECA SAMUELE",
+            "voti": 8
+        }
+    ],
+    "totale_voti": 114,
+    "aventi_diritto": 365,
+    "perc_votanti": 31.23
+}

@@ -1,0 +1,49 @@
+{
+  "dipartimento": "SCIENZE E TECNOLOGIE PER LA RISTORAZIONE E DISTRIBUZIONE DEGLI ALIMENTI MEDITERRANEI -L-26-Laurea Triennale (D.M.270/2004)",
+  "quorum": true,
+  "seggi_da_assegnare": 5,
+  "schede": {
+    "bianche": 0,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "CICITTA KATRIN",
+      "voti": 7
+    },
+    {
+      "nome_candidato": "SBERNA GIANLUCA",
+      "voti": 5
+    },
+    {
+      "nome_candidato": "BORDONARO BRIAN",
+      "voti": 12
+    },
+    {
+      "nome_candidato": "GRASSO ALICE MARIA",
+      "voti": 7
+    },
+    {
+      "nome_candidato": "SAVOCA MATTIA",
+      "voti": 6
+    }
+  ],
+  "non_eletti": [
+    {
+      "nome_candidato": "SCHILIRÒ ANTONIO",
+      "voti": 5
+    },
+    {
+      "nome_candidato": "BORRATA GABRIELE",
+      "voti": 0
+    },
+    {
+      "nome_candidato": "AVELLINO VINCENZO",
+      "voti": 0
+    }
+  ],
+  "totale_voti": 42,
+  "aventi_diritto": 117,
+  "perc_votanti": 35.9
+}

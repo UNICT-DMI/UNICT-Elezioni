@@ -1,0 +1,20 @@
+{
+  "dipartimento": "MECHANICAL ENGINEERING-LM-33-Laurea Magistrale biennale (D.M.270/2004)",
+  "quorum": true,
+  "seggi_da_assegnare": 4,
+  "schede": {
+    "bianche": 0,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [],
+  "non_eletti": [
+    {
+      "nome_candidato": "SPINOSO ANGELO",
+      "voti": 20
+    }
+  ],
+  "totale_voti": 20,
+  "aventi_diritto": 66,
+  "perc_votanti": 30.3
+}

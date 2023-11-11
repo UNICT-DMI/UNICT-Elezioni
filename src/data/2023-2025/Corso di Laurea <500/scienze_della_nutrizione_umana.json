@@ -1,0 +1,37 @@
+{
+    "dipartimento": "SCIENZE DELLA NUTRIZIONE UMANA-LM-61-Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 1,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "FURNARI FABRIZIO",
+            "voti": 33
+        },
+        {
+            "nome_candidato": "SARDO GABRIELE",
+            "voti": 1
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "LICITRA ARIANNA",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "BELLOMO ANTONIO",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "SANFILIPPO SOFIA",
+            "voti": 0
+        }
+    ],
+    "totale_voti": 35,
+    "aventi_diritto": 62,
+    "perc_votanti": 56.45
+}

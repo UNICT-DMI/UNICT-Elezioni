@@ -1,0 +1,28 @@
+{
+    "dipartimento": "PHYSICS-LM-17-Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 10,
+    "schede": {
+        "bianche": 1,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "CORDOVANA SALVATORE ALEX",
+            "voti": 11
+        },
+        {
+            "nome_candidato": "CALI' VITO IVAN",
+            "voti": 3
+        },
+        {
+            "nome_candidato": "OGLIALORO GIOVANNI",
+            "voti": 4
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 19,
+    "aventi_diritto": 94,
+    "perc_votanti": 20.21
+}

@@ -1,0 +1,33 @@
+{
+    "dipartimento": "FINANZA AZIENDALE-LM-77-Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 1,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "TRIGONA SALVATORE",
+            "voti": 10
+        },
+        {
+            "nome_candidato": "LO BOSCO ROBERTA",
+            "voti": 5
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "DI BELLA SIMONE",
+            "voti": 13
+        },
+        {
+            "nome_candidato": "PISTONE DANIELE ANTONINO",
+            "voti": 1
+        }
+    ],
+    "totale_voti": 29,
+    "aventi_diritto": 96,
+    "perc_votanti": 30.21
+}

@@ -1,0 +1,57 @@
+{
+    "dipartimento": "SCIENZE AMBIENTALI E NATURALI-L-32-Laurea Triennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 6,
+    "schede": {
+        "bianche": 2,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "LA BIUNDA ANDREA",
+            "voti": 20
+        },
+        {
+            "nome_candidato": "TRIOLO MICHELA",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "DAMINO GIULIA",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "LA CAUSA SALVATORE CORRADO",
+            "voti": 25
+        },
+        {
+            "nome_candidato": "SORBELLO DELIA",
+            "voti": 2
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "PENNISI GIACOMO",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "TRICOMI ILENIA",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "CANNAVO' ORAZIO",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "SORBELLO SIMONE",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "SCAMMACCA ALFIO LORIS",
+            "voti": 1
+        }
+    ],
+    "totale_voti": 59,
+    "aventi_diritto": 262,
+    "perc_votanti": 22.52
+}

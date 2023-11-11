@@ -1,0 +1,57 @@
+{
+    "dipartimento": "MATEMATICA-L-35-Laurea Triennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 1,
+    "schede": {
+        "bianche": 6,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "LUGLIO GAIA",
+            "voti": 14
+        },
+        {
+            "nome_candidato": "CANDIANO FRANCESCO",
+            "voti": 8
+        }
+    ],
+    "non_eletti": [
+        {
+            "nome_candidato": "TRAGNA AGNESE",
+            "voti": 15
+        },
+        {
+            "nome_candidato": "SORBELLO ANGELICA",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "DI BLASI MARCO",
+            "voti": 13
+        },
+        {
+            "nome_candidato": "LEANZA MICHELE",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "PITARI MARIO",
+            "voti": 11
+        },
+        {
+            "nome_candidato": "SCIR\u00c8 GIOACCHINO TOMMASO SEBASTIANO",
+            "voti": 0
+        },
+        {
+            "nome_candidato": "FIORENZA ELENA",
+            "voti": 1
+        },
+        {
+            "nome_candidato": "LANDOLINA GIULIO",
+            "voti": 5
+        }
+    ],
+    "totale_voti": 76,
+    "aventi_diritto": 216,
+    "perc_votanti": 35.19
+}

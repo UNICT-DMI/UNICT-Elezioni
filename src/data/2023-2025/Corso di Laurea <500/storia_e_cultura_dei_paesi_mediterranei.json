@@ -1,0 +1,32 @@
+{
+    "dipartimento": "STORIA E CULTURA DEI PAESI MEDITERRANEI-LM-84-Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 4,
+    "schede": {
+        "bianche": 3,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "MAMMANA CLELIA",
+            "voti": 4
+        },
+        {
+            "nome_candidato": "PLATANIA GIORGIO",
+            "voti": 2
+        },
+        {
+            "nome_candidato": "MORANA MARCELLO",
+            "voti": 13
+        },
+        {
+            "nome_candidato": "RAPISARDA SAVERIO",
+            "voti": 4
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 26,
+    "aventi_diritto": 82,
+    "perc_votanti": 31.71
+}

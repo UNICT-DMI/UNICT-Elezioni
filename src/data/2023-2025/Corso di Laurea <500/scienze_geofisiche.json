@@ -1,0 +1,24 @@
+{
+    "dipartimento": "SCIENZE GEOFISICHE-LM-79-Laurea Magistrale biennale (D.M.270/2004)",
+    "quorum": true,
+    "seggi_da_assegnare": 3,
+    "schede": {
+        "bianche": 0,
+        "nulle": 0,
+        "contestate": 0
+    },
+    "eletti": [
+        {
+            "nome_candidato": "MESSINA AGNESE",
+            "voti": 5
+        },
+        {
+            "nome_candidato": "QUATTROCCHI GABRIELE ALBERTO",
+            "voti": 13
+        }
+    ],
+    "non_eletti": [],
+    "totale_voti": 18,
+    "aventi_diritto": 37,
+    "perc_votanti": 48.65
+}
