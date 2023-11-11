@@ -13,7 +13,7 @@ export const ListLogo = (props: Props): JSX.Element => {
     return props.listName?.replace('# ', '')
       .replace(/ /g, ' ')
       .replace(/ /g, ' ')
-      .replace(props.listName, nameFixes[props.listName] ? nameFixes[props.listName] : props.listName)
+      .replace(props.listName, nameFixes[props.listName.toUpperCase()] ?? props.listName)
       .replace('#', '')
       .replace(new RegExp("O'", 'g'), 'Ò')
       .replace(new RegExp("E'", 'g'), 'È')

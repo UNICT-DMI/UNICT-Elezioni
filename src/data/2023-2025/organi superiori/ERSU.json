@@ -1,0 +1,164 @@
+{
+  "organo": "ELEZIONI RAPPRESENTANTI STUDENTI IN SENO AL CONSIGLIO DI AMMINISTRAZIONE DELL'ERSU DI CATANIA",
+  "seggi_da_assegnare": 3,
+  "schede": {
+    "bianche": {
+      "totali": 1832
+    },
+    "nulle": {
+      "totali": 0
+    },
+    "contestate": {
+      "totali": 0
+    }
+  },
+  "liste": [
+    {
+      "nome": "Fronte della Gioventù Comunista",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "441.0",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "0"
+      },
+      "voti": {
+        "totali": 441
+      }
+    },
+
+    {
+      "nome": "Liberi di Scegliere",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "2478.0",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": 2478
+      }
+    },
+
+    {
+      "nome": "HELP ERSU",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "2980.0",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": 2980
+      }
+    },
+
+    {
+      "nome": "Gioventù Universitaria",
+      "seggi": {
+        "seggi_pieni": "1",
+        "resti": "989.0",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": 4433
+      }
+    },
+    {
+      "totale": 10332
+    }
+  ],
+  "eletti": [
+    {
+      "nominativo": "RIFICI Francesco",
+      "lista": "Gioventù Universitaria",
+      "voti": {
+        "totali": 2671,
+        "seggio_telematico": 2671
+      }
+    },
+    {
+      "nominativo": "TRIBULATO Marco",
+      "lista": "HELP ERSU",
+      "voti": {
+        "totali": 1437,
+        "seggio_telematico": 1437
+      }
+    },
+    {
+      "nominativo": "FAZZINO Giose'",
+      "lista": "Liberi di Scegliere",
+      "voti": {
+        "totali": 1212,
+        "seggio_telematico": 1212
+      }
+    }
+  ],
+  "non_eletti": [
+    {
+      "nominativo": "MORABITO Arianna",
+      "lista": "Fronte della Gioventù Comunista",
+      "voti": {
+        "totali": 381,
+        "seggio_telematico": 381
+      }
+    },
+    {
+      "nominativo": "BARCELLONA Carla",
+      "lista": "Liberi di Scegliere",
+      "voti": {
+        "totali": 691,
+        "seggio_telematico": 691
+      }
+    },
+    {
+      "nominativo": "LONGO Vincenzo",
+      "lista": "Liberi di Scegliere",
+      "voti": {
+        "totali": 528,
+        "seggio_telematico": 528
+      }
+    },
+    {
+      "nominativo": "SOTTOSANTI Gianmarco",
+      "lista": "HELP ERSU",
+      "voti": {
+        "totali": 709,
+        "seggio_telematico": 709
+      }
+    },
+    {
+      "nominativo": "PAPPALARDO Anna Rita",
+      "lista": "HELP ERSU",
+      "voti": {
+        "totali": 695,
+        "seggio_telematico": 695
+      }
+    },
+
+    {
+      "nominativo": "FAMA' Riccardo",
+      "lista": "Gioventù Universitaria",
+      "voti": {
+        "totali": 1004,
+        "seggio_telematico": 1004
+      }
+    },
+    {
+      "nominativo": "CANNILLA Martina",
+      "lista": "Gioventù Universitaria",
+      "voti": {
+        "totali": 574,
+        "seggio_telematico": 574
+      }
+    }
+  ],
+  "quoziente": 3444,
+  "votanti": {
+    "totali": 12164,
+    "percentuale": 32.08
+  },
+  "elettori": {
+    "totali": 37920
+  }
+}
