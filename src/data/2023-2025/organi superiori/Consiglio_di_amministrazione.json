@@ -26,7 +26,7 @@
       }
     },
     {
-      "nome": "Studenti",
+      "nome": "'Studenti'",
       "seggi": {
         "seggi_pieni": "-",
         "resti": "4784.0",
@@ -56,7 +56,7 @@
   "eletti": [
     {
       "nominativo": "BARRESI Salvatore Detto Barrosh",
-      "lista": "Studenti",
+      "lista": "'Studenti'",
       "voti": {
         "totali": 3662,
         "seggio_telematico": 3662
@@ -82,7 +82,7 @@
     },
     {
       "nominativo": "PISA Gianfrancesco Giuseppe Mario Detto Franz Pisa",
-      "lista": "Studenti",
+      "lista": "'Studenti'",
       "voti": {
         "totali": 1011,
         "seggio_telematico": 1011

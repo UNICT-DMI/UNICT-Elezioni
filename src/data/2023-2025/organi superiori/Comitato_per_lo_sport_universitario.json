@@ -26,7 +26,7 @@
       }
     },
     {
-      "nome": "Studenti",
+      "nome": "'Studenti'",
       "seggi": {
         "seggi_pieni": "-",
         "resti": "4897.0",
@@ -56,7 +56,7 @@
   "eletti": [
     {
       "nominativo": "BARBAGALLO Ezio",
-      "lista": "Studenti",
+      "lista": "'Studenti'",
       "voti": {
         "totali": 3531,
         "seggio_telematico": 3531
@@ -82,7 +82,7 @@
     },
     {
       "nominativo": "VITTORIO Grazia Agata",
-      "lista": "Studenti",
+      "lista": "'Studenti'",
       "voti": {
         "totali": 1201,
         "seggio_telematico": 1201

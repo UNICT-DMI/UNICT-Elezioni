@@ -26,7 +26,7 @@
       }
     },
     {
-      "nome": "Studenti",
+      "nome": "'Studenti'",
       "seggi": {
         "seggi_pieni": "-",
         "resti": "4542.0",
@@ -57,7 +57,7 @@
   "eletti": [
     {
       "nominativo": "PULEO Cataldo Detto Aldo",
-      "lista": "Studenti",
+      "lista": "'Studenti'",
       "voti": {
         "totali": 3553,
         "seggio_telematico": 3553
@@ -83,7 +83,7 @@
     },
     {
       "nominativo": "PIGNATO Cataldo Detto Cat",
-      "lista": "Studenti",
+      "lista": "'Studenti'",
       "voti": {
         "totali": 819,
         "seggio_telematico": 819
