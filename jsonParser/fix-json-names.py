@@ -21,8 +21,12 @@ def create_file_name(s, path, cdl_less_500: bool = False) -> str:
     file_path = file_path[2].upper() + file_path[3:]
 
     if cdl_less_500:
+        # todo: verify name mismatch
         names = file_path.split('-')
-        file_path = names[0] + '.json'
+        if "magistrale" in file_path:
+            file_path = names[0] + '_magistrale.json'
+        else:
+            file_path = names[0] + '.json'
         return file_path.lower()
 
     return file_path
@@ -31,6 +35,6 @@ files = [f for f in os.listdir('.') if os.path.isfile(f)]
 for f in files:
     if ".json" in f:
         print(f)
-        file_name = create_file_name(f, './')
+        file_name = create_file_name(f, './', True)
         print(file_name)
         os.rename(f, file_name)
