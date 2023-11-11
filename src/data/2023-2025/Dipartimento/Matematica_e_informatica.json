@@ -152,14 +152,6 @@
             }
         },
         {
-            "nominativo": "GRECO Salvatore",
-            "lista": "AZIONE UNIVERSITARIA",
-            "voti": {
-                "totali": 5,
-                "seggio_telematico": 5
-            }
-        },
-        {
             "nominativo": "LA ROCCA Lorenzo",
             "lista": "AZIONE UNIVERSITARIA",
             "voti": {
@@ -279,6 +271,14 @@
             "voti": {
                 "totali": 1,
                 "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "GRECO Salvatore",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
             }
         },
         {
