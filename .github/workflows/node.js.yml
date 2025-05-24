@@ -30,9 +30,9 @@ jobs:
 
       # install and build
       - run: |
-        npm install --legacy-peer-deps
-        export NODE_OPTIONS=--openssl-legacy-provider
-        npm run build --if-present
+          npm install --verbose --legacy-peer-deps
+          export NODE_OPTIONS=--openssl-legacy-provider
+          npm run build --if-present
 
       - name: Deploy
         run: |
