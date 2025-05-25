@@ -50,7 +50,31 @@
       "seggio_n_20": 1,
       "seggio_n_21": 0
     },
-    "valide assegnate (somma voti delle liste)": {
+    "contestate": {
+      "totali": 0,
+      "seggio_n_1": 0,
+      "seggio_n_2": 0,
+      "seggio_n_3": 0,
+      "seggio_n_4": 0,
+      "seggio_n_5": 0,
+      "seggio_n_6": 0,
+      "seggio_n_7": 0,
+      "seggio_n_8": 0,
+      "seggio_n_9": 0,
+      "seggio_n_10": 0,
+      "seggio_n_11": 0,
+      "seggio_n_12": 0,
+      "seggio_n_13": 0,
+      "seggio_n_14": 0,
+      "seggio_n_15": 0,
+      "seggio_n_16": 0,
+      "seggio_n_17": 0,
+      "seggio_n_18": 0,
+      "seggio_n_19": 0,
+      "seggio_n_20": 0,
+      "seggio_n_21": 0
+    },
+    "valide": {
       "totali": 7114,
       "seggio_n_1": 596,
       "seggio_n_2": 500,
@@ -73,6 +97,31 @@
       "seggio_n_19": 167,
       "seggio_n_20": 135,
       "seggio_n_21": 74
+    },
+    "votate": {
+      "totali": 7216,
+      "percentuale": 18,
+      "seggio_n_1": 602,
+      "seggio_n_2": 509,
+      "seggio_n_3": 485,
+      "seggio_n_4": 442,
+      "seggio_n_5": 580,
+      "seggio_n_6": 445,
+      "seggio_n_7": 0,
+      "seggio_n_8": 799,
+      "seggio_n_9": 646,
+      "seggio_n_10": 231,
+      "seggio_n_11": 74,
+      "seggio_n_12": 231,
+      "seggio_n_13": 187,
+      "seggio_n_14": 195,
+      "seggio_n_15": 238,
+      "seggio_n_16": 468,
+      "seggio_n_17": 558,
+      "seggio_n_18": 144,
+      "seggio_n_19": 170,
+      "seggio_n_20": 136,
+      "seggio_n_21": 76
     }
   },
   "iscritti": {
@@ -101,6 +150,7 @@
   },
   "votanti": {
     "totali": 7216,
+    "percentuale": 18,
     "seggio_n_1": 602,
     "seggio_n_2": 509,
     "seggio_n_3": 485,
@@ -123,6 +173,7 @@
     "seggio_n_20": 136,
     "seggio_n_21": 76
   },
+  "quoziente": 355.7,
   "liste": [
     {
       "nome": "PROGETTO UNIAMOCI",

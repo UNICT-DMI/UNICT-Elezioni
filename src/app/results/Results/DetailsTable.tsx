@@ -28,7 +28,7 @@ export const DetailsTable = (props: Props): JSX.Element => {
           (acc: any, prev: any) => acc + votazioni[`seggio_n_${prev}`],
           0,
         )
-      : votazioni?.totali ?? 0;
+      : votazioni.totali;
   }
 
   function eligibilityQuotientPopover(): JSX.Element {
@@ -65,11 +65,7 @@ export const DetailsTable = (props: Props): JSX.Element => {
           <td>{getVotiSeggio(data.schede.nulle)}</td>
           <td>{getVotiSeggio(data.schede.contestate)}</td>
           <td>
-            {`${getVotiSeggio(data.votanti)} ${
-              data?.votanti?.percentuale
-                ? '(' + data.votanti?.percentuale + ') %'
-                : ''
-            }`}
+            {`${getVotiSeggio(data.votanti)} (${data.votanti.percentuale} %)`}
           </td>
           <td>{data.quoziente}</td>
           <td>{data.seggi_da_assegnare}</td>
