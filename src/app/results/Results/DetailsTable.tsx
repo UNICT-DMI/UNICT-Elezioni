@@ -13,15 +13,22 @@ interface Props {
 }
 
 export const DetailsTable = (props: Props): JSX.Element => {
-  const seggi: number[] | null = props.seggi ? props.seggi : datareader.getSeatsId(props.anno, props.subEntity);
-  const data: any = datareader.getSubEntity(props.anno, props.entity, props.subEntity);
+  const seggi: number[] | null = props.seggi
+    ? props.seggi
+    : datareader.getSeatsId(props.anno, props.subEntity);
+  const data: any = datareader.getSubEntity(
+    props.anno,
+    props.entity,
+    props.subEntity,
+  );
 
   function getVotiSeggio(votazioni: any): string[] | null {
-    return (
-      seggi && seggi.length
-        ? seggi.reduce((acc: any, prev: any) => acc + votazioni[`seggio_n_${prev}`], 0)
-        : votazioni.totali
-    );
+    return seggi && seggi.length
+      ? seggi.reduce(
+          (acc: any, prev: any) => acc + votazioni[`seggio_n_${prev}`],
+          0,
+        )
+      : votazioni.totali;
   }
 
   function eligibilityQuotientPopover(): JSX.Element {
@@ -45,9 +52,9 @@ export const DetailsTable = (props: Props): JSX.Element => {
           <th>Schede Nulle</th>
           <th>Schede Contestate</th>
           <th>Votanti</th>
-          <th>Quoziente &nbsp;
-            <OverlayTrigger
-              overlay={eligibilityQuotientPopover()}>
+          <th>
+            Quoziente &nbsp;
+            <OverlayTrigger overlay={eligibilityQuotientPopover()}>
               <FontAwesomeIcon icon={faInfo}></FontAwesomeIcon>
             </OverlayTrigger>
           </th>
