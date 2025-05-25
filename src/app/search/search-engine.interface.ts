@@ -1,18 +1,16 @@
 export interface ListInfo {
   name: string;
   year: string;
-  department?: string;
-  entity?: string;
+  entity: string;
+  subEntity: string;
   path: string;
-  subEntity?: string;
 }
 
 export interface CandidateInfo {
   name: string;
   year: string;
   listName: string;
-  department?: string;
-  entity?: string;
+  entity: string;
   path: string;
 }
 
@@ -20,4 +18,16 @@ export interface CdlInfo {
   name: string;
   year: string;
   isUnder500: boolean;
+}
+
+export interface EntityInfo {
+  name: string;
+  path: string;
+  years: string;
+}
+
+export interface SearchResult {
+  entities: EntityInfo[];
+  lists: ListInfo[];
+  candidates: CandidateInfo[];
 }
