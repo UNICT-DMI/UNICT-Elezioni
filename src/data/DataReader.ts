@@ -44,6 +44,7 @@ class DataReader {
     const context = require.context('./', true, / *.json$/);
     context.keys().forEach((key: string) => {
       const fileName = key.replace('./', '');
+      // eslint-disable-next-line @typescript-eslint/no-var-requires
       const resource = require(`./${fileName}`);
       const namespace = fileName.replace('.json', '');
       this.insert(namespace, JSON.parse(JSON.stringify(resource)));
