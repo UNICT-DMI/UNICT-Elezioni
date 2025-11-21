@@ -1,0 +1,111 @@
+{
+  "organo": "ELEZIONI RAPPRESENTANTI STUDENTI IN SENO AL NUCLEO DI VALUTAZIONE",
+  "seggi_da_assegnare": 2,
+  "schede": {
+    "bianche": {
+      "totali": 2219
+    },
+    "nulle": {
+      "totali": 0
+    },
+    "contestate": {
+      "totali": 0
+    }
+  },
+  "liste": [
+    {
+      "nome": "Fronte della Gioventù Comunista",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "664,0",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "0"
+      },
+      "voti": {
+        "totali": 664,
+        "seggio_telematico": 664
+      }
+    },
+    {
+      "nome": "Primavera del Sud",
+      "seggi": {
+        "seggi_pieni": "1",
+        "resti": "77,5",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": 5829,
+        "seggio_telematico": 5829
+      }
+    },
+    {
+      "nome": "GIOVENTÙ UNIVERSITARIA",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "5010,0",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": 5010,
+        "seggio_telematico": 5010
+      }
+    },
+    {
+      "totale": 11503
+    }
+  ],
+  "eletti": [
+    {
+      "nominativo": "FIORE DOMENICO",
+      "lista": "Primavera del Sud",
+      "voti": {
+        "totali": 4179,
+        "seggio_telematico": 4179
+      }
+    },
+    {
+      "nominativo": "SCANDURA VINCENZO GIUSEPPE PIO",
+      "lista": "GIOVENTÙ UNIVERSITARIA",
+      "voti": {
+        "totali": 3401,
+        "seggio_telematico": 3401
+      }
+    }
+  ],
+  "non_eletti": [
+    {
+      "nominativo": "TERRANA FRANCESCA MARIA",
+      "lista": "Fronte della Gioventù Comunista",
+      "voti": {
+        "totali": 580,
+        "seggio_telematico": 580
+      }
+    },
+    {
+      "nominativo": "BORZÌ ROSARIO",
+      "lista": "Primavera del Sud",
+      "voti": {
+        "totali": 1369,
+        "seggio_telematico": 1369
+      }
+    },
+    {
+      "nominativo": "BONASERA FRANCESCO",
+      "lista": "GIOVENTÙ UNIVERSITARIA",
+      "voti": {
+        "totali": 1396,
+        "seggio_telematico": 1396
+      }
+    }
+  ],
+  "quoziente": 5751.5,
+  "votanti": {
+    "totali": 13722,
+    "percentuale": 34.39
+  },
+  "elettori": {
+    "totali": 39897
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "dipartimento": "COORDINAMENTO DELLA SCUOLA DI MEDICINA - STUDENTI - DOTTORANDI - SPECIALIZZANDI",
+  "schede": {
+    "bianche": {
+      "totali": 273
+    },
+    "nulle": {
+      "totali": 0
+    },
+    "contestate": {
+      "totali": 0
+    }
+  },
+  "eletti": [
+    {
+      "nominativo": "MILIOTO FLAVIA",
+      "voti": {
+        "totali": 642
+      }
+    },
+    {
+      "nominativo": "CALOGERO FILADELFO",
+      "voti": {
+        "totali": 524
+      }
+    },
+    {
+      "nominativo": "CANTARELLA CHIARA",
+      "voti": {
+        "totali": 583
+      }
+    },
+    {
+      "nominativo": "STANCANELLI FABIANA",
+      "voti": {
+        "totali": 504
+      }
+    }
+  ],
+  "non_eletti": [
+    {
+      "nominativo": "MILLESOLI MARIO FEDERICO PIO",
+      "voti": {
+        "totali": 455
+      }
+    },
+    {
+      "nominativo": "BORZÌ PAOLA MARIA",
+      "voti": {
+        "totali": 439
+      }
+    },
+    {
+      "nominativo": "SFALANGA GIORGIA",
+      "voti": {
+        "totali": 311
+      }
+    },
+    {
+      "nominativo": "LA TORRE ANDREA FEDERICO",
+      "voti": {
+        "totali": 232
+      }
+    },
+    {
+      "nominativo": "INGRASSIA MARCO VINCENZO",
+      "voti": {
+        "totali": 39
+      }
+    }
+  ],
+  "voti": {
+    "totali": 4002
+  },
+  "aventi_diritto": 8590,
+  "perc_votanti": 46.59
+}
