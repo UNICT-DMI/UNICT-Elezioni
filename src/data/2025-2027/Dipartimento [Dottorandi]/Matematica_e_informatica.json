@@ -1,0 +1,24 @@
+{
+  "dipartimento": "DIPARTIMENTO DI MATEMATICA E INFORMATICA",
+  "quorum": false,
+  "seggi_da_assegnare": 2,
+  "schede": {
+    "bianche": 0,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "RACITI RICCARDO",
+      "voti": 9
+    },
+    {
+      "nome_candidato": "BARBAGALLO SIMONE PIO",
+      "voti": 5
+    }
+  ],
+  "non_eletti": [],
+  "totale_voti": 14,
+  "aventi_diritto": 36,
+  "perc_votanti": 38.89
+}

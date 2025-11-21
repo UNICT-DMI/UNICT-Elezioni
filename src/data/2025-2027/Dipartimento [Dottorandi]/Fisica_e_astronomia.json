@@ -1,0 +1,33 @@
+{
+  "dipartimento": "DIPARTIMENTO DI FISICA E ASTRONOMIA \"ETTORE MAJORANA\"",
+  "quorum": false,
+  "seggi_da_assegnare": 2,
+  "schede": {
+    "bianche": 2,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "PITRONACI ANTONINO",
+      "voti": 8
+    },
+    {
+      "nome_candidato": "BORYS ALESSANDRO",
+      "voti": 8
+    }
+  ],
+  "non_eletti": [
+    {
+      "nome_candidato": "BARBON ALICE",
+      "voti": 5
+    },
+    {
+      "nome_candidato": "GAROFALO CATERINA",
+      "voti": 2
+    }
+  ],
+  "totale_voti": 25,
+  "aventi_diritto": 62,
+  "perc_votanti": 40.32
+}

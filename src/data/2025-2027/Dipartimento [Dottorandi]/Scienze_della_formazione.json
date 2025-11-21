@@ -1,0 +1,24 @@
+{
+  "dipartimento": "DIPARTIMENTO DI SCIENZE DELLA FORMAZIONE",
+  "quorum": true,
+  "seggi_da_assegnare": 2,
+  "schede": {
+    "bianche": 1,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "TORRISI EMANUELE",
+      "voti": 13
+    },
+    {
+      "nome_candidato": "TRISCARI SERGIO",
+      "voti": 11
+    }
+  ],
+  "non_eletti": [],
+  "totale_voti": 25,
+  "aventi_diritto": 39,
+  "perc_votanti": 64.1
+}

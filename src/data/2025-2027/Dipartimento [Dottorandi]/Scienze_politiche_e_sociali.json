@@ -1,0 +1,24 @@
+{
+  "dipartimento": "DIPARTIMENTO DI SCIENZE POLITICHE E SOCIALI",
+  "quorum": true,
+  "seggi_da_assegnare": 2,
+  "schede": {
+    "bianche": 1,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "MAZZA LUCIA",
+      "voti": 23
+    },
+    {
+      "nome_candidato": "MIRABILE VITTORIO",
+      "voti": 10
+    }
+  ],
+  "non_eletti": [],
+  "totale_voti": 34,
+  "aventi_diritto": 38,
+  "perc_votanti": 89.47
+}

@@ -1,0 +1,24 @@
+{
+  "dipartimento": "DIPARTIMENTO DI AGRICOLTURA, ALIMENTAZIONE E AMBIENTE",
+  "quorum": true,
+  "seggi_da_assegnare": 2,
+  "schede": {
+    "bianche": 0,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "CARLENTINI MORENA",
+      "voti": 28
+    },
+    {
+      "nome_candidato": "CHIARENZA SALVATORE",
+      "voti": 20
+    }
+  ],
+  "non_eletti": [],
+  "totale_voti": 48,
+  "aventi_diritto": 60,
+  "perc_votanti": 80.0
+}
