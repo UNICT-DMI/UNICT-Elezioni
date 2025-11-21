@@ -1,0 +1,638 @@
+{
+  "schede": {
+    "bianche": {
+      "totali": 15,
+      "seggio_n_telematico": 15
+    },
+    "nulle": {
+      "totali": 0
+    },
+    "contestate": {
+      "totali": 0
+    }
+  },
+  "liste": [
+    {
+      "nome": "INFODMI",
+      "seggi": {
+        "seggi_pieni": "1",
+        "resti": "21,6",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "2"
+      },
+      "voti": {
+        "totali": "55",
+        "seggio_telematico": "55"
+      }
+    },
+    {
+      "nome": "NIKE.dmi",
+      "seggi": {
+        "seggi_pieni": "1",
+        "resti": "19,6",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "2"
+      },
+      "voti": {
+        "totali": "53",
+        "seggio_telematico": "53"
+      }
+    },
+    {
+      "nome": "WE LOVE UNICT",
+      "seggi": {
+        "seggi_pieni": "1",
+        "resti": "8,6",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": "42",
+        "seggio_telematico": "42"
+      }
+    },
+    {
+      "nome": "ACTEA",
+      "seggi": {
+        "seggi_pieni": "2",
+        "resti": "2,2",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "2"
+      },
+      "voti": {
+        "totali": "69",
+        "seggio_telematico": "69"
+      }
+    },
+    {
+      "nome": "DMI.EXE",
+      "seggi": {
+        "seggi_pieni": "2",
+        "resti": "30,2",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "3"
+      },
+      "voti": {
+        "totali": "97",
+        "seggio_telematico": "97"
+      }
+    },
+    {
+      "nome": "Dmi Insider - Koiné",
+      "seggi": {
+        "seggi_pieni": "3",
+        "resti": "2,8",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "3"
+      },
+      "voti": {
+        "totali": "103",
+        "seggio_telematico": "103"
+      }
+    },
+    {
+      "nome": "Arcadia",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "15,0",
+        "seggi_ai_resti": "-",
+        "seggi_totali": "-"
+      },
+      "voti": {
+        "totali": "15",
+        "seggio_telematico": "15"
+      }
+    },
+    {
+      "totale": 434
+    }
+  ],
+  "eletti": [
+    {
+      "nominativo": "LICCIARDELLO GABRIELE",
+      "lista": "INFODMI",
+      "voti": {
+        "totali": 13,
+        "seggio_telematico": 13
+      }
+    },
+    {
+      "nominativo": "MICIELI ALESSIA",
+      "lista": "INFODMI",
+      "voti": {
+        "totali": 12,
+        "seggio_telematico": 12
+      }
+    },
+    {
+      "nominativo": "SPATA MATTEO",
+      "lista": "NIKE.dmi",
+      "voti": {
+        "totali": 16,
+        "seggio_telematico": 16
+      }
+    },
+    {
+      "nominativo": "IRACI FERRUZZA MARIA",
+      "lista": "NIKE.dmi",
+      "voti": {
+        "totali": 27,
+        "seggio_telematico": 27
+      }
+    },
+    {
+      "nominativo": "PITARI MARIO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 23,
+        "seggio_telematico": 23
+      }
+    },
+    {
+      "nominativo": "MARCHESE SALVATORE",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 12,
+        "seggio_telematico": 12
+      }
+    },
+    {
+      "nominativo": "ROCCO VALENTINA MARIA",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 31,
+        "seggio_telematico": 31
+      }
+    },
+    {
+      "nominativo": "BATTIATO CARLA",
+      "lista": "DMI.EXE",
+      "voti": {
+        "totali": 21,
+        "seggio_telematico": 21
+      }
+    },
+    {
+      "nominativo": "LOMBARDO CLAUDIO",
+      "lista": "DMI.EXE",
+      "voti": {
+        "totali": 9,
+        "seggio_telematico": 9
+      }
+    },
+    {
+      "nominativo": "GIGLIUTO EMILY",
+      "lista": "DMI.EXE",
+      "voti": {
+        "totali": 34,
+        "seggio_telematico": 34
+      }
+    },
+    {
+      "nominativo": "LUGLIO GAIA",
+      "lista": "Dmi Insider - Koiné",
+      "voti": {
+        "totali": 30,
+        "seggio_telematico": 30
+      }
+    },
+    {
+      "nominativo": "SCARVAGLIERI VINCENZO",
+      "lista": "Dmi Insider - Koiné",
+      "voti": {
+        "totali": 32,
+        "seggio_telematico": 32
+      }
+    },
+    {
+      "nominativo": "CRESCIMONE SALVATORE",
+      "lista": "Dmi Insider - Koiné",
+      "voti": {
+        "totali": 16,
+        "seggio_telematico": 16
+      }
+    }
+  ],
+  "non_eletti": [
+    {
+      "nominativo": "PINO REBECCA",
+      "lista": "INFODMI",
+      "voti": {
+        "totali": 9,
+        "seggio_telematico": 9
+      }
+    },
+    {
+      "nominativo": "CASUCCIO ANTHONY",
+      "lista": "INFODMI",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "TESTA SAMUELE",
+      "lista": "INFODMI",
+      "voti": {
+        "totali": 4,
+        "seggio_telematico": 4
+      }
+    },
+    {
+      "nominativo": "CARCACI GIOVANNI",
+      "lista": "INFODMI",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "PARLASCINO LA MONICA PIETRO",
+      "lista": "INFODMI",
+      "voti": {
+        "totali": 5,
+        "seggio_telematico": 5
+      }
+    },
+    {
+      "nominativo": "SCIRÈ ALESSANDRO",
+      "lista": "INFODMI",
+      "voti": {
+        "totali": 4,
+        "seggio_telematico": 4
+      }
+    },
+    {
+      "nominativo": "FIORENZA ELENA",
+      "lista": "INFODMI",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "PAPOTTO LORENA",
+      "lista": "INFODMI",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
+      }
+    },
+    {
+      "nominativo": "CONTI MARIANNA",
+      "lista": "INFODMI",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "LA ROCCA LORENZO",
+      "lista": "INFODMI",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "MEDELL CHIARA FRANCESCA",
+      "lista": "NIKE.dmi",
+      "voti": {
+        "totali": 9,
+        "seggio_telematico": 9
+      }
+    },
+    {
+      "nominativo": "PENNISI IGNAZIO",
+      "lista": "NIKE.dmi",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "PENNISI FABRIZIO",
+      "lista": "NIKE.dmi",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "GIUDICE ANASTASIA",
+      "lista": "NIKE.dmi",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "RUSSO GABRIELE",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "ZURRIA GIORGIO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "CARRERA TOMMASO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 13,
+        "seggio_telematico": 13
+      }
+    },
+    {
+      "nominativo": "MARIA GIULIA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "CUTRONA VALERIA MARIA ANNA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "SCALISI MARCO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "CARUSO LORENZO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "LISI SANTI",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
+      }
+    },
+    {
+      "nominativo": "TERRANOVA PAOLO MARIA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "RITROVATO LEONARDO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "DOMINANTE DAMIANO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "CURRENTI STEFANO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "BASILE MARIO ALESSIO",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 4,
+        "seggio_telematico": 4
+      }
+    },
+    {
+      "nominativo": "FODERÀ GABRIELE",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
+      }
+    },
+    {
+      "nominativo": "TRAGNA AGNESE",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 5,
+        "seggio_telematico": 5
+      }
+    },
+    {
+      "nominativo": "RUSSO MIRKO",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 6,
+        "seggio_telematico": 6
+      }
+    },
+    {
+      "nominativo": "VALORE EMANUELE",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "MESSINA DAMIANO",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "VERGA ORAZIO",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "ZAPPARRATA ANTONINO",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "FERLITO CHIARA",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "GRECO ANTONIO",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 5,
+        "seggio_telematico": 5
+      }
+    },
+    {
+      "nominativo": "D'ITRIA TONY",
+      "lista": "DMI.EXE",
+      "voti": {
+        "totali": 7,
+        "seggio_telematico": 7
+      }
+    },
+    {
+      "nominativo": "SCHILLACI ANGELO",
+      "lista": "DMI.EXE",
+      "voti": {
+        "totali": 7,
+        "seggio_telematico": 7
+      }
+    },
+    {
+      "nominativo": "PORTOGHESE FRANCESCO",
+      "lista": "DMI.EXE",
+      "voti": {
+        "totali": 4,
+        "seggio_telematico": 4
+      }
+    },
+    {
+      "nominativo": "SPOTO ALFIO",
+      "lista": "DMI.EXE",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
+      }
+    },
+    {
+      "nominativo": "SBIRZIOLA GIULIANO",
+      "lista": "DMI.EXE",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "GITTO SALVATORE GRAZIANO",
+      "lista": "DMI.EXE",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "SPOTO ALESSIA",
+      "lista": "DMI.EXE",
+      "voti": {
+        "totali": 7,
+        "seggio_telematico": 7
+      }
+    },
+    {
+      "nominativo": "SAITTA ANDREA",
+      "lista": "DMI.EXE",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "SPAMPINATO GIULIA",
+      "lista": "DMI.EXE",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
+      }
+    },
+    {
+      "nominativo": "MARIA MARTINA",
+      "lista": "Dmi Insider - Koiné",
+      "voti": {
+        "totali": 8,
+        "seggio_telematico": 8
+      }
+    },
+    {
+      "nominativo": "SALEMI ANDREA FILIPPO",
+      "lista": "Dmi Insider - Koiné",
+      "voti": {
+        "totali": 5,
+        "seggio_telematico": 5
+      }
+    },
+    {
+      "nominativo": "SGROI GIORDANA",
+      "lista": "Dmi Insider - Koiné",
+      "voti": {
+        "totali": 7,
+        "seggio_telematico": 7
+      }
+    },
+    {
+      "nominativo": "DURO THOMAS",
+      "lista": "Arcadia",
+      "voti": {
+        "totali": 11,
+        "seggio_telematico": 11
+      }
+    },
+    {
+      "nominativo": "VANASIA VALENTINA",
+      "lista": "Arcadia",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "CAPPELLANI LEONARDO",
+      "lista": "Arcadia",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    }
+  ],
+  "dipartimento": "ELEZIONI RAPPRESENTANTI IN SENO AL CONSIGLIO DEL DIPARTIMENTO DI MATEMATICA E INFORMATICA - STUDENTI BIENNIO 2025/2027",
+  "seggi_da_assegnare": "13",
+  "quoziente": 33.3846,
+  "votanti": {
+    "totali": 449,
+    "percentuale": 27.41,
+    "seggio_n_telematico": 449
+  },
+  "elettori": {
+    "totali": 1638,
+    "seggio_n_telematico": 1638
+  }
+}

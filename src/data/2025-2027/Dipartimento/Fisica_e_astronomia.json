@@ -1,0 +1,210 @@
+{
+  "schede": {
+    "bianche": {
+      "totali": 8,
+      "seggio_n_telematico": 8
+    },
+    "nulle": {
+      "totali": 0
+    },
+    "contestate": {
+      "totali": 0
+    }
+  },
+  "liste": [
+    {
+      "nome": "Studenti DFA",
+      "seggi": {
+        "seggi_pieni": "12",
+        "resti": "2,8",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "12"
+      },
+      "voti": {
+        "totali": "120",
+        "seggio_telematico": "120"
+      }
+    },
+    {
+      "nome": "Arcadia",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "6,0",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": "6",
+        "seggio_telematico": "6"
+      }
+    },
+    {
+      "nome": "ACTEA",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "1,0",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "-"
+      },
+      "voti": {
+        "totali": "1",
+        "seggio_telematico": "1"
+      }
+    },
+    {
+      "totale": 127
+    }
+  ],
+  "eletti": [
+    {
+      "nominativo": "VALENTI MATTIA",
+      "lista": "Studenti DFA",
+      "voti": {
+        "totali": 16,
+        "seggio_telematico": 16
+      }
+    },
+    {
+      "nominativo": "REITANO SAMUEL",
+      "lista": "Studenti DFA",
+      "voti": {
+        "totali": 21,
+        "seggio_telematico": 21
+      }
+    },
+    {
+      "nominativo": "PAPPALARDO LORENZO FEDERICO",
+      "lista": "Studenti DFA",
+      "voti": {
+        "totali": 8,
+        "seggio_telematico": 8
+      }
+    },
+    {
+      "nominativo": "MACAIONE ANTONIO",
+      "lista": "Studenti DFA",
+      "voti": {
+        "totali": 13,
+        "seggio_telematico": 13
+      }
+    },
+    {
+      "nominativo": "FASSARI ROSARIO",
+      "lista": "Studenti DFA",
+      "voti": {
+        "totali": 10,
+        "seggio_telematico": 10
+      }
+    },
+    {
+      "nominativo": "AMORE SEBASTIANO",
+      "lista": "Studenti DFA",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
+      }
+    },
+    {
+      "nominativo": "DEL POPOLO GIULIANA",
+      "lista": "Studenti DFA",
+      "voti": {
+        "totali": 5,
+        "seggio_telematico": 5
+      }
+    },
+    {
+      "nominativo": "PALAMITO ANDREA",
+      "lista": "Studenti DFA",
+      "voti": {
+        "totali": 8,
+        "seggio_telematico": 8
+      }
+    },
+    {
+      "nominativo": "GULISANO TOMMASO",
+      "lista": "Studenti DFA",
+      "voti": {
+        "totali": 10,
+        "seggio_telematico": 10
+      }
+    },
+    {
+      "nominativo": "TITA SERGIO",
+      "lista": "Studenti DFA",
+      "voti": {
+        "totali": 13,
+        "seggio_telematico": 13
+      }
+    },
+    {
+      "nominativo": "SCIALFA MARGHERITA",
+      "lista": "Studenti DFA",
+      "voti": {
+        "totali": 4,
+        "seggio_telematico": 4
+      }
+    },
+    {
+      "nominativo": "BERTINO LUCA",
+      "lista": "Studenti DFA",
+      "voti": {
+        "totali": 6,
+        "seggio_telematico": 6
+      }
+    },
+    {
+      "nominativo": "TRIBULATO EMANUELE",
+      "lista": "Arcadia",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
+      }
+    }
+  ],
+  "non_eletti": [
+    {
+      "nominativo": "TARZIA DOMENICO",
+      "lista": "Studenti DFA",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "COSTA FAUSTO",
+      "lista": "Arcadia",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "ASADZADEH SHERVIN",
+      "lista": "Arcadia",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "SALVO DANIELE",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    }
+  ],
+  "dipartimento": "ELEZIONI RAPPRESENTANTI IN SENO AL CONSIGLIO DEL DIPARTIMENTO DI FISICA E ASTRONOMIA \"ETTORE MAJORANA\" - STUDENTI BIENNIO 2025/2027",
+  "seggi_da_assegnare": "13",
+  "quoziente": 9.76923,
+  "votanti": {
+    "totali": 135,
+    "percentuale": 29.48,
+    "seggio_n_telematico": 135
+  },
+  "elettori": {
+    "totali": 458,
+    "seggio_n_telematico": 458
+  }
+}

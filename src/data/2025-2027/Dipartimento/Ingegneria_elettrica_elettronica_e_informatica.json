@@ -1,0 +1,318 @@
+{
+  "schede": {
+    "bianche": {
+      "totali": 25,
+      "seggio_n_telematico": 25
+    },
+    "nulle": {
+      "totali": 0
+    },
+    "contestate": {
+      "totali": 0
+    }
+  },
+  "liste": [
+    {
+      "nome": "Azione Universitaria",
+      "seggi": {
+        "seggi_pieni": "1",
+        "resti": "42,6",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "2"
+      },
+      "voti": {
+        "totali": "104",
+        "seggio_telematico": "104"
+      }
+    },
+    {
+      "nome": "UNITAS",
+      "seggi": {
+        "seggi_pieni": "2",
+        "resti": "33,1",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "2"
+      },
+      "voti": {
+        "totali": "156",
+        "seggio_telematico": "156"
+      }
+    },
+    {
+      "nome": "IngegneriAttiva",
+      "seggi": {
+        "seggi_pieni": "3",
+        "resti": "4,7",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "3"
+      },
+      "voti": {
+        "totali": "189",
+        "seggio_telematico": "189"
+      }
+    },
+    {
+      "nome": "NIKE",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "39,0",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": "39",
+        "seggio_telematico": "39"
+      }
+    },
+    {
+      "nome": "CREDIAMOCI",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "46,0",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": "46",
+        "seggio_telematico": "46"
+      }
+    },
+    {
+      "nome": "KOINE' - SVOLTA",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "43,0",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": "43",
+        "seggio_telematico": "43"
+      }
+    },
+    {
+      "nome": "DIEEICONNECT",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "37,0",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": "37",
+        "seggio_telematico": "37"
+      }
+    },
+    {
+      "nome": "ACTEA",
+      "seggi": {
+        "seggi_pieni": "2",
+        "resti": "16,1",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "2"
+      },
+      "voti": {
+        "totali": "139",
+        "seggio_telematico": "139"
+      }
+    },
+    {
+      "nome": "WE LOVE UNICT",
+      "seggi": {
+        "seggi_pieni": "1",
+        "resti": "57,6",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "2"
+      },
+      "voti": {
+        "totali": "119",
+        "seggio_telematico": "119"
+      }
+    },
+    {
+      "nome": "LOVE DIEEI",
+      "seggi": {
+        "seggi_pieni": "1",
+        "resti": "17,6",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": "79",
+        "seggio_telematico": "79"
+      }
+    },
+    {
+      "nome": "Cambiamento Ingegneria",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "27,0",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "-"
+      },
+      "voti": {
+        "totali": "27",
+        "seggio_telematico": "27"
+      }
+    },
+    {
+      "nome": "Arcadia",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "5,0",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "-"
+      },
+      "voti": {
+        "totali": "5",
+        "seggio_telematico": "5"
+      }
+    },
+    {
+      "totale": 983
+    }
+  ],
+  "eletti": [
+    {
+      "nominativo": "BONACCORSO GIUSEPPE ONOFRIO",
+      "lista": "Azione Universitaria",
+      "voti": {
+        "totali": 19,
+        "seggio_telematico": 19
+      }
+    },
+    {
+      "nominativo": "GRIPPALDI DANIELE FRANCESCO",
+      "lista": "Azione Universitaria",
+      "voti": {
+        "totali": 27,
+        "seggio_telematico": 27
+      }
+    },
+    {
+      "nominativo": "MARTINES FEDERICA",
+      "lista": "UNITAS",
+      "voti": {
+        "totali": 46,
+        "seggio_telematico": 46
+      }
+    },
+    {
+      "nominativo": "BIGI GIUSEPPE",
+      "lista": "UNITAS",
+      "voti": {
+        "totali": 45,
+        "seggio_telematico": 45
+      }
+    },
+    {
+      "nominativo": "PAPARO GIUSEPPE",
+      "lista": "IngegneriAttiva",
+      "voti": {
+        "totali": 83,
+        "seggio_telematico": 83
+      }
+    },
+    {
+      "nominativo": "GAMBINO ANDREA",
+      "lista": "IngegneriAttiva",
+      "voti": {
+        "totali": 34,
+        "seggio_telematico": 34
+      }
+    },
+    {
+      "nominativo": "SAMARASINGHE MANUJA HARSHAN",
+      "lista": "IngegneriAttiva",
+      "voti": {
+        "totali": 18,
+        "seggio_telematico": 18
+      }
+    },
+    {
+      "nominativo": "GIUMMO SALVATORE",
+      "lista": "NIKE",
+      "voti": {
+        "totali": 17,
+        "seggio_telematico": 17
+      }
+    },
+    {
+      "nominativo": "SCANDURA VINCENZO GIUSEPPE PIO",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 15,
+        "seggio_telematico": 15
+      }
+    },
+    {
+      "nominativo": "RAPE' PAOLO",
+      "lista": "KOINE' - SVOLTA",
+      "voti": {
+        "totali": 23,
+        "seggio_telematico": 23
+      }
+    },
+    {
+      "nominativo": "RABUAZZO ALESSANDRO AGATINO",
+      "lista": "DIEEICONNECT",
+      "voti": {
+        "totali": 8,
+        "seggio_telematico": 8
+      }
+    },
+    {
+      "nominativo": "GENTILE FRANCESCO ANDREA",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 32,
+        "seggio_telematico": 32
+      }
+    },
+    {
+      "nominativo": "PULVIRENTI VALENTINA",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 62,
+        "seggio_telematico": 62
+      }
+    },
+    {
+      "nominativo": "NICOSIA ENRICO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 31,
+        "seggio_telematico": 31
+      }
+    },
+    {
+      "nominativo": "FICHERA ALESSIA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 24,
+        "seggio_telematico": 24
+      }
+    },
+    {
+      "nominativo": "DI BILIO KEVIN DANIELE ATTILIO",
+      "lista": "LOVE DIEEI",
+      "voti": {
+        "totali": 24,
+        "seggio_telematico": 24
+      }
+    }
+  ],
+  "non_eletti": [],
+  "dipartimento": "ELEZIONI RAPPRESENTANTI IN SENO AL CONSIGLIO DEL DIPARTIMENTO DI INGEGNERIA ELETTRICA ELETTRONICA E INFORMATICA - STUDENTI BIENNIO 2025/2027",
+  "seggi_da_assegnare": "16",
+  "quoziente": 61.4375,
+  "votanti": {
+    "totali": 1008,
+    "percentuale": 37.61,
+    "seggio_n_telematico": 1008
+  },
+  "elettori": {
+    "totali": 2680,
+    "seggio_n_telematico": 2680
+  }
+}
