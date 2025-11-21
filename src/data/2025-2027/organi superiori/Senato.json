@@ -1,0 +1,480 @@
+{
+  "organo": "ELEZIONI RAPPRESENTANTI STUDENTI IN SENO AL SENATO ACCADEMICO",
+  "seggi_da_assegnare": 6,
+  "schede": {
+    "bianche": {
+      "totali": 340
+    },
+    "nulle": {
+      "totali": 0
+    },
+    "contestate": {
+      "totali": 0
+    }
+  },
+  "liste": [
+    {
+      "nome": "La Finestra - Liberi di Scegliere",
+      "seggi": {
+        "seggi_pieni": "1",
+        "resti": "29,2",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": 2298,
+        "seggio_telematico": 2298
+      }
+    },
+    {
+      "nome": "WE LOVE UNICT",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "1798,0",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": 1798,
+        "seggio_telematico": 1798
+      }
+    },
+    {
+      "nome": "Fronte della Gioventù Comunista",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "151,0",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "0"
+      },
+      "voti": {
+        "totali": 151,
+        "seggio_telematico": 151
+      }
+    },
+    {
+      "nome": "AZIONE UNIVERSITARIA",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "1714,0",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": 1714,
+        "seggio_telematico": 1714
+      }
+    },
+    {
+      "nome": "ARCADIA - ATHENA",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "1179,0",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "0"
+      },
+      "voti": {
+        "totali": 1179,
+        "seggio_telematico": 1179
+      }
+    },
+    {
+      "nome": "POP.DEM.",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "2129,0",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": 2129,
+        "seggio_telematico": 2129
+      }
+    },
+    {
+      "nome": "ACTEA - NIKE",
+      "seggi": {
+        "seggi_pieni": "1",
+        "resti": "81,2",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": 2350,
+        "seggio_telematico": 2350
+      }
+    },
+    {
+      "nome": "SOS-CREDIAMOCI",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "1994,0",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": 1994,
+        "seggio_telematico": 1994
+      }
+    },
+    {
+      "totale": 13613
+    }
+  ],
+  "eletti": [
+    {
+      "nominativo": "CASTRO GAIA",
+      "lista": "La Finestra - Liberi di Scegliere",
+      "voti": {
+        "totali": 1035,
+        "seggio_telematico": 1035
+      }
+    },
+    {
+      "nominativo": "PALACINO TOMMASO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 427,
+        "seggio_telematico": 427
+      }
+    },
+    {
+      "nominativo": "VENTURA GIADA",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 442,
+        "seggio_telematico": 442
+      }
+    },
+    {
+      "nominativo": "GRECO ANDREA",
+      "lista": "POP.DEM.",
+      "voti": {
+        "totali": 851,
+        "seggio_telematico": 851
+      }
+    },
+    {
+      "nominativo": "GULISANO SIMONA",
+      "lista": "ACTEA - NIKE",
+      "voti": {
+        "totali": 805,
+        "seggio_telematico": 805
+      }
+    },
+    {
+      "nominativo": "BONACCORSO SALVATORE EMANUELE",
+      "lista": "SOS-CREDIAMOCI",
+      "voti": {
+        "totali": 763,
+        "seggio_telematico": 763
+      }
+    }
+  ],
+  "non_eletti": [
+    {
+      "nominativo": "PENNISI LIVIA",
+      "lista": "La Finestra - Liberi di Scegliere",
+      "voti": {
+        "totali": 507,
+        "seggio_telematico": 507
+      }
+    },
+    {
+      "nominativo": "VETRANO GAIA MORGANA MARIA",
+      "lista": "La Finestra - Liberi di Scegliere",
+      "voti": {
+        "totali": 259,
+        "seggio_telematico": 259
+      }
+    },
+    {
+      "nominativo": "NARO GIULIA",
+      "lista": "La Finestra - Liberi di Scegliere",
+      "voti": {
+        "totali": 155,
+        "seggio_telematico": 155
+      }
+    },
+    {
+      "nominativo": "VALENTI MATTIA",
+      "lista": "La Finestra - Liberi di Scegliere",
+      "voti": {
+        "totali": 151,
+        "seggio_telematico": 151
+      }
+    },
+    {
+      "nominativo": "PAGANO VANESSA",
+      "lista": "La Finestra - Liberi di Scegliere",
+      "voti": {
+        "totali": 90,
+        "seggio_telematico": 90
+      }
+    },
+    {
+      "nominativo": "FRAGAPANE VALERIO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 365,
+        "seggio_telematico": 365
+      }
+    },
+    {
+      "nominativo": "BENFATTO VINCENZO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 303,
+        "seggio_telematico": 303
+      }
+    },
+    {
+      "nominativo": "BUCISCA FRANCESCO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 282,
+        "seggio_telematico": 282
+      }
+    },
+    {
+      "nominativo": "SCURSUNNI CANTARELLA SAMUELE",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 177,
+        "seggio_telematico": 177
+      }
+    },
+    {
+      "nominativo": "GRECO ANGELICA GAETANA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 136,
+        "seggio_telematico": 136
+      }
+    },
+    {
+      "nominativo": "GIGLIO ALESSIA",
+      "lista": "Fronte della Gioventù Comunista",
+      "voti": {
+        "totali": 136,
+        "seggio_telematico": 136
+      }
+    },
+    {
+      "nominativo": "OFFERTA ITALO MARIA",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 396,
+        "seggio_telematico": 396
+      }
+    },
+    {
+      "nominativo": "MACARIO FRANCESCO",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 355,
+        "seggio_telematico": 355
+      }
+    },
+    {
+      "nominativo": "LUCIFORA ALESSANDRO",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 181,
+        "seggio_telematico": 181
+      }
+    },
+    {
+      "nominativo": "RUSSO GIUSEPPE",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 163,
+        "seggio_telematico": 163
+      }
+    },
+    {
+      "nominativo": "FUSTO MARIO EMANUELE PIO",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 100,
+        "seggio_telematico": 100
+      }
+    },
+    {
+      "nominativo": "CAVALLO CARMELA",
+      "lista": "ARCADIA - ATHENA",
+      "voti": {
+        "totali": 278,
+        "seggio_telematico": 278
+      }
+    },
+    {
+      "nominativo": "TIRENDI OTTAVIO",
+      "lista": "ARCADIA - ATHENA",
+      "voti": {
+        "totali": 249,
+        "seggio_telematico": 249
+      }
+    },
+    {
+      "nominativo": "MASTRANDREA ANGELO LUCIANO",
+      "lista": "ARCADIA - ATHENA",
+      "voti": {
+        "totali": 249,
+        "seggio_telematico": 249
+      }
+    },
+    {
+      "nominativo": "CHIAVOLA DAMIANA",
+      "lista": "ARCADIA - ATHENA",
+      "voti": {
+        "totali": 197,
+        "seggio_telematico": 197
+      }
+    },
+    {
+      "nominativo": "SPATARO ALESSANDRO",
+      "lista": "ARCADIA - ATHENA",
+      "voti": {
+        "totali": 99,
+        "seggio_telematico": 99
+      }
+    },
+    {
+      "nominativo": "DI BENEDETTO FEDERICO ANTONINO",
+      "lista": "ARCADIA - ATHENA",
+      "voti": {
+        "totali": 66,
+        "seggio_telematico": 66
+      }
+    },
+    {
+      "nominativo": "LA VECCHIA EMANUELA",
+      "lista": "POP.DEM.",
+      "voti": {
+        "totali": 495,
+        "seggio_telematico": 495
+      }
+    },
+    {
+      "nominativo": "RAGONESE COSTANTINO",
+      "lista": "POP.DEM.",
+      "voti": {
+        "totali": 394,
+        "seggio_telematico": 394
+      }
+    },
+    {
+      "nominativo": "DI MAURO GABRIELE GIUSEPPE",
+      "lista": "POP.DEM.",
+      "voti": {
+        "totali": 321,
+        "seggio_telematico": 321
+      }
+    },
+    {
+      "nominativo": "GUARNERA MARIA CLARA",
+      "lista": "POP.DEM.",
+      "voti": {
+        "totali": 8,
+        "seggio_telematico": 8
+      }
+    },
+    {
+      "nominativo": "PULVIRENTI CHIARA MARIA",
+      "lista": "POP.DEM.",
+      "voti": {
+        "totali": 8,
+        "seggio_telematico": 8
+      }
+    },
+    {
+      "nominativo": "INGINO GIULIA",
+      "lista": "ACTEA - NIKE",
+      "voti": {
+        "totali": 474,
+        "seggio_telematico": 474
+      }
+    },
+    {
+      "nominativo": "FIRETTO CARLINO GABRIELE",
+      "lista": "ACTEA - NIKE",
+      "voti": {
+        "totali": 306,
+        "seggio_telematico": 306
+      }
+    },
+    {
+      "nominativo": "PAPARO GIUSEPPE",
+      "lista": "ACTEA - NIKE",
+      "voti": {
+        "totali": 300,
+        "seggio_telematico": 300
+      }
+    },
+    {
+      "nominativo": "COSTANZO LORENZO GIUSEPPE DAVIDE",
+      "lista": "ACTEA - NIKE",
+      "voti": {
+        "totali": 249,
+        "seggio_telematico": 249
+      }
+    },
+    {
+      "nominativo": "IRACI FERRUZZA MARIA",
+      "lista": "ACTEA - NIKE",
+      "voti": {
+        "totali": 125,
+        "seggio_telematico": 125
+      }
+    },
+    {
+      "nominativo": "BORDONARO BENITO",
+      "lista": "SOS-CREDIAMOCI",
+      "voti": {
+        "totali": 380,
+        "seggio_telematico": 380
+      }
+    },
+    {
+      "nominativo": "FERRAU' ANDREA GIUSEPPE",
+      "lista": "SOS-CREDIAMOCI",
+      "voti": {
+        "totali": 350,
+        "seggio_telematico": 350
+      }
+    },
+    {
+      "nominativo": "CAVALLARO GIANMARCO",
+      "lista": "SOS-CREDIAMOCI",
+      "voti": {
+        "totali": 231,
+        "seggio_telematico": 231
+      }
+    },
+    {
+      "nominativo": "DI BARTOLO MICHELA",
+      "lista": "SOS-CREDIAMOCI",
+      "voti": {
+        "totali": 174,
+        "seggio_telematico": 174
+      }
+    },
+    {
+      "nominativo": "CALVAGNA CARLA",
+      "lista": "SOS-CREDIAMOCI",
+      "voti": {
+        "totali": 15,
+        "seggio_telematico": 15
+      }
+    }
+  ],
+  "quoziente": 2268.833333,
+  "votanti": {
+    "totali": 13953,
+    "percentuale": 34.97
+  },
+  "elettori": {
+    "totali": 39897
+  }
+}
