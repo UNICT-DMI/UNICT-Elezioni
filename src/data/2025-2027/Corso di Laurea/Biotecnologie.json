@@ -1,0 +1,117 @@
+{
+    "schede": {
+        "bianche": {
+            "totali": 27,
+            "seggio_n_telematico": 27
+        },
+        "nulle": {
+            "totali": 0
+        },
+        "contestate": {
+            "totali": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "n. di seggi da assegnare",
+            "seggi": {},
+            "voti": {
+                "totali": "17",
+                "seggio_telematico": "17"
+            }
+        },
+        {
+            "nome": "L I S T E",
+            "seggi": {},
+            "voti": {}
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "TOTALE",
+            "lista": "2 EX-AEQUO",
+            "voti": {
+                "totali": 16,
+                "seggio_telematico": 16
+            }
+        },
+        {
+            "nominativo": "Seggio telematico",
+            "lista": "2 EX-AEQUO",
+            "voti": {
+                "totali": 16,
+                "seggio_telematico": 16
+            }
+        },
+        {
+            "nominativo": "TOTALE",
+            "lista": "2 EX-AEQUO",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "Seggio telematico",
+            "lista": "2 EX-AEQUO",
+            "voti": {
+                "totali": 31,
+                "seggio_telematico": 31
+            }
+        },
+        {
+            "nominativo": "SAI - Studenti Attivi e Informati",
+            "lista": "2 EX-AEQUO",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "TOTALE",
+            "lista": "2 EX-AEQUO",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "Seggio telematico",
+            "lista": "2 EX-AEQUO",
+            "voti": {
+                "totali": 26,
+                "seggio_telematico": 26
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "Ippocrate",
+            "lista": "2 EX-AEQUO",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "TOTALE",
+            "lista": "2 EX-AEQUO",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        }
+    ],
+    "dipartimento": "BIOTECNOLOGIE-L-2-Laurea Triennale (D.M.270/2004)",
+    "seggi_da_assegnare": "17",
+    "quoziente": 13.8824,
+    "votanti": {
+        "totali": 263,
+        "percentuale": 34.51,
+        "seggio_n_telematico": 263
+    },
+    "elettori": {
+        "totali": 762,
+        "seggio_n_telematico": 762
+    }
+}

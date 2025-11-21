@@ -1,0 +1,119 @@
+{
+    "schede": {
+        "bianche": {
+            "totali": 5,
+            "seggio_n_telematico": 5
+        },
+        "nulle": {
+            "totali": 0
+        },
+        "contestate": {
+            "totali": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "Beni Culturali Disum",
+            "seggi": {
+                "seggi_pieni": "9",
+                "resti": "0,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "9"
+            },
+            "voti": {
+                "totali": "127",
+                "seggio_telematico": "127"
+            }
+        },
+        {
+            "totale": 127
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "SANFILIPPO Lorenzo",
+            "lista": "Beni Culturali Disum",
+            "voti": {
+                "totali": 34,
+                "seggio_telematico": 34
+            }
+        },
+        {
+            "nominativo": "PETRALIA Salvatore Giuseppe",
+            "lista": "Beni Culturali Disum",
+            "voti": {
+                "totali": 34,
+                "seggio_telematico": 34
+            }
+        },
+        {
+            "nominativo": "CUSUMANO Francesca Maria",
+            "lista": "Beni Culturali Disum",
+            "voti": {
+                "totali": 13,
+                "seggio_telematico": 13
+            }
+        },
+        {
+            "nominativo": "CINO Anastasia",
+            "lista": "Beni Culturali Disum",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "RUGGIERI Edith Maria Gae",
+            "lista": "Beni Culturali Disum",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "DI STEFANO Agnese Pia",
+            "lista": "Beni Culturali Disum",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "ASSENNATO Concetta Ambra",
+            "lista": "Beni Culturali Disum",
+            "voti": {
+                "totali": 8,
+                "seggio_telematico": 8
+            }
+        },
+        {
+            "nominativo": "LO PIERO William",
+            "lista": "Beni Culturali Disum",
+            "voti": {
+                "totali": 16,
+                "seggio_telematico": 16
+            }
+        },
+        {
+            "nominativo": "BENTIVEGNA Riccardo",
+            "lista": "Beni Culturali Disum",
+            "voti": {
+                "totali": 9,
+                "seggio_telematico": 9
+            }
+        }
+    ],
+    "non_eletti": [],
+    "dipartimento": "BENI CULTURALI-L-1-Laurea Triennale (D.M.270/2004)",
+    "seggi_da_assegnare": "9",
+    "quoziente": 14.111,
+    "votanti": {
+        "totali": 132,
+        "percentuale": 21.09,
+        "seggio_n_telematico": 132
+    },
+    "elettori": {
+        "totali": 626,
+        "seggio_n_telematico": 626
+    }
+}

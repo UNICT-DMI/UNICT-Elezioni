@@ -1,0 +1,273 @@
+{
+    "schede": {
+        "bianche": {
+            "totali": 12,
+            "seggio_n_telematico": 12
+        },
+        "nulle": {
+            "totali": 0
+        },
+        "contestate": {
+            "totali": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "Fronte della Gioventù Comunista",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "2,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": "2",
+                "seggio_telematico": "2"
+            }
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "31,5",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": "81",
+                "seggio_telematico": "81"
+            }
+        },
+        {
+            "nome": "SUPPORTO STUDENTI",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "35,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": "35",
+                "seggio_telematico": "35"
+            }
+        },
+        {
+            "nome": "WE LOVE UNICT",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "8,5",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": "58",
+                "seggio_telematico": "58"
+            }
+        },
+        {
+            "nome": "KOINÈ",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "9,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": "9",
+                "seggio_telematico": "9"
+            }
+        },
+        {
+            "nome": "Primavera degli Studenti",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "13,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": "13",
+                "seggio_telematico": "13"
+            }
+        },
+        {
+            "totale": 198
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "DI GAUDIO Irene Alessandra",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 33,
+                "seggio_telematico": 33
+            }
+        },
+        {
+            "nominativo": "ROMEO Vincenzo",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 36,
+                "seggio_telematico": 36
+            }
+        },
+        {
+            "nominativo": "TERRANOVA Francesca",
+            "lista": "SUPPORTO STUDENTI",
+            "voti": {
+                "totali": 18,
+                "seggio_telematico": 18
+            }
+        },
+        {
+            "nominativo": "LANZAFAME Mattia Maria",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 47,
+                "seggio_telematico": 47
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "BASILE Costanza",
+            "lista": "Fronte della Gioventù Comunista",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "BRANCIFORTE Elisea",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 9,
+                "seggio_telematico": 9
+            }
+        },
+        {
+            "nominativo": "ATTARDI Giada Mariarita",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "MOROSINI Sarah",
+            "lista": "SUPPORTO STUDENTI",
+            "voti": {
+                "totali": 16,
+                "seggio_telematico": 16
+            }
+        },
+        {
+            "nominativo": "MANERA Zoe",
+            "lista": "SUPPORTO STUDENTI",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "RUSSO Aurora",
+            "lista": "SUPPORTO STUDENTI",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "NACETO Edoardo Maria",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "LICCIARDELLO Giuseppe",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 7,
+                "seggio_telematico": 7
+            }
+        },
+        {
+            "nominativo": "CUTRONA Doris",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "STRAGUZZI Sofia",
+            "lista": "KOINÈ",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "DI MAURO Daria",
+            "lista": "KOINÈ",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "GUARNACCIA Giulio",
+            "lista": "KOINÈ",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "GRASSO Cecilia Carmela",
+            "lista": "Primavera degli Studenti",
+            "voti": {
+                "totali": 10,
+                "seggio_telematico": 10
+            }
+        },
+        {
+            "nominativo": "VASSALLO Claudia",
+            "lista": "Primavera degli Studenti",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "LA MATTINA Gabriele",
+            "lista": "Primavera degli Studenti",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "SCOCCIAPINO Federico",
+            "lista": "Primavera degli Studenti",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        }
+    ],
+    "dipartimento": "SCIENZE E TECNICHE PSICOLOGICHE-L-24-Laurea Triennale (D.M.270/2004)",
+    "seggi_da_assegnare": "4",
+    "quoziente": 49.5,
+    "votanti": {
+        "totali": 210,
+        "percentuale": 20.85,
+        "seggio_n_telematico": 210
+    },
+    "elettori": {
+        "totali": 1007,
+        "seggio_n_telematico": 1007
+    }
+}

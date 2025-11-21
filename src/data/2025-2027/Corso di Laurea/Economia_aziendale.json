@@ -1,0 +1,672 @@
+{
+    "schede": {
+        "bianche": {
+            "totali": 23,
+            "seggio_n_telematico": 23
+        },
+        "nulle": {
+            "totali": 0
+        },
+        "contestate": {
+            "totali": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "99,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": "99",
+                "seggio_telematico": "99"
+            }
+        },
+        {
+            "nome": "Nike Economia",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "13,8",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": "225",
+                "seggio_telematico": "225"
+            }
+        },
+        {
+            "nome": "WE LOVE UNICT",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "27,4",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": "133",
+                "seggio_telematico": "133"
+            }
+        },
+        {
+            "nome": "CREDIAMOCI",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "80,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": "80",
+                "seggio_telematico": "80"
+            }
+        },
+        {
+            "nome": "ACTEA",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "49,4",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": "155",
+                "seggio_telematico": "155"
+            }
+        },
+        {
+            "nome": "ETERNA",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "94,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": "94",
+                "seggio_telematico": "94"
+            }
+        },
+        {
+            "nome": "Generazione Attiva Arcadia",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "14,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": "14",
+                "seggio_telematico": "14"
+            }
+        },
+        {
+            "nome": "Alleanza Universitaria",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "20,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": "20",
+                "seggio_telematico": "20"
+            }
+        },
+        {
+            "nome": "Cambiamento DEI",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "25,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": "25",
+                "seggio_telematico": "25"
+            }
+        },
+        {
+            "totale": 845
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "BOTTARO Gloria Rita",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 26,
+                "seggio_telematico": 26
+            }
+        },
+        {
+            "nominativo": "PAGANO Desire'",
+            "lista": "Nike Economia",
+            "voti": {
+                "totali": 54,
+                "seggio_telematico": 54
+            }
+        },
+        {
+            "nominativo": "AGOSTA Santo",
+            "lista": "Nike Economia",
+            "voti": {
+                "totali": 41,
+                "seggio_telematico": 41
+            }
+        },
+        {
+            "nominativo": "SAMPERI Rosaria",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 41,
+                "seggio_telematico": 41
+            }
+        },
+        {
+            "nominativo": "CONSOLI Carlo",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 24,
+                "seggio_telematico": 24
+            }
+        },
+        {
+            "nominativo": "CASTIGLIA Chiara Carmen",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 32,
+                "seggio_telematico": 32
+            }
+        },
+        {
+            "nominativo": "GRASSO Antonio",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 53,
+                "seggio_telematico": 53
+            }
+        },
+        {
+            "nominativo": "ZUFALO Alberto",
+            "lista": "ETERNA",
+            "voti": {
+                "totali": 32,
+                "seggio_telematico": 32
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "RUGGIERI Giuseppe",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 22,
+                "seggio_telematico": 22
+            }
+        },
+        {
+            "nominativo": "OFFERTA Italo Maria",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 23,
+                "seggio_telematico": 23
+            }
+        },
+        {
+            "nominativo": "BASILE Leonardo Gaetano",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 9,
+                "seggio_telematico": 9
+            }
+        },
+        {
+            "nominativo": "MAGRO Salvatore",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 9,
+                "seggio_telematico": 9
+            }
+        },
+        {
+            "nominativo": "BARBAGALLO Fabio",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "RIOLO Davide",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "CALABRETTA Giorgia Giulia",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "DE MARIA LA ROSA Flavio Cesare",
+            "lista": "Nike Economia",
+            "voti": {
+                "totali": 35,
+                "seggio_telematico": 35
+            }
+        },
+        {
+            "nominativo": "PECORA Antonino Aldo",
+            "lista": "Nike Economia",
+            "voti": {
+                "totali": 39,
+                "seggio_telematico": 39
+            }
+        },
+        {
+            "nominativo": "BLANCATO Francesco Matteo",
+            "lista": "Nike Economia",
+            "voti": {
+                "totali": 7,
+                "seggio_telematico": 7
+            }
+        },
+        {
+            "nominativo": "LATIF Osama",
+            "lista": "Nike Economia",
+            "voti": {
+                "totali": 13,
+                "seggio_telematico": 13
+            }
+        },
+        {
+            "nominativo": "BISICCHIA Cristiano Maria",
+            "lista": "Nike Economia",
+            "voti": {
+                "totali": 15,
+                "seggio_telematico": 15
+            }
+        },
+        {
+            "nominativo": "BAGLIERI Martina",
+            "lista": "Nike Economia",
+            "voti": {
+                "totali": 19,
+                "seggio_telematico": 19
+            }
+        },
+        {
+            "nominativo": "GALATÀ Rosario",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 23,
+                "seggio_telematico": 23
+            }
+        },
+        {
+            "nominativo": "POTI Sara Laura",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 18,
+                "seggio_telematico": 18
+            }
+        },
+        {
+            "nominativo": "FOSCOLO Ania",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "PALERMO Simone",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "ACCOMANDO Alessandra",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "FALZONE Mattia",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 11,
+                "seggio_telematico": 11
+            }
+        },
+        {
+            "nominativo": "BONANNO Andrea",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 33,
+                "seggio_telematico": 33
+            }
+        },
+        {
+            "nominativo": "COSENTINO Giuseppe Roberto",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 19,
+                "seggio_telematico": 19
+            }
+        },
+        {
+            "nominativo": "BONADEI Vittoria",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "LA MALFA Salvatore",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "GRAVINA Michele",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 7,
+                "seggio_telematico": 7
+            }
+        },
+        {
+            "nominativo": "TOMASELLO Marco",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "NICOTRA Fabio",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "FIRERA Raffaele Detto Fire",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 19,
+                "seggio_telematico": 19
+            }
+        },
+        {
+            "nominativo": "SALEMI Lorenzo",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 20,
+                "seggio_telematico": 20
+            }
+        },
+        {
+            "nominativo": "RANNO Valeria Concetta Maria",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 16,
+                "seggio_telematico": 16
+            }
+        },
+        {
+            "nominativo": "MALVUCCIO Irene",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "LORETO Lorenzo",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 7,
+                "seggio_telematico": 7
+            }
+        },
+        {
+            "nominativo": "DOTE Gabriele",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "ALIBRANDI Victor",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 22,
+                "seggio_telematico": 22
+            }
+        },
+        {
+            "nominativo": "RUGGIERI Pierpaolo",
+            "lista": "ETERNA",
+            "voti": {
+                "totali": 28,
+                "seggio_telematico": 28
+            }
+        },
+        {
+            "nominativo": "CIADAMIDARO Pietro",
+            "lista": "ETERNA",
+            "voti": {
+                "totali": 25,
+                "seggio_telematico": 25
+            }
+        },
+        {
+            "nominativo": "COLLODORO Joshua",
+            "lista": "ETERNA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "DELFINO Antonio",
+            "lista": "ETERNA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "SCUDERI Rosario",
+            "lista": "ETERNA",
+            "voti": {
+                "totali": 7,
+                "seggio_telematico": 7
+            }
+        },
+        {
+            "nominativo": "ZAPPALA' Francesco",
+            "lista": "ETERNA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "TESTA Giuseppe",
+            "lista": "Generazione Attiva Arcadia",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "ROMANO Mario",
+            "lista": "Generazione Attiva Arcadia",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "CORSARO Riccardo",
+            "lista": "Generazione Attiva Arcadia",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "CALACIURA Giuseppe",
+            "lista": "Generazione Attiva Arcadia",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "CASELLA Salvatore Samuele",
+            "lista": "Generazione Attiva Arcadia",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "CONTINO Giovanni",
+            "lista": "Generazione Attiva Arcadia",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "D'AMICO Francesco",
+            "lista": "Generazione Attiva Arcadia",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "COCUZZA Matteo",
+            "lista": "Alleanza Universitaria",
+            "voti": {
+                "totali": 7,
+                "seggio_telematico": 7
+            }
+        },
+        {
+            "nominativo": "CALABRETTA Angelo Salvatore",
+            "lista": "Alleanza Universitaria",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "GIARRATANA Fabio",
+            "lista": "Alleanza Universitaria",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "PISTARA' Gioacchino",
+            "lista": "Alleanza Universitaria",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "RACITI Gabriele",
+            "lista": "Alleanza Universitaria",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "GRASSO Lorenzo",
+            "lista": "Alleanza Universitaria",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nominativo": "COLALEO Francesco",
+            "lista": "Cambiamento DEI",
+            "voti": {
+                "totali": 17,
+                "seggio_telematico": 17
+            }
+        },
+        {
+            "nominativo": "DE MARCO Virginia",
+            "lista": "Cambiamento DEI",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "BELLINGHIERI Giovanni",
+            "lista": "Cambiamento DEI",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "VENTURA Jacopo",
+            "lista": "Cambiamento DEI",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "SILLUZIO Elena",
+            "lista": "Cambiamento DEI",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        }
+    ],
+    "dipartimento": "ECONOMIA AZIENDALE-L-18-Laurea Triennale (D.M.270/2004)",
+    "seggi_da_assegnare": "8",
+    "quoziente": 105.63,
+    "votanti": {
+        "totali": 868,
+        "percentuale": 45.47,
+        "seggio_n_telematico": 868
+    },
+    "elettori": {
+        "totali": 1909,
+        "seggio_n_telematico": 1909
+    }
+}

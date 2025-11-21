@@ -1,0 +1,300 @@
+{
+    "schede": {
+        "bianche": {
+            "totali": 10,
+            "seggio_n_telematico": 10
+        },
+        "nulle": {
+            "totali": 0
+        },
+        "contestate": {
+            "totali": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "La Finestra - Liberi di Scegliere",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "39,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": "39",
+                "seggio_telematico": "39"
+            }
+        },
+        {
+            "nome": "Nike Economia",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "17,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": "87",
+                "seggio_telematico": "87"
+            }
+        },
+        {
+            "nome": "ACTEA",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "12,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": "82",
+                "seggio_telematico": "82"
+            }
+        },
+        {
+            "nome": "ETERNA",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "14,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": "84",
+                "seggio_telematico": "84"
+            }
+        },
+        {
+            "nome": "WE LOVE UNICT - CREDIAMOCI",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "58,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": "58",
+                "seggio_telematico": "58"
+            }
+        },
+        {
+            "totale": 350
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "GRASSO Simone",
+            "lista": "La Finestra - Liberi di Scegliere",
+            "voti": {
+                "totali": 21,
+                "seggio_telematico": 21
+            }
+        },
+        {
+            "nominativo": "MARINO Flavio Giovanni Pio",
+            "lista": "Nike Economia",
+            "voti": {
+                "totali": 41,
+                "seggio_telematico": 41
+            }
+        },
+        {
+            "nominativo": "GULISANO Simona",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 55,
+                "seggio_telematico": 55
+            }
+        },
+        {
+            "nominativo": "TURLÀ Samuele",
+            "lista": "ETERNA",
+            "voti": {
+                "totali": 31,
+                "seggio_telematico": 31
+            }
+        },
+        {
+            "nominativo": "MAGRA Marco",
+            "lista": "WE LOVE UNICT - CREDIAMOCI",
+            "voti": {
+                "totali": 19,
+                "seggio_telematico": 19
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "ALEO Giada",
+            "lista": "La Finestra - Liberi di Scegliere",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "AMBRA Gabriele",
+            "lista": "La Finestra - Liberi di Scegliere",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "MESSINA Davide",
+            "lista": "La Finestra - Liberi di Scegliere",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "CRISTALDI Stefano",
+            "lista": "La Finestra - Liberi di Scegliere",
+            "voti": {
+                "totali": 8,
+                "seggio_telematico": 8
+            }
+        },
+        {
+            "nominativo": "TROVATO Yvonne Filippa",
+            "lista": "Nike Economia",
+            "voti": {
+                "totali": 20,
+                "seggio_telematico": 20
+            }
+        },
+        {
+            "nominativo": "SPATA Matteo",
+            "lista": "Nike Economia",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nominativo": "PORTALE Maria Pia",
+            "lista": "Nike Economia",
+            "voti": {
+                "totali": 12,
+                "seggio_telematico": 12
+            }
+        },
+        {
+            "nominativo": "SOLLIMA Giovanni",
+            "lista": "Nike Economia",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nominativo": "SALVO Magda Angela",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 10,
+                "seggio_telematico": 10
+            }
+        },
+        {
+            "nominativo": "CILIBERTI Alessandro Emanuele",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "MARTORANO Grazia",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "PANESSIDI Gabriele",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 10,
+                "seggio_telematico": 10
+            }
+        },
+        {
+            "nominativo": "AQUILINO Salvatore Detto Turi",
+            "lista": "ETERNA",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nominativo": "MISTRETTA Martina Maria Pia",
+            "lista": "ETERNA",
+            "voti": {
+                "totali": 17,
+                "seggio_telematico": 17
+            }
+        },
+        {
+            "nominativo": "CITRIGLIA Denise",
+            "lista": "ETERNA",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "STRANO Mario",
+            "lista": "ETERNA",
+            "voti": {
+                "totali": 25,
+                "seggio_telematico": 25
+            }
+        },
+        {
+            "nominativo": "RUGOLO Marco",
+            "lista": "WE LOVE UNICT - CREDIAMOCI",
+            "voti": {
+                "totali": 10,
+                "seggio_telematico": 10
+            }
+        },
+        {
+            "nominativo": "GRASSIA Elena",
+            "lista": "WE LOVE UNICT - CREDIAMOCI",
+            "voti": {
+                "totali": 16,
+                "seggio_telematico": 16
+            }
+        },
+        {
+            "nominativo": "CARNAZZA Arturo",
+            "lista": "WE LOVE UNICT - CREDIAMOCI",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "PARISI Vito Andrea",
+            "lista": "WE LOVE UNICT - CREDIAMOCI",
+            "voti": {
+                "totali": 10,
+                "seggio_telematico": 10
+            }
+        }
+    ],
+    "dipartimento": "ECONOMIA-L-33-Laurea Triennale (D.M.270/2004)",
+    "seggi_da_assegnare": "5",
+    "quoziente": 70.0,
+    "votanti": {
+        "totali": 0,
+        "percentuale": 0.0,
+        "seggio_n_telematico": 0
+    },
+    "elettori": {
+        "totali": 895,
+        "seggio_n_telematico": 895
+    }
+}

@@ -1,0 +1,289 @@
+{
+    "schede": {
+        "bianche": {
+            "totali": 9,
+            "seggio_n_telematico": 9
+        },
+        "nulle": {
+            "totali": 0
+        },
+        "contestate": {
+            "totali": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "UDU - Unione degli Universitari",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "44,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": "44",
+                "seggio_telematico": "44"
+            }
+        },
+        {
+            "nome": "Fronte della Gioventù Comunista",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "12,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": "12",
+                "seggio_telematico": "12"
+            }
+        },
+        {
+            "nome": "KOINÈ",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "26,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": "26",
+                "seggio_telematico": "26"
+            }
+        },
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "20,8",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": "68",
+                "seggio_telematico": "68"
+            }
+        },
+        {
+            "nome": "WE LOVE UNICT",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "33,8",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": "81",
+                "seggio_telematico": "81"
+            }
+        },
+        {
+            "nome": "Primavera degli Studenti",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "5,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": "5",
+                "seggio_telematico": "5"
+            }
+        },
+        {
+            "totale": 236
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "ANSALDI Alessia",
+            "lista": "UDU - Unione degli Universitari",
+            "voti": {
+                "totali": 28,
+                "seggio_telematico": 28
+            }
+        },
+        {
+            "nominativo": "CAPUTO Stefano",
+            "lista": "KOINÈ",
+            "voti": {
+                "totali": 13,
+                "seggio_telematico": 13
+            }
+        },
+        {
+            "nominativo": "ARGENTI Roberto",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 21,
+                "seggio_telematico": 21
+            }
+        },
+        {
+            "nominativo": "GIORDANO Emanuele Rosario Francesco",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 44,
+                "seggio_telematico": 44
+            }
+        },
+        {
+            "nominativo": "PERTICONE Concetta",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 24,
+                "seggio_telematico": 24
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "LO PO Leonardo",
+            "lista": "UDU - Unione degli Universitari",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "RENDA Giulia",
+            "lista": "UDU - Unione degli Universitari",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "PANEBIANCO Dario",
+            "lista": "UDU - Unione degli Universitari",
+            "voti": {
+                "totali": 8,
+                "seggio_telematico": 8
+            }
+        },
+        {
+            "nominativo": "PAPA Gloria",
+            "lista": "Fronte della Gioventù Comunista",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "RUSSO Fabrizio Detto Brizio",
+            "lista": "Fronte della Gioventù Comunista",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "PIZZO Miryam",
+            "lista": "Fronte della Gioventù Comunista",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "PISANO Michela",
+            "lista": "KOINÈ",
+            "voti": {
+                "totali": 12,
+                "seggio_telematico": 12
+            }
+        },
+        {
+            "nominativo": "URSO Giorgia",
+            "lista": "KOINÈ",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "MANGANO Andrea",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 20,
+                "seggio_telematico": 20
+            }
+        },
+        {
+            "nominativo": "CUTULI Marina",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "NORECI Gabriella",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 16,
+                "seggio_telematico": 16
+            }
+        },
+        {
+            "nominativo": "MESSINA Gloria",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nominativo": "WU Alessandro",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nominativo": "CONNOR FIGUEROA Michael Karim",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "NAZERAJ Klevi",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "COCIMANO Mattia",
+            "lista": "Primavera degli Studenti",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "SCALONE Isabella Maria",
+            "lista": "Primavera degli Studenti",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        }
+    ],
+    "dipartimento": "STORIA, POLITICA E RELAZIONI INTERNAZIONALI-L-36-Laurea Triennale (D.M.270/2004)",
+    "seggi_da_assegnare": "5",
+    "quoziente": 47.2,
+    "votanti": {
+        "totali": 245,
+        "percentuale": 46.85,
+        "seggio_n_telematico": 245
+    },
+    "elettori": {
+        "totali": 523,
+        "seggio_n_telematico": 523
+    }
+}

@@ -1,0 +1,268 @@
+{
+    "schede": {
+        "bianche": {
+            "totali": 2,
+            "seggio_n_telematico": 2
+        },
+        "nulle": {
+            "totali": 0
+        },
+        "contestate": {
+            "totali": 0
+        }
+    },
+    "liste": [
+        {
+            "nome": "AZIONE UNIVERSITARIA",
+            "seggi": {
+                "seggi_pieni": "3",
+                "resti": "9,3",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "3"
+            },
+            "voti": {
+                "totali": "90",
+                "seggio_telematico": "90"
+            }
+        },
+        {
+            "nome": "WE LOVE UNICT",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "10,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": "10",
+                "seggio_telematico": "10"
+            }
+        },
+        {
+            "nome": "SUPPORTO STUDENTI",
+            "seggi": {
+                "seggi_pieni": "3",
+                "resti": "15,3",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "4"
+            },
+            "voti": {
+                "totali": "96",
+                "seggio_telematico": "96"
+            }
+        },
+        {
+            "nome": "Alleanza Universitaria",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "5,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": "5",
+                "seggio_telematico": "5"
+            }
+        },
+        {
+            "nome": "Primavera degli Studenti",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "14,1",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": "41",
+                "seggio_telematico": "41"
+            }
+        },
+        {
+            "totale": 242
+        }
+    ],
+    "eletti": [
+        {
+            "nominativo": "PETROLITO Mirko",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 26,
+                "seggio_telematico": 26
+            }
+        },
+        {
+            "nominativo": "SPAMPINATO Rebecca",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 17,
+                "seggio_telematico": 17
+            }
+        },
+        {
+            "nominativo": "CATALANO Alessia",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 16,
+                "seggio_telematico": 16
+            }
+        },
+        {
+            "nominativo": "VENTURA Giada",
+            "lista": "SUPPORTO STUDENTI",
+            "voti": {
+                "totali": 41,
+                "seggio_telematico": 41
+            }
+        },
+        {
+            "nominativo": "OREFICE Giulia",
+            "lista": "SUPPORTO STUDENTI",
+            "voti": {
+                "totali": 20,
+                "seggio_telematico": 20
+            }
+        },
+        {
+            "nominativo": "RUGOLO Gabriele Santo",
+            "lista": "SUPPORTO STUDENTI",
+            "voti": {
+                "totali": 27,
+                "seggio_telematico": 27
+            }
+        },
+        {
+            "nominativo": "VINCI Simona",
+            "lista": "SUPPORTO STUDENTI",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "GEREMIA Giuseppe",
+            "lista": "Primavera degli Studenti",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "MONTANUCCI Emanuela",
+            "lista": "Primavera degli Studenti",
+            "voti": {
+                "totali": 32,
+                "seggio_telematico": 32
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "RUSSO Giada Maria",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 10,
+                "seggio_telematico": 10
+            }
+        },
+        {
+            "nominativo": "CRESCENTI Marika",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 16,
+                "seggio_telematico": 16
+            }
+        },
+        {
+            "nominativo": "VELLA Sabrina",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "CENTAMORE Irene Barbara",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 9,
+                "seggio_telematico": 9
+            }
+        },
+        {
+            "nominativo": "PULVIRENTI Giorgia Rosa",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "GRANATA Elisa",
+            "lista": "SUPPORTO STUDENTI",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "CARTILLONE Eleonora",
+            "lista": "Alleanza Universitaria",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "RUSSO Benedetta",
+            "lista": "Primavera degli Studenti",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "MULÈ Chiara",
+            "lista": "Primavera degli Studenti",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "RUSSO Rachele Maria",
+            "lista": "Primavera degli Studenti",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "MODICA Gabriella Maria",
+            "lista": "Primavera degli Studenti",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "NASTA Isabella",
+            "lista": "Primavera degli Studenti",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        }
+    ],
+    "dipartimento": "SCIENZE DELL'EDUCAZIONE E DELLA FORMAZIONE-L-19-Laurea Triennale (D.M.270/2004)",
+    "seggi_da_assegnare": "9",
+    "quoziente": 26.8889,
+    "votanti": {
+        "totali": 244,
+        "percentuale": 26.24,
+        "seggio_n_telematico": 244
+    },
+    "elettori": {
+        "totali": 930,
+        "seggio_n_telematico": 930
+    }
+}
