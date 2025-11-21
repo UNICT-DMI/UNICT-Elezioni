@@ -1,0 +1,90 @@
+{
+  "organo": "ELEZIONI RAPPRESENTANTI STUDENTI IN SENO AL COMITATO PER LO SPORT UNIVERSITARIO",
+  "seggi_da_assegnare": 2,
+  "schede": {
+    "bianche": {
+      "totali": 2306
+    },
+    "nulle": {
+      "totali": 0
+    },
+    "contestate": {
+      "totali": 0
+    }
+  },
+  "liste": [
+    {
+      "nome": "Primavera del Sud",
+      "seggi": {
+        "seggi_pieni": "1",
+        "resti": "279,0",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": 5972,
+        "seggio_telematico": 5972
+      }
+    },
+    {
+      "nome": "GIOVENTÙ UNIVERSITARIA",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "5414,0",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": 5414,
+        "seggio_telematico": 5414
+      }
+    },
+    {
+      "totale": 11386
+    }
+  ],
+  "eletti": [
+    {
+      "nominativo": "CASTRO KRISTIAN",
+      "lista": "Primavera del Sud",
+      "voti": {
+        "totali": 4291,
+        "seggio_telematico": 4291
+      }
+    },
+    {
+      "nominativo": "IMPELLIZZERI SALVATORE",
+      "lista": "GIOVENTÙ UNIVERSITARIA",
+      "voti": {
+        "totali": 3400,
+        "seggio_telematico": 3400
+      }
+    }
+  ],
+  "non_eletti": [
+    {
+      "nominativo": "D'ITRIA TONY",
+      "lista": "Primavera del Sud",
+      "voti": {
+        "totali": 1266,
+        "seggio_telematico": 1266
+      }
+    },
+    {
+      "nominativo": "BENFATTO VINCENZO",
+      "lista": "GIOVENTÙ UNIVERSITARIA",
+      "voti": {
+        "totali": 1799,
+        "seggio_telematico": 1799
+      }
+    }
+  ],
+  "quoziente": 5693,
+  "votanti": {
+    "totali": 13692,
+    "percentuale": 34.32
+  },
+  "elettori": {
+    "totali": 39897
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "organo": "ELEZIONI RAPPRESENTANTI STUDENTI IN SENO AL CONSIGLIO DI AMMINISTRAZIONE DELL'UNIVERSITA' DEGLI STUDI DI CATANIA",
+  "seggi_da_assegnare": 2,
+  "schede": {
+    "bianche": {
+      "totali": 2222
+    },
+    "nulle": {
+      "totali": 0
+    },
+    "contestate": {
+      "totali": 0
+    }
+  },
+  "liste": [
+    {
+      "nome": "Primavera del Sud",
+      "seggi": {
+        "seggi_pieni": "1",
+        "resti": "831,5",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": 6596,
+        "seggio_telematico": 6596
+      }
+    },
+    {
+      "nome": "GIOVENTÙ UNIVERSITARIA",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "4933,0",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": 4933,
+        "seggio_telematico": 4933
+      }
+    },
+    {
+      "totale": 11529
+    }
+  ],
+  "eletti": [
+    {
+      "nominativo": "CARUSO CHIARA",
+      "lista": "Primavera del Sud",
+      "voti": {
+        "totali": 5343,
+        "seggio_telematico": 5343
+      }
+    },
+    {
+      "nominativo": "PEZZILLO FRANCESCO",
+      "lista": "GIOVENTÙ UNIVERSITARIA",
+      "voti": {
+        "totali": 3193,
+        "seggio_telematico": 3193
+      }
+    }
+  ],
+  "non_eletti": [
+    {
+      "nominativo": "PAPARO GIUSEPPE",
+      "lista": "Primavera del Sud",
+      "voti": {
+        "totali": 960,
+        "seggio_telematico": 960
+      }
+    },
+    {
+      "nominativo": "MONSONE DARIO",
+      "lista": "GIOVENTÙ UNIVERSITARIA",
+      "voti": {
+        "totali": 1566,
+        "seggio_telematico": 1566
+      }
+    }
+  ],
+  "quoziente": 5764.5,
+  "votanti": {
+    "totali": 13751,
+    "percentuale": 34.47
+  },
+  "elettori": {
+    "totali": 39897
+  }
+}
