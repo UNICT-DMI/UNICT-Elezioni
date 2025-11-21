@@ -1,0 +1,45 @@
+{
+  "dipartimento": "SCIENZE DELLA FORMAZIONE PRIMARIA-LM-85Bis-Laurea Magistrale a ciclo unico (D.M. 270/2004)",
+  "quorum": true,
+  "seggi_da_assegnare": 4,
+  "schede": {
+    "bianche": 2,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "PEDICONE VALENTINA",
+      "voti": 59
+    },
+    {
+      "nome_candidato": "AMORE IRENE",
+      "voti": 18
+    },
+    {
+      "nome_candidato": "CAMPISI FRANCESCA MARIA",
+      "voti": 12
+    }
+  ],
+  "non_eletti": [
+    {
+      "nome_candidato": "ZAPPULLA EVA",
+      "voti": 0
+    },
+    {
+      "nome_candidato": "CONTI PAOLO",
+      "voti": 5
+    },
+    {
+      "nome_candidato": "LO GIUDICE CORINNE NATALIA",
+      "voti": 3
+    },
+    {
+      "nome_candidato": "ZANGHI' ROBERTA",
+      "voti": 3
+    }
+  ],
+  "totale_voti": 102,
+  "aventi_diritto": 102,
+  "perc_votanti": 53.97
+}

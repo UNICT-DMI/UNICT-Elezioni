@@ -1,0 +1,24 @@
+{
+  "dipartimento": "ORTOTTICA ED ASSISTENZA OFTALMOLOGICA-L/SNT2-Laurea Triennale (D.M.270/2004)",
+  "quorum": false,
+  "seggi_da_assegnare": 6,
+  "schede": {
+    "bianche": 2,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "CASAGRANDE GIORGIA",
+      "voti": 10
+    },
+    {
+      "nome_candidato": "FRENI CHIARA",
+      "voti": 1
+    }
+  ],
+  "non_eletti": [],
+  "totale_voti": 13,
+  "aventi_diritto": 13,
+  "perc_votanti": 30.95
+}

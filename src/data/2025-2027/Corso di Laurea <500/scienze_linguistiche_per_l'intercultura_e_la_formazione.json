@@ -1,0 +1,32 @@
+{
+  "dipartimento": "SCIENZE LINGUISTICHE PER L'INTERCULTURA E LA FORMAZIONE-LM-39-Laurea Magistrale biennale",
+  "quorum": false,
+  "seggi_da_assegnare": null,
+  "schede": {
+    "bianche": 0,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "DI CORRADO DAVIDE",
+      "voti": 11
+    },
+    {
+      "nome_candidato": "BORZÌ GRAZIA",
+      "voti": 17
+    },
+    {
+      "nome_candidato": "SINATRA CARMELO",
+      "voti": 1
+    },
+    {
+      "nome_candidato": "CHAHBANI FATMA",
+      "voti": 1
+    }
+  ],
+  "non_eletti": [],
+  "totale_voti": 32,
+  "aventi_diritto": 108,
+  "perc_votanti": 29.63
+}

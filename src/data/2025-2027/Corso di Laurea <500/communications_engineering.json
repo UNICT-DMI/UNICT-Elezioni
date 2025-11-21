@@ -1,0 +1,20 @@
+{
+  "dipartimento": "COMMUNICATIONS ENGINEERING-LM-27-Laurea Magistrale biennale (D.M.270/2004)",
+  "quorum": false,
+  "seggi_da_assegnare": null,
+  "schede": {
+    "bianche": 0,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "DI MARIA ANDREA",
+      "voti": 7
+    }
+  ],
+  "non_eletti": [],
+  "totale_voti": 7,
+  "aventi_diritto": 34,
+  "perc_votanti": 20.59
+}

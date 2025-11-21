@@ -1,0 +1,61 @@
+{
+  "dipartimento": "FILOLOGIA MODERNA-LM-14-Laurea Magistrale biennale (D.M.270/2004)",
+  "quorum": false,
+  "seggi_da_assegnare": 5,
+  "schede": {
+    "bianche": 1,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "ANZALDO NATALIE",
+      "voti": 12
+    },
+    {
+      "nome_candidato": "VITTORIO GRAZIA AGATA",
+      "voti": 17
+    },
+    {
+      "nome_candidato": "IALUNA ELISA LUCIA",
+      "voti": 17
+    },
+    {
+      "nome_candidato": "PARISI ALESSANDRA",
+      "voti": 23
+    }
+  ],
+  "non_eletti": [
+    {
+      "nome_candidato": "MATTEU SERENA",
+      "voti": 1
+    },
+    {
+      "nome_candidato": "VESPO SALVATORE FRANCESCO",
+      "voti": 4
+    },
+    {
+      "nome_candidato": "GIANNETTO STEFANIA PIA",
+      "voti": 1
+    },
+    {
+      "nome_candidato": "MACCA CHIARA",
+      "voti": 5
+    },
+    {
+      "nome_candidato": "MILONE SALVATORE MASSIMILIANO",
+      "voti": 1
+    },
+    {
+      "nome_candidato": "ZAPPALÀ AURORA GRAZIA",
+      "voti": 2
+    },
+    {
+      "nome_candidato": "NICOTRA SEBASTIANO",
+      "voti": 2
+    }
+  ],
+  "totale_voti": 86,
+  "aventi_diritto": 386,
+  "perc_votanti": 22.28
+}

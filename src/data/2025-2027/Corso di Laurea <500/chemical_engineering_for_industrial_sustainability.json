@@ -1,0 +1,20 @@
+{
+  "dipartimento": "CHEMICAL ENGINEERING FOR INDUSTRIAL SUSTAINABILITY-LM-22-Laurea Magistrale biennale",
+  "quorum": false,
+  "seggi_da_assegnare": null,
+  "schede": {
+    "bianche": 1,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "ARDORE MARCO",
+      "voti": 8
+    }
+  ],
+  "non_eletti": [],
+  "totale_voti": 9,
+  "aventi_diritto": 34,
+  "perc_votanti": 26.47
+}

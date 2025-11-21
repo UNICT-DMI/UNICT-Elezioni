@@ -1,0 +1,49 @@
+{
+  "dipartimento": "TECNICA DELLA RIABILITAZIONE PSICHIATRICA-L/SNT2-Laurea Triennale (D.M.270/2004)",
+  "quorum": true,
+  "seggi_da_assegnare": 6,
+  "schede": {
+    "bianche": 0,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "DIGRANDI GAIA GIOVANNA",
+      "voti": 5
+    },
+    {
+      "nome_candidato": "GLUECK FRANCESCA INGEBURG",
+      "voti": 19
+    },
+    {
+      "nome_candidato": "CALÍ CRISTINA",
+      "voti": 4
+    },
+    {
+      "nome_candidato": "BONANNO ADRIANA",
+      "voti": 5
+    }
+  ],
+  "non_eletti": [
+    {
+      "nome_candidato": "TOMASELLO LIDIA",
+      "voti": 0
+    },
+    {
+      "nome_candidato": "TIDONA MIRIAM",
+      "voti": 2
+    },
+    {
+      "nome_candidato": "RAMPOLLA CLELIA",
+      "voti": 0
+    },
+    {
+      "nome_candidato": "BATTIATO ADELE",
+      "voti": 2
+    }
+  ],
+  "totale_voti": 37,
+  "aventi_diritto": 60,
+  "perc_votanti": 61.67
+}

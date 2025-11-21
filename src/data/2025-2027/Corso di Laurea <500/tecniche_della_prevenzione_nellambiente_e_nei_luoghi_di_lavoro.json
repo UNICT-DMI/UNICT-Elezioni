@@ -1,0 +1,32 @@
+{
+  "dipartimento": "TECNICHE DELLA PREVENZIONE NELL'AMBIENTE E NEI LUOGHI DI LAVORO-L/SNT4-Laurea Triennale",
+  "quorum": true,
+  "seggi_da_assegnare": 7,
+  "schede": {
+    "bianche": 1,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "CANTARELLA FLAVIO",
+      "voti": 11
+    },
+    {
+      "nome_candidato": "QUARTARARO CORRADO",
+      "voti": 1
+    },
+    {
+      "nome_candidato": "LO RE JONATHAN",
+      "voti": 10
+    },
+    {
+      "nome_candidato": "PARRINELLO SARA",
+      "voti": 13
+    }
+  ],
+  "non_eletti": [],
+  "totale_voti": 36,
+  "aventi_diritto": 36,
+  "perc_votanti": 54.55
+}

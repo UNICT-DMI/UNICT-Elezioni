@@ -1,0 +1,24 @@
+{
+  "dipartimento": "INGEGNERIA CIVILE STRUTTURALE E GEOTECNICA-LM-23-Laurea Magistrale biennale (D.M.270/2004)",
+  "quorum": false,
+  "seggi_da_assegnare": 2,
+  "schede": {
+    "bianche": 0,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "BALSAMO LUCA",
+      "voti": 15
+    },
+    {
+      "nome_candidato": "FOTI FRANCESCO",
+      "voti": 13
+    }
+  ],
+  "non_eletti": [],
+  "totale_voti": 28,
+  "aventi_diritto": 59,
+  "perc_votanti": 47.46
+}

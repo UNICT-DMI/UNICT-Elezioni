@@ -1,0 +1,33 @@
+{
+  "dipartimento": "MANAGEMENT DELLA PUBBLICA AMMINISTRAZIONE-LM-63-Laurea Magistrale biennale (D.M.270/2004)",
+  "quorum": false,
+  "seggi_da_assegnare": 3,
+  "schede": {
+    "bianche": 3,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "ROSELLI ALEXIA",
+      "voti": 23
+    },
+    {
+      "nome_candidato": "SMECCA GAETANO",
+      "voti": 14
+    }
+  ],
+  "non_eletti": [
+    {
+      "nome_candidato": "CRISPINO SABRINA",
+      "voti": 2
+    },
+    {
+      "nome_candidato": "ARDIZZONE LUCA",
+      "voti": 9
+    }
+  ],
+  "totale_voti": 51,
+  "aventi_diritto": 217,
+  "perc_votanti": 23.5
+}

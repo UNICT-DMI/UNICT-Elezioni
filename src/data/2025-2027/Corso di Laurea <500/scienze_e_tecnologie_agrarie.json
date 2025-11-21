@@ -1,0 +1,45 @@
+{
+  "dipartimento": "SCIENZE E TECNOLOGIE AGRARIE-LM-69-Laurea Magistrale biennale (D.M.270/2004)",
+  "quorum": false,
+  "seggi_da_assegnare": 5,
+  "schede": {
+    "bianche": 1,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "RIZZO GAIA",
+      "voti": 5
+    },
+    {
+      "nome_candidato": "GUGLIUZZO GIUSEPPE PIO",
+      "voti": 6
+    },
+    {
+      "nome_candidato": "GIANNINO GIUSEPPE",
+      "voti": 3
+    },
+    {
+      "nome_candidato": "SENIA STEFANO",
+      "voti": 15
+    },
+    {
+      "nome_candidato": "MOSCHETTO MARTINA",
+      "voti": 13
+    }
+  ],
+  "non_eletti": [
+    {
+      "nome_candidato": "CALI' SIMONA",
+      "voti": 1
+    },
+    {
+      "nome_candidato": "FIORITO FILIPPO",
+      "voti": 0
+    }
+  ],
+  "totale_voti": 44,
+  "aventi_diritto": 196,
+  "perc_votanti": 22.45
+}

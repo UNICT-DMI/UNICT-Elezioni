@@ -1,0 +1,61 @@
+{
+  "dipartimento": "SCIENZE FARMACEUTICHE APPLICATE-L-29-Laurea Triennale (D.M.270/2004)",
+  "quorum": false,
+  "seggi_da_assegnare": 8,
+  "schede": {
+    "bianche": 6,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "RUGGERI CLELIA",
+      "voti": 2
+    },
+    {
+      "nome_candidato": "DI BENEDETTO FEDERICO ANTONINO",
+      "voti": 5
+    },
+    {
+      "nome_candidato": "CANCILLERI MARTINA",
+      "voti": 3
+    },
+    {
+      "nome_candidato": "FICHERA ALESSIO",
+      "voti": 1
+    },
+    {
+      "nome_candidato": "BUGLIO ERIKA",
+      "voti": 3
+    },
+    {
+      "nome_candidato": "CACCIOLA GAIA",
+      "voti": 1
+    },
+    {
+      "nome_candidato": "SPATARO VANESSA",
+      "voti": 18
+    },
+    {
+      "nome_candidato": "INSANGUINE GIORGIA",
+      "voti": 2
+    },
+    {
+      "nome_candidato": "SULEJMANOVSKI ERMIRA",
+      "voti": 1
+    },
+    {
+      "nome_candidato": "TORRE ENRICA ELSA ELOISA",
+      "voti": 3
+    }
+  ],
+  "non_eletti": [
+    {
+      "nome_candidato": "MANTINEO GIULIA",
+      "voti": 0
+    }
+  ],
+  "totale_voti": 45,
+  "aventi_diritto": 167,
+  "perc_votanti": 26.95
+}

@@ -1,0 +1,20 @@
+{
+  "dipartimento": "AUTOMATION ENGINEERING AND CONTROL OF COMPLEX SYSTEMS-LM-25-Laurea Magistrale biennale",
+  "quorum": false,
+  "seggi_da_assegnare": 4,
+  "schede": {
+    "bianche": 2,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "ANDRONICO PAOLO",
+      "voti": 30
+    }
+  ],
+  "non_eletti": [],
+  "totale_voti": 32,
+  "aventi_diritto": 96,
+  "perc_votanti": 33.33
+}

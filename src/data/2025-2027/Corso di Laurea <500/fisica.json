@@ -1,0 +1,65 @@
+{
+  "dipartimento": "FISICA-L-30-Laurea Triennale (D.M.270/2004)",
+  "quorum": false,
+  "seggi_da_assegnare": 8,
+  "schede": {
+    "bianche": 11,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "FASSARI ROSARIO",
+      "voti": 17
+    },
+    {
+      "nome_candidato": "DEL POPOLO GIULIANA",
+      "voti": 12
+    },
+    {
+      "nome_candidato": "AMORE SEBASTIANO",
+      "voti": 5
+    },
+    {
+      "nome_candidato": "TARZIA DOMENICO",
+      "voti": 11
+    },
+    {
+      "nome_candidato": "PALAMITO ANDREA",
+      "voti": 15
+    },
+    {
+      "nome_candidato": "CALA' PALMARINO GIACOMO",
+      "voti": 4
+    }
+  ],
+  "non_eletti": [
+    {
+      "nome_candidato": "LO MONACO FRANCESCO",
+      "voti": 5
+    },
+    {
+      "nome_candidato": "TRIBULATO EMANUELE",
+      "voti": 3
+    },
+    {
+      "nome_candidato": "COSTA FAUSTO",
+      "voti": 2
+    },
+    {
+      "nome_candidato": "SALVO DANIELE",
+      "voti": 1
+    },
+    {
+      "nome_candidato": "TITA SERGIO",
+      "voti": 14
+    },
+    {
+      "nome_candidato": "ALLEGRAMENTE LORENZO",
+      "voti": 2
+    }
+  ],
+  "totale_voti": 102,
+  "aventi_diritto": 339,
+  "perc_votanti": 30.09
+}

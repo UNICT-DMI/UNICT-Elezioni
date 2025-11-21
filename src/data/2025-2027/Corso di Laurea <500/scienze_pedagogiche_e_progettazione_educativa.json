@@ -1,0 +1,41 @@
+{
+  "dipartimento": "SCIENZE PEDAGOGICHE E PROGETTAZIONE EDUCATIVA-LM-85-Laurea Magistrale biennale",
+  "quorum": false,
+  "seggi_da_assegnare": 4,
+  "schede": {
+    "bianche": 1,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "VENTURA GIADA",
+      "voti": 21
+    },
+    {
+      "nome_candidato": "MILLAURO CARLOTTA",
+      "voti": 5
+    },
+    {
+      "nome_candidato": "OROFINO LUCA",
+      "voti": 10
+    }
+  ],
+  "non_eletti": [
+    {
+      "nome_candidato": "SANFILIPPO GIULIA",
+      "voti": 3
+    },
+    {
+      "nome_candidato": "PETROLITO MIRKO",
+      "voti": 9
+    },
+    {
+      "nome_candidato": "GAROFALO GIULIANA",
+      "voti": 3
+    }
+  ],
+  "totale_voti": 52,
+  "aventi_diritto": 321,
+  "perc_votanti": 16.2
+}

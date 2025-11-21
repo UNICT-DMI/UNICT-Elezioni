@@ -1,0 +1,41 @@
+{
+  "dipartimento": "FINANZA AZIENDALE-LM-77-Laurea Magistrale biennale (D.M.270/2004)",
+  "quorum": false,
+  "seggi_da_assegnare": 4,
+  "schede": {
+    "bianche": 1,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "PRIVITELLO GIULIA MARIA",
+      "voti": 4
+    },
+    {
+      "nome_candidato": "GRASSO ANTONIO",
+      "voti": 9
+    }
+  ],
+  "non_eletti": [
+    {
+      "nome_candidato": "ABRAMO ANTONIO",
+      "voti": 3
+    },
+    {
+      "nome_candidato": "PECORA ANTONINO ALDO",
+      "voti": 2
+    },
+    {
+      "nome_candidato": "LAURETTA ANITA",
+      "voti": 10
+    },
+    {
+      "nome_candidato": "GUARDO ANGELO JUNIOR",
+      "voti": 0
+    }
+  ],
+  "totale_voti": 29,
+  "aventi_diritto": 103,
+  "perc_votanti": 28.16
+}

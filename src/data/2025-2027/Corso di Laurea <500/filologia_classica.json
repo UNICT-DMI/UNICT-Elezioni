@@ -1,0 +1,33 @@
+{
+  "dipartimento": "FILOLOGIA CLASSICA-LM-15-Laurea Magistrale biennale (D.M.270/2004)",
+  "quorum": false,
+  "seggi_da_assegnare": 3,
+  "schede": {
+    "bianche": 2,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "SCARVAGLIERI ALBERTO MARIA",
+      "voti": 5
+    },
+    {
+      "nome_candidato": "BOSCO LUDOVICA",
+      "voti": 8
+    },
+    {
+      "nome_candidato": "CICITTA DANIELA",
+      "voti": 12
+    }
+  ],
+  "non_eletti": [
+    {
+      "nome_candidato": "GROSSO LORENZO",
+      "voti": 3
+    }
+  ],
+  "totale_voti": 30,
+  "aventi_diritto": 85,
+  "perc_votanti": 35.29
+}

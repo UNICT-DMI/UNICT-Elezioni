@@ -1,0 +1,77 @@
+{
+  "dipartimento": "ARCHITETTURA-LM-4 C.U.-Laurea Magistrale a ciclo unico (D.M. 270/2004)",
+  "quorum": false,
+  "seggi_da_assegnare": 8,
+  "schede": {
+    "bianche": 2,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "SALTALAMACCHIA PAOLA",
+      "voti": 3
+    },
+    {
+      "nome_candidato": "PAGANO VANESSA",
+      "voti": 10
+    },
+    {
+      "nome_candidato": "TEMPERA FEDERICO",
+      "voti": 17
+    },
+    {
+      "nome_candidato": "LIGGIERI JESSICA",
+      "voti": 6
+    },
+    {
+      "nome_candidato": "CUTELLI SANTI LUCA",
+      "voti": 18
+    },
+    {
+      "nome_candidato": "INGEGNERI SOFIA",
+      "voti": 16
+    },
+    {
+      "nome_candidato": "COMANDATORE AGOSTINO",
+      "voti": 5
+    },
+    {
+      "nome_candidato": "DI PAOLA RACHELE",
+      "voti": 3
+    }
+  ],
+  "non_eletti": [
+    {
+      "nome_candidato": "CULOTTA CLAUDIA",
+      "voti": 2
+    },
+    {
+      "nome_candidato": "SPOTO YLENIA",
+      "voti": 2
+    },
+    {
+      "nome_candidato": "PATANÈ SALVATORE",
+      "voti": 2
+    },
+    {
+      "nome_candidato": "LA TONA MARCO",
+      "voti": 11
+    },
+    {
+      "nome_candidato": "CARPINATO GIORGIA",
+      "voti": 2
+    },
+    {
+      "nome_candidato": "IUCULANO RICCARDO FRANCESCO",
+      "voti": 1
+    },
+    {
+      "nome_candidato": "PUGLISI ELENA",
+      "voti": 1
+    }
+  ],
+  "totale_voti": 101,
+  "aventi_diritto": 426,
+  "perc_votanti": 23.71
+}

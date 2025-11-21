@@ -1,0 +1,36 @@
+{
+  "dipartimento": "SCIENZE E TECNOLOGIE PER LA RISTORAZIONE E DISTRIBUZIONE DEGLI ALIMENTI MEDITERRANEI L-26-Laurea Triennale (D.M.270/2004)",
+  "quorum": false,
+  "seggi_da_assegnare": 6,
+  "schede": {
+    "bianche": 1,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "CARDINALE ILARIA",
+      "voti": 3
+    },
+    {
+      "nome_candidato": "SCHEMBARI FABIOLA",
+      "voti": 3
+    },
+    {
+      "nome_candidato": "INFURNARI ELIDE",
+      "voti": 3
+    },
+    {
+      "nome_candidato": "MUNZONE MORENO MARIA",
+      "voti": 6
+    },
+    {
+      "nome_candidato": "PRIVITERA FRANCESCO AGATINO",
+      "voti": 5
+    }
+  ],
+  "non_eletti": [],
+  "totale_voti": 21,
+  "aventi_diritto": 21,
+  "perc_votanti": 22.34
+}
