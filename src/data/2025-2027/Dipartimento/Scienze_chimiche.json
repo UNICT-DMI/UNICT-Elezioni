@@ -1,0 +1,158 @@
+{
+  "schede": {
+    "bianche": {
+      "totali": 4,
+      "seggio_n_telematico": 4
+    },
+    "nulle": {
+      "totali": 0
+    },
+    "contestate": {
+      "totali": 0
+    }
+  },
+  "liste": [
+    {
+      "nome": "SOS UniCT DSC",
+      "seggi": {
+        "seggi_pieni": "4",
+        "resti": "4,0",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "5"
+      },
+      "voti": {
+        "totali": "52",
+        "seggio_telematico": "52"
+      }
+    },
+    {
+      "nome": "Arcadia",
+      "seggi": {
+        "seggi_pieni": "2",
+        "resti": "3,4",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "2"
+      },
+      "voti": {
+        "totali": "28",
+        "seggio_telematico": "28"
+      }
+    },
+    {
+      "nome": "Azione Universitaria",
+      "seggi": {
+        "seggi_pieni": "1",
+        "resti": "7,5",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "2"
+      },
+      "voti": {
+        "totali": "20",
+        "seggio_telematico": "20"
+      }
+    },
+    {
+      "nome": "Koinè",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "11,0",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "-"
+      },
+      "voti": {
+        "totali": "11",
+        "seggio_telematico": "11"
+      }
+    },
+    {
+      "totale": 111
+    }
+  ],
+  "eletti": [
+    {
+      "nominativo": "FARO LUANA",
+      "lista": "SOS UniCT DSC",
+      "voti": {
+        "totali": 23,
+        "seggio_telematico": 23
+      }
+    },
+    {
+      "nominativo": "RIZZO MARIO",
+      "lista": "SOS UniCT DSC",
+      "voti": {
+        "totali": 16,
+        "seggio_telematico": 16
+      }
+    },
+    {
+      "nominativo": "CONSOLI ANDREA",
+      "lista": "SOS UniCT DSC",
+      "voti": {
+        "totali": 4,
+        "seggio_telematico": 4
+      }
+    },
+    {
+      "nominativo": "RAPISARDA PIETRO",
+      "lista": "SOS UniCT DSC",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
+      }
+    },
+    {
+      "nominativo": "DATTILO GIUSEPPE",
+      "lista": "SOS UniCT DSC",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "PATANE AGATINO",
+      "lista": "Arcadia",
+      "voti": {
+        "totali": 14,
+        "seggio_telematico": 14
+      }
+    },
+    {
+      "nominativo": "GULLOTTA ORAZIO",
+      "lista": "Arcadia",
+      "voti": {
+        "totali": 7,
+        "seggio_telematico": 7
+      }
+    },
+    {
+      "nominativo": "LAZZARO ARIANNA GIADA",
+      "lista": "Azione Universitaria",
+      "voti": {
+        "totali": 9,
+        "seggio_telematico": 9
+      }
+    },
+    {
+      "nominativo": "CANNATA ALESSANDRO",
+      "lista": "Azione Universitaria",
+      "voti": {
+        "totali": 5,
+        "seggio_telematico": 5
+      }
+    }
+  ],
+  "non_eletti": [],
+  "dipartimento": "ELEZIONI RAPPRESENTANTI IN SENO AL CONSIGLIO DEL DIPARTIMENTO DI SCIENZE CHIMICHE - STUDENTI BIENNIO 2025/2027",
+  "seggi_da_assegnare": "9",
+  "quoziente": 12.333,
+  "votanti": {
+    "totali": 117,
+    "percentuale": 25.38,
+    "seggio_n_telematico": 117
+  },
+  "elettori": {
+    "totali": 461,
+    "seggio_n_telematico": 461
+  }
+}

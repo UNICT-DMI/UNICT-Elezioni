@@ -1,0 +1,33 @@
+{
+  "dipartimento": "DIPARTIMENTO DI INGEGNERIA CIVILE E ARCHITETTURA",
+  "quorum": false,
+  "seggi_da_assegnare": 2,
+  "schede": {
+    "bianche": 1,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "MASSIMINO GRAZIA",
+      "voti": 16
+    },
+    {
+      "nome_candidato": "DENARO NICOLETTA",
+      "voti": 14
+    }
+  ],
+  "non_eletti": [
+    {
+      "nome_candidato": "LOMEO FRANCESCO",
+      "voti": 11
+    },
+    {
+      "nome_candidato": "VASTA DARIO",
+      "voti": 5
+    }
+  ],
+  "totale_voti": 47,
+  "aventi_diritto": 125,
+  "perc_votanti": 37.6
+}

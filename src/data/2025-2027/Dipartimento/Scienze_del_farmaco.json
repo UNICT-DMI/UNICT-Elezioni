@@ -1,0 +1,236 @@
+{
+  "schede": {
+    "bianche": {
+      "totali": 18,
+      "seggio_n_telematico": 18
+    },
+    "nulle": {
+      "totali": 0
+    },
+    "contestate": {
+      "totali": 0
+    }
+  },
+  "liste": [
+    {
+      "nome": "Azione Universitaria",
+      "seggi": {
+        "seggi_pieni": "2",
+        "resti": "11,9",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "3"
+      },
+      "voti": {
+        "totali": "117",
+        "seggio_telematico": "117"
+      }
+    },
+    {
+      "nome": "Supporto Studenti",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "16,8",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": "60",
+        "seggio_telematico": "60"
+      }
+    },
+    {
+      "nome": "WE LOVE UNICT",
+      "seggi": {
+        "seggi_pieni": "1",
+        "resti": "33,2",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "2"
+      },
+      "voti": {
+        "totali": "77",
+        "seggio_telematico": "77"
+      }
+    },
+    {
+      "nome": "CREDIAMOCI",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "19,5",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": "63",
+        "seggio_telematico": "63"
+      }
+    },
+    {
+      "nome": "ACTEA",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "18,1",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": "61",
+        "seggio_telematico": "61"
+      }
+    },
+    {
+      "nome": "SOS UniCT",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "26,8",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": "70",
+        "seggio_telematico": "70"
+      }
+    },
+    {
+      "nome": "FarmaCard",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "1,4",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "-"
+      },
+      "voti": {
+        "totali": "1",
+        "seggio_telematico": "1"
+      }
+    },
+    {
+      "nome": "Koinè",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "8,6",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "-"
+      },
+      "voti": {
+        "totali": "8",
+        "seggio_telematico": "8"
+      }
+    },
+    {
+      "nome": "Arcadia",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "1,4",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "-"
+      },
+      "voti": {
+        "totali": "1",
+        "seggio_telematico": "1"
+      }
+    },
+    {
+      "nome": "NIKE",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "0,0",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "-"
+      },
+      "voti": {
+        "totali": "0",
+        "seggio_telematico": "0"
+      }
+    },
+    {
+      "totale": 458
+    }
+  ],
+  "eletti": [
+    {
+      "nominativo": "NERI LUDOVICA",
+      "lista": "Azione Universitaria",
+      "voti": {
+        "totali": 34,
+        "seggio_telematico": 34
+      }
+    },
+    {
+      "nominativo": "LEOTTA LOREDANA",
+      "lista": "Azione Universitaria",
+      "voti": {
+        "totali": 40,
+        "seggio_telematico": 40
+      }
+    },
+    {
+      "nominativo": "CATALANO CARMEN MIRIAM",
+      "lista": "Azione Universitaria",
+      "voti": {
+        "totali": 31,
+        "seggio_telematico": 31
+      }
+    },
+    {
+      "nominativo": "RUSSO NICOLA",
+      "lista": "Supporto Studenti",
+      "voti": {
+        "totali": 20,
+        "seggio_telematico": 20
+      }
+    },
+    {
+      "nominativo": "FARO GIOVANNI",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 45,
+        "seggio_telematico": 45
+      }
+    },
+    {
+      "nominativo": "BONURA ALESSANDRO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 21,
+        "seggio_telematico": 21
+      }
+    },
+    {
+      "nominativo": "CHIFARI ANGELICA",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 43,
+        "seggio_telematico": 43
+      }
+    },
+    {
+      "nominativo": "CANNEMI DAVIDE CRISTIANO",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 32,
+        "seggio_telematico": 32
+      }
+    },
+    {
+      "nominativo": "GRUTTA ANNALISA",
+      "lista": "SOS UniCT",
+      "voti": {
+        "totali": 28,
+        "seggio_telematico": 28
+      }
+    }
+  ],
+  "non_eletti": [],
+  "dipartimento": "ELEZIONI RAPPRESENTANTI IN SENO AL CONSIGLIO DEL DIPARTIMENTO DI SCIENZE DEL FARMACO - STUDENTI BIENNIO 2025/2027",
+  "seggi_da_assegnare": "10",
+  "quoziente": 45.8,
+  "votanti": {
+    "totali": 450,
+    "percentuale": 33.96,
+    "seggio_n_telematico": 450
+  },
+  "elettori": {
+    "totali": 1325,
+    "seggio_n_telematico": 1325
+  }
+}

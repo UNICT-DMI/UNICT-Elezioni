@@ -1,0 +1,29 @@
+{
+  "dipartimento": "DIPARTIMENTO DI SCIENZE CHIMICHE",
+  "quorum": false,
+  "seggi_da_assegnare": 2,
+  "schede": {
+    "bianche": 1,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "FABIANO LUIGI",
+      "voti": 15
+    },
+    {
+      "nome_candidato": "CAVALLARO ALESSIA",
+      "voti": 3
+    }
+  ],
+  "non_eletti": [
+    {
+      "nome_candidato": "DEODATO DAVIDE",
+      "voti": 0
+    }
+  ],
+  "totale_voti": 19,
+  "aventi_diritto": 51,
+  "perc_votanti": 37.25
+}

@@ -1,0 +1,265 @@
+{
+  "schede": {
+    "bianche": {
+      "totali": 32,
+      "seggio_n_telematico": 32
+    },
+    "nulle": {
+      "totali": 0
+    },
+    "contestate": {
+      "totali": 0
+    }
+  },
+  "liste": [
+    {
+      "nome": "IPPOCRATE",
+      "seggi": {
+        "seggi_pieni": "1",
+        "resti": "35,7",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": "240",
+        "seggio_telematico": "240"
+      }
+    },
+    {
+      "nome": "LIBERTAS MEDICINA",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "179,0",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": "179",
+        "seggio_telematico": "179"
+      }
+    },
+    {
+      "nome": "INFOMED",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "47,0",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "-"
+      },
+      "voti": {
+        "totali": "47",
+        "seggio_telematico": "47"
+      }
+    },
+    {
+      "nome": "SOS UNICT",
+      "seggi": {
+        "seggi_pieni": "3",
+        "resti": "61,2",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "3"
+      },
+      "voti": {
+        "totali": "674",
+        "seggio_telematico": "674"
+      }
+    },
+    {
+      "nome": "WE LOVE SOS",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "163,0",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": "163",
+        "seggio_telematico": "163"
+      }
+    },
+    {
+      "nome": "La Finestra - Liberi di Scegliere",
+      "seggi": {
+        "seggi_pieni": "1",
+        "resti": "45,7",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": "250",
+        "seggio_telematico": "250"
+      }
+    },
+    {
+      "nome": "Orizzonte",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "140,0",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": "140",
+        "seggio_telematico": "140"
+      }
+    },
+    {
+      "nome": "ARCADIA",
+      "seggi": {
+        "seggi_pieni": "1",
+        "resti": "22,7",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": "227",
+        "seggio_telematico": "227"
+      }
+    },
+    {
+      "nome": "ACTEA - SVOLTA",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "95,0",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": "95",
+        "seggio_telematico": "95"
+      }
+    },
+    {
+      "nome": "CREDIAMOCI",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "179,0",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": "179",
+        "seggio_telematico": "179"
+      }
+    },
+    {
+      "nome": "SAI - Studenti Attivi e Informati",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "53,0",
+        "seggi_ai_resti": "-",
+        "seggi_totali": "-"
+      },
+      "voti": {
+        "totali": "53",
+        "seggio_telematico": "53"
+      }
+    },
+    {
+      "totale": 2247
+    }
+  ],
+  "eletti": [
+    {
+      "nominativo": "LEONARDI NICOLETTA",
+      "lista": "IPPOCRATE",
+      "voti": {
+        "totali": 75,
+        "seggio_telematico": 75
+      }
+    },
+    {
+      "nominativo": "INGRASSIA MARCO VINCENZO",
+      "lista": "LIBERTAS MEDICINA",
+      "voti": {
+        "totali": 38,
+        "seggio_telematico": 38
+      }
+    },
+    {
+      "nominativo": "MODICA GIOVANNI",
+      "lista": "SOS UNICT",
+      "voti": {
+        "totali": 91,
+        "seggio_telematico": 91
+      }
+    },
+    {
+      "nominativo": "CAPPA ROSARIO EMMANUEL",
+      "lista": "SOS UNICT",
+      "voti": {
+        "totali": 91,
+        "seggio_telematico": 91
+      }
+    },
+    {
+      "nominativo": "SICLARI GRAZIA",
+      "lista": "SOS UNICT",
+      "voti": {
+        "totali": 122,
+        "seggio_telematico": 122
+      }
+    },
+    {
+      "nominativo": "TANZARELLA MARTINA",
+      "lista": "WE LOVE SOS",
+      "voti": {
+        "totali": 67,
+        "seggio_telematico": 67
+      }
+    },
+    {
+      "nominativo": "TORRISI ELISABETTA",
+      "lista": "La Finestra - Liberi di Scegliere",
+      "voti": {
+        "totali": 56,
+        "seggio_telematico": 56
+      }
+    },
+    {
+      "nominativo": "BULGARI ANDREA MARCO",
+      "lista": "Orizzonte",
+      "voti": {
+        "totali": 52,
+        "seggio_telematico": 52
+      }
+    },
+    {
+      "nominativo": "CARRUBBA CALOGERO VALERIO",
+      "lista": "ARCADIA",
+      "voti": {
+        "totali": 96,
+        "seggio_telematico": 96
+      }
+    },
+    {
+      "nominativo": "CORVAIA DAVIDE",
+      "lista": "ACTEA - SVOLTA",
+      "voti": {
+        "totali": 33,
+        "seggio_telematico": 33
+      }
+    },
+    {
+      "nominativo": "COSTA GIORDANO",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 42,
+        "seggio_telematico": 42
+      }
+    }
+  ],
+  "non_eletti": [],
+  "dipartimento": "ELEZIONI RAPPRESENTANTI IN SENO AL CONSIGLIO DEL DIPARTIMENTO DI CHIRURGIA GENERALE E SPECIALITÀ MEDICO-CHIRURGICHE - STUDENTI BIENNIO 2025/2027",
+  "seggi_da_assegnare": "11",
+  "quoziente": 204.273,
+  "votanti": {
+    "totali": 2279,
+    "percentuale": 70.86,
+    "seggio_n_telematico": 2279
+  },
+  "elettori": {
+    "totali": 3216,
+    "seggio_n_telematico": 3216
+  }
+}

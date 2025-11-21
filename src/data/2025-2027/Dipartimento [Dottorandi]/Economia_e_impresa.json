@@ -1,0 +1,24 @@
+{
+  "dipartimento": "DIPARTIMENTO DI ECONOMIA E IMPRESA",
+  "quorum": true,
+  "seggi_da_assegnare": 2,
+  "schede": {
+    "bianche": 4,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "GALLEA ANTONIO",
+      "voti": 11
+    },
+    {
+      "nome_candidato": "ZAPPALA' SILVANO",
+      "voti": 10
+    }
+  ],
+  "non_eletti": [],
+  "totale_voti": 25,
+  "aventi_diritto": 30,
+  "perc_votanti": 83.33
+}

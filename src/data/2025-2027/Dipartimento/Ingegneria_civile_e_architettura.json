@@ -1,0 +1,342 @@
+{
+  "schede": {
+    "bianche": {
+      "totali": 12,
+      "seggio_n_telematico": 12
+    },
+    "nulle": {
+      "totali": 0
+    },
+    "contestate": {
+      "totali": 0
+    }
+  },
+  "liste": [
+    {
+      "nome": "Azione Universitaria",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "16,0",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "-"
+      },
+      "voti": {
+        "totali": "16",
+        "seggio_telematico": "16"
+      }
+    },
+    {
+      "nome": "IngegneriAttiva",
+      "seggi": {
+        "seggi_pieni": "2",
+        "resti": "21,9",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "2"
+      },
+      "voti": {
+        "totali": "101",
+        "seggio_telematico": "101"
+      }
+    },
+    {
+      "nome": "UNITAS",
+      "seggi": {
+        "seggi_pieni": "2",
+        "resti": "24,9",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "3"
+      },
+      "voti": {
+        "totali": "104",
+        "seggio_telematico": "104"
+      }
+    },
+    {
+      "nome": "SVOLTA - KOINE'",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "19,0",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "-"
+      },
+      "voti": {
+        "totali": "19",
+        "seggio_telematico": "19"
+      }
+    },
+    {
+      "nome": "La Finestra - Liberi di scegliere",
+      "seggi": {
+        "seggi_pieni": "2",
+        "resti": "30,9",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "3"
+      },
+      "voti": {
+        "totali": "110",
+        "seggio_telematico": "110"
+      }
+    },
+    {
+      "nome": "WE LOVE UNICT",
+      "seggi": {
+        "seggi_pieni": "3",
+        "resti": "3,4",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "3"
+      },
+      "voti": {
+        "totali": "122",
+        "seggio_telematico": "122"
+      }
+    },
+    {
+      "nome": "CREDIAMOCI",
+      "seggi": {
+        "seggi_pieni": "1",
+        "resti": "9,5",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": "49",
+        "seggio_telematico": "49"
+      }
+    },
+    {
+      "nome": "ACTEA",
+      "seggi": {
+        "seggi_pieni": "2",
+        "resti": "29,9",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "3"
+      },
+      "voti": {
+        "totali": "109",
+        "seggio_telematico": "109"
+      }
+    },
+    {
+      "nome": "DICARCONNECT",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "22,0",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": "22",
+        "seggio_telematico": "22"
+      }
+    },
+    {
+      "nome": "LOVE DICAR",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "26,0",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": "26",
+        "seggio_telematico": "26"
+      }
+    },
+    {
+      "nome": "LAYOUT",
+      "seggi": {
+        "seggi_pieni": "1",
+        "resti": "6,5",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": "46",
+        "seggio_telematico": "46"
+      }
+    },
+    {
+      "nome": "Cambiamento Ingegneria",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "27,0",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": "27",
+        "seggio_telematico": "27"
+      }
+    },
+    {
+      "totale": 751
+    }
+  ],
+  "eletti": [
+    {
+      "nominativo": "FOTI FRANCESCO",
+      "lista": "IngegneriAttiva",
+      "voti": {
+        "totali": 29,
+        "seggio_telematico": 29
+      }
+    },
+    {
+      "nominativo": "MANDUCA GABRIELE",
+      "lista": "IngegneriAttiva",
+      "voti": {
+        "totali": 37,
+        "seggio_telematico": 37
+      }
+    },
+    {
+      "nominativo": "RUSSO ROSARIO",
+      "lista": "UNITAS",
+      "voti": {
+        "totali": 52,
+        "seggio_telematico": 52
+      }
+    },
+    {
+      "nominativo": "FIORE DOMENICO",
+      "lista": "UNITAS",
+      "voti": {
+        "totali": 10,
+        "seggio_telematico": 10
+      }
+    },
+    {
+      "nominativo": "RAPISARDA ETTORE",
+      "lista": "UNITAS",
+      "voti": {
+        "totali": 11,
+        "seggio_telematico": 11
+      }
+    },
+    {
+      "nominativo": "VETRANO GAIA MORGANA MARIA",
+      "lista": "La Finestra - Liberi di scegliere",
+      "voti": {
+        "totali": 22,
+        "seggio_telematico": 22
+      }
+    },
+    {
+      "nominativo": "PATANÈ SALVATORE",
+      "lista": "La Finestra - Liberi di scegliere",
+      "voti": {
+        "totali": 32,
+        "seggio_telematico": 32
+      }
+    },
+    {
+      "nominativo": "PAGANO VANESSA",
+      "lista": "La Finestra - Liberi di scegliere",
+      "voti": {
+        "totali": 20,
+        "seggio_telematico": 20
+      }
+    },
+    {
+      "nominativo": "PUGLISI MATTIA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 28,
+        "seggio_telematico": 28
+      }
+    },
+    {
+      "nominativo": "FRAGAPANE VALERIO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 15,
+        "seggio_telematico": 15
+      }
+    },
+    {
+      "nominativo": "GARRA FRANCESCO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 20,
+        "seggio_telematico": 20
+      }
+    },
+    {
+      "nominativo": "FERRARA FEDERICA",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 20,
+        "seggio_telematico": 20
+      }
+    },
+    {
+      "nominativo": "LIOTTA GAETANO PIO",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 12,
+        "seggio_telematico": 12
+      }
+    },
+    {
+      "nominativo": "PELLEGRINO ADRIANA",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 27,
+        "seggio_telematico": 27
+      }
+    },
+    {
+      "nominativo": "MILAZZO ROBERTA",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 18,
+        "seggio_telematico": 18
+      }
+    },
+    {
+      "nominativo": "SCARDINO NICOLÒ",
+      "lista": "DICARCONNECT",
+      "voti": {
+        "totali": 17,
+        "seggio_telematico": 17
+      }
+    },
+    {
+      "nominativo": "SICALI FILIPPO ANGELO",
+      "lista": "LOVE DICAR",
+      "voti": {
+        "totali": 10,
+        "seggio_telematico": 10
+      }
+    },
+    {
+      "nominativo": "CAVALLARO ALICE",
+      "lista": "LAYOUT",
+      "voti": {
+        "totali": 23,
+        "seggio_telematico": 23
+      }
+    },
+    {
+      "nominativo": "LEANZA ALESSIO",
+      "lista": "Cambiamento Ingegneria",
+      "voti": {
+        "totali": 15,
+        "seggio_telematico": 15
+      }
+    }
+  ],
+  "non_eletti": [],
+  "dipartimento": "ELEZIONI RAPPRESENTANTI IN SENO AL CONSIGLIO DEL DIPARTIMENTO DI INGEGNERIA CIVILE E ARCHITETTURA - STUDENTI BIENNIO 2025/2027",
+  "seggi_da_assegnare": "19",
+  "quoziente": 39.5263,
+  "votanti": {
+    "totali": 763,
+    "percentuale": 43.35,
+    "seggio_n_telematico": 763
+  },
+  "elettori": {
+    "totali": 1760,
+    "seggio_n_telematico": 1760
+  }
+}

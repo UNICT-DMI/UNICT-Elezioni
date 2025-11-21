@@ -1,0 +1,24 @@
+{
+  "dipartimento": "DIPARTIMENTO DI GIURISPRUDENZA",
+  "quorum": true,
+  "seggi_da_assegnare": 2,
+  "schede": {
+    "bianche": 0,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "GIUFFRIDA LORENZO",
+      "voti": 11
+    },
+    {
+      "nome_candidato": "MARANO LEONARDO",
+      "voti": 8
+    }
+  ],
+  "non_eletti": [],
+  "totale_voti": 19,
+  "aventi_diritto": 34,
+  "perc_votanti": 55.88
+}

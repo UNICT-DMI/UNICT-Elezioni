@@ -1,0 +1,202 @@
+{
+  "schede": {
+    "bianche": {
+      "totali": 22,
+      "seggio_n_telematico": 22
+    },
+    "nulle": {
+      "totali": 0
+    },
+    "contestate": {
+      "totali": 0
+    }
+  },
+  "liste": [
+    {
+      "nome": "Azione Universiaria",
+      "seggi": {
+        "seggi_pieni": "2",
+        "resti": "67,8",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "3"
+      },
+      "voti": {
+        "totali": "240",
+        "seggio_telematico": "240"
+      }
+    },
+    {
+      "nome": "Supporto Studenti",
+      "seggi": {
+        "seggi_pieni": "1",
+        "resti": "22,9",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": "109",
+        "seggio_telematico": "109"
+      }
+    },
+    {
+      "nome": "STUDENTI PER IL DISFOR",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "70,0",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": "70",
+        "seggio_telematico": "70"
+      }
+    },
+    {
+      "nome": "CREDIAMOCI",
+      "seggi": {
+        "seggi_pieni": "1",
+        "resti": "49,9",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "2"
+      },
+      "voti": {
+        "totali": "136",
+        "seggio_telematico": "136"
+      }
+    },
+    {
+      "nome": "Koinè",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "66,0",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": "66",
+        "seggio_telematico": "66"
+      }
+    },
+    {
+      "nome": "Arcadia",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "25,0",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "-"
+      },
+      "voti": {
+        "totali": "25",
+        "seggio_telematico": "25"
+      }
+    },
+    {
+      "nome": "NIKE DISFOR",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "30,0",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "-"
+      },
+      "voti": {
+        "totali": "30",
+        "seggio_telematico": "30"
+      }
+    },
+    {
+      "nome": "WE LOVE UNICT",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "13,0",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "-"
+      },
+      "voti": {
+        "totali": "13",
+        "seggio_telematico": "13"
+      }
+    },
+    {
+      "totale": 689
+    }
+  ],
+  "eletti": [
+    {
+      "nominativo": "VENTURA GIADA",
+      "lista": "Azione Universiaria",
+      "voti": {
+        "totali": 104,
+        "seggio_telematico": 104
+      }
+    },
+    {
+      "nominativo": "PEDICONE VALENTINA",
+      "lista": "Azione Universiaria",
+      "voti": {
+        "totali": 68,
+        "seggio_telematico": 68
+      }
+    },
+    {
+      "nominativo": "RUSSO AURORA",
+      "lista": "Azione Universiaria",
+      "voti": {
+        "totali": 37,
+        "seggio_telematico": 37
+      }
+    },
+    {
+      "nominativo": "BONACITO ERIKA CARMEN",
+      "lista": "Supporto Studenti",
+      "voti": {
+        "totali": 33,
+        "seggio_telematico": 33
+      }
+    },
+    {
+      "nominativo": "RUGOLO GABRIELE SANTO",
+      "lista": "STUDENTI PER IL DISFOR",
+      "voti": {
+        "totali": 35,
+        "seggio_telematico": 35
+      }
+    },
+    {
+      "nominativo": "COCUZZA RUBINO VIRGINIA NOEMI",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 28,
+        "seggio_telematico": 28
+      }
+    },
+    {
+      "nominativo": "DISPENSA LORENZO",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 72,
+        "seggio_telematico": 72
+      }
+    },
+    {
+      "nominativo": "RADUNEATA POP LORENA CRISTINA",
+      "lista": "Koinè",
+      "voti": {
+        "totali": 39,
+        "seggio_telematico": 39
+      }
+    }
+  ],
+  "non_eletti": [],
+  "dipartimento": "ELEZIONI RAPPRESENTANTI IN SENO AL CONSIGLIO DEL DIPARTIMENTO DI SCIENZE DELLA FORMAZIONE - STUDENTI BIENNIO 2025/2027",
+  "seggi_da_assegnare": "8",
+  "quoziente": 86.125,
+  "votanti": {
+    "totali": 711,
+    "percentuale": 20.66,
+    "seggio_n_telematico": 711
+  },
+  "elettori": {
+    "totali": 3441,
+    "seggio_n_telematico": 3441
+  }
+}

@@ -1,0 +1,297 @@
+{
+  "schede": {
+    "bianche": {
+      "totali": 45,
+      "seggio_n_telematico": 45
+    },
+    "nulle": {
+      "totali": 0
+    },
+    "contestate": {
+      "totali": 0
+    }
+  },
+  "liste": [
+    {
+      "nome": "SVOLTA - KOINE'",
+      "seggi": {
+        "seggi_pieni": "1",
+        "resti": "13,1",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": "45",
+        "seggio_telematico": "45"
+      }
+    },
+    {
+      "nome": "INFOBIOMETEC",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "31,0",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": "31",
+        "seggio_telematico": "31"
+      }
+    },
+    {
+      "nome": "LIBERTAS UNICT",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "3,0",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "-"
+      },
+      "voti": {
+        "totali": "3",
+        "seggio_telematico": "3"
+      }
+    },
+    {
+      "nome": "Ippocrate",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "13,0",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "-"
+      },
+      "voti": {
+        "totali": "13",
+        "seggio_telematico": "13"
+      }
+    },
+    {
+      "nome": "BIOS EXPLORA",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "19,0",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": "19",
+        "seggio_telematico": "19"
+      }
+    },
+    {
+      "nome": "CREDIAMOCI",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "22,0",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": "22",
+        "seggio_telematico": "22"
+      }
+    },
+    {
+      "nome": "ACTEA",
+      "seggi": {
+        "seggi_pieni": "2",
+        "resti": "6,1",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "2"
+      },
+      "voti": {
+        "totali": "70",
+        "seggio_telematico": "70"
+      }
+    },
+    {
+      "nome": "WE LOVE UNICT",
+      "seggi": {
+        "seggi_pieni": "3",
+        "resti": "26,2",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "4"
+      },
+      "voti": {
+        "totali": "122",
+        "seggio_telematico": "122"
+      }
+    },
+    {
+      "nome": "SOS UNICT",
+      "seggi": {
+        "seggi_pieni": "2",
+        "resti": "19,1",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "3"
+      },
+      "voti": {
+        "totali": "83",
+        "seggio_telematico": "83"
+      }
+    },
+    {
+      "nome": "LOVE BIOMETEC",
+      "seggi": {
+        "seggi_pieni": "1",
+        "resti": "29,1",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "2"
+      },
+      "voti": {
+        "totali": "61",
+        "seggio_telematico": "61"
+      }
+    },
+    {
+      "nome": "Alleanza Universitaria",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "10,0",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "-"
+      },
+      "voti": {
+        "totali": "10",
+        "seggio_telematico": "10"
+      }
+    },
+    {
+      "totale": 479
+    }
+  ],
+  "eletti": [
+    {
+      "nominativo": "CARCIOTTO SERGIO",
+      "lista": "SVOLTA - KOINE'",
+      "voti": {
+        "totali": 8,
+        "seggio_telematico": 8
+      }
+    },
+    {
+      "nominativo": "DI GREGORIO VALERIA",
+      "lista": "INFOBIOMETEC",
+      "voti": {
+        "totali": 8,
+        "seggio_telematico": 8
+      }
+    },
+    {
+      "nominativo": "PERRONE DESIRÈ",
+      "lista": "BIOS EXPLORA",
+      "voti": {
+        "totali": 10,
+        "seggio_telematico": 10
+      }
+    },
+    {
+      "nominativo": "FALLICA GIUSEPPE",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 11,
+        "seggio_telematico": 11
+      }
+    },
+    {
+      "nominativo": "COLUCCIO AGATA",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 23,
+        "seggio_telematico": 23
+      }
+    },
+    {
+      "nominativo": "LA TERRA GIOVANNI",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 11,
+        "seggio_telematico": 11
+      }
+    },
+    {
+      "nominativo": "GRECO ANGELICA GAETANA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 28,
+        "seggio_telematico": 28
+      }
+    },
+    {
+      "nominativo": "FARINA ETTORE",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 25,
+        "seggio_telematico": 25
+      }
+    },
+    {
+      "nominativo": "PUMA SAMUELE",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 10,
+        "seggio_telematico": 10
+      }
+    },
+    {
+      "nominativo": "COSTARELLI FEDERICA MARIA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 16,
+        "seggio_telematico": 16
+      }
+    },
+    {
+      "nominativo": "CARBONE GIUSEPPE",
+      "lista": "SOS UNICT",
+      "voti": {
+        "totali": 47,
+        "seggio_telematico": 47
+      }
+    },
+    {
+      "nominativo": "FLORIO LORENZO",
+      "lista": "SOS UNICT",
+      "voti": {
+        "totali": 6,
+        "seggio_telematico": 6
+      }
+    },
+    {
+      "nominativo": "POLITI CHIARA MARIA",
+      "lista": "SOS UNICT",
+      "voti": {
+        "totali": 21,
+        "seggio_telematico": 21
+      }
+    },
+    {
+      "nominativo": "FIORELLO ALESSIO SALVATORE",
+      "lista": "LOVE BIOMETEC",
+      "voti": {
+        "totali": 40,
+        "seggio_telematico": 40
+      }
+    },
+    {
+      "nominativo": "MODICA RAGUSA NOEMI",
+      "lista": "LOVE BIOMETEC",
+      "voti": {
+        "totali": 5,
+        "seggio_telematico": 5
+      }
+    }
+  ],
+  "non_eletti": [],
+  "dipartimento": "ELEZIONI RAPPRESENTANTI IN SENO AL CONSIGLIO DEL DIPARTIMENTO DI SCIENZE BIOMEDICHE E BIOTECNOLOGICHE - STUDENTI BIENNIO 2025/2027",
+  "seggi_da_assegnare": "15",
+  "quoziente": 31.9333,
+  "votanti": {
+    "totali": 524,
+    "percentuale": 26.84,
+    "seggio_n_telematico": 524
+  },
+  "elettori": {
+    "totali": 1952,
+    "seggio_n_telematico": 1952
+  }
+}
