@@ -1,8 +1,8 @@
 {
     "schede": {
         "bianche": {
-            "totali": 14,
-            "seggio_n_telematico": 14
+            "totali": 15,
+            "seggio_n_telematico": 15
         },
         "nulle": {
             "totali": 0
@@ -15,152 +15,457 @@
         {
             "nome": "IURIS",
             "seggi": {
-                "seggi_pieni": "2",
-                "resti": "42,7",
-                "seggi_ai_resti": "1",
-                "seggi_totali": "3"
+                "seggi_pieni": "1",
+                "resti": "36,4",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
             },
             "voti": {
-                "totali": "185",
-                "seggio_telematico": "185"
+                "totali": "105",
+                "seggio_telematico": "105"
             }
         },
         {
-            "nome": "La Finestra - Liberi di Scegliere",
+            "nome": "Azione universitaria - infolex",
             "seggi": {
                 "seggi_pieni": "1",
-                "resti": "68,9",
-                "seggi_ai_resti": "1",
-                "seggi_totali": "2"
+                "resti": "3,4",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
             },
             "voti": {
-                "totali": "140",
-                "seggio_telematico": "140"
+                "totali": "72",
+                "seggio_telematico": "72"
             }
         },
         {
             "nome": "GiurisprudenzAttiva",
             "seggi": {
-                "seggi_pieni": "4",
-                "resti": "46,4",
+                "seggi_pieni": "3",
+                "resti": "50,1",
                 "seggi_ai_resti": "1",
-                "seggi_totali": "5"
+                "seggi_totali": "4"
             },
             "voti": {
-                "totali": "331",
-                "seggio_telematico": "331"
+                "totali": "256",
+                "seggio_telematico": "256"
             }
         },
         {
-            "nome": "AZIONE UNIVERSITARIA",
+            "nome": "GUARDIAMO AVANTI GIURISPRUDENZA",
             "seggi": {
                 "seggi_pieni": "-",
-                "resti": "32,0",
-                "seggi_ai_resti": "0",
-                "seggi_totali": "-"
+                "resti": "41,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
             },
             "voti": {
-                "totali": "32",
-                "seggio_telematico": "32"
+                "totali": "41",
+                "seggio_telematico": "41"
+            }
+        },
+        {
+            "nome": "La Finestra-Liberi di scegliere",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "59,4",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": "128",
+                "seggio_telematico": "128"
             }
         },
         {
             "nome": "CREDIAMOCI",
             "seggi": {
                 "seggi_pieni": "2",
-                "resti": "38,7",
+                "resti": "6,7",
                 "seggi_ai_resti": "0",
                 "seggi_totali": "2"
             },
             "voti": {
-                "totali": "181",
-                "seggio_telematico": "181"
+                "totali": "144",
+                "seggio_telematico": "144"
             }
         },
         {
-            "nome": "Alleanza Universitaria Ius Vivens",
+            "nome": "IUS VIVENS",
             "seggi": {
-                "seggi_pieni": "1",
-                "resti": "9,9",
-                "seggi_ai_resti": "0",
+                "seggi_pieni": "-",
+                "resti": "58,0",
+                "seggi_ai_resti": "1",
                 "seggi_totali": "1"
             },
             "voti": {
-                "totali": "81",
-                "seggio_telematico": "81"
+                "totali": "58",
+                "seggio_telematico": "58"
             }
         },
         {
-            "totale": 996
+            "nome": "CAMBIAMENTO GIURISPRUDENZA",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "59,4",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": "128",
+                "seggio_telematico": "128"
+            }
+        },
+        {
+            "nome": "NIKE LEX",
+            "seggi": {
+                "seggi_pieni": "961",
+                "resti": "15",
+                "seggi_ai_resti": "68,6429",
+                "seggi_totali": "976"
+            },
+            "voti": {
+                "totali": "9",
+                "seggio_telematico": "9"
+            }
+        },
+        {
+            "totale": 941
         }
     ],
     "eletti": [
         {
-            "nominativo": "LIBERTI Alessio",
+            "nominativo": "ROSANO SOPHIA",
             "lista": "IURIS",
             "voti": {
-                "totali": 79,
-                "seggio_telematico": 79
+                "totali": 0,
+                "seggio_telematico": 0
             }
         },
         {
-            "nominativo": "RISIGLIONE Teresa Claudia Detto Claudia Risiglione",
-            "lista": "IURIS",
+            "nominativo": "FUSTO MARIO EMANUELE PIO",
+            "lista": "Azione universitaria - infolex",
             "voti": {
-                "totali": 32,
-                "seggio_telematico": 32
+                "totali": 27,
+                "seggio_telematico": 27
             }
         },
         {
-            "nominativo": "PETRALIA Samuele",
-            "lista": "IURIS",
+            "nominativo": "DI LUCA CARDILLO ALESSANDRO",
+            "lista": "Azione universitaria - infolex",
             "voti": {
-                "totali": 20,
-                "seggio_telematico": 20
+                "totali": 10,
+                "seggio_telematico": 10
             }
         },
         {
-            "nominativo": "TESTA Luca",
-            "lista": "La Finestra - Liberi di Scegliere",
+            "nominativo": "SCIASCIO RACHELE",
+            "lista": "Azione universitaria - infolex",
             "voti": {
-                "totali": 49,
-                "seggio_telematico": 49
+                "totali": 7,
+                "seggio_telematico": 7
             }
         },
         {
-            "nominativo": "CHISARI Erika",
-            "lista": "La Finestra - Liberi di Scegliere",
+            "nominativo": "RANDAZZO GABRIELE",
+            "lista": "Azione universitaria - infolex",
             "voti": {
-                "totali": 29,
-                "seggio_telematico": 29
+                "totali": 1,
+                "seggio_telematico": 1
             }
         },
         {
-            "nominativo": "CACOPARDO Antonio",
-            "lista": "GiurisprudenzAttiva",
+            "nominativo": "FARO GIORDANO",
+            "lista": "Azione universitaria - infolex",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "FARANDA LUDOVICA",
+            "lista": "Azione universitaria - infolex",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "DOMINICI GIUSEPPE",
+            "lista": "Azione universitaria - infolex",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "AUTERI KAROL",
+            "lista": "Azione universitaria - infolex",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "URSO GIORGIA",
+            "lista": "Azione universitaria - infolex",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "DE LUCA FLAVIO GIUSEPPE",
+            "lista": "Azione universitaria - infolex",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "GIACCHI GIORGIA",
+            "lista": "Azione universitaria - infolex",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "ROLLO CARLOTTA",
+            "lista": "Azione universitaria - infolex",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "GRASSO VANESSA",
+            "lista": "Azione universitaria - infolex",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "DI MAURO CAROLINA",
+            "lista": "Azione universitaria - infolex",
+            "voti": {
+                "totali": 10,
+                "seggio_telematico": 10
+            }
+        },
+        {
+            "nominativo": "LO RE SVEVA AGATA",
+            "lista": "La Finestra-Liberi di scegliere",
+            "voti": {
+                "totali": 30,
+                "seggio_telematico": 30
+            }
+        },
+        {
+            "nominativo": "BARBAGALLO EDOARDO",
+            "lista": "La Finestra-Liberi di scegliere",
+            "voti": {
+                "totali": 39,
+                "seggio_telematico": 39
+            }
+        },
+        {
+            "nominativo": "GAROFALO FRANCESCA",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 30,
+                "seggio_telematico": 30
+            }
+        },
+        {
+            "nominativo": "SPAMPINATO GLORIA",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 23,
+                "seggio_telematico": 23
+            }
+        },
+        {
+            "nominativo": "GETULIO GESUALDO",
+            "lista": "CAMBIAMENTO GIURISPRUDENZA",
             "voti": {
                 "totali": 34,
                 "seggio_telematico": 34
             }
         },
         {
-            "nominativo": "CERRUTO Federico",
-            "lista": "GiurisprudenzAttiva",
+            "nominativo": "SELVAGGI CARLOTTA",
+            "lista": "CAMBIAMENTO GIURISPRUDENZA",
             "voti": {
-                "totali": 37,
-                "seggio_telematico": 37
+                "totali": 56,
+                "seggio_telematico": 56
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "ALBERTI ANGELO",
+            "lista": "IURIS",
+            "voti": {
+                "totali": 12,
+                "seggio_telematico": 12
             }
         },
         {
-            "nominativo": "MIANO Francesca",
-            "lista": "GiurisprudenzAttiva",
+            "nominativo": "CALABRESE LORENZO SILVESTRO",
+            "lista": "IURIS",
             "voti": {
-                "totali": 110,
-                "seggio_telematico": 110
+                "totali": 0,
+                "seggio_telematico": 0
             }
         },
         {
-            "nominativo": "PUCCIA Antonino",
+            "nominativo": "CARBONARO CARLA AGATA",
+            "lista": "IURIS",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "CRISAFI MARIA BAKHITA",
+            "lista": "IURIS",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "DI MAURO MIRIANA",
+            "lista": "IURIS",
+            "voti": {
+                "totali": 21,
+                "seggio_telematico": 21
+            }
+        },
+        {
+            "nominativo": "LEONARDI GIOVANNI GIUSEPPE",
+            "lista": "IURIS",
+            "voti": {
+                "totali": 7,
+                "seggio_telematico": 7
+            }
+        },
+        {
+            "nominativo": "LO BIANCO ESTHER",
+            "lista": "IURIS",
+            "voti": {
+                "totali": 13,
+                "seggio_telematico": 13
+            }
+        },
+        {
+            "nominativo": "PANASSIDI FRANCESCA AURORA",
+            "lista": "IURIS",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "PISTORIO CHIARA",
+            "lista": "IURIS",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "PUZZO SIMONE ANTONIO",
+            "lista": "IURIS",
+            "voti": {
+                "totali": 24,
+                "seggio_telematico": 24
+            }
+        },
+        {
+            "nominativo": "SPADARO LUANA",
+            "lista": "IURIS",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "TSKIRIA TEONA",
+            "lista": "IURIS",
+            "voti": {
+                "totali": 14,
+                "seggio_telematico": 14
+            }
+        },
+        {
+            "nominativo": "SOLARINO FABRIZIO",
+            "lista": "IURIS",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "RAGONESE COSTANTINO",
+            "lista": "GiurisprudenzAttiva",
+            "voti": {
+                "totali": 59,
+                "seggio_telematico": 59
+            }
+        },
+        {
+            "nominativo": "CANNIZZARO GAIA",
+            "lista": "GiurisprudenzAttiva",
+            "voti": {
+                "totali": 12,
+                "seggio_telematico": 12
+            }
+        },
+        {
+            "nominativo": "GAGLIANO VALERIO ORAZIO ANDREA",
+            "lista": "GiurisprudenzAttiva",
+            "voti": {
+                "totali": 19,
+                "seggio_telematico": 19
+            }
+        },
+        {
+            "nominativo": "ZUMBO VERONICA",
+            "lista": "GiurisprudenzAttiva",
+            "voti": {
+                "totali": 17,
+                "seggio_telematico": 17
+            }
+        },
+        {
+            "nominativo": "BRUNO MICHELA SILVIA AGATA",
+            "lista": "GiurisprudenzAttiva",
+            "voti": {
+                "totali": 14,
+                "seggio_telematico": 14
+            }
+        },
+        {
+            "nominativo": "VITALE GIOVANNI",
+            "lista": "GiurisprudenzAttiva",
+            "voti": {
+                "totali": 32,
+                "seggio_telematico": 32
+            }
+        },
+        {
+            "nominativo": "BUDONARO LUDOVICA",
+            "lista": "GiurisprudenzAttiva",
+            "voti": {
+                "totali": 13,
+                "seggio_telematico": 13
+            }
+        },
+        {
+            "nominativo": "VANGELISTA DANIELE",
             "lista": "GiurisprudenzAttiva",
             "voti": {
                 "totali": 39,
@@ -168,249 +473,39 @@
             }
         },
         {
-            "nominativo": "PISA Gianfrancesco Giuseppe Mario Detto Franz Pisa",
+            "nominativo": "NATIVO GIOVANNI AGATINO",
             "lista": "GiurisprudenzAttiva",
             "voti": {
-                "totali": 29,
-                "seggio_telematico": 29
+                "totali": 12,
+                "seggio_telematico": 12
             }
         },
         {
-            "nominativo": "FASSARI Federica",
-            "lista": "CREDIAMOCI",
+            "nominativo": "RUSSO MATTEO FRANCO",
+            "lista": "GiurisprudenzAttiva",
             "voti": {
-                "totali": 45,
-                "seggio_telematico": 45
+                "totali": 25,
+                "seggio_telematico": 25
             }
         },
         {
-            "nominativo": "VINCI Giorgia",
-            "lista": "CREDIAMOCI",
-            "voti": {
-                "totali": 40,
-                "seggio_telematico": 40
-            }
-        },
-        {
-            "nominativo": "CONDORELLI Giuseppe Detto Peppe",
-            "lista": "Alleanza Universitaria Ius Vivens",
-            "voti": {
-                "totali": 22,
-                "seggio_telematico": 22
-            }
-        },
-        {
-            "nominativo": "GRECO Marco",
-            "lista": "KOINÈ",
-            "voti": {
-                "totali": 15,
-                "seggio_telematico": 15
-            }
-        }
-    ],
-    "non_eletti": [
-        {
-            "nominativo": "DISCA Miriam",
-            "lista": "IURIS",
-            "voti": {
-                "totali": 1,
-                "seggio_telematico": 1
-            }
-        },
-        {
-            "nominativo": "INGANNÈ Chiara",
-            "lista": "IURIS",
-            "voti": {
-                "totali": 19,
-                "seggio_telematico": 19
-            }
-        },
-        {
-            "nominativo": "CARBONARO Carla Agata",
-            "lista": "IURIS",
-            "voti": {
-                "totali": 10,
-                "seggio_telematico": 10
-            }
-        },
-        {
-            "nominativo": "APRILE Marco",
-            "lista": "IURIS",
-            "voti": {
-                "totali": 9,
-                "seggio_telematico": 9
-            }
-        },
-        {
-            "nominativo": "MELI Gabriele",
-            "lista": "IURIS",
-            "voti": {
-                "totali": 15,
-                "seggio_telematico": 15
-            }
-        },
-        {
-            "nominativo": "PICONE Luca",
-            "lista": "IURIS",
+            "nominativo": "GRECO VINCENZO",
+            "lista": "GiurisprudenzAttiva",
             "voti": {
                 "totali": 0,
                 "seggio_telematico": 0
             }
         },
         {
-            "nominativo": "ECORA Sofia",
-            "lista": "IURIS",
-            "voti": {
-                "totali": 0,
-                "seggio_telematico": 0
-            }
-        },
-        {
-            "nominativo": "DEMETER Imola Beatrix",
-            "lista": "IURIS",
-            "voti": {
-                "totali": 0,
-                "seggio_telematico": 0
-            }
-        },
-        {
-            "nominativo": "ANELLO Roberta",
-            "lista": "La Finestra - Liberi di Scegliere",
-            "voti": {
-                "totali": 23,
-                "seggio_telematico": 23
-            }
-        },
-        {
-            "nominativo": "CELSA Giulia",
-            "lista": "La Finestra - Liberi di Scegliere",
-            "voti": {
-                "totali": 14,
-                "seggio_telematico": 14
-            }
-        },
-        {
-            "nominativo": "PUGLISI Martina Agata Maria",
-            "lista": "La Finestra - Liberi di Scegliere",
-            "voti": {
-                "totali": 7,
-                "seggio_telematico": 7
-            }
-        },
-        {
-            "nominativo": "PENNISI Virginia",
-            "lista": "La Finestra - Liberi di Scegliere",
-            "voti": {
-                "totali": 1,
-                "seggio_telematico": 1
-            }
-        },
-        {
-            "nominativo": "NICOTRA Mattia Antonio",
-            "lista": "La Finestra - Liberi di Scegliere",
+            "nominativo": "CARUSO CLAUDIA",
+            "lista": "GiurisprudenzAttiva",
             "voti": {
                 "totali": 6,
                 "seggio_telematico": 6
             }
         },
         {
-            "nominativo": "GIUMÀ Andrea",
-            "lista": "La Finestra - Liberi di Scegliere",
-            "voti": {
-                "totali": 0,
-                "seggio_telematico": 0
-            }
-        },
-        {
-            "nominativo": "RUSSOTTO Giulio",
-            "lista": "La Finestra - Liberi di Scegliere",
-            "voti": {
-                "totali": 1,
-                "seggio_telematico": 1
-            }
-        },
-        {
-            "nominativo": "CINNIRELLA Alessandro",
-            "lista": "La Finestra - Liberi di Scegliere",
-            "voti": {
-                "totali": 0,
-                "seggio_telematico": 0
-            }
-        },
-        {
-            "nominativo": "MUSUMECI Giorgio",
-            "lista": "La Finestra - Liberi di Scegliere",
-            "voti": {
-                "totali": 9,
-                "seggio_telematico": 9
-            }
-        },
-        {
-            "nominativo": "FAZZINO Giose'",
-            "lista": "La Finestra - Liberi di Scegliere",
-            "voti": {
-                "totali": 0,
-                "seggio_telematico": 0
-            }
-        },
-        {
-            "nominativo": "AMORE Mirko",
-            "lista": "GiurisprudenzAttiva",
-            "voti": {
-                "totali": 10,
-                "seggio_telematico": 10
-            }
-        },
-        {
-            "nominativo": "BARONE Giulia",
-            "lista": "GiurisprudenzAttiva",
-            "voti": {
-                "totali": 28,
-                "seggio_telematico": 28
-            }
-        },
-        {
-            "nominativo": "STELLA Carlo",
-            "lista": "GiurisprudenzAttiva",
-            "voti": {
-                "totali": 17,
-                "seggio_telematico": 17
-            }
-        },
-        {
-            "nominativo": "TROVATO Diletta Grazia",
-            "lista": "GiurisprudenzAttiva",
-            "voti": {
-                "totali": 15,
-                "seggio_telematico": 15
-            }
-        },
-        {
-            "nominativo": "CATENA Vincenzo Francesco",
-            "lista": "GiurisprudenzAttiva",
-            "voti": {
-                "totali": 1,
-                "seggio_telematico": 1
-            }
-        },
-        {
-            "nominativo": "SPEDALIERI Cristiana Francesca",
-            "lista": "GiurisprudenzAttiva",
-            "voti": {
-                "totali": 5,
-                "seggio_telematico": 5
-            }
-        },
-        {
-            "nominativo": "RUBINO Antonino Pietro Paolo Detto Nino Rubino",
-            "lista": "GiurisprudenzAttiva",
-            "voti": {
-                "totali": 1,
-                "seggio_telematico": 1
-            }
-        },
-        {
-            "nominativo": "INZOLI Ludovica",
+            "nominativo": "SPINA LARA",
             "lista": "GiurisprudenzAttiva",
             "voti": {
                 "totali": 2,
@@ -418,103 +513,183 @@
             }
         },
         {
-            "nominativo": "CLEMENTE Giulia",
-            "lista": "AZIONE UNIVERSITARIA",
-            "voti": {
-                "totali": 12,
-                "seggio_telematico": 12
-            }
-        },
-        {
-            "nominativo": "ARENA Mariaines",
-            "lista": "AZIONE UNIVERSITARIA",
-            "voti": {
-                "totali": 0,
-                "seggio_telematico": 0
-            }
-        },
-        {
-            "nominativo": "CAPIZZI Katia",
-            "lista": "AZIONE UNIVERSITARIA",
-            "voti": {
-                "totali": 1,
-                "seggio_telematico": 1
-            }
-        },
-        {
-            "nominativo": "MILITELLO Gabriele Angelo Vincenzo",
-            "lista": "AZIONE UNIVERSITARIA",
-            "voti": {
-                "totali": 0,
-                "seggio_telematico": 0
-            }
-        },
-        {
-            "nominativo": "CIMBALI Carlotta",
-            "lista": "AZIONE UNIVERSITARIA",
-            "voti": {
-                "totali": 12,
-                "seggio_telematico": 12
-            }
-        },
-        {
-            "nominativo": "MICELI Alessia",
-            "lista": "AZIONE UNIVERSITARIA",
-            "voti": {
-                "totali": 2,
-                "seggio_telematico": 2
-            }
-        },
-        {
-            "nominativo": "LA COLLA Gabriele",
-            "lista": "AZIONE UNIVERSITARIA",
-            "voti": {
-                "totali": 1,
-                "seggio_telematico": 1
-            }
-        },
-        {
-            "nominativo": "PRIVITERA Gabriele Carmelo Antonio",
-            "lista": "AZIONE UNIVERSITARIA",
+            "nominativo": "MESSINA VALERIA",
+            "lista": "GiurisprudenzAttiva",
             "voti": {
                 "totali": 3,
                 "seggio_telematico": 3
             }
         },
         {
-            "nominativo": "AMATO Giovanni Valerio Detto Gianvalerio",
-            "lista": "CREDIAMOCI",
+            "nominativo": "LA PORTA RUGGERO",
+            "lista": "GUARDIAMO AVANTI GIURISPRUDENZA",
             "voti": {
-                "totali": 9,
-                "seggio_telematico": 9
+                "totali": 19,
+                "seggio_telematico": 19
             }
         },
         {
-            "nominativo": "MAZZARA BOLOGNA Antonio Lucio",
-            "lista": "CREDIAMOCI",
+            "nominativo": "BUFFARDECI CHRISTIAN",
+            "lista": "GUARDIAMO AVANTI GIURISPRUDENZA",
             "voti": {
-                "totali": 20,
-                "seggio_telematico": 20
+                "totali": 3,
+                "seggio_telematico": 3
             }
         },
         {
-            "nominativo": "MARGHERITI Asia",
-            "lista": "CREDIAMOCI",
+            "nominativo": "PAPPALARDO EMMA",
+            "lista": "GUARDIAMO AVANTI GIURISPRUDENZA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "CUTULI MARZIA BARBARA",
+            "lista": "GUARDIAMO AVANTI GIURISPRUDENZA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "FINOCCHIARO ENRICO",
+            "lista": "GUARDIAMO AVANTI GIURISPRUDENZA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "CAUDULLO DAVIDE ALFREDO",
+            "lista": "GUARDIAMO AVANTI GIURISPRUDENZA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "LA VECCHIA EMANUELA",
+            "lista": "GUARDIAMO AVANTI GIURISPRUDENZA",
+            "voti": {
+                "totali": 10,
+                "seggio_telematico": 10
+            }
+        },
+        {
+            "nominativo": "FAZZINO GIOSE'",
+            "lista": "GUARDIAMO AVANTI GIURISPRUDENZA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "LEONARDI GIOVANNI LUCA",
+            "lista": "GUARDIAMO AVANTI GIURISPRUDENZA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "TROVATO GIANLUCA",
+            "lista": "GUARDIAMO AVANTI GIURISPRUDENZA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "D'ANNA VIVIANA MARIA LUCIA",
+            "lista": "GUARDIAMO AVANTI GIURISPRUDENZA",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nominativo": "CELSA GIULIA",
+            "lista": "La Finestra-Liberi di scegliere",
+            "voti": {
+                "totali": 18,
+                "seggio_telematico": 18
+            }
+        },
+        {
+            "nominativo": "BONGIOVANNI SERGIO",
+            "lista": "La Finestra-Liberi di scegliere",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "LAMENDOLA ROBERTA",
+            "lista": "La Finestra-Liberi di scegliere",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "SCALINI LORENZA",
+            "lista": "La Finestra-Liberi di scegliere",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "GRILLO LORENZA",
+            "lista": "La Finestra-Liberi di scegliere",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "PENNISI VIRGINIA",
+            "lista": "La Finestra-Liberi di scegliere",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "FRAGALÀ ROSARIO ANGELO PIO",
+            "lista": "La Finestra-Liberi di scegliere",
             "voti": {
                 "totali": 4,
                 "seggio_telematico": 4
             }
         },
         {
-            "nominativo": "BROGNA Enrico",
-            "lista": "CREDIAMOCI",
+            "nominativo": "MUSUMECI GIORGIO",
+            "lista": "La Finestra-Liberi di scegliere",
             "voti": {
-                "totali": 2,
-                "seggio_telematico": 2
+                "totali": 20,
+                "seggio_telematico": 20
             }
         },
         {
-            "nominativo": "CAMMARATA Concetta",
+            "nominativo": "DI BELLA TANCREDI",
+            "lista": "La Finestra-Liberi di scegliere",
+            "voti": {
+                "totali": 12,
+                "seggio_telematico": 12
+            }
+        },
+        {
+            "nominativo": "FERRAU' ANDREA GIUSEPPE",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 18,
+                "seggio_telematico": 18
+            }
+        },
+        {
+            "nominativo": "GESSARO JACOPO MARIO",
             "lista": "CREDIAMOCI",
             "voti": {
                 "totali": 21,
@@ -522,15 +697,7 @@
             }
         },
         {
-            "nominativo": "PASTANELLA Pietro",
-            "lista": "CREDIAMOCI",
-            "voti": {
-                "totali": 6,
-                "seggio_telematico": 6
-            }
-        },
-        {
-            "nominativo": "BIONDI Leonardo",
+            "nominativo": "AMATO GIOVANNI VALERIO",
             "lista": "CREDIAMOCI",
             "voti": {
                 "totali": 12,
@@ -538,15 +705,71 @@
             }
         },
         {
-            "nominativo": "LENA Greta",
+            "nominativo": "FIUMARA DOMENICO ROBERTO MARTINO",
             "lista": "CREDIAMOCI",
             "voti": {
-                "totali": 3,
-                "seggio_telematico": 3
+                "totali": 18,
+                "seggio_telematico": 18
             }
         },
         {
-            "nominativo": "TROVATO Emanuele",
+            "nominativo": "SIRINGO ANTONINO",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "RIELA SOFIA",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 9,
+                "seggio_telematico": 9
+            }
+        },
+        {
+            "nominativo": "LENA GRETA",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "GIUFFRIDA VINCENZA",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "CAPPELLO ELISA STEFANIAPIA",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "CONDORELLI GIULIA",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "RECCA GIULIA",
+            "lista": "CREDIAMOCI",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "COSTANTINO MATTEO TITO",
             "lista": "CREDIAMOCI",
             "voti": {
                 "totali": 1,
@@ -554,160 +777,224 @@
             }
         },
         {
-            "nominativo": "MAGGIULLI Enrico Edoardo Maria",
-            "lista": "CREDIAMOCI",
+            "nominativo": "CONDORELLI GIUSEPPE",
+            "lista": "IUS VIVENS",
             "voti": {
-                "totali": 13,
-                "seggio_telematico": 13
+                "totali": 32,
+                "seggio_telematico": 32
             }
         },
         {
-            "nominativo": "LA ROSA Virginia",
-            "lista": "CREDIAMOCI",
-            "voti": {
-                "totali": 0,
-                "seggio_telematico": 0
-            }
-        },
-        {
-            "nominativo": "MALIZIA Gesualdo Detto Aldo",
-            "lista": "CREDIAMOCI",
+            "nominativo": "EMANUELE SALVATORE GIULIO",
+            "lista": "IUS VIVENS",
             "voti": {
                 "totali": 5,
                 "seggio_telematico": 5
             }
         },
         {
-            "nominativo": "PISA Giuseppe Detto Peppe Pisa O Pisa",
-            "lista": "Alleanza Universitaria Ius Vivens",
-            "voti": {
-                "totali": 17,
-                "seggio_telematico": 17
-            }
-        },
-        {
-            "nominativo": "REINA Carlotta",
-            "lista": "Alleanza Universitaria Ius Vivens",
-            "voti": {
-                "totali": 0,
-                "seggio_telematico": 0
-            }
-        },
-        {
-            "nominativo": "TRANCHINA Paola",
-            "lista": "Alleanza Universitaria Ius Vivens",
-            "voti": {
-                "totali": 4,
-                "seggio_telematico": 4
-            }
-        },
-        {
-            "nominativo": "ALTESE Alberto",
-            "lista": "Alleanza Universitaria Ius Vivens",
+            "nominativo": "FARACI ANDREA",
+            "lista": "IUS VIVENS",
             "voti": {
                 "totali": 7,
                 "seggio_telematico": 7
             }
         },
         {
-            "nominativo": "MESSINA Gaetano",
-            "lista": "Alleanza Universitaria Ius Vivens",
+            "nominativo": "SPITALERI CHRISTIAN SALVATORE",
+            "lista": "IUS VIVENS",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "ATIG ADEM",
+            "lista": "IUS VIVENS",
             "voti": {
                 "totali": 3,
                 "seggio_telematico": 3
             }
         },
         {
-            "nominativo": "VINCI Jaklin",
-            "lista": "Alleanza Universitaria Ius Vivens",
+            "nominativo": "VECCHIO FRANCESCO",
+            "lista": "IUS VIVENS",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "MODICA GIORGIO",
+            "lista": "IUS VIVENS",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "DI STEFANO MIRKO",
+            "lista": "IUS VIVENS",
             "voti": {
                 "totali": 0,
                 "seggio_telematico": 0
             }
         },
         {
-            "nominativo": "CARBONARO Filippo Maria Paolo",
-            "lista": "Alleanza Universitaria Ius Vivens",
+            "nominativo": "DI FEDE KETHRIN",
+            "lista": "IUS VIVENS",
             "voti": {
-                "totali": 10,
-                "seggio_telematico": 10
+                "totali": 2,
+                "seggio_telematico": 2
             }
         },
         {
-            "nominativo": "IPPOLITO Salvatore",
-            "lista": "Alleanza Universitaria Ius Vivens",
-            "voti": {
-                "totali": 5,
-                "seggio_telematico": 5
-            }
-        },
-        {
-            "nominativo": "TUCCITTO Alessia",
-            "lista": "Alleanza Universitaria Ius Vivens",
-            "voti": {
-                "totali": 7,
-                "seggio_telematico": 7
-            }
-        },
-        {
-            "nominativo": "GUIDO Federico",
-            "lista": "Alleanza Universitaria Ius Vivens",
-            "voti": {
-                "totali": 6,
-                "seggio_telematico": 6
-            }
-        },
-        {
-            "nominativo": "MANGIAFICO Alessandro",
-            "lista": "KOINÈ",
-            "voti": {
-                "totali": 4,
-                "seggio_telematico": 4
-            }
-        },
-        {
-            "nominativo": "MIRISCIOTTI Matilde Letizia",
-            "lista": "KOINÈ",
-            "voti": {
-                "totali": 6,
-                "seggio_telematico": 6
-            }
-        },
-        {
-            "nominativo": "GIARRATANO Federica",
-            "lista": "KOINÈ",
+            "nominativo": "SANGRIGOLI EGLE",
+            "lista": "IUS VIVENS",
             "voti": {
                 "totali": 0,
                 "seggio_telematico": 0
             }
         },
         {
-            "nominativo": "HERATH Shehara Nethmini",
-            "lista": "KOINÈ",
+            "nominativo": "GIARDINA EMANUELE",
+            "lista": "IUS VIVENS",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "TUCCITTO ALESSIA",
+            "lista": "IUS VIVENS",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "ILARDO GAIA MARIA",
+            "lista": "CAMBIAMENTO GIURISPRUDENZA",
+            "voti": {
+                "totali": 20,
+                "seggio_telematico": 20
+            }
+        },
+        {
+            "nominativo": "MARCANTONIO RICCARDO",
+            "lista": "CAMBIAMENTO GIURISPRUDENZA",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "ROSSITTO CATERINA",
+            "lista": "CAMBIAMENTO GIURISPRUDENZA",
+            "voti": {
+                "totali": 12,
+                "seggio_telematico": 12
+            }
+        },
+        {
+            "nominativo": "CASTELLETTI DAVIDE",
+            "lista": "CAMBIAMENTO GIURISPRUDENZA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "BARBAGIOVANNI MIRACOLO MARIA PIA",
+            "lista": "CAMBIAMENTO GIURISPRUDENZA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "DI MARIA BEATRICE LUCIA ANGELA",
+            "lista": "CAMBIAMENTO GIURISPRUDENZA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "MISSERI GIORGIA",
+            "lista": "NIKE LEX",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "RUNDO MARYLU'",
+            "lista": "NIKE LEX",
+            "voti": {
+                "totali": 12,
+                "seggio_telematico": 12
+            }
+        },
+        {
+            "nominativo": "TROVATO DILETTA GRAZIA",
+            "lista": "NIKE LEX",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "PIRRONE VITTORIA",
+            "lista": "NIKE LEX",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "SATURNINO ANGELO DANILO",
+            "lista": "NIKE LEX",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "GULISANO ELENA AGATA",
+            "lista": "NIKE LEX",
             "voti": {
                 "totali": 7,
                 "seggio_telematico": 7
             }
         },
         {
-            "nominativo": "NICOLOSI Luigi",
-            "lista": "KOINÈ",
+            "nominativo": "LEONARDI GUIDO",
+            "lista": "NIKE LEX",
             "voti": {
-                "totali": 14,
-                "seggio_telematico": 14
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "SCHIRRIPA GABRIELE",
+            "lista": "NIKE LEX",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
             }
         }
     ],
     "dipartimento": "GIURISPRUDENZA-LMG/01-Laurea Magistrale a ciclo unico (D.M. 270/2004)",
     "seggi_da_assegnare": "14",
-    "quoziente": 71.143,
+    "quoziente": 68.6429,
     "votanti": {
-        "totali": 1010,
-        "percentuale": 43.4,
-        "seggio_n_telematico": 1010
+        "totali": 976,
+        "percentuale": 0.0,
+        "seggio_n_telematico": 976
     },
     "elettori": {
-        "totali": 2327,
-        "seggio_n_telematico": 2327
+        "totali": 2208,
+        "seggio_n_telematico": 2208
     }
 }

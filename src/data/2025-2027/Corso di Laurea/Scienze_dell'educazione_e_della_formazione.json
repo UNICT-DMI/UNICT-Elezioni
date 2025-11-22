@@ -1,8 +1,8 @@
 {
     "schede": {
         "bianche": {
-            "totali": 2,
-            "seggio_n_telematico": 2
+            "totali": 5,
+            "seggio_n_telematico": 5
         },
         "nulle": {
             "totali": 0
@@ -13,20 +13,72 @@
     },
     "liste": [
         {
-            "nome": "AZIONE UNIVERSITARIA",
+            "nome": "Azione Universiaria",
             "seggi": {
-                "seggi_pieni": "3",
-                "resti": "9,3",
-                "seggi_ai_resti": "0",
+                "seggi_pieni": "2",
+                "resti": "20,3",
+                "seggi_ai_resti": "1",
                 "seggi_totali": "3"
             },
             "voti": {
-                "totali": "90",
-                "seggio_telematico": "90"
+                "totali": "67",
+                "seggio_telematico": "67"
             }
         },
         {
-            "nome": "WE LOVE UNICT",
+            "nome": "SUPPORTO STUDENTI",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "11,3",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "3"
+            },
+            "voti": {
+                "totali": "58",
+                "seggio_telematico": "58"
+            }
+        },
+        {
+            "nome": "STUDENTI PER IL DISFOR",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "2,3",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": "49",
+                "seggio_telematico": "49"
+            }
+        },
+        {
+            "nome": "RIFORMA-MENTIS",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "19,0",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": "19",
+                "seggio_telematico": "19"
+            }
+        },
+        {
+            "nome": "Koinè",
+            "seggi": {
+                "seggi_pieni": "-",
+                "resti": "7,0",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "-"
+            },
+            "voti": {
+                "totali": "7",
+                "seggio_telematico": "7"
+            }
+        },
+        {
+            "nome": "CAMBIAMENTO DISFOR",
             "seggi": {
                 "seggi_pieni": "-",
                 "resti": "10,0",
@@ -39,230 +91,255 @@
             }
         },
         {
-            "nome": "SUPPORTO STUDENTI",
-            "seggi": {
-                "seggi_pieni": "3",
-                "resti": "15,3",
-                "seggi_ai_resti": "1",
-                "seggi_totali": "4"
-            },
-            "voti": {
-                "totali": "96",
-                "seggio_telematico": "96"
-            }
-        },
-        {
-            "nome": "Alleanza Universitaria",
-            "seggi": {
-                "seggi_pieni": "-",
-                "resti": "5,0",
-                "seggi_ai_resti": "0",
-                "seggi_totali": "-"
-            },
-            "voti": {
-                "totali": "5",
-                "seggio_telematico": "5"
-            }
-        },
-        {
-            "nome": "Primavera degli Studenti",
-            "seggi": {
-                "seggi_pieni": "1",
-                "resti": "14,1",
-                "seggi_ai_resti": "1",
-                "seggi_totali": "2"
-            },
-            "voti": {
-                "totali": "41",
-                "seggio_telematico": "41"
-            }
-        },
-        {
-            "totale": 242
+            "totale": 210
         }
     ],
     "eletti": [
         {
-            "nominativo": "PETROLITO Mirko",
-            "lista": "AZIONE UNIVERSITARIA",
+            "nominativo": "RUSSO AURORA",
+            "lista": "Azione Universiaria",
             "voti": {
-                "totali": 26,
-                "seggio_telematico": 26
+                "totali": 31,
+                "seggio_telematico": 31
             }
         },
         {
-            "nominativo": "SPAMPINATO Rebecca",
-            "lista": "AZIONE UNIVERSITARIA",
-            "voti": {
-                "totali": 17,
-                "seggio_telematico": 17
-            }
-        },
-        {
-            "nominativo": "CATALANO Alessia",
-            "lista": "AZIONE UNIVERSITARIA",
-            "voti": {
-                "totali": 16,
-                "seggio_telematico": 16
-            }
-        },
-        {
-            "nominativo": "VENTURA Giada",
-            "lista": "SUPPORTO STUDENTI",
-            "voti": {
-                "totali": 41,
-                "seggio_telematico": 41
-            }
-        },
-        {
-            "nominativo": "OREFICE Giulia",
-            "lista": "SUPPORTO STUDENTI",
+            "nominativo": "MAZZAMUTO MATILDA",
+            "lista": "Azione Universiaria",
             "voti": {
                 "totali": 20,
                 "seggio_telematico": 20
             }
         },
         {
-            "nominativo": "RUGOLO Gabriele Santo",
+            "nominativo": "BRECCIA AMIRA",
             "lista": "SUPPORTO STUDENTI",
             "voti": {
-                "totali": 27,
-                "seggio_telematico": 27
+                "totali": 14,
+                "seggio_telematico": 14
             }
         },
         {
-            "nominativo": "VINCI Simona",
+            "nominativo": "RUGOLO GABRIELE SANTO",
             "lista": "SUPPORTO STUDENTI",
             "voti": {
-                "totali": 5,
-                "seggio_telematico": 5
-            }
-        },
-        {
-            "nominativo": "GEREMIA Giuseppe",
-            "lista": "Primavera degli Studenti",
-            "voti": {
-                "totali": 5,
-                "seggio_telematico": 5
-            }
-        },
-        {
-            "nominativo": "MONTANUCCI Emanuela",
-            "lista": "Primavera degli Studenti",
-            "voti": {
-                "totali": 32,
-                "seggio_telematico": 32
+                "totali": 26,
+                "seggio_telematico": 26
             }
         }
     ],
     "non_eletti": [
         {
-            "nominativo": "RUSSO Giada Maria",
-            "lista": "AZIONE UNIVERSITARIA",
-            "voti": {
-                "totali": 10,
-                "seggio_telematico": 10
-            }
-        },
-        {
-            "nominativo": "CRESCENTI Marika",
-            "lista": "AZIONE UNIVERSITARIA",
-            "voti": {
-                "totali": 16,
-                "seggio_telematico": 16
-            }
-        },
-        {
-            "nominativo": "VELLA Sabrina",
-            "lista": "AZIONE UNIVERSITARIA",
+            "nominativo": "CARINO SYRIA DANIELA",
+            "lista": "Azione Universiaria",
             "voti": {
                 "totali": 5,
                 "seggio_telematico": 5
             }
         },
         {
-            "nominativo": "CENTAMORE Irene Barbara",
-            "lista": "WE LOVE UNICT",
+            "nominativo": "PIRAINO REBECCA",
+            "lista": "Azione Universiaria",
             "voti": {
-                "totali": 9,
-                "seggio_telematico": 9
+                "totali": 7,
+                "seggio_telematico": 7
             }
         },
         {
-            "nominativo": "PULVIRENTI Giorgia Rosa",
-            "lista": "WE LOVE UNICT",
+            "nominativo": "ARGENTI ESTER",
+            "lista": "Azione Universiaria",
             "voti": {
                 "totali": 1,
                 "seggio_telematico": 1
             }
         },
         {
-            "nominativo": "GRANATA Elisa",
+            "nominativo": "GULIZIA FRANCESCA",
+            "lista": "Azione Universiaria",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "BASILE GIORGIA",
             "lista": "SUPPORTO STUDENTI",
+            "voti": {
+                "totali": 7,
+                "seggio_telematico": 7
+            }
+        },
+        {
+            "nominativo": "RAPISARDA FEDERICA MARIAPIA",
+            "lista": "SUPPORTO STUDENTI",
+            "voti": {
+                "totali": 10,
+                "seggio_telematico": 10
+            }
+        },
+        {
+            "nominativo": "BONACITO ERIKA CARMEN",
+            "lista": "STUDENTI PER IL DISFOR",
+            "voti": {
+                "totali": 32,
+                "seggio_telematico": 32
+            }
+        },
+        {
+            "nominativo": "FRAGALÀ BEATRICE",
+            "lista": "STUDENTI PER IL DISFOR",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nominativo": "MAGISTRO KATIA",
+            "lista": "STUDENTI PER IL DISFOR",
             "voti": {
                 "totali": 3,
                 "seggio_telematico": 3
             }
         },
         {
-            "nominativo": "CARTILLONE Eleonora",
-            "lista": "Alleanza Universitaria",
+            "nominativo": "FORTI ANTONINO ANGELO DANILO",
+            "lista": "STUDENTI PER IL DISFOR",
             "voti": {
-                "totali": 5,
-                "seggio_telematico": 5
+                "totali": 8,
+                "seggio_telematico": 8
             }
         },
         {
-            "nominativo": "RUSSO Benedetta",
-            "lista": "Primavera degli Studenti",
+            "nominativo": "MAESANO MARTINA",
+            "lista": "RIFORMA-MENTIS",
             "voti": {
-                "totali": 0,
-                "seggio_telematico": 0
+                "totali": 11,
+                "seggio_telematico": 11
             }
         },
         {
-            "nominativo": "MULÈ Chiara",
-            "lista": "Primavera degli Studenti",
+            "nominativo": "SICURELLA GIORGIO",
+            "lista": "RIFORMA-MENTIS",
             "voti": {
-                "totali": 0,
-                "seggio_telematico": 0
+                "totali": 2,
+                "seggio_telematico": 2
             }
         },
         {
-            "nominativo": "RUSSO Rachele Maria",
-            "lista": "Primavera degli Studenti",
+            "nominativo": "TOLEDO SYRIA",
+            "lista": "RIFORMA-MENTIS",
             "voti": {
-                "totali": 0,
-                "seggio_telematico": 0
+                "totali": 3,
+                "seggio_telematico": 3
             }
         },
         {
-            "nominativo": "MODICA Gabriella Maria",
-            "lista": "Primavera degli Studenti",
+            "nominativo": "TRUSCIA SARA",
+            "lista": "RIFORMA-MENTIS",
             "voti": {
-                "totali": 0,
-                "seggio_telematico": 0
+                "totali": 3,
+                "seggio_telematico": 3
             }
         },
         {
-            "nominativo": "NASTA Isabella",
-            "lista": "Primavera degli Studenti",
+            "nominativo": "SCARDACI GIULIANA",
+            "lista": "Koinè",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "LANZA MORGANA",
+            "lista": "Koinè",
             "voti": {
                 "totali": 4,
                 "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "AMATO AURORA",
+            "lista": "Koinè",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "ROMANO MARIKA",
+            "lista": "Koinè",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "CATANIA CARLOTTA",
+            "lista": "Koinè",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "TRIGILIA NOELIA ANNA",
+            "lista": "Koinè",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "DI BENNARDO LUDOVICA",
+            "lista": "Koinè",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "CALANDUCCI CLELIA",
+            "lista": "Koinè",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "LA CAVA LUANA",
+            "lista": "Koinè",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "TERRANOVA SAMIRA",
+            "lista": "CAMBIAMENTO DISFOR",
+            "voti": {
+                "totali": 8,
+                "seggio_telematico": 8
+            }
+        },
+        {
+            "nominativo": "NICOTRA LAURA",
+            "lista": "CAMBIAMENTO DISFOR",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
             }
         }
     ],
     "dipartimento": "SCIENZE DELL'EDUCAZIONE E DELLA FORMAZIONE-L-19-Laurea Triennale (D.M.270/2004)",
     "seggi_da_assegnare": "9",
-    "quoziente": 26.8889,
+    "quoziente": 23.3333,
     "votanti": {
-        "totali": 244,
-        "percentuale": 26.24,
-        "seggio_n_telematico": 244
+        "totali": 215,
+        "percentuale": 17.28,
+        "seggio_n_telematico": 215
     },
     "elettori": {
-        "totali": 930,
-        "seggio_n_telematico": 930
+        "totali": 1244,
+        "seggio_n_telematico": 1244
     }
 }

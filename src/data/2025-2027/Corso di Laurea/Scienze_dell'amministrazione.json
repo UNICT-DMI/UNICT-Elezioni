@@ -1,8 +1,8 @@
 {
     "schede": {
         "bianche": {
-            "totali": 9,
-            "seggio_n_telematico": 9
+            "totali": 6,
+            "seggio_n_telematico": 6
         },
         "nulle": {
             "totali": 0
@@ -16,216 +16,208 @@
             "nome": "AZIONE UNIVERSITARIA",
             "seggi": {
                 "seggi_pieni": "1",
-                "resti": "23,0",
+                "resti": "28,4",
                 "seggi_ai_resti": "1",
                 "seggi_totali": "2"
             },
             "voti": {
-                "totali": "61",
-                "seggio_telematico": "61"
+                "totali": "59",
+                "seggio_telematico": "59"
+            }
+        },
+        {
+            "nome": "Oltre DSPS",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "23,4",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": "54",
+                "seggio_telematico": "54"
+            }
+        },
+        {
+            "nome": "Arcadia",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "5,4",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "1"
+            },
+            "voti": {
+                "totali": "36",
+                "seggio_telematico": "36"
             }
         },
         {
             "nome": "WE LOVE UNICT",
             "seggi": {
-                "seggi_pieni": "2",
-                "resti": "25,0",
-                "seggi_ai_resti": "1",
-                "seggi_totali": "3"
-            },
-            "voti": {
-                "totali": "101",
-                "seggio_telematico": "101"
-            }
-        },
-        {
-            "nome": "AD MAIORA - Supporto Studenti",
-            "seggi": {
                 "seggi_pieni": "-",
-                "resti": "15,0",
+                "resti": "4,0",
                 "seggi_ai_resti": "0",
                 "seggi_totali": "-"
             },
             "voti": {
-                "totali": "15",
-                "seggio_telematico": "15"
+                "totali": "4",
+                "seggio_telematico": "4"
             }
         },
         {
-            "nome": "Generazione Attiva",
-            "seggi": {
-                "seggi_pieni": "-",
-                "resti": "13,0",
-                "seggi_ai_resti": "0",
-                "seggi_totali": "-"
-            },
-            "voti": {
-                "totali": "13",
-                "seggio_telematico": "13"
-            }
-        },
-        {
-            "totale": 190
+            "totale": 153
         }
     ],
     "eletti": [
         {
-            "nominativo": "GRIENTI Noemi",
-            "lista": "AZIONE UNIVERSITARIA",
-            "voti": {
-                "totali": 23,
-                "seggio_telematico": 23
-            }
-        },
-        {
-            "nominativo": "MERTOLI Carmelo Gabriele",
-            "lista": "AZIONE UNIVERSITARIA",
-            "voti": {
-                "totali": 25,
-                "seggio_telematico": 25
-            }
-        },
-        {
-            "nominativo": "PINZONE Linda Celeste",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 29,
-                "seggio_telematico": 29
-            }
-        },
-        {
-            "nominativo": "BARBERA Roberta",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 29,
-                "seggio_telematico": 29
-            }
-        },
-        {
-            "nominativo": "COSTANZO Lorenzo Giuseppe Davide",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 22,
-                "seggio_telematico": 22
-            }
-        }
-    ],
-    "non_eletti": [
-        {
-            "nominativo": "ROCCUZZO Elisa",
-            "lista": "AZIONE UNIVERSITARIA",
-            "voti": {
-                "totali": 11,
-                "seggio_telematico": 11
-            }
-        },
-        {
-            "nominativo": "CRIMALDI Enrico Maria",
-            "lista": "AZIONE UNIVERSITARIA",
-            "voti": {
-                "totali": 1,
-                "seggio_telematico": 1
-            }
-        },
-        {
-            "nominativo": "MACCARRONE Agnese",
-            "lista": "AZIONE UNIVERSITARIA",
-            "voti": {
-                "totali": 1,
-                "seggio_telematico": 1
-            }
-        },
-        {
-            "nominativo": "RINELLI Pietro",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 3,
-                "seggio_telematico": 3
-            }
-        },
-        {
-            "nominativo": "ARDIZZONE Luca",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 17,
-                "seggio_telematico": 17
-            }
-        },
-        {
-            "nominativo": "ALOI Flavia",
-            "lista": "AD MAIORA - Supporto Studenti",
-            "voti": {
-                "totali": 4,
-                "seggio_telematico": 4
-            }
-        },
-        {
-            "nominativo": "SPINA Carmelo",
-            "lista": "AD MAIORA - Supporto Studenti",
-            "voti": {
-                "totali": 9,
-                "seggio_telematico": 9
-            }
-        },
-        {
-            "nominativo": "BRUNO Antonio",
-            "lista": "AD MAIORA - Supporto Studenti",
-            "voti": {
-                "totali": 0,
-                "seggio_telematico": 0
-            }
-        },
-        {
-            "nominativo": "CARUSO Alexia",
-            "lista": "AD MAIORA - Supporto Studenti",
-            "voti": {
-                "totali": 0,
-                "seggio_telematico": 0
-            }
-        },
-        {
-            "nominativo": "MINACAPELLI Vittorio",
-            "lista": "AD MAIORA - Supporto Studenti",
-            "voti": {
-                "totali": 2,
-                "seggio_telematico": 2
-            }
-        },
-        {
-            "nominativo": "BONFANTE Fabio",
-            "lista": "Generazione Attiva",
-            "voti": {
-                "totali": 4,
-                "seggio_telematico": 4
-            }
-        },
-        {
-            "nominativo": "MAZZEO Francesco",
-            "lista": "Generazione Attiva",
+            "nominativo": "COSTANZO LORENZO GIUSEPPE DAVIDE",
+            "lista": "Oltre DSPS",
             "voti": {
                 "totali": 8,
                 "seggio_telematico": 8
             }
         },
         {
-            "nominativo": "IDONEA Lorenzo",
-            "lista": "Generazione Attiva",
+            "nominativo": "PERNAGALLO LORENA",
+            "lista": "Oltre DSPS",
             "voti": {
-                "totali": 0,
-                "seggio_telematico": 0
+                "totali": 37,
+                "seggio_telematico": 37
             }
         },
         {
-            "nominativo": "GIANINO Giulia",
-            "lista": "Generazione Attiva",
+            "nominativo": "CIPRIANO ALESSIA",
+            "lista": "Oltre DSPS",
+            "voti": {
+                "totali": 8,
+                "seggio_telematico": 8
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "MANRIQUE REBECCA MAYA",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 27,
+                "seggio_telematico": 27
+            }
+        },
+        {
+            "nominativo": "MERTOLI CARMELO GABRIELE",
+            "lista": "AZIONE UNIVERSITARIA",
             "voti": {
                 "totali": 1,
                 "seggio_telematico": 1
             }
         },
         {
-            "nominativo": "PULVIRENTI Lorena",
-            "lista": "Generazione Attiva",
+            "nominativo": "LEONARDI AURORA MARIA",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 31,
+                "seggio_telematico": 31
+            }
+        },
+        {
+            "nominativo": "PAPPALARDO CLAUDIA",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "AMATO DAMIANO",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "VASTA MARTINA",
+            "lista": "Oltre DSPS",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "ESPOSITO MICHELE",
+            "lista": "Oltre DSPS",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "GULLOTTA SIMONE",
+            "lista": "Arcadia",
+            "voti": {
+                "totali": 14,
+                "seggio_telematico": 14
+            }
+        },
+        {
+            "nominativo": "SPAMPINATO FILIPPO",
+            "lista": "Arcadia",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "CONDORELLI ERIKA",
+            "lista": "Arcadia",
+            "voti": {
+                "totali": 10,
+                "seggio_telematico": 10
+            }
+        },
+        {
+            "nominativo": "SCORCIAPINO EMANUELE",
+            "lista": "Arcadia",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "TIRENDI OTTAVIO",
+            "lista": "Arcadia",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "DIPASQUALE CARLA",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 4,
+                "seggio_telematico": 4
+            }
+        },
+        {
+            "nominativo": "FRENI ROBERTA",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "CASCONE DANIELE",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "BELLIA SALVATORE EMANUELE",
+            "lista": "WE LOVE UNICT",
             "voti": {
                 "totali": 0,
                 "seggio_telematico": 0
@@ -234,14 +226,14 @@
     ],
     "dipartimento": "SCIENZE DELL'AMMINISTRAZIONE E DELL'ORGANIZZAZIONE-L-16-Laurea Triennale (D.M.270/2004)",
     "seggi_da_assegnare": "5",
-    "quoziente": 38.0,
+    "quoziente": 30.6,
     "votanti": {
-        "totali": 199,
-        "percentuale": 30.11,
-        "seggio_n_telematico": 199
+        "totali": 159,
+        "percentuale": 33.54,
+        "seggio_n_telematico": 159
     },
     "elettori": {
-        "totali": 661,
-        "seggio_n_telematico": 661
+        "totali": 474,
+        "seggio_n_telematico": 474
     }
 }

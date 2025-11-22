@@ -1,8 +1,8 @@
 {
     "schede": {
         "bianche": {
-            "totali": 6,
-            "seggio_n_telematico": 6
+            "totali": 19,
+            "seggio_n_telematico": 19
         },
         "nulle": {
             "totali": 0
@@ -13,46 +13,72 @@
     },
     "liste": [
         {
-            "nome": "ACTEA",
+            "nome": "INFODMI",
             "seggi": {
-                "seggi_pieni": "5",
-                "resti": "6,0",
-                "seggi_ai_resti": "0",
-                "seggi_totali": "5"
+                "seggi_pieni": "1",
+                "resti": "13,1",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
             },
             "voti": {
-                "totali": "146",
-                "seggio_telematico": "146"
+                "totali": "39",
+                "seggio_telematico": "39"
+            }
+        },
+        {
+            "nome": "DMI Insider - Koinè",
+            "seggi": {
+                "seggi_pieni": "1",
+                "resti": "23,1",
+                "seggi_ai_resti": "1",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": "49",
+                "seggio_telematico": "49"
+            }
+        },
+        {
+            "nome": "ACTEA",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "11,2",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": "63",
+                "seggio_telematico": "63"
+            }
+        },
+        {
+            "nome": "DMI.EXE",
+            "seggi": {
+                "seggi_pieni": "2",
+                "resti": "4,2",
+                "seggi_ai_resti": "0",
+                "seggi_totali": "2"
+            },
+            "voti": {
+                "totali": "56",
+                "seggio_telematico": "56"
             }
         },
         {
             "nome": "WE LOVE UNICT",
             "seggi": {
-                "seggi_pieni": "-",
-                "resti": "13,0",
+                "seggi_pieni": "1",
+                "resti": "11,1",
                 "seggi_ai_resti": "0",
-                "seggi_totali": "-"
-            },
-            "voti": {
-                "totali": "13",
-                "seggio_telematico": "13"
-            }
-        },
-        {
-            "nome": "AZIONE UNIVERSITARIA",
-            "seggi": {
-                "seggi_pieni": "-",
-                "resti": "14,0",
-                "seggi_ai_resti": "1",
                 "seggi_totali": "1"
             },
             "voti": {
-                "totali": "14",
-                "seggio_telematico": "14"
+                "totali": "37",
+                "seggio_telematico": "37"
             }
         },
         {
-            "nome": "Benessere Studentesco",
+            "nome": "NIKE.dmi",
             "seggi": {
                 "seggi_pieni": "-",
                 "resti": "15,0",
@@ -65,233 +91,367 @@
             }
         },
         {
-            "nome": "Alleanza Universitaria",
-            "seggi": {
-                "seggi_pieni": "-",
-                "resti": "14,0",
-                "seggi_ai_resti": "1",
-                "seggi_totali": "1"
-            },
-            "voti": {
-                "totali": "14",
-                "seggio_telematico": "14"
-            }
-        },
-        {
-            "nome": "DMI Insider",
-            "seggi": {
-                "seggi_pieni": "1",
-                "resti": "22,0",
-                "seggi_ai_resti": "1",
-                "seggi_totali": "2"
-            },
-            "voti": {
-                "totali": "50",
-                "seggio_telematico": "50"
-            }
-        },
-        {
-            "totale": 252
+            "totale": 259
         }
     ],
     "eletti": [
         {
-            "nominativo": "VACCARO Giuseppe Detto Baffo",
-            "lista": "ACTEA",
-            "voti": {
-                "totali": 23,
-                "seggio_telematico": 23
-            }
-        },
-        {
-            "nominativo": "CIPRIA Fabrizio",
-            "lista": "ACTEA",
-            "voti": {
-                "totali": 21,
-                "seggio_telematico": 21
-            }
-        },
-        {
-            "nominativo": "D'ANNA Kamil",
-            "lista": "ACTEA",
+            "nominativo": "LICCIARDELLO GABRIELE",
+            "lista": "INFODMI",
             "voti": {
                 "totali": 18,
                 "seggio_telematico": 18
             }
         },
         {
-            "nominativo": "GIGLIUTO Emily",
-            "lista": "ACTEA",
+            "nominativo": "CARCACI GIOVANNI",
+            "lista": "INFODMI",
             "voti": {
-                "totali": 21,
-                "seggio_telematico": 21
+                "totali": 1,
+                "seggio_telematico": 1
             }
         },
         {
-            "nominativo": "RUSSO Mirko",
-            "lista": "ACTEA",
+            "nominativo": "CASUCCIO ANTHONY",
+            "lista": "INFODMI",
             "voti": {
-                "totali": 29,
-                "seggio_telematico": 29
+                "totali": 1,
+                "seggio_telematico": 1
             }
         },
         {
-            "nominativo": "LA ROCCA Lorenzo",
-            "lista": "AZIONE UNIVERSITARIA",
-            "voti": {
-                "totali": 5,
-                "seggio_telematico": 5
-            }
-        },
-        {
-            "nominativo": "LO CASTRO Giuseppe",
-            "lista": "Benessere Studentesco",
-            "voti": {
-                "totali": 10,
-                "seggio_telematico": 10
-            }
-        },
-        {
-            "nominativo": "CAMBRIA Nicolo'",
-            "lista": "Alleanza Universitaria",
-            "voti": {
-                "totali": 14,
-                "seggio_telematico": 14
-            }
-        },
-        {
-            "nominativo": "MIRABELLA Leonardo",
-            "lista": "DMI Insider",
-            "voti": {
-                "totali": 19,
-                "seggio_telematico": 19
-            }
-        },
-        {
-            "nominativo": "SPINA Simone",
-            "lista": "DMI Insider",
-            "voti": {
-                "totali": 26,
-                "seggio_telematico": 26
-            }
-        }
-    ],
-    "non_eletti": [
-        {
-            "nominativo": "NOVARA Federica Maria",
-            "lista": "ACTEA",
-            "voti": {
-                "totali": 7,
-                "seggio_telematico": 7
-            }
-        },
-        {
-            "nominativo": "MESSINA Damiano",
-            "lista": "ACTEA",
-            "voti": {
-                "totali": 7,
-                "seggio_telematico": 7
-            }
-        },
-        {
-            "nominativo": "RUSSO Miriana",
-            "lista": "ACTEA",
-            "voti": {
-                "totali": 8,
-                "seggio_telematico": 8
-            }
-        },
-        {
-            "nominativo": "SAPUTO Antonino",
-            "lista": "ACTEA",
+            "nominativo": "TESTA SAMUELE",
+            "lista": "INFODMI",
             "voti": {
                 "totali": 6,
                 "seggio_telematico": 6
             }
         },
         {
-            "nominativo": "SCIACCA Luca",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 11,
-                "seggio_telematico": 11
-            }
-        },
-        {
-            "nominativo": "MUSUMECI William",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 1,
-                "seggio_telematico": 1
-            }
-        },
-        {
-            "nominativo": "SPAMPINATO Mirko",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 1,
-                "seggio_telematico": 1
-            }
-        },
-        {
-            "nominativo": "PATERNICOLA Giuseppe",
-            "lista": "AZIONE UNIVERSITARIA",
-            "voti": {
-                "totali": 2,
-                "seggio_telematico": 2
-            }
-        },
-        {
-            "nominativo": "SCUTO Giovanni",
-            "lista": "AZIONE UNIVERSITARIA",
-            "voti": {
-                "totali": 0,
-                "seggio_telematico": 0
-            }
-        },
-        {
-            "nominativo": "GRECO Salvatore",
-            "lista": "AZIONE UNIVERSITARIA",
+            "nominativo": "PARLASCINO LA MONICA PIETRO",
+            "lista": "INFODMI",
             "voti": {
                 "totali": 4,
                 "seggio_telematico": 4
             }
         },
         {
-            "nominativo": "LICITRA Alessandro",
-            "lista": "AZIONE UNIVERSITARIA",
-            "voti": {
-                "totali": 2,
-                "seggio_telematico": 2
-            }
-        },
-        {
-            "nominativo": "SENA Susanna",
-            "lista": "Benessere Studentesco",
+            "nominativo": "SCIRÈ ALESSANDRO",
+            "lista": "INFODMI",
             "voti": {
                 "totali": 3,
                 "seggio_telematico": 3
             }
         },
         {
-            "nominativo": "GARSIA Federico Augusto Maria",
-            "lista": "DMI Insider",
+            "nominativo": "PAPOTTO LORENA",
+            "lista": "INFODMI",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "CONTI MARIANNA",
+            "lista": "INFODMI",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "CRESCIMONE SALVATORE",
+            "lista": "DMI Insider - Koinè",
+            "voti": {
+                "totali": 16,
+                "seggio_telematico": 16
+            }
+        },
+        {
+            "nominativo": "DI MAURO VALERIO",
+            "lista": "DMI Insider - Koinè",
+            "voti": {
+                "totali": 14,
+                "seggio_telematico": 14
+            }
+        },
+        {
+            "nominativo": "MARCHESE SALVATORE",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 15,
+                "seggio_telematico": 15
+            }
+        },
+        {
+            "nominativo": "ROCCO VALENTINA MARIA",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 30,
+                "seggio_telematico": 30
+            }
+        },
+        {
+            "nominativo": "MEDELL CHIARA FRANCESCA",
+            "lista": "NIKE.dmi",
+            "voti": {
+                "totali": 12,
+                "seggio_telematico": 12
+            }
+        },
+        {
+            "nominativo": "GIUDICE ANASTASIA",
+            "lista": "NIKE.dmi",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "PENNISI FABRIZIO",
+            "lista": "NIKE.dmi",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "PENNISI IGNAZIO",
+            "lista": "NIKE.dmi",
             "voti": {
                 "totali": 1,
                 "seggio_telematico": 1
             }
         }
     ],
+    "non_eletti": [
+        {
+            "nominativo": "SGROI GIORDANA",
+            "lista": "DMI Insider - Koinè",
+            "voti": {
+                "totali": 7,
+                "seggio_telematico": 7
+            }
+        },
+        {
+            "nominativo": "PITRUZZELLA CHIARA",
+            "lista": "DMI Insider - Koinè",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "VANGELISTA CALOGERO EMANUEL",
+            "lista": "DMI Insider - Koinè",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "PAPPALARDO MARCO",
+            "lista": "DMI Insider - Koinè",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        },
+        {
+            "nominativo": "FODERÀ GABRIELE",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "BASILE MARIO ALESSIO",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 13,
+                "seggio_telematico": 13
+            }
+        },
+        {
+            "nominativo": "VERGA ORAZIO",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "MESSINA DAMIANO",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "FERLITO CHIARA",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "ZAPPARRATA ANTONINO",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "D'ITRIA TONY",
+            "lista": "DMI.EXE",
+            "voti": {
+                "totali": 8,
+                "seggio_telematico": 8
+            }
+        },
+        {
+            "nominativo": "BATTIATO CARLA",
+            "lista": "DMI.EXE",
+            "voti": {
+                "totali": 21,
+                "seggio_telematico": 21
+            }
+        },
+        {
+            "nominativo": "LOMBARDO CLAUDIO",
+            "lista": "DMI.EXE",
+            "voti": {
+                "totali": 6,
+                "seggio_telematico": 6
+            }
+        },
+        {
+            "nominativo": "GITTO SALVATORE GRAZIANO",
+            "lista": "DMI.EXE",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "SBIRZIOLA GIULIANO",
+            "lista": "DMI.EXE",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "SPOTO ALESSIA",
+            "lista": "DMI.EXE",
+            "voti": {
+                "totali": 20,
+                "seggio_telematico": 20
+            }
+        },
+        {
+            "nominativo": "SAITTA ANDREA",
+            "lista": "DMI.EXE",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "CARRERA TOMMASO",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 22,
+                "seggio_telematico": 22
+            }
+        },
+        {
+            "nominativo": "MAZZAGLIA ALESSIO",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "BACCHI GIUSEPPE PIO",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "MARIA GIULIA",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 3,
+                "seggio_telematico": 3
+            }
+        },
+        {
+            "nominativo": "SCALISI MARCO",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "RIOLO FILIPPO GIOELE",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0,
+                "seggio_telematico": 0
+            }
+        },
+        {
+            "nominativo": "BORZI' SIMONE",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 2,
+                "seggio_telematico": 2
+            }
+        },
+        {
+            "nominativo": "MACALUSO CHRISTIAN BENITO",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "BLANCATO VINCENZO MIRKO",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 1,
+                "seggio_telematico": 1
+            }
+        },
+        {
+            "nominativo": "RUSSO GABRIELE",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 5,
+                "seggio_telematico": 5
+            }
+        }
+    ],
     "dipartimento": "INFORMATICA-L-31-Laurea Triennale (D.M.270/2004)",
-    "seggi_da_assegnare": "9",
-    "quoziente": 28.0,
+    "seggi_da_assegnare": "10",
+    "quoziente": 25.9,
     "votanti": {
-        "totali": 258,
-        "percentuale": 23.08,
-        "seggio_n_telematico": 258
+        "totali": 278,
+        "percentuale": 23.68,
+        "seggio_n_telematico": 278
     },
     "elettori": {
-        "totali": 1118,
-        "seggio_n_telematico": 1118
+        "totali": 1174,
+        "seggio_n_telematico": 1174
     }
 }
