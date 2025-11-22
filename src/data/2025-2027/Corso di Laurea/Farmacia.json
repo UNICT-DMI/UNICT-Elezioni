@@ -1,0 +1,300 @@
+{
+  "schede": {
+    "bianche": {
+      "totali": 13,
+      "seggio_n_telematico": 13
+    },
+    "nulle": {
+      "totali": 0
+    },
+    "contestate": {
+      "totali": 0
+    }
+  },
+  "liste": [
+    {
+      "nome": "AZIONE UNIVERSITARIA",
+      "seggi": {
+        "seggi_pieni": "1",
+        "resti": "3,6",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": "28",
+        "seggio_telematico": "28"
+      }
+    },
+    {
+      "nome": "CREDIAMOCI",
+      "seggi": {
+        "seggi_pieni": "1",
+        "resti": "9,6",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": "34",
+        "seggio_telematico": "34"
+      }
+    },
+    {
+      "nome": "Arcadia",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "17,0",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": "17",
+        "seggio_telematico": "17"
+      }
+    },
+    {
+      "nome": "Alleanza Universitaria",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "19,0",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": "19",
+        "seggio_telematico": "19"
+      }
+    },
+    {
+      "nome": "WE LOVE UNICT",
+      "seggi": {
+        "seggi_pieni": "4",
+        "resti": "24,2",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "5"
+      },
+      "voti": {
+        "totali": "122",
+        "seggio_telematico": "122"
+      }
+    },
+    {
+      "totale": 220
+    }
+  ],
+  "eletti": [
+    {
+      "nominativo": "MAZZARIELLO GIOVANNI DOMENICO",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 8,
+        "seggio_telematico": 8
+      }
+    },
+    {
+      "nominativo": "GUARNACCIA SOSSIO",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 17,
+        "seggio_telematico": 17
+      }
+    },
+    {
+      "nominativo": "ROCCAFORTE BENEDETTA",
+      "lista": "Arcadia",
+      "voti": {
+        "totali": 17,
+        "seggio_telematico": 17
+      }
+    },
+    {
+      "nominativo": "BURGARETTA GINEVRA",
+      "lista": "Alleanza Universitaria",
+      "voti": {
+        "totali": 19,
+        "seggio_telematico": 19
+      }
+    },
+    {
+      "nominativo": "PUGLISI ENRICO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 19,
+        "seggio_telematico": 19
+      }
+    },
+    {
+      "nominativo": "SCANDURRA ROSA GIULIA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 28,
+        "seggio_telematico": 28
+      }
+    },
+    {
+      "nominativo": "COLLURA MATTEO SALVATORE",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 21,
+        "seggio_telematico": 21
+      }
+    },
+    {
+      "nominativo": "CRISALLI MARIKA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 29,
+        "seggio_telematico": 29
+      }
+    },
+    {
+      "nominativo": "PRIVITERA SOFIA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 22,
+        "seggio_telematico": 22
+      }
+    }
+  ],
+  "non_eletti": [
+    {
+      "nominativo": "CANTARELLA SEBASTIANO",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 6,
+        "seggio_telematico": 6
+      }
+    },
+    {
+      "nominativo": "BRANCATO FEDERICO",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 5,
+        "seggio_telematico": 5
+      }
+    },
+    {
+      "nominativo": "LODI MARCELLO",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "GRIGOLI SABRINA",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "PIRRACCHIO NICOLÓ",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
+      }
+    },
+    {
+      "nominativo": "BUNETTA FRANCESCO",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "AREZZI CRISTINA",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "GULIZIA RAFFAELE DOMENICO",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "CATALFO FARO EDOARDO",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 9,
+        "seggio_telematico": 9
+      }
+    },
+    {
+      "nominativo": "SILLITTI CARLA",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 7,
+        "seggio_telematico": 7
+      }
+    },
+    {
+      "nominativo": "PERRICONE ANNAMARIA",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "OLIVERI GIUSEPPE MARIA",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "POMPILIO MARCO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "SANTOSTEFANO BELLAVIA GAIA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "MELI FLAVIO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "GIUFFRIDA ORAZIO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    }
+  ],
+  "dipartimento": "FARMACIA-LM-13-Laurea Magistrale a ciclo unico (D.M. 270/2004)",
+  "seggi_da_assegnare": "9",
+  "quoziente": 24.4444,
+  "votanti": {
+    "totali": 233,
+    "percentuale": 33.92,
+    "seggio_n_telematico": 233
+  },
+  "elettori": {
+    "totali": 687,
+    "seggio_n_telematico": 687
+  }
+}
