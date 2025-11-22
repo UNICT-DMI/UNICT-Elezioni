@@ -1,391 +1,391 @@
 {
-    "schede": {
-        "bianche": {
-            "totali": 27,
-            "seggio_n_telematico": 27
-        },
-        "nulle": {
-            "totali": 0
-        },
-        "contestate": {
-            "totali": 0
-        }
+  "schede": {
+    "bianche": {
+      "totali": 27,
+      "seggio_n_telematico": 27
     },
-    "liste": [
-        {
-            "nome": "Ippocrate",
-            "seggi": {
-                "seggi_pieni": "1",
-                "resti": "8,1",
-                "seggi_ai_resti": "1",
-                "seggi_totali": "2"
-            },
-            "voti": {
-                "totali": "22",
-                "seggio_telematico": "22"
-            }
-        },
-        {
-            "nome": "BIOS EXPLORA",
-            "seggi": {
-                "seggi_pieni": "1",
-                "resti": "3,1",
-                "seggi_ai_resti": "0",
-                "seggi_totali": "1"
-            },
-            "voti": {
-                "totali": "17",
-                "seggio_telematico": "17"
-            }
-        },
-        {
-            "nome": "WE LOVE UNICT",
-            "seggi": {
-                "seggi_pieni": "11",
-                "resti": "5,3",
-                "seggi_ai_resti": "0",
-                "seggi_totali": "11"
-            },
-            "voti": {
-                "totali": "158",
-                "seggio_telematico": "158"
-            }
-        },
-        {
-            "nome": "SAI - Studenti Attivi e Informati",
-            "seggi": {
-                "seggi_pieni": "236",
-                "resti": "27",
-                "seggi_ai_resti": "13,8824",
-                "seggi_totali": "263"
-            },
-            "voti": {
-                "totali": "15",
-                "seggio_telematico": "15"
-            }
-        },
-        {
-            "totale": 212
-        }
-    ],
-    "eletti": [
-        {
-            "nominativo": "MARFOQ NADIA",
-            "lista": "Ippocrate",
-            "voti": {
-                "totali": 11,
-                "seggio_telematico": 11
-            }
-        },
-        {
-            "nominativo": "ZOUINE WALED",
-            "lista": "Ippocrate",
-            "voti": {
-                "totali": 2,
-                "seggio_telematico": 2
-            }
-        },
-        {
-            "nominativo": "ZANGHÌ MARTINA",
-            "lista": "Ippocrate",
-            "voti": {
-                "totali": 2,
-                "seggio_telematico": 2
-            }
-        },
-        {
-            "nominativo": "GRECO ANGELICA GAETANA",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 31,
-                "seggio_telematico": 31
-            }
-        },
-        {
-            "nominativo": "AGUECI FRANCESCO",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 8,
-                "seggio_telematico": 8
-            }
-        },
-        {
-            "nominativo": "COSTARELLI FEDERICA MARIA",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 11,
-                "seggio_telematico": 11
-            }
-        },
-        {
-            "nominativo": "FARINA ETTORE",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 23,
-                "seggio_telematico": 23
-            }
-        },
-        {
-            "nominativo": "LEOCATA AGATA MARTINA",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 6,
-                "seggio_telematico": 6
-            }
-        },
-        {
-            "nominativo": "BENINATO GIULIANA",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 8,
-                "seggio_telematico": 8
-            }
-        },
-        {
-            "nominativo": "FIORILLA MARCO",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 8,
-                "seggio_telematico": 8
-            }
-        },
-        {
-            "nominativo": "POLITI CHIARA MARIA",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 20,
-                "seggio_telematico": 20
-            }
-        },
-        {
-            "nominativo": "PUMA SAMUELE",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 5,
-                "seggio_telematico": 5
-            }
-        },
-        {
-            "nominativo": "PATTI MARIA RITA",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 10,
-                "seggio_telematico": 10
-            }
-        },
-        {
-            "nominativo": "CRIFO' CESARE LUCA",
-            "lista": "SAI - Studenti Attivi e Informati",
-            "voti": {
-                "totali": 26,
-                "seggio_telematico": 26
-            }
-        },
-        {
-            "nominativo": "ALECCI LUIGI",
-            "lista": "SAI - Studenti Attivi e Informati",
-            "voti": {
-                "totali": 13,
-                "seggio_telematico": 13
-            }
-        }
-    ],
-    "non_eletti": [
-        {
-            "nominativo": "CANNAVÒ DIANA",
-            "lista": "Ippocrate",
-            "voti": {
-                "totali": 1,
-                "seggio_telematico": 1
-            }
-        },
-        {
-            "nominativo": "ZAFFUTO MARCO",
-            "lista": "Ippocrate",
-            "voti": {
-                "totali": 0,
-                "seggio_telematico": 0
-            }
-        },
-        {
-            "nominativo": "ALTOMARE MARTINA",
-            "lista": "Ippocrate",
-            "voti": {
-                "totali": 2,
-                "seggio_telematico": 2
-            }
-        },
-        {
-            "nominativo": "LA FERLA GIORGIA",
-            "lista": "Ippocrate",
-            "voti": {
-                "totali": 0,
-                "seggio_telematico": 0
-            }
-        },
-        {
-            "nominativo": "CATANZARO MIRIAM",
-            "lista": "Ippocrate",
-            "voti": {
-                "totali": 0,
-                "seggio_telematico": 0
-            }
-        },
-        {
-            "nominativo": "IERNA CRISTINA",
-            "lista": "Ippocrate",
-            "voti": {
-                "totali": 0,
-                "seggio_telematico": 0
-            }
-        },
-        {
-            "nominativo": "LO TRUGLIO IRENE",
-            "lista": "Ippocrate",
-            "voti": {
-                "totali": 0,
-                "seggio_telematico": 0
-            }
-        },
-        {
-            "nominativo": "MAUGERI VALENTINA",
-            "lista": "Ippocrate",
-            "voti": {
-                "totali": 0,
-                "seggio_telematico": 0
-            }
-        },
-        {
-            "nominativo": "MAGGIORE LUDOVICA MARIA FRANCESCA",
-            "lista": "Ippocrate",
-            "voti": {
-                "totali": 0,
-                "seggio_telematico": 0
-            }
-        },
-        {
-            "nominativo": "ZINGARINO GIUSEPPE",
-            "lista": "Ippocrate",
-            "voti": {
-                "totali": 0,
-                "seggio_telematico": 0
-            }
-        },
-        {
-            "nominativo": "FERLITO ARIANNA",
-            "lista": "Ippocrate",
-            "voti": {
-                "totali": 1,
-                "seggio_telematico": 1
-            }
-        },
-        {
-            "nominativo": "GIGLIO GIORGIA",
-            "lista": "Ippocrate",
-            "voti": {
-                "totali": 2,
-                "seggio_telematico": 2
-            }
-        },
-        {
-            "nominativo": "PERRONE DESIRÈ",
-            "lista": "BIOS EXPLORA",
-            "voti": {
-                "totali": 16,
-                "seggio_telematico": 16
-            }
-        },
-        {
-            "nominativo": "VENTURA ANDREA GABRIELE",
-            "lista": "BIOS EXPLORA",
-            "voti": {
-                "totali": 0,
-                "seggio_telematico": 0
-            }
-        },
-        {
-            "nominativo": "OUBDA ADEL",
-            "lista": "BIOS EXPLORA",
-            "voti": {
-                "totali": 1,
-                "seggio_telematico": 1
-            }
-        },
-        {
-            "nominativo": "GRAVINA SIMONA",
-            "lista": "BIOS EXPLORA",
-            "voti": {
-                "totali": 0,
-                "seggio_telematico": 0
-            }
-        },
-        {
-            "nominativo": "FLORIO LORENZO",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 4,
-                "seggio_telematico": 4
-            }
-        },
-        {
-            "nominativo": "LO CASTRO GRETA",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 3,
-                "seggio_telematico": 3
-            }
-        },
-        {
-            "nominativo": "NISI LUCA GIOVANNI PAOLO",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 7,
-                "seggio_telematico": 7
-            }
-        },
-        {
-            "nominativo": "MARIN GIULIA",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 4,
-                "seggio_telematico": 4
-            }
-        },
-        {
-            "nominativo": "PANARELLO MARIASOLE AGATA",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 1,
-                "seggio_telematico": 1
-            }
-        },
-        {
-            "nominativo": "MALGIOGLIO NADIA",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 1,
-                "seggio_telematico": 1
-            }
-        },
-        {
-            "nominativo": "MODICA RAGUSA NOEMI",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 4,
-                "seggio_telematico": 4
-            }
-        }
-    ],
-    "dipartimento": "BIOTECNOLOGIE-L-2-Laurea Triennale (D.M.270/2004)",
-    "seggi_da_assegnare": "17",
-    "quoziente": 13.8824,
-    "votanti": {
-        "totali": 263,
-        "percentuale": 0.0,
-        "seggio_n_telematico": 263
+    "nulle": {
+      "totali": 0
     },
-    "elettori": {
-        "totali": 762,
-        "seggio_n_telematico": 762
+    "contestate": {
+      "totali": 0
     }
+  },
+  "liste": [
+    {
+      "nome": "Ippocrate",
+      "seggi": {
+        "seggi_pieni": "1",
+        "resti": "8,1",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "2"
+      },
+      "voti": {
+        "totali": "22",
+        "seggio_telematico": "22"
+      }
+    },
+    {
+      "nome": "BIOS EXPLORA",
+      "seggi": {
+        "seggi_pieni": "1",
+        "resti": "3,1",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": "17",
+        "seggio_telematico": "17"
+      }
+    },
+    {
+      "nome": "WE LOVE UNICT",
+      "seggi": {
+        "seggi_pieni": "11",
+        "resti": "5,3",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "11"
+      },
+      "voti": {
+        "totali": "158",
+        "seggio_telematico": "158"
+      }
+    },
+    {
+      "nome": "SAI - Studenti Attivi e Informati",
+      "seggi": {
+        "seggi_pieni": "1",
+        "resti": "1,2",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "2"
+      },
+      "voti": {
+        "totali": "39",
+        "seggio_telematico": "39"
+      }
+    },
+    {
+      "totale": 236
+    }
+  ],
+  "eletti": [
+    {
+      "nominativo": "MARFOQ NADIA",
+      "lista": "Ippocrate",
+      "voti": {
+        "totali": 11,
+        "seggio_telematico": 11
+      }
+    },
+    {
+      "nominativo": "ZOUINE WALED",
+      "lista": "Ippocrate",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "ZANGHÌ MARTINA",
+      "lista": "Ippocrate",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "GRECO ANGELICA GAETANA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 31,
+        "seggio_telematico": 31
+      }
+    },
+    {
+      "nominativo": "AGUECI FRANCESCO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 8,
+        "seggio_telematico": 8
+      }
+    },
+    {
+      "nominativo": "COSTARELLI FEDERICA MARIA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 11,
+        "seggio_telematico": 11
+      }
+    },
+    {
+      "nominativo": "FARINA ETTORE",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 23,
+        "seggio_telematico": 23
+      }
+    },
+    {
+      "nominativo": "LEOCATA AGATA MARTINA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 6,
+        "seggio_telematico": 6
+      }
+    },
+    {
+      "nominativo": "BENINATO GIULIANA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 8,
+        "seggio_telematico": 8
+      }
+    },
+    {
+      "nominativo": "FIORILLA MARCO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 8,
+        "seggio_telematico": 8
+      }
+    },
+    {
+      "nominativo": "POLITI CHIARA MARIA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 20,
+        "seggio_telematico": 20
+      }
+    },
+    {
+      "nominativo": "PUMA SAMUELE",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 5,
+        "seggio_telematico": 5
+      }
+    },
+    {
+      "nominativo": "PATTI MARIA RITA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 10,
+        "seggio_telematico": 10
+      }
+    },
+    {
+      "nominativo": "CRIFO' CESARE LUCA",
+      "lista": "SAI - Studenti Attivi e Informati",
+      "voti": {
+        "totali": 26,
+        "seggio_telematico": 26
+      }
+    },
+    {
+      "nominativo": "ALECCI LUIGI",
+      "lista": "SAI - Studenti Attivi e Informati",
+      "voti": {
+        "totali": 13,
+        "seggio_telematico": 13
+      }
+    },
+    {
+      "nominativo": "PERRONE DESIRÈ",
+      "lista": "BIOS EXPLORA",
+      "voti": {
+        "totali": 16,
+        "seggio_telematico": 16
+      }
+    },
+    {
+      "nominativo": "NISI LUCA GIOVANNI PAOLO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 7,
+        "seggio_telematico": 7
+      }
+    }
+  ],
+  "non_eletti": [
+    {
+      "nominativo": "CANNAVÒ DIANA",
+      "lista": "Ippocrate",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "ZAFFUTO MARCO",
+      "lista": "Ippocrate",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "ALTOMARE MARTINA",
+      "lista": "Ippocrate",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "LA FERLA GIORGIA",
+      "lista": "Ippocrate",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "CATANZARO MIRIAM",
+      "lista": "Ippocrate",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "IERNA CRISTINA",
+      "lista": "Ippocrate",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "LO TRUGLIO IRENE",
+      "lista": "Ippocrate",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "MAUGERI VALENTINA",
+      "lista": "Ippocrate",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "MAGGIORE LUDOVICA MARIA FRANCESCA",
+      "lista": "Ippocrate",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "ZINGARINO GIUSEPPE",
+      "lista": "Ippocrate",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "FERLITO ARIANNA",
+      "lista": "Ippocrate",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "GIGLIO GIORGIA",
+      "lista": "Ippocrate",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "VENTURA ANDREA GABRIELE",
+      "lista": "BIOS EXPLORA",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "OUBDA ADEL",
+      "lista": "BIOS EXPLORA",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "GRAVINA SIMONA",
+      "lista": "BIOS EXPLORA",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "FLORIO LORENZO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 4,
+        "seggio_telematico": 4
+      }
+    },
+    {
+      "nominativo": "LO CASTRO GRETA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
+      }
+    },
+    {
+      "nominativo": "MARIN GIULIA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 4,
+        "seggio_telematico": 4
+      }
+    },
+    {
+      "nominativo": "PANARELLO MARIASOLE AGATA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "MALGIOGLIO NADIA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "MODICA RAGUSA NOEMI",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 4,
+        "seggio_telematico": 4
+      }
+    }
+  ],
+  "dipartimento": "BIOTECNOLOGIE-L-2-Laurea Triennale (D.M.270/2004)",
+  "seggi_da_assegnare": "17",
+  "quoziente": 13.8824,
+  "votanti": {
+    "totali": 263,
+    "percentuale": 34.51,
+    "seggio_n_telematico": 263
+  },
+  "elettori": {
+    "totali": 762,
+    "seggio_n_telematico": 762
+  }
 }

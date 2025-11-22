@@ -1,454 +1,449 @@
 {
-    "schede": {
-        "bianche": {
-            "totali": 10,
-            "seggio_n_telematico": 10
-        },
-        "nulle": {
-            "totali": 0
-        },
-        "contestate": {
-            "totali": 0
-        }
+  "dipartimento": "INGEGNERIA INDUSTRIALE-L-9-Laurea Triennale (D.M.270/2004)",
+  "seggi_da_assegnare": "10",
+  "schede": {
+    "bianche": {
+      "totali": 10,
+      "seggio_n_telematico": 10
     },
-    "liste": [
-        {
-            "nome": "UNITAS",
-            "seggi": {
-                "seggi_pieni": "1",
-                "resti": "16,0",
-                "seggi_ai_resti": "1",
-                "seggi_totali": "2"
-            },
-            "voti": {
-                "totali": "48",
-                "seggio_telematico": "48"
-            }
-        },
-        {
-            "nome": "IngegneriAttiva",
-            "seggi": {
-                "seggi_pieni": "3",
-                "resti": "28,0",
-                "seggi_ai_resti": "1",
-                "seggi_totali": "4"
-            },
-            "voti": {
-                "totali": "124",
-                "seggio_telematico": "124"
-            }
-        },
-        {
-            "nome": "NIKE",
-            "seggi": {
-                "seggi_pieni": "-",
-                "resti": "15,0",
-                "seggi_ai_resti": "0",
-                "seggi_totali": "-"
-            },
-            "voti": {
-                "totali": "15",
-                "seggio_telematico": "15"
-            }
-        },
-        {
-            "nome": "WE LOVE UNICT",
-            "seggi": {
-                "seggi_pieni": "2",
-                "resti": "5,0",
-                "seggi_ai_resti": "0",
-                "seggi_totali": "2"
-            },
-            "voti": {
-                "totali": "69",
-                "seggio_telematico": "69"
-            }
-        },
-        {
-            "nome": "ACTEA",
-            "seggi": {
-                "seggi_pieni": "1",
-                "resti": "0,0",
-                "seggi_ai_resti": "0",
-                "seggi_totali": "1"
-            },
-            "voti": {
-                "totali": "32",
-                "seggio_telematico": "32"
-            }
-        },
-        {
-            "nome": "Cambiamento Ingegneria",
-            "seggi": {
-                "seggi_pieni": "-",
-                "resti": "19,0",
-                "seggi_ai_resti": "1",
-                "seggi_totali": "1"
-            },
-            "voti": {
-                "totali": "19",
-                "seggio_telematico": "19"
-            }
-        },
-        {
-            "nome": "Koinè - Ribaltiamo UniCt",
-            "seggi": {
-                "seggi_pieni": "-",
-                "resti": "13,0",
-                "seggi_ai_resti": "0",
-                "seggi_totali": "-"
-            },
-            "voti": {
-                "totali": "13",
-                "seggio_telematico": "13"
-            }
-        },
-        {
-            "totale": 320
-        }
-    ],
-    "eletti": [
-        {
-            "nominativo": "CATANIA MARIA PIA SOFIA",
-            "lista": "UNITAS",
-            "voti": {
-                "totali": 27,
-                "seggio_telematico": 27
-            }
-        },
-        {
-            "nominativo": "SCARLATA SIMONE",
-            "lista": "UNITAS",
-            "voti": {
-                "totali": 10,
-                "seggio_telematico": 10
-            }
-        },
-        {
-            "nominativo": "AUGERI SEBASTIANO",
-            "lista": "UNITAS",
-            "voti": {
-                "totali": 10,
-                "seggio_telematico": 10
-            }
-        },
-        {
-            "nominativo": "PAPARO GIUSEPPE",
-            "lista": "IngegneriAttiva",
-            "voti": {
-                "totali": 81,
-                "seggio_telematico": 81
-            }
-        },
-        {
-            "nominativo": "CARPITA MARCO",
-            "lista": "IngegneriAttiva",
-            "voti": {
-                "totali": 12,
-                "seggio_telematico": 12
-            }
-        },
-        {
-            "nominativo": "COLLURA ALESSANDRO",
-            "lista": "IngegneriAttiva",
-            "voti": {
-                "totali": 12,
-                "seggio_telematico": 12
-            }
-        },
-        {
-            "nominativo": "DISCA STEFANO SEBASTIANO",
-            "lista": "IngegneriAttiva",
-            "voti": {
-                "totali": 16,
-                "seggio_telematico": 16
-            }
-        }
-    ],
-    "non_eletti": [
-        {
-            "nominativo": "TORRES CHRISTIAN",
-            "lista": "IngegneriAttiva",
-            "voti": {
-                "totali": 0,
-                "seggio_telematico": 0
-            }
-        },
-        {
-            "nominativo": "GRECO AURORA",
-            "lista": "IngegneriAttiva",
-            "voti": {
-                "totali": 2,
-                "seggio_telematico": 2
-            }
-        },
-        {
-            "nominativo": "MITIN MIRKO MIROSLAV",
-            "lista": "IngegneriAttiva",
-            "voti": {
-                "totali": 1,
-                "seggio_telematico": 1
-            }
-        },
-        {
-            "nominativo": "TUMMINO GAETANO ANDREA",
-            "lista": "NIKE",
-            "voti": {
-                "totali": 0,
-                "seggio_telematico": 0
-            }
-        },
-        {
-            "nominativo": "GIUMMO SALVATORE",
-            "lista": "NIKE",
-            "voti": {
-                "totali": 9,
-                "seggio_telematico": 9
-            }
-        },
-        {
-            "nominativo": "STANCANELLI GIADA",
-            "lista": "NIKE",
-            "voti": {
-                "totali": 0,
-                "seggio_telematico": 0
-            }
-        },
-        {
-            "nominativo": "RIDOLFO ALESSANDRO",
-            "lista": "NIKE",
-            "voti": {
-                "totali": 2,
-                "seggio_telematico": 2
-            }
-        },
-        {
-            "nominativo": "CIARAMELLA ANTONIO",
-            "lista": "NIKE",
-            "voti": {
-                "totali": 1,
-                "seggio_telematico": 1
-            }
-        },
-        {
-            "nominativo": "FINOCCHIARO FRANCESCO",
-            "lista": "NIKE",
-            "voti": {
-                "totali": 1,
-                "seggio_telematico": 1
-            }
-        },
-        {
-            "nominativo": "TRIOLO ALESSANDRO",
-            "lista": "NIKE",
-            "voti": {
-                "totali": 1,
-                "seggio_telematico": 1
-            }
-        },
-        {
-            "nominativo": "POLITO ANTONIO",
-            "lista": "NIKE",
-            "voti": {
-                "totali": 0,
-                "seggio_telematico": 0
-            }
-        },
-        {
-            "nominativo": "SAPIENZA EMANUELE",
-            "lista": "NIKE",
-            "voti": {
-                "totali": 1,
-                "seggio_telematico": 1
-            }
-        },
-        {
-            "nominativo": "BONACITI DOMENICO",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 4,
-                "seggio_telematico": 4
-            }
-        },
-        {
-            "nominativo": "SCIASCIO SAMUELE ORAZIO",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 1,
-                "seggio_telematico": 1
-            }
-        },
-        {
-            "nominativo": "GIGLIO GIUSEPPE ANTONINO EMANUELE",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 8,
-                "seggio_telematico": 8
-            }
-        },
-        {
-            "nominativo": "STIVALA KAROL GIUSEPPE FRANCESCO",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 0,
-                "seggio_telematico": 0
-            }
-        },
-        {
-            "nominativo": "MALO' SANTI",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 6,
-                "seggio_telematico": 6
-            }
-        },
-        {
-            "nominativo": "FRAZZICA ANASTASIA",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 1,
-                "seggio_telematico": 1
-            }
-        },
-        {
-            "nominativo": "DORIANI ANGELO SAMUEL",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 18,
-                "seggio_telematico": 18
-            }
-        },
-        {
-            "nominativo": "SANTAGATI FABIO",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 6,
-                "seggio_telematico": 6
-            }
-        },
-        {
-            "nominativo": "DI BILIO KEVIN DANIELE ATTILIO",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 20,
-                "seggio_telematico": 20
-            }
-        },
-        {
-            "nominativo": "PETRALIA RICCARDO",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 3,
-                "seggio_telematico": 3
-            }
-        },
-        {
-            "nominativo": "LO GRASSO SOFIA",
-            "lista": "ACTEA",
-            "voti": {
-                "totali": 13,
-                "seggio_telematico": 13
-            }
-        },
-        {
-            "nominativo": "MAUGERI MARCO GIUSEPPE",
-            "lista": "ACTEA",
-            "voti": {
-                "totali": 3,
-                "seggio_telematico": 3
-            }
-        },
-        {
-            "nominativo": "COLOMBO ALESSANDRO",
-            "lista": "ACTEA",
-            "voti": {
-                "totali": 9,
-                "seggio_telematico": 9
-            }
-        },
-        {
-            "nominativo": "D'ACCURSO MARIANO",
-            "lista": "ACTEA",
-            "voti": {
-                "totali": 1,
-                "seggio_telematico": 1
-            }
-        },
-        {
-            "nominativo": "AMATO LORENZO",
-            "lista": "ACTEA",
-            "voti": {
-                "totali": 6,
-                "seggio_telematico": 6
-            }
-        },
-        {
-            "nominativo": "OMERI ALESSIA",
-            "lista": "ACTEA",
-            "voti": {
-                "totali": 0,
-                "seggio_telematico": 0
-            }
-        },
-        {
-            "nominativo": "DI MAURO GABRIELE GIUSEPPE",
-            "lista": "Cambiamento Ingegneria",
-            "voti": {
-                "totali": 8,
-                "seggio_telematico": 8
-            }
-        },
-        {
-            "nominativo": "VACCALLUZZO SALVATORE",
-            "lista": "Cambiamento Ingegneria",
-            "voti": {
-                "totali": 7,
-                "seggio_telematico": 7
-            }
-        },
-        {
-            "nominativo": "CIANCIO ANTONINO",
-            "lista": "Cambiamento Ingegneria",
-            "voti": {
-                "totali": 4,
-                "seggio_telematico": 4
-            }
-        },
-        {
-            "nominativo": "COSENTINO STEFANO",
-            "lista": "Koinè - Ribaltiamo UniCt",
-            "voti": {
-                "totali": 1,
-                "seggio_telematico": 1
-            }
-        },
-        {
-            "nominativo": "COSTARELLI FEDERICO",
-            "lista": "Koinè - Ribaltiamo UniCt",
-            "voti": {
-                "totali": 10,
-                "seggio_telematico": 10
-            }
-        },
-        {
-            "nominativo": "BORZÌ CARLO",
-            "lista": "Koinè - Ribaltiamo UniCt",
-            "voti": {
-                "totali": 2,
-                "seggio_telematico": 2
-            }
-        }
-    ],
-    "dipartimento": "INGEGNERIA INDUSTRIALE-L-9-Laurea Triennale (D.M.270/2004)",
-    "seggi_da_assegnare": "10",
-    "quoziente": 0.0,
-    "votanti": {
-        "totali": 330,
-        "percentuale": 44.06,
-        "seggio_n_telematico": 330
+    "nulle": {
+      "totali": 0
     },
-    "elettori": {
-        "totali": 749,
-        "seggio_n_telematico": 749
+    "contestate": {
+      "totali": 0
     }
+  },
+  "votanti": {
+    "totali": 330,
+    "percentuale": 44.06,
+    "seggio_n_telematico": 330
+  },
+  "elettori": {
+    "totali": 749,
+    "seggio_n_telematico": 749
+  },
+  "quoziente": 32.0,
+  "liste": [
+    {
+      "nome": "UNITAS",
+      "seggi": {
+        "seggi_pieni": "1",
+        "resti": "16.0",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "2"
+      },
+      "voti": {
+        "totali": 48,
+        "seggio_telematico": 48
+      }
+    },
+    {
+      "nome": "IngegneriAttiva",
+      "seggi": {
+        "seggi_pieni": "3",
+        "resti": "28.0",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "4"
+      },
+      "voti": {
+        "totali": 124,
+        "seggio_telematico": 124
+      }
+    },
+    {
+      "nome": "NIKE",
+      "seggi": {
+        "seggi_pieni": "0",
+        "resti": "15.0",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "0"
+      },
+      "voti": {
+        "totali": 15,
+        "seggio_telematico": 15
+      }
+    },
+    {
+      "nome": "WE LOVE UNICT",
+      "seggi": {
+        "seggi_pieni": "2",
+        "resti": "5.0",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "2"
+      },
+      "voti": {
+        "totali": 69,
+        "seggio_telematico": 69
+      }
+    },
+    {
+      "nome": "ACTEA",
+      "seggi": {
+        "seggi_pieni": "1",
+        "resti": "0.0",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": 32,
+        "seggio_telematico": 32
+      }
+    },
+    {
+      "nome": "Cambiamento Ingegneria",
+      "seggi": {
+        "seggi_pieni": "0",
+        "resti": "19.0",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": 19,
+        "seggio_telematico": 19
+      }
+    },
+    {
+      "nome": "Koinè Ribaltiamo UniCt",
+      "seggi": {
+        "seggi_pieni": "0",
+        "resti": "13.0",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "0"
+      },
+      "voti": {
+        "totali": 13,
+        "seggio_telematico": 13
+      }
+    },
+    {
+      "totale": 320
+    }
+  ],
+  "eletti": [
+    {
+      "nominativo": "CATANIA MARIA PIA SOFIA",
+      "lista": "UNITAS",
+      "voti": {
+        "totali": 27
+      },
+      "note": "La lista ha 2 seggi totali, ma il documento riporta 3 candidati eletti con voti [10, 10, 27], Scarlata e Augeri a parimerito per il secondo seggio. Sono stati riportati tutti e tre i nomi marcati come 'ELETTO' nel documento originale, risultando in 11 eletti totali contro i 10 seggi assegnati."
+    },
+    {
+      "nominativo": "SCARLATA SIMONE",
+      "lista": "UNITAS",
+      "voti": {
+        "totali": 10
+      }
+    },
+    {
+      "nominativo": "AUGERI SEBASTIANO",
+      "lista": "UNITAS",
+      "voti": {
+        "totali": 10
+      }
+    },
+    {
+      "nominativo": "PAPARO GIUSEPPE",
+      "lista": "IngegneriAttiva",
+      "voti": {
+        "totali": 81
+      }
+    },
+    {
+      "nominativo": "DISCA STEFANO SEBASTIANO",
+      "lista": "IngegneriAttiva",
+      "voti": {
+        "totali": 16
+      }
+    },
+    {
+      "nominativo": "CARPITA MARCO",
+      "lista": "IngegneriAttiva",
+      "voti": {
+        "totali": 12
+      }
+    },
+    {
+      "nominativo": "COLLURA ALESSANDRO",
+      "lista": "IngegneriAttiva",
+      "voti": {
+        "totali": 12
+      }
+    },
+    {
+      "nominativo": "DI BILIO KEVIN DANIELE ATTILIO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 20
+      }
+    },
+    {
+      "nominativo": "DORIANI ANGELO SAMUEL",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 18
+      }
+    },
+    {
+      "nominativo": "LO GRASSO SOFIA",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 13
+      }
+    },
+    {
+      "nominativo": "DI MAURO GABRIELE GIUSEPPE",
+      "lista": "Cambiamento Ingegneria",
+      "voti": {
+        "totali": 8
+      }
+    }
+  ],
+  "non_eletti": [
+    {
+      "nominativo": "GRECO AURORA",
+      "lista": "IngegneriAttiva",
+      "voti": {
+        "totali": 2
+      }
+    },
+    {
+      "nominativo": "MITIN MIRKO MIROSLAV",
+      "lista": "IngegneriAttiva",
+      "voti": {
+        "totali": 1
+      }
+    },
+    {
+      "nominativo": "TORRES CHRISTIAN",
+      "lista": "IngegneriAttiva",
+      "voti": {
+        "totali": 0
+      }
+    },
+    {
+      "nominativo": "PANDOLFO MATTIS",
+      "lista": "IngegneriAttiva",
+      "voti": {
+        "totali": 1
+      }
+    },
+    {
+      "nominativo": "GULLOTTA SOPHIE",
+      "lista": "IngegneriAttiva",
+      "voti": {
+        "totali": 0
+      }
+    },
+    {
+      "nominativo": "SARDO CALOGERO GIOVANNI",
+      "lista": "IngegneriAttiva",
+      "voti": {
+        "totali": 0
+      }
+    },
+    {
+      "nominativo": "FLORIDIA ALICE",
+      "lista": "IngegneriAttiva",
+      "voti": {
+        "totali": 1
+      }
+    },
+    {
+      "nominativo": "TUMMINO GAETANO ANDREA",
+      "lista": "NIKE",
+      "voti": {
+        "totali": 0
+      }
+    },
+    {
+      "nominativo": "GIUMMO SALVATORE",
+      "lista": "NIKE",
+      "voti": {
+        "totali": 9
+      }
+    },
+    {
+      "nominativo": "STANCANELLI GIADA",
+      "lista": "NIKE",
+      "voti": {
+        "totali": 0
+      }
+    },
+    {
+      "nominativo": "RIDOLFO ALESSANDRO",
+      "lista": "NIKE",
+      "voti": {
+        "totali": 2
+      }
+    },
+    {
+      "nominativo": "CIARAMELLA ANTONIO",
+      "lista": "NIKE",
+      "voti": {
+        "totali": 1
+      }
+    },
+    {
+      "nominativo": "FINOCCHIARO FRANCESCO",
+      "lista": "NIKE",
+      "voti": {
+        "totali": 1
+      }
+    },
+    {
+      "nominativo": "TRIOLO ALESSANDRO",
+      "lista": "NIKE",
+      "voti": {
+        "totali": 1
+      }
+    },
+    {
+      "nominativo": "POLITO ANTONIO",
+      "lista": "NIKE",
+      "voti": {
+        "totali": 0
+      }
+    },
+    {
+      "nominativo": "SAPIENZA EMANUELE",
+      "lista": "NIKE",
+      "voti": {
+        "totali": 1
+      }
+    },
+    {
+      "nominativo": "VERO RAFFAELE",
+      "lista": "NIKE",
+      "voti": {
+        "totali": 0
+      }
+    },
+    {
+      "nominativo": "BONACITI DOMENICO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 4
+      }
+    },
+    {
+      "nominativo": "SCIASCIO SAMUELE ORAZIO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 1
+      }
+    },
+    {
+      "nominativo": "GIGLIO GIUSEPPE ANTONINO EMANUELE",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 8
+      }
+    },
+    {
+      "nominativo": "STIVALA KAROL GIUSEPPE FRANCESCO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 0
+      }
+    },
+    {
+      "nominativo": "MALO SANTI",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 6
+      }
+    },
+    {
+      "nominativo": "FRAZZICA ANASTASIA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 1
+      }
+    },
+    {
+      "nominativo": "SANTAGATI FABIO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 6
+      }
+    },
+    {
+      "nominativo": "PETRALIA RICCARDO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 3
+      }
+    },
+    {
+      "nominativo": "MAUGERI MARCO GIUSEPPE",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 3
+      }
+    },
+    {
+      "nominativo": "COLOMBO ALESSANDRO",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 9
+      }
+    },
+    {
+      "nominativo": "D'ACCURSO MARIANO",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 1
+      }
+    },
+    {
+      "nominativo": "AMATO LORENZO",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 6
+      }
+    },
+    {
+      "nominativo": "OMERI ALESSIA",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 0
+      }
+    },
+    {
+      "nominativo": "VACCALLUZZO SALVATORE",
+      "lista": "Cambiamento Ingegneria",
+      "voti": {
+        "totali": 7
+      }
+    },
+    {
+      "nominativo": "CIANCIO ANTONINO",
+      "lista": "Cambiamento Ingegneria",
+      "voti": {
+        "totali": 4
+      }
+    },
+    {
+      "nominativo": "COSENTINO STEFANO",
+      "lista": "Koinè Ribaltiamo UniCt",
+      "voti": {
+        "totali": 1
+      }
+    },
+    {
+      "nominativo": "COSTARELLI FEDERICO",
+      "lista": "Koinè Ribaltiamo UniCt",
+      "voti": {
+        "totali": 1
+      }
+    },
+    {
+      "nominativo": "BORZI CARLO",
+      "lista": "Koinè Ribaltiamo UniCt",
+      "voti": {
+        "totali": 10
+      }
+    }
+  ]
 }

@@ -1,173 +1,166 @@
 {
-    "schede": {
-        "bianche": {
-            "totali": 13,
-            "seggio_n_telematico": 13
-        },
-        "nulle": {
-            "totali": 0
-        },
-        "contestate": {
-            "totali": 0
-        }
+  "dipartimento": "SCIENZE E TECNOLOGIE AGRARIE-L-25-Laurea Triennale (D.M.270/2004)",
+  "seggi_da_assegnare": "7",
+  "schede": {
+    "bianche": {
+      "totali": 13,
+      "seggio_n_telematico": 13
     },
-    "liste": [
-        {
-            "nome": "AZIONE UNIVERSITARIA",
-            "seggi": {
-                "seggi_pieni": "4",
-                "resti": "13,4",
-                "seggi_ai_resti": "1",
-                "seggi_totali": "5"
-            },
-            "voti": {
-                "totali": "74",
-                "seggio_telematico": "74"
-            }
-        },
-        {
-            "nome": "WE LOVE UNICT",
-            "seggi": {
-                "seggi_pieni": "2",
-                "resti": "1,7",
-                "seggi_ai_resti": "0",
-                "seggi_totali": "2"
-            },
-            "voti": {
-                "totali": "32",
-                "seggio_telematico": "32"
-            }
-        },
-        {
-            "totale": 106
-        }
-    ],
-    "eletti": [
-        {
-            "nominativo": "MORTILLARO ALESSANDRO",
-            "lista": "AZIONE UNIVERSITARIA",
-            "voti": {
-                "totali": 12,
-                "seggio_telematico": 12
-            }
-        },
-        {
-            "nominativo": "MARGARONE SERENA",
-            "lista": "AZIONE UNIVERSITARIA",
-            "voti": {
-                "totali": 24,
-                "seggio_telematico": 24
-            }
-        },
-        {
-            "nominativo": "CATANIA ALESSANDRO",
-            "lista": "AZIONE UNIVERSITARIA",
-            "voti": {
-                "totali": 7,
-                "seggio_telematico": 7
-            }
-        },
-        {
-            "nominativo": "DI MAURO LORENZO",
-            "lista": "AZIONE UNIVERSITARIA",
-            "voti": {
-                "totali": 9,
-                "seggio_telematico": 9
-            }
-        },
-        {
-            "nominativo": "MALATESTA MICHELE",
-            "lista": "AZIONE UNIVERSITARIA",
-            "voti": {
-                "totali": 13,
-                "seggio_telematico": 13
-            }
-        }
-    ],
-    "non_eletti": [
-        {
-            "nominativo": "APARO NICOLO'",
-            "lista": "AZIONE UNIVERSITARIA",
-            "voti": {
-                "totali": 3,
-                "seggio_telematico": 3
-            }
-        },
-        {
-            "nominativo": "BORZÌ PIETRO GIOELE MAURO",
-            "lista": "AZIONE UNIVERSITARIA",
-            "voti": {
-                "totali": 4,
-                "seggio_telematico": 4
-            }
-        },
-        {
-            "nominativo": "LO CASTRO MARCO",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 28,
-                "seggio_telematico": 28
-            }
-        },
-        {
-            "nominativo": "VENEZIANO DANIELE MIMMO",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 0,
-                "seggio_telematico": 0
-            }
-        },
-        {
-            "nominativo": "DELUCA PAOLO",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 0,
-                "seggio_telematico": 0
-            }
-        },
-        {
-            "nominativo": "MANETTO GIOVANNI",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 1,
-                "seggio_telematico": 1
-            }
-        },
-        {
-            "nominativo": "LISI ALFIO NICOLAS",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 3,
-                "seggio_telematico": 3
-            }
-        },
-        {
-            "nominativo": "SERRA ALESSANDRO",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 0,
-                "seggio_telematico": 0
-            }
-        },
-        {
-            "nominativo": "SANTANGELO FRANCESCO",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 0,
-                "seggio_telematico": 0
-            }
-        }
-    ],
-    "dipartimento": "SCIENZE E TECNOLOGIE AGRARIE-L-25-Laurea Triennale (D.M.270/2004)",
-    "seggi_da_assegnare": "7",
-    "quoziente": 15.1429,
-    "votanti": {
-        "totali": 119,
-        "percentuale": 25.7,
-        "seggio_n_telematico": 119
+    "nulle": {
+      "totali": 0
     },
-    "elettori": {
-        "totali": 463,
-        "seggio_n_telematico": 463
+    "contestate": {
+      "totali": 0
     }
+  },
+  "votanti": {
+    "totali": 119,
+    "percentuale": 25.7,
+    "seggio_n_telematico": 119
+  },
+  "elettori": {
+    "totali": 463,
+    "seggio_n_telematico": 463
+  },
+  "quoziente": 15.1429,
+  "liste": [
+    {
+      "nome": "AZIONE UNIVERSITARIA",
+      "seggi": {
+        "seggi_pieni": "4",
+        "resti": "13.4",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "5"
+      },
+      "voti": {
+        "totali": 74,
+        "seggio_telematico": 74
+      }
+    },
+    {
+      "nome": "WE LOVE UNICT",
+      "seggi": {
+        "seggi_pieni": "2",
+        "resti": "17",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "2"
+      },
+      "voti": {
+        "totali": 32,
+        "seggio_telematico": 32
+      }
+    },
+    {
+      "totale": 106
+    }
+  ],
+  "eletti": [
+    {
+      "nominativo": "LO CASTRO MARCO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 28
+      },
+      "stato": "ELETTO"
+    },
+    {
+      "nominativo": "MARGARONE SERENA",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 24
+      },
+      "stato": "ELETTO"
+    },
+    {
+      "nominativo": "MALATESTA MICHELE",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 13
+      },
+      "stato": "ELETTO"
+    },
+    {
+      "nominativo": "MORTILLARO ALESSANDRO",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 12
+      },
+      "stato": "ELETTO"
+    },
+    {
+      "nominativo": "DI MAURO LORENZO",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 9
+      },
+      "stato": "ELETTO"
+    },
+    {
+      "nominativo": "CATANIA ALESSANDRO",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 7
+      },
+      "stato": "ELETTO"
+    },
+    {
+      "nominativo": "LISE ALFIO NICOLAS",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 3
+      },
+      "stato": "ELETTO"
+    }
+  ],
+  "non_eletti": [
+    {
+      "nominativo": "BORZI PIETRO GIOELE MAURO",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 4
+      }
+    },
+    {
+      "nominativo": "APARO NICOLO'",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 3
+      }
+    },
+    {
+      "nominativo": "MANETTO GIOVANNI",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 1
+      }
+    },
+    {
+      "nominativo": "VENEZIANO DANIELE MIMMO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 0
+      }
+    },
+    {
+      "nominativo": "DELUCA PAOLO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 0
+      }
+    },
+    {
+      "nominativo": "SERRA ALESSANDRO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 0
+      }
+    },
+    {
+      "nominativo": "SANTANGELO FRANCESCO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 0
+      }
+    }
+  ]
 }

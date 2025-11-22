@@ -1,311 +1,295 @@
 {
-    "schede": {
-        "bianche": {
-            "totali": 8,
-            "seggio_n_telematico": 8
-        },
-        "nulle": {
-            "totali": 0
-        },
-        "contestate": {
-            "totali": 0
-        }
+  "dipartimento": "SCIENZE MOTORIE-L-22-Laurea Triennale (D.M.270/2004)",
+  "seggi_da_assegnare": "12",
+  "schede": {
+    "bianche": {
+      "totali": 8,
+      "seggio_n_telematico": 8
     },
-    "liste": [
-        {
-            "nome": "INFOBIOMETEC",
-            "seggi": {
-                "seggi_pieni": "1",
-                "resti": "4,5",
-                "seggi_ai_resti": "0",
-                "seggi_totali": "1"
-            },
-            "voti": {
-                "totali": "16",
-                "seggio_telematico": "16"
-            }
-        },
-        {
-            "nome": "ACTEA",
-            "seggi": {
-                "seggi_pieni": "5",
-                "resti": "5,5",
-                "seggi_ai_resti": "1",
-                "seggi_totali": "6"
-            },
-            "voti": {
-                "totali": "63",
-                "seggio_telematico": "63"
-            }
-        },
-        {
-            "nome": "WE LOVE UNICT",
-            "seggi": {
-                "seggi_pieni": "4",
-                "resti": "8,0",
-                "seggi_ai_resti": "1",
-                "seggi_totali": "5"
-            },
-            "voti": {
-                "totali": "54",
-                "seggio_telematico": "54"
-            }
-        },
-        {
-            "nome": "Alleanza Universitaria",
-            "seggi": {
-                "seggi_pieni": "-",
-                "resti": "5,0",
-                "seggi_ai_resti": "0",
-                "seggi_totali": "-"
-            },
-            "voti": {
-                "totali": "5",
-                "seggio_telematico": "5"
-            }
-        },
-        {
-            "totale": 138
-        }
-    ],
-    "eletti": [
-        {
-            "nominativo": "COLUCCIO AGATA",
-            "lista": "ACTEA",
-            "voti": {
-                "totali": 24,
-                "seggio_telematico": 24
-            }
-        },
-        {
-            "nominativo": "BLUNDO EDOARDO",
-            "lista": "ACTEA",
-            "voti": {
-                "totali": 3,
-                "seggio_telematico": 3
-            }
-        },
-        {
-            "nominativo": "MARSIANO FEDERICA RITA",
-            "lista": "ACTEA",
-            "voti": {
-                "totali": 10,
-                "seggio_telematico": 10
-            }
-        },
-        {
-            "nominativo": "LA TERRA GIOVANNI",
-            "lista": "ACTEA",
-            "voti": {
-                "totali": 11,
-                "seggio_telematico": 11
-            }
-        },
-        {
-            "nominativo": "SORCE GAETANO",
-            "lista": "ACTEA",
-            "voti": {
-                "totali": 4,
-                "seggio_telematico": 4
-            }
-        },
-        {
-            "nominativo": "FALLICA GIUSEPPE",
-            "lista": "ACTEA",
-            "voti": {
-                "totali": 6,
-                "seggio_telematico": 6
-            }
-        },
-        {
-            "nominativo": "MACI MARCO ROSARIO",
-            "lista": "ACTEA",
-            "voti": {
-                "totali": 3,
-                "seggio_telematico": 3
-            }
-        },
-        {
-            "nominativo": "FIORELLO ALESSIO SALVATORE",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 32,
-                "seggio_telematico": 32
-            }
-        },
-        {
-            "nominativo": "TRICARICO VALENTINA MARIA",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 4,
-                "seggio_telematico": 4
-            }
-        }
-    ],
-    "non_eletti": [
-        {
-            "nominativo": "PUGLISI MARTINA",
-            "lista": "INFOBIOMETEC",
-            "voti": {
-                "totali": 2,
-                "seggio_telematico": 2
-            }
-        },
-        {
-            "nominativo": "DI GREGORIO VALERIA",
-            "lista": "INFOBIOMETEC",
-            "voti": {
-                "totali": 9,
-                "seggio_telematico": 9
-            }
-        },
-        {
-            "nominativo": "LIOTTA ROSSANA",
-            "lista": "INFOBIOMETEC",
-            "voti": {
-                "totali": 2,
-                "seggio_telematico": 2
-            }
-        },
-        {
-            "nominativo": "RIERA DARIO",
-            "lista": "INFOBIOMETEC",
-            "voti": {
-                "totali": 1,
-                "seggio_telematico": 1
-            }
-        },
-        {
-            "nominativo": "CAVALLO FILIPPO ROBERTO",
-            "lista": "INFOBIOMETEC",
-            "voti": {
-                "totali": 1,
-                "seggio_telematico": 1
-            }
-        },
-        {
-            "nominativo": "SALME' ALESSANDRO MARIA",
-            "lista": "ACTEA",
-            "voti": {
-                "totali": 2,
-                "seggio_telematico": 2
-            }
-        },
-        {
-            "nominativo": "PULVIRENTI LORENZO",
-            "lista": "ACTEA",
-            "voti": {
-                "totali": 0,
-                "seggio_telematico": 0
-            }
-        },
-        {
-            "nominativo": "PALERMO SALVATORE",
-            "lista": "ACTEA",
-            "voti": {
-                "totali": 0,
-                "seggio_telematico": 0
-            }
-        },
-        {
-            "nominativo": "MOTTA PIERO",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 1,
-                "seggio_telematico": 1
-            }
-        },
-        {
-            "nominativo": "MAZZAGLIA SALVATORE ROBERTO",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 0,
-                "seggio_telematico": 0
-            }
-        },
-        {
-            "nominativo": "MIRENNA MICHELE",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 1,
-                "seggio_telematico": 1
-            }
-        },
-        {
-            "nominativo": "D'ASERO MATTIA",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 4,
-                "seggio_telematico": 4
-            }
-        },
-        {
-            "nominativo": "FARO SIMONE",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 0,
-                "seggio_telematico": 0
-            }
-        },
-        {
-            "nominativo": "RAFFAGNINO SALVATORE",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 1,
-                "seggio_telematico": 1
-            }
-        },
-        {
-            "nominativo": "IUCULANO SANTO",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 4,
-                "seggio_telematico": 4
-            }
-        },
-        {
-            "nominativo": "INTERLANDI ANGELO FRANCESCO MARIA",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 1,
-                "seggio_telematico": 1
-            }
-        },
-        {
-            "nominativo": "ISAIA ANDREA",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 2,
-                "seggio_telematico": 2
-            }
-        },
-        {
-            "nominativo": "MUSUMECI SALVATORE",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 4,
-                "seggio_telematico": 4
-            }
-        },
-        {
-            "nominativo": "MILAZZO VINCENZO",
-            "lista": "Alleanza Universitaria",
-            "voti": {
-                "totali": 5,
-                "seggio_telematico": 5
-            }
-        }
-    ],
-    "dipartimento": "SCIENZE MOTORIE-L-22-Laurea Triennale (D.M.270/2004)",
-    "seggi_da_assegnare": "12",
-    "quoziente": 11.5,
-    "votanti": {
-        "totali": 146,
-        "percentuale": 23.43,
-        "seggio_n_telematico": 146
+    "nulle": {
+      "totali": 0
     },
-    "elettori": {
-        "totali": 623,
-        "seggio_n_telematico": 623
+    "contestate": {
+      "totali": 0
     }
+  },
+  "votanti": {
+    "totali": 146,
+    "percentuale": 23.43,
+    "seggio_n_telematico": 146
+  },
+  "elettori": {
+    "totali": 623,
+    "seggio_n_telematico": 623
+  },
+  "quoziente": 11.5,
+  "liste": [
+    {
+      "nome": "INFOBIOMETEC",
+      "seggi": {
+        "seggi_pieni": "1",
+        "resti": "45",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": 16,
+        "seggio_telematico": 16
+      }
+    },
+    {
+      "nome": "ACTEA",
+      "seggi": {
+        "seggi_pieni": "5",
+        "resti": "55",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "6"
+      },
+      "voti": {
+        "totali": 63,
+        "seggio_telematico": 63
+      }
+    },
+    {
+      "nome": "WE LOVE UNICT",
+      "seggi": {
+        "seggi_pieni": "4",
+        "resti": "80",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "5"
+      },
+      "voti": {
+        "totali": 54,
+        "seggio_telematico": 54
+      }
+    },
+    {
+      "nome": "Alleanza Universitaria",
+      "seggi": {
+        "seggi_pieni": "0",
+        "resti": "50",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "0"
+      },
+      "voti": {
+        "totali": 5,
+        "seggio_telematico": 5
+      }
+    },
+    {
+      "totale": 138
+    }
+  ],
+  "eletti": [
+    {
+      "nominativo": "DI GREGORIO VALERIA",
+      "lista": "INFOBIOMETEC",
+      "voti": {
+        "totali": 9
+      },
+      "stato": "ELETTO"
+    },
+    {
+      "nominativo": "COLICOG AGATA",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 24
+      },
+      "stato": "ELETTO"
+    },
+    {
+      "nominativo": "LA TERRA GIOVANNI",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 11
+      },
+      "stato": "ELETTO"
+    },
+    {
+      "nominativo": "MARSIANO FEDERICA RITA",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 10
+      },
+      "stato": "ELETTO"
+    },
+    {
+      "nominativo": "FALLICA GIUSEPPE",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 6
+      },
+      "stato": "ELETTO"
+    },
+    {
+      "nominativo": "SORCE GAETANO",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 4
+      },
+      "stato": "ELETTO"
+    },
+    {
+      "nominativo": "BLUNDO EDOARDO",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 3
+      },
+      "stato": "ELETTO"
+    },
+    {
+      "nominativo": "FIORELLO ALESSIO SALVATORE",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 32
+      },
+      "stato": "ELETTO"
+    },
+    {
+      "nominativo": "TRICARICO VALENTINA MARIA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 4
+      },
+      "stato": "ELETTO"
+    },
+    {
+      "nominativo": "D'ASERO MATTIA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 4
+      },
+      "stato": "ELETTO"
+    },
+    {
+      "nominativo": "JUCULANO SANTO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 4
+      },
+      "stato": "ELETTO"
+    },
+    {
+      "nominativo": "MUSUMECI SALVATORE",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 4
+      },
+      "stato": "ELETTO"
+    }
+  ],
+  "non_eletti": [
+    {
+      "nominativo": "PUGLISI MARTINA",
+      "lista": "INFOBIOMETEC",
+      "voti": {
+        "totali": 2
+      }
+    },
+    {
+      "nominativo": "LIOTTA ROSSANA",
+      "lista": "INFOBIOMETEC",
+      "voti": {
+        "totali": 2
+      }
+    },
+    {
+      "nominativo": "RIERA DARHO",
+      "lista": "INFOBIOMETEC",
+      "voti": {
+        "totali": 1
+      }
+    },
+    {
+      "nominativo": "CAVALLO FILIPPO ROBERTO",
+      "lista": "INFOBIOMETEC",
+      "voti": {
+        "totali": 0
+      }
+    },
+    {
+      "nominativo": "SALME ALESSANDRO MARIA",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 2
+      }
+    },
+    {
+      "nominativo": "MACI MARCO ROSARIO",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 3
+      }
+    },
+    {
+      "nominativo": "PULVIRENTI LORENZO",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 0
+      }
+    },
+    {
+      "nominativo": "PALERMO SALVATORE",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 0
+      }
+    },
+    {
+      "nominativo": "MOTTA PIERO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 1
+      }
+    },
+    {
+      "nominativo": "MAZZAGLIA SALVATORE ROBERTO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 0
+      }
+    },
+    {
+      "nominativo": "MIRENNA MICHELE",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 1
+      }
+    },
+    {
+      "nominativo": "FARO SIMONE",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 0
+      }
+    },
+    {
+      "nominativo": "RAFFAGNING SALVATORE",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 1
+      }
+    },
+    {
+      "nominativo": "INTERLANDI ANGELO FRANCESCO MARIA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 1
+      }
+    },
+    {
+      "nominativo": "ISAIA ANDREA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 2
+      }
+    },
+    {
+      "nominativo": "MILAZZO VINCENZO",
+      "lista": "Alleanza Universitaria",
+      "voti": {
+        "totali": 14
+      }
+    }
+  ]
 }
