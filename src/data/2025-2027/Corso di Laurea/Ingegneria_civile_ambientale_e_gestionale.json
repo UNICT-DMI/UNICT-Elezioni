@@ -1,0 +1,330 @@
+{
+  "dipartimento": "INGEGNERIA CIVILE, AMBIENTALE E GESTIONALE-L-7-Laurea Triennale (D.M.270/2004)",
+  "seggi_da_assegnare": "6",
+  "schede": {
+    "bianche": {
+      "totali": 8,
+      "seggio_n_telematico": 8
+    },
+    "nulle": {
+      "totali": 0
+    },
+    "contestate": {
+      "totali": 0
+    }
+  },
+  "votanti": {
+    "totali": 246,
+    "percentuale": 52.23,
+    "seggio_n_telematico": 246
+  },
+  "elettori": {
+    "totali": 471,
+    "seggio_n_telematico": 471
+  },
+  "quoziente": 39.667,
+  "liste": [
+    {
+      "nome": "Ingegner Attiva",
+      "seggi": {
+        "seggi_pieni": "1",
+        "resti": "23.3",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "2"
+      },
+      "voti": {
+        "totali": 63,
+        "seggio_telematico": 63
+      }
+    },
+    {
+      "nome": "UNITAS",
+      "seggi": {
+        "seggi_pieni": "1",
+        "resti": "19.3",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": 59,
+        "seggio_telematico": 59
+      }
+    },
+    {
+      "nome": "WE LOVE UNICT",
+      "seggi": {
+        "seggi_pieni": "0",
+        "resti": "36.0",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": 36,
+        "seggio_telematico": 36
+      }
+    },
+    {
+      "nome": "ACTEA",
+      "seggi": {
+        "seggi_pieni": "1",
+        "resti": "5.3",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": 45,
+        "seggio_telematico": 45
+      }
+    },
+    {
+      "nome": "LOVE INGEGNERIA CIVILE",
+      "seggi": {
+        "seggi_pieni": "0",
+        "resti": "24.0",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "0"
+      },
+      "voti": {
+        "totali": 24,
+        "seggio_telematico": 24
+      }
+    },
+    {
+      "nome": "Cambiamento Ingegneria",
+      "seggi": {
+        "seggi_pieni": "0",
+        "resti": "11.0",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": 11,
+        "seggio_telematico": 11
+      }
+    },
+    {
+      "totale": 238
+    }
+  ],
+  "eletti": [
+    {
+      "nominativo": "BARBAGALLO GAIA",
+      "lista": "Ingegner Attiva",
+      "voti": {
+        "totali": 33
+      }
+    },
+    {
+      "nominativo": "MANDBUCA GABRIELE",
+      "lista": "Ingegner Attiva",
+      "voti": {
+        "totali": 26
+      }
+    },
+    {
+      "nominativo": "DI FEDE CHIARA",
+      "lista": "UNITAS",
+      "voti": {
+        "totali": 18
+      }
+    },
+    {
+      "nominativo": "GARRA FRANCESCO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 16
+      }
+    },
+    {
+      "nominativo": "HAITI PIETRO",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 16
+      }
+    },
+    {
+      "nominativo": "LAZZAROTTI IGON",
+      "lista": "Cambiamento Ingegneria",
+      "voti": {
+        "totali": 10
+      }
+    }
+  ],
+  "non_eletti": [
+    {
+      "nominativo": "PANDOLFO MATTIS",
+      "lista": "Ingegner Attiva",
+      "voti": {
+        "totali": 1
+      }
+    },
+    {
+      "nominativo": "GULLOTTA SOPHIE",
+      "lista": "Ingegner Attiva",
+      "voti": {
+        "totali": 0
+      }
+    },
+    {
+      "nominativo": "SARDO CALOGERO GIOVANNI",
+      "lista": "Ingegner Attiva",
+      "voti": {
+        "totali": 0
+      }
+    },
+    {
+      "nominativo": "FLORIDIA ALICE",
+      "lista": "Ingegner Attiva",
+      "voti": {
+        "totali": 1
+      }
+    },
+    {
+      "nominativo": "RUBIND MONTENERI ANDREA",
+      "lista": "UNITAS",
+      "voti": {
+        "totali": 16
+      }
+    },
+    {
+      "nominativo": "LECINE MARIA LETIZIA",
+      "lista": "UNITAS",
+      "voti": {
+        "totali": 9
+      }
+    },
+    {
+      "nominativo": "VIRZI CALOGERO",
+      "lista": "UNITAS",
+      "voti": {
+        "totali": 3
+      }
+    },
+    {
+      "nominativo": "BIZZINI SALVATORE GIOELE",
+      "lista": "UNITAS",
+      "voti": {
+        "totali": 9
+      }
+    },
+    {
+      "nominativo": "BATTAGLIA GRIJA",
+      "lista": "UNITAS",
+      "voti": {
+        "totali": 3
+      }
+    },
+    {
+      "nominativo": "CORRENTE DARIELE",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 5
+      }
+    },
+    {
+      "nominativo": "NASONTE GIUSEPPE",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 0
+      }
+    },
+    {
+      "nominativo": "COPOERU YASMINE TONELA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 0
+      }
+    },
+    {
+      "nominativo": "FENNISI GIOVANNI",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 15
+      }
+    },
+    {
+      "nominativo": "CAVALLARO LAETANO",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 14
+      }
+    },
+    {
+      "nominativo": "D'ARMA FEDERICO",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 4
+      }
+    },
+    {
+      "nominativo": "OMERI GIDELE",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 2
+      }
+    },
+    {
+      "nominativo": "BORDONARO FERDINANDO",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 9
+      }
+    },
+    {
+      "nominativo": "VENEZIANO GABRIELE",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 0
+      }
+    },
+    {
+      "nominativo": "SICALI FILIPPO ANGELO",
+      "lista": "LOVE INGEGNERIA CIVILE",
+      "voti": {
+        "totali": 13
+      }
+    },
+    {
+      "nominativo": "SPITALI GABRIELE",
+      "lista": "LOVE INGEGNERIA CIVILE",
+      "voti": {
+        "totali": 0
+      }
+    },
+    {
+      "nominativo": "PAPA MATTED",
+      "lista": "LOVE INGEGNERIA CIVILE",
+      "voti": {
+        "totali": 0
+      }
+    },
+    {
+      "nominativo": "MIGLIORE ALESSANDRA",
+      "lista": "LOVE INGEGNERIA CIVILE",
+      "voti": {
+        "totali": 1
+      }
+    },
+    {
+      "nominativo": "FAGONE FRANCESCO SAVERIO",
+      "lista": "LOVE INGEGNERIA CIVILE",
+      "voti": {
+        "totali": 0
+      }
+    },
+    {
+      "nominativo": "LEANZA ALESSIO",
+      "lista": "LOVE INGEGNERIA CIVILE",
+      "voti": {
+        "totali": 8
+      }
+    },
+    {
+      "nominativo": "CACCAMO-CONCETTO",
+      "lista": "Cambiamento Ingegneria",
+      "voti": {
+        "totali": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "dipartimento": "SCIENZE DELL'AMMINISTRAZIONE E DELL'ORGANIZZAZIONE-L-16-Laurea Triennale (D.M.270/2004)",
+  "seggi_da_assegnare": "5",
+  "schede": {
+    "bianche": {
+      "totali": 6,
+      "seggio_n_telematico": 6
+    },
+    "nulle": {
+      "totali": 0
+    },
+    "contestate": {
+      "totali": 0
+    }
+  },
+  "votanti": {
+    "totali": 159,
+    "percentuale": 33.54,
+    "seggio_n_telematico": 159
+  },
+  "elettori": {
+    "totali": 474,
+    "seggio_n_telematico": 474
+  },
+  "quoziente": 30.6,
+  "liste": [
+    {
+      "nome": "AZIONE UNIVERSITARIA",
+      "seggi": {
+        "seggi_pieni": "1",
+        "resti": "28.4",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "2"
+      },
+      "voti": {
+        "totali": 59,
+        "seggio_telematico": 59
+      }
+    },
+    {
+      "nome": "Oltre DSPS",
+      "seggi": {
+        "seggi_pieni": "1",
+        "resti": "23.4",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "2"
+      },
+      "voti": {
+        "totali": 54,
+        "seggio_telematico": 54
+      }
+    },
+    {
+      "nome": "Arcadia",
+      "seggi": {
+        "seggi_pieni": "1",
+        "resti": "5.4",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": 36,
+        "seggio_telematico": 36
+      }
+    },
+    {
+      "nome": "WE LOVE UNICT",
+      "seggi": {
+        "seggi_pieni": "0",
+        "resti": "4.0",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "0"
+      },
+      "voti": {
+        "totali": 4,
+        "seggio_telematico": 4
+      }
+    },
+    {
+      "totale": 153
+    }
+  ],
+  "eletti": [
+    {
+      "nominativo": "LEONARDI AURORA MARIA",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 31
+      },
+      "stato": "ELETTO"
+    },
+    {
+      "nominativo": "MANRIQUE REBECCA MAYA",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 27
+      },
+      "stato": "ELETTO"
+    },
+    {
+      "nominativo": "PERNAGALLO LORENA",
+      "lista": "Oltre DSPS",
+      "voti": {
+        "totali": 37
+      },
+      "stato": "ELETTO"
+    },
+    {
+      "nominativo": "CIPRIANO ALESSIA",
+      "lista": "Oltre DSPS",
+      "voti": {
+        "totali": 8
+      },
+      "stato": "ELETTO"
+    },
+    {
+      "nominativo": "GULLOTTA SIMONE",
+      "lista": "Arcadia",
+      "voti": {
+        "totali": 14
+      },
+      "stato": "ELETTO"
+    }
+  ],
+  "non_eletti": [
+    {
+      "nominativo": "MERTOLI CARMELO GABRIELE",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 1
+      }
+    },
+    {
+      "nominativo": "PAPPALARDO CLAUDIA",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 0
+      }
+    },
+    {
+      "nominativo": "AMATO DAMIANO",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 0
+      }
+    },
+    {
+      "nominativo": "COSTANZO LORENZO GIUSEPPE DAVIDE",
+      "lista": "Oltre DSPS",
+      "voti": {
+        "totali": 8
+      }
+    },
+    {
+      "nominativo": "VASTA MARTINA",
+      "lista": "Oltre DSPS",
+      "voti": {
+        "totali": 1
+      }
+    },
+    {
+      "nominativo": "ESPOSITO MICHELE",
+      "lista": "Oltre DSPS",
+      "voti": {
+        "totali": 0
+      }
+    },
+    {
+      "nominativo": "CONDORELLI ERIKA",
+      "lista": "Arcadia",
+      "voti": {
+        "totali": 10
+      }
+    },
+    {
+      "nominativo": "TIRENDI OTTAVIO",
+      "lista": "Arcadia",
+      "voti": {
+        "totali": 5
+      }
+    },
+    {
+      "nominativo": "SPAMPINATO FILIPPO",
+      "lista": "Arcadia",
+      "voti": {
+        "totali": 4
+      }
+    },
+    {
+      "nominativo": "SCORCIAPING EMANUELE",
+      "lista": "Arcadia",
+      "voti": {
+        "totali": 3
+      }
+    },
+    {
+      "nominativo": "DIPASQUALE CARLA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 4
+      }
+    },
+    {
+      "nominativo": "FRENI ROBERTA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 0
+      }
+    },
+    {
+      "nominativo": "CASCONE DANIELE",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 0
+      }
+    },
+    {
+      "nominativo": "BELLIA SALVATORE EMANUELE",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 0
+      }
+    }
+  ]
+}

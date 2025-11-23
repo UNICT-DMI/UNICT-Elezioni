@@ -1,0 +1,411 @@
+{
+  "dipartimento": "SCIENZE BIOLOGICHE-L-13-Laurea Triennale (D.M.270/2004)",
+  "seggi_da_assegnare": "11",
+  "schede": {
+    "bianche": {
+      "totali": 10,
+      "seggio_n_telematico": 10
+    },
+    "nulle": {
+      "totali": 0
+    },
+    "contestate": {
+      "totali": 0
+    }
+  },
+  "votanti": {
+    "totali": 311,
+    "percentuale": 30.67,
+    "seggio_n_telematico": 311
+  },
+  "elettori": {
+    "totali": 1014,
+    "seggio_n_telematico": 1014
+  },
+  "quoziente": 27.3636,
+  "liste": [
+    {
+      "nome": "CREDIAMOCI",
+      "seggi": {
+        "seggi_pieni": "0",
+        "resti": "18.0",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": 18,
+        "seggio_telematico": 18
+      }
+    },
+    {
+      "nome": "Primavera",
+      "seggi": {
+        "seggi_pieni": "1",
+        "resti": "19.6",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "2"
+      },
+      "voti": {
+        "totali": 47,
+        "seggio_telematico": 47
+      }
+    },
+    {
+      "nome": "AZIONE UNIVERSITARIA",
+      "seggi": {
+        "seggi_pieni": "1",
+        "resti": "9.6",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": 37,
+        "seggio_telematico": 37
+      }
+    },
+    {
+      "nome": "Arcadia",
+      "seggi": {
+        "seggi_pieni": "6",
+        "resti": "4.8",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "6"
+      },
+      "voti": {
+        "totali": 169,
+        "seggio_telematico": 169
+      }
+    },
+    {
+      "nome": "Impegno accademico",
+      "seggi": {
+        "seggi_pieni": "0",
+        "resti": "13.0",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "0"
+      },
+      "voti": {
+        "totali": 13,
+        "seggio_telematico": 13
+      }
+    },
+    {
+      "nome": "GenSan",
+      "seggi": {
+        "seggi_pieni": "0",
+        "resti": "17.0",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": 17,
+        "seggio_telematico": 17
+      }
+    },
+    {
+      "totale": 301
+    }
+  ],
+  "eletti": [
+    {
+      "nominativo": "RINALDO GIOVANNI",
+      "lista": "Arcadia",
+      "voti": {
+        "totali": 60
+      },
+      "stato": "ELETTO"
+    },
+    {
+      "nominativo": "FAZIO PAOLA",
+      "lista": "Arcadia",
+      "voti": {
+        "totali": 21
+      },
+      "stato": "ELETTO"
+    },
+    {
+      "nominativo": "LEONARDI MATTEO",
+      "lista": "Arcadia",
+      "voti": {
+        "totali": 13
+      },
+      "stato": "ELETTO"
+    },
+    {
+      "nominativo": "PALMIERI LUCA",
+      "lista": "Arcadia",
+      "voti": {
+        "totali": 12
+      },
+      "stato": "ELETTO"
+    },
+    {
+      "nominativo": "SALVATORE CHIARA",
+      "lista": "Arcadia",
+      "voti": {
+        "totali": 11
+      },
+      "stato": "ELETTO"
+    },
+    {
+      "nominativo": "CALABRIA SARA",
+      "lista": "Arcadia",
+      "voti": {
+        "totali": 10
+      },
+      "stato": "ELETTO"
+    },
+    {
+      "nominativo": "PATERNO' CHIARA",
+      "lista": "Primavera",
+      "voti": {
+        "totali": 13
+      },
+      "stato": "ELETTO"
+    },
+    {
+      "nominativo": "SANTANGELO AGNESE",
+      "lista": "Primavera",
+      "voti": {
+        "totali": 16
+      },
+      "stato": "ELETTO"
+    },
+    {
+      "nominativo": "CRESCIMANNO ANDREA",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 30
+      },
+      "stato": "ELETTO"
+    },
+    {
+      "nominativo": "FICARRA VIVIANA",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 13
+      },
+      "stato": "ELETTO"
+    },
+    {
+      "nominativo": "SALAMONE MARA",
+      "lista": "GenSan",
+      "voti": {
+        "totali": 10
+      },
+      "stato": "ELETTO"
+    }
+  ],
+  "non_eletti": [
+    {
+      "nominativo": "NICOSIA VIVIANA",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 5
+      }
+    },
+    {
+      "nominativo": "DE JOANNON LUIGI",
+      "lista": "Primavera",
+      "voti": {
+        "totali": 8
+      }
+    },
+    {
+      "nominativo": "FICICCHIA SOFIA",
+      "lista": "Primavera",
+      "voti": {
+        "totali": 7
+      }
+    },
+    {
+      "nominativo": "PEPE SOFIA",
+      "lista": "Primavera",
+      "voti": {
+        "totali": 6
+      }
+    },
+    {
+      "nominativo": "GANGI CHIARA",
+      "lista": "Primavera",
+      "voti": {
+        "totali": 3
+      }
+    },
+    {
+      "nominativo": "LEOCATA ESTER",
+      "lista": "Primavera",
+      "voti": {
+        "totali": 2
+      }
+    },
+    {
+      "nominativo": "KRASNIQI ELIOD",
+      "lista": "Primavera",
+      "voti": {
+        "totali": 1
+      }
+    },
+    {
+      "nominativo": "CAPODIECI BEATRICE",
+      "lista": "Primavera",
+      "voti": {
+        "totali": 0
+      }
+    },
+    {
+      "nominativo": "GRANATO ROSICHIARA",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 4
+      }
+    },
+    {
+      "nominativo": "TORO GIULIA",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 4
+      }
+    },
+    {
+      "nominativo": "CASTIGLIONE ISIDE",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 2
+      }
+    },
+    {
+      "nominativo": "MIRAGLIA DOROTEA",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 0
+      }
+    },
+    {
+      "nominativo": "RAPISARDA ALESSANDRA",
+      "lista": "Arcadia",
+      "voti": {
+        "totali": 10
+      }
+    },
+    {
+      "nominativo": "SCUDERI ANGELA",
+      "lista": "Arcadia",
+      "voti": {
+        "totali": 8
+      }
+    },
+    {
+      "nominativo": "LO CURTO ALESSIA",
+      "lista": "Arcadia",
+      "voti": {
+        "totali": 7
+      }
+    },
+    {
+      "nominativo": "VACCARO GIOVANNI",
+      "lista": "Arcadia",
+      "voti": {
+        "totali": 6
+      }
+    },
+    {
+      "nominativo": "SANTINI GIUSEPPE",
+      "lista": "Arcadia",
+      "voti": {
+        "totali": 5
+      }
+    },
+    {
+      "nominativo": "NICOLOSI SANTI",
+      "lista": "Arcadia",
+      "voti": {
+        "totali": 4
+      }
+    },
+    {
+      "nominativo": "MUSUMECI EMANUELE",
+      "lista": "Arcadia",
+      "voti": {
+        "totali": 3
+      }
+    },
+    {
+      "nominativo": "DI BLASI FRANCESCO",
+      "lista": "Arcadia",
+      "voti": {
+        "totali": 3
+      }
+    },
+    {
+      "nominativo": "SANSONE GABRIELE",
+      "lista": "Arcadia",
+      "voti": {
+        "totali": 2
+      }
+    },
+    {
+      "nominativo": "GIULIANO ALESSANDRO",
+      "lista": "Arcadia",
+      "voti": {
+        "totali": 1
+      }
+    },
+    {
+      "nominativo": "DI BENNARDO GIULIO",
+      "lista": "Arcadia",
+      "voti": {
+        "totali": 1
+      }
+    },
+    {
+      "nominativo": "CATANIA GIUSEPPE",
+      "lista": "Arcadia",
+      "voti": {
+        "totali": 1
+      }
+    },
+    {
+      "nominativo": "AUTERI CATERINA",
+      "lista": "Arcadia",
+      "voti": {
+        "totali": 1
+      }
+    },
+    {
+      "nominativo": "SAPUPPO GIOVANNI",
+      "lista": "Impegno accademico",
+      "voti": {
+        "totali": 10
+      }
+    },
+    {
+      "nominativo": "GIULIANO FLAVIA",
+      "lista": "Impegno accademico",
+      "voti": {
+        "totali": 2
+      }
+    },
+    {
+      "nominativo": "TURRISI SALVATORE",
+      "lista": "Impegno accademico",
+      "voti": {
+        "totali": 0
+      }
+    },
+    {
+      "nominativo": "BRIGANTE GABRIELE",
+      "lista": "GenSan",
+      "voti": {
+        "totali": 6
+      }
+    },
+    {
+      "nominativo": "LUPICA FEDERICA",
+      "lista": "GenSan",
+      "voti": {
+        "totali": 1
+      }
+    }
+  ]
+}

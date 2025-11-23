@@ -1,0 +1,361 @@
+{
+  "dipartimento": "STORIA, POLITICA E RELAZIONI INTERNAZIONALI-L-36-Laurea Triennale (D.M.270/2004)",
+  "seggi_da_assegnare": "5",
+  "schede": {
+    "bianche": {
+      "totali": 6,
+      "seggio_n_telematico": 6
+    },
+    "nulle": {
+      "totali": 0
+    },
+    "contestate": {
+      "totali": 0
+    }
+  },
+  "votanti": {
+    "totali": 243,
+    "percentuale": 43.01,
+    "seggio_n_telematico": 243
+  },
+  "elettori": {
+    "totali": 565,
+    "seggio_n_telematico": 565
+  },
+  "quoziente": 47.4,
+  "liste": [
+    {
+      "nome": "AZIONE UNIVERSITARIA",
+      "seggi": {
+        "seggi_pieni": "0",
+        "resti": "11.0",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "0"
+      },
+      "voti": {
+        "totali": 11,
+        "seggio_telematico": 11
+      }
+    },
+    {
+      "nome": "Koinè",
+      "seggi": {
+        "seggi_pieni": "1",
+        "resti": "7,6",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": 55,
+        "seggio_telematico": 55
+      }
+    },
+    {
+      "nome": "Oltre DSPS",
+      "seggi": {
+        "seggi_pieni": "1",
+        "resti": "23,6",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": 71,
+        "seggio_telematico": 71
+      }
+    },
+    {
+      "nome": "WE LOVE UNICT",
+      "seggi": {
+        "seggi_pieni": "0",
+        "resti": "32,0",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": 32,
+        "seggio_telematico": 32
+      }
+    },
+    {
+      "nome": "CREDIAMOCI",
+      "seggi": {
+        "seggi_pieni": "0",
+        "resti": "3,0",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "0"
+      },
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
+      }
+    },
+    {
+      "nome": "Fronte Gioventù Comunista",
+      "seggi": {
+        "seggi_pieni": "0",
+        "resti": "9,0",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "0"
+      },
+      "voti": {
+        "totali": 9,
+        "seggio_telematico": 9
+      }
+    },
+    {
+      "nome": "Arcadia",
+      "seggi": {
+        "seggi_pieni": "0",
+        "resti": "29,0",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": 29,
+        "seggio_telematico": 29
+      }
+    },
+    {
+      "nome": "LOVE RELAZIONI INTERNAZIONALI",
+      "seggi": {
+        "seggi_pieni": "0",
+        "resti": "27,0",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": 27,
+        "seggio_telematico": 27
+      }
+    },
+    {
+      "totale": 237
+    }
+  ],
+  "eletti": [
+    {
+      "nominativo": "BONGIOVANNI GIUSEPPE",
+      "lista": "Koinè",
+      "voti": {
+        "totali": 31
+      },
+      "stato": "ELETTO"
+    },
+    {
+      "nominativo": "GIORDANO EMANUELE ROSARIO FRANCESCO",
+      "lista": "Oltre DSPS",
+      "voti": {
+        "totali": 30
+      },
+      "stato": "ELETTO"
+    },
+    {
+      "nominativo": "PERTICONE CONCETTA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 24
+      },
+      "stato": "ELETTO"
+    },
+    {
+      "nominativo": "CALABRIA CHIARA",
+      "lista": "Arcadia",
+      "voti": {
+        "totali": 8
+      },
+      "stato": "ELETTO"
+    },
+    {
+      "nominativo": "FERRARA NOEMI",
+      "lista": "LOVE RELAZIONI INTERNAZIONALI",
+      "voti": {
+        "totali": 15
+      },
+      "stato": "ELETTO"
+    }
+  ],
+  "non_eletti": [
+    {
+      "nominativo": "BARBAGALLO ALICE",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 8
+      }
+    },
+    {
+      "nominativo": "CATANIA FABIOLA",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 2
+      }
+    },
+    {
+      "nominativo": "MICALIZZI SALVATORE",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 0
+      }
+    },
+    {
+      "nominativo": "TIRRELLA GIULIA",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 1
+      }
+    },
+    {
+      "nominativo": "LUPICA CRISTINA",
+      "lista": "Koinè",
+      "voti": {
+        "totali": 6
+      }
+    },
+    {
+      "nominativo": "FRANCIA GIORGIO",
+      "lista": "Koinè",
+      "voti": {
+        "totali": 3
+      }
+    },
+    {
+      "nominativo": "BRANCA GIUSEPPE",
+      "lista": "Koinè",
+      "voti": {
+        "totali": 4
+      }
+    },
+    {
+      "nominativo": "PAPALEO NINA",
+      "lista": "Oltre DSPS",
+      "voti": {
+        "totali": 18
+      }
+    },
+    {
+      "nominativo": "AIELLO VALERIA",
+      "lista": "Oltre DSPS",
+      "voti": {
+        "totali": 4
+      }
+    },
+    {
+      "nominativo": "LICCIARDELLO ELENA SILVIA",
+      "lista": "Oltre DSPS",
+      "voti": {
+        "totali": 16
+      }
+    },
+    {
+      "nominativo": "MISSERI BENEDETTA CLARA",
+      "lista": "Oltre DSPS",
+      "voti": {
+        "totali": 2
+      }
+    },
+    {
+      "nominativo": "SCIRE DARIO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 8
+      }
+    },
+    {
+      "nominativo": "MACCA FLAVIO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 0
+      }
+    },
+    {
+      "nominativo": "COCO MARTA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 0
+      }
+    },
+    {
+      "nominativo": "LA TORRE DOMENICO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 0
+      }
+    },
+    {
+      "nominativo": "INNUSO ALBERTO PIO",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 1
+      }
+    },
+    {
+      "nominativo": "CAZACU ANASTASIA CRISTINA",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 2
+      }
+    },
+    {
+      "nominativo": "MACCARONE FRANCESCO",
+      "lista": "Fronte Gioventù Comunista",
+      "voti": {
+        "totali": 1
+      }
+    },
+    {
+      "nominativo": "TORNITORE GIOVANNI",
+      "lista": "Fronte Gioventù Comunista",
+      "voti": {
+        "totali": 3
+      }
+    },
+    {
+      "nominativo": "RUSSO ROSA",
+      "lista": "Fronte Gioventù Comunista",
+      "voti": {
+        "totali": 5
+      }
+    },
+    {
+      "nominativo": "CALABRIA MIRIAM",
+      "lista": "Arcadia",
+      "voti": {
+        "totali": 2
+      }
+    },
+    {
+      "nominativo": "GIRGENTI CHIARA",
+      "lista": "Arcadia",
+      "voti": {
+        "totali": 0
+      }
+    },
+    {
+      "nominativo": "BOMBARDIERE FEDERICA",
+      "lista": "Arcadia",
+      "voti": {
+        "totali": 1
+      }
+    },
+    {
+      "nominativo": "LUCCHETTI NOEMI PIA",
+      "lista": "Arcadia",
+      "voti": {
+        "totali": 0
+      }
+    },
+    {
+      "nominativo": "LAZZARO MARTINA",
+      "lista": "LOVE RELAZIONI INTERNAZIONALI",
+      "voti": {
+        "totali": 12
+      }
+    },
+    {
+      "nominativo": "CATANIA VERONICA",
+      "lista": "LOVE RELAZIONI INTERNAZIONALI",
+      "voti": {
+        "totali": 0
+      }
+    }
+  ]
+}
