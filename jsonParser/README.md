@@ -1,5 +1,7 @@
 # UNICT-Elezioni parser
 
+Note: today it's better to use Gemini and ask for extracting the data from the PDF.
+
 ------
 
 ## Table of contents
