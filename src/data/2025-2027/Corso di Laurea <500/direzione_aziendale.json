@@ -1,15 +1,105 @@
 {
   "dipartimento": "DIREZIONE AZIENDALE-LM-77-Laurea Magistrale biennale (D.M.270/2004)",
   "quorum": false,
-  "seggi_da_assegnare": null,
+  "seggi_da_assegnare": 7,
   "schede": {
-    "bianche": 0,
+    "bianche": 4,
     "nulle": 0,
     "contestate": 0
   },
-  "eletti": [],
-  "non_eletti": [],
-  "totale_voti": 7,
-  "aventi_diritto": 7,
-  "perc_votanti": 7.0
+  "eletti": [
+    {
+      "nome_candidato": "BIONDI IVAN",
+      "voti": 34
+    },
+    {
+      "nome_candidato": "AUTERI BIAGIO",
+      "voti": 31
+    },
+    {
+      "nome_candidato": "MAGRO SALVATORE",
+      "voti": 21
+    },
+    {
+      "nome_candidato": "RANNO VALERIA CONCETTA MARIA",
+      "voti": 32
+    },
+    {
+      "nome_candidato": "STRANO MARIO",
+      "voti": 20
+    },
+    {
+      "nome_candidato": "SANTORO GIORGIA",
+      "voti": 17
+    },
+    {
+      "nome_candidato": "MISTRETTA ALESSIA PIERA",
+      "voti": 16
+    }
+  ],
+  "non_eletti": [
+    {
+      "nome_candidato": "CANNAVO' MATTIA",
+      "voti": 5
+    },
+    {
+      "nome_candidato": "COSENTINO CORRADO",
+      "voti": 7
+    },
+    {
+      "nome_candidato": "GENNARO LORENA MARIA",
+      "voti": 15
+    },
+    {
+      "nome_candidato": "GIUFFRIDA ANTONINO",
+      "voti": 1
+    },
+    {
+      "nome_candidato": "IMPELLIZZERI PIETRO GLAUCO",
+      "voti": 2
+    },
+    {
+      "nome_candidato": "PRIMO MARIA CHIARA",
+      "voti": 14
+    },
+    {
+      "nome_candidato": "RIFICI FRANCESCO",
+      "voti": 12
+    },
+    {
+      "nome_candidato": "PALERMO SIMONE",
+      "voti": 16
+    },
+    {
+      "nome_candidato": "BONIFACIO SALVATORE",
+      "voti": 2
+    },
+    {
+      "nome_candidato": "PELLIGRA GABRIELE",
+      "voti": 1
+    },
+    {
+      "nome_candidato": "PARISI VITO ANDREA",
+      "voti": 4
+    },
+    {
+      "nome_candidato": "SCOCCIMARRO GABRIELE",
+      "voti": 9
+    },
+    {
+      "nome_candidato": "D'ARRIGO ALBERTO",
+      "voti": 2
+    },
+    {
+      "nome_candidato": "MARINO CARMELO",
+      "voti": 0
+    },
+    {
+      "nome_candidato": "LO NIGLIO VITTORIO ROSARIO",
+      "voti": 3
+    }
+  ],
+  "totale_voti": 268,
+  "aventi_diritto": 573,
+  "perc_votanti": 46.77
 }

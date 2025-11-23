@@ -1,6 +1,6 @@
 {
   "dipartimento": "CHIMICA-L-27-Laurea Triennale (D.M.270/2004)",
-  "quorum": false,
+  "quorum": true,
   "seggi_da_assegnare": 6,
   "schede": {
     "bianche": 1,
@@ -9,28 +9,28 @@
   },
   "eletti": [
     {
-      "nome_candidato": "PITTALA FEDERICO",
-      "voti": 4
-    },
-    {
-      "nome_candidato": "ANNARO MARIA",
-      "voti": 6
-    },
-    {
-      "nome_candidato": "ARASI GIOVANNI",
-      "voti": 13
+      "nome_candidato": "LEONE BENEDETTA",
+      "voti": 16
     },
     {
       "nome_candidato": "TROVATO MARTINA",
       "voti": 15
     },
     {
-      "nome_candidato": "LEONE BENEDETTA",
-      "voti": 16
+      "nome_candidato": "ARASI GIOVANNI",
+      "voti": 13
     },
     {
       "nome_candidato": "AGUECI FEDERICO",
       "voti": 11
+    },
+    {
+      "nome_candidato": "ANNARO MARIA",
+      "voti": 6
+    },
+    {
+      "nome_candidato": "PITTALA FEDERICO",
+      "voti": 4
     }
   ],
   "non_eletti": [

@@ -1,5 +1,5 @@
 {
-  "dipartimento": "SCIENZE PEDAGOGICHE E PROGETTAZIONE EDUCATIVA-LM-85-Laurea Magistrale biennale",
+  "dipartimento": "SCIENZE PEDAGOGICHE E PROGETTAZIONE EDUCATIVA-LM-85-Laurea Magistrale biennale (D.M.270/2004)",
   "quorum": false,
   "seggi_da_assegnare": 4,
   "schede": {
@@ -13,22 +13,22 @@
       "voti": 21
     },
     {
-      "nome_candidato": "MILLAURO CARLOTTA",
-      "voti": 5
-    },
-    {
       "nome_candidato": "OROFINO LUCA",
       "voti": 10
+    },
+    {
+      "nome_candidato": "PETROLITO MIRKO",
+      "voti": 9
+    },
+    {
+      "nome_candidato": "MILLAURO CARLOTTA",
+      "voti": 5
     }
   ],
   "non_eletti": [
     {
       "nome_candidato": "SANFILIPPO GIULIA",
       "voti": 3
-    },
-    {
-      "nome_candidato": "PETROLITO MIRKO",
-      "voti": 9
     },
     {
       "nome_candidato": "GAROFALO GIULIANA",

@@ -1,7 +1,7 @@
 {
   "dipartimento": "COMMUNICATIONS ENGINEERING-LM-27-Laurea Magistrale biennale (D.M.270/2004)",
   "quorum": false,
-  "seggi_da_assegnare": null,
+  "seggi_da_assegnare": 5,
   "schede": {
     "bianche": 0,
     "nulle": 0,

@@ -9,34 +9,34 @@
   },
   "eletti": [
     {
+      "nome_candidato": "MARIA MARTINA",
+      "voti": 33
+    },
+    {
       "nome_candidato": "MONACO GIUSEPPE",
       "voti": 21
+    },
+    {
+      "nome_candidato": "DURO THOMAS",
+      "voti": 9
     },
     {
       "nome_candidato": "PINO REBECCA",
       "voti": 8
     },
     {
-      "nome_candidato": "MARIA MARTINA",
-      "voti": 33
-    },
-    {
-      "nome_candidato": "DURO THOMAS",
-      "voti": 9
+      "nome_candidato": "IRACI FERRUZZA MARIA",
+      "voti": 8
     }
   ],
   "non_eletti": [
-    {
-      "nome_candidato": "GRECO ANTONIO",
-      "voti": 4
-    },
     {
       "nome_candidato": "SPAMPINATO GIULIA",
       "voti": 6
     },
     {
-      "nome_candidato": "IRACI FERRUZZA MARIA",
-      "voti": 8
+      "nome_candidato": "GRECO ANTONIO",
+      "voti": 4
     }
   ],
   "totale_voti": 89,

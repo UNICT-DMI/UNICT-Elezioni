@@ -9,16 +9,16 @@
   },
   "eletti": [
     {
-      "nome_candidato": "SCARVAGLIERI ALBERTO MARIA",
-      "voti": 5
+      "nome_candidato": "CICITTA DANIELA",
+      "voti": 12
     },
     {
       "nome_candidato": "BOSCO LUDOVICA",
       "voti": 8
     },
     {
-      "nome_candidato": "CICITTA DANIELA",
-      "voti": 12
+      "nome_candidato": "SCARVAGLIERI ALBERTO MARIA",
+      "voti": 5
     }
   ],
   "non_eletti": [

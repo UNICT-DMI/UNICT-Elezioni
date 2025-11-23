@@ -9,20 +9,24 @@
   },
   "eletti": [
     {
-      "nome_candidato": "SIRNA MARTINA",
-      "voti": 6
+      "nome_candidato": "RAFFA ANDREA",
+      "voti": 21
     },
     {
       "nome_candidato": "RIOLO MARIO",
       "voti": 13
     },
     {
-      "nome_candidato": "SQUILLACI FRANCESCA",
+      "nome_candidato": "BASILE VICTOR",
+      "voti": 7
+    },
+    {
+      "nome_candidato": "SIRNA MARTINA",
       "voti": 6
     },
     {
-      "nome_candidato": "RAFFA ANDREA",
-      "voti": 21
+      "nome_candidato": "SQUILLACI FRANCESCA",
+      "voti": 6
     }
   ],
   "non_eletti": [
@@ -37,10 +41,6 @@
     {
       "nome_candidato": "CONTI FRANCESCO",
       "voti": 4
-    },
-    {
-      "nome_candidato": "BASILE VICTOR",
-      "voti": 7
     },
     {
       "nome_candidato": "VERONICA GIOVANNI",

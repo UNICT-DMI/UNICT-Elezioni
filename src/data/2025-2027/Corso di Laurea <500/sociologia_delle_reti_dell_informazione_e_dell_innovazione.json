@@ -1,5 +1,5 @@
 {
-  "dipartimento": "SOCIOLOGIA DELLE RETI, DELL' INFORMAZIONE E DELL' INNOVAZIONE-LM-88-Laurea Magistrale",
+  "dipartimento": "SOCIOLOGIA DELLE RETI, DELL' INFORMAZIONE E DELL' INNOVAZIONE-LM-88-Laurea Magistrale biennale (D.M.270/2004)",
   "quorum": false,
   "seggi_da_assegnare": 4,
   "schede": {
@@ -9,16 +9,16 @@
   },
   "eletti": [
     {
+      "nome_candidato": "ANTONUCCIO NAIKE",
+      "voti": 9
+    },
+    {
       "nome_candidato": "AUTERI RAFFAELE",
       "voti": 6
     },
     {
       "nome_candidato": "LACIKOVA MIROSLAVA",
       "voti": 3
-    },
-    {
-      "nome_candidato": "ANTONUCCIO NAIKE",
-      "voti": 9
     }
   ],
   "non_eletti": [],

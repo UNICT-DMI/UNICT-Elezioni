@@ -9,12 +9,12 @@
   },
   "eletti": [
     {
-      "nome_candidato": "SALPIETRO ANGELO",
-      "voti": 9
-    },
-    {
       "nome_candidato": "CARBONE GIUSEPPE",
       "voti": 50
+    },
+    {
+      "nome_candidato": "SALPIETRO ANGELO",
+      "voti": 9
     }
   ],
   "non_eletti": [],

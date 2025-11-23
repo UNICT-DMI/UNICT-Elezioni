@@ -9,6 +9,10 @@
   },
   "eletti": [
     {
+      "nome_candidato": "CONTARINO LUCIO",
+      "voti": 10
+    },
+    {
       "nome_candidato": "MASCALI ALFIO",
       "voti": 7
     },
@@ -17,11 +21,7 @@
       "voti": 7
     },
     {
-      "nome_candidato": "CONTARINO LUCIO",
-      "voti": 10
-    },
-    {
-      "nome_candidato": "BONANNO GIULIA",
+      "nome_candidato": "ΒΟΝΑΝΝO GIULIA",
       "voti": 5
     },
     {

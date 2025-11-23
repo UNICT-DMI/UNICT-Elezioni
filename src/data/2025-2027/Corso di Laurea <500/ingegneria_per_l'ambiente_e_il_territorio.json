@@ -3,17 +3,17 @@
   "quorum": false,
   "seggi_da_assegnare": null,
   "schede": {
-    "bianche": 0,
+    "bianche": 1,
     "nulle": 0,
     "contestate": 0
   },
-  "eletti": [],
-  "non_eletti": [
+  "eletti": [
     {
       "nome_candidato": "D'ARRIGO MARTINA",
-      "voti": 0
+      "voti": 9
     }
   ],
+  "non_eletti": [],
   "totale_voti": 10,
   "aventi_diritto": 42,
   "perc_votanti": 23.81

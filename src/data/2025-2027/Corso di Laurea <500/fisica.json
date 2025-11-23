@@ -13,20 +13,28 @@
       "voti": 17
     },
     {
-      "nome_candidato": "DEL POPOLO GIULIANA",
-      "voti": 12
+      "nome_candidato": "PALAMITO ANDREA",
+      "voti": 15
     },
     {
-      "nome_candidato": "AMORE SEBASTIANO",
-      "voti": 5
+      "nome_candidato": "TITA SERGIO",
+      "voti": 14
+    },
+    {
+      "nome_candidato": "DEL POPOLO GIULIANA",
+      "voti": 12
     },
     {
       "nome_candidato": "TARZIA DOMENICO",
       "voti": 11
     },
     {
-      "nome_candidato": "PALAMITO ANDREA",
-      "voti": 15
+      "nome_candidato": "LO MONACO FRANCESCO",
+      "voti": 5
+    },
+    {
+      "nome_candidato": "AMORE SEBASTIANO",
+      "voti": 5
     },
     {
       "nome_candidato": "CALA' PALMARINO GIACOMO",
@@ -34,10 +42,6 @@
     }
   ],
   "non_eletti": [
-    {
-      "nome_candidato": "LO MONACO FRANCESCO",
-      "voti": 5
-    },
     {
       "nome_candidato": "TRIBULATO EMANUELE",
       "voti": 3
@@ -47,16 +51,12 @@
       "voti": 2
     },
     {
-      "nome_candidato": "SALVO DANIELE",
-      "voti": 1
-    },
-    {
-      "nome_candidato": "TITA SERGIO",
-      "voti": 14
-    },
-    {
       "nome_candidato": "ALLEGRAMENTE LORENZO",
       "voti": 2
+    },
+    {
+      "nome_candidato": "SALVO DANIELE",
+      "voti": 1
     }
   ],
   "totale_voti": 102,

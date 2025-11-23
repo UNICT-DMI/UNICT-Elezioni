@@ -1,6 +1,6 @@
 {
   "dipartimento": "INGEGNERIA CIVILE DELLE ACQUE E DEI TRASPORTI-LM-23-Laurea Magistrale biennale (D.M.270/2004)",
-  "quorum": true,
+  "quorum": false,
   "seggi_da_assegnare": 5,
   "schede": {
     "bianche": 1,
@@ -9,28 +9,27 @@
   },
   "eletti": [
     {
-      "nome_candidato": "RUSSO ROSARIO",
-      "voti": 7
-    },
-    {
       "nome_candidato": "OCCHIPINTI GASPARE MATTEO",
       "voti": 8
     },
     {
       "nome_candidato": "BUCCHERI GIANLUCA",
       "voti": 8
-    }
-  ],
-  "non_eletti": [
+    },
     {
-      "nome_candidato": "FIORE DOMENICO",
-      "voti": 0
+      "nome_candidato": "RUSSO ROSARIO",
+      "voti": 7
     },
     {
       "nome_candidato": "GANGEMI CLAUDIA",
       "voti": 7
+    },
+    {
+      "nome_candidato": "FIORE DOMENICO",
+      "voti": 0
     }
   ],
+  "non_eletti": [],
   "totale_voti": 31,
   "aventi_diritto": 62,
   "perc_votanti": 50.0

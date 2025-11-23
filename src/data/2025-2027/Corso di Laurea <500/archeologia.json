@@ -1,6 +1,6 @@
 {
   "dipartimento": "ARCHEOLOGIA-LM-2-Laurea Magistrale biennale (D.M.270/2004)",
-  "quorum": false,
+  "quorum": "Non specificato",
   "seggi_da_assegnare": 4,
   "schede": {
     "bianche": 1,
@@ -18,7 +18,7 @@
     }
   ],
   "non_eletti": [],
-  "totale_voti": 27,
+  "totale_voti": 26,
   "aventi_diritto": 80,
   "perc_votanti": 33.75
 }

@@ -1,20 +1,24 @@
 {
-  "dipartimento": "SCIENZE LINGUISTICHE PER L'INTERCULTURA E LA FORMAZIONE-LM-39-Laurea Magistrale biennale",
+  "dipartimento": "SCIENZE LINGUISTICHE PER L'INTERCULTURA E LA FORMAZIONE-LM-39-Laurea Magistrale biennale (D.M.270/2004)",
   "quorum": false,
-  "seggi_da_assegnare": null,
+  "seggi_da_assegnare": 4,
   "schede": {
-    "bianche": 0,
+    "bianche": 6,
     "nulle": 0,
     "contestate": 0
   },
   "eletti": [
     {
+      "nome_candidato": "BORZİ GRAZIA",
+      "voti": 17
+    },
+    {
       "nome_candidato": "DI CORRADO DAVIDE",
       "voti": 11
     },
     {
-      "nome_candidato": "BORZÌ GRAZIA",
-      "voti": 17
+      "nome_candidato": "PLATANIA GIORGIO",
+      "voti": 2
     },
     {
       "nome_candidato": "SINATRA CARMELO",

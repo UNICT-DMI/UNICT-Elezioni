@@ -9,8 +9,8 @@
   },
   "eletti": [
     {
-      "nome_candidato": "RUGGERI CLELIA",
-      "voti": 2
+      "nome_candidato": "SPATARO VANESSA",
+      "voti": 18
     },
     {
       "nome_candidato": "DI BENEDETTO FEDERICO ANTONINO",
@@ -21,35 +21,35 @@
       "voti": 3
     },
     {
-      "nome_candidato": "FICHERA ALESSIO",
-      "voti": 1
-    },
-    {
       "nome_candidato": "BUGLIO ERIKA",
       "voti": 3
     },
     {
-      "nome_candidato": "CACCIOLA GAIA",
-      "voti": 1
+      "nome_candidato": "TORRE ENRICA ELSA ELOISA",
+      "voti": 3
     },
     {
-      "nome_candidato": "SPATARO VANESSA",
-      "voti": 18
+      "nome_candidato": "RUGGERI CLELIA",
+      "voti": 2
     },
     {
       "nome_candidato": "INSANGUINE GIORGIA",
       "voti": 2
     },
     {
-      "nome_candidato": "SULEJMANOVSKI ERMIRA",
+      "nome_candidato": "FICHERA ALESSIO",
       "voti": 1
-    },
-    {
-      "nome_candidato": "TORRE ENRICA ELSA ELOISA",
-      "voti": 3
     }
   ],
   "non_eletti": [
+    {
+      "nome_candidato": "CACCIOLA GAIA",
+      "voti": 1
+    },
+    {
+      "nome_candidato": "SULEJMANOVSKI ERMIRA",
+      "voti": 1
+    },
     {
       "nome_candidato": "MANTINEO GIULIA",
       "voti": 0

@@ -9,8 +9,8 @@
   },
   "eletti": [
     {
-      "nome_candidato": "SALTALAMACCHIA PAOLA",
-      "voti": 3
+      "nome_candidato": "LA TONA MARCO",
+      "voti": 11
     },
     {
       "nome_candidato": "PAGANO VANESSA",
@@ -51,16 +51,16 @@
       "voti": 2
     },
     {
-      "nome_candidato": "PATANÈ SALVATORE",
+      "nome_candidato": "PATANE SALVATORE",
       "voti": 2
-    },
-    {
-      "nome_candidato": "LA TONA MARCO",
-      "voti": 11
     },
     {
       "nome_candidato": "CARPINATO GIORGIA",
       "voti": 2
+    },
+    {
+      "nome_candidato": "SALTALAMACCHIA PAOLA",
+      "voti": 3
     },
     {
       "nome_candidato": "IUCULANO RICCARDO FRANCESCO",

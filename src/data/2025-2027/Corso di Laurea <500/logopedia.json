@@ -9,16 +9,16 @@
   },
   "eletti": [
     {
+      "nome_candidato": "DI MAURO ROBERTA",
+      "voti": 14
+    },
+    {
       "nome_candidato": "MATTINA GIOIA EMANUELA",
       "voti": 2
     },
     {
       "nome_candidato": "CAPOLINGUA ALESSIA",
       "voti": 1
-    },
-    {
-      "nome_candidato": "DI MAURO ROBERTA",
-      "voti": 14
     }
   ],
   "non_eletti": [],

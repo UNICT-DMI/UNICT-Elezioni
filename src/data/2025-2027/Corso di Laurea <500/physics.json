@@ -9,7 +9,19 @@
   },
   "eletti": [
     {
-      "nome_candidato": "VALENTI MATTIA",
+      "nome_candidato": "REITANO SAMUEL",
+      "voti": 11
+    },
+    {
+      "nome_candidato": "PAPPALARDO LORENZO FEDERICO",
+      "voti": 7
+    },
+    {
+      "nome_candidato": "MACAIONE ANTONIO",
+      "voti": 7
+    },
+    {
+      "nome_candidato": "VALENTI ΜΑΤΤΙΑ",
       "voti": 5
     },
     {
@@ -17,28 +29,16 @@
       "voti": 3
     },
     {
-      "nome_candidato": "PAPPALARDO LORENZO FEDERICO",
-      "voti": 7
-    },
-    {
-      "nome_candidato": "REITANO SAMUEL",
-      "voti": 11
-    },
-    {
-      "nome_candidato": "MARCHETTA VIRGINIA",
-      "voti": 1
-    },
-    {
       "nome_candidato": "INGRASSIA FEDERICA MARIA",
       "voti": 3
     },
     {
-      "nome_candidato": "MACAIONE ANTONIO",
-      "voti": 7
-    },
-    {
       "nome_candidato": "CAMONITA CLAUDIA",
       "voti": 3
+    },
+    {
+      "nome_candidato": "MARCHETTA VIRGINIA",
+      "voti": 1
     }
   ],
   "non_eletti": [],

@@ -1,6 +1,6 @@
 {
   "dipartimento": "CHIMICA INDUSTRIALE-L-27-Laurea Triennale (D.M.270/2004)",
-  "quorum": false,
+  "quorum": true,
   "seggi_da_assegnare": 2,
   "schede": {
     "bianche": 0,
@@ -13,30 +13,30 @@
       "voti": 11
     },
     {
+      "nome_candidato": "COCO GIOVANNI",
+      "voti": 5
+    },
+    {
       "nome_candidato": "SCIBONA MARCO ERNESTO",
       "voti": 5
     }
   ],
   "non_eletti": [
     {
-      "nome_candidato": "COCO GIOVANNI",
-      "voti": 5
+      "nome_candidato": "VELLA GABRIELE",
+      "voti": 4
     },
     {
       "nome_candidato": "MANNUCA GIORGIO",
       "voti": 3
     },
     {
-      "nome_candidato": "CAIRONE DAVIDE",
-      "voti": 0
-    },
-    {
       "nome_candidato": "PATANE' PAOLA",
       "voti": 3
     },
     {
-      "nome_candidato": "VELLA GABRIELE",
-      "voti": 4
+      "nome_candidato": "CAIRONE DAVIDE",
+      "voti": 0
     }
   ],
   "totale_voti": 31,

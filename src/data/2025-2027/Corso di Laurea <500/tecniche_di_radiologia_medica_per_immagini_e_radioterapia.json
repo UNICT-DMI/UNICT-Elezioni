@@ -1,6 +1,6 @@
 {
-  "dipartimento": "TECNICHE DI RADIOLOGIA MEDICA, PER IMMAGINI E RADIOTERAPIA-L/SNT3-Laurea Triennale",
-  "quorum": true,
+  "dipartimento": "TECNICHE DI RADIOLOGIA MEDICA, PER IMMAGINI E RADIOTERAPIA-L/SNT3-Laurea Triennale (D.M.270/2004)",
+  "quorum": false,
   "seggi_da_assegnare": 7,
   "schede": {
     "bianche": 0,
@@ -21,6 +21,10 @@
       "voti": 19
     },
     {
+      "nome_candidato": "PENNISI STEFANO",
+      "voti": 1
+    },
+    {
       "nome_candidato": "INGUANTI GIOVANNI",
       "voti": 5
     },
@@ -34,10 +38,6 @@
     }
   ],
   "non_eletti": [
-    {
-      "nome_candidato": "PENNISI STEFANO",
-      "voti": 1
-    },
     {
       "nome_candidato": "CAVALLARO FLAVIO MARIO PAOLO",
       "voti": 1

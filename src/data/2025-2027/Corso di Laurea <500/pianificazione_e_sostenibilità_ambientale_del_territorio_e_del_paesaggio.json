@@ -1,14 +1,28 @@
 {
-  "dipartimento": "PIANIFICAZIONE E SOSTENIBILITÀ AMBIENTALE DEL TERRITORIO E DEL PAESAGGIO-L-21-Laurea",
+  "dipartimento": "PIANIFICAZIONE E SOSTENIBILITÀ AMBIENTALE DEL TERRITORIO E DEL PAESAGGIO-L-21-Laurea Triennale (D.M.270/2004)",
   "quorum": false,
-  "seggi_da_assegnare": null,
+  "seggi_da_assegnare": 7,
   "schede": {
-    "bianche": 0,
+    "bianche": 1,
     "nulle": 0,
     "contestate": 0
   },
-  "eletti": [],
-  "non_eletti": [],
+  "eletti": [
+    {
+      "nome_candidato": "RIGGI ANNAMARIA",
+      "voti": 8
+    },
+    {
+      "nome_candidato": "GIOCONDO EDOARDO DOMENICO",
+      "voti": 2
+    }
+  ],
+  "non_eletti": [
+    {
+      "nome_candidato": "LEONARDI SAMUELE",
+      "voti": 0
+    }
+  ],
   "totale_voti": 11,
   "aventi_diritto": 61,
   "perc_votanti": 18.03

@@ -1,6 +1,6 @@
 {
   "dipartimento": "BIOLOGIA AMBIENTALE-LM-6-Laurea Magistrale biennale (D.M.270/2004)",
-  "quorum": false,
+  "quorum": true,
   "seggi_da_assegnare": 5,
   "schede": {
     "bianche": 1,
@@ -8,6 +8,14 @@
     "contestate": 0
   },
   "eletti": [
+    {
+      "nome_candidato": "TRIOLO MICHELA",
+      "voti": 10
+    },
+    {
+      "nome_candidato": "LONGHITANO JOELE",
+      "voti": 9
+    },
     {
       "nome_candidato": "PENNISI GIACOMO",
       "voti": 3
@@ -17,16 +25,8 @@
       "voti": 2
     },
     {
-      "nome_candidato": "TRIOLO MICHELA",
-      "voti": 10
-    },
-    {
       "nome_candidato": "SCAMPORRINO ELIA",
       "voti": 1
-    },
-    {
-      "nome_candidato": "LONGHITANO JOELE",
-      "voti": 9
     }
   ],
   "non_eletti": [],

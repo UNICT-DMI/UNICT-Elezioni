@@ -15,16 +15,16 @@
     {
       "nome_candidato": "SMECCA GAETANO",
       "voti": 14
+    },
+    {
+      "nome_candidato": "ARDIZZONE LUCA",
+      "voti": 9
     }
   ],
   "non_eletti": [
     {
       "nome_candidato": "CRISPINO SABRINA",
       "voti": 2
-    },
-    {
-      "nome_candidato": "ARDIZZONE LUCA",
-      "voti": 9
     }
   ],
   "totale_voti": 51,

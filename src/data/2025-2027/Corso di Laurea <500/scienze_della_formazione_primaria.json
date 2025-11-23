@@ -1,6 +1,6 @@
 {
   "dipartimento": "SCIENZE DELLA FORMAZIONE PRIMARIA-LM-85Bis-Laurea Magistrale a ciclo unico (D.M. 270/2004)",
-  "quorum": true,
+  "quorum": false,
   "seggi_da_assegnare": 4,
   "schede": {
     "bianche": 2,
@@ -19,17 +19,13 @@
     {
       "nome_candidato": "CAMPISI FRANCESCA MARIA",
       "voti": 12
-    }
-  ],
-  "non_eletti": [
-    {
-      "nome_candidato": "ZAPPULLA EVA",
-      "voti": 0
     },
     {
       "nome_candidato": "CONTI PAOLO",
       "voti": 5
-    },
+    }
+  ],
+  "non_eletti": [
     {
       "nome_candidato": "LO GIUDICE CORINNE NATALIA",
       "voti": 3
@@ -37,9 +33,13 @@
     {
       "nome_candidato": "ZANGHI' ROBERTA",
       "voti": 3
+    },
+    {
+      "nome_candidato": "ZAPPULLA EVA",
+      "voti": 0
     }
   ],
   "totale_voti": 102,
-  "aventi_diritto": 102,
+  "aventi_diritto": 189,
   "perc_votanti": 53.97
 }

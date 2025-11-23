@@ -1,85 +1,20 @@
 {
-  "dipartimento": "INGEGNERIA ELETTRONICA-L-8-Laurea Triennale (D.M.270/2004)",
+  "dipartimento": "ELECTRONIC ENGINEERING-LM-29-Laurea Magistrale biennale (D.M.270/2004)",
   "quorum": false,
   "seggi_da_assegnare": 4,
   "schede": {
-    "bianche": 9,
+    "bianche": 4,
     "nulle": 0,
     "contestate": 0
   },
   "eletti": [
     {
-      "nome_candidato": "PULVIRENTI VALENTINA",
-      "voti": 54
-    },
-    {
-      "nome_candidato": "RAPE' PAOLO",
-      "voti": 35
-    },
-    {
-      "nome_candidato": "DI GIOVANNI GIUSEPPE",
-      "voti": 17
-    },
-    {
-      "nome_candidato": "PRIVITERA STEFANO",
-      "voti": 17
+      "nome_candidato": "GRASSO VINCENZO",
+      "voti": 14
     }
   ],
-  "non_eletti": [
-    {
-      "nome_candidato": "TRIFONI NOEMI",
-      "voti": 15
-    },
-    {
-      "nome_candidato": "BONANNO SALVATORE",
-      "voti": 13
-    },
-    {
-      "nome_candidato": "SCUTO DAVIDE UMBERTO",
-      "voti": 6
-    },
-    {
-      "nome_candidato": "RABUAZZO ALESSANDRO AGATINO",
-      "voti": 6
-    },
-    {
-      "nome_candidato": "CIADAMIDARO GIUSEPPE",
-      "voti": 5
-    },
-    {
-      "nome_candidato": "MURATORI FLAVIA",
-      "voti": 4
-    },
-    {
-      "nome_candidato": "CONSOLO VINCENZO GABRIELE",
-      "voti": 3
-    },
-    {
-      "nome_candidato": "CAPIZZI FEDERICO",
-      "voti": 1
-    },
-    {
-      "nome_candidato": "DIMARCO CRISTIAN",
-      "voti": 1
-    },
-    {
-      "nome_candidato": "BONOMO DENIS DANIELE",
-      "voti": 1
-    },
-    {
-      "nome_candidato": "DI MAURO EMMANUEL",
-      "voti": 0
-    },
-    {
-      "nome_candidato": "LIPARI VINCENZO",
-      "voti": 0
-    },
-    {
-      "nome_candidato": "SANTAMARIA GIUSEPPEANDREA",
-      "voti": 0
-    }
-  ],
-  "totale_voti": 187,
-  "aventi_diritto": 415,
-  "perc_votanti": 45.06
+  "non_eletti": [],
+  "totale_voti": 18,
+  "aventi_diritto": 103,
+  "perc_votanti": 17.48
 }

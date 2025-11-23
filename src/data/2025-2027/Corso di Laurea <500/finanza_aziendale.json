@@ -9,26 +9,26 @@
   },
   "eletti": [
     {
+      "nome_candidato": "LAURETTΑ ΑΝΙΤΑ",
+      "voti": 10
+    },
+    {
+      "nome_candidato": "GRASSO ΑΝΤΟΝΙΟ",
+      "voti": 9
+    },
+    {
       "nome_candidato": "PRIVITELLO GIULIA MARIA",
       "voti": 4
     },
     {
-      "nome_candidato": "GRASSO ANTONIO",
-      "voti": 9
+      "nome_candidato": "ABRAMO ΑΝΤΟΝΙΟ",
+      "voti": 3
     }
   ],
   "non_eletti": [
     {
-      "nome_candidato": "ABRAMO ANTONIO",
-      "voti": 3
-    },
-    {
-      "nome_candidato": "PECORA ANTONINO ALDO",
+      "nome_candidato": "PECORA ANΤΟΝΙΝΟ ALDO",
       "voti": 2
-    },
-    {
-      "nome_candidato": "LAURETTA ANITA",
-      "voti": 10
     },
     {
       "nome_candidato": "GUARDO ANGELO JUNIOR",

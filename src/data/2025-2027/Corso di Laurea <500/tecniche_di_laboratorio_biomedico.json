@@ -9,15 +9,15 @@
   },
   "eletti": [
     {
-      "nome_candidato": "CHILLARI MIRIAM",
-      "voti": 5
-    },
-    {
       "nome_candidato": "MAIMONE BARONELLO FRANCESCA ROCIO",
       "voti": 16
     }
   ],
   "non_eletti": [
+    {
+      "nome_candidato": "CHILLARI MIRIAM",
+      "voti": 5
+    },
     {
       "nome_candidato": "PATERNO' ELENA",
       "voti": 0

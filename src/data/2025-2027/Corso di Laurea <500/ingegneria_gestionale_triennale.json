@@ -1,0 +1,57 @@
+{
+  "dipartimento": "INGEGNERIA GESTIONALE-L-9R-Laurea Triennale (D.M.270/2004)",
+  "quorum": false,
+  "seggi_da_assegnare": 3,
+  "schede": {
+    "bianche": 2,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "DI STEFANO GIULIA",
+      "voti": 19
+    },
+    {
+      "nome_candidato": "LICANDRI ELENA",
+      "voti": 13
+    },
+    {
+      "nome_candidato": "ALESSI ALESSANDRO",
+      "voti": 12
+    }
+  ],
+  "non_eletti": [
+    {
+      "nome_candidato": "POLITO GIOVANNI PASQUALINO",
+      "voti": 11
+    },
+    {
+      "nome_candidato": "TORRE CAROLA",
+      "voti": 7
+    },
+    {
+      "nome_candidato": "GUARNOTTA BRUNO",
+      "voti": 4
+    },
+    {
+      "nome_candidato": "SAMBATARO SERENA",
+      "voti": 0
+    },
+    {
+      "nome_candidato": "CAVALLI SEBASTIANO",
+      "voti": 0
+    },
+    {
+      "nome_candidato": "GRILLO MATTEO",
+      "voti": 0
+    },
+    {
+      "nome_candidato": "SPADARO DARIO",
+      "voti": 0
+    }
+  ],
+  "totale_voti": 68,
+  "aventi_diritto": 99,
+  "perc_votanti": 68.69
+}

@@ -9,20 +9,20 @@
   },
   "eletti": [
     {
-      "nome_candidato": "LIMONE STEFANO",
-      "voti": 4
-    },
-    {
       "nome_candidato": "CARAMBIA VITO GIUSEPPE",
       "voti": 14
     },
     {
-      "nome_candidato": "ARGENTI ROBERTO",
+      "nome_candidato": "D'ANNA ALESSIA",
+      "voti": 5
+    },
+    {
+      "nome_candidato": "LIMONE STEFANO",
       "voti": 4
     },
     {
-      "nome_candidato": "D'ANNA ALESSIA",
-      "voti": 5
+      "nome_candidato": "ARGENTI ROBERTO",
+      "voti": 4
     },
     {
       "nome_candidato": "DILENA MARTA MARIA",

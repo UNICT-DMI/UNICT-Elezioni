@@ -7,14 +7,14 @@
     "nulle": 0,
     "contestate": 0
   },
-  "eletti": [],
-  "non_eletti": [
+  "eletti": [
     {
       "nome_candidato": "OTTONE GIOVANNI",
       "voti": 3
     }
   ],
+  "non_eletti": [],
   "totale_voti": 3,
-  "aventi_diritto": 3,
+  "aventi_diritto": 13,
   "perc_votanti": 23.08
 }

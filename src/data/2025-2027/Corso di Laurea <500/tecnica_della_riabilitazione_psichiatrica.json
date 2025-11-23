@@ -1,6 +1,6 @@
 {
   "dipartimento": "TECNICA DELLA RIABILITAZIONE PSICHIATRICA-L/SNT2-Laurea Triennale (D.M.270/2004)",
-  "quorum": true,
+  "quorum": false,
   "seggi_da_assegnare": 6,
   "schede": {
     "bianche": 0,
@@ -21,8 +21,16 @@
       "voti": 4
     },
     {
-      "nome_candidato": "BONANNO ADRIANA",
+      "nome_candidato": "ΒΟΝΑΝΝΟ ADRIANA",
       "voti": 5
+    },
+    {
+      "nome_candidato": "TIDONA MIRIAM",
+      "voti": 2
+    },
+    {
+      "nome_candidato": "BATTIATO ADELE",
+      "voti": 2
     }
   ],
   "non_eletti": [
@@ -31,16 +39,8 @@
       "voti": 0
     },
     {
-      "nome_candidato": "TIDONA MIRIAM",
-      "voti": 2
-    },
-    {
       "nome_candidato": "RAMPOLLA CLELIA",
       "voti": 0
-    },
-    {
-      "nome_candidato": "BATTIATO ADELE",
-      "voti": 2
     }
   ],
   "totale_voti": 37,

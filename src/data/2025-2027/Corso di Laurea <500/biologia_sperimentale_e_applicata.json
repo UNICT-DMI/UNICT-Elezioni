@@ -1,6 +1,6 @@
 {
   "dipartimento": "BIOLOGIA SPERIMENTALE E APPLICATA-LM-6-Laurea Magistrale biennale (D.M.270/2004)",
-  "quorum": false,
+  "quorum": true,
   "seggi_da_assegnare": 8,
   "schede": {
     "bianche": 1,
@@ -8,6 +8,14 @@
     "contestate": 0
   },
   "eletti": [
+    {
+      "nome_candidato": "NARO GIULIA",
+      "voti": 15
+    },
+    {
+      "nome_candidato": "GIANNONE DAVIDE",
+      "voti": 13
+    },
     {
       "nome_candidato": "STIMOLI ANTONIO AGATINO",
       "voti": 11
@@ -17,27 +25,19 @@
       "voti": 10
     },
     {
-      "nome_candidato": "GIANNONE DAVIDE",
-      "voti": 13
-    },
-    {
-      "nome_candidato": "NARO GIULIA",
-      "voti": 15
-    },
-    {
       "nome_candidato": "CASTRONOVO DANIELE",
       "voti": 3
     },
     {
       "nome_candidato": "GARRANO RUBEN",
       "voti": 2
+    },
+    {
+      "nome_candidato": "MACCORA ALESSANDRO VITO",
+      "voti": 1
     }
   ],
   "non_eletti": [
-    {
-      "nome_candidato": "BARBASOLA MARIA STELLA",
-      "voti": 0
-    },
     {
       "nome_candidato": "LENTULO IDA MARIA ELISA",
       "voti": 0
@@ -47,8 +47,8 @@
       "voti": 0
     },
     {
-      "nome_candidato": "MACCORA ALESSANDRO VITO",
-      "voti": 1
+      "nome_candidato": "BARBASOLA MARIA STELLA",
+      "voti": 0
     }
   ],
   "totale_voti": 56,

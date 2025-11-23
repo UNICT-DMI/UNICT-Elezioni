@@ -1,6 +1,6 @@
 {
   "dipartimento": "ODONTOIATRIA E PROTESI DENTARIA-LM-46-Laurea Magistrale a ciclo unico (D.M. 270/2004)",
-  "quorum": true,
+  "quorum": false,
   "seggi_da_assegnare": 10,
   "schede": {
     "bianche": 3,
@@ -9,11 +9,31 @@
   },
   "eletti": [
     {
-      "nome_candidato": "FELIS VITTORIA",
-      "voti": 5
+      "nome_candidato": "SCANDURA GIULIANA",
+      "voti": 15
+    },
+    {
+      "nome_candidato": "IACONO MANNO ELENA",
+      "voti": 13
+    },
+    {
+      "nome_candidato": "LA ROSA MARILENA",
+      "voti": 13
+    },
+    {
+      "nome_candidato": "NARDELLA ANGELO MANUEL GIANANDREA",
+      "voti": 12
+    },
+    {
+      "nome_candidato": "BENNICI GLORIA FRANCESCA ΡΙΑ",
+      "voti": 11
     },
     {
       "nome_candidato": "COSTA GIORDANO",
+      "voti": 10
+    },
+    {
+      "nome_candidato": "SPAMPINATO DELIA MARIA RITA",
       "voti": 10
     },
     {
@@ -21,28 +41,12 @@
       "voti": 7
     },
     {
-      "nome_candidato": "BENNICI GLORIA FRANCESCA PIA",
-      "voti": 11
-    },
-    {
       "nome_candidato": "SCIUTO LORENZO",
       "voti": 7
     },
     {
-      "nome_candidato": "IACONO MANNO ELENA",
-      "voti": 13
-    },
-    {
-      "nome_candidato": "SPAMPINATO DELIA MARIA RITA",
-      "voti": 10
-    },
-    {
-      "nome_candidato": "NARDELLA ANGELO MANUEL GIANANDREA",
-      "voti": 12
-    },
-    {
-      "nome_candidato": "SCANDURA GIULIANA",
-      "voti": 15
+      "nome_candidato": "FELIS VITTORIA",
+      "voti": 5
     }
   ],
   "non_eletti": [
@@ -53,10 +57,6 @@
     {
       "nome_candidato": "PAPPALARDO ALFIO",
       "voti": 0
-    },
-    {
-      "nome_candidato": "LA ROSA MARILENA",
-      "voti": 13
     }
   ],
   "totale_voti": 106,

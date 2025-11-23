@@ -9,6 +9,14 @@
   },
   "eletti": [
     {
+      "nome_candidato": "RISINO CLAUDIO",
+      "voti": 9
+    },
+    {
+      "nome_candidato": "SCHILLACI ANGELO",
+      "voti": 8
+    },
+    {
       "nome_candidato": "SPATA MATTEO",
       "voti": 7
     },
@@ -19,24 +27,16 @@
     {
       "nome_candidato": "RESTIVO FRANCESCO",
       "voti": 6
-    },
-    {
-      "nome_candidato": "RISINO CLAUDIO",
-      "voti": 9
     }
   ],
   "non_eletti": [
-    {
-      "nome_candidato": "TAMBE' SERGIO",
-      "voti": 0
-    },
     {
       "nome_candidato": "TRAGNA AGNESE",
       "voti": 4
     },
     {
-      "nome_candidato": "SCHILLACI ANGELO",
-      "voti": 8
+      "nome_candidato": "TAMBE' SERGIO",
+      "voti": 0
     },
     {
       "nome_candidato": "LOCURTO MICHELE",

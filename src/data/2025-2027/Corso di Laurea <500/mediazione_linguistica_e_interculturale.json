@@ -1,6 +1,6 @@
 {
   "dipartimento": "MEDIAZIONE LINGUISTICA E INTERCULTURALE-L-12-Laurea Triennale (D.M.270/2004)",
-  "quorum": false,
+  "quorum": true,
   "seggi_da_assegnare": 6,
   "schede": {
     "bianche": 0,
@@ -13,24 +13,24 @@
       "voti": 18
     },
     {
-      "nome_candidato": "PISTRITTO GINEVRA",
-      "voti": 12
-    },
-    {
-      "nome_candidato": "BADIA LORENA",
-      "voti": 9
-    },
-    {
       "nome_candidato": "SCORPO SALVATORE",
       "voti": 18
+    },
+    {
+      "nome_candidato": "MURJA ERISA",
+      "voti": 15
     },
     {
       "nome_candidato": "GUARNACCIA LUDOVICA",
       "voti": 13
     },
     {
-      "nome_candidato": "MURJA ERISA",
-      "voti": 15
+      "nome_candidato": "PISTRITTO GINEVRA",
+      "voti": 12
+    },
+    {
+      "nome_candidato": "BADIA LORENA",
+      "voti": 9
     }
   ],
   "non_eletti": [

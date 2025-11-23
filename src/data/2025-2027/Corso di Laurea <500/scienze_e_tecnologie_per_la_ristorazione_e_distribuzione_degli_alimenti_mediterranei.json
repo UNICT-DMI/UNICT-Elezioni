@@ -3,11 +3,19 @@
   "quorum": false,
   "seggi_da_assegnare": 6,
   "schede": {
-    "bianche": 0,
+    "bianche": 1,
     "nulle": 0,
     "contestate": 0
   },
   "eletti": [
+    {
+      "nome_candidato": "MUNZONE MORENO MARIA",
+      "voti": 6
+    },
+    {
+      "nome_candidato": "PRIVITERA FRANCESCO AGATINO",
+      "voti": 5
+    },
     {
       "nome_candidato": "CARDINALE ILARIA",
       "voti": 3
@@ -19,18 +27,10 @@
     {
       "nome_candidato": "INFURNARI ELIDE",
       "voti": 3
-    },
-    {
-      "nome_candidato": "MUNZONE MORENO MARIA",
-      "voti": 6
-    },
-    {
-      "nome_candidato": "PRIVITERA FRANCESCO AGATINO",
-      "voti": 5
     }
   ],
   "non_eletti": [],
-  "totale_voti": 0,
-  "aventi_diritto": 21,
+  "totale_voti": 21,
+  "aventi_diritto": 94,
   "perc_votanti": 22.34
 }

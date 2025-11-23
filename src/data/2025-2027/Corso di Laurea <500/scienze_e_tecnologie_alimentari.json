@@ -27,19 +27,19 @@
     {
       "nome_candidato": "PATERNA LAVINIA",
       "voti": 13
-    }
-  ],
-  "non_eletti": [
-    {
-      "nome_candidato": "SABEV ILIYAN",
-      "voti": 2
     },
     {
       "nome_candidato": "RAITI FRANCESCO SALVATORE",
       "voti": 12
     }
   ],
+  "non_eletti": [
+    {
+      "nome_candidato": "SABEV ILIYAN",
+      "voti": 2
+    }
+  ],
   "totale_voti": 87,
-  "aventi_diritto": 87,
+  "aventi_diritto": 341,
   "perc_votanti": 25.51
 }

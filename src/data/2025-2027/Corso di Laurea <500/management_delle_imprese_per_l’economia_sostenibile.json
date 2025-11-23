@@ -1,5 +1,5 @@
 {
-  "dipartimento": "MANAGEMENT DELLE IMPRESE PER L’ECONOMIA SOSTENIBILE-L-18-Laurea Triennale (D.M.270/2004)",
+  "dipartimento": "MANAGEMENT DELLE IMPRESE PER L'ECONOMIA SOSTENIBILE-L-18-Laurea Triennale (D.M.270/2004)",
   "quorum": false,
   "seggi_da_assegnare": 4,
   "schede": {
@@ -8,6 +8,10 @@
     "contestate": 0
   },
   "eletti": [
+    {
+      "nome_candidato": "PUGLISI SERENA",
+      "voti": 9
+    },
     {
       "nome_candidato": "LICITRA ANDREA",
       "voti": 6
@@ -22,10 +26,6 @@
     }
   ],
   "non_eletti": [
-    {
-      "nome_candidato": "PUGLISI SERENA",
-      "voti": 9
-    },
     {
       "nome_candidato": "CIRAMI ANDREA",
       "voti": 2

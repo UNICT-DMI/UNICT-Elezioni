@@ -9,23 +9,23 @@
   },
   "eletti": [
     {
-      "nome_candidato": "PLATANIA GIORGIO",
-      "voti": 2
+      "nome_candidato": "MANGANO ANDREA",
+      "voti": 16
+    },
+    {
+      "nome_candidato": "ALI' VITTORIO",
+      "voti": 13
     },
     {
       "nome_candidato": "RUSSO FABRIZIO",
       "voti": 4
     },
     {
-      "nome_candidato": "ALI' VITTORIO",
-      "voti": 13
+      "nome_candidato": "PLATANIA GIORGIO",
+      "voti": 2
     }
   ],
   "non_eletti": [
-    {
-      "nome_candidato": "MANGANO ANDREA",
-      "voti": 16
-    },
     {
       "nome_candidato": "SALERNO MARTINA",
       "voti": 1

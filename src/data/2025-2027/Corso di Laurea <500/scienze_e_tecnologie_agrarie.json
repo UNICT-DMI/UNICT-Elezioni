@@ -9,24 +9,24 @@
   },
   "eletti": [
     {
-      "nome_candidato": "RIZZO GAIA",
-      "voti": 5
-    },
-    {
-      "nome_candidato": "GUGLIUZZO GIUSEPPE PIO",
-      "voti": 6
-    },
-    {
-      "nome_candidato": "GIANNINO GIUSEPPE",
-      "voti": 3
-    },
-    {
       "nome_candidato": "SENIA STEFANO",
       "voti": 15
     },
     {
       "nome_candidato": "MOSCHETTO MARTINA",
       "voti": 13
+    },
+    {
+      "nome_candidato": "GUGLIUZZO GIUSEPPE ΡΙΟ",
+      "voti": 6
+    },
+    {
+      "nome_candidato": "RIZZO GAΙΑ",
+      "voti": 5
+    },
+    {
+      "nome_candidato": "GIANNINO GIUSEPPE",
+      "voti": 3
     }
   ],
   "non_eletti": [

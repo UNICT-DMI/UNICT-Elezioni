@@ -1,28 +1,29 @@
 {
   "dipartimento": "INGEGNERIA PER LA TRANSIZIONE ECOLOGICA-L-9R-Laurea Triennale (D.M.270/2004)",
-  "quorum": true,
+  "quorum": false,
   "seggi_da_assegnare": 2,
   "schede": {
     "bianche": 0,
     "nulle": 0,
     "contestate": 0
   },
-  "eletti": [],
-  "non_eletti": [
+  "eletti": [
     {
       "nome_candidato": "SPADARO CLAUDIA",
       "voti": 4
-    },
-    {
-      "nome_candidato": "RINZIVILLO GIULIO",
-      "voti": 2
     },
     {
       "nome_candidato": "VILLA LAURA",
       "voti": 3
     }
   ],
+  "non_eletti": [
+    {
+      "nome_candidato": "RINZIVILLO GIULIO",
+      "voti": 2
+    }
+  ],
   "totale_voti": 9,
-  "aventi_diritto": 9,
+  "aventi_diritto": 10,
   "perc_votanti": 90.0
 }

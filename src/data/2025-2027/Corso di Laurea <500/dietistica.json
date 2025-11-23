@@ -13,12 +13,12 @@
       "voti": 10
     },
     {
-      "nome_candidato": "LEOTTA SERENA",
-      "voti": 3
-    },
-    {
       "nome_candidato": "TURINESE MATTEO",
       "voti": 7
+    },
+    {
+      "nome_candidato": "LEOTTA SERENA",
+      "voti": 3
     }
   ],
   "non_eletti": [
