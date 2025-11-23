@@ -121,7 +121,7 @@
       "seggi": {
         "seggi_pieni": "-",
         "resti": "27,0",
-        "seggi_ai_resti": "-",
+        "seggi_ai_resti": "0",
         "seggi_totali": "-"
       },
       "voti": {
@@ -143,7 +143,7 @@
       }
     },
     {
-      "nominativo": "PETRALIA SAMUELE",
+      "nominativo": "PETINO PLACIDO SALVATORE",
       "lista": "IURIS",
       "voti": {
         "totali": 23,
@@ -175,7 +175,7 @@
       }
     },
     {
-      "nominativo": "STIMOLI GABRIELE - NORBERTO",
+      "nominativo": "STIMOLI GABRIELE NORBERTO",
       "lista": "GiurisprudenzAttiva",
       "voti": {
         "totali": 31,
@@ -294,6 +294,14 @@
       "voti": {
         "totali": 2,
         "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "PETRALIA SAMUELE",
+      "lista": "IURIS",
+      "voti": {
+        "totali": 17,
+        "seggio_telematico": 17
       }
     },
     {
@@ -905,7 +913,7 @@
       }
     }
   ],
-  "dipartimento": "ELEZIONI RAPPRESENTANTI IN SENO AL CONSIGLIO DEL DIPARTIMENTO DI GIURISPRUDENZA - STUDENTI BIENNIO 2025/2027",
+  "dipartimento": "Dipartimento di Giurisprudenza",
   "seggi_da_assegnare": "13",
   "quoziente": 74,
   "votanti": {

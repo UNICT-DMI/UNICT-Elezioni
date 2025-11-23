@@ -13,139 +13,164 @@
   },
   "liste": [
     {
-      "nome": "SOS UniCT DSC",
-      "seggi": {
-        "seggi_pieni": "4",
-        "resti": "4,0",
-        "seggi_ai_resti": "1",
-        "seggi_totali": "5"
-      },
-      "voti": {
-        "totali": "52",
-        "seggio_telematico": "52"
-      }
-    },
-    {
-      "nome": "Arcadia",
+      "nome": "ACTEA",
       "seggi": {
         "seggi_pieni": "2",
-        "resti": "3,4",
+        "resti": "4,9",
         "seggi_ai_resti": "0",
         "seggi_totali": "2"
       },
       "voti": {
-        "totali": "28",
-        "seggio_telematico": "28"
+        "totali": "30",
+        "seggio_telematico": "30"
       }
     },
     {
-      "nome": "Azione Universitaria",
+      "nome": "UniLab",
+      "seggi": {
+        "seggi_pieni": "2",
+        "resti": "6,9",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "3"
+      },
+      "voti": {
+        "totali": "32",
+        "seggio_telematico": "32"
+      }
+    },
+    {
+      "nome": "Nucleo Attivo",
+      "seggi": {
+        "seggi_pieni": "2",
+        "resti": "7,9",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "3"
+      },
+      "voti": {
+        "totali": "33",
+        "seggio_telematico": "33"
+      }
+    },
+    {
+      "nome": "InfoChim",
       "seggi": {
         "seggi_pieni": "1",
-        "resti": "7,5",
-        "seggi_ai_resti": "1",
-        "seggi_totali": "2"
-      },
-      "voti": {
-        "totali": "20",
-        "seggio_telematico": "20"
-      }
-    },
-    {
-      "nome": "Koinè",
-      "seggi": {
-        "seggi_pieni": "-",
-        "resti": "11,0",
+        "resti": "5,4",
         "seggi_ai_resti": "0",
-        "seggi_totali": "-"
+        "seggi_totali": "1"
       },
       "voti": {
-        "totali": "11",
-        "seggio_telematico": "11"
+        "totali": "18",
+        "seggio_telematico": "18"
       }
     },
     {
-      "totale": 111
+      "totale": 113
     }
   ],
   "eletti": [
     {
-      "nominativo": "FARO LUANA",
-      "lista": "SOS UniCT DSC",
+      "nominativo": "MANNUCA GIORGIO",
+      "lista": "ACTEA",
       "voti": {
-        "totali": 23,
-        "seggio_telematico": 23
+        "totali": 20,
+        "seggio_telematico": 20
       }
     },
     {
-      "nominativo": "RIZZO MARIO",
-      "lista": "SOS UniCT DSC",
-      "voti": {
-        "totali": 16,
-        "seggio_telematico": 16
-      }
-    },
-    {
-      "nominativo": "CONSOLI ANDREA",
-      "lista": "SOS UniCT DSC",
-      "voti": {
-        "totali": 4,
-        "seggio_telematico": 4
-      }
-    },
-    {
-      "nominativo": "RAPISARDA PIETRO",
-      "lista": "SOS UniCT DSC",
-      "voti": {
-        "totali": 3,
-        "seggio_telematico": 3
-      }
-    },
-    {
-      "nominativo": "DATTILO GIUSEPPE",
-      "lista": "SOS UniCT DSC",
-      "voti": {
-        "totali": 2,
-        "seggio_telematico": 2
-      }
-    },
-    {
-      "nominativo": "PATANE AGATINO",
-      "lista": "Arcadia",
-      "voti": {
-        "totali": 14,
-        "seggio_telematico": 14
-      }
-    },
-    {
-      "nominativo": "GULLOTTA ORAZIO",
-      "lista": "Arcadia",
+      "nominativo": "SCIBONA MARCO ERNESTO",
+      "lista": "ACTEA",
       "voti": {
         "totali": 7,
         "seggio_telematico": 7
       }
     },
     {
-      "nominativo": "LAZZARO ARIANNA GIADA",
-      "lista": "Azione Universitaria",
+      "nominativo": "ANNARO MARIA",
+      "lista": "UniLab",
       "voti": {
-        "totali": 9,
-        "seggio_telematico": 9
+        "totali": 6,
+        "seggio_telematico": 6
       }
     },
     {
-      "nominativo": "CANNATA ALESSANDRO",
-      "lista": "Azione Universitaria",
+      "nominativo": "BONANNO SILVIA",
+      "lista": "UniLab",
+      "voti": {
+        "totali": 12,
+        "seggio_telematico": 12
+      }
+    },
+    {
+      "nominativo": "AGUECI FEDERICO",
+      "lista": "UniLab",
+      "voti": {
+        "totali": 11,
+        "seggio_telematico": 11
+      }
+    },
+    {
+      "nominativo": "PATANE' PAOLA",
+      "lista": "Nucleo Attivo",
+      "voti": {
+        "totali": 13,
+        "seggio_telematico": 13
+      }
+    },
+    {
+      "nominativo": "ARASI GIOVANNI",
+      "lista": "Nucleo Attivo",
+      "voti": {
+        "totali": 14,
+        "seggio_telematico": 14
+      }
+    },
+    {
+      "nominativo": "SCAGLIONE ERNESTO",
+      "lista": "Nucleo Attivo",
       "voti": {
         "totali": 5,
         "seggio_telematico": 5
       }
+    },
+    {
+      "nominativo": "BARBAGALLO CHIARA",
+      "lista": "InfoChim",
+      "voti": {
+        "totali": 17,
+        "seggio_telematico": 17
+      }
     }
   ],
-  "non_eletti": [],
-  "dipartimento": "ELEZIONI RAPPRESENTANTI IN SENO AL CONSIGLIO DEL DIPARTIMENTO DI SCIENZE CHIMICHE - STUDENTI BIENNIO 2025/2027",
+  "non_eletti": [
+    {
+      "nominativo": "BELFIORE ENRICO",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "CAIRONE DAVIDE",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "VELLA GABRIELE",
+      "lista": "UniLab",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
+      }
+    }
+  ],
+  "dipartimento": "Dipartimento di Scienze Chimiche",
   "seggi_da_assegnare": "9",
-  "quoziente": 12.333,
+  "quoziente": 12.5556,
   "votanti": {
     "totali": 117,
     "percentuale": 25.38,

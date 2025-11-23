@@ -26,7 +26,7 @@
       }
     },
     {
-      "nome": "ASAT -Ass. Studentesca Agronomi e Tecnologi",
+      "nome": "ASAT-Ass. Studentesca Agronomi e Tecnologi",
       "seggi": {
         "seggi_pieni": "4",
         "resti": "1,8",
@@ -70,7 +70,7 @@
   ],
   "eletti": [
     {
-      "nominativo": "FRANZONE ALEX",
+      "nominativo": "FRANZONE Alex",
       "lista": "AZIONE UNIVERSITARIA",
       "voti": {
         "totali": 48,
@@ -78,7 +78,7 @@
       }
     },
     {
-      "nominativo": "MACARIO FRANCESCO",
+      "nominativo": "MACARIO Francesco",
       "lista": "AZIONE UNIVERSITARIA",
       "voti": {
         "totali": 16,
@@ -86,7 +86,7 @@
       }
     },
     {
-      "nominativo": "IMPELLIZZERI SALVATORE",
+      "nominativo": "IMPELLIZZERI Salvatore",
       "lista": "AZIONE UNIVERSITARIA",
       "voti": {
         "totali": 20,
@@ -94,7 +94,7 @@
       }
     },
     {
-      "nominativo": "GUGLIUZZO GIUSEPPE PIO",
+      "nominativo": "GUGLIUZZO Giuseppe Pio",
       "lista": "AZIONE UNIVERSITARIA",
       "voti": {
         "totali": 18,
@@ -102,7 +102,7 @@
       }
     },
     {
-      "nominativo": "ALTIERI GUGLIELMO ANTONIO",
+      "nominativo": "ALTIERI Guglielmo Antonio",
       "lista": "AZIONE UNIVERSITARIA",
       "voti": {
         "totali": 8,
@@ -110,7 +110,15 @@
       }
     },
     {
-      "nominativo": "VESPA GIORGIA",
+      "nominativo": "MORTILLARO Alessandro",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 4,
+        "seggio_telematico": 4
+      }
+    },
+    {
+      "nominativo": "VESPA Giorgia",
       "lista": "AZIONE UNIVERSITARIA",
       "voti": {
         "totali": 6,
@@ -118,7 +126,7 @@
       }
     },
     {
-      "nominativo": "ARCORIA PAOLA",
+      "nominativo": "ARCORIA Paola",
       "lista": "AZIONE UNIVERSITARIA",
       "voti": {
         "totali": 8,
@@ -126,7 +134,7 @@
       }
     },
     {
-      "nominativo": "DI MAURO LORENZO",
+      "nominativo": "DI MAURO Lorenzo",
       "lista": "AZIONE UNIVERSITARIA",
       "voti": {
         "totali": 6,
@@ -134,39 +142,47 @@
       }
     },
     {
-      "nominativo": "BORDONARO BRIAN",
-      "lista": "ASAT -Ass. Studentesca Agronomi e Tecnologi",
+      "nominativo": "PATERNA Lavinia",
+      "lista": "ASAT-Ass. Studentesca Agronomi e Tecnologi",
+      "voti": {
+        "totali": 6,
+        "seggio_telematico": 6
+      }
+    },
+    {
+      "nominativo": "BORDONARO Brian",
+      "lista": "ASAT-Ass. Studentesca Agronomi e Tecnologi",
       "voti": {
         "totali": 7,
         "seggio_telematico": 7
       }
     },
     {
-      "nominativo": "DI MARTINO GIORGIO",
-      "lista": "ASAT -Ass. Studentesca Agronomi e Tecnologi",
+      "nominativo": "DI MARTINO Giorgio",
+      "lista": "ASAT-Ass. Studentesca Agronomi e Tecnologi",
       "voti": {
         "totali": 8,
         "seggio_telematico": 8
       }
     },
     {
-      "nominativo": "CUTOLO ENRICA",
-      "lista": "ASAT -Ass. Studentesca Agronomi e Tecnologi",
+      "nominativo": "CUTOLO Enrica",
+      "lista": "ASAT-Ass. Studentesca Agronomi e Tecnologi",
       "voti": {
         "totali": 7,
         "seggio_telematico": 7
       }
     },
     {
-      "nominativo": "FISICHELLA ALESSIA",
-      "lista": "ASAT -Ass. Studentesca Agronomi e Tecnologi",
+      "nominativo": "FISICHELLA Alessia",
+      "lista": "ASAT-Ass. Studentesca Agronomi e Tecnologi",
       "voti": {
         "totali": 6,
         "seggio_telematico": 6
       }
     },
     {
-      "nominativo": "GIANNINO GIUSEPPE",
+      "nominativo": "GIANNINO Giuseppe",
       "lista": "WE LOVE UNICT",
       "voti": {
         "totali": 14,
@@ -174,7 +190,7 @@
       }
     },
     {
-      "nominativo": "CELIA REBECCA",
+      "nominativo": "CELIA Rebecca",
       "lista": "WE LOVE UNICT",
       "voti": {
         "totali": 33,
@@ -182,7 +198,7 @@
       }
     },
     {
-      "nominativo": "LO CASTRO MARCO",
+      "nominativo": "LO CASTRO Marco",
       "lista": "WE LOVE UNICT",
       "voti": {
         "totali": 14,
@@ -190,7 +206,7 @@
       }
     },
     {
-      "nominativo": "OCCHIPINTI GIOELE",
+      "nominativo": "OCCHIPINTI Gioele",
       "lista": "WE LOVE UNICT",
       "voti": {
         "totali": 1,
@@ -198,7 +214,7 @@
       }
     },
     {
-      "nominativo": "LISI ALFIO NICOLAS",
+      "nominativo": "LISI Alfio Nicolas",
       "lista": "WE LOVE UNICT",
       "voti": {
         "totali": 1,
@@ -206,7 +222,7 @@
       }
     },
     {
-      "nominativo": "MUSMECI GIULIA",
+      "nominativo": "MUSMECI Giulia",
       "lista": "WE LOVE UNICT",
       "voti": {
         "totali": 1,
@@ -214,7 +230,7 @@
       }
     },
     {
-      "nominativo": "STANZU' MANUEL",
+      "nominativo": "STANZU' Manuel",
       "lista": "Cambiamento Di3a",
       "voti": {
         "totali": 11,
@@ -224,7 +240,7 @@
   ],
   "non_eletti": [
     {
-      "nominativo": "GIOCONDO EDOARDO DOMENICO",
+      "nominativo": "GIOCONDO Edoardo Domenico",
       "lista": "AZIONE UNIVERSITARIA",
       "voti": {
         "totali": 1,
@@ -232,7 +248,7 @@
       }
     },
     {
-      "nominativo": "CATANIA ALESSANDRO",
+      "nominativo": "CATANIA Alessandro",
       "lista": "AZIONE UNIVERSITARIA",
       "voti": {
         "totali": 3,
@@ -240,7 +256,7 @@
       }
     },
     {
-      "nominativo": "TRISCARI NUNZIO",
+      "nominativo": "TRISCARI Nunzio",
       "lista": "AZIONE UNIVERSITARIA",
       "voti": {
         "totali": 3,
@@ -248,175 +264,159 @@
       }
     },
     {
-      "nominativo": "MORTILLARO ALESSANDRO",
+      "nominativo": "LUCA' Francesco Giuseppe",
       "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "SABEV Iliyan",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
+      }
+    },
+    {
+      "nominativo": "FERRARA Filippo",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "COLOMBO Andrea Giovanni",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "APARO Nicolo'",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "MUNZONE Moreno Maria",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "RIGGI Annamaria",
+      "lista": "ASAT-Ass. Studentesca Agronomi e Tecnologi",
+      "voti": {
+        "totali": 5,
+        "seggio_telematico": 5
+      }
+    },
+    {
+      "nominativo": "MARSIGLIA Danilo",
+      "lista": "ASAT-Ass. Studentesca Agronomi e Tecnologi",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "NOLFO Maria Giovanna",
+      "lista": "ASAT-Ass. Studentesca Agronomi e Tecnologi",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
+      }
+    },
+    {
+      "nominativo": "LAINERI Desire'e",
+      "lista": "ASAT-Ass. Studentesca Agronomi e Tecnologi",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "MINNELLA Angela Gaia",
+      "lista": "ASAT-Ass. Studentesca Agronomi e Tecnologi",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "GIEDA Lorenzo",
+      "lista": "ASAT-Ass. Studentesca Agronomi e Tecnologi",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "TRAVAGLIANTI Giada",
+      "lista": "ASAT-Ass. Studentesca Agronomi e Tecnologi",
       "voti": {
         "totali": 4,
         "seggio_telematico": 4
       }
     },
     {
-      "nominativo": "LUCA' FRANCESCO GIUSEPPE",
-      "lista": "AZIONE UNIVERSITARIA",
-      "voti": {
-        "totali": 2,
-        "seggio_telematico": 2
-      }
-    },
-    {
-      "nominativo": "SABEV ILIYAN",
-      "lista": "AZIONE UNIVERSITARIA",
-      "voti": {
-        "totali": 3,
-        "seggio_telematico": 3
-      }
-    },
-    {
-      "nominativo": "FERRARA FILIPPO",
-      "lista": "AZIONE UNIVERSITARIA",
-      "voti": {
-        "totali": 1,
-        "seggio_telematico": 1
-      }
-    },
-    {
-      "nominativo": "COLOMBO ANDREA GIOVANNI",
-      "lista": "AZIONE UNIVERSITARIA",
-      "voti": {
-        "totali": 0,
-        "seggio_telematico": 0
-      }
-    },
-    {
-      "nominativo": "APARO NICOLO'",
-      "lista": "AZIONE UNIVERSITARIA",
-      "voti": {
-        "totali": 2,
-        "seggio_telematico": 2
-      }
-    },
-    {
-      "nominativo": "MUNZONE MORENO MARIA",
-      "lista": "AZIONE UNIVERSITARIA",
-      "voti": {
-        "totali": 1,
-        "seggio_telematico": 1
-      }
-    },
-    {
-      "nominativo": "RIGGI ANNAMARIA",
-      "lista": "ASAT -Ass. Studentesca Agronomi e Tecnologi",
+      "nominativo": "SCHEMBARI Fabiola",
+      "lista": "ASAT-Ass. Studentesca Agronomi e Tecnologi",
       "voti": {
         "totali": 5,
         "seggio_telematico": 5
       }
     },
     {
-      "nominativo": "PATERNA LAVINIA",
-      "lista": "ASAT -Ass. Studentesca Agronomi e Tecnologi",
+      "nominativo": "PRIVITERA Francesco Agatino",
+      "lista": "ASAT-Ass. Studentesca Agronomi e Tecnologi",
       "voti": {
-        "totali": 6,
-        "seggio_telematico": 6
+        "totali": 0,
+        "seggio_telematico": 0
       }
     },
     {
-      "nominativo": "MARSIGLIA DANILO",
-      "lista": "ASAT -Ass. Studentesca Agronomi e Tecnologi",
+      "nominativo": "RAITI Francesco Salvatore",
+      "lista": "ASAT-Ass. Studentesca Agronomi e Tecnologi",
       "voti": {
-        "totali": 1,
-        "seggio_telematico": 1
+        "totali": 2,
+        "seggio_telematico": 2
       }
     },
     {
-      "nominativo": "NOLFO MARIA GIOVANNA",
-      "lista": "ASAT -Ass. Studentesca Agronomi e Tecnologi",
+      "nominativo": "LEDDA Giuliana",
+      "lista": "ASAT-Ass. Studentesca Agronomi e Tecnologi",
       "voti": {
         "totali": 3,
         "seggio_telematico": 3
       }
     },
     {
-      "nominativo": "LAINERI DESIRE'E",
-      "lista": "ASAT -Ass. Studentesca Agronomi e Tecnologi",
-      "voti": {
-        "totali": 2,
-        "seggio_telematico": 2
-      }
-    },
-    {
-      "nominativo": "MINNELLA ANGELA GAIA",
-      "lista": "ASAT -Ass. Studentesca Agronomi e Tecnologi",
-      "voti": {
-        "totali": 2,
-        "seggio_telematico": 2
-      }
-    },
-    {
-      "nominativo": "TRAVAGLIANTI GIADA",
-      "lista": "ASAT -Ass. Studentesca Agronomi e Tecnologi",
-      "voti": {
-        "totali": 4,
-        "seggio_telematico": 4
-      }
-    },
-    {
-      "nominativo": "SCHEMBARI FABIOLA",
-      "lista": "ASAT -Ass. Studentesca Agronomi e Tecnologi",
+      "nominativo": "BORZÌ Pietro Gioele Mauro",
+      "lista": "ASAT-Ass. Studentesca Agronomi e Tecnologi",
       "voti": {
         "totali": 5,
         "seggio_telematico": 5
       }
     },
     {
-      "nominativo": "PRIVITERA FRANCESCO AGATINO",
-      "lista": "ASAT -Ass. Studentesca Agronomi e Tecnologi",
-      "voti": {
-        "totali": 0,
-        "seggio_telematico": 0
-      }
-    },
-    {
-      "nominativo": "RAITI FRANCESCO SALVATORE",
-      "lista": "ASAT -Ass. Studentesca Agronomi e Tecnologi",
+      "nominativo": "SAPIENZA Daniele",
+      "lista": "ASAT-Ass. Studentesca Agronomi e Tecnologi",
       "voti": {
         "totali": 2,
         "seggio_telematico": 2
       }
     },
     {
-      "nominativo": "LEDDA GIULIANA",
-      "lista": "ASAT -Ass. Studentesca Agronomi e Tecnologi",
-      "voti": {
-        "totali": 3,
-        "seggio_telematico": 3
-      }
-    },
-    {
-      "nominativo": "BORZÌ PIETRO GIOELE MAURO",
-      "lista": "ASAT -Ass. Studentesca Agronomi e Tecnologi",
-      "voti": {
-        "totali": 5,
-        "seggio_telematico": 5
-      }
-    },
-    {
-      "nominativo": "SAPIENZA DANIELE",
-      "lista": "ASAT -Ass. Studentesca Agronomi e Tecnologi",
-      "voti": {
-        "totali": 2,
-        "seggio_telematico": 2
-      }
-    },
-    {
-      "nominativo": "GIEDA LORENZO",
-      "lista": "ASAT -Ass. Studentesca Agronomi e Tecnologi",
-      "voti": {
-        "totali": 0,
-        "seggio_telematico": 0
-      }
-    },
-    {
-      "nominativo": "COCUZZA FRANCESCO DOMENICO",
+      "nominativo": "COCUZZA Francesco Domenico",
       "lista": "WE LOVE UNICT",
       "voti": {
         "totali": 0,
@@ -424,7 +424,7 @@
       }
     },
     {
-      "nominativo": "VENEZIANO DANIELE MIMMO",
+      "nominativo": "VENEZIANO Daniele Mimmo",
       "lista": "WE LOVE UNICT",
       "voti": {
         "totali": 0,
@@ -432,7 +432,7 @@
       }
     },
     {
-      "nominativo": "DELUCA PAOLO",
+      "nominativo": "DELUCA Paolo",
       "lista": "WE LOVE UNICT",
       "voti": {
         "totali": 0,
@@ -440,7 +440,7 @@
       }
     },
     {
-      "nominativo": "AMATO MARIA VITTORIA",
+      "nominativo": "AMATO Maria Vittoria",
       "lista": "WE LOVE UNICT",
       "voti": {
         "totali": 0,
@@ -448,7 +448,7 @@
       }
     },
     {
-      "nominativo": "SANTANGELO FRANCESCO",
+      "nominativo": "SANTANGELO Francesco",
       "lista": "WE LOVE UNICT",
       "voti": {
         "totali": 0,
@@ -456,7 +456,7 @@
       }
     },
     {
-      "nominativo": "GUZZETTA ERIKA",
+      "nominativo": "GUZZETTA Erika",
       "lista": "WE LOVE UNICT",
       "voti": {
         "totali": 0,
@@ -464,7 +464,7 @@
       }
     },
     {
-      "nominativo": "MANETTO GIOVANNI",
+      "nominativo": "MANETTO Giovanni",
       "lista": "WE LOVE UNICT",
       "voti": {
         "totali": 0,
@@ -472,7 +472,7 @@
       }
     },
     {
-      "nominativo": "CALI' MARIO RICCARDO MATTIAS",
+      "nominativo": "CALI' Mario Riccardo Mattias",
       "lista": "WE LOVE UNICT",
       "voti": {
         "totali": 0,
@@ -480,7 +480,7 @@
       }
     },
     {
-      "nominativo": "BLANDINO EMILY",
+      "nominativo": "BLANDINO Emily",
       "lista": "WE LOVE UNICT",
       "voti": {
         "totali": 0,
@@ -488,7 +488,7 @@
       }
     },
     {
-      "nominativo": "PANTANO GRAZIANA MARIA",
+      "nominativo": "PANTANO Graziana Maria",
       "lista": "WE LOVE UNICT",
       "voti": {
         "totali": 0,
@@ -496,7 +496,7 @@
       }
     },
     {
-      "nominativo": "ADDAMO FEDERICO",
+      "nominativo": "ADDAMO Federico",
       "lista": "WE LOVE UNICT",
       "voti": {
         "totali": 0,
@@ -504,7 +504,7 @@
       }
     },
     {
-      "nominativo": "SCAVELLI EMILIA TIZIANA",
+      "nominativo": "SCAVELLI Emilia Tiziana",
       "lista": "WE LOVE UNICT",
       "voti": {
         "totali": 0,
@@ -512,7 +512,7 @@
       }
     },
     {
-      "nominativo": "SANGRIGOLI FLAVIO",
+      "nominativo": "SANGRIGOLI Flavio",
       "lista": "Cambiamento Di3a",
       "voti": {
         "totali": 1,
@@ -520,7 +520,7 @@
       }
     },
     {
-      "nominativo": "BALSAMO LUIGI",
+      "nominativo": "BALSAMO Luigi",
       "lista": "Cambiamento Di3a",
       "voti": {
         "totali": 2,
@@ -528,7 +528,7 @@
       }
     }
   ],
-  "dipartimento": "ELEZIONI RAPPRESENTANTI IN SENO AL CONSIGLIO DEL DIPARTIMENTO DI AGRICOLTURA, ALIMENTAZIONE E AMBIENTE - STUDENTI BIENNIO 2025/2027",
+  "dipartimento": "Dipartimento di Agricoltura, Alimentazione e Ambiente",
   "seggi_da_assegnare": "18",
   "quoziente": 16.5556,
   "votanti": {

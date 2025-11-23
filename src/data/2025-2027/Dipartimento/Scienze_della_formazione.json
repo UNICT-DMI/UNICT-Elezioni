@@ -186,8 +186,377 @@
       }
     }
   ],
-  "non_eletti": [],
-  "dipartimento": "ELEZIONI RAPPRESENTANTI IN SENO AL CONSIGLIO DEL DIPARTIMENTO DI SCIENZE DELLA FORMAZIONE - STUDENTI BIENNIO 2025/2027",
+  "non_eletti": [
+    {
+      "nominativo": "SICURELLA GIORGIO",
+      "lista": "Azione Universiaria",
+      "voti": {
+        "totali": 11,
+        "seggio_telematico": 11
+      }
+    },
+    {
+      "nominativo": "MAESANO MARTINA",
+      "lista": "Azione Universiaria",
+      "voti": {
+        "totali": 10,
+        "seggio_telematico": 10
+      }
+    },
+    {
+      "nominativo": "CARINO SYRIA DANIELA",
+      "lista": "Azione Universiaria",
+      "voti": {
+        "totali": 4,
+        "seggio_telematico": 4
+      }
+    },
+    {
+      "nominativo": "CARUSO MICHELA",
+      "lista": "Azione Universiaria",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "PAPPALARDO ESTER",
+      "lista": "Azione Universiaria",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "MILLAURO CARLOTTA",
+      "lista": "Supporto Studenti",
+      "voti": {
+        "totali": 16,
+        "seggio_telematico": 16
+      }
+    },
+    {
+      "nominativo": "COSTANTINO MICHELANGELO",
+      "lista": "Supporto Studenti",
+      "voti": {
+        "totali": 14,
+        "seggio_telematico": 14
+      }
+    },
+    {
+      "nominativo": "BRECCIA AMIRA",
+      "lista": "Supporto Studenti",
+      "voti": {
+        "totali": 9,
+        "seggio_telematico": 9
+      }
+    },
+    {
+      "nominativo": "AMORE IRENE",
+      "lista": "Supporto Studenti",
+      "voti": {
+        "totali": 7,
+        "seggio_telematico": 7
+      }
+    },
+    {
+      "nominativo": "TOLEDO SYRIA",
+      "lista": "Supporto Studenti",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
+      }
+    },
+    {
+      "nominativo": "MESSINA GIULIA",
+      "lista": "Supporto Studenti",
+      "voti": {
+        "totali": 24,
+        "seggio_telematico": 24
+      }
+    },
+    {
+      "nominativo": "RAPISARDA FEDERICA MARIAPIA",
+      "lista": "Supporto Studenti",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
+      }
+    },
+    {
+      "nominativo": "MONACO ROBERTA MARIA",
+      "lista": "STUDENTI PER IL DISFOR",
+      "voti": {
+        "totali": 11,
+        "seggio_telematico": 11
+      }
+    },
+    {
+      "nominativo": "FRAGALÀ BEATRICE",
+      "lista": "STUDENTI PER IL DISFOR",
+      "voti": {
+        "totali": 8,
+        "seggio_telematico": 8
+      }
+    },
+    {
+      "nominativo": "LO TAURO VALERIA",
+      "lista": "STUDENTI PER IL DISFOR",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "VAZZANO MIREA",
+      "lista": "STUDENTI PER IL DISFOR",
+      "voti": {
+        "totali": 5,
+        "seggio_telematico": 5
+      }
+    },
+    {
+      "nominativo": "ORTISI SERENA",
+      "lista": "STUDENTI PER IL DISFOR",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "FORTI ANTONINO ANGELO DANILO",
+      "lista": "STUDENTI PER IL DISFOR",
+      "voti": {
+        "totali": 8,
+        "seggio_telematico": 8
+      }
+    },
+    {
+      "nominativo": "MAGISTRO KATIA",
+      "lista": "STUDENTI PER IL DISFOR",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "CUTRONA ANTONINO CARLO",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 15,
+        "seggio_telematico": 15
+      }
+    },
+    {
+      "nominativo": "CASTRO SOFIA",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 17,
+        "seggio_telematico": 17
+      }
+    },
+    {
+      "nominativo": "DE GIORGI SILVIA MARIA",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "ASCOLI LUDOVICA FRANCESCA",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "DI FRANCESCO MICHELA",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "CALANDRA GAIA",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "SCARDACI GIULIANA",
+      "lista": "Koinè",
+      "voti": {
+        "totali": 6,
+        "seggio_telematico": 6
+      }
+    },
+    {
+      "nominativo": "LENTINI ANITA",
+      "lista": "Koinè",
+      "voti": {
+        "totali": 4,
+        "seggio_telematico": 4
+      }
+    },
+    {
+      "nominativo": "PAPPALARDO GIULIANA",
+      "lista": "Koinè",
+      "voti": {
+        "totali": 5,
+        "seggio_telematico": 5
+      }
+    },
+    {
+      "nominativo": "PAVONE FRANCESCO",
+      "lista": "Koinè",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "PRINCIPATO SIRIA ELISA",
+      "lista": "Koinè",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "BONACCORSI ROBERTA",
+      "lista": "Arcadia",
+      "voti": {
+        "totali": 22,
+        "seggio_telematico": 22
+      }
+    },
+    {
+      "nominativo": "GIARRUSSO SALVATORE",
+      "lista": "Arcadia",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "BONANNO DAVIDE",
+      "lista": "Arcadia",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "VIZZI ANDREANA",
+      "lista": "NIKE DISFOR",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
+      }
+    },
+    {
+      "nominativo": "ROSSO ALESSANDRA",
+      "lista": "NIKE DISFOR",
+      "voti": {
+        "totali": 20,
+        "seggio_telematico": 20
+      }
+    },
+    {
+      "nominativo": "SCOLA DANILO",
+      "lista": "NIKE DISFOR",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "FOTI DESIRÈ",
+      "lista": "NIKE DISFOR",
+      "voti": {
+        "totali": 5,
+        "seggio_telematico": 5
+      }
+    },
+    {
+      "nominativo": "TRUGLIO GIORGIA",
+      "lista": "NIKE DISFOR",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "SAPIA MARTINA MARIA",
+      "lista": "NIKE DISFOR",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "SCANDURRA FEDERICA",
+      "lista": "NIKE DISFOR",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "SAMPERI GIORGIA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "REALE GIULIA MARIA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
+      }
+    },
+    {
+      "nominativo": "MARCHETTA SOFIA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "NICOSIA ALICE",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 6,
+        "seggio_telematico": 6
+      }
+    },
+    {
+      "nominativo": "MELCHIONNA GABRIELE",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "SPOSITO FRANCESCA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    }
+  ],
+  "dipartimento": "Dipartimento di Scienze della Formazione",
   "seggi_da_assegnare": "8",
   "quoziente": 86.125,
   "votanti": {
