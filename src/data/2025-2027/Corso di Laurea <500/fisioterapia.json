@@ -1,0 +1,24 @@
+{
+  "dipartimento": "FISIOTERAPIA-L/SNT2-Laurea Triennale (D.M.270/2004)",
+  "quorum": false,
+  "seggi_da_assegnare": 7,
+  "schede": {
+    "bianche": 1,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "SALPIETRO ANGELO",
+      "voti": 9
+    },
+    {
+      "nome_candidato": "CARBONE GIUSEPPE",
+      "voti": 50
+    }
+  ],
+  "non_eletti": [],
+  "totale_voti": 60,
+  "aventi_diritto": 152,
+  "perc_votanti": 39.47
+}

@@ -1,0 +1,53 @@
+{
+  "dipartimento": "SCIENZE GEOLOGICHE-L-34-Laurea Triennale (D.M.270/2004)",
+  "quorum": false,
+  "seggi_da_assegnare": 5,
+  "schede": {
+    "bianche": 1,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "DI MAURO FEDERICO",
+      "voti": 4
+    },
+    {
+      "nome_candidato": "VICARI JACOPO GIUSEPPE",
+      "voti": 5
+    },
+    {
+      "nome_candidato": "D'AMICO SALVATORE",
+      "voti": 3
+    },
+    {
+      "nome_candidato": "LOMBARDO IRENE",
+      "voti": 5
+    },
+    {
+      "nome_candidato": "MUSUMECI ARIANNA",
+      "voti": 19
+    }
+  ],
+  "non_eletti": [
+    {
+      "nome_candidato": "ROSSITTO PAOLO",
+      "voti": 0
+    },
+    {
+      "nome_candidato": "MARSIGLIA MATTIA",
+      "voti": 1
+    },
+    {
+      "nome_candidato": "GIANNONE GABRIELE",
+      "voti": 2
+    },
+    {
+      "nome_candidato": "CHARRAKI AMINA",
+      "voti": 2
+    }
+  ],
+  "totale_voti": 42,
+  "aventi_diritto": 97,
+  "perc_votanti": 43.3
+}

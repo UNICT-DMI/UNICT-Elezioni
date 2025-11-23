@@ -1,0 +1,57 @@
+{
+  "dipartimento": "FILOSOFIA-L-5-Laurea Triennale (D.M.270/2004)",
+  "quorum": false,
+  "seggi_da_assegnare": 5,
+  "schede": {
+    "bianche": 4,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "SIRNA MARTINA",
+      "voti": 6
+    },
+    {
+      "nome_candidato": "RIOLO MARIO",
+      "voti": 13
+    },
+    {
+      "nome_candidato": "SQUILLACI FRANCESCA",
+      "voti": 6
+    },
+    {
+      "nome_candidato": "RAFFA ANDREA",
+      "voti": 21
+    }
+  ],
+  "non_eletti": [
+    {
+      "nome_candidato": "GANDOLFO ALESSIO",
+      "voti": 5
+    },
+    {
+      "nome_candidato": "TRAINA GIULIO SEBASTIANO",
+      "voti": 4
+    },
+    {
+      "nome_candidato": "CONTI FRANCESCO",
+      "voti": 4
+    },
+    {
+      "nome_candidato": "BASILE VICTOR",
+      "voti": 7
+    },
+    {
+      "nome_candidato": "VERONICA GIOVANNI",
+      "voti": 3
+    },
+    {
+      "nome_candidato": "TAVERNA GRAZIA",
+      "voti": 2
+    }
+  ],
+  "totale_voti": 75,
+  "aventi_diritto": 303,
+  "perc_votanti": 24.75
+}

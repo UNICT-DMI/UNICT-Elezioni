@@ -1,0 +1,49 @@
+{
+  "dipartimento": "OSTETRICIA-L/SNT1-Laurea Triennale (D.M.270/2004)",
+  "quorum": true,
+  "seggi_da_assegnare": 7,
+  "schede": {
+    "bianche": 0,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "FAVALORO GIORGIA PIA",
+      "voti": 2
+    },
+    {
+      "nome_candidato": "ZISA CARLOTTA",
+      "voti": 4
+    },
+    {
+      "nome_candidato": "MARIA GIULIA",
+      "voti": 2
+    },
+    {
+      "nome_candidato": "GIUDICE MARIARITA",
+      "voti": 6
+    },
+    {
+      "nome_candidato": "ZIGNALE DELIA",
+      "voti": 15
+    },
+    {
+      "nome_candidato": "INCOGNITO NOEMI",
+      "voti": 23
+    },
+    {
+      "nome_candidato": "ARIZZA CHIARA",
+      "voti": 14
+    }
+  ],
+  "non_eletti": [
+    {
+      "nome_candidato": "RANO GIULIA",
+      "voti": 0
+    }
+  ],
+  "totale_voti": 66,
+  "aventi_diritto": 117,
+  "perc_votanti": 56.41
+}

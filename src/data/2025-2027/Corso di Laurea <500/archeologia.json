@@ -1,0 +1,24 @@
+{
+  "dipartimento": "ARCHEOLOGIA-LM-2-Laurea Magistrale biennale (D.M.270/2004)",
+  "quorum": false,
+  "seggi_da_assegnare": 4,
+  "schede": {
+    "bianche": 1,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "GIUDICE EMILIANO",
+      "voti": 13
+    },
+    {
+      "nome_candidato": "LO PIERO WILLIAM",
+      "voti": 13
+    }
+  ],
+  "non_eletti": [],
+  "totale_voti": 27,
+  "aventi_diritto": 80,
+  "perc_votanti": 33.75
+}

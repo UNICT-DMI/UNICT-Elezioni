@@ -1,0 +1,20 @@
+{
+  "dipartimento": "MATEMATICA-LM-40-Laurea Magistrale biennale (D.M.270/2004)",
+  "quorum": false,
+  "seggi_da_assegnare": 6,
+  "schede": {
+    "bianche": 1,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "SCARVAGLIERI VINCENZO",
+      "voti": 20
+    }
+  ],
+  "non_eletti": [],
+  "totale_voti": 21,
+  "aventi_diritto": 78,
+  "perc_votanti": 26.92
+}

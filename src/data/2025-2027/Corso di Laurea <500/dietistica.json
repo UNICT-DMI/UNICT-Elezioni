@@ -1,0 +1,33 @@
+{
+  "dipartimento": "DIETISTICA-L/SNT3-Laurea Triennale (D.M.270/2004)",
+  "quorum": false,
+  "seggi_da_assegnare": 6,
+  "schede": {
+    "bianche": 1,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "MAGNATO MARIANNA",
+      "voti": 10
+    },
+    {
+      "nome_candidato": "LEOTTA SERENA",
+      "voti": 3
+    },
+    {
+      "nome_candidato": "TURINESE MATTEO",
+      "voti": 7
+    }
+  ],
+  "non_eletti": [
+    {
+      "nome_candidato": "BROGNA ENRICO",
+      "voti": 0
+    }
+  ],
+  "totale_voti": 21,
+  "aventi_diritto": 88,
+  "perc_votanti": 23.86
+}

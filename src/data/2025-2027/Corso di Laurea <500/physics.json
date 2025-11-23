@@ -1,0 +1,48 @@
+{
+  "dipartimento": "PHYSICS-LM-17-Laurea Magistrale biennale (D.M.270/2004)",
+  "quorum": false,
+  "seggi_da_assegnare": 9,
+  "schede": {
+    "bianche": 3,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "VALENTI MATTIA",
+      "voti": 5
+    },
+    {
+      "nome_candidato": "FRENI GABRIELE",
+      "voti": 3
+    },
+    {
+      "nome_candidato": "PAPPALARDO LORENZO FEDERICO",
+      "voti": 7
+    },
+    {
+      "nome_candidato": "REITANO SAMUEL",
+      "voti": 11
+    },
+    {
+      "nome_candidato": "MARCHETTA VIRGINIA",
+      "voti": 1
+    },
+    {
+      "nome_candidato": "INGRASSIA FEDERICA MARIA",
+      "voti": 3
+    },
+    {
+      "nome_candidato": "MACAIONE ANTONIO",
+      "voti": 7
+    },
+    {
+      "nome_candidato": "CAMONITA CLAUDIA",
+      "voti": 3
+    }
+  ],
+  "non_eletti": [],
+  "totale_voti": 43,
+  "aventi_diritto": 134,
+  "perc_votanti": 32.09
+}

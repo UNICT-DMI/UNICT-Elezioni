@@ -1,0 +1,37 @@
+{
+  "dipartimento": "MANAGEMENT DELLE IMPRESE PER L’ECONOMIA SOSTENIBILE-L-18-Laurea Triennale (D.M.270/2004)",
+  "quorum": false,
+  "seggi_da_assegnare": 4,
+  "schede": {
+    "bianche": 0,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "LICITRA ANDREA",
+      "voti": 6
+    },
+    {
+      "nome_candidato": "DI BONA FIORENZA",
+      "voti": 5
+    },
+    {
+      "nome_candidato": "NOTO VALENTINA",
+      "voti": 10
+    }
+  ],
+  "non_eletti": [
+    {
+      "nome_candidato": "PUGLISI SERENA",
+      "voti": 9
+    },
+    {
+      "nome_candidato": "CIRAMI ANDREA",
+      "voti": 2
+    }
+  ],
+  "totale_voti": 32,
+  "aventi_diritto": 104,
+  "perc_votanti": 30.77
+}

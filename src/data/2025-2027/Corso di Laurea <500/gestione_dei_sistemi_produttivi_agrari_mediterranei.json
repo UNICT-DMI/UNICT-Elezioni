@@ -1,0 +1,24 @@
+{
+  "dipartimento": "GESTIONE DEI SISTEMI PRODUTTIVI AGRARI MEDITERRANEI-L-25R-Laurea Triennale (D.M.270/2004)",
+  "quorum": false,
+  "seggi_da_assegnare": 2,
+  "schede": {
+    "bianche": 0,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "DI MARTINO GIORGIO",
+      "voti": 8
+    },
+    {
+      "nome_candidato": "COTRONEO GIUSEPPE",
+      "voti": 9
+    }
+  ],
+  "non_eletti": [],
+  "totale_voti": 17,
+  "aventi_diritto": 17,
+  "perc_votanti": 38.64
+}

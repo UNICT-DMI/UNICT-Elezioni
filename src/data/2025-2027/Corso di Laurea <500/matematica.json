@@ -1,0 +1,45 @@
+{
+  "dipartimento": "MATEMATICA-L-35-Laurea Triennale (D.M.270/2004)",
+  "quorum": false,
+  "seggi_da_assegnare": 5,
+  "schede": {
+    "bianche": 0,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "MONACO GIUSEPPE",
+      "voti": 21
+    },
+    {
+      "nome_candidato": "PINO REBECCA",
+      "voti": 8
+    },
+    {
+      "nome_candidato": "MARIA MARTINA",
+      "voti": 33
+    },
+    {
+      "nome_candidato": "DURO THOMAS",
+      "voti": 9
+    }
+  ],
+  "non_eletti": [
+    {
+      "nome_candidato": "GRECO ANTONIO",
+      "voti": 4
+    },
+    {
+      "nome_candidato": "SPAMPINATO GIULIA",
+      "voti": 6
+    },
+    {
+      "nome_candidato": "IRACI FERRUZZA MARIA",
+      "voti": 8
+    }
+  ],
+  "totale_voti": 89,
+  "aventi_diritto": 187,
+  "perc_votanti": 47.59
+}

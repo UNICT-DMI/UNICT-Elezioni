@@ -1,0 +1,41 @@
+{
+  "dipartimento": "SCIENZE AMBIENTALI E NATURALI-L-32-Laurea Triennale (D.M.270/2004)",
+  "quorum": false,
+  "seggi_da_assegnare": 6,
+  "schede": {
+    "bianche": 1,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "MASCALI ALFIO",
+      "voti": 7
+    },
+    {
+      "nome_candidato": "LA BIUNDA ANDREA",
+      "voti": 7
+    },
+    {
+      "nome_candidato": "CONTARINO LUCIO",
+      "voti": 10
+    },
+    {
+      "nome_candidato": "BONANNO GIULIA",
+      "voti": 5
+    },
+    {
+      "nome_candidato": "DAMINO GIULIA",
+      "voti": 3
+    }
+  ],
+  "non_eletti": [
+    {
+      "nome_candidato": "BELFIORE ANTONINO",
+      "voti": 0
+    }
+  ],
+  "totale_voti": 33,
+  "aventi_diritto": 188,
+  "perc_votanti": 17.55
+}

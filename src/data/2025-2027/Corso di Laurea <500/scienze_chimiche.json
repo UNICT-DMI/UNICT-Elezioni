@@ -1,0 +1,28 @@
+{
+  "dipartimento": "SCIENZE CHIMICHE-LM-54-Laurea Magistrale biennale (D.M.270/2004)",
+  "quorum": false,
+  "seggi_da_assegnare": 8,
+  "schede": {
+    "bianche": 1,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "BARBAGALLO CHIARA",
+      "voti": 15
+    },
+    {
+      "nome_candidato": "BORZÍ SIMONE PIO",
+      "voti": 5
+    },
+    {
+      "nome_candidato": "BONANNO SILVIA",
+      "voti": 5
+    }
+  ],
+  "non_eletti": [],
+  "totale_voti": 26,
+  "aventi_diritto": 144,
+  "perc_votanti": 18.06
+}

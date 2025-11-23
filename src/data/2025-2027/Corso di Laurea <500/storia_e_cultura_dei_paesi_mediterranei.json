@@ -1,0 +1,37 @@
+{
+  "dipartimento": "STORIA E CULTURA DEI PAESI MEDITERRANEI-LM-84-Laurea Magistrale biennale (D.M.270/2004)",
+  "quorum": false,
+  "seggi_da_assegnare": 4,
+  "schede": {
+    "bianche": 1,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "PLATANIA GIORGIO",
+      "voti": 2
+    },
+    {
+      "nome_candidato": "RUSSO FABRIZIO",
+      "voti": 4
+    },
+    {
+      "nome_candidato": "ALI' VITTORIO",
+      "voti": 13
+    }
+  ],
+  "non_eletti": [
+    {
+      "nome_candidato": "MANGANO ANDREA",
+      "voti": 16
+    },
+    {
+      "nome_candidato": "SALERNO MARTINA",
+      "voti": 1
+    }
+  ],
+  "totale_voti": 37,
+  "aventi_diritto": 106,
+  "perc_votanti": 34.91
+}

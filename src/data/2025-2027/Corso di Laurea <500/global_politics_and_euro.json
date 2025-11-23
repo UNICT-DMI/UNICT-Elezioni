@@ -1,0 +1,32 @@
+{
+  "dipartimento": "GLOBAL POLITICS AND EURO-MEDITERRANEAN RELATIONS-LM-62-Laurea Magistrale biennale",
+  "quorum": false,
+  "seggi_da_assegnare": 3,
+  "schede": {
+    "bianche": 2,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "RABUAZZO SILVIA",
+      "voti": 4
+    },
+    {
+      "nome_candidato": "CUCUZZA MARIA TERESA",
+      "voti": 4
+    },
+    {
+      "nome_candidato": "PARISI SERENA",
+      "voti": 6
+    },
+    {
+      "nome_candidato": "BARRESI SALVATORE",
+      "voti": 7
+    }
+  ],
+  "non_eletti": [],
+  "totale_voti": 23,
+  "aventi_diritto": 87,
+  "perc_votanti": 26.44
+}
