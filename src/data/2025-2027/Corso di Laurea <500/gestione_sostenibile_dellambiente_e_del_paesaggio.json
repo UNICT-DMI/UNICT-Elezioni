@@ -1,0 +1,20 @@
+{
+  "dipartimento": "GESTIONE SOSTENIBILE DELL'AMBIENTE E DEL PAESAGGIO-LM-75R-Laurea Magistrale biennale (D.M.270/2004)",
+  "quorum": false,
+  "seggi_da_assegnare": 3,
+  "schede": {
+    "bianche": 1,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "GIUFFRIDA GABRIELE",
+      "voti": 5
+    }
+  ],
+  "non_eletti": [],
+  "totale_voti": 6,
+  "aventi_diritto": 32,
+  "perc_votanti": 18.75
+}

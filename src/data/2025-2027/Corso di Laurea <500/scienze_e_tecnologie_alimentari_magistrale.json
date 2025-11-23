@@ -1,0 +1,32 @@
+{
+  "dipartimento": "SCIENZE E TECNOLOGIE ALIMENTARI-LM-70-Laurea Magistrale biennale (D.M.270/2004)",
+  "quorum": false,
+  "seggi_da_assegnare": 4,
+  "schede": {
+    "bianche": 0,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "BORDONARO BRIAN",
+      "voti": 14
+    },
+    {
+      "nome_candidato": "BARDARE' ELEONORA MARIA VITTORIA",
+      "voti": 10
+    },
+    {
+      "nome_candidato": "AIELLO EDOARDO SALVATORE",
+      "voti": 5
+    },
+    {
+      "nome_candidato": "FRANZONE ALEX",
+      "voti": 3
+    }
+  ],
+  "non_eletti": [],
+  "totale_voti": 32,
+  "aventi_diritto": 120,
+  "perc_votanti": 26.67
+}

@@ -1,0 +1,45 @@
+{
+  "dipartimento": "SCIENZE E TECNOLOGIE ALIMENTARI-L-26-Laurea Triennale (D.M.270/2004)",
+  "quorum": false,
+  "seggi_da_assegnare": 6,
+  "schede": {
+    "bianche": 0,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "IMPELLIZZERI SALVATORE",
+      "voti": 18
+    },
+    {
+      "nome_candidato": "MARSIGLIA DANILO",
+      "voti": 3
+    },
+    {
+      "nome_candidato": "FISICHELLA ALESSIA",
+      "voti": 6
+    },
+    {
+      "nome_candidato": "CELIA REBECCA",
+      "voti": 33
+    },
+    {
+      "nome_candidato": "PATERNA LAVINIA",
+      "voti": 13
+    },
+    {
+      "nome_candidato": "RAITI FRANCESCO SALVATORE",
+      "voti": 12
+    }
+  ],
+  "non_eletti": [
+    {
+      "nome_candidato": "SABEV ILIYAN",
+      "voti": 2
+    }
+  ],
+  "totale_voti": 87,
+  "aventi_diritto": 341,
+  "perc_votanti": 25.51
+}

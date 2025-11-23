@@ -1,0 +1,32 @@
+{
+  "dipartimento": "INGEGNERIA MECCANICA-LM-33-Laurea Magistrale biennale (D.Μ.270/2004)",
+  "quorum": false,
+  "seggi_da_assegnare": 4,
+  "schede": {
+    "bianche": 2,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "BUONCONSIGLIO ALESSANDRO",
+      "voti": 20
+    },
+    {
+      "nome_candidato": "RAFFAGNINO VITO",
+      "voti": 9
+    },
+    {
+      "nome_candidato": "D'ANTONI ANDREA",
+      "voti": 3
+    },
+    {
+      "nome_candidato": "GALVAGNO RAFFAELE",
+      "voti": 2
+    }
+  ],
+  "non_eletti": [],
+  "totale_voti": 36,
+  "aventi_diritto": 106,
+  "perc_votanti": 33.96
+}

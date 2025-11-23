@@ -1,0 +1,33 @@
+{
+  "dipartimento": "INGEGNERIA GESTIONALE-LM-31-Laurea Magistrale biennale (D.M.270/2004)",
+  "quorum": false,
+  "seggi_da_assegnare": 3,
+  "schede": {
+    "bianche": 5,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "SERRANO GIORGIO",
+      "voti": 22
+    },
+    {
+      "nome_candidato": "CAVALLARO ALICE",
+      "voti": 15
+    },
+    {
+      "nome_candidato": "SMIRNI SIMONE",
+      "voti": 7
+    }
+  ],
+  "non_eletti": [
+    {
+      "nome_candidato": "ROMEO DAVIDE",
+      "voti": 1
+    }
+  ],
+  "totale_voti": 50,
+  "aventi_diritto": 151,
+  "perc_votanti": 33.11
+}

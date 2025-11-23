@@ -1,0 +1,45 @@
+{
+  "dipartimento": "ECONOMIA E POLITICHE PUBBLICHE-LM-56-Laurea Magistrale biennale (D.M.270/2004)",
+  "quorum": false,
+  "seggi_da_assegnare": 5,
+  "schede": {
+    "bianche": 0,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "CARAMBIA VITO GIUSEPPE",
+      "voti": 14
+    },
+    {
+      "nome_candidato": "D'ANNA ALESSIA",
+      "voti": 5
+    },
+    {
+      "nome_candidato": "LIMONE STEFANO",
+      "voti": 4
+    },
+    {
+      "nome_candidato": "ARGENTI ROBERTO",
+      "voti": 4
+    },
+    {
+      "nome_candidato": "DILENA MARTA MARIA",
+      "voti": 3
+    }
+  ],
+  "non_eletti": [
+    {
+      "nome_candidato": "IRACI SARERI ANDREA GIUSEPPE",
+      "voti": 1
+    },
+    {
+      "nome_candidato": "GAROFALO GIANLUCA",
+      "voti": 1
+    }
+  ],
+  "totale_voti": 32,
+  "aventi_diritto": 72,
+  "perc_votanti": 44.44
+}

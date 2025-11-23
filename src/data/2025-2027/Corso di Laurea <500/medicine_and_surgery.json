@@ -1,0 +1,73 @@
+{
+  "dipartimento": "MEDICINE AND SURGERY-LM-41R-Laurea Magistrale a ciclo unico (D.M. 270/2004)",
+  "quorum": false,
+  "seggi_da_assegnare": 8,
+  "schede": {
+    "bianche": 1,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "AGNELLO CLARISSA",
+      "voti": 22
+    },
+    {
+      "nome_candidato": "RIVA SOFIA",
+      "voti": 17
+    },
+    {
+      "nome_candidato": "PIZZI AURORA",
+      "voti": 16
+    },
+    {
+      "nome_candidato": "TANZARELLA MARTINA",
+      "voti": 11
+    },
+    {
+      "nome_candidato": "BONACCORSO SERGIO",
+      "voti": 9
+    },
+    {
+      "nome_candidato": "REMOND ARATI",
+      "voti": 8
+    },
+    {
+      "nome_candidato": "OKAN AYSE MERYEM",
+      "voti": 8
+    },
+    {
+      "nome_candidato": "BI BAYAN REZA",
+      "voti": 7
+    }
+  ],
+  "non_eletti": [
+    {
+      "nome_candidato": "REMY MELISSA",
+      "voti": 2
+    },
+    {
+      "nome_candidato": "CIVELLO MARCO",
+      "voti": 1
+    },
+    {
+      "nome_candidato": "JALALI SAEID",
+      "voti": 0
+    },
+    {
+      "nome_candidato": "SEDIGHI BEHNAM",
+      "voti": 0
+    },
+    {
+      "nome_candidato": "LONGO GABRIELE",
+      "voti": 0
+    },
+    {
+      "nome_candidato": "PERDICHIZZI RICCARDO ANTONINO",
+      "voti": 0
+    }
+  ],
+  "totale_voti": 102,
+  "aventi_diritto": 114,
+  "perc_votanti": 89.47
+}

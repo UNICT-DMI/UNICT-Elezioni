@@ -1,0 +1,20 @@
+{
+  "dipartimento": "POLITICHE E SERVIZI SOCIALI-LM-87-Laurea Magistrale biennale (D.M.270/2004)",
+  "quorum": false,
+  "seggi_da_assegnare": 4,
+  "schede": {
+    "bianche": 9,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "CRUPI MARIA SOLE",
+      "voti": 16
+    }
+  ],
+  "non_eletti": [],
+  "totale_voti": 25,
+  "aventi_diritto": 164,
+  "perc_votanti": 15.24
+}

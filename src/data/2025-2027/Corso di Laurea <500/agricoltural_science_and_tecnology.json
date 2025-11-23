@@ -1,0 +1,20 @@
+{
+  "dipartimento": "AGRICOLTURAL SCIENCE AND TECNOLOGY-LM-69-Laurea Magistrale biennale (D.M.270/2004)",
+  "quorum": false,
+  "seggi_da_assegnare": 2,
+  "schede": {
+    "bianche": 0,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "OTTONE GIOVANNI",
+      "voti": 3
+    }
+  ],
+  "non_eletti": [],
+  "totale_voti": 3,
+  "aventi_diritto": 13,
+  "perc_votanti": 23.08
+}

@@ -1,0 +1,113 @@
+{
+  "dipartimento": "INGEGNERIA EDILE-ARCHITETTURA-LM-4 C.U.-Laurea Magistrale a ciclo unico (D.M. 270/2004)",
+  "quorum": false,
+  "seggi_da_assegnare": 8,
+  "schede": {
+    "bianche": 5,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "RAPISARDA ETTORE",
+      "voti": 10
+    },
+    {
+      "nome_candidato": "VASTA FRANCESCO LORENZO",
+      "voti": 14
+    },
+    {
+      "nome_candidato": "FERRARA FEDERICA",
+      "voti": 28
+    },
+    {
+      "nome_candidato": "SANGRIGOLI CARLOTTA",
+      "voti": 28
+    },
+    {
+      "nome_candidato": "FRAGAPANE VALERIO",
+      "voti": 29
+    },
+    {
+      "nome_candidato": "LAPI RICCARDO",
+      "voti": 18
+    },
+    {
+      "nome_candidato": "VENTURA NICOLÒ",
+      "voti": 17
+    },
+    {
+      "nome_candidato": "LIOTTA GAETANO PIO",
+      "voti": 17
+    }
+  ],
+  "non_eletti": [
+    {
+      "nome_candidato": "RUOCCO ADELE",
+      "voti": 6
+    },
+    {
+      "nome_candidato": "PETISI SIMONE VINCENZO",
+      "voti": 3
+    },
+    {
+      "nome_candidato": "INTURRI GIORGIA",
+      "voti": 1
+    },
+    {
+      "nome_candidato": "PUGLISI MATTIA",
+      "voti": 12
+    },
+    {
+      "nome_candidato": "ZARBANO GIUSEPPE",
+      "voti": 4
+    },
+    {
+      "nome_candidato": "DI BARTOLO GIUSEPPE",
+      "voti": 2
+    },
+    {
+      "nome_candidato": "LA MANTIA ANDREA CESARE",
+      "voti": 0
+    },
+    {
+      "nome_candidato": "LEOTTA GEORGIA MARIA ROSANNA",
+      "voti": 14
+    },
+    {
+      "nome_candidato": "BASILE GIOVANNI",
+      "voti": 1
+    },
+    {
+      "nome_candidato": "CANNIA SABRINA",
+      "voti": 5
+    },
+    {
+      "nome_candidato": "D'ARRIGO GIULIA",
+      "voti": 13
+    },
+    {
+      "nome_candidato": "PAFUMI MATTEO LEONARDO",
+      "voti": 16
+    },
+    {
+      "nome_candidato": "GIUFFRIDA ALBERTO",
+      "voti": 15
+    },
+    {
+      "nome_candidato": "AMAS MARTINA",
+      "voti": 1
+    },
+    {
+      "nome_candidato": "PELLEGRINO ADRIANA",
+      "voti": 5
+    },
+    {
+      "nome_candidato": "GIANDINOTO SIMONE",
+      "voti": 17
+    }
+  ],
+  "totale_voti": 281,
+  "aventi_diritto": 472,
+  "perc_votanti": 59.53
+}

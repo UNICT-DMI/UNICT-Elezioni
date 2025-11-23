@@ -1,0 +1,49 @@
+{
+  "dipartimento": "DATA SCIENCE-LM-DATA-Laurea Magistrale biennale (D.M.270/2004)",
+  "quorum": false,
+  "seggi_da_assegnare": 5,
+  "schede": {
+    "bianche": 2,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "RISINO CLAUDIO",
+      "voti": 9
+    },
+    {
+      "nome_candidato": "SCHILLACI ANGELO",
+      "voti": 8
+    },
+    {
+      "nome_candidato": "SPATA MATTEO",
+      "voti": 7
+    },
+    {
+      "nome_candidato": "OCCHINO NICOLO' CARMELO",
+      "voti": 6
+    },
+    {
+      "nome_candidato": "RESTIVO FRANCESCO",
+      "voti": 6
+    }
+  ],
+  "non_eletti": [
+    {
+      "nome_candidato": "TRAGNA AGNESE",
+      "voti": 4
+    },
+    {
+      "nome_candidato": "TAMBE' SERGIO",
+      "voti": 0
+    },
+    {
+      "nome_candidato": "LOCURTO MICHELE",
+      "voti": 0
+    }
+  ],
+  "totale_voti": 42,
+  "aventi_diritto": 99,
+  "perc_votanti": 42.42
+}

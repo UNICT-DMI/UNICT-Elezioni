@@ -1,0 +1,20 @@
+{
+  "dipartimento": "ELECTRONIC ENGINEERING-LM-29-Laurea Magistrale biennale (D.M.270/2004)",
+  "quorum": false,
+  "seggi_da_assegnare": 4,
+  "schede": {
+    "bianche": 4,
+    "nulle": 0,
+    "contestate": 0
+  },
+  "eletti": [
+    {
+      "nome_candidato": "GRASSO VINCENZO",
+      "voti": 14
+    }
+  ],
+  "non_eletti": [],
+  "totale_voti": 18,
+  "aventi_diritto": 103,
+  "perc_votanti": 17.48
+}
