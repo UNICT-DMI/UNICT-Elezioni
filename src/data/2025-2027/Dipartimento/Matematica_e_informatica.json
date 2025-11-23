@@ -95,7 +95,7 @@
       "seggi": {
         "seggi_pieni": "-",
         "resti": "15,0",
-        "seggi_ai_resti": "-",
+        "seggi_ai_resti": "0",
         "seggi_totali": "-"
       },
       "voti": {
@@ -623,7 +623,7 @@
       }
     }
   ],
-  "dipartimento": "ELEZIONI RAPPRESENTANTI IN SENO AL CONSIGLIO DEL DIPARTIMENTO DI MATEMATICA E INFORMATICA - STUDENTI BIENNIO 2025/2027",
+  "dipartimento": "Dipartimento di Matematica e Informatica",
   "seggi_da_assegnare": "13",
   "quoziente": 33.3846,
   "votanti": {

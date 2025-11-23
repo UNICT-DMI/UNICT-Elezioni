@@ -174,19 +174,19 @@
   ],
   "eletti": [
     {
-      "nominativo": "FOTI FRANCESCO",
-      "lista": "IngegneriAttiva",
-      "voti": {
-        "totali": 29,
-        "seggio_telematico": 29
-      }
-    },
-    {
       "nominativo": "MANDUCA GABRIELE",
       "lista": "IngegneriAttiva",
       "voti": {
         "totali": 37,
         "seggio_telematico": 37
+      }
+    },
+    {
+      "nominativo": "FOTI FRANCESCO",
+      "lista": "IngegneriAttiva",
+      "voti": {
+        "totali": 29,
+        "seggio_telematico": 29
       }
     },
     {
@@ -198,14 +198,6 @@
       }
     },
     {
-      "nominativo": "FIORE DOMENICO",
-      "lista": "UNITAS",
-      "voti": {
-        "totali": 10,
-        "seggio_telematico": 10
-      }
-    },
-    {
       "nominativo": "RAPISARDA ETTORE",
       "lista": "UNITAS",
       "voti": {
@@ -214,11 +206,11 @@
       }
     },
     {
-      "nominativo": "VETRANO GAIA MORGANA MARIA",
-      "lista": "La Finestra - Liberi di scegliere",
+      "nominativo": "RUBINO MONTENERI ANDREA",
+      "lista": "UNITAS",
       "voti": {
-        "totali": 22,
-        "seggio_telematico": 22
+        "totali": 10,
+        "seggio_telematico": 10
       }
     },
     {
@@ -227,6 +219,14 @@
       "voti": {
         "totali": 32,
         "seggio_telematico": 32
+      }
+    },
+    {
+      "nominativo": "VETRANO GAIA MORGANA MARIA",
+      "lista": "La Finestra - Liberi di scegliere",
+      "voti": {
+        "totali": 22,
+        "seggio_telematico": 22
       }
     },
     {
@@ -254,24 +254,8 @@
       }
     },
     {
-      "nominativo": "GARRA FRANCESCO",
+      "nominativo": "COPOERU YASMINE IONELA",
       "lista": "WE LOVE UNICT",
-      "voti": {
-        "totali": 20,
-        "seggio_telematico": 20
-      }
-    },
-    {
-      "nominativo": "FERRARA FEDERICA",
-      "lista": "CREDIAMOCI",
-      "voti": {
-        "totali": 20,
-        "seggio_telematico": 20
-      }
-    },
-    {
-      "nominativo": "LIOTTA GAETANO PIO",
-      "lista": "ACTEA",
       "voti": {
         "totali": 12,
         "seggio_telematico": 12
@@ -291,6 +275,14 @@
       "voti": {
         "totali": 18,
         "seggio_telematico": 18
+      }
+    },
+    {
+      "nominativo": "LIOTTA GAETANO PIO",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 12,
+        "seggio_telematico": 12
       }
     },
     {
@@ -324,10 +316,683 @@
         "totali": 15,
         "seggio_telematico": 15
       }
+    },
+    {
+      "nominativo": "FERRARA FEDERICA",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 20,
+        "seggio_telematico": 20
+      }
     }
   ],
-  "non_eletti": [],
-  "dipartimento": "ELEZIONI RAPPRESENTANTI IN SENO AL CONSIGLIO DEL DIPARTIMENTO DI INGEGNERIA CIVILE E ARCHITETTURA - STUDENTI BIENNIO 2025/2027",
+  "non_eletti": [
+    {
+      "nominativo": "BUONCONSIGLIO ALESSANDRO",
+      "lista": "SVOLTA - KOINE'",
+      "voti": {
+        "totali": 16,
+        "seggio_telematico": 16
+      }
+    },
+    {
+      "nominativo": "D'AMICO JACLYN",
+      "lista": "Azione Universitaria",
+      "voti": {
+        "totali": 9,
+        "seggio_telematico": 9
+      }
+    },
+    {
+      "nominativo": "RUOCCO ADELE",
+      "lista": "Azione Universitaria",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
+      }
+    },
+    {
+      "nominativo": "AMAS MARTINA",
+      "lista": "Azione Universitaria",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "MASSARI LUCA",
+      "lista": "Azione Universitaria",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "PELLIGRA MATTIA",
+      "lista": "Azione Universitaria",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "RANDO NICOLE MARIA BEATRICE",
+      "lista": "Azione Universitaria",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "FERRANTE MATTEO SALVATORE",
+      "lista": "Azione Universitaria",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "BARBAGALLO GAIA",
+      "lista": "IngegneriAttiva",
+      "voti": {
+        "totali": 26,
+        "seggio_telematico": 26
+      }
+    },
+    {
+      "nominativo": "TRIBULATO MARCO",
+      "lista": "IngegneriAttiva",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "PUGLISI ANGELASARA",
+      "lista": "IngegneriAttiva",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "PANDOLFO MATTIA",
+      "lista": "IngegneriAttiva",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "SPOTO YLENIA",
+      "lista": "IngegneriAttiva",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "GULLOTTA SOPHIE",
+      "lista": "IngegneriAttiva",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "SARDO CALOGERO GIOVANNI",
+      "lista": "IngegneriAttiva",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "INTILE SALVATORE",
+      "lista": "IngegneriAttiva",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "ALVARADO LAVERDE MAYLING",
+      "lista": "IngegneriAttiva",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "FLORIDIA ALICE",
+      "lista": "IngegneriAttiva",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "FIORE DOMENICO",
+      "lista": "UNITAS",
+      "voti": {
+        "totali": 5,
+        "seggio_telematico": 5
+      }
+    },
+    {
+      "nominativo": "BIZZINI SALVATORE GIOELE",
+      "lista": "UNITAS",
+      "voti": {
+        "totali": 5,
+        "seggio_telematico": 5
+      }
+    },
+    {
+      "nominativo": "LEONE MARIA LETIZIA",
+      "lista": "UNITAS",
+      "voti": {
+        "totali": 6,
+        "seggio_telematico": 6
+      }
+    },
+    {
+      "nominativo": "PORTANOVA EDOARDO",
+      "lista": "UNITAS",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "DI FEDE CHIARA",
+      "lista": "UNITAS",
+      "voti": {
+        "totali": 5,
+        "seggio_telematico": 5
+      }
+    },
+    {
+      "nominativo": "BUCCHERI GIANLUCA",
+      "lista": "UNITAS",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "VIRZÌ CALOGERO",
+      "lista": "UNITAS",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
+      }
+    },
+    {
+      "nominativo": "BATTAGLIA GIULIA",
+      "lista": "UNITAS",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "RESTIVO MARTINA",
+      "lista": "UNITAS",
+      "voti": {
+        "totali": 5,
+        "seggio_telematico": 5
+      }
+    },
+    {
+      "nominativo": "GALVAGNO RAFFAELE",
+      "lista": "SVOLTA - KOINE'",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "GRIPPALDI GAIA LETIZIA",
+      "lista": "SVOLTA - KOINE'",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "INTURRI GIORGIA",
+      "lista": "La Finestra - Liberi di scegliere",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "VASTA FRANCESCO LORENZO",
+      "lista": "La Finestra - Liberi di scegliere",
+      "voti": {
+        "totali": 12,
+        "seggio_telematico": 12
+      }
+    },
+    {
+      "nominativo": "VINCIGUERRA ANTONIO",
+      "lista": "La Finestra - Liberi di scegliere",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "TEMPERA FEDERICO",
+      "lista": "La Finestra - Liberi di scegliere",
+      "voti": {
+        "totali": 12,
+        "seggio_telematico": 12
+      }
+    },
+    {
+      "nominativo": "LA TONA MARCO",
+      "lista": "La Finestra - Liberi di scegliere",
+      "voti": {
+        "totali": 8,
+        "seggio_telematico": 8
+      }
+    },
+    {
+      "nominativo": "CORRENTE DANIELE",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 7,
+        "seggio_telematico": 7
+      }
+    },
+    {
+      "nominativo": "LA MANTIA ANDREA CESARE",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "DI BARTOLO GIUSEPPE",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "NASONTE GIUSEPPE",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "SGARLATA FLAVIA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 10,
+        "seggio_telematico": 10
+      }
+    },
+    {
+      "nominativo": "GIUFFRIDA ALBERTO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 7,
+        "seggio_telematico": 7
+      }
+    },
+    {
+      "nominativo": "RINZIVILLO GIULIO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "RAGUSA LUCA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "GARRA FRANCESCO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 20,
+        "seggio_telematico": 20
+      }
+    },
+    {
+      "nominativo": "LAPI RICCARDO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 8,
+        "seggio_telematico": 8
+      }
+    },
+    {
+      "nominativo": "VILLA LAURA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "PENNISI GIOVANNI",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 8,
+        "seggio_telematico": 8
+      }
+    },
+    {
+      "nominativo": "CUTRARO FEDERICA AGATA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "SALTALAMACCHIA PAOLA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 4,
+        "seggio_telematico": 4
+      }
+    },
+    {
+      "nominativo": "PETISI SIMONE VINCENZO",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 11,
+        "seggio_telematico": 11
+      }
+    },
+    {
+      "nominativo": "BARACCHI COSTANZA",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "BORDONARO FERDINANDO",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 14,
+        "seggio_telematico": 14
+      }
+    },
+    {
+      "nominativo": "FINOCCHIARO ALESSIA SOFIA PIA",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "RACITI SOFIA",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "CULOTTA CLAUDIA",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "INDELICATO MATTEO",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "SANGRIGOLI CARLOTTA",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 7,
+        "seggio_telematico": 7
+      }
+    },
+    {
+      "nominativo": "LEOTTA GEORGIA MARIA ROSANNA",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
+      }
+    },
+    {
+      "nominativo": "ZARBANO GIUSEPPE",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 8,
+        "seggio_telematico": 8
+      }
+    },
+    {
+      "nominativo": "SOTTOSANTI GIANMARCO",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 6,
+        "seggio_telematico": 6
+      }
+    },
+    {
+      "nominativo": "D'ARRIGO GIULIA",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 10,
+        "seggio_telematico": 10
+      }
+    },
+    {
+      "nominativo": "VENTURA NICOLÒ",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 11,
+        "seggio_telematico": 11
+      }
+    },
+    {
+      "nominativo": "PAFUMI MATTEO LEONARDO",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 7,
+        "seggio_telematico": 7
+      }
+    },
+    {
+      "nominativo": "DI MAURO FRANCESCO",
+      "lista": "DICARCONNECT",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
+      }
+    },
+    {
+      "nominativo": "BASILE GIOVANNI",
+      "lista": "DICARCONNECT",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "SPATARO ALESSANDRO",
+      "lista": "DICARCONNECT",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "SPITALI GABRIELE",
+      "lista": "LOVE DICAR",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "SERRANO GIORGIO",
+      "lista": "LOVE DICAR",
+      "voti": {
+        "totali": 4,
+        "seggio_telematico": 4
+      }
+    },
+    {
+      "nominativo": "MIGLIORE ALESSANDRA",
+      "lista": "LOVE DICAR",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "IUCULANO RICCARDO FRANCESCO",
+      "lista": "LOVE DICAR",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "PAPA MATTEO",
+      "lista": "LOVE DICAR",
+      "voti": {
+        "totali": 9,
+        "seggio_telematico": 9
+      }
+    },
+    {
+      "nominativo": "FAGONE FRANCESCO SAVERIO",
+      "lista": "LOVE DICAR",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "PUGLISI ELENA",
+      "lista": "LOVE DICAR",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "RAITI PIETRO",
+      "lista": "LAYOUT",
+      "voti": {
+        "totali": 7,
+        "seggio_telematico": 7
+      }
+    },
+    {
+      "nominativo": "COMANDATORE AGOSTINO",
+      "lista": "LAYOUT",
+      "voti": {
+        "totali": 6,
+        "seggio_telematico": 6
+      }
+    },
+    {
+      "nominativo": "D'ANTONI ANDREA",
+      "lista": "LAYOUT",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "D'ARMA FEDERICO",
+      "lista": "LAYOUT",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
+      }
+    },
+    {
+      "nominativo": "DI PAOLA RACHELE",
+      "lista": "LAYOUT",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "OMERI GIOELE",
+      "lista": "LAYOUT",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "CANNIA SABRINA",
+      "lista": "LAYOUT",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
+      }
+    },
+    {
+      "nominativo": "VENEZIANO GABRIELE",
+      "lista": "LAYOUT",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "CAVALLARO GAETANO",
+      "lista": "LAYOUT",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "GIANDINOTO SIMONE",
+      "lista": "Cambiamento Ingegneria",
+      "voti": {
+        "totali": 7,
+        "seggio_telematico": 7
+      }
+    },
+    {
+      "nominativo": "LAZZAROTTI IGOR",
+      "lista": "Cambiamento Ingegneria",
+      "voti": {
+        "totali": 5,
+        "seggio_telematico": 5
+      }
+    }
+  ],
+  "dipartimento": "Dipartimento di Ingegneria Civile e Architettura",
   "seggi_da_assegnare": "19",
   "quoziente": 39.5263,
   "votanti": {

@@ -302,8 +302,969 @@
       }
     }
   ],
-  "non_eletti": [],
-  "dipartimento": "ELEZIONI RAPPRESENTANTI IN SENO AL CONSIGLIO DEL DIPARTIMENTO DI INGEGNERIA ELETTRICA ELETTRONICA E INFORMATICA - STUDENTI BIENNIO 2025/2027",
+  "non_eletti": [
+    {
+      "nominativo": "DI GIOVANNI GIUSEPPE",
+      "lista": "Azione Universitaria",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
+      }
+    },
+    {
+      "nominativo": "SICILIANO GAETANA",
+      "lista": "Azione Universitaria",
+      "voti": {
+        "totali": 6,
+        "seggio_telematico": 6
+      }
+    },
+    {
+      "nominativo": "BONANNO SALVATORE",
+      "lista": "Azione Universitaria",
+      "voti": {
+        "totali": 7,
+        "seggio_telematico": 7
+      }
+    },
+    {
+      "nominativo": "ALONGI FRANCESCO CARMELO",
+      "lista": "Azione Universitaria",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
+      }
+    },
+    {
+      "nominativo": "DI STEFANO GIULIA",
+      "lista": "Azione Universitaria",
+      "voti": {
+        "totali": 16,
+        "seggio_telematico": 16
+      }
+    },
+    {
+      "nominativo": "MARSIANO MAURO",
+      "lista": "Azione Universitaria",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
+      }
+    },
+    {
+      "nominativo": "CONSOLO VINCENZO GABRIELE",
+      "lista": "Azione Universitaria",
+      "voti": {
+        "totali": 6,
+        "seggio_telematico": 6
+      }
+    },
+    {
+      "nominativo": "GUARNACCIA LUCA",
+      "lista": "Azione Universitaria",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "MICELI ALESSIA",
+      "lista": "Azione Universitaria",
+      "voti": {
+        "totali": 5,
+        "seggio_telematico": 5
+      }
+    },
+    {
+      "nominativo": "PETRALIA VINCENZO",
+      "lista": "Azione Universitaria",
+      "voti": {
+        "totali": 7,
+        "seggio_telematico": 7
+      }
+    },
+    {
+      "nominativo": "CATANIA MARIA PIA SOFIA",
+      "lista": "UNITAS",
+      "voti": {
+        "totali": 11,
+        "seggio_telematico": 11
+      }
+    },
+    {
+      "nominativo": "RUSSO VINCENZO",
+      "lista": "UNITAS",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
+      }
+    },
+    {
+      "nominativo": "BUSCEMI ANGELO",
+      "lista": "UNITAS",
+      "voti": {
+        "totali": 9,
+        "seggio_telematico": 9
+      }
+    },
+    {
+      "nominativo": "POLITO GIOVANNI PASQUALINO",
+      "lista": "UNITAS",
+      "voti": {
+        "totali": 11,
+        "seggio_telematico": 11
+      }
+    },
+    {
+      "nominativo": "SCARLATA SIMONE",
+      "lista": "UNITAS",
+      "voti": {
+        "totali": 11,
+        "seggio_telematico": 11
+      }
+    },
+    {
+      "nominativo": "SERGI GIUSEPPE MARCO ELICIO",
+      "lista": "UNITAS",
+      "voti": {
+        "totali": 6,
+        "seggio_telematico": 6
+      }
+    },
+    {
+      "nominativo": "DI MAURO EMMANUEL",
+      "lista": "UNITAS",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "PRIVITERA STEFANO",
+      "lista": "UNITAS",
+      "voti": {
+        "totali": 7,
+        "seggio_telematico": 7
+      }
+    },
+    {
+      "nominativo": "PAGANO ALEX",
+      "lista": "UNITAS",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "ALLEGREZZA LORENZO",
+      "lista": "UNITAS",
+      "voti": {
+        "totali": 7,
+        "seggio_telematico": 7
+      }
+    },
+    {
+      "nominativo": "COLLURA ALESSANDRO",
+      "lista": "IngegneriAttiva",
+      "voti": {
+        "totali": 15,
+        "seggio_telematico": 15
+      }
+    },
+    {
+      "nominativo": "CARPITA MARCO",
+      "lista": "IngegneriAttiva",
+      "voti": {
+        "totali": 12,
+        "seggio_telematico": 12
+      }
+    },
+    {
+      "nominativo": "GULINO MATTIA",
+      "lista": "IngegneriAttiva",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "SANTANOCITO MATTEO",
+      "lista": "IngegneriAttiva",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "DISCA STEFANO SEBASTIANO",
+      "lista": "IngegneriAttiva",
+      "voti": {
+        "totali": 14,
+        "seggio_telematico": 14
+      }
+    },
+    {
+      "nominativo": "MITIN MIRKO MIROSLAV",
+      "lista": "IngegneriAttiva",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "SPADARO DARIO",
+      "lista": "IngegneriAttiva",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "GRECO AURORA",
+      "lista": "IngegneriAttiva",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "TORRES CHRISTIAN",
+      "lista": "IngegneriAttiva",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "GUGLIELMINO FABRIZIO",
+      "lista": "IngegneriAttiva",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "MURATORI FLAVIA",
+      "lista": "IngegneriAttiva",
+      "voti": {
+        "totali": 6,
+        "seggio_telematico": 6
+      }
+    },
+    {
+      "nominativo": "DIMARCO CRISTIAN",
+      "lista": "IngegneriAttiva",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "PRINCIPATO TROSSO SALVATORE",
+      "lista": "IngegneriAttiva",
+      "voti": {
+        "totali": 4,
+        "seggio_telematico": 4
+      }
+    },
+    {
+      "nominativo": "STANCANELLI GIADA",
+      "lista": "NIKE",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "RIDOLFO ALESSANDRO",
+      "lista": "NIKE",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "QUARANTA SIMONE",
+      "lista": "NIKE",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "LENA EDOARDO",
+      "lista": "NIKE",
+      "voti": {
+        "totali": 6,
+        "seggio_telematico": 6
+      }
+    },
+    {
+      "nominativo": "HOSSAIN MOHAMMAD MUNEM SHAHRIAR",
+      "lista": "NIKE",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "FINOCCHIARO FRANCESCO",
+      "lista": "NIKE",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "NICOLOSI CARMELO",
+      "lista": "NIKE",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "TRIOLO ALESSANDRO",
+      "lista": "NIKE",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "TUMMINO GAETANO ANDREA",
+      "lista": "NIKE",
+      "voti": {
+        "totali": 7,
+        "seggio_telematico": 7
+      }
+    },
+    {
+      "nominativo": "CIARAMELLA ANTONIO",
+      "lista": "NIKE",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "SAPIENZA EMANUELE",
+      "lista": "NIKE",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "RAPISARDA ALESSANDRO VITO",
+      "lista": "NIKE",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "VERO RAFFAELE",
+      "lista": "NIKE",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "POLITO ANTONIO",
+      "lista": "NIKE",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "TORRE CAROLA",
+      "lista": "NIKE",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "SCUTO DAVIDE UMBERTO",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 6,
+        "seggio_telematico": 6
+      }
+    },
+    {
+      "nominativo": "AMATO LORENZO",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 8,
+        "seggio_telematico": 8
+      }
+    },
+    {
+      "nominativo": "GRILLO MATTEO",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "PIRRONE FRANCESCO",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "CAPIZZI FEDERICO",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "CORSARO CARLO",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "FROSINA VITTORIA",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 11,
+        "seggio_telematico": 11
+      }
+    },
+    {
+      "nominativo": "SCIUTO ADRIANO NUNZIO",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
+      }
+    },
+    {
+      "nominativo": "GENOVESE GIANCARLO",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "RAPISARDA GIUSEPPE ROBERTO",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "BORZÌ CARLO",
+      "lista": "KOINE' - SVOLTA",
+      "voti": {
+        "totali": 4,
+        "seggio_telematico": 4
+      }
+    },
+    {
+      "nominativo": "GRASSI ALBERTO",
+      "lista": "KOINE' - SVOLTA",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "LEOTTA RICCARDO NELLO",
+      "lista": "KOINE' - SVOLTA",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "COSENTINO STEFANO",
+      "lista": "KOINE' - SVOLTA",
+      "voti": {
+        "totali": 4,
+        "seggio_telematico": 4
+      }
+    },
+    {
+      "nominativo": "BAFUMI DAVIDE",
+      "lista": "KOINE' - SVOLTA",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "COSTARELLI FEDERICO",
+      "lista": "KOINE' - SVOLTA",
+      "voti": {
+        "totali": 6,
+        "seggio_telematico": 6
+      }
+    },
+    {
+      "nominativo": "VALLE GIULIO",
+      "lista": "KOINE' - SVOLTA",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "SANTOVITO GIULIO NICOLA",
+      "lista": "DIEEICONNECT",
+      "voti": {
+        "totali": 7,
+        "seggio_telematico": 7
+      }
+    },
+    {
+      "nominativo": "GUTTADAURO ANTONINO",
+      "lista": "DIEEICONNECT",
+      "voti": {
+        "totali": 7,
+        "seggio_telematico": 7
+      }
+    },
+    {
+      "nominativo": "GUTTADAURO GIUSEPPE",
+      "lista": "DIEEICONNECT",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
+      }
+    },
+    {
+      "nominativo": "SPATARO ALESSANDRO",
+      "lista": "DIEEICONNECT",
+      "voti": {
+        "totali": 4,
+        "seggio_telematico": 4
+      }
+    },
+    {
+      "nominativo": "VULTAGGIO GIUSEPPE",
+      "lista": "DIEEICONNECT",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "CALI CRISTIANO",
+      "lista": "DIEEICONNECT",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "PRIVITERA ALESSANDRO",
+      "lista": "DIEEICONNECT",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "LOMBARDO ALESSANDRO PIO",
+      "lista": "DIEEICONNECT",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "TELGE JALITHA PEIRIS",
+      "lista": "DIEEICONNECT",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "CARRUBBA GAETANO",
+      "lista": "DIEEICONNECT",
+      "voti": {
+        "totali": 5,
+        "seggio_telematico": 5
+      }
+    },
+    {
+      "nominativo": "MAUGERI MARCO GIUSEPPE",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
+      }
+    },
+    {
+      "nominativo": "ASTUTO NUNZIO",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 7,
+        "seggio_telematico": 7
+      }
+    },
+    {
+      "nominativo": "LO GRASSO SOFIA",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 8,
+        "seggio_telematico": 8
+      }
+    },
+    {
+      "nominativo": "COLOMBO ALESSANDRO",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 8,
+        "seggio_telematico": 8
+      }
+    },
+    {
+      "nominativo": "GOLISANO ROCCO",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "D'ACCURSO MARIANO",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "RAGUSA GIOVANNI",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "TESTA SILVESTRO",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 5,
+        "seggio_telematico": 5
+      }
+    },
+    {
+      "nominativo": "TRAVAGLIANTI VITTORIO",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "GUARNOTTA BRUNO",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
+      }
+    },
+    {
+      "nominativo": "OMERI ALESSIA",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "ARDIZZONE SALVATORE",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
+      }
+    },
+    {
+      "nominativo": "GLIOZZO ANTONIO",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "GJUZI AUREL",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 4,
+        "seggio_telematico": 4
+      }
+    },
+    {
+      "nominativo": "VALENTI CANIGLIA GAETANO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 19,
+        "seggio_telematico": 19
+      }
+    },
+    {
+      "nominativo": "GIGLIO GIUSEPPE ANTONINO EMANUELE",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 5,
+        "seggio_telematico": 5
+      }
+    },
+    {
+      "nominativo": "LOMBARDO GABRIELE",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 4,
+        "seggio_telematico": 4
+      }
+    },
+    {
+      "nominativo": "MALO' SANTI",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "DI GRAZIA GABRIELE",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 18,
+        "seggio_telematico": 18
+      }
+    },
+    {
+      "nominativo": "SAMBATARO SERENA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "SCIASCIO SAMUELE ORAZIO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "MAUGERI EROS",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 5,
+        "seggio_telematico": 5
+      }
+    },
+    {
+      "nominativo": "CIADAMIDARO GIUSEPPE",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 5,
+        "seggio_telematico": 5
+      }
+    },
+    {
+      "nominativo": "MIRABELLA GIULIANO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "STIVALA KAROL GIUSEPPE FRANCESCO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "FIDUCIA EMILIO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "FRAZZICA ANASTASIA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 5,
+        "seggio_telematico": 5
+      }
+    },
+    {
+      "nominativo": "ARCIFA ELENIA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "LIPARI VINCENZO",
+      "lista": "LOVE DIEEI",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "SANTAGATI FABIO",
+      "lista": "LOVE DIEEI",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
+      }
+    },
+    {
+      "nominativo": "D'IGNOTI ANDREA",
+      "lista": "LOVE DIEEI",
+      "voti": {
+        "totali": 6,
+        "seggio_telematico": 6
+      }
+    },
+    {
+      "nominativo": "PETRALIA RICCARDO",
+      "lista": "LOVE DIEEI",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
+      }
+    },
+    {
+      "nominativo": "CANNIZZO CHRISTIAN GIUSEPPE",
+      "lista": "LOVE DIEEI",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "PETRONIO GIULIA",
+      "lista": "LOVE DIEEI",
+      "voti": {
+        "totali": 12,
+        "seggio_telematico": 12
+      }
+    },
+    {
+      "nominativo": "DORIANI ANGELO SAMUEL",
+      "lista": "LOVE DIEEI",
+      "voti": {
+        "totali": 14,
+        "seggio_telematico": 14
+      }
+    },
+    {
+      "nominativo": "COLOMBO PIETRO",
+      "lista": "LOVE DIEEI",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "CAVALLI SEBASTIANO",
+      "lista": "LOVE DIEEI",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "LIBRO RICCARDO MARIA",
+      "lista": "LOVE DIEEI",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "ALESSI ALESSANDRO",
+      "lista": "LOVE DIEEI",
+      "voti": {
+        "totali": 11,
+        "seggio_telematico": 11
+      }
+    },
+    {
+      "nominativo": "RIELA ANTONINO DANILO",
+      "lista": "LOVE DIEEI",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "SANTAMARIA GIUSEPPEANDREA",
+      "lista": "LOVE DIEEI",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "DI MAURO GABRIELE GIUSEPPE",
+      "lista": "Cambiamento Ingegneria",
+      "voti": {
+        "totali": 10,
+        "seggio_telematico": 10
+      }
+    },
+    {
+      "nominativo": "TROVATO MARIA",
+      "lista": "Cambiamento Ingegneria",
+      "voti": {
+        "totali": 8,
+        "seggio_telematico": 8
+      }
+    },
+    {
+      "nominativo": "CIANCIO ANTONINO",
+      "lista": "Cambiamento Ingegneria",
+      "voti": {
+        "totali": 9,
+        "seggio_telematico": 9
+      }
+    },
+    {
+      "nominativo": "BONOMO DENIS DANIELE",
+      "lista": "Arcadia",
+      "voti": {
+        "totali": 4,
+        "seggio_telematico": 4
+      }
+    }
+  ],
+  "dipartimento": "Dipartimento di Ingegneria Elettrica Elettronica e Informatica",
   "seggi_da_assegnare": "16",
   "quoziente": 61.4375,
   "votanti": {

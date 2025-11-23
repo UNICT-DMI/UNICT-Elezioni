@@ -1,8 +1,8 @@
 {
   "schede": {
     "bianche": {
-      "totali": 18,
-      "seggio_n_telematico": 18
+      "totali": 9,
+      "seggio_n_telematico": 9
     },
     "nulle": {
       "totali": 0
@@ -13,77 +13,116 @@
   },
   "liste": [
     {
-      "nome": "Azione Universitaria",
-      "seggi": {
-        "seggi_pieni": "2",
-        "resti": "11,9",
-        "seggi_ai_resti": "1",
-        "seggi_totali": "3"
-      },
-      "voti": {
-        "totali": "117",
-        "seggio_telematico": "117"
-      }
-    },
-    {
-      "nome": "Supporto Studenti",
+      "nome": "AZIONE UNIVERSITARIA",
       "seggi": {
         "seggi_pieni": "-",
-        "resti": "16,8",
+        "resti": "35,0",
         "seggi_ai_resti": "1",
         "seggi_totali": "1"
       },
       "voti": {
-        "totali": "60",
-        "seggio_telematico": "60"
+        "totali": "35",
+        "seggio_telematico": "35"
       }
     },
     {
-      "nome": "WE LOVE UNICT",
+      "nome": "INPHARMA",
       "seggi": {
         "seggi_pieni": "1",
-        "resti": "33,2",
+        "resti": "43,9",
         "seggi_ai_resti": "1",
         "seggi_totali": "2"
       },
       "voti": {
-        "totali": "77",
-        "seggio_telematico": "77"
+        "totali": "88",
+        "seggio_telematico": "88"
       }
     },
     {
       "nome": "CREDIAMOCI",
       "seggi": {
         "seggi_pieni": "-",
-        "resti": "19,5",
+        "resti": "31,0",
         "seggi_ai_resti": "1",
         "seggi_totali": "1"
       },
       "voti": {
-        "totali": "63",
-        "seggio_telematico": "63"
+        "totali": "31",
+        "seggio_telematico": "31"
       }
     },
     {
-      "nome": "ACTEA",
+      "nome": "NIKE-DSFS",
       "seggi": {
         "seggi_pieni": "-",
-        "resti": "18,1",
+        "resti": "16,0",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "-"
+      },
+      "voti": {
+        "totali": "16",
+        "seggio_telematico": "16"
+      }
+    },
+    {
+      "nome": "Koinè - Svolta",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "20,0",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "-"
+      },
+      "voti": {
+        "totali": "20",
+        "seggio_telematico": "20"
+      }
+    },
+    {
+      "nome": "WE LOVE UNICT",
+      "seggi": {
+        "seggi_pieni": "2",
+        "resti": "9,8",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "2"
+      },
+      "voti": {
+        "totali": "98",
+        "seggio_telematico": "98"
+      }
+    },
+    {
+      "nome": "Arcadia",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "38,0",
         "seggi_ai_resti": "1",
         "seggi_totali": "1"
       },
       "voti": {
-        "totali": "61",
-        "seggio_telematico": "61"
+        "totali": "38",
+        "seggio_telematico": "38"
       }
     },
     {
-      "nome": "SOS UniCT",
+      "nome": "Actea",
       "seggi": {
         "seggi_pieni": "-",
-        "resti": "26,8",
+        "resti": "31,0",
         "seggi_ai_resti": "1",
         "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": "31",
+        "seggio_telematico": "31"
+      }
+    },
+    {
+      "nome": "LOVE DSFS",
+      "seggi": {
+        "seggi_pieni": "1",
+        "resti": "25,9",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "2"
       },
       "voti": {
         "totali": "70",
@@ -91,104 +130,363 @@
       }
     },
     {
-      "nome": "FarmaCard",
+      "nome": "Alleanza Universitaria",
       "seggi": {
         "seggi_pieni": "-",
-        "resti": "1,4",
+        "resti": "14,0",
         "seggi_ai_resti": "0",
         "seggi_totali": "-"
       },
       "voti": {
-        "totali": "1",
-        "seggio_telematico": "1"
+        "totali": "14",
+        "seggio_telematico": "14"
       }
     },
     {
-      "nome": "Koinè",
-      "seggi": {
-        "seggi_pieni": "-",
-        "resti": "8,6",
-        "seggi_ai_resti": "0",
-        "seggi_totali": "-"
-      },
-      "voti": {
-        "totali": "8",
-        "seggio_telematico": "8"
-      }
-    },
-    {
-      "nome": "Arcadia",
-      "seggi": {
-        "seggi_pieni": "-",
-        "resti": "1,4",
-        "seggi_ai_resti": "0",
-        "seggi_totali": "-"
-      },
-      "voti": {
-        "totali": "1",
-        "seggio_telematico": "1"
-      }
-    },
-    {
-      "nome": "NIKE",
-      "seggi": {
-        "seggi_pieni": "-",
-        "resti": "0,0",
-        "seggi_ai_resti": "0",
-        "seggi_totali": "-"
-      },
-      "voti": {
-        "totali": "0",
-        "seggio_telematico": "0"
-      }
-    },
-    {
-      "totale": 458
+      "totale": 441
     }
   ],
   "eletti": [
     {
-      "nominativo": "NERI LUDOVICA",
-      "lista": "Azione Universitaria",
+      "nominativo": "BUCISCA FRANCESCO",
+      "lista": "AZIONE UNIVERSITARIA",
       "voti": {
-        "totali": 34,
-        "seggio_telematico": 34
+        "totali": 15,
+        "seggio_telematico": 15
       }
     },
     {
-      "nominativo": "LEOTTA LOREDANA",
-      "lista": "Azione Universitaria",
+      "nominativo": "PIGNATO CATALDO",
+      "lista": "INPHARMA",
       "voti": {
-        "totali": 40,
-        "seggio_telematico": 40
+        "totali": 51,
+        "seggio_telematico": 51
       }
     },
     {
-      "nominativo": "CATALANO CARMEN MIRIAM",
-      "lista": "Azione Universitaria",
+      "nominativo": "CAMMARATA FILIPPO",
+      "lista": "INPHARMA",
       "voti": {
-        "totali": 31,
-        "seggio_telematico": 31
+        "totali": 22,
+        "seggio_telematico": 22
       }
     },
     {
-      "nominativo": "RUSSO NICOLA",
-      "lista": "Supporto Studenti",
+      "nominativo": "GUARNACCIA SOSSIO",
+      "lista": "CREDIAMOCI",
       "voti": {
-        "totali": 20,
-        "seggio_telematico": 20
+        "totali": 18,
+        "seggio_telematico": 18
       }
     },
     {
-      "nominativo": "FARO GIOVANNI",
+      "nominativo": "PALACINO TOMMASO",
       "lista": "WE LOVE UNICT",
       "voti": {
-        "totali": 45,
-        "seggio_telematico": 45
+        "totali": 28,
+        "seggio_telematico": 28
       }
     },
     {
-      "nominativo": "BONURA ALESSANDRO",
+      "nominativo": "TIRENNA VITTORIO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 29,
+        "seggio_telematico": 29
+      }
+    },
+    {
+      "nominativo": "DI BENEDETTO FEDERICO ANTONINO",
+      "lista": "Arcadia",
+      "voti": {
+        "totali": 14,
+        "seggio_telematico": 14
+      }
+    },
+    {
+      "nominativo": "RIGANO MARIA ELENA",
+      "lista": "Actea",
+      "voti": {
+        "totali": 10,
+        "seggio_telematico": 10
+      }
+    },
+    {
+      "nominativo": "MORREALE SERGIO",
+      "lista": "LOVE DSFS",
+      "voti": {
+        "totali": 30,
+        "seggio_telematico": 30
+      }
+    },
+    {
+      "nominativo": "SPATARO VANESSA",
+      "lista": "LOVE DSFS",
+      "voti": {
+        "totali": 23,
+        "seggio_telematico": 23
+      }
+    }
+  ],
+  "non_eletti": [
+    {
+      "nominativo": "VOLPE GIORGIA MARIA",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
+      }
+    },
+    {
+      "nominativo": "BUNETTA FRANCESCO",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 4,
+        "seggio_telematico": 4
+      }
+    },
+    {
+      "nominativo": "GRIGOLI SABRINA",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "LODI MARCELLO",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "CANTARELLA SEBASTIANO",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "MAZZARIELLO GIOVANNI DOMENICO",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 4,
+        "seggio_telematico": 4
+      }
+    },
+    {
+      "nominativo": "AMOROSO SAMUELE",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "PIRRACCHIO NICOLÓ",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "AREZZI CRISTINA",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "PIZZIMENTO SOFIA",
+      "lista": "INPHARMA",
+      "voti": {
+        "totali": 7,
+        "seggio_telematico": 7
+      }
+    },
+    {
+      "nominativo": "BUGLIO ERIKA",
+      "lista": "INPHARMA",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
+      }
+    },
+    {
+      "nominativo": "LISI FRANCESCO",
+      "lista": "INPHARMA",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
+      }
+    },
+    {
+      "nominativo": "CAFA' MARTINA GRAZIA",
+      "lista": "INPHARMA",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "GULIZIA RAFFAELE DOMENICO",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "SILLITTI CARLA",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 5,
+        "seggio_telematico": 5
+      }
+    },
+    {
+      "nominativo": "PERRICONE ANNAMARIA",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "CATALFO FARO EDOARDO",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 7,
+        "seggio_telematico": 7
+      }
+    },
+    {
+      "nominativo": "OLIVERI GIUSEPPE MARIA",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "BILARDO MARTINA",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "FAMA' FABIANA",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "COSTANZO MARIA FEDERICA",
+      "lista": "NIKE-DSFS",
+      "voti": {
+        "totali": 4,
+        "seggio_telematico": 4
+      }
+    },
+    {
+      "nominativo": "CANTALE LAURA",
+      "lista": "NIKE-DSFS",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "MARLETTA MARTA",
+      "lista": "NIKE-DSFS",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "MUSARRA SOFIA MARIA",
+      "lista": "NIKE-DSFS",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
+      }
+    },
+    {
+      "nominativo": "RAMONDETTA ANITA",
+      "lista": "NIKE-DSFS",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "MONACA VALENTINA LIBERA",
+      "lista": "NIKE-DSFS",
+      "voti": {
+        "totali": 6,
+        "seggio_telematico": 6
+      }
+    },
+    {
+      "nominativo": "ISABELLA ROBERTA",
+      "lista": "Koinè - Svolta",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "ARENA BENEDETTO",
+      "lista": "Koinè - Svolta",
+      "voti": {
+        "totali": 6,
+        "seggio_telematico": 6
+      }
+    },
+    {
+      "nominativo": "ALVANO SOFIA MARIA",
+      "lista": "Koinè - Svolta",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "CARCIONE CLELIA ANNA MARIA",
+      "lista": "Koinè - Svolta",
+      "voti": {
+        "totali": 4,
+        "seggio_telematico": 4
+      }
+    },
+    {
+      "nominativo": "PISTARÀ MADDALENA",
+      "lista": "Koinè - Svolta",
+      "voti": {
+        "totali": 5,
+        "seggio_telematico": 5
+      }
+    },
+    {
+      "nominativo": "SCALIA ROBERTA",
+      "lista": "Koinè - Svolta",
+      "voti": {
+        "totali": 4,
+        "seggio_telematico": 4
+      }
+    },
+    {
+      "nominativo": "CRISALLI MARIKA",
       "lista": "WE LOVE UNICT",
       "voti": {
         "totali": 21,
@@ -196,34 +494,265 @@
       }
     },
     {
-      "nominativo": "CHIFARI ANGELICA",
-      "lista": "CREDIAMOCI",
+      "nominativo": "SPADARO MARCO CARMELO GIUSEPPE",
+      "lista": "WE LOVE UNICT",
       "voti": {
-        "totali": 43,
-        "seggio_telematico": 43
+        "totali": 2,
+        "seggio_telematico": 2
       }
     },
     {
-      "nominativo": "CANNEMI DAVIDE CRISTIANO",
-      "lista": "ACTEA",
+      "nominativo": "COLLURA MATTEO SALVATORE",
+      "lista": "WE LOVE UNICT",
       "voti": {
-        "totali": 32,
-        "seggio_telematico": 32
+        "totali": 8,
+        "seggio_telematico": 8
       }
     },
     {
-      "nominativo": "GRUTTA ANNALISA",
-      "lista": "SOS UniCT",
+      "nominativo": "LOLICATA GIUSEPPE",
+      "lista": "WE LOVE UNICT",
       "voti": {
-        "totali": 28,
-        "seggio_telematico": 28
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "SAPUPPO ANDREA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "MELI FLAVIO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "COSTA ANTONINO FRANCESCO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 5,
+        "seggio_telematico": 5
+      }
+    },
+    {
+      "nominativo": "SANTOSTEFANO BELLAVIA GAIA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "CALABRESE LEONARDO ORAZIO",
+      "lista": "Arcadia",
+      "voti": {
+        "totali": 12,
+        "seggio_telematico": 12
+      }
+    },
+    {
+      "nominativo": "ROCCAFORTE BENEDETTA",
+      "lista": "Arcadia",
+      "voti": {
+        "totali": 6,
+        "seggio_telematico": 6
+      }
+    },
+    {
+      "nominativo": "RUGGERI CLELIA",
+      "lista": "Arcadia",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "CANCILLERI MARTINA",
+      "lista": "Arcadia",
+      "voti": {
+        "totali": 4,
+        "seggio_telematico": 4
+      }
+    },
+    {
+      "nominativo": "CACCIOLA GAIA",
+      "lista": "Arcadia",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "FICHERA ALESSIO",
+      "lista": "Arcadia",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "EGITTO SALVATORE",
+      "lista": "Arcadia",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "CANTARERO DARIO",
+      "lista": "Arcadia",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "MANTINEO GIULIA",
+      "lista": "Arcadia",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "SCIRE' SCAPPUZZO DENISE",
+      "lista": "Actea",
+      "voti": {
+        "totali": 5,
+        "seggio_telematico": 5
+      }
+    },
+    {
+      "nominativo": "SEMINARA LORENA",
+      "lista": "Actea",
+      "voti": {
+        "totali": 5,
+        "seggio_telematico": 5
+      }
+    },
+    {
+      "nominativo": "RADIO GIULIA",
+      "lista": "Actea",
+      "voti": {
+        "totali": 8,
+        "seggio_telematico": 8
+      }
+    },
+    {
+      "nominativo": "FRAZZETTO ADELE",
+      "lista": "Actea",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "CALCAGNO ASIA",
+      "lista": "Actea",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "SCIACCA FRANCESCA",
+      "lista": "Actea",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "NICOLOSI GIADA ANTONINA",
+      "lista": "Actea",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "SPADARO SWAMI",
+      "lista": "LOVE DSFS",
+      "voti": {
+        "totali": 9,
+        "seggio_telematico": 9
+      }
+    },
+    {
+      "nominativo": "FINOCCHIARO MARTINA",
+      "lista": "LOVE DSFS",
+      "voti": {
+        "totali": 5,
+        "seggio_telematico": 5
+      }
+    },
+    {
+      "nominativo": "SICILIA GIADA",
+      "lista": "LOVE DSFS",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "MACALUSO MARIA CHIARA PIA",
+      "lista": "LOVE DSFS",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "MILAZZO LETIZIA ANTONIA",
+      "lista": "LOVE DSFS",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "COPPOLA RAFFAELE FRANCESCO",
+      "lista": "LOVE DSFS",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "FORMICHELLA GABRIELE",
+      "lista": "LOVE DSFS",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "POMPILIO MARCO",
+      "lista": "LOVE DSFS",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "BURGARETTA GINEVRA",
+      "lista": "Alleanza Universitaria",
+      "voti": {
+        "totali": 14,
+        "seggio_telematico": 14
       }
     }
   ],
-  "non_eletti": [],
-  "dipartimento": "ELEZIONI RAPPRESENTANTI IN SENO AL CONSIGLIO DEL DIPARTIMENTO DI SCIENZE DEL FARMACO - STUDENTI BIENNIO 2025/2027",
+  "dipartimento": "Dipartimento di Scienze del Farmaco e della Salute",
   "seggi_da_assegnare": "10",
-  "quoziente": 45.8,
+  "quoziente": 44.1,
   "votanti": {
     "totali": 450,
     "percentuale": 33.96,

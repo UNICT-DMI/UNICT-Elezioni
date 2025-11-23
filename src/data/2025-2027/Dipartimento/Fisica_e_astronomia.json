@@ -57,15 +57,7 @@
   ],
   "eletti": [
     {
-      "nominativo": "VALENTI MATTIA",
-      "lista": "Studenti DFA",
-      "voti": {
-        "totali": 16,
-        "seggio_telematico": 16
-      }
-    },
-    {
-      "nominativo": "REITANO SAMUEL",
+      "nominativo": "REITANO Samuel",
       "lista": "Studenti DFA",
       "voti": {
         "totali": 21,
@@ -73,63 +65,15 @@
       }
     },
     {
-      "nominativo": "PAPPALARDO LORENZO FEDERICO",
+      "nominativo": "VALENTI Mattia",
       "lista": "Studenti DFA",
       "voti": {
-        "totali": 8,
-        "seggio_telematico": 8
+        "totali": 16,
+        "seggio_telematico": 16
       }
     },
     {
-      "nominativo": "MACAIONE ANTONIO",
-      "lista": "Studenti DFA",
-      "voti": {
-        "totali": 13,
-        "seggio_telematico": 13
-      }
-    },
-    {
-      "nominativo": "FASSARI ROSARIO",
-      "lista": "Studenti DFA",
-      "voti": {
-        "totali": 10,
-        "seggio_telematico": 10
-      }
-    },
-    {
-      "nominativo": "AMORE SEBASTIANO",
-      "lista": "Studenti DFA",
-      "voti": {
-        "totali": 3,
-        "seggio_telematico": 3
-      }
-    },
-    {
-      "nominativo": "DEL POPOLO GIULIANA",
-      "lista": "Studenti DFA",
-      "voti": {
-        "totali": 5,
-        "seggio_telematico": 5
-      }
-    },
-    {
-      "nominativo": "PALAMITO ANDREA",
-      "lista": "Studenti DFA",
-      "voti": {
-        "totali": 8,
-        "seggio_telematico": 8
-      }
-    },
-    {
-      "nominativo": "GULISANO TOMMASO",
-      "lista": "Studenti DFA",
-      "voti": {
-        "totali": 10,
-        "seggio_telematico": 10
-      }
-    },
-    {
-      "nominativo": "TITA SERGIO",
+      "nominativo": "MACAIONE Antonio",
       "lista": "Studenti DFA",
       "voti": {
         "totali": 13,
@@ -137,15 +81,47 @@
       }
     },
     {
-      "nominativo": "SCIALFA MARGHERITA",
+      "nominativo": "TITA Sergio",
       "lista": "Studenti DFA",
       "voti": {
-        "totali": 4,
-        "seggio_telematico": 4
+        "totali": 13,
+        "seggio_telematico": 13
       }
     },
     {
-      "nominativo": "BERTINO LUCA",
+      "nominativo": "FASSARI Rosario",
+      "lista": "Studenti DFA",
+      "voti": {
+        "totali": 10,
+        "seggio_telematico": 10
+      }
+    },
+    {
+      "nominativo": "GULISANO Tommaso",
+      "lista": "Studenti DFA",
+      "voti": {
+        "totali": 10,
+        "seggio_telematico": 10
+      }
+    },
+    {
+      "nominativo": "PAPPALARDO Lorenzo Federico",
+      "lista": "Studenti DFA",
+      "voti": {
+        "totali": 8,
+        "seggio_telematico": 8
+      }
+    },
+    {
+      "nominativo": "PALAMITO Andrea",
+      "lista": "Studenti DFA",
+      "voti": {
+        "totali": 8,
+        "seggio_telematico": 8
+      }
+    },
+    {
+      "nominativo": "BERTINO Luca",
       "lista": "Studenti DFA",
       "voti": {
         "totali": 6,
@@ -153,7 +129,31 @@
       }
     },
     {
-      "nominativo": "TRIBULATO EMANUELE",
+      "nominativo": "DEL POPOLO Giuliana",
+      "lista": "Studenti DFA",
+      "voti": {
+        "totali": 5,
+        "seggio_telematico": 5
+      }
+    },
+    {
+      "nominativo": "SCIALFA Margherita",
+      "lista": "Studenti DFA",
+      "voti": {
+        "totali": 4,
+        "seggio_telematico": 4
+      }
+    },
+    {
+      "nominativo": "AMORE Sebastiano",
+      "lista": "Studenti DFA",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
+      }
+    },
+    {
+      "nominativo": "TRIBULATO Emanuele",
       "lista": "Arcadia",
       "voti": {
         "totali": 3,
@@ -163,7 +163,7 @@
   ],
   "non_eletti": [
     {
-      "nominativo": "TARZIA DOMENICO",
+      "nominativo": "TARZIA Domenico",
       "lista": "Studenti DFA",
       "voti": {
         "totali": 2,
@@ -171,7 +171,7 @@
       }
     },
     {
-      "nominativo": "COSTA FAUSTO",
+      "nominativo": "COSTA Fausto",
       "lista": "Arcadia",
       "voti": {
         "totali": 2,
@@ -179,7 +179,7 @@
       }
     },
     {
-      "nominativo": "ASADZADEH SHERVIN",
+      "nominativo": "ASADZADEH Shervin",
       "lista": "Arcadia",
       "voti": {
         "totali": 1,
@@ -187,7 +187,7 @@
       }
     },
     {
-      "nominativo": "SALVO DANIELE",
+      "nominativo": "SALVO Daniele",
       "lista": "ACTEA",
       "voti": {
         "totali": 1,
@@ -195,7 +195,7 @@
       }
     }
   ],
-  "dipartimento": "ELEZIONI RAPPRESENTANTI IN SENO AL CONSIGLIO DEL DIPARTIMENTO DI FISICA E ASTRONOMIA \"ETTORE MAJORANA\" - STUDENTI BIENNIO 2025/2027",
+  "dipartimento": "Dipartimento di Fisica e Astronomia \"Ettore Majorana\"",
   "seggi_da_assegnare": "13",
   "quoziente": 9.76923,
   "votanti": {

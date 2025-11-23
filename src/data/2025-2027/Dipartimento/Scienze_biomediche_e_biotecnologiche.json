@@ -169,6 +169,14 @@
       }
     },
     {
+      "nominativo": "GUELI LUDOVICA",
+      "lista": "SVOLTA - KOINE'",
+      "voti": {
+        "totali": 8,
+        "seggio_telematico": 8
+      }
+    },
+    {
       "nominativo": "DI GREGORIO VALERIA",
       "lista": "INFOBIOMETEC",
       "voti": {
@@ -225,19 +233,19 @@
       }
     },
     {
-      "nominativo": "PUMA SAMUELE",
-      "lista": "WE LOVE UNICT",
-      "voti": {
-        "totali": 10,
-        "seggio_telematico": 10
-      }
-    },
-    {
       "nominativo": "COSTARELLI FEDERICA MARIA",
       "lista": "WE LOVE UNICT",
       "voti": {
         "totali": 16,
         "seggio_telematico": 16
+      }
+    },
+    {
+      "nominativo": "PUMA SAMUELE",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 10,
+        "seggio_telematico": 10
       }
     },
     {
@@ -249,19 +257,19 @@
       }
     },
     {
-      "nominativo": "FLORIO LORENZO",
-      "lista": "SOS UNICT",
-      "voti": {
-        "totali": 6,
-        "seggio_telematico": 6
-      }
-    },
-    {
       "nominativo": "POLITI CHIARA MARIA",
       "lista": "SOS UNICT",
       "voti": {
         "totali": 21,
         "seggio_telematico": 21
+      }
+    },
+    {
+      "nominativo": "FLORIO LORENZO",
+      "lista": "SOS UNICT",
+      "voti": {
+        "totali": 6,
+        "seggio_telematico": 6
       }
     },
     {
@@ -281,8 +289,705 @@
       }
     }
   ],
-  "non_eletti": [],
-  "dipartimento": "ELEZIONI RAPPRESENTANTI IN SENO AL CONSIGLIO DEL DIPARTIMENTO DI SCIENZE BIOMEDICHE E BIOTECNOLOGICHE - STUDENTI BIENNIO 2025/2027",
+  "non_eletti": [
+    {
+      "nominativo": "CATALANO AURORA",
+      "lista": "SVOLTA - KOINE'",
+      "voti": {
+        "totali": 6,
+        "seggio_telematico": 6
+      }
+    },
+    {
+      "nominativo": "COCI KEVIN",
+      "lista": "SVOLTA - KOINE'",
+      "voti": {
+        "totali": 5,
+        "seggio_telematico": 5
+      }
+    },
+    {
+      "nominativo": "SALPIETRO ANGELO",
+      "lista": "SVOLTA - KOINE'",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "CRISCI CASSANDRA MARIA",
+      "lista": "SVOLTA - KOINE'",
+      "voti": {
+        "totali": 4,
+        "seggio_telematico": 4
+      }
+    },
+    {
+      "nominativo": "PUGLISI FRANCESCA",
+      "lista": "SVOLTA - KOINE'",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
+      }
+    },
+    {
+      "nominativo": "VALASTRO GIANLUCA",
+      "lista": "SVOLTA - KOINE'",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
+      }
+    },
+    {
+      "nominativo": "PRIVITERA FILIPPO",
+      "lista": "SVOLTA - KOINE'",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "LEONARDI GIULIANA",
+      "lista": "SVOLTA - KOINE'",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "CALI' CHRISTIAN NUNZIO PIO",
+      "lista": "SVOLTA - KOINE'",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "VACCARELLO FRANCESCA",
+      "lista": "SVOLTA - KOINE'",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "ANTONA MARIO",
+      "lista": "SVOLTA - KOINE'",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "CARCIOTTO GERMANA",
+      "lista": "INFOBIOMETEC",
+      "voti": {
+        "totali": 7,
+        "seggio_telematico": 7
+      }
+    },
+    {
+      "nominativo": "GANGI ELENA",
+      "lista": "INFOBIOMETEC",
+      "voti": {
+        "totali": 4,
+        "seggio_telematico": 4
+      }
+    },
+    {
+      "nominativo": "LIOTTA ROSSANA",
+      "lista": "INFOBIOMETEC",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
+      }
+    },
+    {
+      "nominativo": "BONANNO GIOVANNI ANTONIO",
+      "lista": "INFOBIOMETEC",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "ZOCCO CLAUDIA RITA",
+      "lista": "INFOBIOMETEC",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "RIERA DARIO",
+      "lista": "INFOBIOMETEC",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "CAVALLO FILIPPO ROBERTO",
+      "lista": "INFOBIOMETEC",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "TROMBINO GIORGIA",
+      "lista": "INFOBIOMETEC",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "PUGLISI MARTINA",
+      "lista": "INFOBIOMETEC",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
+      }
+    },
+    {
+      "nominativo": "BELVISO GABRIELE",
+      "lista": "INFOBIOMETEC",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "GRECO ANTONIO",
+      "lista": "LIBERTAS UNICT",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "PAGLIA FILIPPO",
+      "lista": "LIBERTAS UNICT",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "MARFOQ NADIA",
+      "lista": "Ippocrate",
+      "voti": {
+        "totali": 9,
+        "seggio_telematico": 9
+      }
+    },
+    {
+      "nominativo": "ZOUINE WALED",
+      "lista": "Ippocrate",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "ZANGHÌ MARTINA",
+      "lista": "Ippocrate",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "CANNAVÒ DIANA",
+      "lista": "Ippocrate",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "CATANZARO MIRIAM",
+      "lista": "Ippocrate",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "VENTURA ANDREA GABRIELE",
+      "lista": "BIOS EXPLORA",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "CASAGRANDE GIORGIA",
+      "lista": "BIOS EXPLORA",
+      "voti": {
+        "totali": 6,
+        "seggio_telematico": 6
+      }
+    },
+    {
+      "nominativo": "OUBDA ADEL",
+      "lista": "BIOS EXPLORA",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "GRAVINA SIMONA",
+      "lista": "BIOS EXPLORA",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "PULVIRENTI LORENZO",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "LO MONACO GIOVANNI FRANCESCO",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "MUSUMECI LUDOVICA",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "VAIASICCA FRANCESCO",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "VINTI NICCOLO'",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "CURCIO AURORA",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 8,
+        "seggio_telematico": 8
+      }
+    },
+    {
+      "nominativo": "LISFERA ANDREA",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 8,
+        "seggio_telematico": 8
+      }
+    },
+    {
+      "nominativo": "BLUNDO EDOARDO",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "MARSIANO FEDERICA RITA",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 8,
+        "seggio_telematico": 8
+      }
+    },
+    {
+      "nominativo": "SORCE GAETANO",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 5,
+        "seggio_telematico": 5
+      }
+    },
+    {
+      "nominativo": "SIMONTE MARIA PAOLA",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "SALME' ALESSANDRO MARIA",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "FICHERA ANDREA GIANLUCA",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 6,
+        "seggio_telematico": 6
+      }
+    },
+    {
+      "nominativo": "DI MARCO DENISE",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "MARLETTA SERENA",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "PALERMO SALVATORE",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "MACI MARCO ROSARIO",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
+      }
+    },
+    {
+      "nominativo": "LEOCATA AGATA MARTINA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 6,
+        "seggio_telematico": 6
+      }
+    },
+    {
+      "nominativo": "BENINATO GIULIANA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 7,
+        "seggio_telematico": 7
+      }
+    },
+    {
+      "nominativo": "FIORILLA MARCO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "PATTI MARIA RITA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 6,
+        "seggio_telematico": 6
+      }
+    },
+    {
+      "nominativo": "TRICARICO VALENTINA MARIA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
+      }
+    },
+    {
+      "nominativo": "AGUECI FRANCESCO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 9,
+        "seggio_telematico": 9
+      }
+    },
+    {
+      "nominativo": "LO CASTRO GRETA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "MALGIOGLIO NADIA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "LA ROSA ALICE ANTONIA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "INZIRILLO FRANCESCO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
+      }
+    },
+    {
+      "nominativo": "ZAPPALÀ LUCREZIA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "CILIO BEATRICE",
+      "lista": "SOS UNICT",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "MUSUMECI SALVATORE",
+      "lista": "SOS UNICT",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "FRENI CHIARA",
+      "lista": "SOS UNICT",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "DI BENNARDO VALENTINA",
+      "lista": "SOS UNICT",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "ARAGONA EZECHIELE SALVATORE",
+      "lista": "SOS UNICT",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "AMORE ANTONINA MIRIAM",
+      "lista": "SOS UNICT",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "FORMICA GIULIO LUIGI",
+      "lista": "SOS UNICT",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "DI FORTI GIULIANA",
+      "lista": "SOS UNICT",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "INTERLANDI ANGELO FRANCESCO MARIA",
+      "lista": "SOS UNICT",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "FARO SIMONE",
+      "lista": "SOS UNICT",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "IUCULANO SANTO",
+      "lista": "SOS UNICT",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "PANARELLO MARIASOLE AGATA",
+      "lista": "LOVE BIOMETEC",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "MOTTA PIERO",
+      "lista": "LOVE BIOMETEC",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "MAZZAGLIA SALVATORE ROBERTO",
+      "lista": "LOVE BIOMETEC",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "LAUDANI GIUSEPPE CARMELO JR",
+      "lista": "LOVE BIOMETEC",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "MARIN GIULIA",
+      "lista": "LOVE BIOMETEC",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "QUARTARONE FEDERICA",
+      "lista": "LOVE BIOMETEC",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "ISAIA ANDREA",
+      "lista": "LOVE BIOMETEC",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "RICCIARDI LUDOVICA",
+      "lista": "LOVE BIOMETEC",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
+      }
+    },
+    {
+      "nominativo": "NISI LUCA GIOVANNI PAOLO",
+      "lista": "LOVE BIOMETEC",
+      "voti": {
+        "totali": 4,
+        "seggio_telematico": 4
+      }
+    },
+    {
+      "nominativo": "STISSI NICOLO' AGATINO PIO",
+      "lista": "LOVE BIOMETEC",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "DI BELLA FABRIZIO",
+      "lista": "LOVE BIOMETEC",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "MIRENNA MICHELE",
+      "lista": "LOVE BIOMETEC",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "D'ASERO MATTIA",
+      "lista": "LOVE BIOMETEC",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "MILAZZO VINCENZO",
+      "lista": "Alleanza Universitaria",
+      "voti": {
+        "totali": 6,
+        "seggio_telematico": 6
+      }
+    },
+    {
+      "nominativo": "MONTES HILARY",
+      "lista": "Alleanza Universitaria",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "BUETTO GIULIA",
+      "lista": "Alleanza Universitaria",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
+      }
+    }
+  ],
+  "dipartimento": "Dipartimento di Scienze Biomediche e biotecnologiche",
   "seggi_da_assegnare": "15",
   "quoziente": 31.9333,
   "votanti": {

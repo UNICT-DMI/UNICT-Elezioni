@@ -121,7 +121,7 @@
       "seggi": {
         "seggi_pieni": "-",
         "resti": "9,0",
-        "seggi_ai_resti": "-",
+        "seggi_ai_resti": "0",
         "seggi_totali": "-"
       },
       "voti": {
@@ -143,14 +143,6 @@
       }
     },
     {
-      "nominativo": "LA TORRE ANDREA FEDERICO",
-      "lista": "AZIONE UNIVERSITARIA",
-      "voti": {
-        "totali": 26,
-        "seggio_telematico": 26
-      }
-    },
-    {
       "nominativo": "CICCIA RITA",
       "lista": "AZIONE UNIVERSITARIA",
       "voti": {
@@ -159,11 +151,11 @@
       }
     },
     {
-      "nominativo": "CONTI VITTORIA FRANCESCA",
-      "lista": "SOS UNICT",
+      "nominativo": "LA TORRE ANDREA FEDERICO",
+      "lista": "AZIONE UNIVERSITARIA",
       "voti": {
-        "totali": 24,
-        "seggio_telematico": 24
+        "totali": 26,
+        "seggio_telematico": 26
       }
     },
     {
@@ -172,6 +164,14 @@
       "voti": {
         "totali": 42,
         "seggio_telematico": 42
+      }
+    },
+    {
+      "nominativo": "CONTI VITTORIA FRANCESCA",
+      "lista": "SOS UNICT",
+      "voti": {
+        "totali": 24,
+        "seggio_telematico": 24
       }
     },
     {
@@ -215,8 +215,305 @@
       }
     }
   ],
-  "non_eletti": [],
-  "dipartimento": "ELEZIONI RAPPRESENTANTI IN SENO AL CONSIGLIO DEL DIPARTIMENTO DI SCIENZE MEDICHE, CHIRURGICHE E TECNOLOGIE AVANZATE \"G. F. INGRASSIA\" - STUDENTI BIENNIO 2025/2027",
+  "non_eletti": [
+    {
+      "nominativo": "LATINO CHRISTIAN",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 23,
+        "seggio_telematico": 23
+      }
+    },
+    {
+      "nominativo": "FICHERA GIULIA",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "INTERDONATO WALTER",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "FAILLA ALISYA ROSARIA",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 7,
+        "seggio_telematico": 7
+      }
+    },
+    {
+      "nominativo": "MAZZURCO GIUSEPPE",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 6,
+        "seggio_telematico": 6
+      }
+    },
+    {
+      "nominativo": "TOSSANI GIUSEPPE",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "CALABRO' BONAFE' MELANIA RITA",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "ODDO VALENTINA",
+      "lista": "SOS UNICT",
+      "voti": {
+        "totali": 12,
+        "seggio_telematico": 12
+      }
+    },
+    {
+      "nominativo": "MAIMONE BARONELLO FRANCESCA ROCIO",
+      "lista": "SOS UNICT",
+      "voti": {
+        "totali": 16,
+        "seggio_telematico": 16
+      }
+    },
+    {
+      "nominativo": "GIGANTINI GIOVANNI",
+      "lista": "SOS UNICT",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "MODICA DIEGO",
+      "lista": "SOS UNICT",
+      "voti": {
+        "totali": 8,
+        "seggio_telematico": 8
+      }
+    },
+    {
+      "nominativo": "MARINEO MICHELE",
+      "lista": "SOS UNICT",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "SAMBATARO EMMANUELE",
+      "lista": "SOS UNICT",
+      "voti": {
+        "totali": 6,
+        "seggio_telematico": 6
+      }
+    },
+    {
+      "nominativo": "BONASERA FRANCESCO",
+      "lista": "SOS UNICT",
+      "voti": {
+        "totali": 9,
+        "seggio_telematico": 9
+      }
+    },
+    {
+      "nominativo": "DELL'UTRI KIMBERLY MARIA",
+      "lista": "SOS UNICT",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "CASTIGLIONE LORENZO",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "MOTTA GIULIANA",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "PAGANA ILARIA MARIA",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
+      }
+    },
+    {
+      "nominativo": "SCAVO ELISABETTA",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 4,
+        "seggio_telematico": 4
+      }
+    },
+    {
+      "nominativo": "URZI' MARCO",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 5,
+        "seggio_telematico": 5
+      }
+    },
+    {
+      "nominativo": "STRANO ARIANNA",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "CHILLARI MIRIAM",
+      "lista": "Ippocrate",
+      "voti": {
+        "totali": 11,
+        "seggio_telematico": 11
+      }
+    },
+    {
+      "nominativo": "TITOLA LUCIA",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
+      }
+    },
+    {
+      "nominativo": "SENTINO BEATRICE",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 6,
+        "seggio_telematico": 6
+      }
+    },
+    {
+      "nominativo": "LOMBARDO ALESSANDRA",
+      "lista": "Koinè",
+      "voti": {
+        "totali": 5,
+        "seggio_telematico": 5
+      }
+    },
+    {
+      "nominativo": "MATTINA GIOIA EMANUELA",
+      "lista": "Koinè",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "LIGGERI ALESSANDRO PAOLO",
+      "lista": "Koinè",
+      "voti": {
+        "totali": 4,
+        "seggio_telematico": 4
+      }
+    },
+    {
+      "nominativo": "GALLO KIMBERLY SOFIA",
+      "lista": "Koinè",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "CICERO GIUSEPPE",
+      "lista": "La Finestra - Liberi di scegliere",
+      "voti": {
+        "totali": 6,
+        "seggio_telematico": 6
+      }
+    },
+    {
+      "nominativo": "MERENDINO DAVIDE CARMELO",
+      "lista": "La Finestra - Liberi di scegliere",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "PETRILLA FRANCESCA",
+      "lista": "La Finestra - Liberi di scegliere",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "GULIZIA GAETANO",
+      "lista": "Arcadia",
+      "voti": {
+        "totali": 19,
+        "seggio_telematico": 19
+      }
+    },
+    {
+      "nominativo": "PORTO VERONICA",
+      "lista": "Arcadia",
+      "voti": {
+        "totali": 8,
+        "seggio_telematico": 8
+      }
+    },
+    {
+      "nominativo": "GUALTIERI GIORGIA",
+      "lista": "Arcadia",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
+      }
+    },
+    {
+      "nominativo": "LOMBARDO SALVATORE",
+      "lista": "Alleanza Universitaria",
+      "voti": {
+        "totali": 7,
+        "seggio_telematico": 7
+      }
+    },
+    {
+      "nominativo": "D'ALESSANDRO DAMIANO",
+      "lista": "Alleanza Universitaria",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "PAPOTTO FRANCESCO",
+      "lista": "Alleanza Universitaria",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    }
+  ],
+  "dipartimento": "Dipartimento di Scienze Mediche, Chirurgiche e Tecnologie Avanzate \"G. F. Ingrassia\"",
   "seggi_da_assegnare": "10",
   "quoziente": 53.2,
   "votanti": {
