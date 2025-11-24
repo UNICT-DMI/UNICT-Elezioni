@@ -115,11 +115,11 @@
       }
     },
     {
-      "nominativo": "PUGLISI ENRICO",
+      "nominativo": "CRISALLI MARIKA",
       "lista": "WE LOVE UNICT",
       "voti": {
-        "totali": 19,
-        "seggio_telematico": 19
+        "totali": 29,
+        "seggio_telematico": 29
       }
     },
     {
@@ -131,6 +131,14 @@
       }
     },
     {
+      "nominativo": "PRIVITERA SOFIA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 22,
+        "seggio_telematico": 22
+      }
+    },
+    {
       "nominativo": "COLLURA MATTEO SALVATORE",
       "lista": "WE LOVE UNICT",
       "voti": {
@@ -139,19 +147,11 @@
       }
     },
     {
-      "nominativo": "CRISALLI MARIKA",
+      "nominativo": "PUGLISI ENRICO",
       "lista": "WE LOVE UNICT",
       "voti": {
-        "totali": 29,
-        "seggio_telematico": 29
-      }
-    },
-    {
-      "nominativo": "PRIVITERA SOFIA",
-      "lista": "WE LOVE UNICT",
-      "voti": {
-        "totali": 22,
-        "seggio_telematico": 22
+        "totali": 19,
+        "seggio_telematico": 19
       }
     }
   ],
@@ -173,11 +173,11 @@
       }
     },
     {
-      "nominativo": "LODI MARCELLO",
+      "nominativo": "PIRRACCHIO NICOLÓ",
       "lista": "AZIONE UNIVERSITARIA",
       "voti": {
-        "totali": 1,
-        "seggio_telematico": 1
+        "totali": 3,
+        "seggio_telematico": 3
       }
     },
     {
@@ -189,11 +189,11 @@
       }
     },
     {
-      "nominativo": "PIRRACCHIO NICOLÓ",
+      "nominativo": "LODI MARCELLO",
       "lista": "AZIONE UNIVERSITARIA",
       "voti": {
-        "totali": 3,
-        "seggio_telematico": 3
+        "totali": 1,
+        "seggio_telematico": 1
       }
     },
     {
@@ -213,14 +213,6 @@
       }
     },
     {
-      "nominativo": "GULIZIA RAFFAELE DOMENICO",
-      "lista": "CREDIAMOCI",
-      "voti": {
-        "totali": 1,
-        "seggio_telematico": 1
-      }
-    },
-    {
       "nominativo": "CATALFO FARO EDOARDO",
       "lista": "CREDIAMOCI",
       "voti": {
@@ -234,6 +226,14 @@
       "voti": {
         "totali": 7,
         "seggio_telematico": 7
+      }
+    },
+    {
+      "nominativo": "GULIZIA RAFFAELE DOMENICO",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
       }
     },
     {
@@ -253,22 +253,6 @@
       }
     },
     {
-      "nominativo": "POMPILIO MARCO",
-      "lista": "WE LOVE UNICT",
-      "voti": {
-        "totali": 0,
-        "seggio_telematico": 0
-      }
-    },
-    {
-      "nominativo": "SANTOSTEFANO BELLAVIA GAIA",
-      "lista": "WE LOVE UNICT",
-      "voti": {
-        "totali": 0,
-        "seggio_telematico": 0
-      }
-    },
-    {
       "nominativo": "MELI FLAVIO",
       "lista": "WE LOVE UNICT",
       "voti": {
@@ -282,6 +266,22 @@
       "voti": {
         "totali": 1,
         "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "POMPILIO MARCO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "SANTOSTEFANO BELLAVIA GAIA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
       }
     }
   ],

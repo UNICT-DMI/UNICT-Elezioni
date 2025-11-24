@@ -1,361 +1,361 @@
 {
-    "schede": {
-        "bianche": {
-            "totali": 10,
-            "seggio_n_telematico": 10
-        },
-        "nulle": {
-            "totali": 0
-        },
-        "contestate": {
-            "totali": 0
-        }
+  "schede": {
+    "bianche": {
+      "totali": 10,
+      "seggio_n_telematico": 10
     },
-    "liste": [
-        {
-            "nome": "NIKE ECONOMIA",
-            "seggi": {
-                "seggi_pieni": "1",
-                "resti": "15,2",
-                "seggi_ai_resti": "0",
-                "seggi_totali": "1"
-            },
-            "voti": {
-                "totali": "73",
-                "seggio_telematico": "73"
-            }
-        },
-        {
-            "nome": "AZIONE UNIVERSITARIA",
-            "seggi": {
-                "seggi_pieni": "-",
-                "resti": "14,0",
-                "seggi_ai_resti": "0",
-                "seggi_totali": "-"
-            },
-            "voti": {
-                "totali": "14",
-                "seggio_telematico": "14"
-            }
-        },
-        {
-            "nome": "ACTEA",
-            "seggi": {
-                "seggi_pieni": "1",
-                "resti": "36,2",
-                "seggi_ai_resti": "1",
-                "seggi_totali": "2"
-            },
-            "voti": {
-                "totali": "94",
-                "seggio_telematico": "94"
-            }
-        },
-        {
-            "nome": "ETERNA",
-            "seggi": {
-                "seggi_pieni": "1",
-                "resti": "56,2",
-                "seggi_ai_resti": "1",
-                "seggi_totali": "2"
-            },
-            "voti": {
-                "totali": "114",
-                "seggio_telematico": "114"
-            }
-        },
-        {
-            "nome": "WE LOVE UNICT",
-            "seggi": {
-                "seggi_pieni": "-",
-                "resti": "43,0",
-                "seggi_ai_resti": "1",
-                "seggi_totali": "1"
-            },
-            "voti": {
-                "totali": "43",
-                "seggio_telematico": "43"
-            }
-        },
-        {
-            "nome": "CREDIAMOCI",
-            "seggi": {
-                "seggi_pieni": "-",
-                "resti": "9,0",
-                "seggi_ai_resti": "0",
-                "seggi_totali": "-"
-            },
-            "voti": {
-                "totali": "9",
-                "seggio_telematico": "9"
-            }
-        },
-        {
-            "totale": 347
-        }
-    ],
-    "eletti": [
-        {
-            "nominativo": "BARNOBI BEATRICE",
-            "lista": "NIKE ECONOMIA",
-            "voti": {
-                "totali": 30,
-                "seggio_telematico": 30
-            }
-        },
-        {
-            "nominativo": "ZAIAR ISLEM",
-            "lista": "NIKE ECONOMIA",
-            "voti": {
-                "totali": 17,
-                "seggio_telematico": 17
-            }
-        },
-        {
-            "nominativo": "GRASSO SIMONE",
-            "lista": "NIKE ECONOMIA",
-            "voti": {
-                "totali": 6,
-                "seggio_telematico": 6
-            }
-        },
-        {
-            "nominativo": "LEONE GIUSEPPE AGATINO",
-            "lista": "NIKE ECONOMIA",
-            "voti": {
-                "totali": 2,
-                "seggio_telematico": 2
-            }
-        },
-        {
-            "nominativo": "VENTURA GIUSEPPE",
-            "lista": "NIKE ECONOMIA",
-            "voti": {
-                "totali": 9,
-                "seggio_telematico": 9
-            }
-        },
-        {
-            "nominativo": "AQUILA KEVIN",
-            "lista": "NIKE ECONOMIA",
-            "voti": {
-                "totali": 7,
-                "seggio_telematico": 7
-            }
-        },
-        {
-            "nominativo": "RANDAZZO CLAUDIA",
-            "lista": "ACTEA",
-            "voti": {
-                "totali": 21,
-                "seggio_telematico": 21
-            }
-        },
-        {
-            "nominativo": "AQUILINO SALVATORE",
-            "lista": "ACTEA",
-            "voti": {
-                "totali": 33,
-                "seggio_telematico": 33
-            }
-        },
-        {
-            "nominativo": "GULISANO SIMONA",
-            "lista": "ETERNA",
-            "voti": {
-                "totali": 29,
-                "seggio_telematico": 29
-            }
-        },
-        {
-            "nominativo": "DI BILIO ARIANNA",
-            "lista": "ETERNA",
-            "voti": {
-                "totali": 41,
-                "seggio_telematico": 41
-            }
-        }
-    ],
-    "non_eletti": [
-        {
-            "nominativo": "PIAZZA CINDY SILVIA",
-            "lista": "AZIONE UNIVERSITARIA",
-            "voti": {
-                "totali": 9,
-                "seggio_telematico": 9
-            }
-        },
-        {
-            "nominativo": "MANUELLO STEFANO",
-            "lista": "AZIONE UNIVERSITARIA",
-            "voti": {
-                "totali": 0,
-                "seggio_telematico": 0
-            }
-        },
-        {
-            "nominativo": "LEOCATA AGATA",
-            "lista": "AZIONE UNIVERSITARIA",
-            "voti": {
-                "totali": 3,
-                "seggio_telematico": 3
-            }
-        },
-        {
-            "nominativo": "DI BENEDETTO DILETTA",
-            "lista": "AZIONE UNIVERSITARIA",
-            "voti": {
-                "totali": 1,
-                "seggio_telematico": 1
-            }
-        },
-        {
-            "nominativo": "LA GRISTINA DARIO MARIA",
-            "lista": "AZIONE UNIVERSITARIA",
-            "voti": {
-                "totali": 1,
-                "seggio_telematico": 1
-            }
-        },
-        {
-            "nominativo": "GIURATO MARTINA ANTONIA",
-            "lista": "AZIONE UNIVERSITARIA",
-            "voti": {
-                "totali": 0,
-                "seggio_telematico": 0
-            }
-        },
-        {
-            "nominativo": "SALVO MAGDA ANGELA",
-            "lista": "ACTEA",
-            "voti": {
-                "totali": 14,
-                "seggio_telematico": 14
-            }
-        },
-        {
-            "nominativo": "CARPINTERI SALVATORE",
-            "lista": "ACTEA",
-            "voti": {
-                "totali": 17,
-                "seggio_telematico": 17
-            }
-        },
-        {
-            "nominativo": "PERRICONE LORENZO PAOLO",
-            "lista": "ACTEA",
-            "voti": {
-                "totali": 9,
-                "seggio_telematico": 9
-            }
-        },
-        {
-            "nominativo": "MOLINO ANDREA",
-            "lista": "ETERNA",
-            "voti": {
-                "totali": 14,
-                "seggio_telematico": 14
-            }
-        },
-        {
-            "nominativo": "MIRABELLA ALESSANDRO",
-            "lista": "ETERNA",
-            "voti": {
-                "totali": 12,
-                "seggio_telematico": 12
-            }
-        },
-        {
-            "nominativo": "TOMA GABRIEL SABIN",
-            "lista": "ETERNA",
-            "voti": {
-                "totali": 18,
-                "seggio_telematico": 18
-            }
-        },
-        {
-            "nominativo": "BORZI' GIUSI JENNIFER",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 17,
-                "seggio_telematico": 17
-            }
-        },
-        {
-            "nominativo": "CASALE GIACOMO",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 12,
-                "seggio_telematico": 12
-            }
-        },
-        {
-            "nominativo": "PAPPALARDO REBECCA",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 14,
-                "seggio_telematico": 14
-            }
-        },
-        {
-            "nominativo": "FICHERA ANTONIO",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 0,
-                "seggio_telematico": 0
-            }
-        },
-        {
-            "nominativo": "DI PAOLA FEDERICO",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 0,
-                "seggio_telematico": 0
-            }
-        },
-        {
-            "nominativo": "RISTUCCIA LORENZO GIUSEPPE",
-            "lista": "WE LOVE UNICT",
-            "voti": {
-                "totali": 0,
-                "seggio_telematico": 0
-            }
-        },
-        {
-            "nominativo": "PELLERITI MARCO",
-            "lista": "CREDIAMOCI",
-            "voti": {
-                "totali": 1,
-                "seggio_telematico": 1
-            }
-        },
-        {
-            "nominativo": "LO FARO FEDERICO",
-            "lista": "CREDIAMOCI",
-            "voti": {
-                "totali": 3,
-                "seggio_telematico": 3
-            }
-        },
-        {
-            "nominativo": "RANDO NINA",
-            "lista": "CREDIAMOCI",
-            "voti": {
-                "totali": 5,
-                "seggio_telematico": 5
-            }
-        }
-    ],
-    "dipartimento": "ECONOMIA-L-33-Laurea Triennale (D.M.270/2004)",
-    "seggi_da_assegnare": "6",
-    "quoziente": 57.8333,
-    "votanti": {
-        "totali": 357,
-        "percentuale": 44.51,
-        "seggio_n_telematico": 357
+    "nulle": {
+      "totali": 0
     },
-    "elettori": {
-        "totali": 802,
-        "seggio_n_telematico": 802
+    "contestate": {
+      "totali": 0
     }
+  },
+  "liste": [
+    {
+      "nome": "NIKE ECONOMIA",
+      "seggi": {
+        "seggi_pieni": "1",
+        "resti": "15,2",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": "73",
+        "seggio_telematico": "73"
+      }
+    },
+    {
+      "nome": "AZIONE UNIVERSITARIA",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "14,0",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "-"
+      },
+      "voti": {
+        "totali": "14",
+        "seggio_telematico": "14"
+      }
+    },
+    {
+      "nome": "ACTEA",
+      "seggi": {
+        "seggi_pieni": "1",
+        "resti": "36,2",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "2"
+      },
+      "voti": {
+        "totali": "94",
+        "seggio_telematico": "94"
+      }
+    },
+    {
+      "nome": "ETERNA",
+      "seggi": {
+        "seggi_pieni": "1",
+        "resti": "56,2",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "2"
+      },
+      "voti": {
+        "totali": "114",
+        "seggio_telematico": "114"
+      }
+    },
+    {
+      "nome": "WE LOVE UNICT",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "43,0",
+        "seggi_ai_resti": "1",
+        "seggi_totali": "1"
+      },
+      "voti": {
+        "totali": "43",
+        "seggio_telematico": "43"
+      }
+    },
+    {
+      "nome": "CREDIAMOCI",
+      "seggi": {
+        "seggi_pieni": "-",
+        "resti": "9,0",
+        "seggi_ai_resti": "0",
+        "seggi_totali": "-"
+      },
+      "voti": {
+        "totali": "9",
+        "seggio_telematico": "9"
+      }
+    },
+    {
+      "totale": 347
+    }
+  ],
+  "eletti": [
+    {
+      "nominativo": "BARNOBI BEATRICE",
+      "lista": "NIKE ECONOMIA",
+      "voti": {
+        "totali": 30,
+        "seggio_telematico": 30
+      }
+    },
+    {
+      "nominativo": "RANDAZZO CLAUDIA",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 21,
+        "seggio_telematico": 21
+      }
+    },
+    {
+      "nominativo": "AQUILINO SALVATORE",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 33,
+        "seggio_telematico": 33
+      }
+    },
+    {
+      "nominativo": "GULISANO SIMONA",
+      "lista": "ETERNA",
+      "voti": {
+        "totali": 29,
+        "seggio_telematico": 29
+      }
+    },
+    {
+      "nominativo": "DI BILIO ARIANNA",
+      "lista": "ETERNA",
+      "voti": {
+        "totali": 41,
+        "seggio_telematico": 41
+      }
+    },
+    {
+      "nominativo": "BORZI' GIUSI JENNIFER",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 17,
+        "seggio_telematico": 17
+      }
+    }
+  ],
+  "non_eletti": [
+    {
+      "nominativo": "ZAIAR ISLEM",
+      "lista": "NIKE ECONOMIA",
+      "voti": {
+        "totali": 17,
+        "seggio_telematico": 17
+      }
+    },
+    {
+      "nominativo": "GRASSO SIMONE",
+      "lista": "NIKE ECONOMIA",
+      "voti": {
+        "totali": 6,
+        "seggio_telematico": 6
+      }
+    },
+    {
+      "nominativo": "LEONE GIUSEPPE AGATINO",
+      "lista": "NIKE ECONOMIA",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "VENTURA GIUSEPPE",
+      "lista": "NIKE ECONOMIA",
+      "voti": {
+        "totali": 9,
+        "seggio_telematico": 9
+      }
+    },
+    {
+      "nominativo": "AQUILA KEVIN",
+      "lista": "NIKE ECONOMIA",
+      "voti": {
+        "totali": 7,
+        "seggio_telematico": 7
+      }
+    },
+    {
+      "nominativo": "PIAZZA CINDY SILVIA",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 9,
+        "seggio_telematico": 9
+      }
+    },
+    {
+      "nominativo": "MANUELLO STEFANO",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "LEOCATA AGATA",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
+      }
+    },
+    {
+      "nominativo": "DI BENEDETTO DILETTA",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "LA GRISTINA DARIO MARIA",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "GIURATO MARTINA ANTONIA",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "SALVO MAGDA ANGELA",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 14,
+        "seggio_telematico": 14
+      }
+    },
+    {
+      "nominativo": "CARPINTERI SALVATORE",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 17,
+        "seggio_telematico": 17
+      }
+    },
+    {
+      "nominativo": "PERRICONE LORENZO PAOLO",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 9,
+        "seggio_telematico": 9
+      }
+    },
+    {
+      "nominativo": "MOLINO ANDREA",
+      "lista": "ETERNA",
+      "voti": {
+        "totali": 14,
+        "seggio_telematico": 14
+      }
+    },
+    {
+      "nominativo": "MIRABELLA ALESSANDRO",
+      "lista": "ETERNA",
+      "voti": {
+        "totali": 12,
+        "seggio_telematico": 12
+      }
+    },
+    {
+      "nominativo": "TOMA GABRIEL SABIN",
+      "lista": "ETERNA",
+      "voti": {
+        "totali": 18,
+        "seggio_telematico": 18
+      }
+    },
+    {
+      "nominativo": "CASALE GIACOMO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 12,
+        "seggio_telematico": 12
+      }
+    },
+    {
+      "nominativo": "PAPPALARDO REBECCA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 14,
+        "seggio_telematico": 14
+      }
+    },
+    {
+      "nominativo": "FICHERA ANTONIO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "DI PAOLA FEDERICO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "RISTUCCIA LORENZO GIUSEPPE",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "PELLERITI MARCO",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "LO FARO FEDERICO",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
+      }
+    },
+    {
+      "nominativo": "RANDO NINA",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 5,
+        "seggio_telematico": 5
+      }
+    }
+  ],
+  "dipartimento": "ECONOMIA-L-33-Laurea Triennale (D.M.270/2004)",
+  "seggi_da_assegnare": "6",
+  "quoziente": 57.8333,
+  "votanti": {
+    "totali": 357,
+    "percentuale": 44.51,
+    "seggio_n_telematico": 357
+  },
+  "elettori": {
+    "totali": 802,
+    "seggio_n_telematico": 802
+  }
 }

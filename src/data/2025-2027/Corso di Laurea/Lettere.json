@@ -1,6 +1,4 @@
 {
-  "dipartimento": "LETTERE-L-10-Laurea Triennale (D.M.270/2004)",
-  "seggi_da_assegnare": "9",
   "schede": {
     "bianche": {
       "totali": 9,
@@ -13,28 +11,18 @@
       "totali": 0
     }
   },
-  "votanti": {
-    "totali": 339,
-    "percentuale": 29.27,
-    "seggio_n_telematico": 339
-  },
-  "elettori": {
-    "totali": 1158,
-    "seggio_n_telematico": 1158
-  },
-  "quoziente": 36.6667,
   "liste": [
     {
       "nome": "La Finestra - Liberi di Scegliere",
       "seggi": {
         "seggi_pieni": "3",
-        "resti": "25.0",
+        "resti": "25,0",
         "seggi_ai_resti": "1",
         "seggi_totali": "4"
       },
       "voti": {
-        "totali": 135,
-        "seggio_telematico": 135
+        "totali": "135",
+        "seggio_telematico": "135"
       }
     },
     {
@@ -46,25 +34,25 @@
         "seggi_totali": "2"
       },
       "voti": {
-        "totali": 60,
-        "seggio_telematico": 60
+        "totali": "60",
+        "seggio_telematico": "60"
       }
     },
     {
-      "nome": "Letteral Mente",
+      "nome": "LetteralMente",
       "seggi": {
-        "seggi_pieni": "0",
+        "seggi_pieni": "-",
         "resti": "27,0",
         "seggi_ai_resti": "1",
         "seggi_totali": "1"
       },
       "voti": {
-        "totali": 27,
-        "seggio_telematico": 27
+        "totali": "27",
+        "seggio_telematico": "27"
       }
     },
     {
-      "nome": "Koine - Ribaltiamo UniCt",
+      "nome": "Koinè - Ribaltiamo UniCt",
       "seggi": {
         "seggi_pieni": "1",
         "resti": "17,3",
@@ -72,34 +60,34 @@
         "seggi_totali": "1"
       },
       "voti": {
-        "totali": 54,
-        "seggio_telematico": 54
+        "totali": "54",
+        "seggio_telematico": "54"
       }
     },
     {
       "nome": "La Traccia",
       "seggi": {
-        "seggi_pieni": "0",
+        "seggi_pieni": "-",
         "resti": "2,0",
         "seggi_ai_resti": "0",
-        "seggi_totali": "0"
+        "seggi_totali": "-"
       },
       "voti": {
-        "totali": 2,
-        "seggio_telematico": 2
+        "totali": "2",
+        "seggio_telematico": "2"
       }
     },
     {
       "nome": "DISUM Nike",
       "seggi": {
-        "seggi_pieni": "0",
+        "seggi_pieni": "-",
         "resti": "13,0",
         "seggi_ai_resti": "0",
-        "seggi_totali": "0"
+        "seggi_totali": "-"
       },
       "voti": {
-        "totali": 13,
-        "seggio_telematico": 13
+        "totali": "13",
+        "seggio_telematico": "13"
       }
     },
     {
@@ -111,8 +99,8 @@
         "seggi_totali": "1"
       },
       "voti": {
-        "totali": 39,
-        "seggio_telematico": 39
+        "totali": "39",
+        "seggio_telematico": "39"
       }
     },
     {
@@ -124,346 +112,407 @@
       "nominativo": "GUGLIELMINO VINCENZO",
       "lista": "La Finestra - Liberi di Scegliere",
       "voti": {
-        "totali": 47
+        "totali": 47,
+        "seggio_telematico": 47
       }
     },
     {
       "nominativo": "INFUSO CHIARA",
       "lista": "La Finestra - Liberi di Scegliere",
       "voti": {
-        "totali": 27
+        "totali": 27,
+        "seggio_telematico": 27
       }
     },
     {
       "nominativo": "MONDELLO GIULIA",
       "lista": "La Finestra - Liberi di Scegliere",
       "voti": {
-        "totali": 27
+        "totali": 27,
+        "seggio_telematico": 27
       }
     },
     {
       "nominativo": "TROMMINO GIULIO IRENEO",
       "lista": "La Finestra - Liberi di Scegliere",
       "voti": {
-        "totali": 21
+        "totali": 21,
+        "seggio_telematico": 21
       }
     },
     {
       "nominativo": "RANDIS GAETANO",
       "lista": "Primavera",
       "voti": {
-        "totali": 34
+        "totali": 34,
+        "seggio_telematico": 34
       }
     },
     {
       "nominativo": "SCAVO FEDERICO",
       "lista": "Primavera",
       "voti": {
-        "totali": 11
+        "totali": 11,
+        "seggio_telematico": 11
       }
     },
     {
       "nominativo": "CARUSO CHIARA",
-      "lista": "Letteral Mente",
+      "lista": "LetteralMente",
       "voti": {
-        "totali": 18
+        "totali": 18,
+        "seggio_telematico": 18
       }
     },
     {
       "nominativo": "NICOSIA ROSSELLA",
-      "lista": "Koine - Ribaltiamo UniCt",
+      "lista": "Koinè - Ribaltiamo UniCt",
       "voti": {
-        "totali": 14
+        "totali": 14,
+        "seggio_telematico": 14
       }
     },
     {
       "nominativo": "MESSINA LUCA",
       "lista": "WE LOVE UNICT",
       "voti": {
-        "totali": 23
+        "totali": 23,
+        "seggio_telematico": 23
       }
     }
   ],
   "non_eletti": [
     {
-      "nominativo": "LO BARTOLO MARTA",
-      "lista": "La Finestra - Liberi di Scegliere",
-      "voti": {
-        "totali": 5
-      }
-    },
-    {
-      "nominativo": "MAZZARINO MARTINA",
-      "lista": "La Finestra - Liberi di Scegliere",
-      "voti": {
-        "totali": 2
-      }
-    },
-    {
-      "nominativo": "PUGLISI DIANA",
-      "lista": "La Finestra - Liberi di Scegliere",
-      "voti": {
-        "totali": 2
-      }
-    },
-    {
       "nominativo": "LO FASO EDOARDO FEDERICO MARIA",
       "lista": "La Finestra - Liberi di Scegliere",
       "voti": {
-        "totali": 1
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "LO BARTOLO MARTA",
+      "lista": "La Finestra - Liberi di Scegliere",
+      "voti": {
+        "totali": 5,
+        "seggio_telematico": 5
       }
     },
     {
       "nominativo": "PORTALE LUDOVICA PIA",
       "lista": "La Finestra - Liberi di Scegliere",
       "voti": {
-        "totali": 0
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "MAZZARINO MARTINA",
+      "lista": "La Finestra - Liberi di Scegliere",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "PUGLISI DIANA",
+      "lista": "La Finestra - Liberi di Scegliere",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
       }
     },
     {
       "nominativo": "GIANSIRACUSA DANIELE",
       "lista": "Primavera",
       "voti": {
-        "totali": 10
-      }
-    },
-    {
-      "nominativo": "MARINERO ALESSIA",
-      "lista": "Primavera",
-      "voti": {
-        "totali": 3
+        "totali": 10,
+        "seggio_telematico": 10
       }
     },
     {
       "nominativo": "COLLURA REBECCA",
       "lista": "Primavera",
       "voti": {
-        "totali": 1
-      }
-    },
-    {
-      "nominativo": "FIGUERA LIA",
-      "lista": "Primavera",
-      "voti": {
-        "totali": 1
+        "totali": 1,
+        "seggio_telematico": 1
       }
     },
     {
       "nominativo": "D'AGOSTA CARLA",
       "lista": "Primavera",
       "voti": {
-        "totali": 0
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "FIGUERA LIA",
+      "lista": "Primavera",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
       }
     },
     {
       "nominativo": "SCHIAVONE ALICE",
       "lista": "Primavera",
       "voti": {
-        "totali": 0
+        "totali": 0,
+        "seggio_telematico": 0
       }
     },
     {
       "nominativo": "BARONE MARIAPIA",
       "lista": "Primavera",
       "voti": {
-        "totali": 0
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "MARINERO ALESSIA",
+      "lista": "Primavera",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
       }
     },
     {
       "nominativo": "VITALITI SERGIO",
-      "lista": "Letteral Mente",
+      "lista": "LetteralMente",
       "voti": {
-        "totali": 9
+        "totali": 9,
+        "seggio_telematico": 9
       }
     },
     {
       "nominativo": "MIDOLO LUCIA",
-      "lista": "Letteral Mente",
+      "lista": "LetteralMente",
       "voti": {
-        "totali": 0
+        "totali": 0,
+        "seggio_telematico": 0
       }
     },
     {
       "nominativo": "LAURETTA MELANY",
-      "lista": "Letteral Mente",
+      "lista": "LetteralMente",
       "voti": {
-        "totali": 0
+        "totali": 0,
+        "seggio_telematico": 0
       }
     },
     {
       "nominativo": "VITANZA VERONICA GIUSI MARIA",
-      "lista": "Letteral Mente",
+      "lista": "LetteralMente",
       "voti": {
-        "totali": 0
+        "totali": 0,
+        "seggio_telematico": 0
       }
     },
     {
       "nominativo": "ARENA SILVIA",
-      "lista": "Letteral Mente",
+      "lista": "LetteralMente",
       "voti": {
-        "totali": 0
+        "totali": 0,
+        "seggio_telematico": 0
       }
     },
     {
       "nominativo": "POLIZZI CHIARA AGATA GIUSEPPA",
-      "lista": "Letteral Mente",
+      "lista": "LetteralMente",
       "voti": {
-        "totali": 0
+        "totali": 0,
+        "seggio_telematico": 0
       }
     },
     {
       "nominativo": "GUGLIELMINO SANTINELLA GIULIA",
-      "lista": "Letteral Mente",
+      "lista": "LetteralMente",
       "voti": {
-        "totali": 0
+        "totali": 0,
+        "seggio_telematico": 0
       }
     },
     {
       "nominativo": "GIUSTOLISI CHIARA",
-      "lista": "Letteral Mente",
+      "lista": "LetteralMente",
       "voti": {
-        "totali": 0
+        "totali": 0,
+        "seggio_telematico": 0
       }
     },
     {
       "nominativo": "DI MAURO ANTONINO",
-      "lista": "Koine - Ribaltiamo UniCt",
+      "lista": "Koinè - Ribaltiamo UniCt",
       "voti": {
-        "totali": 13
+        "totali": 13,
+        "seggio_telematico": 13
       }
     },
     {
       "nominativo": "LICCIARDELLO ROBERTA GIUSI",
-      "lista": "Koine - Ribaltiamo UniCt",
+      "lista": "Koinè - Ribaltiamo UniCt",
       "voti": {
-        "totali": 9
+        "totali": 9,
+        "seggio_telematico": 9
       }
     },
     {
       "nominativo": "FERLA JACOPO",
-      "lista": "Koine - Ribaltiamo UniCt",
+      "lista": "Koinè - Ribaltiamo UniCt",
       "voti": {
-        "totali": 6
+        "totali": 6,
+        "seggio_telematico": 6
       }
     },
     {
       "nominativo": "COPPOLA PAOLA",
-      "lista": "Koine - Ribaltiamo UniCt",
+      "lista": "Koinè - Ribaltiamo UniCt",
       "voti": {
-        "totali": 6
-      }
-    },
-    {
-      "nominativo": "CALABRETTA DAVIDE",
-      "lista": "Koine - Ribaltiamo UniCt",
-      "voti": {
-        "totali": 2
+        "totali": 6,
+        "seggio_telematico": 6
       }
     },
     {
       "nominativo": "CORDARO FABIO",
-      "lista": "Koine - Ribaltiamo UniCt",
+      "lista": "Koinè - Ribaltiamo UniCt",
       "voti": {
-        "totali": 1
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "CALABRETTA DAVIDE",
+      "lista": "Koinè - Ribaltiamo UniCt",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
       }
     },
     {
       "nominativo": "RUGGIERO ANTONIO",
       "lista": "La Traccia",
       "voti": {
-        "totali": 2
+        "totali": 2,
+        "seggio_telematico": 2
       }
     },
     {
       "nominativo": "VENEZIA VITTORIA",
       "lista": "La Traccia",
       "voti": {
-        "totali": 0
+        "totali": 0,
+        "seggio_telematico": 0
       }
     },
     {
       "nominativo": "TORRISI AMELIA GAIA",
       "lista": "La Traccia",
       "voti": {
-        "totali": 0
+        "totali": 0,
+        "seggio_telematico": 0
       }
     },
     {
       "nominativo": "NICOSIA MAURILIO",
       "lista": "DISUM Nike",
       "voti": {
-        "totali": 7
+        "totali": 7,
+        "seggio_telematico": 7
       }
     },
     {
       "nominativo": "SPATOLA VITTORIA",
       "lista": "DISUM Nike",
       "voti": {
-        "totali": 2
-      }
-    },
-    {
-      "nominativo": "SCALIA YLENIA",
-      "lista": "DISUM Nike",
-      "voti": {
-        "totali": 2
+        "totali": 2,
+        "seggio_telematico": 2
       }
     },
     {
       "nominativo": "FERRERA SABRINA",
       "lista": "DISUM Nike",
       "voti": {
-        "totali": 1
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "SCALIA YLENIA",
+      "lista": "DISUM Nike",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
       }
     },
     {
       "nominativo": "BRANDELLO BEATRICE MARIA",
       "lista": "DISUM Nike",
       "voti": {
-        "totali": 1
+        "totali": 1,
+        "seggio_telematico": 1
       }
     },
     {
       "nominativo": "SCUDERI SOFIA",
       "lista": "WE LOVE UNICT",
       "voti": {
-        "totali": 5
-      }
-    },
-    {
-      "nominativo": "GALLO VALENTINA",
-      "lista": "WE LOVE UNICT",
-      "voti": {
-        "totali": 4
-      }
-    },
-    {
-      "nominativo": "MILAZZO SOFIA CARMELA",
-      "lista": "WE LOVE UNICT",
-      "voti": {
-        "totali": 2
-      }
-    },
-    {
-      "nominativo": "SIRACUSANO CARLA",
-      "lista": "WE LOVE UNICT",
-      "voti": {
-        "totali": 1
+        "totali": 5,
+        "seggio_telematico": 5
       }
     },
     {
       "nominativo": "TOMASELLI DAMIANO ANGELO",
       "lista": "WE LOVE UNICT",
       "voti": {
-        "totali": 0
+        "totali": 0,
+        "seggio_telematico": 0
       }
     },
     {
       "nominativo": "SABATINO LORENZO",
       "lista": "WE LOVE UNICT",
       "voti": {
-        "totali": 0
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "SIRACUSANO CARLA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "MILAZZO SOFIA CARMELA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "GALLO VALENTINA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 4,
+        "seggio_telematico": 4
       }
     }
-  ]
+  ],
+  "dipartimento": "LETTERE-L-10-Laurea Triennale (D.M.270/2004)",
+  "seggi_da_assegnare": "9",
+  "quoziente": 36.6667,
+  "votanti": {
+    "totali": 339,
+    "percentuale": 29.27,
+    "seggio_n_telematico": 339
+  },
+  "elettori": {
+    "totali": 1158,
+    "seggio_n_telematico": 1158
+  }
 }

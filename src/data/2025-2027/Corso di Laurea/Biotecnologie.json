@@ -204,6 +204,22 @@
         "totali": 7,
         "seggio_telematico": 7
       }
+    },
+    {
+      "nominativo": "GIGLIO GIORGIA",
+      "lista": "Ippocrate",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "ALTOMARE MARTINA",
+      "lista": "Ippocrate",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
     }
   ],
   "non_eletti": [
@@ -221,14 +237,6 @@
       "voti": {
         "totali": 0,
         "seggio_telematico": 0
-      }
-    },
-    {
-      "nominativo": "ALTOMARE MARTINA",
-      "lista": "Ippocrate",
-      "voti": {
-        "totali": 2,
-        "seggio_telematico": 2
       }
     },
     {
@@ -293,14 +301,6 @@
       "voti": {
         "totali": 1,
         "seggio_telematico": 1
-      }
-    },
-    {
-      "nominativo": "GIGLIO GIORGIA",
-      "lista": "Ippocrate",
-      "voti": {
-        "totali": 2,
-        "seggio_telematico": 2
       }
     },
     {

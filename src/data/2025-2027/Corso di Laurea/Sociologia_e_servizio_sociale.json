@@ -1,6 +1,4 @@
 {
-  "dipartimento": "SOCIOLOGIA E SERVIZIO SOCIALE-L-40-Laurea Triennale (DM 270/2004)",
-  "seggi_da_assegnare": "8",
   "schede": {
     "bianche": {
       "totali": 8,
@@ -13,80 +11,70 @@
       "totali": 0
     }
   },
-  "votanti": {
-    "totali": 223,
-    "percentuale": 36.26,
-    "seggio_n_telematico": 223
-  },
-  "elettori": {
-    "totali": 615,
-    "seggio_n_telematico": 615
-  },
-  "quoziente": 26.875,
   "liste": [
     {
       "nome": "AZIONE UNIVERSITARIA",
       "seggi": {
         "seggi_pieni": "1",
-        "resti": "0.125",
+        "resti": "0,1",
         "seggi_ai_resti": "0",
         "seggi_totali": "1"
       },
       "voti": {
-        "totali": 27,
-        "seggio_telematico": 27
+        "totali": "27",
+        "seggio_telematico": "27"
       }
     },
     {
       "nome": "Oltre DSPS",
       "seggi": {
         "seggi_pieni": "2",
-        "resti": "24.25",
+        "resti": "24,3",
         "seggi_ai_resti": "1",
         "seggi_totali": "3"
       },
       "voti": {
-        "totali": 78,
-        "seggio_telematico": 76
+        "totali": "78",
+        "seggio_telematico": "78"
       }
     },
     {
       "nome": "WE LOVE UNICT",
       "seggi": {
         "seggi_pieni": "2",
-        "resti": "0.25",
+        "resti": "0,3",
         "seggi_ai_resti": "0",
         "seggi_totali": "2"
       },
       "voti": {
-        "totali": 54,
-        "seggio_telematico": 54
+        "totali": "54",
+        "seggio_telematico": "54"
       }
     },
     {
       "nome": "Arcadia",
       "seggi": {
         "seggi_pieni": "1",
-        "resti": "13.125",
+        "resti": "13,1",
         "seggi_ai_resti": "0",
         "seggi_totali": "1"
       },
       "voti": {
-        "totali": 40,
-        "seggio_telematico": 40
+        "totali": "40",
+        "seggio_telematico": "40"
       }
     },
     {
       "nome": "LOVE SOCIOLOGIA",
       "seggi": {
-        "seggi_pieni": "0",
-        "resti": "16.0",
+        "seggi_pieni": "-",
+        "resti": "16,0",
         "seggi_ai_resti": "1",
         "seggi_totali": "1"
       },
       "voti": {
-        "totali": 16,
-        "seggio_telematico": 16
+        "totali": "16",
+        "seggio_telematico": "16"
       }
     },
     {
@@ -95,68 +83,68 @@
   ],
   "eletti": [
     {
-      "nominativo": "ATTARDI ERIKA ALICE",
+      "nominativo": "PAGANO ALESSANDRA",
       "lista": "AZIONE UNIVERSITARIA",
       "voti": {
-        "totali": 9
-      },
-      "stato": "ELETTO"
+        "totali": 12,
+        "seggio_telematico": 12
+      }
     },
     {
       "nominativo": "ALLIA SERENA",
       "lista": "Oltre DSPS",
       "voti": {
-        "totali": 28
-      },
-      "stato": "ELETTO"
+        "totali": 28,
+        "seggio_telematico": 28
+      }
     },
     {
       "nominativo": "CASTELLI BENEDETTA",
       "lista": "Oltre DSPS",
       "voti": {
-        "totali": 15
-      },
-      "stato": "ELETTO"
+        "totali": 15,
+        "seggio_telematico": 15
+      }
     },
     {
-      "nominativo": "CALVO NICOLETTA",
+      "nominativo": "RANDAZZO MARYON",
       "lista": "Oltre DSPS",
       "voti": {
-        "totali": 1
-      },
-      "stato": "ELETTO"
+        "totali": 12,
+        "seggio_telematico": 12
+      }
     },
     {
       "nominativo": "SCURSUNNI CANTARELLA SAMUELE",
       "lista": "WE LOVE UNICT",
       "voti": {
-        "totali": 39
-      },
-      "stato": "ELETTO"
+        "totali": 39,
+        "seggio_telematico": 39
+      }
     },
     {
-      "nominativo": "OLINDO CHIARA",
+      "nominativo": "CONIGLIELLO FRANCESCA",
       "lista": "WE LOVE UNICT",
       "voti": {
-        "totali": 4
-      },
-      "stato": "ELETTO"
+        "totali": 5,
+        "seggio_telematico": 5
+      }
     },
     {
       "nominativo": "RIZZO ANGELICA CONCETTA",
       "lista": "Arcadia",
       "voti": {
-        "totali": 21
-      },
-      "stato": "ELETTO"
+        "totali": 21,
+        "seggio_telematico": 21
+      }
     },
     {
       "nominativo": "LENZO MATTEO",
       "lista": "LOVE SOCIOLOGIA",
       "voti": {
-        "totali": 2
-      },
-      "stato": "ELETTO"
+        "totali": 8,
+        "seggio_telematico": 8
+      }
     }
   ],
   "non_eletti": [
@@ -164,225 +152,269 @@
       "nominativo": "FERRARA ELENA",
       "lista": "AZIONE UNIVERSITARIA",
       "voti": {
-        "totali": 12
+        "totali": 9,
+        "seggio_telematico": 9
       }
     },
     {
-      "nominativo": "SAPING TRENE",
+      "nominativo": "NOTO MARIA RITA",
       "lista": "AZIONE UNIVERSITARIA",
       "voti": {
-        "totali": 1
+        "totali": 2,
+        "seggio_telematico": 2
       }
     },
     {
-      "nominativo": "PAGANO ALESSANDRA",
+      "nominativo": "GIUSPINO IRENE",
       "lista": "AZIONE UNIVERSITARIA",
       "voti": {
-        "totali": 12
+        "totali": 1,
+        "seggio_telematico": 1
       }
     },
     {
       "nominativo": "VALVO SARA LUCIA",
       "lista": "AZIONE UNIVERSITARIA",
       "voti": {
-        "totali": 1
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "GIUFFRIDA SIMONE",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "ATTARDI ERIKA ALICE",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
       }
     },
     {
       "nominativo": "MESSINA ERIKA",
       "lista": "AZIONE UNIVERSITARIA",
       "voti": {
-        "totali": 0
+        "totali": 0,
+        "seggio_telematico": 0
       }
     },
     {
-      "nominativo": "GRUFFRIDA SIMONE",
-      "lista": "AZIONE UNIVERSITARIA",
-      "voti": {
-        "totali": 1
-      }
-    },
-    {
-      "nominativo": "NOTO MARIA BI",
-      "lista": "AZIONE UNIVERSITARIA",
-      "voti": {
-        "totali": 0
-      }
-    },
-    {
-      "nominativo": "RANDAZZO MARYON",
+      "nominativo": "CALVO NICOLETTA",
       "lista": "Oltre DSPS",
       "voti": {
-        "totali": 12
+        "totali": 9,
+        "seggio_telematico": 9
+      }
+    },
+    {
+      "nominativo": "BRANCATO GLORIA CARMELA LUCIA",
+      "lista": "Oltre DSPS",
+      "voti": {
+        "totali": 9,
+        "seggio_telematico": 9
+      }
+    },
+    {
+      "nominativo": "MACAUDA ANDREA",
+      "lista": "Oltre DSPS",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
       }
     },
     {
       "nominativo": "SPOTO MARINA",
       "lista": "Oltre DSPS",
       "voti": {
-        "totali": 1
+        "totali": 1,
+        "seggio_telematico": 1
       }
     },
     {
-      "nominativo": "MESSINA ALESSIA LETICIA",
+      "nominativo": "MESSINA ALESSIA LETIZIA",
       "lista": "Oltre DSPS",
       "voti": {
-        "totali": 3
+        "totali": 1,
+        "seggio_telematico": 1
       }
     },
     {
-      "nominativo": "MACALIDA ANDREA",
-      "lista": "Oltre DSPS",
-      "voti": {
-        "totali": 0
-      }
-    },
-    {
-      "nominativo": "BRANCATO GLORIA CARMELA CUCIR",
-      "lista": "Oltre DSPS",
-      "voti": {
-        "totali": 0
-      }
-    },
-    {
-      "nominativo": "SAKDUALI GOUFRAN",
+      "nominativo": "OLINDO CHIARA",
       "lista": "WE LOVE UNICT",
       "voti": {
-        "totali": 0
+        "totali": 4,
+        "seggio_telematico": 4
       }
     },
     {
-      "nominativo": "CONIGLIELLO FRANCESCA",
+      "nominativo": "ZITELLI LUCREZIA",
       "lista": "WE LOVE UNICT",
       "voti": {
-        "totali": 5
-      }
-    },
-    {
-      "nominativo": "DESTIRANG ALESSANDIRO",
-      "lista": "WE LOVE UNICT",
-      "voti": {
-        "totali": 1
-      }
-    },
-    {
-      "nominativo": "STELLI LUCREZIA",
-      "lista": "WE LOVE UNICT",
-      "voti": {
-        "totali": 2
+        "totali": 2,
+        "seggio_telematico": 2
       }
     },
     {
       "nominativo": "CONTI LUCA",
       "lista": "WE LOVE UNICT",
       "voti": {
-        "totali": 2
+        "totali": 2,
+        "seggio_telematico": 2
       }
     },
     {
-      "nominativo": "BAGUO ANTONINO",
+      "nominativo": "DI STEFANO ALESSANDRO",
       "lista": "WE LOVE UNICT",
       "voti": {
-        "totali": 0
+        "totali": 1,
+        "seggio_telematico": 1
       }
     },
     {
-      "nominativo": "DE CARD ANISELO",
+      "nominativo": "SAKOUALI GOUFRAN",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "BAGLIO ANTONINO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "DE CARO ANGELO",
       "lista": "Arcadia",
       "voti": {
-        "totali": 18
+        "totali": 18,
+        "seggio_telematico": 18
+      }
+    },
+    {
+      "nominativo": "STIMOLI ANASTASIA",
+      "lista": "Arcadia",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
       }
     },
     {
       "nominativo": "CAPPELLO CLAUDIA",
       "lista": "Arcadia",
       "voti": {
-        "totali": 0
+        "totali": 0,
+        "seggio_telematico": 0
       }
     },
     {
-      "nominativo": "SALLEME HULIA",
+      "nominativo": "SALLEMI GIULIA",
       "lista": "Arcadia",
       "voti": {
-        "totali": 0
+        "totali": 0,
+        "seggio_telematico": 0
       }
     },
     {
-      "nominativo": "CHRLANDO ANTONIO CLAUDIG FILIPPO",
+      "nominativo": "ORLANDO ANTONIO CLAUDIO FILIPPO",
       "lista": "Arcadia",
       "voti": {
-        "totali": 0
+        "totali": 0,
+        "seggio_telematico": 0
       }
     },
     {
-      "nominativo": "INVINCIBLE VALERIO",
+      "nominativo": "INVINCIBILE VALERIO",
       "lista": "Arcadia",
       "voti": {
-        "totali": 0
+        "totali": 0,
+        "seggio_telematico": 0
       }
     },
     {
-      "nominativo": "DAIDOINE LIBRERNIC",
+      "nominativo": "DAIDONE LORENZO",
       "lista": "Arcadia",
       "voti": {
-        "totali": 0
-      }
-    },
-    {
-      "nominativo": "STIMOU ANASTASIA",
-      "lista": "Arcadia",
-      "voti": {
-        "totali": 0
-      }
-    },
-    {
-      "nominativo": "BALSAMO MICHELA",
-      "lista": "LOVE SOCIOLOGIA",
-      "voti": {
-        "totali": 0
-      }
-    },
-    {
-      "nominativo": "PUTRING FRANCESCO ALBERTO",
-      "lista": "LOVE SOCIOLOGIA",
-      "voti": {
-        "totali": 0
-      }
-    },
-    {
-      "nominativo": "BACIALATI GIORGIA",
-      "lista": "LOVE SOCIOLOGIA",
-      "voti": {
-        "totali": 5
-      }
-    },
-    {
-      "nominativo": "FARINA VANESSA SEBASTIANA",
-      "lista": "LOVE SOCIOLOGIA",
-      "voti": {
-        "totali": 2
-      }
-    },
-    {
-      "nominativo": "VIRZT GIORGIA",
-      "lista": "LOVE SOCIOLOGIA",
-      "voti": {
-        "totali": 1
-      }
-    },
-    {
-      "nominativo": "MOOLO GHISEPPE PIO",
-      "lista": "LOVE SOCIOLOGIA",
-      "voti": {
-        "totali": 1
+        "totali": 0,
+        "seggio_telematico": 0
       }
     },
     {
       "nominativo": "DI SALVO NICOLE",
       "lista": "LOVE SOCIOLOGIA",
       "voti": {
-        "totali": 5
+        "totali": 5,
+        "seggio_telematico": 5
+      }
+    },
+    {
+      "nominativo": "FARINA VANESSA SEBASTIANA",
+      "lista": "LOVE SOCIOLOGIA",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "MIDOLO GIUSEPPE PIO",
+      "lista": "LOVE SOCIOLOGIA",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "BALSAMO MICHELA",
+      "lista": "LOVE SOCIOLOGIA",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "PUTRINO FRANCESCO ALBERTO",
+      "lista": "LOVE SOCIOLOGIA",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "BADALATI GIORGIA",
+      "lista": "LOVE SOCIOLOGIA",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "VIRZI' GIORGIA",
+      "lista": "LOVE SOCIOLOGIA",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
       }
     }
-  ]
+  ],
+  "dipartimento": "SOCIOLOGIA E SERVIZIO SOCIALE-L-40-Laurea Triennale (D.M.270/2004)",
+  "seggi_da_assegnare": "8",
+  "quoziente": 26.875,
+  "votanti": {
+    "totali": 223,
+    "percentuale": 36.26,
+    "seggio_n_telematico": 223
+  },
+  "elettori": {
+    "totali": 615,
+    "seggio_n_telematico": 615
+  }
 }

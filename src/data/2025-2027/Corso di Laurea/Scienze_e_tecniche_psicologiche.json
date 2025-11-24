@@ -1,6 +1,4 @@
 {
-  "dipartimento": "SCIENZE E TECNICHE PSICOLOGICHE-L-24-Laurea Triennale (D.M.270/2004)",
-  "seggi_da_assegnare": "6",
   "schede": {
     "bianche": {
       "totali": 18,
@@ -13,41 +11,31 @@
       "totali": 0
     }
   },
-  "votanti": {
-    "totali": 290,
-    "percentuale": 24.77,
-    "seggio_n_telematico": 290
-  },
-  "elettori": {
-    "totali": 1171,
-    "seggio_n_telematico": 1171
-  },
-  "quoziente": 45.3333,
   "liste": [
     {
       "nome": "Azione Universitaria",
       "seggi": {
-        "seggi_pieni": "0",
-        "resti": "37.0",
+        "seggi_pieni": "-",
+        "resti": "37,0",
         "seggi_ai_resti": "1",
         "seggi_totali": "1"
       },
       "voti": {
-        "totali": 37,
-        "seggio_telematico": 37
+        "totali": "37",
+        "seggio_telematico": "37"
       }
     },
     {
       "nome": "SUPPORTO STUDENTI",
       "seggi": {
-        "seggi_pieni": "0",
+        "seggi_pieni": "-",
         "resti": "33,0",
         "seggi_ai_resti": "1",
         "seggi_totali": "1"
       },
       "voti": {
-        "totali": 33,
-        "seggio_telematico": 33
+        "totali": "33",
+        "seggio_telematico": "33"
       }
     },
     {
@@ -59,34 +47,34 @@
         "seggi_totali": "2"
       },
       "voti": {
-        "totali": 107,
-        "seggio_telematico": 107
+        "totali": "107",
+        "seggio_telematico": "107"
       }
     },
     {
       "nome": "Koiné",
       "seggi": {
         "seggi_pieni": "1",
-        "resti": "22.7",
+        "resti": "22,7",
         "seggi_ai_resti": "0",
         "seggi_totali": "1"
       },
       "voti": {
-        "totali": 68,
-        "seggio_telematico": 68
+        "totali": "68",
+        "seggio_telematico": "68"
       }
     },
     {
       "nome": "DISFOR Nike",
       "seggi": {
-        "seggi_pieni": "0",
+        "seggi_pieni": "-",
         "resti": "27,0",
         "seggi_ai_resti": "1",
         "seggi_totali": "1"
       },
       "voti": {
-        "totali": 27,
-        "seggio_telematico": 27
+        "totali": "27",
+        "seggio_telematico": "27"
       }
     },
     {
@@ -98,49 +86,49 @@
       "nominativo": "MESSINA GIULIA",
       "lista": "Azione Universitaria",
       "voti": {
-        "totali": 28
-      },
-      "stato": "ELETTO"
+        "totali": 28,
+        "seggio_telematico": 28
+      }
     },
     {
       "nominativo": "COSTANTINO MICHELANGELO",
       "lista": "SUPPORTO STUDENTI",
       "voti": {
-        "totali": 22
-      },
-      "stato": "ELETTO"
+        "totali": 22,
+        "seggio_telematico": 22
+      }
     },
     {
       "nominativo": "CUTRONA ANTONINO CARLO",
       "lista": "CREDIAMOCI",
       "voti": {
-        "totali": 54
-      },
-      "stato": "ELETTO"
+        "totali": 54,
+        "seggio_telematico": 54
+      }
     },
     {
       "nominativo": "COCUZZA RUBINO VIRGINIA NOEMI",
       "lista": "CREDIAMOCI",
       "voti": {
-        "totali": 30
-      },
-      "stato": "ELETTO"
+        "totali": 30,
+        "seggio_telematico": 30
+      }
     },
     {
       "nominativo": "MURGO AURORA GABRIELLA",
       "lista": "Koiné",
       "voti": {
-        "totali": 45
-      },
-      "stato": "ELETTO"
+        "totali": 45,
+        "seggio_telematico": 45
+      }
     },
     {
       "nominativo": "ROSSO ALESSANDRA",
       "lista": "DISFOR Nike",
       "voti": {
-        "totali": 11
-      },
-      "stato": "ELETTO"
+        "totali": 11,
+        "seggio_telematico": 11
+      }
     }
   ],
   "non_eletti": [
@@ -148,134 +136,165 @@
       "nominativo": "CARUSO MICHELA",
       "lista": "Azione Universitaria",
       "voti": {
-        "totali": 3
+        "totali": 3,
+        "seggio_telematico": 3
       }
     },
     {
       "nominativo": "RUGGIERO FLAVIA MARIAGRAZIA RITA",
       "lista": "Azione Universitaria",
       "voti": {
-        "totali": 3
+        "totali": 3,
+        "seggio_telematico": 3
       }
     },
     {
       "nominativo": "PAPPALARDO ESTER",
       "lista": "Azione Universitaria",
       "voti": {
-        "totali": 1
+        "totali": 1,
+        "seggio_telematico": 1
       }
     },
     {
       "nominativo": "LO RE MAYA",
       "lista": "Azione Universitaria",
       "voti": {
-        "totali": 1
-      }
-    },
-    {
-      "nominativo": "ORTISI SERENA",
-      "lista": "SUPPORTO STUDENTI",
-      "voti": {
-        "totali": 8
+        "totali": 1,
+        "seggio_telematico": 1
       }
     },
     {
       "nominativo": "LO TAURO VALERIA",
       "lista": "SUPPORTO STUDENTI",
       "voti": {
-        "totali": 3
+        "totali": 3,
+        "seggio_telematico": 3
+      }
+    },
+    {
+      "nominativo": "ORTISI SERENA",
+      "lista": "SUPPORTO STUDENTI",
+      "voti": {
+        "totali": 8,
+        "seggio_telematico": 8
       }
     },
     {
       "nominativo": "RENNA ASIA",
       "lista": "SUPPORTO STUDENTI",
       "voti": {
-        "totali": 0
-      }
-    },
-    {
-      "nominativo": "CASTRO SOFIA",
-      "lista": "CREDIAMOCI",
-      "voti": {
-        "totali": 16
-      }
-    },
-    {
-      "nominativo": "LIZZOLI ALFREDO ALESSANDRO",
-      "lista": "CREDIAMOCI",
-      "voti": {
-        "totali": 2
-      }
-    },
-    {
-      "nominativo": "ASCOLI LUDOVICA FRANCESCA",
-      "lista": "CREDIAMOCI",
-      "voti": {
-        "totali": 2
+        "totali": 0,
+        "seggio_telematico": 0
       }
     },
     {
       "nominativo": "DE GIORGI SILVIA MARIA",
       "lista": "CREDIAMOCI",
       "voti": {
-        "totali": 0
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "LIZZOLI ALFREDO ALESSANDRO",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "CASTRO SOFIA",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 16,
+        "seggio_telematico": 16
+      }
+    },
+    {
+      "nominativo": "ASCOLI LUDOVICA FRANCESCA",
+      "lista": "CREDIAMOCI",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "SCHILIRÒ ANNALAURA",
+      "lista": "Koiné",
+      "voti": {
+        "totali": 5,
+        "seggio_telematico": 5
       }
     },
     {
       "nominativo": "REGOLO MARTINO",
       "lista": "Koiné",
       "voti": {
-        "totali": 9
-      }
-    },
-    {
-      "nominativo": "SCHILIRO ANNALAURA",
-      "lista": "Koiné",
-      "voti": {
-        "totali": 5
+        "totali": 9,
+        "seggio_telematico": 9
       }
     },
     {
       "nominativo": "URZI MARTINA",
       "lista": "Koiné",
       "voti": {
-        "totali": 3
+        "totali": 3,
+        "seggio_telematico": 3
       }
     },
     {
       "nominativo": "SCOLA DANILO",
       "lista": "DISFOR Nike",
       "voti": {
-        "totali": 5
+        "totali": 5,
+        "seggio_telematico": 5
+      }
+    },
+    {
+      "nominativo": "FOTI DESIRÈ",
+      "lista": "DISFOR Nike",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
       }
     },
     {
       "nominativo": "TRUGLIO GIORGIA",
       "lista": "DISFOR Nike",
       "voti": {
-        "totali": 5
-      }
-    },
-    {
-      "nominativo": "SCANDURRA FEDERICA",
-      "lista": "DISFOR Nike",
-      "voti": {
-        "totali": 3
+        "totali": 5,
+        "seggio_telematico": 5
       }
     },
     {
       "nominativo": "SAPIA MARTINA MARIA",
       "lista": "DISFOR Nike",
       "voti": {
-        "totali": 1
+        "totali": 1,
+        "seggio_telematico": 1
       }
     },
     {
-      "nominativo": "FOTI DESIRE",
+      "nominativo": "SCANDURRA FEDERICA",
       "lista": "DISFOR Nike",
       "voti": {
-        "totali": 0
+        "totali": 3,
+        "seggio_telematico": 3
       }
     }
-  ]
+  ],
+  "dipartimento": "SCIENZE E TECNICHE PSICOLOGICHE-L-24-Laurea Triennale (D.M.270/2004)",
+  "seggi_da_assegnare": "6",
+  "quoziente": 45.3333,
+  "votanti": {
+    "totali": 290,
+    "percentuale": 24.77,
+    "seggio_n_telematico": 290
+  },
+  "elettori": {
+    "totali": 1171,
+    "seggio_n_telematico": 1171
+  }
 }

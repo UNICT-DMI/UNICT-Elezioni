@@ -1,6 +1,4 @@
 {
-  "dipartimento": "STORIA, POLITICA E RELAZIONI INTERNAZIONALI-L-36-Laurea Triennale (D.M.270/2004)",
-  "seggi_da_assegnare": "5",
   "schede": {
     "bianche": {
       "totali": 6,
@@ -13,32 +11,22 @@
       "totali": 0
     }
   },
-  "votanti": {
-    "totali": 243,
-    "percentuale": 43.01,
-    "seggio_n_telematico": 243
-  },
-  "elettori": {
-    "totali": 565,
-    "seggio_n_telematico": 565
-  },
-  "quoziente": 47.4,
   "liste": [
     {
       "nome": "AZIONE UNIVERSITARIA",
       "seggi": {
-        "seggi_pieni": "0",
-        "resti": "11.0",
+        "seggi_pieni": "-",
+        "resti": "11,0",
         "seggi_ai_resti": "0",
-        "seggi_totali": "0"
+        "seggi_totali": "-"
       },
       "voti": {
-        "totali": 11,
-        "seggio_telematico": 11
+        "totali": "11",
+        "seggio_telematico": "11"
       }
     },
     {
-      "nome": "Koinè",
+      "nome": "Kainè",
       "seggi": {
         "seggi_pieni": "1",
         "resti": "7,6",
@@ -46,8 +34,8 @@
         "seggi_totali": "1"
       },
       "voti": {
-        "totali": 55,
-        "seggio_telematico": 55
+        "totali": "55",
+        "seggio_telematico": "55"
       }
     },
     {
@@ -59,73 +47,73 @@
         "seggi_totali": "1"
       },
       "voti": {
-        "totali": 71,
-        "seggio_telematico": 71
+        "totali": "71",
+        "seggio_telematico": "71"
       }
     },
     {
       "nome": "WE LOVE UNICT",
       "seggi": {
-        "seggi_pieni": "0",
+        "seggi_pieni": "-",
         "resti": "32,0",
         "seggi_ai_resti": "1",
         "seggi_totali": "1"
       },
       "voti": {
-        "totali": 32,
-        "seggio_telematico": 32
+        "totali": "32",
+        "seggio_telematico": "32"
       }
     },
     {
       "nome": "CREDIAMOCI",
       "seggi": {
-        "seggi_pieni": "0",
+        "seggi_pieni": "-",
         "resti": "3,0",
         "seggi_ai_resti": "0",
-        "seggi_totali": "0"
+        "seggi_totali": "-"
       },
       "voti": {
-        "totali": 3,
-        "seggio_telematico": 3
+        "totali": "3",
+        "seggio_telematico": "3"
       }
     },
     {
       "nome": "Fronte Gioventù Comunista",
       "seggi": {
-        "seggi_pieni": "0",
+        "seggi_pieni": "-",
         "resti": "9,0",
         "seggi_ai_resti": "0",
-        "seggi_totali": "0"
+        "seggi_totali": "-"
       },
       "voti": {
-        "totali": 9,
-        "seggio_telematico": 9
+        "totali": "9",
+        "seggio_telematico": "9"
       }
     },
     {
       "nome": "Arcadia",
       "seggi": {
-        "seggi_pieni": "0",
+        "seggi_pieni": "-",
         "resti": "29,0",
         "seggi_ai_resti": "1",
         "seggi_totali": "1"
       },
       "voti": {
-        "totali": 29,
-        "seggio_telematico": 29
+        "totali": "29",
+        "seggio_telematico": "29"
       }
     },
     {
       "nome": "LOVE RELAZIONI INTERNAZIONALI",
       "seggi": {
-        "seggi_pieni": "0",
+        "seggi_pieni": "-",
         "resti": "27,0",
         "seggi_ai_resti": "1",
         "seggi_totali": "1"
       },
       "voti": {
-        "totali": 27,
-        "seggio_telematico": 27
+        "totali": "27",
+        "seggio_telematico": "27"
       }
     },
     {
@@ -134,228 +122,290 @@
   ],
   "eletti": [
     {
-      "nominativo": "BONGIOVANNI GIUSEPPE",
-      "lista": "Koinè",
+      "nominativo": "BOULDJENET AHLAM",
+      "lista": "Kainè",
       "voti": {
-        "totali": 31
-      },
-      "stato": "ELETTO"
+        "totali": 31,
+        "seggio_telematico": 31
+      }
     },
     {
       "nominativo": "GIORDANO EMANUELE ROSARIO FRANCESCO",
       "lista": "Oltre DSPS",
       "voti": {
-        "totali": 30
-      },
-      "stato": "ELETTO"
+        "totali": 30,
+        "seggio_telematico": 30
+      }
     },
     {
       "nominativo": "PERTICONE CONCETTA",
       "lista": "WE LOVE UNICT",
       "voti": {
-        "totali": 24
-      },
-      "stato": "ELETTO"
+        "totali": 24,
+        "seggio_telematico": 24
+      }
     },
     {
-      "nominativo": "CALABRIA CHIARA",
-      "lista": "Arcadia",
-      "voti": {
-        "totali": 8
-      },
-      "stato": "ELETTO"
-    },
-    {
-      "nominativo": "FERRARA NOEMI",
+      "nominativo": "TAVORMINA GERLANDO GABRIELE",
       "lista": "LOVE RELAZIONI INTERNAZIONALI",
       "voti": {
-        "totali": 15
-      },
-      "stato": "ELETTO"
+        "totali": 19,
+        "seggio_telematico": 19
+      }
+    },
+    {
+      "nominativo": "CASELLA SIMONE",
+      "lista": "Arcadia",
+      "voti": {
+        "totali": 13,
+        "seggio_telematico": 13
+      }
     }
   ],
   "non_eletti": [
     {
-      "nominativo": "BARBAGALLO ALICE",
-      "lista": "AZIONE UNIVERSITARIA",
+      "nominativo": "LICCIARDELLO ELENA SILVIA",
+      "lista": "Oltre DSPS",
       "voti": {
-        "totali": 8
-      }
-    },
-    {
-      "nominativo": "CATANIA FABIOLA",
-      "lista": "AZIONE UNIVERSITARIA",
-      "voti": {
-        "totali": 2
-      }
-    },
-    {
-      "nominativo": "MICALIZZI SALVATORE",
-      "lista": "AZIONE UNIVERSITARIA",
-      "voti": {
-        "totali": 0
-      }
-    },
-    {
-      "nominativo": "TIRRELLA GIULIA",
-      "lista": "AZIONE UNIVERSITARIA",
-      "voti": {
-        "totali": 1
-      }
-    },
-    {
-      "nominativo": "LUPICA CRISTINA",
-      "lista": "Koinè",
-      "voti": {
-        "totali": 6
-      }
-    },
-    {
-      "nominativo": "FRANCIA GIORGIO",
-      "lista": "Koinè",
-      "voti": {
-        "totali": 3
-      }
-    },
-    {
-      "nominativo": "BRANCA GIUSEPPE",
-      "lista": "Koinè",
-      "voti": {
-        "totali": 4
+        "totali": 16,
+        "seggio_telematico": 16
       }
     },
     {
       "nominativo": "PAPALEO NINA",
       "lista": "Oltre DSPS",
       "voti": {
-        "totali": 18
+        "totali": 18,
+        "seggio_telematico": 18
       }
     },
     {
-      "nominativo": "AIELLO VALERIA",
-      "lista": "Oltre DSPS",
+      "nominativo": "GIUDICE SOFIA",
+      "lista": "Kainè",
       "voti": {
-        "totali": 4
+        "totali": 10,
+        "seggio_telematico": 10
       }
     },
     {
-      "nominativo": "LICCIARDELLO ELENA SILVIA",
-      "lista": "Oltre DSPS",
+      "nominativo": "RUSSO GIUSEPPE",
+      "lista": "AZIONE UNIVERSITARIA",
       "voti": {
-        "totali": 16
-      }
-    },
-    {
-      "nominativo": "MISSERI BENEDETTA CLARA",
-      "lista": "Oltre DSPS",
-      "voti": {
-        "totali": 2
+        "totali": 8,
+        "seggio_telematico": 8
       }
     },
     {
       "nominativo": "SCIRE DARIO",
       "lista": "WE LOVE UNICT",
       "voti": {
-        "totali": 8
+        "totali": 8,
+        "seggio_telematico": 8
       }
     },
     {
-      "nominativo": "MACCA FLAVIO",
-      "lista": "WE LOVE UNICT",
+      "nominativo": "RUSSO GAETANO MARIA",
+      "lista": "Fronte Gioventù Comunista",
       "voti": {
-        "totali": 0
+        "totali": 7,
+        "seggio_telematico": 7
       }
     },
     {
-      "nominativo": "COCO MARTA",
-      "lista": "WE LOVE UNICT",
+      "nominativo": "MACCARRONE ANDREA",
+      "lista": "Arcadia",
       "voti": {
-        "totali": 0
+        "totali": 6,
+        "seggio_telematico": 6
       }
     },
     {
-      "nominativo": "LA TORRE DOMENICO",
-      "lista": "WE LOVE UNICT",
+      "nominativo": "CANNIA GIUSEPPE JACOPO",
+      "lista": "Kainè",
       "voti": {
-        "totali": 0
+        "totali": 6,
+        "seggio_telematico": 6
       }
     },
     {
-      "nominativo": "INNUSO ALBERTO PIO",
-      "lista": "CREDIAMOCI",
+      "nominativo": "GANGI DIMITRI",
+      "lista": "Arcadia",
       "voti": {
-        "totali": 1
+        "totali": 5,
+        "seggio_telematico": 5
+      }
+    },
+    {
+      "nominativo": "MAZZARISI LIVIA MARIA",
+      "lista": "Kainè",
+      "voti": {
+        "totali": 4,
+        "seggio_telematico": 4
+      }
+    },
+    {
+      "nominativo": "AIELLO VALERIA",
+      "lista": "Oltre DSPS",
+      "voti": {
+        "totali": 4,
+        "seggio_telematico": 4
+      }
+    },
+    {
+      "nominativo": "LAVACCARA SIMONE GIUSEPPE",
+      "lista": "LOVE RELAZIONI INTERNAZIONALI",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
+      }
+    },
+    {
+      "nominativo": "CALANDRA GABRIELE",
+      "lista": "Arcadia",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
+      }
+    },
+    {
+      "nominativo": "RAGUSA GIULIA",
+      "lista": "Kainè",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
+      }
+    },
+    {
+      "nominativo": "MONTALBANO GIULIO",
+      "lista": "LOVE RELAZIONI INTERNAZIONALI",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "LOMBARDO ANDREA MARIA",
+      "lista": "LOVE RELAZIONI INTERNAZIONALI",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
       }
     },
     {
       "nominativo": "CAZACU ANASTASIA CRISTINA",
       "lista": "CREDIAMOCI",
       "voti": {
-        "totali": 2
+        "totali": 2,
+        "seggio_telematico": 2
       }
     },
     {
-      "nominativo": "MACCARONE FRANCESCO",
+      "nominativo": "TESTA' ALESSIA",
       "lista": "Fronte Gioventù Comunista",
       "voti": {
-        "totali": 1
+        "totali": 2,
+        "seggio_telematico": 2
       }
     },
     {
-      "nominativo": "TORNITORE GIOVANNI",
-      "lista": "Fronte Gioventù Comunista",
+      "nominativo": "LACANÀ MATTIA",
+      "lista": "AZIONE UNIVERSITARIA",
       "voti": {
-        "totali": 3
+        "totali": 2,
+        "seggio_telematico": 2
       }
     },
     {
-      "nominativo": "RUSSO ROSA",
-      "lista": "Fronte Gioventù Comunista",
+      "nominativo": "MISSERI BENEDETTA CLARA",
+      "lista": "Oltre DSPS",
       "voti": {
-        "totali": 5
+        "totali": 2,
+        "seggio_telematico": 2
       }
     },
     {
-      "nominativo": "CALABRIA MIRIAM",
-      "lista": "Arcadia",
+      "nominativo": "INNUSO ALBERTO PIO",
+      "lista": "CREDIAMOCI",
       "voti": {
-        "totali": 2
+        "totali": 1,
+        "seggio_telematico": 1
       }
     },
     {
-      "nominativo": "GIRGENTI CHIARA",
-      "lista": "Arcadia",
-      "voti": {
-        "totali": 0
-      }
-    },
-    {
-      "nominativo": "BOMBARDIERE FEDERICA",
-      "lista": "Arcadia",
-      "voti": {
-        "totali": 1
-      }
-    },
-    {
-      "nominativo": "LUCCHETTI NOEMI PIA",
-      "lista": "Arcadia",
-      "voti": {
-        "totali": 0
-      }
-    },
-    {
-      "nominativo": "LAZZARO MARTINA",
+      "nominativo": "IROS AZZURRA MARIA",
       "lista": "LOVE RELAZIONI INTERNAZIONALI",
       "voti": {
-        "totali": 12
+        "totali": 1,
+        "seggio_telematico": 1
       }
     },
     {
-      "nominativo": "CATANIA VERONICA",
-      "lista": "LOVE RELAZIONI INTERNAZIONALI",
+      "nominativo": "FOTI GIOSUE' GEROLAMO",
+      "lista": "Arcadia",
       "voti": {
-        "totali": 0
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "MACCA FLAVIO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "COCO MARTA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "LA TORRE DOMENICO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "BALLAERA GIOVANNI",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "D'AMICO FABRIZIO",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "ARMERI MARCO",
+      "lista": "AZIONE UNIVERSITARIA",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
       }
     }
-  ]
+  ],
+  "dipartimento": "Corso di Laurea in Storia, Politica e Relazioni Internazionali (L-36)",
+  "seggi_da_assegnare": "5",
+  "quoziente": 47.4,
+  "votanti": {
+    "totali": 243,
+    "percentuale": 43.01,
+    "seggio_n_telematico": 243
+  },
+  "elettori": {
+    "totali": 565,
+    "seggio_n_telematico": 565
+  }
 }
