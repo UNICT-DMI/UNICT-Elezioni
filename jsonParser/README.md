@@ -1,8 +1,14 @@
 # UNICT-Elezioni parser
 
-Note: today it's better to use Gemini and ask for extracting the data from the PDF.
+### UPDATE 2025
 
-------
+Today it's better to use Gemini and ask for extracting the data from the PDF, one of the best way of doing this, is:
+
+- convert the PDF to text using `pdftotext input.pdf`
+- convert the PDF to images using `pdftoppm input.pdf outputname -png -rx 300 -ry 300`
+- send to Gemini 3 all the files PDF, txt and png asking to generate a JSON file including the data
+
+---
 
 ## Table of contents
 
@@ -11,27 +17,21 @@ Note: today it's better to use Gemini and ask for extracting the data from the P
 - **[Usage](#usage)**
 - **[Usage with docker](#usage-with-docker)**
 
-------
-
-
+---
 
 ## Json Parser
 
 Json Parser allows you to create JSON files of the elections concerning the University of Catania.
 
-
-
 ## Requirements
 
 If you don't want to install anything go **[here](#usage-with-docker)**.
 
-- **[lxml](https://pypi.org/project/lxml/)** 
+- **[lxml](https://pypi.org/project/lxml/)**
 
   ```bash
   pip install lxml
   ```
-
-
 
 - **[pdftotext](https://pypi.org/project/pdftotext/)**
 
@@ -49,28 +49,24 @@ If you don't want to install anything go **[here](#usage-with-docker)**.
       sudo yum install gcc-c++ pkgconfig poppler-cpp-devel python3-devel
       ```
 
-    
-
     ```bash
     pip install pdftotext
     ```
 
-
-
 ## Usage
 
-- *parser.py*
+- _parser.py_
 
   ```bash
   python3 parser.py $fileName [0|1|2|3|other]
   ```
 
-  `$fileName` is the name of the file from which you want extract data. 
+  `$fileName` is the name of the file from which you want extract data.
 
   `[0|1|2|3|other]` indicates the type of data to parse.
 
   You shall choose:
-  
+
   · `0` if you want to extract departments and CdL with a number of student greater than 500.
 
   · `1` if you want to extract CdL with a number of student fewer than 500 or PhD student elections.
@@ -78,12 +74,10 @@ If you don't want to install anything go **[here](#usage-with-docker)**.
   · `2` if you want to extract Medicine election.
 
   · `3` if you want to extract CNSU.
-  
+
   · `other` if you want to extract political body.
 
-
-
-- *create-json.py*
+- _create-json.py_
 
   ```bash
   python3 create-json.py $url $start_directory $parser_directory
@@ -96,9 +90,7 @@ If you don't want to install anything go **[here](#usage-with-docker)**.
 
   `$start_directory` is the directory where you want to store all JSON files.
 
-  `$parser_directory` is the directory where is stored *parser.py*.
-
-
+  `$parser_directory` is the directory where is stored _parser.py_.
 
 ## Usage with docker
 
@@ -114,9 +106,7 @@ otherwise, you can run this command:
 docker build --tag unict-elezioni/parser .
 ```
 
-
-
-- *parser.py*
+- _parser.py_
 
   ```bash
   docker run -itv $path/:/etc/parser/disk unict-elezioni/parser ./code/parser.py ./disk/$fileName [0|1|2|3|other]
@@ -124,7 +114,7 @@ docker build --tag unict-elezioni/parser .
 
   `$path` is where you want to map the docker volume and where is stored the `$fileName`.
 
-  `$fileName` is the name of the file from which you want extract data. 
+  `$fileName` is the name of the file from which you want extract data.
 
   `[0|1|2|3|other]` indicates the type of data to parse.
 
@@ -137,12 +127,10 @@ docker build --tag unict-elezioni/parser .
   · `2` if you want to extract Medicine election.
 
   · `3` if you want to extract CNSU.
-  
+
   · `other` if you want to extract political body.
 
-
-
-- *create-parser.py*
+- _create-parser.py_
 
   ```bash
   docker run -itv $path/:/etc/parser/disk unict-elezioni/parser ./code/create-json.py $url ./disk ./code
@@ -154,4 +142,3 @@ docker build --tag unict-elezioni/parser .
 
   - https://www.unict.it/it/ateneo/elezioni-studentesche-biennio-20182020
   - https://www.unict.it/ateneo/risultati-provvisori
-
