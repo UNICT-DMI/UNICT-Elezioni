@@ -1,6 +1,4 @@
 {
-  "dipartimento": "INGEGNERIA INFORMATICA-L-8-Laurea Triennale (D.M.270/2004)",
-  "seggi_da_assegnare": "9",
   "schede": {
     "bianche": {
       "totali": 13,
@@ -13,106 +11,96 @@
       "totali": 0
     }
   },
-  "votanti": {
-    "totali": 342,
-    "percentuale": 35.29,
-    "seggio_n_telematico": 342
-  },
-  "elettori": {
-    "totali": 969,
-    "seggio_n_telematico": 969
-  },
-  "quoziente": 36.5556,
   "liste": [
     {
       "nome": "Azione Universitaria",
       "seggi": {
-        "seggi_pieni": "0",
-        "resti": "31.0",
+        "seggi_pieni": "-",
+        "resti": "31,0",
         "seggi_ai_resti": "1",
         "seggi_totali": "1"
       },
       "voti": {
-        "totali": 31,
-        "seggio_telematico": 31
+        "totali": "31",
+        "seggio_telematico": "31"
       }
     },
     {
       "nome": "UNITAS",
       "seggi": {
         "seggi_pieni": "2",
-        "resti": "16.9",
+        "resti": "16,9",
         "seggi_ai_resti": "0",
         "seggi_totali": "2"
       },
       "voti": {
-        "totali": 90,
-        "seggio_telematico": 90
+        "totali": "90",
+        "seggio_telematico": "90"
       }
     },
     {
       "nome": "WE LOVE UNICT",
       "seggi": {
         "seggi_pieni": "1",
-        "resti": "26.4",
+        "resti": "26,4",
         "seggi_ai_resti": "1",
         "seggi_totali": "2"
       },
       "voti": {
-        "totali": 63,
-        "seggio_telematico": 63
+        "totali": "63",
+        "seggio_telematico": "63"
       }
     },
     {
       "nome": "ACTEA",
       "seggi": {
         "seggi_pieni": "1",
-        "resti": "11.4",
+        "resti": "11,4",
         "seggi_ai_resti": "0",
         "seggi_totali": "1"
       },
       "voti": {
-        "totali": 48,
-        "seggio_telematico": 48
+        "totali": "48",
+        "seggio_telematico": "48"
       }
     },
     {
       "nome": "CREDIAMOCI",
       "seggi": {
-        "seggi_pieni": "0",
-        "resti": "20.0",
+        "seggi_pieni": "-",
+        "resti": "20,0",
         "seggi_ai_resti": "1",
         "seggi_totali": "1"
       },
       "voti": {
-        "totali": 20,
-        "seggio_telematico": 20
+        "totali": "20",
+        "seggio_telematico": "20"
       }
     },
     {
       "nome": "IngegneriAttiva",
       "seggi": {
         "seggi_pieni": "1",
-        "resti": "30.4",
+        "resti": "30,4",
         "seggi_ai_resti": "1",
         "seggi_totali": "2"
       },
       "voti": {
-        "totali": 67,
-        "seggio_telematico": 67
+        "totali": "67",
+        "seggio_telematico": "67"
       }
     },
     {
       "nome": "Cambiamento Ingegneria",
       "seggi": {
-        "seggi_pieni": "0",
-        "resti": "10.0",
+        "seggi_pieni": "-",
+        "resti": "10,0",
         "seggi_ai_resti": "0",
-        "seggi_totali": "0"
+        "seggi_totali": "-"
       },
       "voti": {
-        "totali": 10,
-        "seggio_telematico": 10
+        "totali": "10",
+        "seggio_telematico": "10"
       }
     },
     {
@@ -124,257 +112,295 @@
       "nominativo": "BONACCORSO GIUSEPPE ONOFRIO",
       "lista": "Azione Universitaria",
       "voti": {
-        "totali": 16
-      },
-      "stato": "ELETTO"
-    },
-    {
-      "nominativo": "BUSCEMI ANGELO",
-      "lista": "UNITAS",
-      "voti": {
-        "totali": 36
-      },
-      "stato": "ELETTO"
+        "totali": 16,
+        "seggio_telematico": 16
+      }
     },
     {
       "nominativo": "MARTINES FEDERICA",
       "lista": "UNITAS",
       "voti": {
-        "totali": 25
-      },
-      "stato": "ELETTO"
+        "totali": 25,
+        "seggio_telematico": 25
+      }
+    },
+    {
+      "nominativo": "BUSCEMI ANGELO",
+      "lista": "UNITAS",
+      "voti": {
+        "totali": 36,
+        "seggio_telematico": 36
+      }
     },
     {
       "nominativo": "LOMBARDO GABRIELE",
       "lista": "WE LOVE UNICT",
       "voti": {
-        "totali": 14
-      },
-      "stato": "ELETTO (Ex Aequo per l'assegnazione dei 2 seggi di lista)"
+        "totali": 14,
+        "seggio_telematico": 14
+      }
     },
     {
       "nominativo": "PETRONIO GIULIA",
       "lista": "WE LOVE UNICT",
       "voti": {
-        "totali": 14
-      },
-      "stato": "ELETTO (Ex Aequo per l'assegnazione dei 2 seggi di lista)"
+        "totali": 14,
+        "seggio_telematico": 14
+      }
     },
     {
       "nominativo": "ASTUTO NUNZIO",
       "lista": "ACTEA",
       "voti": {
-        "totali": 21
-      },
-      "stato": "ELETTO"
+        "totali": 21,
+        "seggio_telematico": 21
+      }
     },
     {
       "nominativo": "SCANDURA VINCENZO GIUSEPPE PIO",
       "lista": "CREDIAMOCI",
       "voti": {
-        "totali": 17
-      },
-      "stato": "ELETTO"
+        "totali": 17,
+        "seggio_telematico": 17
+      }
     },
     {
       "nominativo": "GAMBINO ANDREA",
       "lista": "IngegneriAttiva",
       "voti": {
-        "totali": 34
-      },
-      "stato": "ELETTO"
+        "totali": 34,
+        "seggio_telematico": 34
+      }
     },
     {
       "nominativo": "SAMARASINGHE MANUJA HARSHAN",
       "lista": "IngegneriAttiva",
       "voti": {
-        "totali": 12
-      },
-      "stato": "ELETTO"
+        "totali": 12,
+        "seggio_telematico": 12
+      }
     }
   ],
   "non_eletti": [
     {
-      "nominativo": "PETRALIA VINCENZO",
+      "nominativo": "ALONGI FRANCESCO CARMELO",
       "lista": "Azione Universitaria",
       "voti": {
-        "totali": 7
+        "totali": 3,
+        "seggio_telematico": 3
       }
     },
     {
       "nominativo": "MICELI ALESSIA",
       "lista": "Azione Universitaria",
       "voti": {
-        "totali": 5
+        "totali": 5,
+        "seggio_telematico": 5
       }
     },
     {
-      "nominativo": "ALONGI FRANCESCO CARMELO",
+      "nominativo": "PETRALIA VINCENZO",
       "lista": "Azione Universitaria",
       "voti": {
-        "totali": 3
-      }
-    },
-    {
-      "nominativo": "SERGI GIUSEPPE MARCO ELICIO",
-      "lista": "UNITAS",
-      "voti": {
-        "totali": 18
+        "totali": 7,
+        "seggio_telematico": 7
       }
     },
     {
       "nominativo": "BIGI GIUSEPPE",
       "lista": "UNITAS",
       "voti": {
-        "totali": 11
+        "totali": 11,
+        "seggio_telematico": 11
+      }
+    },
+    {
+      "nominativo": "SERGI GIUSEPPE MARCO ELICIO",
+      "lista": "UNITAS",
+      "voti": {
+        "totali": 18,
+        "seggio_telematico": 18
       }
     },
     {
       "nominativo": "NICOSIA ENRICO",
       "lista": "WE LOVE UNICT",
       "voti": {
-        "totali": 13
+        "totali": 13,
+        "seggio_telematico": 13
       }
     },
     {
       "nominativo": "DI GRAZIA GABRIELE",
       "lista": "WE LOVE UNICT",
       "voti": {
-        "totali": 8
-      }
-    },
-    {
-      "nominativo": "D'IGNOTI ANDREA",
-      "lista": "WE LOVE UNICT",
-      "voti": {
-        "totali": 5
+        "totali": 8,
+        "seggio_telematico": 8
       }
     },
     {
       "nominativo": "MAUGERI EROS",
       "lista": "WE LOVE UNICT",
       "voti": {
-        "totali": 5
-      }
-    },
-    {
-      "nominativo": "CANNIZZO CHRISTIAN GIUSEPPE",
-      "lista": "WE LOVE UNICT",
-      "voti": {
-        "totali": 2
+        "totali": 5,
+        "seggio_telematico": 5
       }
     },
     {
       "nominativo": "OLIVERI FEDERICO SALVATORE",
       "lista": "WE LOVE UNICT",
       "voti": {
-        "totali": 1
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "D'IGNOTI ANDREA",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 5,
+        "seggio_telematico": 5
+      }
+    },
+    {
+      "nominativo": "CANNIZZO CHRISTIAN GIUSEPPE",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
       }
     },
     {
       "nominativo": "MIRABELLA GIULIANO",
       "lista": "WE LOVE UNICT",
       "voti": {
-        "totali": 0
+        "totali": 0,
+        "seggio_telematico": 0
       }
     },
     {
       "nominativo": "GENTILE FRANCESCO ANDREA",
       "lista": "ACTEA",
       "voti": {
-        "totali": 14
-      }
-    },
-    {
-      "nominativo": "TESTA SILVESTRO",
-      "lista": "ACTEA",
-      "voti": {
-        "totali": 6
-      }
-    },
-    {
-      "nominativo": "GJUZI AUREL",
-      "lista": "ACTEA",
-      "voti": {
-        "totali": 4
-      }
-    },
-    {
-      "nominativo": "ARDIZZONE SALVATORE",
-      "lista": "ACTEA",
-      "voti": {
-        "totali": 2
-      }
-    },
-    {
-      "nominativo": "TRAVAGLIANTI VITTORIO",
-      "lista": "ACTEA",
-      "voti": {
-        "totali": 1
+        "totali": 14,
+        "seggio_telematico": 14
       }
     },
     {
       "nominativo": "GOLISANO ROCCO",
       "lista": "ACTEA",
       "voti": {
-        "totali": 0
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "TRAVAGLIANTI VITTORIO",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "TESTA SILVESTRO",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 6,
+        "seggio_telematico": 6
+      }
+    },
+    {
+      "nominativo": "ARDIZZONE SALVATORE",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
       }
     },
     {
       "nominativo": "GLIOZZO ANTONIO",
       "lista": "ACTEA",
       "voti": {
-        "totali": 0
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "GJUZI AUREL",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 4,
+        "seggio_telematico": 4
       }
     },
     {
       "nominativo": "SCIUTO ADRIANO NUNZIO",
       "lista": "CREDIAMOCI",
       "voti": {
-        "totali": 3
+        "totali": 3,
+        "seggio_telematico": 3
       }
     },
     {
       "nominativo": "GULINO MATTIA",
       "lista": "IngegneriAttiva",
       "voti": {
-        "totali": 6
-      }
-    },
-    {
-      "nominativo": "LENA EDOARDO",
-      "lista": "IngegneriAttiva",
-      "voti": {
-        "totali": 6
-      }
-    },
-    {
-      "nominativo": "QUARANTA SIMONE",
-      "lista": "IngegneriAttiva",
-      "voti": {
-        "totali": 5
+        "totali": 6,
+        "seggio_telematico": 6
       }
     },
     {
       "nominativo": "RAPISARDA ALESSANDRO VITO",
       "lista": "IngegneriAttiva",
       "voti": {
-        "totali": 2
+        "totali": 2,
+        "seggio_telematico": 2
       }
     },
     {
       "nominativo": "GUGLIELMINO FABRIZIO",
       "lista": "IngegneriAttiva",
       "voti": {
-        "totali": 1
+        "totali": 1,
+        "seggio_telematico": 1
       }
     },
     {
-      "nominativo": "ZAPPALA FABIOLA DOMENICA",
+      "nominativo": "LENA EDOARDO",
+      "lista": "IngegneriAttiva",
+      "voti": {
+        "totali": 6,
+        "seggio_telematico": 6
+      }
+    },
+    {
+      "nominativo": "QUARANTA SIMONE",
+      "lista": "IngegneriAttiva",
+      "voti": {
+        "totali": 5,
+        "seggio_telematico": 5
+      }
+    },
+    {
+      "nominativo": "ZAPPALA' FABIOLA DOMENICA",
       "lista": "Cambiamento Ingegneria",
       "voti": {
-        "totali": 9
+        "totali": 9,
+        "seggio_telematico": 9
       }
     }
-  ]
+  ],
+  "dipartimento": "Consiglio del Corso di Laurea in: INGEGNERIA INFORMATICA-L-8-Laurea Triennale (D.M.270/2004)",
+  "seggi_da_assegnare": "9",
+  "quoziente": 36.5556,
+  "votanti": {
+    "totali": 342,
+    "percentuale": 35.29,
+    "seggio_n_telematico": 342
+  },
+  "elettori": {
+    "totali": 969,
+    "seggio_n_telematico": 969
+  }
 }

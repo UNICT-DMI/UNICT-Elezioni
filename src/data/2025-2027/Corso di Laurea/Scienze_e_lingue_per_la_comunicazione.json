@@ -1,6 +1,4 @@
 {
-  "dipartimento": "SCIENZE E LINGUE PER LA COMUNICAZIONE-L-20-Laurea Triennale (D.M.270/2004)",
-  "seggi_da_assegnare": "8",
   "schede": {
     "bianche": {
       "totali": 13,
@@ -13,106 +11,96 @@
       "totali": 0
     }
   },
-  "votanti": {
-    "totali": 288,
-    "percentuale": 25.33,
-    "seggio_n_telematico": 288
-  },
-  "elettori": {
-    "totali": 1137,
-    "seggio_n_telematico": 1137
-  },
-  "quoziente": 34.375,
   "liste": [
     {
       "nome": "INFO DISUM",
       "seggi": {
         "seggi_pieni": "1",
-        "resti": "2.6",
+        "resti": "2,6",
         "seggi_ai_resti": "0",
         "seggi_totali": "1"
       },
       "voti": {
-        "totali": 37,
-        "seggio_telematico": 37
+        "totali": "37",
+        "seggio_telematico": "37"
       }
     },
     {
       "nome": "La Finestra - Liberi Di Scegliere",
       "seggi": {
         "seggi_pieni": "3",
-        "resti": "12.9",
+        "resti": "12,9",
         "seggi_ai_resti": "0",
         "seggi_totali": "3"
       },
       "voti": {
-        "totali": 116,
-        "seggio_telematico": 116
+        "totali": "116",
+        "seggio_telematico": "116"
       }
     },
     {
       "nome": "Primavera",
       "seggi": {
         "seggi_pieni": "1",
-        "resti": "23.6",
+        "resti": "23,6",
         "seggi_ai_resti": "1",
         "seggi_totali": "2"
       },
       "voti": {
-        "totali": 58,
-        "seggio_telematico": 58
+        "totali": "58",
+        "seggio_telematico": "58"
       }
     },
     {
       "nome": "Oltre - LDS",
       "seggi": {
-        "seggi_pieni": "0",
-        "resti": "30.0",
+        "seggi_pieni": "-",
+        "resti": "30,0",
         "seggi_ai_resti": "1",
         "seggi_totali": "1"
       },
       "voti": {
-        "totali": 30,
-        "seggio_telematico": 30
+        "totali": "30",
+        "seggio_telematico": "30"
       }
     },
     {
       "nome": "WE LOVE UNICT",
       "seggi": {
-        "seggi_pieni": "0",
-        "resti": "11.0",
+        "seggi_pieni": "-",
+        "resti": "11,0",
         "seggi_ai_resti": "0",
-        "seggi_totali": "0"
+        "seggi_totali": "-"
       },
       "voti": {
-        "totali": 11,
-        "seggio_telematico": 11
+        "totali": "11",
+        "seggio_telematico": "11"
       }
     },
     {
       "nome": "DISUM Nike",
       "seggi": {
-        "seggi_pieni": "0",
-        "resti": "10.0",
+        "seggi_pieni": "-",
+        "resti": "10,0",
         "seggi_ai_resti": "0",
-        "seggi_totali": "0"
+        "seggi_totali": "-"
       },
       "voti": {
-        "totali": 10,
-        "seggio_telematico": 10
+        "totali": "10",
+        "seggio_telematico": "10"
       }
     },
     {
       "nome": "LIBERTAS-CAMBIAMENTO",
       "seggi": {
-        "seggi_pieni": "0",
-        "resti": "13.0",
+        "seggi_pieni": "-",
+        "resti": "13,0",
         "seggi_ai_resti": "1",
         "seggi_totali": "1"
       },
       "voti": {
-        "totali": 13,
-        "seggio_telematico": 13
+        "totali": "13",
+        "seggio_telematico": "13"
       }
     },
     {
@@ -121,287 +109,362 @@
   ],
   "eletti": [
     {
-      "nominativo": "CAMMARATA TRONO PAOLA",
+      "nominativo": "RUFFINO NADIA",
       "lista": "INFO DISUM",
       "voti": {
-        "totali": 40
-      },
-      "stato": "ELETTO"
+        "totali": 23,
+        "seggio_telematico": 23
+      }
     },
     {
-      "nominativo": "DI MAURO ELENA",
+      "nominativo": "ROBUSTO MARTA MARIA",
       "lista": "La Finestra - Liberi Di Scegliere",
       "voti": {
-        "totali": 35
-      },
-      "stato": "ELETTO"
+        "totali": 35,
+        "seggio_telematico": 35
+      }
     },
     {
-      "nominativo": "PRESTIPINO MIRIAM",
+      "nominativo": "VITALE RAFFAELE SALVATORE",
       "lista": "La Finestra - Liberi Di Scegliere",
       "voti": {
-        "totali": 34
-      },
-      "stato": "ELETTO"
+        "totali": 34,
+        "seggio_telematico": 34
+      }
     },
     {
-      "nominativo": "BARBARINO MARTINA",
+      "nominativo": "ZUCCARELLO CLAUDIA MARIA",
       "lista": "La Finestra - Liberi Di Scegliere",
       "voti": {
-        "totali": 18
-      },
-      "stato": "ELETTO"
+        "totali": 18,
+        "seggio_telematico": 18
+      }
+    },
+    {
+      "nominativo": "CAMMARATA TRONO PAOLA",
+      "lista": "Primavera",
+      "voti": {
+        "totali": 40,
+        "seggio_telematico": 40
+      }
     },
     {
       "nominativo": "OCCHIPINTI RACHELE",
       "lista": "Primavera",
       "voti": {
-        "totali": 15
-      },
-      "stato": "ELETTO"
-    },
-    {
-      "nominativo": "SACCONE GIULIA",
-      "lista": "Primavera",
-      "voti": {
-        "totali": 14
-      },
-      "stato": "ELETTO"
-    },
-    {
-      "nominativo": "ZAMPI BENEDETTA",
-      "lista": "Oltre - LDS",
-      "voti": {
-        "totali": 8
-      },
-      "stato": "ELETTO"
-    },
-    {
-      "nominativo": "MARINO GRAZIA",
-      "lista": "LIBERTAS-CAMBIAMENTO",
-      "voti": {
-        "totali": 8
-      },
-      "stato": "ELETTO"
-    }
-  ],
-  "non_eletti": [
-    {
-      "nominativo": "PALUMBO ALIDA",
-      "lista": "INFO DISUM",
-      "voti": {
-        "totali": 12
-      }
-    },
-    {
-      "nominativo": "STRANO FABIOLA GIOVANNA",
-      "lista": "INFO DISUM",
-      "voti": {
-        "totali": 1
-      }
-    },
-    {
-      "nominativo": "CAMPANELLA COSTANZA",
-      "lista": "INFO DISUM",
-      "voti": {
-        "totali": 1
-      }
-    },
-    {
-      "nominativo": "CHITARRA CHIARA",
-      "lista": "INFO DISUM",
-      "voti": {
-        "totali": 0
-      }
-    },
-    {
-      "nominativo": "AMORE ORIANA",
-      "lista": "INFO DISUM",
-      "voti": {
-        "totali": 0
-      }
-    },
-    {
-      "nominativo": "MESSINA MARIA",
-      "lista": "La Finestra - Liberi Di Scegliere",
-      "voti": {
-        "totali": 8
-      }
-    },
-    {
-      "nominativo": "CARNAZZA SOFIA KAROL",
-      "lista": "La Finestra - Liberi Di Scegliere",
-      "voti": {
-        "totali": 1
-      }
-    },
-    {
-      "nominativo": "CACCETTA ILARIA",
-      "lista": "La Finestra - Liberi Di Scegliere",
-      "voti": {
-        "totali": 1
-      }
-    },
-    {
-      "nominativo": "D'ORSI CARLOTTA MARIA",
-      "lista": "La Finestra - Liberi Di Scegliere",
-      "voti": {
-        "totali": 1
-      }
-    },
-    {
-      "nominativo": "SALERNO MARIKA KETTY",
-      "lista": "La Finestra - Liberi Di Scegliere",
-      "voti": {
-        "totali": 1
-      }
-    },
-    {
-      "nominativo": "NOLFO GAIA",
-      "lista": "La Finestra - Liberi Di Scegliere",
-      "voti": {
-        "totali": 0
-      }
-    },
-    {
-      "nominativo": "DE FRANCESCO SARA",
-      "lista": "Primavera",
-      "voti": {
-        "totali": 8
-      }
-    },
-    {
-      "nominativo": "PAPPALARDO GIANLUCA",
-      "lista": "Primavera",
-      "voti": {
-        "totali": 1
+        "totali": 15,
+        "seggio_telematico": 15
       }
     },
     {
       "nominativo": "COLAIEMMA FRANCESCO EMANUELE",
       "lista": "Oltre - LDS",
       "voti": {
-        "totali": 11
+        "totali": 11,
+        "seggio_telematico": 11
       }
     },
     {
-      "nominativo": "GIUFFRIDA SERENA",
-      "lista": "Oltre - LDS",
+      "nominativo": "GARBATO MICHELE",
+      "lista": "LIBERTAS-CAMBIAMENTO",
       "voti": {
-        "totali": 5
+        "totali": 9,
+        "seggio_telematico": 9
+      }
+    }
+  ],
+  "non_eletti": [
+    {
+      "nominativo": "CUNSOLINO MARCO",
+      "lista": "INFO DISUM",
+      "voti": {
+        "totali": 8,
+        "seggio_telematico": 8
+      }
+    },
+    {
+      "nominativo": "FUSEA RALUCA MARIA",
+      "lista": "INFO DISUM",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "MIATTO LEONARDO GIOSUÈ",
+      "lista": "INFO DISUM",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "ALMA ANTONELLA",
+      "lista": "INFO DISUM",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "GRIPPALDI VALENTINA MARIA",
+      "lista": "INFO DISUM",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "LEONE ALESSANDRA",
+      "lista": "INFO DISUM",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "FICHERA GAIA GINEVRA",
+      "lista": "INFO DISUM",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "BERTINO AGNESE MARIA",
+      "lista": "La Finestra - Liberi Di Scegliere",
+      "voti": {
+        "totali": 8,
+        "seggio_telematico": 8
+      }
+    },
+    {
+      "nominativo": "SACCONE GIULIA",
+      "lista": "La Finestra - Liberi Di Scegliere",
+      "voti": {
+        "totali": 14,
+        "seggio_telematico": 14
+      }
+    },
+    {
+      "nominativo": "CACCETTA ILARIA",
+      "lista": "La Finestra - Liberi Di Scegliere",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "D'ORSI CARLOTTA MARIA",
+      "lista": "La Finestra - Liberi Di Scegliere",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "SALERNO MARIKA KETTY",
+      "lista": "La Finestra - Liberi Di Scegliere",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "CARNAZZA SOFIA KAROL",
+      "lista": "Primavera",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "NOLFO GAIA",
+      "lista": "Primavera",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "CHITARRA CHIARA",
+      "lista": "Primavera",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "AMORE ORIANA",
+      "lista": "Primavera",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "STRANO FABIOLA GIOVANNA",
+      "lista": "Primavera",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "CAMPANELLA COSTANZA",
+      "lista": "Primavera",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
       }
     },
     {
       "nominativo": "MOSCUZZA MANIA GIULIANA",
       "lista": "Oltre - LDS",
       "voti": {
-        "totali": 4
+        "totali": 4,
+        "seggio_telematico": 4
+      }
+    },
+    {
+      "nominativo": "ZAMPI BENEDETTA",
+      "lista": "Oltre - LDS",
+      "voti": {
+        "totali": 8,
+        "seggio_telematico": 8
+      }
+    },
+    {
+      "nominativo": "GIUFFRIDA SERENA",
+      "lista": "Oltre - LDS",
+      "voti": {
+        "totali": 5,
+        "seggio_telematico": 5
       }
     },
     {
       "nominativo": "BRUNO GIULIA",
       "lista": "Oltre - LDS",
       "voti": {
-        "totali": 0
+        "totali": 0,
+        "seggio_telematico": 0
       }
     },
     {
-      "nominativo": "FICHERA GIANFRANCO",
-      "lista": "LIBERTAS-CAMBIAMENTO",
+      "nominativo": "OCCHIUTO MARTINA",
+      "lista": "Oltre - LDS",
       "voti": {
-        "totali": 5
+        "totali": 0,
+        "seggio_telematico": 0
       }
     },
     {
-      "nominativo": "RUSSO AURORA",
-      "lista": "LIBERTAS-CAMBIAMENTO",
+      "nominativo": "PIRILLO SOFIA",
+      "lista": "Oltre - LDS",
       "voti": {
-        "totali": 0
+        "totali": 1,
+        "seggio_telematico": 1
       }
     },
     {
-      "nominativo": "LOMBARDO MARIKA",
-      "lista": "LIBERTAS-CAMBIAMENTO",
+      "nominativo": "FOTI ANGELA",
+      "lista": "Oltre - LDS",
       "voti": {
-        "totali": 0
+        "totali": 1,
+        "seggio_telematico": 1
       }
     },
     {
-      "nominativo": "D'AMICO MARIA",
-      "lista": "LIBERTAS-CAMBIAMENTO",
-      "voti": {
-        "totali": 0
-      }
-    },
-    {
-      "nominativo": "SCUTO ERIKA",
-      "lista": "LIBERTAS-CAMBIAMENTO",
-      "voti": {
-        "totali": 0
-      }
-    },
-    {
-      "nominativo": "ALFIO GIULIA",
+      "nominativo": "FURNO CHIARA",
       "lista": "WE LOVE UNICT",
       "voti": {
-        "totali": 4
+        "totali": 6,
+        "seggio_telematico": 6
       }
     },
     {
-      "nominativo": "SAPUPPO CHIARA",
+      "nominativo": "SGROI FLAVIA",
       "lista": "WE LOVE UNICT",
       "voti": {
-        "totali": 2
+        "totali": 0,
+        "seggio_telematico": 0
       }
     },
     {
-      "nominativo": "MESSINA DAVIDE",
+      "nominativo": "BELLIA ELENA BARBARA",
       "lista": "WE LOVE UNICT",
       "voti": {
-        "totali": 2
+        "totali": 1,
+        "seggio_telematico": 1
       }
     },
     {
-      "nominativo": "DI BELLA CARMELO",
+      "nominativo": "MONTELEONE CHIARA",
       "lista": "WE LOVE UNICT",
       "voti": {
-        "totali": 0
+        "totali": 1,
+        "seggio_telematico": 1
       }
     },
     {
-      "nominativo": "BONANNO SAMUELE",
+      "nominativo": "RIZZO GIUSEPPE",
       "lista": "WE LOVE UNICT",
       "voti": {
-        "totali": 0
+        "totali": 1,
+        "seggio_telematico": 1
       }
     },
     {
-      "nominativo": "BONINA MICHELE",
+      "nominativo": "PANEBIANCO GIOVANNI",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "BILLECI LEONARDO",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "CUNSOLO MATTIA MARIA PIO",
       "lista": "DISUM Nike",
       "voti": {
-        "totali": 5
+        "totali": 2,
+        "seggio_telematico": 2
       }
     },
     {
-      "nominativo": "CARUSO VERONICA",
+      "nominativo": "COSTANTINO CARLA",
       "lista": "DISUM Nike",
       "voti": {
-        "totali": 4
+        "totali": 8,
+        "seggio_telematico": 8
       }
     },
     {
-      "nominativo": "SAPIA SERENA",
-      "lista": "DISUM Nike",
+      "nominativo": "D'IGNOTI ANDREA",
+      "lista": "LIBERTAS-CAMBIAMENTO",
       "voti": {
-        "totali": 1
-      }
-    },
-    {
-      "nominativo": "DE LUCA SALVATORE",
-      "lista": "DISUM Nike",
-      "voti": {
-        "totali": 0
+        "totali": 3,
+        "seggio_telematico": 3
       }
     }
-  ]
+  ],
+  "dipartimento": "SCIENZE E LINGUE PER LA COMUNICAZIONE-L-20-Laurea Triennale (D.M.270/2004)",
+  "seggi_da_assegnare": "8",
+  "quoziente": 34.375,
+  "votanti": {
+    "totali": 288,
+    "percentuale": 25.33,
+    "seggio_n_telematico": 288
+  },
+  "elettori": {
+    "totali": 1137,
+    "seggio_n_telematico": 1137
+  }
 }

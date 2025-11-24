@@ -1,6 +1,4 @@
 {
-  "dipartimento": "INFORMATICA-L-31-Laurea Triennale (D.M.270/2004)",
-  "seggi_da_assegnare": "10",
   "schede": {
     "bianche": {
       "totali": 19,
@@ -13,93 +11,83 @@
       "totali": 0
     }
   },
-  "votanti": {
-    "totali": 278,
-    "percentuale": 23.68,
-    "seggio_n_telematico": 278
-  },
-  "elettori": {
-    "totali": 1174,
-    "seggio_n_telematico": 1174
-  },
-  "quoziente": 25.9,
   "liste": [
     {
       "nome": "INFODMI",
       "seggi": {
         "seggi_pieni": "1",
-        "resti": "13.1",
+        "resti": "13,1",
         "seggi_ai_resti": "1",
         "seggi_totali": "2"
       },
       "voti": {
-        "totali": 39,
-        "seggio_telematico": 39
+        "totali": "39",
+        "seggio_telematico": "39"
       }
     },
     {
       "nome": "DMI Insider - Koinè",
       "seggi": {
         "seggi_pieni": "1",
-        "resti": "23.1",
+        "resti": "23,1",
         "seggi_ai_resti": "1",
         "seggi_totali": "2"
       },
       "voti": {
-        "totali": 49,
-        "seggio_telematico": 49
+        "totali": "49",
+        "seggio_telematico": "49"
       }
     },
     {
       "nome": "ACTEA",
       "seggi": {
         "seggi_pieni": "2",
-        "resti": "11.2",
+        "resti": "11,2",
         "seggi_ai_resti": "0",
         "seggi_totali": "2"
       },
       "voti": {
-        "totali": 63,
-        "seggio_telematico": 63
+        "totali": "63",
+        "seggio_telematico": "63"
       }
     },
     {
       "nome": "DMI.EXE",
       "seggi": {
         "seggi_pieni": "2",
-        "resti": "4.2",
+        "resti": "4,2",
         "seggi_ai_resti": "0",
         "seggi_totali": "2"
       },
       "voti": {
-        "totali": 56,
-        "seggio_telematico": 56
+        "totali": "56",
+        "seggio_telematico": "56"
       }
     },
     {
       "nome": "WE LOVE UNICT",
       "seggi": {
         "seggi_pieni": "1",
-        "resti": "11.1",
+        "resti": "11,1",
         "seggi_ai_resti": "0",
         "seggi_totali": "1"
       },
       "voti": {
-        "totali": 37,
-        "seggio_telematico": 37
+        "totali": "37",
+        "seggio_telematico": "37"
       }
     },
     {
       "nome": "NIKE.dmi",
       "seggi": {
-        "seggi_pieni": "0",
-        "resti": "15.0",
+        "seggi_pieni": "-",
+        "resti": "15,0",
         "seggi_ai_resti": "1",
         "seggi_totali": "1"
       },
       "voti": {
-        "totali": 15,
-        "seggio_telematico": 15
+        "totali": "15",
+        "seggio_telematico": "15"
       }
     },
     {
@@ -190,22 +178,6 @@
   ],
   "non_eletti": [
     {
-      "nominativo": "CARCACI GIOVANNI",
-      "lista": "INFODMI",
-      "voti": {
-        "totali": 1,
-        "seggio_telematico": 1
-      }
-    },
-    {
-      "nominativo": "CASUCCIO ANTHONY",
-      "lista": "INFODMI",
-      "voti": {
-        "totali": 1,
-        "seggio_telematico": 1
-      }
-    },
-    {
       "nominativo": "PARLASCINO LA MONICA PIETRO",
       "lista": "INFODMI",
       "voti": {
@@ -230,6 +202,22 @@
       }
     },
     {
+      "nominativo": "CARCACI GIOVANNI",
+      "lista": "INFODMI",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "CASUCCIO ANTHONY",
+      "lista": "INFODMI",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
       "nominativo": "CONTI MARIANNA",
       "lista": "INFODMI",
       "voti": {
@@ -243,6 +231,14 @@
       "voti": {
         "totali": 7,
         "seggio_telematico": 7
+      }
+    },
+    {
+      "nominativo": "PAPPALARDO MARCO",
+      "lista": "DMI Insider - Koinè",
+      "voti": {
+        "totali": 5,
+        "seggio_telematico": 5
       }
     },
     {
@@ -262,27 +258,19 @@
       }
     },
     {
-      "nominativo": "PAPPALARDO MARCO",
-      "lista": "DMI Insider - Koinè",
-      "voti": {
-        "totali": 5,
-        "seggio_telematico": 5
-      }
-    },
-    {
-      "nominativo": "FODERA GABRIELE",
-      "lista": "ACTEA",
-      "voti": {
-        "totali": 3,
-        "seggio_telematico": 3
-      }
-    },
-    {
       "nominativo": "BASILE MARIO ALESSIO",
       "lista": "ACTEA",
       "voti": {
         "totali": 13,
         "seggio_telematico": 13
+      }
+    },
+    {
+      "nominativo": "FODERÀ GABRIELE",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 3,
+        "seggio_telematico": 3
       }
     },
     {
@@ -294,7 +282,23 @@
       }
     },
     {
-      "nominativo": "MESSINA DAMMIANO",
+      "nominativo": "FERLITO CHIARA",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 1,
+        "seggio_telematico": 1
+      }
+    },
+    {
+      "nominativo": "MESSINA DAMIANO",
+      "lista": "ACTEA",
+      "voti": {
+        "totali": 0,
+        "seggio_telematico": 0
+      }
+    },
+    {
+      "nominativo": "ZAPPARRATA ANTONINO",
       "lista": "ACTEA",
       "voti": {
         "totali": 0,
@@ -326,7 +330,7 @@
       }
     },
     {
-      "nominativo": "SBIRZIQLA GIULIANO",
+      "nominativo": "SBIRZIOLA GIULIANO",
       "lista": "DMI.EXE",
       "voti": {
         "totali": 0,
@@ -342,19 +346,11 @@
       }
     },
     {
-      "nominativo": "MAZZAGLIA ALESSIO",
+      "nominativo": "RUSSO GABRIELE",
       "lista": "WE LOVE UNICT",
       "voti": {
-        "totali": 1,
-        "seggio_telematico": 1
-      }
-    },
-    {
-      "nominativo": "BACCHI GIUSEPPE PIO",
-      "lista": "WE LOVE UNICT",
-      "voti": {
-        "totali": 0,
-        "seggio_telematico": 0
+        "totali": 5,
+        "seggio_telematico": 5
       }
     },
     {
@@ -366,7 +362,15 @@
       }
     },
     {
-      "nominativo": "SCALISI MARCO",
+      "nominativo": "BORZI' SIMONE",
+      "lista": "WE LOVE UNICT",
+      "voti": {
+        "totali": 2,
+        "seggio_telematico": 2
+      }
+    },
+    {
+      "nominativo": "MAZZAGLIA ALESSIO",
       "lista": "WE LOVE UNICT",
       "voti": {
         "totali": 1,
@@ -374,19 +378,11 @@
       }
     },
     {
-      "nominativo": "RIOLO FILIPPO GIOELE",
+      "nominativo": "SCALISI MARCO",
       "lista": "WE LOVE UNICT",
       "voti": {
-        "totali": 0,
-        "seggio_telematico": 0
-      }
-    },
-    {
-      "nominativo": "BORZI SIMONE",
-      "lista": "WE LOVE UNICT",
-      "voti": {
-        "totali": 2,
-        "seggio_telematico": 2
+        "totali": 1,
+        "seggio_telematico": 1
       }
     },
     {
@@ -406,16 +402,16 @@
       }
     },
     {
-      "nominativo": "RUSSO GABRIELE",
+      "nominativo": "BACCHI GIUSEPPE PIO",
       "lista": "WE LOVE UNICT",
       "voti": {
-        "totali": 5,
-        "seggio_telematico": 5
+        "totali": 0,
+        "seggio_telematico": 0
       }
     },
     {
-      "nominativo": "GIUDICE ANASTASIA",
-      "lista": "NIKE.dmi",
+      "nominativo": "RIOLO FILIPPO GIOELE",
+      "lista": "WE LOVE UNICT",
       "voti": {
         "totali": 0,
         "seggio_telematico": 0
@@ -438,20 +434,24 @@
       }
     },
     {
-      "nominativo": "FERLITO CHIARA",
-      "lista": "NIKE.dmi",
-      "voti": {
-        "totali": 1,
-        "seggio_telematico": 1
-      }
-    },
-    {
-      "nominativo": "ZAPPARRATA ANTOΝΙΝΟ",
+      "nominativo": "GIUDICE ANASTASIA",
       "lista": "NIKE.dmi",
       "voti": {
         "totali": 0,
         "seggio_telematico": 0
       }
     }
-  ]
+  ],
+  "dipartimento": "INFORMATICA-L-31-Laurea Triennale (D.M.270/2004)",
+  "seggi_da_assegnare": "10",
+  "quoziente": 25.9,
+  "votanti": {
+    "totali": 278,
+    "percentuale": 23.68,
+    "seggio_n_telematico": 278
+  },
+  "elettori": {
+    "totali": 1174,
+    "seggio_n_telematico": 1174
+  }
 }
