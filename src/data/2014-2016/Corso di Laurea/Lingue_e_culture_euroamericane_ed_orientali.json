@@ -3,16 +3,13 @@
     "seggi_da_assegnare": "5",
     "schede": {
         "bianche": {
-            "totali": 9,
-            "seggio_n_14": 9
+            "totali": 9
         },
         "nulle": {
-            "totali": 15,
-            "seggio_n_14": 15
+            "totali": 15
         },
         "contestate": {
-            "totali": 0,
-            "seggio_n_14": 0
+            "totali": 0
         }
     },
     "liste": [
@@ -25,8 +22,7 @@
                 "seggi_totali": "1"
             },
             "voti": {
-                "totali": 46,
-                "seggio_n_14": 46
+                "totali": 46
             }
         },
         {
@@ -38,8 +34,7 @@
                 "seggi_totali": "1"
             },
             "voti": {
-                "totali": 49,
-                "seggio_n_14": 49
+                "totali": 49
             }
         },
         {
@@ -51,8 +46,7 @@
                 "seggi_totali": "2"
             },
             "voti": {
-                "totali": 72,
-                "seggio_n_14": 72
+                "totali": 72
             }
         },
         {
@@ -64,8 +58,7 @@
                 "seggi_totali": "-"
             },
             "voti": {
-                "totali": 12,
-                "seggio_n_14": 12
+                "totali": 12
             }
         },
         {
@@ -77,8 +70,7 @@
                 "seggi_totali": "1"
             },
             "voti": {
-                "totali": 24,
-                "seggio_n_14": 24
+                "totali": 24
             }
         },
         {
@@ -90,57 +82,121 @@
                 "seggi_totali": "-"
             },
             "voti": {
-                "totali": 16,
-                "seggio_n_14": 16
+                "totali": 16
             }
         },
         {
-            "totale": 219
+            "totale": 3
         }
     ],
-    "eletti": [],
+    "eletti": [
+        {
+            "nominativo": "DI PINO Delia",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 38
+            }
+        },
+        {
+            "nominativo": "PENNISI Barbara",
+            "lista": "UNILAB",
+            "voti": {
+                "totali": 27
+            }
+        },
+        {
+            "nominativo": "BUFFARDECI Giorgia",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 2
+            }
+        },
+        {
+            "nominativo": "LAUDANI Orazio",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 68
+            }
+        }
+    ],
     "non_eletti": [
         {
-            "nominativo": "COCO Federica",
-            "lista": "UDU",
+            "nominativo": "TOTALE L1 E L E T T I SEGGIO N\u00b0",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
             "voti": {
-                "totali": 3,
-                "seggio_n_14": 3
+                "totali": 14
             }
         },
         {
-            "nominativo": "NOCERA Federica",
-            "lista": "UDU",
+            "nominativo": "LA SPINA Alice Maria",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
             "voti": {
-                "totali": 0,
-                "seggio_n_14": 0
+                "totali": 3
             }
         },
         {
-            "nominativo": "ARDILIO Giuseppe",
-            "lista": "UDU",
+            "nominativo": "SMILARDI Federica",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
             "voti": {
-                "totali": 0,
-                "seggio_n_14": 0
+                "totali": 0
             }
         },
         {
-            "nominativo": "GUZZETTA Rosario",
-            "lista": "UDU",
+            "nominativo": "PREZZAVENTO Giusi",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
             "voti": {
-                "totali": 4,
-                "seggio_n_14": 4
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "CONTI Elisa",
+            "lista": "LA FINESTRA \u2010 LIBERI DI SCEGLIERE",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "TOTALE L2 E L E T T I SEGGIO N\u00b0",
+            "lista": "UNILAB",
+            "voti": {
+                "totali": 14
+            }
+        },
+        {
+            "nominativo": "SETTEMBRINI Umberto",
+            "lista": "UNILAB",
+            "voti": {
+                "totali": 20
+            }
+        },
+        {
+            "nominativo": "TOTALE L3 E L E T T I SEGGIO N\u00b0",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 14
+            }
+        },
+        {
+            "nominativo": "NICOLOSI Elena",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 1
+            }
+        },
+        {
+            "nominativo": "RUSSO Roberta",
+            "lista": "ARCADIA",
+            "voti": {
+                "totali": 0
             }
         }
     ],
     "quoziente": 43.8,
     "votanti": {
         "totali": 243,
-        "percentuale": 20.08,
-        "seggio_n_14": 243
+        "percentuale": 20.08
     },
     "elettori": {
-        "totali": 1210,
-        "seggio_n_14": 1210
+        "totali": 1210
     }
 }
