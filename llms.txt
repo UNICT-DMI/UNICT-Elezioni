@@ -1,0 +1,56 @@
+# UNICT-Elezioni
+
+> Web app that visualizes University of Catania (UNICT) student election results across multiple cycles (2012-2027): departments, degree programs, higher governance bodies (Senate, Board, CNSU), and individual candidates. Data is extracted from official PDF documents into JSON and rendered as an interactive single-page app. Live: https://unict-dmi.github.io/UNICT-Elezioni
+
+## Tech stack
+
+- React 16.13 + TypeScript 3.9, bootstrapped with Create React App (react-scripts 4)
+- Routing: react-router-dom v5 (HashRouter)
+- UI: Bootstrap 4 + react-bootstrap + Bootswatch (Flatly theme), SCSS via node-sass, Font Awesome + Material Design Icons
+- Analytics: react-ga (Google Analytics)
+- Deploy: gh-pages to GitHub Pages
+- Data pipeline: standalone Python parsers under `jsonParser/` (PDF -> JSON)
+
+## Architecture
+
+Single-page app. At startup `src/data/DataReader.ts` (singleton) eagerly loads every `.json` under `src/data/` via webpack `require.context()`, indexing it hierarchically as `data[year][entity][subEntity]`. Components query the singleton; there is no backend at runtime.
+
+Routes (HashRouter, defined in `src/app/App.tsx`):
+- `/home` - landing page
+- `/:entity` - higher bodies / departments listing
+- `/single/:entity/:subEntity` - results for a department or degree program
+- `/search/:keywords` - global search results
+- `/contatti` - contacts
+- fallback -> `/not-found`
+
+Election results come in two shapes: list-based (proportional, with seat allocation) and uninominal (single-candidate); `DataReader` exposes `isUninominal()` and the results components branch on it.
+
+## Key paths
+
+- `src/app/App.tsx` - root component, route table, DataReader + GA init
+- `src/data/DataReader.ts` - data loading/query singleton (getYears/getEntities/getSubEntities/getLists/getCandidates, isUninominal, hasPassedQuorum)
+- `src/data/<cycle>/` - JSON results per cycle (Dipartimento, Corso di Laurea, Corso di Laurea <500, organi superiori, seggi.json)
+- `src/app/results/` - results rendering (Results, ResultsUninominal, DetailList, ListLogo, DetailsTable)
+- `src/app/search/SearchEngine.ts` - full-text search over entities/lists/candidates
+- `src/app/sub-entity-list/`, `src/app/sub-entity-single/` - listing and detail views
+- `src/app/utils/FixName.ts` - text normalization (underscores -> spaces, casing)
+- `public/loghi/` - electoral list logos
+- `jsonParser/` - Python tooling to convert official UNICT election PDFs into the JSON consumed above (parser.py plus per-election-type scripts; recent flow uses pdftotext/pdftoppm + Gemini)
+
+## Commands
+
+```bash
+npm i --legacy-peer-deps          # install (legacy peer deps required for React 16)
+export NODE_OPTIONS=--openssl-legacy-provider   # only on Node 22+
+npm start                         # dev server
+npm run build                     # production build to build/
+npm test                          # jest + react-testing-library
+npm run lint                      # eslint src
+npm run deploy                    # build + publish to gh-pages
+```
+
+## Conventions
+
+- TypeScript strict mode; ESLint (TypeScript + Prettier + Standard), 2-space indent, semicolons.
+- New election data is added as JSON files under the matching `src/data/<cycle>/` folder; no code change is needed for DataReader to pick it up.
+- Adding a new electoral list logo: drop the image under `public/loghi/` and wire the name mapping used by `ListLogo`.
