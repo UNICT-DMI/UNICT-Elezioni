@@ -16,11 +16,14 @@ jobs:
         uses: actions/checkout@v4
         with:
           persist-credentials: false
-      - name: Use Node.js 16.15.1
+      - name: Use Node.js 24.22.1
         uses: actions/setup-node@v1
         with:
-          node-version: '16.15.1'
+          node-version: '24.22.1'
       - name: Build 🔨
+        env:
+          # webpack 4 (react-scripts 4) needs the legacy OpenSSL provider on Node 17+
+          NODE_OPTIONS: --openssl-legacy-provider
         run: |
           npm install --legacy-peer-deps
           npm run build
