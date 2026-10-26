@@ -3,16 +3,13 @@
     "seggi_da_assegnare": "5",
     "schede": {
         "bianche": {
-            "totali": 8,
-            "seggio_n_36": 8
+            "totali": 8
         },
         "nulle": {
-            "totali": 3,
-            "seggio_n_36": 3
+            "totali": 3
         },
         "contestate": {
-            "totali": 0,
-            "seggio_n_36": 0
+            "totali": 0
         }
     },
     "liste": [
@@ -25,8 +22,7 @@
                 "seggi_totali": "-"
             },
             "voti": {
-                "totali": 3,
-                "seggio_n_36": 3
+                "totali": 3
             }
         },
         {
@@ -38,8 +34,7 @@
                 "seggi_totali": "2"
             },
             "voti": {
-                "totali": 112,
-                "seggio_n_36": 112
+                "totali": 112
             }
         },
         {
@@ -51,8 +46,7 @@
                 "seggi_totali": "2"
             },
             "voti": {
-                "totali": 85,
-                "seggio_n_36": 85
+                "totali": 85
             }
         },
         {
@@ -64,8 +58,7 @@
                 "seggi_totali": "-"
             },
             "voti": {
-                "totali": 10,
-                "seggio_n_36": 10
+                "totali": 10
             }
         },
         {
@@ -77,8 +70,7 @@
                 "seggi_totali": "-"
             },
             "voti": {
-                "totali": 3,
-                "seggio_n_36": 3
+                "totali": 3
             }
         },
         {
@@ -90,8 +82,7 @@
                 "seggi_totali": "-"
             },
             "voti": {
-                "totali": 19,
-                "seggio_n_36": 19
+                "totali": 19
             }
         },
         {
@@ -103,8 +94,7 @@
                 "seggi_totali": "1"
             },
             "voti": {
-                "totali": 25,
-                "seggio_n_36": 25
+                "totali": 25
             }
         },
         {
@@ -116,57 +106,156 @@
                 "seggi_totali": "-"
             },
             "voti": {
-                "totali": 6,
-                "seggio_n_36": 6
+                "totali": 6
             }
         },
         {
-            "totale": 263
+            "totale": 3
         }
     ],
-    "eletti": [],
+    "eletti": [
+        {
+            "nominativo": "BONAIUTO Alessio Manlio",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 25
+            }
+        },
+        {
+            "nominativo": "D'URSO Epifanio Damiano",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 69
+            }
+        },
+        {
+            "nominativo": "SCOLLO Antonio",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 27
+            }
+        },
+        {
+            "nominativo": "CHIRDO Giuliana",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 30
+            }
+        }
+    ],
     "non_eletti": [
         {
-            "nominativo": "BAUCCIO Giulia Ginevra",
-            "lista": "ACTEA",
+            "nominativo": "TOTALE L1 E L E T T I SEGGIO N\u00b0",
+            "lista": "PROGETTO DEGLI UNIVERSITARI",
             "voti": {
-                "totali": 0,
-                "seggio_n_36": 0
+                "totali": 36
             }
         },
         {
-            "nominativo": "SPITALERI Silvia",
-            "lista": "ACTEA",
+            "nominativo": "D'AMICO Ruggero",
+            "lista": "PROGETTO DEGLI UNIVERSITARI",
             "voti": {
-                "totali": 1,
-                "seggio_n_36": 1
+                "totali": 0
             }
         },
         {
-            "nominativo": "RICCIARDOLO Alessandra",
-            "lista": "ACTEA",
+            "nominativo": "TOTALE L2 E L E T T I SEGGIO N\u00b0",
+            "lista": "AZIONE UNIVERSITARIA",
             "voti": {
-                "totali": 17,
-                "seggio_n_36": 17
+                "totali": 36
             }
         },
         {
-            "nominativo": "LUCA Vincenza",
-            "lista": "ACTEA",
+            "nominativo": "LEONARDI Miriam",
+            "lista": "AZIONE UNIVERSITARIA",
             "voti": {
-                "totali": 0,
-                "seggio_n_36": 0
+                "totali": 8
+            }
+        },
+        {
+            "nominativo": "MARTELLI Federica",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 4
+            }
+        },
+        {
+            "nominativo": "SCIUTO Giulia",
+            "lista": "AZIONE UNIVERSITARIA",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "TOTALE L3 E L E T T I SEGGIO N\u00b0",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 36
+            }
+        },
+        {
+            "nominativo": "TORRISI Vittoria",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 8
+            }
+        },
+        {
+            "nominativo": "PELLEGRINO Georgia",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 2
+            }
+        },
+        {
+            "nominativo": "TUBEROSA Gloria",
+            "lista": "ORIZZONTE ITALIA",
+            "voti": {
+                "totali": 15
+            }
+        },
+        {
+            "nominativo": "TOTALE L4 E L E T T I SEGGIO N\u00b0",
+            "lista": "PD",
+            "voti": {
+                "totali": 36
+            }
+        },
+        {
+            "nominativo": "MAUGERI Daniela Maria",
+            "lista": "PD",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "AIELLO Federico",
+            "lista": "PD",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "RUGGERI Alessia",
+            "lista": "PD",
+            "voti": {
+                "totali": 1
+            }
+        },
+        {
+            "nominativo": "LA LOGGIA Costanza",
+            "lista": "PD",
+            "voti": {
+                "totali": 7
             }
         }
     ],
     "quoziente": 52.6,
     "votanti": {
         "totali": 274,
-        "percentuale": 29.34,
-        "seggio_n_36": 274
+        "percentuale": 29.34
     },
     "elettori": {
-        "totali": 934,
-        "seggio_n_36": 934
+        "totali": 934
     }
 }

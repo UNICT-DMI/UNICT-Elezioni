@@ -3,16 +3,13 @@
     "seggi_da_assegnare": "5",
     "schede": {
         "bianche": {
-            "totali": 23,
-            "seggio_n_32": 23
+            "totali": 23
         },
         "nulle": {
-            "totali": 13,
-            "seggio_n_32": 13
+            "totali": 13
         },
         "contestate": {
-            "totali": 0,
-            "seggio_n_32": 0
+            "totali": 0
         }
     },
     "liste": [
@@ -25,8 +22,7 @@
                 "seggi_totali": "-"
             },
             "voti": {
-                "totali": 11,
-                "seggio_n_32": 11
+                "totali": 11
             }
         },
         {
@@ -38,8 +34,7 @@
                 "seggi_totali": "1"
             },
             "voti": {
-                "totali": 48,
-                "seggio_n_32": 48
+                "totali": 48
             }
         },
         {
@@ -51,8 +46,7 @@
                 "seggi_totali": "-"
             },
             "voti": {
-                "totali": 6,
-                "seggio_n_32": 6
+                "totali": 6
             }
         },
         {
@@ -64,8 +58,7 @@
                 "seggi_totali": "-"
             },
             "voti": {
-                "totali": 34,
-                "seggio_n_32": 34
+                "totali": 34
             }
         },
         {
@@ -77,8 +70,7 @@
                 "seggi_totali": "-"
             },
             "voti": {
-                "totali": 22,
-                "seggio_n_32": 22
+                "totali": 22
             }
         },
         {
@@ -90,8 +82,7 @@
                 "seggi_totali": "3"
             },
             "voti": {
-                "totali": 209,
-                "seggio_n_32": 209
+                "totali": 209
             }
         },
         {
@@ -103,66 +94,163 @@
                 "seggi_totali": "1"
             },
             "voti": {
-                "totali": 52,
-                "seggio_n_32": 52
+                "totali": 52
             }
         },
         {
-            "totale": 382
+            "totale": 2
         }
     ],
     "eletti": [
         {
-            "nominativo": "MAGRI' Tommaso detto \"Tommi\" o \"Tommy\"",
-            "lista": "INGEGNERIATTIVA",
+            "nominativo": "BONIFACIO Giuseppe",
+            "lista": "PROGETTO DEGLI UNIVERSITARI",
             "voti": {
-                "totali": 79,
-                "seggio_n_32": 79
-            }
-        },
-        {
-            "nominativo": "L'ABBATE Antonio",
-            "lista": "INGEGNERIATTIVA",
-            "voti": {
-                "totali": 47,
-                "seggio_n_32": 47
-            }
-        },
-        {
-            "nominativo": "RIZZO Federico",
-            "lista": "INGEGNERIATTIVA",
-            "voti": {
-                "totali": 38,
-                "seggio_n_32": 38
+                "totali": 33
             }
         }
     ],
     "non_eletti": [
         {
-            "nominativo": "ISAIA Carmen Martina",
-            "lista": "INGEGNERIATTIVA",
+            "nominativo": "TOTALE L1 E L E T T I SEGGIO N\u00b0",
+            "lista": "ARES",
             "voti": {
-                "totali": 8,
-                "seggio_n_32": 8
+                "totali": 32
             }
         },
         {
-            "nominativo": "FAVA Giuseppe",
-            "lista": "INGEGNERIATTIVA",
+            "nominativo": "FARACI Salvatore",
+            "lista": "ARES",
             "voti": {
-                "totali": 28,
-                "seggio_n_32": 28
+                "totali": 1
+            }
+        },
+        {
+            "nominativo": "SPADARO Sebastiano",
+            "lista": "ARES",
+            "voti": {
+                "totali": 1
+            }
+        },
+        {
+            "nominativo": "DI NORA Riccardo",
+            "lista": "ARES",
+            "voti": {
+                "totali": 7
+            }
+        },
+        {
+            "nominativo": "CARAMANNO Calogero",
+            "lista": "ARES",
+            "voti": {
+                "totali": 1
+            }
+        },
+        {
+            "nominativo": "ZAPPALA' Fabio",
+            "lista": "ARES",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "TOTALE L2 E L E T T I SEGGIO N\u00b0",
+            "lista": "PROGETTO DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 32
+            }
+        },
+        {
+            "nominativo": "GUCCIO Giuseppe",
+            "lista": "PROGETTO DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 4
+            }
+        },
+        {
+            "nominativo": "CATANIA Andrea",
+            "lista": "PROGETTO DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "LONGO Ludovica",
+            "lista": "PROGETTO DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 8
+            }
+        },
+        {
+            "nominativo": "GIUFFRE' Antonio Damiano",
+            "lista": "PROGETTO DEGLI UNIVERSITARI",
+            "voti": {
+                "totali": 2
+            }
+        },
+        {
+            "nominativo": "TOTALE L3 E L E T T I SEGGIO N\u00b0",
+            "lista": "AZIONE UNIVERSITARIA \u2010 WE LOVE UNICT \u2010 LIBERTAS",
+            "voti": {
+                "totali": 32
+            }
+        },
+        {
+            "nominativo": "CONIGLIARO Luca",
+            "lista": "AZIONE UNIVERSITARIA \u2010 WE LOVE UNICT \u2010 LIBERTAS",
+            "voti": {
+                "totali": 4
+            }
+        },
+        {
+            "nominativo": "TOTALE L4 E L E T T I SEGGIO N\u00b0",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 32
+            }
+        },
+        {
+            "nominativo": "CARUSO Daniele",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 1
+            }
+        },
+        {
+            "nominativo": "FERRACANE Biagio",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 1
+            }
+        },
+        {
+            "nominativo": "NOCERA Stefano",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 1
+            }
+        },
+        {
+            "nominativo": "PATANIA Francesco",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 8
+            }
+        },
+        {
+            "nominativo": "ZIMBONE Flavia",
+            "lista": "ACTEA",
+            "voti": {
+                "totali": 14
             }
         }
     ],
     "quoziente": 76.4,
     "votanti": {
         "totali": 418,
-        "percentuale": 32.81,
-        "seggio_n_32": 418
+        "percentuale": 32.81
     },
     "elettori": {
-        "totali": 1274,
-        "seggio_n_32": 1274
+        "totali": 1274
     }
 }

@@ -3,16 +3,13 @@
     "seggi_da_assegnare": "5",
     "schede": {
         "bianche": {
-            "totali": 12,
-            "seggio_n_24": 12
+            "totali": 12
         },
         "nulle": {
-            "totali": 15,
-            "seggio_n_24": 15
+            "totali": 15
         },
         "contestate": {
-            "totali": 0,
-            "seggio_n_24": 0
+            "totali": 0
         }
     },
     "liste": [
@@ -25,8 +22,7 @@
                 "seggi_totali": "5"
             },
             "voti": {
-                "totali": 147,
-                "seggio_n_24": 147
+                "totali": 147
             }
         },
         {
@@ -38,8 +34,7 @@
                 "seggi_totali": "-"
             },
             "voti": {
-                "totali": 2,
-                "seggio_n_24": 2
+                "totali": 2
             }
         },
         {
@@ -51,8 +46,7 @@
                 "seggi_totali": "-"
             },
             "voti": {
-                "totali": 4,
-                "seggio_n_24": 4
+                "totali": 4
             }
         },
         {
@@ -64,24 +58,86 @@
                 "seggi_totali": "-"
             },
             "voti": {
-                "totali": 0,
-                "seggio_n_24": 0
+                "totali": 0
             }
         },
         {
-            "totale": 153
+            "totale": 4
         }
     ],
-    "eletti": [],
-    "non_eletti": [],
+    "eletti": [
+        {
+            "nominativo": "PORTO Marika",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 61
+            }
+        },
+        {
+            "nominativo": "GIORDANO Simona",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 60
+            }
+        },
+        {
+            "nominativo": "PRIVITERA Giuseppe Emanuele",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 16
+            }
+        },
+        {
+            "nominativo": "POLLARA Lidia",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "STRAMONDO Marco",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 0
+            }
+        }
+    ],
+    "non_eletti": [
+        {
+            "nominativo": "TOTALE L1 E L E T T I SEGGIO N\u00b0",
+            "lista": "WE LOVE UNICT",
+            "voti": {
+                "totali": 24
+            }
+        },
+        {
+            "nominativo": "TOTALE L2 E L E T T I SEGGIO N\u00b0",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 24
+            }
+        },
+        {
+            "nominativo": "TOSCANO Grazia",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0
+            }
+        },
+        {
+            "nominativo": "FAMA' Salvatore",
+            "lista": "UNIVERSIT\u00c0 POPOLARE",
+            "voti": {
+                "totali": 0
+            }
+        }
+    ],
     "quoziente": 30.6,
     "votanti": {
         "totali": 180,
-        "percentuale": 25.42,
-        "seggio_n_24": 180
+        "percentuale": 25.42
     },
     "elettori": {
-        "totali": 708,
-        "seggio_n_24": 708
+        "totali": 708
     }
 }
